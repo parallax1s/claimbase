@@ -5,7 +5,10 @@ Uses tmp repo roots populated through the store helpers, like
 tests/test_pipeline.py.
 
 Contract verified:
-- data/atlas.json matches the atlas contract shape
+- data/atlas.json matches the atlas contract shape (v2: unbounded
+  coordinates plus a "bounds" box that covers all content)
+- placement v2: anchor 0 at the origin, no two anchors within 150 units,
+  kindred anchors orbit their parent, unrelated ones take the global spiral
 - two builds on the same data are byte-identical (determinism)
 - new data never moves existing districts or claims (stability);
   data/atlas_districts.jsonl is append-only
@@ -16,6 +19,7 @@ Contract verified:
 from __future__ import annotations
 
 import json
+import math
 from pathlib import Path
 
 import pytest
@@ -175,6 +179,11 @@ def _read(path: Path) -> bytes:
     return path.read_bytes()
 
 
+def _read_anchors(repo: Path) -> list[dict]:
+    path = repo / "data" / "atlas_districts.jsonl"
+    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
+
+
 # ---------------------------------------------------------------------------
 # Contract shape
 # ---------------------------------------------------------------------------
@@ -184,9 +193,16 @@ class TestContractShape:
         repo = _seed_repo(tmp_path)
         atlas = build_atlas(repo)
 
-        assert set(atlas) == {"generated_run", "extent", "districts", "claims", "tensions"}
+        assert set(atlas) == {
+            "generated_run", "extent", "bounds", "districts", "claims", "tensions",
+        }
         assert atlas["generated_run"] == "run-01"
+        # "extent" is legacy/back-compat only; "bounds" is authoritative.
         assert atlas["extent"] == {"w": 1000, "h": 1000}
+        bounds = atlas["bounds"]
+        assert set(bounds) == {"x0", "y0", "x1", "y1"}
+        assert bounds["x0"] < bounds["x1"]
+        assert bounds["y0"] < bounds["y1"]
 
     def test_district_entries(self, tmp_path):
         repo = _seed_repo(tmp_path)
@@ -198,14 +214,12 @@ class TestContractShape:
                 "id", "label", "x", "y", "r", "claims", "lit", "dim", "tensions",
             }
             assert d["id"].startswith("d_")
-            assert 0 <= d["x"] <= 1000 and 0 <= d["y"] <= 1000
             assert 0 < d["r"] <= 170
             assert d["claims"] == d["lit"] + d["dim"]
 
     def test_claim_entries(self, tmp_path):
         repo = _seed_repo(tmp_path)
         atlas = build_atlas(repo)
-        district_ids = {d["id"] for d in atlas["districts"]}
 
         assert len(atlas["claims"]) == 7
         for c in atlas["claims"]:
@@ -214,9 +228,21 @@ class TestContractShape:
             # Labeled districts cover only multi-claim anchors; singleton
             # claims keep coordinates but reference an unlisted district.
             assert c["d"].startswith("d_")
-            assert 0 <= c["x"] <= 1000 and 0 <= c["y"] <= 1000
             assert len(c["text"]) <= 140
             assert len(c["src"]) <= 40
+
+    def test_bounds_cover_all_content(self, tmp_path):
+        repo = _seed_repo(tmp_path)
+        _add_claim(repo, NOVEL_TEXT)  # encourage an extra, far-away anchor
+        atlas = build_atlas(repo)
+        b = atlas["bounds"]
+
+        for c in atlas["claims"]:
+            assert b["x0"] <= c["x"] <= b["x1"]
+            assert b["y0"] <= c["y"] <= b["y1"]
+        for d in atlas["districts"]:
+            assert b["x0"] <= d["x"] - d["r"] and d["x"] + d["r"] <= b["x1"]
+            assert b["y0"] <= d["y"] - d["r"] and d["y"] + d["r"] <= b["y1"]
 
     def test_lit_means_on_a_judged_edge(self, tmp_path):
         repo = _seed_repo(tmp_path)
@@ -263,6 +289,89 @@ class TestContractShape:
         texts = [c["text"] for c in atlas["claims"]]
         assert "A retired claim that must not appear in the atlas." not in texts
         assert len(atlas["claims"]) == 7
+
+
+# ---------------------------------------------------------------------------
+# Placement v2: origin start, minimum separation, orbits and the spiral
+# ---------------------------------------------------------------------------
+
+class TestPlacement:
+    def test_first_anchor_at_origin(self, tmp_path):
+        repo = _seed_repo(tmp_path)
+        write_atlas(repo)
+        anchors = _read_anchors(repo)
+        assert (anchors[0]["x"], anchors[0]["y"]) == (0.0, 0.0)
+
+    def test_no_two_anchors_within_min_distance(self, tmp_path):
+        repo = _seed_repo(tmp_path)
+        _add_claim(repo, NOVEL_TEXT)  # encourage an extra anchor
+        write_atlas(repo)
+        anchors = _read_anchors(repo)
+
+        assert len(anchors) >= 2, "expected several anchors"
+        for i, a in enumerate(anchors):
+            for b in anchors[i + 1:]:
+                dist = math.dist((a["x"], a["y"]), (b["x"], b["y"]))
+                assert dist >= 150.0 - 1e-6, f"{a['id']} and {b['id']} too close"
+
+    def test_kindred_anchor_orbits_and_stranger_takes_spiral(self, tmp_path, monkeypatch):
+        """Synthetic vectors steer the three placement paths directly.
+
+        claim 1 founds anchor d_001 at the origin; claim 2 (cosine 0.25,
+        between the orbit floor 0.18 and the join threshold 0.32) founds
+        d_002 on d_001's first orbit ring (distance 170); claim 3
+        (orthogonal, cosine 0) founds d_003 on the global spiral
+        (distance 170*sqrt(g) from the origin for some slot g >= 1).
+        """
+        vecs = {
+            "Founders write the first claim.": [1.0, 0.0, 0.0],
+            "A cousin of the first claim.": [0.25, 0.9682458365518543, 0.0],
+            "Something else entirely.": [0.0, 0.0, 1.0],
+        }
+        monkeypatch.setattr(extractor, "embed_texts", lambda texts: [vecs[t] for t in texts])
+
+        repo = _make_repo(tmp_path)
+        store.append_source(
+            repo,
+            feed="fake-feed",
+            item_key="post-001",
+            url="https://example.com/post-001",
+            title="Three strangers",
+            author="Alice",
+            published="2026-06-01",
+            sha256="a" * 64,
+            claim_count=3,
+            run_id="run-01",
+        )
+        for n, text in enumerate(vecs, start=1):
+            store.append_claim(
+                repo,
+                claim_id=f"clm_{n:06d}",
+                source_id="src_fake-feed_post-001",
+                text=text,
+                claim_type="empirical",
+                support_in_text=0.5,
+                quote=text,
+                run_id="run-01",
+            )
+        write_atlas(repo)
+        anchors = {a["id"]: a for a in _read_anchors(repo)}
+        assert set(anchors) == {"d_001", "d_002", "d_003"}
+
+        a1, a2, a3 = anchors["d_001"], anchors["d_002"], anchors["d_003"]
+        assert (a1["x"], a1["y"]) == (0.0, 0.0)
+
+        # d_002 orbits d_001 on the first ring: exactly 170 from its parent.
+        orbit_dist = math.dist((a1["x"], a1["y"]), (a2["x"], a2["y"]))
+        assert orbit_dist == pytest.approx(170.0, abs=0.05)
+
+        # d_003 sits on a free global-spiral slot: 170*sqrt(g) from the
+        # origin for some integer g >= 1, and clear of both other anchors.
+        spiral_r = math.dist((0.0, 0.0), (a3["x"], a3["y"]))
+        candidates = [170.0 * math.sqrt(g) for g in range(1, 12)]
+        assert min(abs(spiral_r - r) for r in candidates) < 0.05
+        assert math.dist((a1["x"], a1["y"]), (a3["x"], a3["y"])) >= 150.0 - 1e-6
+        assert math.dist((a2["x"], a2["y"]), (a3["x"], a3["y"])) >= 150.0 - 1e-6
 
 
 # ---------------------------------------------------------------------------

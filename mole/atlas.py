@@ -6,15 +6,23 @@ write_atlas(repo_root) -> builds the atlas, writes data/atlas.json and
 ATLAS.md, and appends newly created district anchors to
 data/atlas_districts.jsonl.
 
-ATLAS CONTRACT (data/atlas.json)
---------------------------------
+ATLAS CONTRACT (data/atlas.json) — v2
+-------------------------------------
 {
   "generated_run": str,
   "extent": {"w": 1000, "h": 1000},
+  "bounds": {"x0": float, "y0": float, "x1": float, "y1": float},
   "districts": [{"id", "label", "x", "y", "r", "claims", "lit", "dim", "tensions"}],
   "claims":    [{"id", "x", "y", "s": "lit"|"dim", "d", "type", "text", "src"}],
   "tensions":  [{"a", "b", "note", "verified"}]
 }
+
+Coordinates are UNBOUNDED (v2): nothing is clamped, so x/y may be negative
+or arbitrarily large.  "bounds" is the bounding box of all content — claim
+dots and district discs (centre ± radius) — padded on every side by 5% of
+the larger content span.  Renderers must fit "bounds" to the viewport
+(letterboxed).  "extent" is kept for backward compatibility only and is no
+longer authoritative.
 
 Active claims only.  "lit" = the claim participates in at least one judged
 edge; "dim" = extracted, awaiting judgment.  Tensions are the `contradicts`
@@ -43,11 +51,25 @@ existing districts or claims.  Three rules enforce this:
    visibility history of every earlier build: a prior assignment can never be
    stolen by an anchor that did not exist when it was first made.
 
-3. Geometry never looks at the clock or at mutable counts.  Anchor positions
-   come from a golden-angle spiral over the anchor's creation index; claim
-   jitter comes from sha256(claim_id) and the district radius *at the moment
-   the claim joined* — the radius a district later grows to never moves the
-   dots already inside it.
+3. Geometry never looks at the clock or at mutable counts.  An anchor's
+   position is computed once, at creation, from the then-existing anchor set
+   and frozen in the file (placement v2):
+
+   - anchor 0 sits at the origin (0, 0);
+   - a new anchor whose centroid has cosine >= 0.18 with its most similar
+     existing anchor ORBITS that anchor: rings at 170, 340, 510, ... units,
+     12 candidate angles per ring starting from an angle derived from
+     sha256 of the anchor's first claim id and stepping 30 degrees, taking
+     the first candidate at least 150 units from every existing anchor;
+   - otherwise it takes the first free slot on the global golden-angle
+     spiral from the origin (r = 170*sqrt(i), theta = i*2.39996), skipping
+     slots closer than 150 units to any existing anchor.
+
+   Similar districts therefore sit next to each other, unrelated ones far
+   apart, and the map grows outward without limit.  Claim jitter comes from
+   sha256(claim_id) and the district radius *at the moment the claim joined*
+   — the radius a district later grows to never moves the dots already
+   inside it.
 
 Retiring a claim can orphan an anchor (it stays in the file, unrendered) or
 shift which claim unlocks it during replay; anchors still never move.
@@ -69,14 +91,15 @@ from mole import store
 # Geometry and contract constants
 # ---------------------------------------------------------------------------
 
-EXTENT_W = 1000
+EXTENT_W = 1000          # legacy "extent" contract key; no longer authoritative
 EXTENT_H = 1000
-_CENTER_X = EXTENT_W / 2.0
-_CENTER_Y = EXTENT_H / 2.0
-_SPIRAL_MARGIN = 60.0    # anchors are clamped this far inside the extent
-_CLAIM_MARGIN = 4.0      # claim dots are clamped this far inside the extent
-_SPIRAL_STEP = 90.0      # spiral radius = 90 * sqrt(creation index)
-_GOLDEN_ANGLE = 2.39996  # radians per creation index
+_SPIRAL_STEP = 170.0     # global spiral radius = 170 * sqrt(spiral index)
+_GOLDEN_ANGLE = 2.39996  # radians per spiral index
+_ORBIT_STEP = 170.0      # orbit ring distance = 170 * ring number
+_ORBIT_ANGLES = 12       # candidate angles per orbit ring (30 degree steps)
+_ORBIT_COSINE = 0.18     # at or above this, a new anchor orbits its nearest kin
+_MIN_ANCHOR_DIST = 150.0 # no anchor is ever placed within this of another
+_BOUNDS_PAD = 0.05       # bounds padding fraction of the larger content span
 _R_BASE = 40.0           # district radius = min(40 + 14*sqrt(members), 170)
 _R_SCALE = 14.0
 _R_CAP = 170.0
@@ -175,15 +198,63 @@ class _AnchorIndex:
 # Deterministic geometry
 # ---------------------------------------------------------------------------
 
-def _spiral_position(creation_index: int) -> tuple[float, float]:
-    """Golden-angle spiral position for the anchor at *creation_index*."""
-    r = _SPIRAL_STEP * math.sqrt(creation_index)
-    theta = creation_index * _GOLDEN_ANGLE
-    x = _CENTER_X + r * math.cos(theta)
-    y = _CENTER_Y + r * math.sin(theta)
-    x = min(max(x, _SPIRAL_MARGIN), EXTENT_W - _SPIRAL_MARGIN)
-    y = min(max(y, _SPIRAL_MARGIN), EXTENT_H - _SPIRAL_MARGIN)
-    return round(x, 2), round(y, 2)
+def _hash_angle(claim_id: str) -> float:
+    """Deterministic angle in [0, 2π) from sha256 of a claim id."""
+    digest = hashlib.sha256(claim_id.encode("utf-8")).digest()
+    return int.from_bytes(digest[:8], "big") / 2.0**64 * 2.0 * math.pi
+
+
+def _clear(x: float, y: float, occupied: list[tuple[float, float]]) -> bool:
+    """True when (x, y) is at least _MIN_ANCHOR_DIST from every occupied point."""
+    limit = _MIN_ANCHOR_DIST * _MIN_ANCHOR_DIST
+    return all((x - ox) ** 2 + (y - oy) ** 2 >= limit for ox, oy in occupied)
+
+
+def _spiral_position(
+    start_index: int,
+    occupied: list[tuple[float, float]],
+) -> tuple[float, float, int]:
+    """First free slot on the global golden-angle spiral from the origin.
+
+    Scans indices start_index, start_index+1, ... (r = 170*sqrt(i),
+    theta = i*2.39996), skipping slots closer than _MIN_ANCHOR_DIST to any
+    existing anchor.  Returns (x, y, next start index).
+    """
+    g = start_index
+    while True:
+        r = _SPIRAL_STEP * math.sqrt(g)
+        theta = g * _GOLDEN_ANGLE
+        x = round(r * math.cos(theta), 2)
+        y = round(r * math.sin(theta), 2)
+        if _clear(x, y, occupied):
+            return x, y, g + 1
+        g += 1
+
+
+def _orbit_position(
+    first_claim_id: str,
+    px: float,
+    py: float,
+    occupied: list[tuple[float, float]],
+) -> tuple[float, float]:
+    """First free slot orbiting the parent anchor at (px, py).
+
+    Rings at 170, 340, 510, ... units; on each ring, 12 candidate angles
+    starting from sha256(first_claim_id) and stepping 30 degrees.  The first
+    candidate at least _MIN_ANCHOR_DIST from every existing anchor wins.
+    """
+    theta0 = _hash_angle(first_claim_id)
+    step = 2.0 * math.pi / _ORBIT_ANGLES
+    ring = 1
+    while True:
+        d = _ORBIT_STEP * ring
+        for j in range(_ORBIT_ANGLES):
+            theta = theta0 + j * step
+            x = round(px + d * math.cos(theta), 2)
+            y = round(py + d * math.sin(theta), 2)
+            if _clear(x, y, occupied):
+                return x, y
+        ring += 1
 
 
 def _district_radius(member_count: int) -> float:
@@ -236,8 +307,12 @@ def _assign_semantic(
     semantic = [a for a in persisted if a.get("centroid")]
     index = _AnchorIndex()
     visible: list[dict[str, Any]] = []
+    # Every persisted anchor blocks space, visible or not: a slot taken on an
+    # earlier run stays taken, so placement is append-stable across runs.
+    occupied = [(float(a["x"]), float(a["y"])) for a in persisted]
     next_unlock = 0
-    next_creation = len(persisted)  # spiral index counts ALL anchors ever
+    next_creation = len(persisted)  # anchor ids count ALL anchors ever
+    spiral_idx = 0
     created: list[dict[str, Any]] = []
     assignment: dict[str, str] = {}
 
@@ -250,7 +325,13 @@ def _assign_semantic(
             anchor = semantic[next_unlock]
             next_unlock += 1
         else:
-            x, y = _spiral_position(next_creation)
+            if best >= 0 and sim >= _ORBIT_COSINE:
+                parent = visible[best]
+                x, y = _orbit_position(
+                    claim["id"], float(parent["x"]), float(parent["y"]), occupied
+                )
+            else:
+                x, y, spiral_idx = _spiral_position(spiral_idx, occupied)
             anchor = {
                 "id": f"d_{next_creation + 1:03d}",
                 "label": "",  # filled in once members are known
@@ -260,6 +341,7 @@ def _assign_semantic(
                 "created_run": run_id,
             }
             created.append(anchor)
+            occupied.append((x, y))
             next_creation += 1
         visible.append(anchor)
         index.add(anchor["centroid"])
@@ -284,9 +366,15 @@ def _assign_by_feed(
     persisted: list[dict[str, Any]],
     run_id: str,
 ) -> tuple[dict[str, str], list[dict[str, Any]]]:
-    """Embeddings-unavailable fallback: one district per source feed."""
+    """Embeddings-unavailable fallback: one district per source feed.
+
+    Feed anchors carry no centroid, so there is no similarity to orbit by:
+    every new anchor takes the next free slot on the global spiral.
+    """
     by_feed = {a["feed"]: a for a in persisted if a.get("feed")}
+    occupied = [(float(a["x"]), float(a["y"])) for a in persisted]
     next_creation = len(persisted)
+    spiral_idx = 0
     created: list[dict[str, Any]] = []
     assignment: dict[str, str] = {}
 
@@ -294,7 +382,7 @@ def _assign_by_feed(
         feed = _feed_of(claim, sources_by_id)
         anchor = by_feed.get(feed)
         if anchor is None:
-            x, y = _spiral_position(next_creation)
+            x, y, spiral_idx = _spiral_position(spiral_idx, occupied)
             anchor = {
                 "id": f"d_{next_creation + 1:03d}",
                 "label": "",
@@ -305,6 +393,7 @@ def _assign_by_feed(
                 "feed": feed,
             }
             created.append(anchor)
+            occupied.append((x, y))
             by_feed[feed] = anchor
             next_creation += 1
         assignment[claim["id"]] = anchor["id"]
@@ -334,6 +423,40 @@ def _district_label(
 
     top = sorted(counts.items(), key=lambda item: (-_score(item), item[0]))[:3]
     return " · ".join(token for token, _ in top)
+
+
+# ---------------------------------------------------------------------------
+# Bounds
+# ---------------------------------------------------------------------------
+
+def _bounds(
+    districts: list[dict[str, Any]],
+    claims: list[dict[str, Any]],
+) -> dict[str, float]:
+    """Bounding box of all content (claim dots and district discs), padded.
+
+    Every side is padded by _BOUNDS_PAD of the larger content span; an empty
+    or single-point atlas falls back to a fixed pad so renderers never see a
+    degenerate box.
+    """
+    xs: list[float] = []
+    ys: list[float] = []
+    for d in districts:
+        xs.extend((d["x"] - d["r"], d["x"] + d["r"]))
+        ys.extend((d["y"] - d["r"], d["y"] + d["r"]))
+    for c in claims:
+        xs.append(c["x"])
+        ys.append(c["y"])
+    if not xs:
+        return {"x0": 0.0, "y0": 0.0, "x1": float(EXTENT_W), "y1": float(EXTENT_H)}
+    x0, x1, y0, y1 = min(xs), max(xs), min(ys), max(ys)
+    pad = _BOUNDS_PAD * max(x1 - x0, y1 - y0) or 50.0
+    return {
+        "x0": round(x0 - pad, 2),
+        "y0": round(y0 - pad, 2),
+        "x1": round(x1 + pad, 2),
+        "y1": round(y1 + pad, 2),
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -404,8 +527,8 @@ def _build(repo_root: Path) -> tuple[dict[str, Any], dict[str, Any], list[dict[s
         join_counts[aid] = join_counts.get(aid, 0) + 1
         anchor = anchors_by_id[aid]
         dx, dy = _jitter(claim["id"], join_counts[aid])
-        x = min(max(anchor["x"] + dx, _CLAIM_MARGIN), EXTENT_W - _CLAIM_MARGIN)
-        y = min(max(anchor["y"] + dy, _CLAIM_MARGIN), EXTENT_H - _CLAIM_MARGIN)
+        x = anchor["x"] + dx
+        y = anchor["y"] + dy
         src = sources_by_id.get(claim.get("source_id", ""), {})
         claims_out.append({
             "id": claim["id"],
@@ -464,6 +587,7 @@ def _build(repo_root: Path) -> tuple[dict[str, Any], dict[str, Any], list[dict[s
     atlas: dict[str, Any] = {
         "generated_run": generated_run,
         "extent": {"w": EXTENT_W, "h": EXTENT_H},
+        "bounds": _bounds(districts_out, claims_out),
         "districts": districts_out,
         "claims": claims_out,
         "tensions": tensions_out,
