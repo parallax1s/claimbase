@@ -27,11 +27,13 @@ _DANGLING_HEADS = {"it", "this", "that", "they", "these", "those"}
 
 
 def _needs_refine(text: str) -> bool:
-    """Return True if the claim text starts lowercase or has a dangling-pronoun head."""
+    """True when a claim is not self-contained: lowercase start, dangling-pronoun
+    head, or a bare-heading/shard too short to be an atomic proposition."""
     if not text:
         return False
-    # starts lowercase
     if text[0].islower():
+        return True
+    if len(text.split()) < 5:
         return True
     first_word = text.split()[0].rstrip(",.;:").lower()
     return first_word in _DANGLING_HEADS
@@ -275,9 +277,13 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
     # -----------------------------------------------------------------------
     # Enqueue 'identity'/'edge' tasks for cross-source near-duplicate pairs
     # -----------------------------------------------------------------------
+    # Fragments routed to refine must not generate pair work — judged pairs on
+    # non-self-contained claims are wasted worker tokens.
+    pairable_new = [c for c in new_claims_this_run if not _needs_refine(c["text"])]
+    pairable_existing = [c for c in existing_claims if not _needs_refine(c["text"])]
     candidate_pairs = _cross_source_pairs(
-        new_claims_this_run,
-        existing_claims,
+        pairable_new,
+        pairable_existing,
         extractor_mod,
     )
 

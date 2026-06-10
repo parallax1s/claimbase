@@ -19,6 +19,14 @@ the graph honest is the protocol, not the worker.
 5. `verify` tasks must be taken by a DIFFERENT model family than the original
    judge whenever possible (cross-model review beats same-model review).
 
+## Task kinds: `identity` vs `edge`
+
+Both are judged with the relation rubric below. `identity` tasks are
+high-similarity pairs where `same` is plausible; `edge` tasks are looser
+candidates. The kind sets expectations only — any relation may be returned for
+either. **`unrelated` judgments are NOT appended to edges.jsonl** — flip the
+task to `done` and store nothing.
+
 ## Rubric — relations between claim A and claim B
 
 Judge PROPOSITIONS, not topics.
@@ -53,6 +61,18 @@ Re-read both claim texts. Try to REFUTE the label. Default to overturning when
 uncertain. Confirmed edges get `verified: true` and your model id as
 `verifier`; overturned edges get the corrected relation (often `refines` or
 removal).
+
+## Record conventions
+
+- `run_id` on worker-produced records carries the task's `created_run` (the
+  mole run that generated the work), so a graph state is traceable to its
+  ingestion wave.
+- A `verify` task payload is `{"a", "b", "relation", "edge_judge"}` — the edge
+  to re-examine and the model that judged it (verifiers must differ in model
+  family when possible).
+- Claims that are obvious extraction fragments (bare headings, sentence
+  shards) should be judged `unrelated` and additionally enqueued as a `refine`
+  task if one does not already exist for that claim.
 
 ## Budget conduct
 

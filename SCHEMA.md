@@ -74,9 +74,13 @@ relation is unique; a re-judgment replaces the line.
 }
 ```
 
+A `verify` task payload: `{"a": "clm_000001", "b": "clm_000042", "relation":
+"same", "edge_judge": "claude-sonnet-4-6"}`.
+
 Workers mark tasks `done` in place and append results to the data files in the
 same commit. A worker batch must be atomic: one commit containing both the
-status flips and the produced records.
+status flips and the produced records. `unrelated` judgments store no edge —
+the task flip is the record.
 
 ## runs/<run_id>.json
 
