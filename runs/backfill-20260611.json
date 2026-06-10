@@ -1,0 +1,17 @@
+{
+  "run_id": "backfill-20260611",
+  "since": "2026-03-01",
+  "feeds_polled": 6,
+  "items_seen": 60,
+  "items_new": 27,
+  "items_skipped": 33,
+  "claims_extracted": 847,
+  "tasks_enqueued": {
+    "refine": 292,
+    "identity_edge": 493
+  },
+  "warnings": [
+    "lesswrong-af: HTTP Error 429: Too Many Requests",
+    "epoch-blog: HTTP Error 404: Not Found"
+  ]
+}

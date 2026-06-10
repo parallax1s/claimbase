@@ -12,3 +12,15 @@ feeds:
     kind: rss
     url: https://thezvi.substack.com/feed
     limit: 10
+  - key: cold-takes
+    kind: rss
+    url: https://www.cold-takes.com/rss/
+    limit: 15
+  - key: epoch-blog
+    kind: rss
+    url: https://epoch.ai/blog/rss.xml
+    limit: 15
+  - key: arxiv-aligncs
+    kind: arxiv
+    query: all:"alignment faking" OR all:"scalable oversight" OR all:"AI control"
+    limit: 25

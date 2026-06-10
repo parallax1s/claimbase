@@ -228,13 +228,31 @@ def _stable_key(feed: str, title: str, url: str) -> str:
     return hashlib.sha256(f"{feed}::{url}::{title}".encode("utf-8")).hexdigest()
 
 
+def _open_with_backoff(request: "urllib.request.Request"):
+    """Open a request, retrying 429/503 with exponential backoff (3 tries)."""
+    import time as _time
+
+    delay = 5.0
+    for attempt in range(3):
+        try:
+            return urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT)
+        except urllib.error.HTTPError as exc:
+            if exc.code in (429, 503) and attempt < 2:
+                retry_after = exc.headers.get("Retry-After") if exc.headers else None
+                wait = float(retry_after) if retry_after and retry_after.isdigit() else delay
+                _time.sleep(min(wait, 60.0))
+                delay *= 3
+                continue
+            raise
+
+
 def _fetch_text(url: str, *, headers: dict[str, str] | None = None) -> str:
     request = urllib.request.Request(
         url,
         headers={"User-Agent": USER_AGENT, **(headers or {})},
         method="GET",
     )
-    with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+    with _open_with_backoff(request) as response:
         return response.read().decode("utf-8", errors="replace")
 
 
@@ -245,7 +263,7 @@ def _fetch_json(url: str, data: bytes, *, headers: dict[str, str] | None = None)
         headers={"User-Agent": USER_AGENT, **(headers or {})},
         method="POST",
     )
-    with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+    with _open_with_backoff(request) as response:
         payload = response.read().decode("utf-8", errors="replace")
     return json.loads(payload)
 
