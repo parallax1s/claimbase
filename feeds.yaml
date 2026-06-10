@@ -1,0 +1,14 @@
+feeds:
+  - key: lesswrong-af
+    kind: graphql-forum
+    url: https://www.alignmentforum.org/graphql
+    view: new
+    limit: 25
+  - key: arxiv-csai
+    kind: arxiv
+    query: cat:cs.AI AND (alignment OR "AI safety")
+    limit: 25
+  - key: blog-rss
+    kind: rss
+    url: https://thezvi.substack.com/feed
+    limit: 10
