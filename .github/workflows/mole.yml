@@ -1,0 +1,45 @@
+name: mole
+
+on:
+  schedule:
+    - cron: "15 2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: mole-${{ github.repository }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  run-mole:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -e '.[all]'
+
+      - name: Run mole
+        run: |
+          set -eu
+          SINCE=$(date -u -d '14 days ago' +%F)
+          python -m mole run --since "$SINCE" --run-id "$GITHUB_RUN_ID"
+
+      - name: Commit mole outputs
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data queue runs
+
+          if ! git diff --quiet --cached --exit-code; then
+            git commit -m "mole: automated run ${GITHUB_RUN_ID}"
+            git push
+          fi

@@ -1,0 +1,16 @@
+{
+  "run_id": "manual-20260611",
+  "since": "2026-05-28",
+  "feeds_polled": 3,
+  "items_seen": 33,
+  "items_new": 33,
+  "items_skipped": 0,
+  "claims_extracted": 3228,
+  "tasks_enqueued": {
+    "refine": 1051,
+    "identity_edge": 2915
+  },
+  "warnings": [
+    "lesswrong-af: HTTP Error 429: Too Many Requests"
+  ]
+}
