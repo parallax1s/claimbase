@@ -37,6 +37,8 @@ def compile(repo_root: Path) -> dict[str, Any]:
     # Task counts by kind
     task_counts: dict[str, int] = {}
     for task in tasks:
+        if task.get("status") != "pending":
+            continue
         kind = task.get("kind", "unknown")
         task_counts[kind] = task_counts.get(kind, 0) + 1
 
