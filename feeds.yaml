@@ -18,7 +18,11 @@ feeds:
     limit: 15
   - key: epoch-blog
     kind: rss
-    url: https://epoch.ai/blog/rss.xml
+    url: https://epoch.ai/rss.xml
+    limit: 15
+  - key: christiano-alignment
+    kind: rss
+    url: https://ai-alignment.com/feed
     limit: 15
   - key: arxiv-aligncs
     kind: arxiv

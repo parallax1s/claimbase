@@ -552,6 +552,15 @@ def _build(repo_root: Path) -> tuple[dict[str, Any], dict[str, Any], list[dict[s
         aid: _district_label(member_list, global_counts, global_total) or aid
         for aid, member_list in members.items()
     }
+    # Human names (worker-generated, persisted) override token labels when
+    # present; new districts fall back to tokens until the next naming pass.
+    names_path = repo_root / "data" / "district_names.json"
+    if names_path.exists():
+        try:
+            human = json.loads(names_path.read_text(encoding="utf-8"))
+            labels = {aid: human.get(aid) or lbl for aid, lbl in labels.items()}
+        except ValueError:
+            pass
     for anchor in created:
         anchor["label"] = labels.get(anchor["id"], anchor["id"])
 

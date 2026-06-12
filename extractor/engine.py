@@ -632,8 +632,60 @@ def _split_claims(sentence: str) -> list[str]:
     return claims[:4]
 
 
-def _extract_from_sentence(sentence: _Sentence, fiction: bool) -> list[dict[str, Any]]:
-    """Return zero or more claim dicts extracted from one sentence."""
+_QUOTE_MAX_LEN = 300
+
+
+def _front_truncate(text: str, budget: int) -> str | None:
+    """Return the tail of *text* fitting *budget* chars, ellipsis-marked.
+
+    The cut lands on a word boundary (a partial leading word is dropped) and
+    the kept tail is prefixed with a single-character ellipsis.  Returns
+    ``None`` when nothing meaningful fits.
+    """
+    if len(text) <= budget:
+        return text
+    if budget < 2:  # not even room for the ellipsis plus one character
+        return None
+    tail = text[-(budget - 1):]
+    if not tail[0].isspace() and not text[-len(tail) - 1].isspace():
+        # The cut landed mid-word: drop the partial word.
+        space = tail.find(" ")
+        if space == -1:
+            return None
+        tail = tail[space:]
+    tail = tail.lstrip()
+    if not tail:
+        return None
+    return f"…{tail}"
+
+
+def _context_quote(prev: str | None, sentence: str, max_len: int = _QUOTE_MAX_LEN) -> str:
+    """Build a claim quote: previous sentence (same paragraph) + claim sentence.
+
+    The claim sentence always survives whole; the previous sentence is a
+    sacrificial prefix truncated from the FRONT at a word boundary with a
+    leading ellipsis so the whole quote fits in *max_len* chars.  A sentence
+    that alone exceeds *max_len* keeps the legacy tail truncation.
+    """
+    if len(sentence) >= max_len:
+        return sentence[:max_len]
+    if not prev:
+        return sentence
+    prefix = _front_truncate(prev, max_len - len(sentence) - 1)
+    if prefix is None:
+        return sentence
+    return f"{prefix} {sentence}"
+
+
+def _extract_from_sentence(
+    sentence: _Sentence, fiction: bool, prev_text: str | None = None
+) -> list[dict[str, Any]]:
+    """Return zero or more claim dicts extracted from one sentence.
+
+    *prev_text* is the immediately preceding sentence from the SAME paragraph
+    (or ``None`` for a paragraph-initial sentence); it is prepended to the
+    claim quote so refine workers can resolve dangling referents.
+    """
     text = sentence.text
 
     if _is_question(text):
@@ -700,7 +752,7 @@ def _extract_from_sentence(sentence: _Sentence, fiction: bool) -> list[dict[str,
             "text": claim_text.strip(),
             "type": ctype,
             "support_in_text": round(support, 4),
-            "quote": text[:300],
+            "quote": _context_quote(prev_text, text),
             # Internal fields available to tests.
             "_risk_flags": risks,
             "_reason": _build_reason(ctype, support, verification, notes),
@@ -728,28 +780,36 @@ def extract_claims(text: str, source_format: str = "text") -> list[dict]:
     -------
     list[dict]
         Each dict: ``{"text", "type", "support_in_text", "quote"}``.
-        ``quote`` is the source sentence truncated to 300 chars.
+        ``quote`` is the claim's source sentence prefixed by the previous
+        sentence of the same paragraph (when one exists), truncated from the
+        front to 300 chars so the claim sentence always survives whole.
+        Sentences from different paragraphs are never joined.
     """
     clean = _ingest(text, source_format)
     fiction = _guess_genre(clean) == "fiction"
 
-    sentences: list[_Sentence] = []
+    sentences: list[tuple[_Sentence, str | None]] = []
     sent_counter = 0
     for block, block_start, _block_end in _paragraph_blocks(clean):
         if _is_heading(block):
             continue
+        prev_text: str | None = None
         for sent_text, sent_start, sent_end in split_sentences(block, block_start):
             sent_counter += 1
-            sentences.append(_Sentence(
-                text=sent_text,
-                span_start=sent_start,
-                span_end=sent_end,
-                id=f"sent_{sent_counter:04d}",
+            sentences.append((
+                _Sentence(
+                    text=sent_text,
+                    span_start=sent_start,
+                    span_end=sent_end,
+                    id=f"sent_{sent_counter:04d}",
+                ),
+                prev_text,
             ))
+            prev_text = sent_text
 
     claims: list[dict] = []
-    for sentence in sentences:
-        for raw in _extract_from_sentence(sentence, fiction):
+    for sentence, prev_text in sentences:
+        for raw in _extract_from_sentence(sentence, fiction, prev_text):
             claims.append({
                 "text": raw["text"],
                 "type": raw["type"],

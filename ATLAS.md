@@ -8,31 +8,31 @@ run manual-20260611 · sources 113 · claims 3565 · edges 1276 · verified 73
 ## Districts
 
 ```text
-opus · claude · gpt                ▓▓▓▓▓▓▓░░░    118 claims  ⚡0
-anthropic · claude · opus          ▓▓▓▓▓▓▓░░░     88 claims  ⚡0
-people · killing · worried         ▓▓▓▓▓▓░░░░     40 claims  ⚡0
-leo · pope · central               ▓▓▓▓░░░░░░     31 claims  ⚡1
-don · know · worry                 ▓▓▓░░░░░░░     29 claims  ⚡0
-agents · model · agent             ▓▓▓░░░░░░░     27 claims  ⚡0
-american · policy · classroom      ▓▓▓▓▓▓▓░░░     27 claims  ⚡0
-gemini · flash · pro               ▓▓▓░░░░░░░     25 claims  ⚡0
-opus · problems · gpt              ▓▓▓▓░░░░░░     24 claims  ⚡0
-money · show · check               ▓▓▓░░░░░░░     23 claims  ⚡0
-frontier · safety · laws           ▓▓▓▓▓░░░░░     21 claims  ⚡0
-mythos · still · better            ▓▓▓▓▓▓▓▓░░     20 claims  ⚡0
-model · data · models              ▓▓▓░░░░░░░     19 claims  ⚡0
-things · say · people              ▓▓▓▓▓▓░░░░     19 claims  ⚡0
-government · control · security    ▓▓▓░░░░░░░     19 claims  ⚡0
-openai · policy · pacs             ▓▓▓▓▓▓▓░░░     18 claims  ⚡0
-baselines · experiments · show     ▓░░░░░░░░░     17 claims  ⚡0
-sycophancy · misalignment · works  ▓▓▓▓▓▓░░░░     17 claims  ⚡0
-claude · opus · observer           ▓▓▓░░░░░░░     16 claims  ⚡0
-language · large · models          ▓░░░░░░░░░     15 claims  ⚡0
-claude · code · mode               ▓▓▓▓▓▓░░░░     15 claims  ⚡0
-bad · annoying · got               ▓▓▓▓▓░░░░░     15 claims  ⚡0
-faking · alignment · instruct      ▓▓▓░░░░░░░     15 claims  ⚡0
-won · pangram · written            ▓▓▓▓░░░░░░     14 claims  ⚡0
-frontier · safety · monitors       ▓▓▓▓▓▓▓░░░     14 claims  ⚡0
+Model Arena Leaderboard Churn          ▓▓▓▓▓▓▓░░░    118 claims  ⚡0
+Anthropic Company Moves                ▓▓▓▓▓▓▓░░░     88 claims  ⚡0
+AI Existential Risk Discourse          ▓▓▓▓▓▓░░░░     40 claims  ⚡0
+Pope Leo on AI Ethics                  ▓▓▓▓░░░░░░     31 claims  ⚡1
+Epistemic Uncertainty Hedges           ▓▓▓░░░░░░░     29 claims  ⚡0
+Multi-Agent LLM Systems                ▓▓▓░░░░░░░     27 claims  ⚡0
+US AI Policy and Classrooms            ▓▓▓▓▓▓▓░░░     27 claims  ⚡0
+Gemini Model Benchmarks                ▓▓▓░░░░░░░     25 claims  ⚡0
+Opus Behavioral Quirks                 ▓▓▓▓░░░░░░     24 claims  ⚡0
+Compute and Funding Demands            ▓▓▓░░░░░░░     23 claims  ⚡0
+State Frontier AI Safety Laws          ▓▓▓▓▓░░░░░     21 claims  ⚡0
+Mythos Deployment Reports              ▓▓▓▓▓▓▓▓░░     20 claims  ⚡0
+Cross-Modal Knowledge Distillation     ▓▓▓░░░░░░░     19 claims  ⚡0
+Hollow Public AI Claims                ▓▓▓▓▓▓░░░░     19 claims  ⚡0
+Federal AI Security Mandates           ▓▓▓░░░░░░░     19 claims  ⚡0
+OpenAI Political PAC Activity          ▓▓▓▓▓▓▓░░░     18 claims  ⚡0
+Benchmark Baselines and Agent Scaling  ▓░░░░░░░░░     17 claims  ⚡0
+Model Sycophancy Complaints            ▓▓▓▓▓▓░░░░     17 claims  ⚡0
+Opus 4.8 Launch Coverage               ▓▓▓░░░░░░░     16 claims  ⚡0
+LLM Architecture Research              ▓░░░░░░░░░     15 claims  ⚡0
+Claude Code Auto Mode                  ▓▓▓▓▓▓░░░░     15 claims  ⚡0
+User Friction and Pushback             ▓▓▓▓▓░░░░░     15 claims  ⚡0
+Alignment Faking Research              ▓▓▓░░░░░░░     15 claims  ⚡0
+AI-Written Text Detection              ▓▓▓▓░░░░░░     14 claims  ⚡0
+Frontier Safety Frameworks             ▓▓▓▓▓▓▓░░░     14 claims  ⚡0
 … and 630 smaller districts (2211 claims)
 ```
 

@@ -37,15 +37,20 @@ def _claims(text: str, source_format: str = "text"):
     for block, block_start, _block_end in _paragraph_blocks(clean):
         if _is_heading(block):
             continue
+        prev_text = None
         for sent_text, sent_start, sent_end in split_sentences(block, block_start):
             sent_counter += 1
-            sentences.append(_Sentence(
-                text=sent_text, span_start=sent_start, span_end=sent_end,
-                id=f"sent_{sent_counter:04d}",
+            sentences.append((
+                _Sentence(
+                    text=sent_text, span_start=sent_start, span_end=sent_end,
+                    id=f"sent_{sent_counter:04d}",
+                ),
+                prev_text,
             ))
+            prev_text = sent_text
     result = []
-    for sentence in sentences:
-        result.extend(_extract_from_sentence(sentence, fiction))
+    for sentence, prev_text in sentences:
+        result.extend(_extract_from_sentence(sentence, fiction, prev_text))
     return result
 
 
@@ -271,6 +276,76 @@ def test_extract_claims_quote_max_300_chars():
     claims = extract_claims(long_sentence)
     for claim in claims:
         assert len(claim["quote"]) <= 300
+
+
+# ===========================================================================
+# (7b) Context quotes — previous sentence rides along as quote prefix
+# ===========================================================================
+
+def test_quote_includes_antecedent_sentence_for_dangling_referent():
+    text = (
+        "The asteroid will strike the planet within thirty years. "
+        "There is nothing you can do about it."
+    )
+    claims = extract_claims(text)
+    dangling = [c for c in claims if "nothing you can do" in c["text"]]
+    assert len(dangling) == 1
+    quote = dangling[0]["quote"]
+    assert "asteroid will strike" in quote
+    assert quote.endswith("There is nothing you can do about it.")
+
+
+def test_quote_first_sentence_of_paragraph_has_no_prefix():
+    text = "The policy reduced emissions by 20 percent. It also cut compliance costs."
+    claims = extract_claims(text)
+    first = [c for c in claims if c["text"].startswith("The policy")]
+    assert first
+    assert first[0]["quote"] == "The policy reduced emissions by 20 percent."
+    second = [c for c in claims if c["text"].startswith("It also")]
+    assert second
+    assert second[0]["quote"] == (
+        "The policy reduced emissions by 20 percent. It also cut compliance costs."
+    )
+
+
+def test_quote_respects_paragraph_boundaries():
+    text = (
+        "The committee endorsed the reform unanimously.\n\n"
+        "It reduced emissions by 20 percent."
+    )
+    claims = extract_claims(text)
+    target = [c for c in claims if c["text"].startswith("It reduced")]
+    assert len(target) == 1
+    assert target[0]["quote"] == "It reduced emissions by 20 percent."
+    assert "committee" not in target[0]["quote"]
+
+
+def test_quote_front_truncation_preserves_claim_sentence():
+    prev = "The committee reviewed the evidence " + ("very " * 60) + "carefully."
+    claim_sentence = "It reduced emissions by 20 percent."
+    claims = extract_claims(f"{prev} {claim_sentence}")
+    target = [c for c in claims if c["text"].startswith("It reduced")]
+    assert len(target) == 1
+    quote = target[0]["quote"]
+    assert len(quote) <= 300
+    # The claim sentence always survives whole, at the end of the quote.
+    assert quote.endswith(claim_sentence)
+    # The sacrificial prefix is front-truncated and ellipsis-marked.
+    assert quote.startswith("…")
+    # The cut lands on a word boundary: the first prefix word is a real word.
+    first_word = quote[1:].lstrip().split(" ")[0]
+    assert first_word in prev.split()
+
+
+def test_quote_overlong_single_sentence_keeps_legacy_truncation():
+    long_sentence = "The reform " + ("really " * 50) + "reduced emissions by 20 percent."
+    claims = extract_claims(f"Short lead-in sentence first. {long_sentence}")
+    target = [c for c in claims if "reduced emissions" in c["text"]]
+    assert target
+    for claim in target:
+        assert len(claim["quote"]) <= 300
+        # No prefix fits; the overlong claim sentence is tail-truncated as before.
+        assert claim["quote"] == long_sentence[:300]
 
 
 # ===========================================================================
