@@ -1,0 +1,18 @@
+{
+  "run_id": "27399960468",
+  "since": "2026-05-29",
+  "feeds_polled": 6,
+  "items_seen": 36,
+  "items_new": 27,
+  "items_skipped": 9,
+  "claims_extracted": 196,
+  "tasks_enqueued": {
+    "refine": 65,
+    "identity_edge": 102
+  },
+  "warnings": [
+    "lesswrong-af: HTTP Error 400: Bad Request",
+    "blog-rss: HTTP Error 403: Forbidden",
+    "epoch-blog: HTTP Error 404: Not Found"
+  ]
+}
