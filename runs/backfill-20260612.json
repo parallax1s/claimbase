@@ -1,0 +1,18 @@
+{
+  "run_id": "backfill-20260612",
+  "since": "2026-01-01",
+  "feeds_polled": 7,
+  "items_seen": 60,
+  "items_new": 1,
+  "items_skipped": 59,
+  "claims_extracted": 485,
+  "tasks_enqueued": {
+    "refine": 172,
+    "identity_edge": 408
+  },
+  "warnings": [
+    "lesswrong-af: HTTP Error 400: Bad Request",
+    "epoch-blog: HTTP Error 404: Not Found",
+    "christiano-alignment: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>"
+  ]
+}
