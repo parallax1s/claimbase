@@ -1,0 +1,19 @@
+{
+  "run_id": "27459165685",
+  "since": "2026-05-30",
+  "feeds_polled": 7,
+  "items_seen": 35,
+  "items_new": 0,
+  "items_skipped": 35,
+  "claims_extracted": 0,
+  "tasks_enqueued": {
+    "refine": 0,
+    "identity_edge": 0
+  },
+  "warnings": [
+    "lesswrong-af: HTTP Error 400: Bad Request",
+    "blog-rss: HTTP Error 403: Forbidden",
+    "epoch-blog: HTTP Error 404: Not Found",
+    "christiano-alignment: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>"
+  ]
+}
