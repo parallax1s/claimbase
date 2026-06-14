@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "A living, versioned claim graph: the mole and its extraction engine."
 requires-python = ">=3.10"
 license = { text = "MIT" }
-dependencies = ["PyYAML>=6.0"]
+dependencies = ["PyYAML>=6.0", "pydantic>=2.7"]
 
 [project.optional-dependencies]
 embeddings = ["model2vec>=0.5"]
@@ -16,7 +16,7 @@ dev = ["pytest>=8.0", "ruff>=0.5"]
 all = ["claimbase[embeddings,dev]"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["mole", "extractor"]
+packages = ["mole", "extractor", "decision"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
