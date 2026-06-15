@@ -5,10 +5,10 @@
     "h": 1000
   },
   "bounds": {
-    "x0": -4715.37,
-    "y0": -4713.58,
-    "x1": 4577.39,
-    "y1": 4546.2
+    "x0": -5044.81,
+    "y0": -4730.96,
+    "x1": 4630.36,
+    "y1": 4631.25
   },
   "districts": [
     {
@@ -16,10 +16,10 @@
       "label": "LLM Architecture Research",
       "x": 0.0,
       "y": 0.0,
-      "r": 94.22,
-      "claims": 15,
+      "r": 96.0,
+      "claims": 16,
       "lit": 2,
-      "dim": 13,
+      "dim": 14,
       "tensions": 0
     },
     {
@@ -126,10 +126,10 @@
       "label": "Latent Variable and Neural Models",
       "x": 38.33,
       "y": 508.48,
-      "r": 77.04,
-      "claims": 7,
+      "r": 88.5,
+      "claims": 12,
       "lit": 2,
-      "dim": 5,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -148,10 +148,10 @@
       "label": "Plural Alignment Measurement",
       "x": -182.58,
       "y": 449.98,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -181,10 +181,10 @@
       "label": "LLM-Assisted Causal Discovery",
       "x": 188.2,
       "y": -311.15,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -247,10 +247,10 @@
       "label": "Benign Leakage in Concept Models",
       "x": 375.52,
       "y": -364.96,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -291,10 +291,10 @@
       "label": "Multi-Agent LLM Systems",
       "x": -397.22,
       "y": 467.04,
-      "r": 114.08,
-      "claims": 28,
+      "r": 116.68,
+      "claims": 30,
       "lit": 9,
-      "dim": 19,
+      "dim": 21,
       "tensions": 0
     },
     {
@@ -302,10 +302,10 @@
       "label": "Chain-of-Thought Reasoning Traces",
       "x": 515.77,
       "y": -149.47,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 4,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -346,10 +346,10 @@
       "label": "AI Safety Institute Collaboration",
       "x": 791.53,
       "y": -38.8,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -456,10 +456,10 @@
       "label": "Concept Embedding Customization",
       "x": -142.77,
       "y": -365.3,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 0,
-      "dim": 10,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -555,10 +555,10 @@
       "label": "Behavior Cue Token Signaling",
       "x": 505.69,
       "y": -618.89,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -687,10 +687,10 @@
       "label": "AI Existential Risk Discourse",
       "x": -733.57,
       "y": 458.72,
-      "r": 136.99,
-      "claims": 48,
+      "r": 138.0,
+      "claims": 49,
       "lit": 26,
-      "dim": 22,
+      "dim": 23,
       "tensions": 0
     },
     {
@@ -1116,10 +1116,10 @@
       "label": "AI Inequality and Justice",
       "x": -3463.88,
       "y": -477.04,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -1259,10 +1259,10 @@
       "label": "AI Cannot Equal Human Intelligence",
       "x": -1109.57,
       "y": 3265.05,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -1329,6 +1329,17 @@
       "claims": 3,
       "lit": 0,
       "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1082",
+      "label": "design · time · contributing",
+      "x": -2026.8,
+      "y": -3006.87,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -1479,6 +1490,28 @@
       "label": "State-Directed Investment",
       "x": -1159.57,
       "y": -3180.88,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1109",
+      "label": "role · central · play",
+      "x": 2854.68,
+      "y": -1995.8,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_111",
+      "label": "discrete · 50b · aily",
+      "x": 10.14,
+      "y": -850.04,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -1776,10 +1809,10 @@
       "label": "Expected Value AI Risk Critique",
       "x": 2337.36,
       "y": 2561.48,
-      "r": 64.25,
-      "claims": 3,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 3,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -1787,6 +1820,17 @@
       "label": "cheapest · hosting · handle",
       "x": 1174.81,
       "y": 299.59,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1180",
+      "label": "workflow · directly · code's",
+      "x": 2509.9,
+      "y": 2049.37,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -1853,10 +1897,10 @@
       "label": "validity · compromised · methods",
       "x": 3589.67,
       "y": 222.77,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -1938,7 +1982,7 @@
     },
     {
       "id": "d_1213",
-      "label": "retraining · agnostic · architecture",
+      "label": "retraining · agnostic · crumb",
       "x": 2007.61,
       "y": 2953.71,
       "r": 59.8,
@@ -2015,13 +2059,13 @@
     },
     {
       "id": "d_1231",
-      "label": "layers · layer · structural",
+      "label": "layers · layer · transformer",
       "x": 3412.23,
       "y": -6.16,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2048,13 +2092,13 @@
     },
     {
       "id": "d_1235",
-      "label": "spatial · reasoning · lrms",
+      "label": "reasoning · spatial · lrms",
       "x": 1329.47,
       "y": -3499.19,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2070,13 +2114,13 @@
     },
     {
       "id": "d_1237",
-      "label": "alignment · preservation · research",
+      "label": "alignment · preservation · external",
       "x": -2718.18,
       "y": 2696.53,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -2088,6 +2132,28 @@
       "claims": 2,
       "lit": 2,
       "dim": 0,
+      "tensions": 0
+    },
+    {
+      "id": "d_1242",
+      "label": "mapping · govern · incidents",
+      "x": -3412.28,
+      "y": -1428.9,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1245",
+      "label": "static · formative · fpsp",
+      "x": -1658.87,
+      "y": -3293.67,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -2169,13 +2235,13 @@
     },
     {
       "id": "d_1263",
-      "label": "interpretation · semantic · inference",
+      "label": "semantic · schema · decompose",
       "x": 3068.09,
       "y": -1796.9,
-      "r": 64.25,
-      "claims": 3,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 3,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -2279,7 +2345,7 @@
     },
     {
       "id": "d_1279",
-      "label": "coherence · behavior · whether",
+      "label": "coherence · whether · behavior",
       "x": 3410.91,
       "y": 1425.13,
       "r": 68.0,
@@ -2334,7 +2400,7 @@
     },
     {
       "id": "d_1287",
-      "label": "vlm · vlms · numerical",
+      "label": "vlm · vlms · regularizing",
       "x": 3431.19,
       "y": -985.81,
       "r": 64.25,
@@ -2385,6 +2451,17 @@
       "claims": 2,
       "lit": 0,
       "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1297",
+      "label": "source · open · exploring",
+      "x": -3869.31,
+      "y": -163.36,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2465,6 +2542,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1312",
+      "label": "expansion · automotive · reductions",
+      "x": 2770.34,
+      "y": 1307.28,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1316",
       "label": "solar · energy · dryers",
       "x": 3972.28,
@@ -2477,13 +2565,13 @@
     },
     {
       "id": "d_1317",
-      "label": "appliance · constraints · solar",
+      "label": "constraints · appliance · user",
       "x": -3381.17,
       "y": -1725.61,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -2553,6 +2641,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1330",
+      "label": "skin · farmers · quantifying",
+      "x": 2720.71,
+      "y": -2335.83,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1336",
       "label": "project · hugging · obliteratus",
       "x": -3722.19,
@@ -2572,6 +2671,17 @@
       "claims": 3,
       "lit": 0,
       "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1338",
+      "label": "expert · specific · end",
+      "x": 3316.32,
+      "y": -1503.98,
+      "r": 68.0,
+      "claims": 4,
+      "lit": 0,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -2652,6 +2762,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1363",
+      "label": "overviews · 42001 · falsely",
+      "x": -669.18,
+      "y": 3587.71,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1365",
       "label": "never · asserting · bars",
       "x": 3051.84,
@@ -2675,7 +2796,7 @@
     },
     {
       "id": "d_1368",
-      "label": "ais · way · replaced",
+      "label": "ais · way · insufficiently",
       "x": -1541.26,
       "y": -3602.63,
       "r": 59.8,
@@ -2719,7 +2840,7 @@
     },
     {
       "id": "d_1376",
-      "label": "supplies · thrive · wasik",
+      "label": "supplies · wasik · extinct",
       "x": -3608.81,
       "y": -1595.43,
       "r": 59.8,
@@ -2850,14 +2971,25 @@
       "tensions": 0
     },
     {
-      "id": "d_1406",
-      "label": "restrictions · diffusion · narrowly",
-      "x": -2282.28,
-      "y": 3192.33,
+      "id": "d_1402",
+      "label": "gain · overstatement · vertical",
+      "x": 653.57,
+      "y": 3125.47,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
       "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1406",
+      "label": "diffusion · restrictions · narrowly",
+      "x": -2282.28,
+      "y": 3192.33,
+      "r": 68.0,
+      "claims": 4,
+      "lit": 0,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -2924,6 +3056,17 @@
       "claims": 3,
       "lit": 0,
       "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1444",
+      "label": "necessary · becomes · stage",
+      "x": -3523.59,
+      "y": -1887.26,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -3026,10 +3169,109 @@
       "tensions": 0
     },
     {
+      "id": "d_1485",
+      "label": "beliefs · trade · existential",
+      "x": 1495.76,
+      "y": -3665.18,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1488",
+      "label": "quantum · compilation · natively",
+      "x": 3754.53,
+      "y": 994.46,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1489",
+      "label": "rppg · faithfulness · auditable",
+      "x": 778.88,
+      "y": 4131.67,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_149",
       "label": "AI Writing Style Tics",
       "x": 201.2,
       "y": 1368.67,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1493",
+      "label": "sustainability · knowledge · expert",
+      "x": 3253.96,
+      "y": -1662.13,
+      "r": 68.0,
+      "claims": 4,
+      "lit": 0,
+      "dim": 4,
+      "tensions": 0
+    },
+    {
+      "id": "d_1494",
+      "label": "synthesis · cross · difficult",
+      "x": 3889.12,
+      "y": 108.98,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1495",
+      "label": "learning · deep · first",
+      "x": 4126.33,
+      "y": 775.94,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1496",
+      "label": "gradients · hessian · squared",
+      "x": 2827.21,
+      "y": 643.11,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1497",
+      "label": "larger · throughput · memory",
+      "x": -759.29,
+      "y": 3924.56,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1499",
+      "label": "tuning · fine · geofms",
+      "x": 290.4,
+      "y": 4041.5,
       "r": 64.25,
       "claims": 3,
       "lit": 0,
@@ -3048,6 +3290,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1503",
+      "label": "attention · conditioning · inversion",
+      "x": 3253.19,
+      "y": -2317.16,
+      "r": 68.0,
+      "claims": 4,
+      "lit": 0,
+      "dim": 4,
+      "tensions": 0
+    },
+    {
       "id": "d_151",
       "label": "AI Slop Content Spread",
       "x": -887.72,
@@ -3059,10 +3312,65 @@
       "tensions": 0
     },
     {
+      "id": "d_1514",
+      "label": "skillaudit · skills · task",
+      "x": -4186.74,
+      "y": 67.08,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1516",
+      "label": "stationary · characterize · chronoid",
+      "x": 2019.8,
+      "y": 3866.06,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1517",
+      "label": "automotive · contexts · i'm",
+      "x": -4202.45,
+      "y": 279.45,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_152",
       "label": "LLM-as-Judge Debate Dynamics",
       "x": -853.1,
       "y": 990.67,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1523",
+      "label": "explanation · metrics · manipulation",
+      "x": 3308.59,
+      "y": -2477.88,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1526",
+      "label": "rcm · emulation · envelope",
+      "x": 3761.99,
+      "y": -1466.23,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -3162,10 +3470,10 @@
       "label": "Training Avoidance Techniques",
       "x": -133.3,
       "y": 1615.32,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 2,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -3367,6 +3675,17 @@
       "tensions": 0
     },
     {
+      "id": "d_194",
+      "label": "graph · schema · input",
+      "x": -1462.07,
+      "y": -450.52,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_195",
       "label": "Hedged Concessions and Asides",
       "x": -1360.39,
@@ -3477,6 +3796,17 @@
       "tensions": 0
     },
     {
+      "id": "d_212",
+      "label": "tokens · known · refusal",
+      "x": 1378.67,
+      "y": -757.17,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_213",
       "label": "Regulatory Creep Risk",
       "x": 698.49,
@@ -3565,6 +3895,17 @@
       "tensions": 0
     },
     {
+      "id": "d_226",
+      "label": "framework · beginning · facto",
+      "x": 885.07,
+      "y": 1191.68,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_228",
       "label": "Lab Safety Legislation Prospects",
       "x": -1246.46,
@@ -3580,10 +3921,10 @@
       "label": "Federal AI Compliance Rules",
       "x": 807.95,
       "y": -1288.76,
-      "r": 90.48,
-      "claims": 13,
+      "r": 92.38,
+      "claims": 14,
       "lit": 5,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -3921,10 +4262,10 @@
       "label": "AI-Bio Risk Inflection Point",
       "x": 298.69,
       "y": 1736.15,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 2,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -4108,10 +4449,10 @@
       "label": "LLM Persuasion and Regulation",
       "x": -1646.92,
       "y": -407.27,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -4160,7 +4501,7 @@
     },
     {
       "id": "d_304",
-      "label": "calibrated · well · llms'",
+      "label": "calibrated · well · variability",
       "x": 1863.73,
       "y": -131.78,
       "r": 59.8,
@@ -4435,7 +4776,7 @@
     },
     {
       "id": "d_347",
-      "label": "sale · expert · talk",
+      "label": "sale · talk · expert",
       "x": -2012.62,
       "y": 1252.26,
       "r": 59.8,
@@ -4698,6 +5039,17 @@
       "tensions": 0
     },
     {
+      "id": "d_385",
+      "label": "solution · mutually · taxes",
+      "x": 1165.6,
+      "y": -1396.65,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_387",
       "label": "Model Output Distortions",
       "x": 1449.48,
@@ -4823,10 +5175,10 @@
       "label": "Accountability and Error",
       "x": 247.82,
       "y": -2158.45,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -5164,10 +5516,10 @@
       "label": "Vatican AI Governance Stake",
       "x": -1846.34,
       "y": 1908.95,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 1,
-      "dim": 1,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -5615,10 +5967,10 @@
       "label": "SWE-Bench Coding Evals",
       "x": 460.55,
       "y": 2418.56,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -5901,10 +6253,10 @@
       "label": "Confidentiality Abuse Risk",
       "x": -1740.59,
       "y": -1696.57,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 1,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -5912,10 +6264,10 @@
       "label": "Aligned Behavior Training",
       "x": 2201.62,
       "y": -1068.42,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -5945,10 +6297,10 @@
       "label": "Opus Coding Task Performance",
       "x": 2361.41,
       "y": 192.69,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 2,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -6304,6 +6656,17 @@
       "tensions": 0
     },
     {
+      "id": "d_672",
+      "label": "edit · accompanying · autocomplete",
+      "x": -3002.44,
+      "y": -49.24,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_674",
       "label": "Model Vibe Sensitivity Variance",
       "x": 2353.53,
@@ -6418,10 +6781,10 @@
       "label": "Honesty and CoT Sections",
       "x": -2520.51,
       "y": -736.37,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 1,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -6623,6 +6986,17 @@
       "tensions": 0
     },
     {
+      "id": "d_717",
+      "label": "safety · rails · rapport",
+      "x": 1698.83,
+      "y": 2262.73,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_718",
       "label": "Self-Harm Content Detection",
       "x": -2649.05,
@@ -6737,10 +7111,10 @@
       "label": "Hidden Test Specification Gaming",
       "x": 1589.28,
       "y": -2081.22,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -6814,10 +7188,10 @@
       "label": "Eval Session Realism Gaps",
       "x": 2697.08,
       "y": 41.34,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -7353,10 +7727,10 @@
       "label": "Safety Intervention Priorities",
       "x": 1262.25,
       "y": -2907.77,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 2,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -7877,6 +8251,17 @@
       "tensions": 0
     },
     {
+      "id": "d_948",
+      "label": "implementation · dangerous · opening",
+      "x": -2875.33,
+      "y": -1707.11,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_949",
       "label": "turn · racing · somehow",
       "x": -2606.14,
@@ -7944,9 +8329,20 @@
     },
     {
       "id": "d_959",
-      "label": "domain · profiles · vulnerability",
+      "label": "domain · profiles · varying",
       "x": -3140.57,
       "y": 1171.13,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_960",
+      "label": "training · multitude · susceptibility",
+      "x": 1483.28,
+      "y": 2786.62,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -8064,6 +8460,17 @@
       "tensions": 0
     },
     {
+      "id": "d_977",
+      "label": "datasets · five · cog",
+      "x": 2791.01,
+      "y": 1505.74,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_978",
       "label": "Agentic Benchmark Safety Tradeoffs",
       "x": 3162.73,
@@ -8112,10 +8519,10 @@
       "label": "Null Hypothesis Historian Bias",
       "x": 2473.42,
       "y": -2242.58,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -8152,14 +8559,25 @@
       "tensions": 0
     },
     {
+      "id": "d_988",
+      "label": "workflows · packages · frozen",
+      "x": 2383.85,
+      "y": 2163.44,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_991",
       "label": "jailbreak · grammar · llms",
       "x": -3223.42,
       "y": -433.24,
-      "r": 64.25,
-      "claims": 3,
+      "r": 71.3,
+      "claims": 5,
       "lit": 1,
-      "dim": 2,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -48696,6 +49114,1466 @@
       "type": "descriptive",
       "text": "Chamath Palihapitiya: no paywalls for secrets is like giving a loaded gun to a child.",
       "src": "AI #172: The First Fable"
+    },
+    {
+      "id": "clm_005266",
+      "x": 1690.65,
+      "y": 2231.83,
+      "s": "dim",
+      "d": "d_717",
+      "type": "empirical",
+      "text": "Stream guardrails enable token-level safety detection before full responses are generated.",
+      "src": "FreoStream:Enhancing Stream Guardrails v"
+    },
+    {
+      "id": "clm_005267",
+      "x": -3820.97,
+      "y": -1558.14,
+      "s": "dim",
+      "d": "d_1483",
+      "type": "descriptive",
+      "text": "However, they often make overly conservative judgements and block those sensitive",
+      "src": "FreoStream:Enhancing Stream Guardrails v"
+    },
+    {
+      "id": "clm_005268",
+      "x": 1389.61,
+      "y": -802.97,
+      "s": "dim",
+      "d": "d_212",
+      "type": "empirical",
+      "text": "safe tokens, which is known as over-refusal.",
+      "src": "FreoStream:Enhancing Stream Guardrails v"
+    },
+    {
+      "id": "clm_005269",
+      "x": -3269.28,
+      "y": -420.32,
+      "s": "dim",
+      "d": "d_991",
+      "type": "causal",
+      "text": "Due to lack of full context, they also fail to detect implicitly harmful content from jailbreaking.",
+      "src": "FreoStream:Enhancing Stream Guardrails v"
+    },
+    {
+      "id": "clm_005270",
+      "x": -2468.61,
+      "y": 3433.97,
+      "s": "dim",
+      "d": "d_1484",
+      "type": "predictive",
+      "text": "This design can effectively reduce over-refusal by incorporating the future information.",
+      "src": "FreoStream:Enhancing Stream Guardrails v"
+    },
+    {
+      "id": "clm_005271",
+      "x": -3209.56,
+      "y": -439.29,
+      "s": "dim",
+      "d": "d_991",
+      "type": "normative",
+      "text": "better jailbreak defense compared to existing streaming guardrails.",
+      "src": "FreoStream:Enhancing Stream Guardrails v"
+    },
+    {
+      "id": "clm_005272",
+      "x": 2344.79,
+      "y": 2589.2,
+      "s": "dim",
+      "d": "d_1178",
+      "type": "descriptive",
+      "text": "A Virtuous AI is an Existential Risk",
+      "src": "A Virtuous AI is an Existential Risk"
+    },
+    {
+      "id": "clm_005273",
+      "x": -632.05,
+      "y": 468.88,
+      "s": "dim",
+      "d": "d_078",
+      "type": "other",
+      "text": "well-being relative to (i) one of the most promising methods for finetuning super-capable AIs, 'Constitutional AI'",
+      "src": "A Virtuous AI is an Existential Risk"
+    },
+    {
+      "id": "clm_005274",
+      "x": 2178.99,
+      "y": -1037.16,
+      "s": "dim",
+      "d": "d_589",
+      "type": "normative",
+      "text": "(ii) one of the most influential approaches to understanding complex ethical decision making and the conditions for the well-being of ration",
+      "src": "A Virtuous AI is an Existential Risk"
+    },
+    {
+      "id": "clm_005275",
+      "x": 2353.95,
+      "y": 2528.27,
+      "s": "dim",
+      "d": "d_1178",
+      "type": "descriptive",
+      "text": "also on their willingness to endorse a wide-range of behaviors that, if adopted by a super-powerful AI, would significantly increase the lev",
+      "src": "A Virtuous AI is an Existential Risk"
+    },
+    {
+      "id": "clm_005276",
+      "x": 1474.11,
+      "y": -3698.62,
+      "s": "dim",
+      "d": "d_1485",
+      "type": "descriptive",
+      "text": "Our results suggest that there is a trade-off between reducing existential risk and reinforcing the beliefs",
+      "src": "A Virtuous AI is an Existential Risk"
+    },
+    {
+      "id": "clm_005277",
+      "x": -433.63,
+      "y": 426.11,
+      "s": "dim",
+      "d": "d_032",
+      "type": "descriptive",
+      "text": "dispositions that would be conducive to an AI agent's well-being.",
+      "src": "A Virtuous AI is an Existential Risk"
+    },
+    {
+      "id": "clm_005278",
+      "x": 1450.35,
+      "y": -3659.24,
+      "s": "dim",
+      "d": "d_1485",
+      "type": "empirical",
+      "text": "They also suggest that there is a trade-off between existential risk and general safety: if we finetune an AI to adopt beliefs",
+      "src": "A Virtuous AI is an Existential Risk"
+    },
+    {
+      "id": "clm_005279",
+      "x": -2686.06,
+      "y": 2700.82,
+      "s": "dim",
+      "d": "d_1237",
+      "type": "descriptive",
+      "text": "dispositions that substantially reduce its existential risk -- by shaping the AI to be systematically subordinate to external human authorit",
+      "src": "A Virtuous AI is an Existential Risk"
+    },
+    {
+      "id": "clm_005280",
+      "x": -1171.81,
+      "y": 3254.13,
+      "s": "dim",
+      "d": "d_1070",
+      "type": "descriptive",
+      "text": "We argue that aligning AI to aggregated human preferences is the wrong target.",
+      "src": "Position: Align AI to Our Aspirations, N"
+    },
+    {
+      "id": "clm_005281",
+      "x": -1798.54,
+      "y": 1897.39,
+      "s": "dim",
+      "d": "d_467",
+      "type": "descriptive",
+      "text": "With current technology, one can train AIs to share the values of a Silicon Valley techno-optimist, a degrowth environmentalist, a national-",
+      "src": "Position: Align AI to Our Aspirations, N"
+    },
+    {
+      "id": "clm_005282",
+      "x": -3448.67,
+      "y": -456.18,
+      "s": "dim",
+      "d": "d_1044",
+      "type": "empirical",
+      "text": "Human values produce societies that thrive or fail on the merits of those values - from failed states and extreme inequality to declining ha",
+      "src": "Position: Align AI to Our Aspirations, N"
+    },
+    {
+      "id": "clm_005283",
+      "x": -149.99,
+      "y": 484.94,
+      "s": "dim",
+      "d": "d_016",
+      "type": "descriptive",
+      "text": "The pluralistic-alignment program correctly diagnoses that there is no single \"humanity\" to align with",
+      "src": "Position: Align AI to Our Aspirations, N"
+    },
+    {
+      "id": "clm_005284",
+      "x": -2906.72,
+      "y": -1674.77,
+      "s": "dim",
+      "d": "d_948",
+      "type": "descriptive",
+      "text": "is dangerous if taken as the main directive.",
+      "src": "Position: Align AI to Our Aspirations, N"
+    },
+    {
+      "id": "clm_005285",
+      "x": 334.62,
+      "y": -382.98,
+      "s": "dim",
+      "d": "d_028",
+      "type": "normative",
+      "text": "We argue that AI should be trained to a non-negotiable floor of objective alignment goals - competence, bounded by the constraints of factua",
+      "src": "Position: Align AI to Our Aspirations, N"
+    },
+    {
+      "id": "clm_005286",
+      "x": 2445.25,
+      "y": -2272.37,
+      "s": "dim",
+      "d": "d_982",
+      "type": "other",
+      "text": "We highlight the empirical reality of unfiltered pluralistic values, propose four commitments as a constructive alternative, and engage six ",
+      "src": "Position: Align AI to Our Aspirations, N"
+    },
+    {
+      "id": "clm_005287",
+      "x": 1699.74,
+      "y": -3835.71,
+      "s": "dim",
+      "d": "d_1486",
+      "type": "descriptive",
+      "text": "practical feasibility, democratic legitimacy, regulatory compliance, over-reliance on institutionalist explanations, the charge that the flo",
+      "src": "Position: Align AI to Our Aspirations, N"
+    },
+    {
+      "id": "clm_005288",
+      "x": -162.24,
+      "y": -360.33,
+      "s": "dim",
+      "d": "d_052",
+      "type": "descriptive",
+      "text": "In this work, we take a step toward bridging this gap by introducing an approach that maps unitary operators into the latent space of an LLM",
+      "src": "Aligning Quantum Operators with Large La"
+    },
+    {
+      "id": "clm_005289",
+      "x": -4170.8,
+      "y": 995.14,
+      "s": "dim",
+      "d": "d_1487",
+      "type": "descriptive",
+      "text": "We instantiate this idea on Clifford+T circuit synthesis over a Pauli rotation gate set, where our model achieves results competitive with s",
+      "src": "Aligning Quantum Operators with Large La"
+    },
+    {
+      "id": "clm_005290",
+      "x": 3723.62,
+      "y": 979.65,
+      "s": "dim",
+      "d": "d_1488",
+      "type": "descriptive",
+      "text": "This work suggests a path toward quantum--aware foundation models that can natively interpret",
+      "src": "Aligning Quantum Operators with Large La"
+    },
+    {
+      "id": "clm_005291",
+      "x": 3789.9,
+      "y": 981.65,
+      "s": "dim",
+      "d": "d_1488",
+      "type": "descriptive",
+      "text": "reason about quantum operations, which could have broader implications reaching across quantum compilation and algorithm discovery.",
+      "src": "Aligning Quantum Operators with Large La"
+    },
+    {
+      "id": "clm_005292",
+      "x": 751.69,
+      "y": 4157.96,
+      "s": "dim",
+      "d": "d_1489",
+      "type": "empirical",
+      "text": "Existing rPPG XAI is dominated by qualitative heatmap inspection without quantitative faithfulness metrics or physiology-grounded validation",
+      "src": "Explaining RhythmFormer: A Systematic XA"
+    },
+    {
+      "id": "clm_005293",
+      "x": -494.93,
+      "y": -3934.16,
+      "s": "dim",
+      "d": "d_1490",
+      "type": "other",
+      "text": "First, we adapt four attribution methods (raw attention, rollout, flow, Beyond Intuition) to RhythmFormer's bi-level routing attention with ",
+      "src": "Explaining RhythmFormer: A Systematic XA"
+    },
+    {
+      "id": "clm_005294",
+      "x": 2732.7,
+      "y": -2358.19,
+      "s": "dim",
+      "d": "d_1330",
+      "type": "descriptive",
+      "text": "Second, we introduce a skin coverage metric quantifying how much attribution mass falls on skin regions.",
+      "src": "Explaining RhythmFormer: A Systematic XA"
+    },
+    {
+      "id": "clm_005295",
+      "x": -4393.77,
+      "y": 1000.29,
+      "s": "dim",
+      "d": "d_1491",
+      "type": "statistical",
+      "text": "gradient-supported mask, attaining the highest median refined skin coverage ($0.83$ vs. $0.57$ for vanilla rollout)",
+      "src": "Explaining RhythmFormer: A Systematic XA"
+    },
+    {
+      "id": "clm_005296",
+      "x": 827.96,
+      "y": 4149.08,
+      "s": "dim",
+      "d": "d_1489",
+      "type": "statistical",
+      "text": "faithfulness ($F=0.92$) among the evaluated methods on UBFC-rPPG.",
+      "src": "Explaining RhythmFormer: A Systematic XA"
+    },
+    {
+      "id": "clm_005297",
+      "x": 4.44,
+      "y": 450.25,
+      "s": "dim",
+      "d": "d_014",
+      "type": "descriptive",
+      "text": "model variants is needed.",
+      "src": "Explaining RhythmFormer: A Systematic XA"
+    },
+    {
+      "id": "clm_005298",
+      "x": 3727.03,
+      "y": 1973.79,
+      "s": "dim",
+      "d": "d_1492",
+      "type": "descriptive",
+      "text": "A case study on a low-SaCo outlier further shows all four methods recovering consistently once an artefactual region is replaced, suggesting",
+      "src": "Explaining RhythmFormer: A Systematic XA"
+    },
+    {
+      "id": "clm_005299",
+      "x": 3262.38,
+      "y": -1665.45,
+      "s": "dim",
+      "d": "d_1493",
+      "type": "descriptive",
+      "text": "We present SpheriCity, an expert-grounded conversational prototype designed to support trustworthy knowledge sensemaking from sustainability",
+      "src": "SpheriCity: Designing Trustworthy Conver"
+    },
+    {
+      "id": "clm_005300",
+      "x": 1215.5,
+      "y": -2867.11,
+      "s": "dim",
+      "d": "d_841",
+      "type": "empirical",
+      "text": "City-level circularity assessment reports contain rich information about materials, infrastructure, and policy interventions, yet their leng",
+      "src": "SpheriCity: Designing Trustworthy Conver"
+    },
+    {
+      "id": "clm_005301",
+      "x": 3849.32,
+      "y": 88.82,
+      "s": "dim",
+      "d": "d_1494",
+      "type": "descriptive",
+      "text": "heterogeneous structure make cross-document synthesis and comparison difficult for practitioners and researchers working on circular economy",
+      "src": "SpheriCity: Designing Trustworthy Conver"
+    },
+    {
+      "id": "clm_005302",
+      "x": 3851.61,
+      "y": 136.53,
+      "s": "dim",
+      "d": "d_1494",
+      "type": "descriptive",
+      "text": "cross-document synthesis across sustainability reports.",
+      "src": "SpheriCity: Designing Trustworthy Conver"
+    },
+    {
+      "id": "clm_005303",
+      "x": 3249.74,
+      "y": -1680.97,
+      "s": "dim",
+      "d": "d_1493",
+      "type": "empirical",
+      "text": "provided qualitative reflections on the system's usefulness for sustainability knowledge work.",
+      "src": "SpheriCity: Designing Trustworthy Conver"
+    },
+    {
+      "id": "clm_005304",
+      "x": 3266.92,
+      "y": -1660.79,
+      "s": "dim",
+      "d": "d_1493",
+      "type": "statistical",
+      "text": "This work contributes (1) a conversational prototype for sustainability knowledge sensemaking, (2) an expert-grounded evaluation framework f",
+      "src": "SpheriCity: Designing Trustworthy Conver"
+    },
+    {
+      "id": "clm_005305",
+      "x": 3260.72,
+      "y": -1683.69,
+      "s": "dim",
+      "d": "d_1493",
+      "type": "statistical",
+      "text": "(3) design insights into how provenance, uncertainty communication, and integration in workflow influence expert users' trust in AI assistan",
+      "src": "SpheriCity: Designing Trustworthy Conver"
+    },
+    {
+      "id": "clm_005306",
+      "x": 4120.73,
+      "y": 785.41,
+      "s": "dim",
+      "d": "d_1495",
+      "type": "descriptive",
+      "text": "AdamW is a default optimizer for modern deep learning, but its first",
+      "src": "Gefen: Optimized Stochastic Optimizer"
+    },
+    {
+      "id": "clm_005307",
+      "x": 317.58,
+      "y": 1792.89,
+      "s": "dim",
+      "d": "d_273",
+      "type": "descriptive",
+      "text": "second moment states add roughly two parameter-sized buffers to training memory.",
+      "src": "Gefen: Optimized Stochastic Optimizer"
+    },
+    {
+      "id": "clm_005308",
+      "x": 4136.49,
+      "y": 780.98,
+      "s": "dim",
+      "d": "d_1495",
+      "type": "statistical",
+      "text": "quantizes the first moment using a learned codebook, thereby reducing AdamW's memory footprint by ~8x while maintaining the same performance",
+      "src": "Gefen: Optimized Stochastic Optimizer"
+    },
+    {
+      "id": "clm_005309",
+      "x": 2846.33,
+      "y": 670.43,
+      "s": "dim",
+      "d": "d_1496",
+      "type": "descriptive",
+      "text": "The method is motivated by a theoretical result showing that large mixed Hessian entries constrain the ratio of squared gradients toward one",
+      "src": "Gefen: Optimized Stochastic Optimizer"
+    },
+    {
+      "id": "clm_005310",
+      "x": 2795.81,
+      "y": 614.36,
+      "s": "dim",
+      "d": "d_1496",
+      "type": "descriptive",
+      "text": "Since computing Hessians is impractical at scale, Gefen infers block structure from the initial squared gradients, requiring no architecture",
+      "src": "Gefen: Optimized Stochastic Optimizer"
+    },
+    {
+      "id": "clm_005311",
+      "x": -731.72,
+      "y": 3922.39,
+      "s": "dim",
+      "d": "d_1497",
+      "type": "descriptive",
+      "text": "DDP training, the reduced memory footprint enables larger microbatches",
+      "src": "Gefen: Optimized Stochastic Optimizer"
+    },
+    {
+      "id": "clm_005312",
+      "x": -736.23,
+      "y": 3969.18,
+      "s": "dim",
+      "d": "d_1497",
+      "type": "descriptive",
+      "text": "improves throughput significantly over AdamW, providing a practical drop-in replacement with lower memory usage that can increase throughput",
+      "src": "Gefen: Optimized Stochastic Optimizer"
+    },
+    {
+      "id": "clm_005313",
+      "x": -76.05,
+      "y": 1626.14,
+      "s": "dim",
+      "d": "d_166",
+      "type": "descriptive",
+      "text": "their downstream behavior is difficult to characterize.",
+      "src": "How do Self-Supervised Remote Sensing Vi"
+    },
+    {
+      "id": "clm_005314",
+      "x": 3432.96,
+      "y": 26.49,
+      "s": "dim",
+      "d": "d_1231",
+      "type": "descriptive",
+      "text": "Layerwise probing shows that, in most cases, task-relevant information is more accessible in intermediate transformer blocks compared to fin",
+      "src": "How do Self-Supervised Remote Sensing Vi"
+    },
+    {
+      "id": "clm_005315",
+      "x": -3608.58,
+      "y": 2444.79,
+      "s": "dim",
+      "d": "d_1498",
+      "type": "statistical",
+      "text": "Sen1Floods11, downstream adaptation settings such as decoder design",
+      "src": "How do Self-Supervised Remote Sensing Vi"
+    },
+    {
+      "id": "clm_005316",
+      "x": 309.62,
+      "y": 4029.76,
+      "s": "dim",
+      "d": "d_1499",
+      "type": "descriptive",
+      "text": "fine-tuning can be as impactful as the choice of GeoFM, and standard dense-prediction heads may be poorly aligned with how GeoFMs organize i",
+      "src": "How do Self-Supervised Remote Sensing Vi"
+    },
+    {
+      "id": "clm_005317",
+      "x": 252.05,
+      "y": 4057.58,
+      "s": "dim",
+      "d": "d_1499",
+      "type": "descriptive",
+      "text": "Finally, CKA analysis on case studies shows that fine-tuning does not rewrite GeoFMs uniformly across depth",
+      "src": "How do Self-Supervised Remote Sensing Vi"
+    },
+    {
+      "id": "clm_005318",
+      "x": 3218.34,
+      "y": 1852.86,
+      "s": "dim",
+      "d": "d_1500",
+      "type": "descriptive",
+      "text": "the strongest changes are localized to the first linear layer of the MLP in ViT blocks.",
+      "src": "How do Self-Supervised Remote Sensing Vi"
+    },
+    {
+      "id": "clm_005319",
+      "x": -2.3,
+      "y": -807.23,
+      "s": "dim",
+      "d": "d_111",
+      "type": "descriptive",
+      "text": "When speech is represented with neural codec tokens, the infilling problem becomes discrete, making Discrete Flow Matching (DFM), a Continuo",
+      "src": "Mask, Sample, Revise: A Revisable CTMC I"
+    },
+    {
+      "id": "clm_005320",
+      "x": -4605.03,
+      "y": 1003.73,
+      "s": "dim",
+      "d": "d_1501",
+      "type": "descriptive",
+      "text": "SC-ReMask, a schedule-constrained remasking mechanism that introduces token-to-mask transitions so early de-masking decisions can be revised",
+      "src": "Mask, Sample, Revise: A Revisable CTMC I"
+    },
+    {
+      "id": "clm_005321",
+      "x": 3927.06,
+      "y": 1247.51,
+      "s": "dim",
+      "d": "d_1502",
+      "type": "descriptive",
+      "text": "Controlled ablations show that this stack improves intelligibility and robustness in the low-NFE prompted setting, outperforming unguided an",
+      "src": "Mask, Sample, Revise: A Revisable CTMC I"
+    },
+    {
+      "id": "clm_005322",
+      "x": 3254.01,
+      "y": -2289.98,
+      "s": "dim",
+      "d": "d_1503",
+      "type": "descriptive",
+      "text": "While recent methods improve inversion formulations or attention interactions, the role of textual conditioning in shaping diffusion dynamic",
+      "src": "Conditioning Matters: Stabilizing Invers"
+    },
+    {
+      "id": "clm_005323",
+      "x": 3232.42,
+      "y": -2334.85,
+      "s": "dim",
+      "d": "d_1503",
+      "type": "historical",
+      "text": "We show both empirically and theoretically that the precision of textual conditioning influences inversion stability by modulating the geome",
+      "src": "Conditioning Matters: Stabilizing Invers"
+    },
+    {
+      "id": "clm_005324",
+      "x": 3273.03,
+      "y": -2265.29,
+      "s": "dim",
+      "d": "d_1503",
+      "type": "historical",
+      "text": "Building on this analysis, we propose SimEdit, a conditioning-aware framework with two complementary components: (a) conditioning refinement",
+      "src": "Conditioning Matters: Stabilizing Invers"
+    },
+    {
+      "id": "clm_005325",
+      "x": 3269.59,
+      "y": -2357.62,
+      "s": "dim",
+      "d": "d_1503",
+      "type": "descriptive",
+      "text": "Extensive experiments on PIE-Bench demonstrate that SimEdit consistently improves both inversion reconstruction quality and editing performa",
+      "src": "Conditioning Matters: Stabilizing Invers"
+    },
+    {
+      "id": "clm_005326",
+      "x": 776.42,
+      "y": -16.67,
+      "s": "dim",
+      "d": "d_038",
+      "type": "descriptive",
+      "text": "Our code is available at https://github.com/zju-pi/SimEdit.",
+      "src": "Conditioning Matters: Stabilizing Invers"
+    },
+    {
+      "id": "clm_005327",
+      "x": 22.83,
+      "y": 522.32,
+      "s": "dim",
+      "d": "d_014",
+      "type": "empirical",
+      "text": "Large Language Models (LLMs) are increasingly adopted as backbones for Generative Recommendation (GR), promising access to pretrained world ",
+      "src": "Implicit Reasoning for Large Language Mo"
+    },
+    {
+      "id": "clm_005328",
+      "x": -1631.09,
+      "y": -393.25,
+      "s": "dim",
+      "d": "d_297",
+      "type": "causal",
+      "text": "A key obstacle is that LLM-based GR typically represents items with Semantic IDs (SIDs), disrupting LLMs' natural-language reasoning interfa",
+      "src": "Implicit Reasoning for Large Language Mo"
+    },
+    {
+      "id": "clm_005329",
+      "x": -3475.21,
+      "y": -1891.49,
+      "s": "dim",
+      "d": "d_1444",
+      "type": "descriptive",
+      "text": "why each stage is necessary.",
+      "src": "Implicit Reasoning for Large Language Mo"
+    },
+    {
+      "id": "clm_005330",
+      "x": 3079.79,
+      "y": -1767.01,
+      "s": "dim",
+      "d": "d_1263",
+      "type": "empirical",
+      "text": "In this work, we systematically decompose explicit reasoning training pipelines for LLM-based GR, revealing three key limitations: weakened ",
+      "src": "Implicit Reasoning for Large Language Mo"
+    },
+    {
+      "id": "clm_005331",
+      "x": -1327.53,
+      "y": 4086.27,
+      "s": "dim",
+      "d": "d_1504",
+      "type": "other",
+      "text": "sensitivity to rationale quality, all of which hurt explicit reasoning performance.",
+      "src": "Implicit Reasoning for Large Language Mo"
+    },
+    {
+      "id": "clm_005332",
+      "x": 453.58,
+      "y": -175.12,
+      "s": "dim",
+      "d": "d_034",
+      "type": "descriptive",
+      "text": "PauseRec is exceptionally practical, avoiding costly reasoning trace acquisition",
+      "src": "Implicit Reasoning for Large Language Mo"
+    },
+    {
+      "id": "clm_005333",
+      "x": 1434.0,
+      "y": 2765.35,
+      "s": "dim",
+      "d": "d_960",
+      "type": "statistical",
+      "text": "reasoning alignment training, leading to a multitude of benefits: (1) it outperforms standard explicit CoT methods by up to 6.22%, (2) it re",
+      "src": "Implicit Reasoning for Large Language Mo"
+    },
+    {
+      "id": "clm_005334",
+      "x": -2576.05,
+      "y": -729.64,
+      "s": "dim",
+      "d": "d_692",
+      "type": "statistical",
+      "text": "(3) it speeds up inference by up to 71.3%.",
+      "src": "Implicit Reasoning for Large Language Mo"
+    },
+    {
+      "id": "clm_005335",
+      "x": 1297.28,
+      "y": -3543.21,
+      "s": "dim",
+      "d": "d_1235",
+      "type": "descriptive",
+      "text": "Geometry problem generation is useful for AI-assisted education and multimodal mathematical reasoning",
+      "src": "VeriGeo: Controllable Geometry Question "
+    },
+    {
+      "id": "clm_005336",
+      "x": 3859.23,
+      "y": 147.68,
+      "s": "dim",
+      "d": "d_1494",
+      "type": "causal",
+      "text": "reliable synthesis remains difficult because the problem statement, diagram, constraints",
+      "src": "VeriGeo: Controllable Geometry Question "
+    },
+    {
+      "id": "clm_005337",
+      "x": 1148.91,
+      "y": -1396.76,
+      "s": "dim",
+      "d": "d_385",
+      "type": "normative",
+      "text": "solution should be mutually consistent.",
+      "src": "VeriGeo: Controllable Geometry Question "
+    },
+    {
+      "id": "clm_005338",
+      "x": 3514.18,
+      "y": 1693.95,
+      "s": "dim",
+      "d": "d_1505",
+      "type": "descriptive",
+      "text": "reliability: seed-based rewriting is flexible",
+      "src": "VeriGeo: Controllable Geometry Question "
+    },
+    {
+      "id": "clm_005339",
+      "x": 3632.97,
+      "y": 242.9,
+      "s": "dim",
+      "d": "d_1195",
+      "type": "descriptive",
+      "text": "weakly verifiable, whereas diagram-first construction improves validity",
+      "src": "VeriGeo: Controllable Geometry Question "
+    },
+    {
+      "id": "clm_005340",
+      "x": -3330.47,
+      "y": -1746.19,
+      "s": "dim",
+      "d": "d_1317",
+      "type": "descriptive",
+      "text": "is less suited to arbitrary user-specified constraints.",
+      "src": "VeriGeo: Controllable Geometry Question "
+    },
+    {
+      "id": "clm_005341",
+      "x": 1465.33,
+      "y": 3786.64,
+      "s": "dim",
+      "d": "d_1506",
+      "type": "other",
+      "text": "A three-stage pipeline checks numerical consistency, analytical realizability, and global consistency, using verification-guided reflection ",
+      "src": "VeriGeo: Controllable Geometry Question "
+    },
+    {
+      "id": "clm_005342",
+      "x": 1514.78,
+      "y": 3983.73,
+      "s": "dim",
+      "d": "d_1507",
+      "type": "descriptive",
+      "text": "Across five LLM backbones, raw generations frequently fail these checks, while VeriGeo repairs a substantial fraction of the invalid attempt",
+      "src": "VeriGeo: Controllable Geometry Question "
+    },
+    {
+      "id": "clm_005343",
+      "x": 309.52,
+      "y": 4069.05,
+      "s": "dim",
+      "d": "d_1499",
+      "type": "statistical",
+      "text": "Supervised fine-tuning on 8.7k examples generated by VeriGeo achieves the best reported GeoQA performance among end-to-end multimodal LLM-ba",
+      "src": "VeriGeo: Controllable Geometry Question "
+    },
+    {
+      "id": "clm_005344",
+      "x": 1836.97,
+      "y": 3856.6,
+      "s": "dim",
+      "d": "d_1508",
+      "type": "statistical",
+      "text": "obtains strong results on PGPS9K and MathVista-GPS, demonstrating the effectiveness of verified synthetic data for improving multimodal geom",
+      "src": "VeriGeo: Controllable Geometry Question "
+    },
+    {
+      "id": "clm_005345",
+      "x": 2643.95,
+      "y": 59.21,
+      "s": "dim",
+      "d": "d_755",
+      "type": "descriptive",
+      "text": "Large language models are increasingly deployed as human simulators for interactive evaluation and social simulation.",
+      "src": "OdysSim: Building Foundation Models for "
+    },
+    {
+      "id": "clm_005346",
+      "x": -2935.37,
+      "y": 2497.32,
+      "s": "dim",
+      "d": "d_1509",
+      "type": "statistical",
+      "text": "Yet helpfulness-driven post-training pulls them toward a homogeneous, overly agreeable assistant register, creating a behavioral Sim2Real ga",
+      "src": "OdysSim: Building Foundation Models for "
+    },
+    {
+      "id": "clm_005347",
+      "x": 2823.35,
+      "y": 1525.03,
+      "s": "dim",
+      "d": "d_977",
+      "type": "statistical",
+      "text": "We propose SOUL, a taxonomy of five capability axes (CONV, SS, COG, ROLE, EVAL) that unifies 62 datasets",
+      "src": "OdysSim: Building Foundation Models for "
+    },
+    {
+      "id": "clm_005348",
+      "x": 846.75,
+      "y": 1225.4,
+      "s": "dim",
+      "d": "d_226",
+      "type": "statistical",
+      "text": "23 benchmark tasks under one framework.",
+      "src": "OdysSim: Building Foundation Models for "
+    },
+    {
+      "id": "clm_005349",
+      "x": 3257.92,
+      "y": -1814.05,
+      "s": "dim",
+      "d": "d_1510",
+      "type": "statistical",
+      "text": "Specifically, we curate the OdysSim corpus (21.4M interactions, 10B tokens, retrofitted with back-generated social contexts), construct the ",
+      "src": "OdysSim: Building Foundation Models for "
+    },
+    {
+      "id": "clm_005350",
+      "x": 3352.73,
+      "y": -1481.32,
+      "s": "dim",
+      "d": "d_1338",
+      "type": "descriptive",
+      "text": "develop an end-to-end training recipe combining midtraining, task-specific RL, and expert distillation.",
+      "src": "OdysSim: Building Foundation Models for "
+    },
+    {
+      "id": "clm_005351",
+      "x": 460.53,
+      "y": 2465.66,
+      "s": "dim",
+      "d": "d_550",
+      "type": "statistical",
+      "text": "The resulting open 8B OSim model ranks first or tied-first on 8 of 23 tasks, outperforming any individual frontier model by this count, with",
+      "src": "OdysSim: Building Foundation Models for "
+    },
+    {
+      "id": "clm_005352",
+      "x": 3158.56,
+      "y": 2611.05,
+      "s": "dim",
+      "d": "d_1511",
+      "type": "statistical",
+      "text": "Its outputs are also more human-like in length, formatting, and word choice, and it transfers zero-shot to out-of-distribution user simulati",
+      "src": "OdysSim: Building Foundation Models for "
+    },
+    {
+      "id": "clm_005353",
+      "x": 3757.57,
+      "y": 1130.79,
+      "s": "dim",
+      "d": "d_1512",
+      "type": "historical",
+      "text": "We further show that LLM-as-judge RL induces reward-hacking patterns, and that our detectors can mitigate them during post-training.",
+      "src": "OdysSim: Building Foundation Models for "
+    },
+    {
+      "id": "clm_005354",
+      "x": 19.57,
+      "y": -36.64,
+      "s": "dim",
+      "d": "d_001",
+      "type": "descriptive",
+      "text": "Together, our findings suggest that behavioral foundation models require rethinking the LLM training paradigm.",
+      "src": "OdysSim: Building Foundation Models for "
+    },
+    {
+      "id": "clm_005355",
+      "x": -90.5,
+      "y": -4008.33,
+      "s": "dim",
+      "d": "d_1513",
+      "type": "predictive",
+      "text": "We release all artifacts to support future research.",
+      "src": "OdysSim: Building Foundation Models for "
+    },
+    {
+      "id": "clm_005356",
+      "x": 2367.45,
+      "y": 2212.3,
+      "s": "dim",
+      "d": "d_988",
+      "type": "descriptive",
+      "text": "Agent skills are structured procedural packages that guide frozen LLM agents in specialized workflows.",
+      "src": "SkillAudit: Ground-Truth-Free Skill Evol"
+    },
+    {
+      "id": "clm_005357",
+      "x": 1602.56,
+      "y": -2051.59,
+      "s": "dim",
+      "d": "d_740",
+      "type": "descriptive",
+      "text": "Existing methods depend on privileged feedback such as held-out validation scores, hidden test outcomes, or environment rewards -- signals o",
+      "src": "SkillAudit: Ground-Truth-Free Skill Evol"
+    },
+    {
+      "id": "clm_005358",
+      "x": 2350.94,
+      "y": 214.99,
+      "s": "dim",
+      "d": "d_594",
+      "type": "descriptive",
+      "text": "The key idea is paired trajectory auditing: at each iteration, the same task is executed with and without the candidate skill, isolating how",
+      "src": "SkillAudit: Ground-Truth-Free Skill Evol"
+    },
+    {
+      "id": "clm_005359",
+      "x": 3366.54,
+      "y": -1515.54,
+      "s": "dim",
+      "d": "d_1338",
+      "type": "descriptive",
+      "text": "To turn behavioral differences into edit guidance, SkillAudit uses Process-Aligned Contrastive Evaluation (PACE), a cluster of evaluators th",
+      "src": "SkillAudit: Ground-Truth-Free Skill Evol"
+    },
+    {
+      "id": "clm_005360",
+      "x": -4215.73,
+      "y": 53.93,
+      "s": "dim",
+      "d": "d_1514",
+      "type": "other",
+      "text": "SkillAudit routes edits through two pipelines: Refine removes noisy or irrelevant guidance from broadly useful skills, while Repair replaces",
+      "src": "SkillAudit: Ground-Truth-Free Skill Evol"
+    },
+    {
+      "id": "clm_005361",
+      "x": -4205.07,
+      "y": 24.54,
+      "s": "dim",
+      "d": "d_1514",
+      "type": "statistical",
+      "text": "Across 89 containerized tasks spanning 8 professional domains, SkillAudit achieves 73.9% average task reward, outperforming an agent without",
+      "src": "SkillAudit: Ground-Truth-Free Skill Evol"
+    },
+    {
+      "id": "clm_005362",
+      "x": -1703.88,
+      "y": -3276.86,
+      "s": "dim",
+      "d": "d_1245",
+      "type": "statistical",
+      "text": "the static expert skill (56.7%).",
+      "src": "SkillAudit: Ground-Truth-Free Skill Evol"
+    },
+    {
+      "id": "clm_005363",
+      "x": 2415.4,
+      "y": -3583.8,
+      "s": "dim",
+      "d": "d_1515",
+      "type": "historical",
+      "text": "These gains are obtained without accessing hidden tests, reference solutions, or external scoring functions during evolution.",
+      "src": "SkillAudit: Ground-Truth-Free Skill Evol"
+    },
+    {
+      "id": "clm_005364",
+      "x": 3098.24,
+      "y": -1760.13,
+      "s": "dim",
+      "d": "d_1263",
+      "type": "descriptive",
+      "text": "Semantic IDs are crucial in generative recommendation",
+      "src": "ChronoID: Infusing Explicit Temporal Sig"
+    },
+    {
+      "id": "clm_005365",
+      "x": 3132.86,
+      "y": -1812.25,
+      "s": "dim",
+      "d": "d_1263",
+      "type": "descriptive",
+      "text": "with a fundamental limitation: temporal information is not well incorporated into semantic IDs.",
+      "src": "ChronoID: Infusing Explicit Temporal Sig"
+    },
+    {
+      "id": "clm_005366",
+      "x": 2033.54,
+      "y": 3891.97,
+      "s": "dim",
+      "d": "d_1516",
+      "type": "descriptive",
+      "text": "user intent are temporally stationary.",
+      "src": "ChronoID: Infusing Explicit Temporal Sig"
+    },
+    {
+      "id": "clm_005367",
+      "x": 2893.42,
+      "y": -2004.04,
+      "s": "dim",
+      "d": "d_1109",
+      "type": "empirical",
+      "text": "Such an assumption is misaligned with real-world recommendation scenarios, where evolving interaction rhythms play a central role.",
+      "src": "ChronoID: Infusing Explicit Temporal Sig"
+    },
+    {
+      "id": "clm_005368",
+      "x": 214.45,
+      "y": -2137.85,
+      "s": "dim",
+      "d": "d_413",
+      "type": "descriptive",
+      "text": "In this work, we investigate where",
+      "src": "ChronoID: Infusing Explicit Temporal Sig"
+    },
+    {
+      "id": "clm_005369",
+      "x": 3009.67,
+      "y": -1780.79,
+      "s": "dim",
+      "d": "d_1263",
+      "type": "normative",
+      "text": "how the explicit time should be incorporated into semantic ID for generative recommendation.",
+      "src": "ChronoID: Infusing Explicit Temporal Sig"
+    },
+    {
+      "id": "clm_005370",
+      "x": 2011.71,
+      "y": 3825.19,
+      "s": "dim",
+      "d": "d_1516",
+      "type": "other",
+      "text": "First, we systematically characterize the design space along three orthogonal dimensions of temporal signals and present a unified framework",
+      "src": "ChronoID: Infusing Explicit Temporal Sig"
+    },
+    {
+      "id": "clm_005371",
+      "x": -1983.4,
+      "y": -3002.85,
+      "s": "dim",
+      "d": "d_1082",
+      "type": "descriptive",
+      "text": "Then, by contributing a new time-explicit generation recommendation benchmark, ChronoID answers the questions: what is the effective way of ",
+      "src": "ChronoID: Infusing Explicit Temporal Sig"
+    },
+    {
+      "id": "clm_005372",
+      "x": 620.31,
+      "y": 3153.5,
+      "s": "dim",
+      "d": "d_1402",
+      "type": "descriptive",
+      "text": "where does the gain come from.",
+      "src": "ChronoID: Infusing Explicit Temporal Sig"
+    },
+    {
+      "id": "clm_005373",
+      "x": 557.22,
+      "y": -615.57,
+      "s": "dim",
+      "d": "d_065",
+      "type": "descriptive",
+      "text": "Then, the question arises of which schema can be expected after one (or several) transformation steps.",
+      "src": "Transforming Shape Schemas with Composab"
+    },
+    {
+      "id": "clm_005374",
+      "x": 3111.46,
+      "y": -1775.34,
+      "s": "dim",
+      "d": "d_1263",
+      "type": "descriptive",
+      "text": "We investigate how schema constraints can be inferred given an input schema and a transforming query.",
+      "src": "Transforming Shape Schemas with Composab"
+    },
+    {
+      "id": "clm_005375",
+      "x": -1438.87,
+      "y": -443.06,
+      "s": "dim",
+      "d": "d_194",
+      "type": "predictive",
+      "text": "Since graph updates will happen frequently, our inference procedure does not rely on graph instances, such that the computed output schema a",
+      "src": "Transforming Shape Schemas with Composab"
+    },
+    {
+      "id": "clm_005376",
+      "x": 3051.06,
+      "y": -1734.77,
+      "s": "dim",
+      "d": "d_1263",
+      "type": "descriptive",
+      "text": "Related work has addressed this problem for SPARQL CONSTRUCT queries, encoding it in Description Logics (DLs) so that the output schema is e",
+      "src": "Transforming Shape Schemas with Composab"
+    },
+    {
+      "id": "clm_005377",
+      "x": 2517.07,
+      "y": 2066.42,
+      "s": "dim",
+      "d": "d_1180",
+      "type": "definitional",
+      "text": "Thus, reification has to be used in one way or another, though available DLs lack the means to encode such features directly.",
+      "src": "Transforming Shape Schemas with Composab"
+    },
+    {
+      "id": "clm_005378",
+      "x": -4191.24,
+      "y": 249.02,
+      "s": "dim",
+      "d": "d_1517",
+      "type": "empirical",
+      "text": "I'm Sorry Driver, I'm Afraid I Can't Do That: Appraising the Safety of LLMs within Automotive Contexts",
+      "src": "I'm Sorry Driver, I'm Afraid I Can't Do "
+    },
+    {
+      "id": "clm_005379",
+      "x": 2817.22,
+      "y": 1281.34,
+      "s": "dim",
+      "d": "d_1312",
+      "type": "descriptive",
+      "text": "This work has built upon the rapid integration of LLMs across automotive settings.",
+      "src": "I'm Sorry Driver, I'm Afraid I Can't Do "
+    },
+    {
+      "id": "clm_005380",
+      "x": -472.59,
+      "y": 489.82,
+      "s": "dim",
+      "d": "d_032",
+      "type": "normative",
+      "text": "Firstly, we consider conceptual challenges, including the fact that deployers are faced with a dual challenge, wherein they must assure a mo",
+      "src": "I'm Sorry Driver, I'm Afraid I Can't Do "
+    },
+    {
+      "id": "clm_005381",
+      "x": 3430.49,
+      "y": -2256.12,
+      "s": "dim",
+      "d": "d_1518",
+      "type": "statistical",
+      "text": "We show that there are currently both fundamental engineering constraints covered in ISO21448, such as latency",
+      "src": "I'm Sorry Driver, I'm Afraid I Can't Do "
+    },
+    {
+      "id": "clm_005382",
+      "x": 4059.13,
+      "y": -333.24,
+      "s": "dim",
+      "d": "d_1519",
+      "type": "statistical",
+      "text": "novel LLM-specific issues, such as alignment-related issues covered in ISO/PAS8800.",
+      "src": "I'm Sorry Driver, I'm Afraid I Can't Do "
+    },
+    {
+      "id": "clm_005383",
+      "x": -3823.22,
+      "y": -184.3,
+      "s": "dim",
+      "d": "d_1297",
+      "type": "statistical",
+      "text": "We ground both examples in a concrete introductory, experimental case study exploring an existing open-source repository, Talk2Drive.",
+      "src": "I'm Sorry Driver, I'm Afraid I Can't Do "
+    },
+    {
+      "id": "clm_005384",
+      "x": 2590.69,
+      "y": 3400.0,
+      "s": "dim",
+      "d": "d_1520",
+      "type": "empirical",
+      "text": "We present a safety argument in order to make explicit the limitations of existing solutions.",
+      "src": "I'm Sorry Driver, I'm Afraid I Can't Do "
+    },
+    {
+      "id": "clm_005385",
+      "x": -4196.11,
+      "y": 302.42,
+      "s": "dim",
+      "d": "d_1517",
+      "type": "descriptive",
+      "text": "Nonetheless, given that the use of LLMs in automotive contexts is being explored at a technical level and operationalised, we propose potent",
+      "src": "I'm Sorry Driver, I'm Afraid I Can't Do "
+    },
+    {
+      "id": "clm_005386",
+      "x": 3537.28,
+      "y": 2200.95,
+      "s": "dim",
+      "d": "d_1521",
+      "type": "descriptive",
+      "text": "pose the Search Compression Hypothesis: non-local exploration helps only when three geometric conditions co-occur: spectral compression, ort",
+      "src": "Discovery under Hypothesis Redundancy: A"
+    },
+    {
+      "id": "clm_005387",
+      "x": -1026.14,
+      "y": -3894.03,
+      "s": "dim",
+      "d": "d_1522",
+      "type": "descriptive",
+      "text": "directed-versus-random experiments show that novelty alone is insufficient: random orthogonal jumps expand coverage but do not improve yield",
+      "src": "Discovery under Hypothesis Redundancy: A"
+    },
+    {
+      "id": "clm_005388",
+      "x": 183.66,
+      "y": -313.92,
+      "s": "dim",
+      "d": "d_021",
+      "type": "descriptive",
+      "text": "The framework turns LLM-guided discovery from generic novelty search into a diagnostic procedure for deciding when directed non-local explor",
+      "src": "Discovery under Hypothesis Redundancy: A"
+    },
+    {
+      "id": "clm_005389",
+      "x": 3320.43,
+      "y": -2512.23,
+      "s": "dim",
+      "d": "d_1523",
+      "type": "descriptive",
+      "text": "While previous work on explanation manipulation focused on images using standard $L_p$ metrics, we introduce a psychoacoustic framework that",
+      "src": "The Perceived Fragility of Explanations "
+    },
+    {
+      "id": "clm_005390",
+      "x": 1945.13,
+      "y": 2408.37,
+      "s": "dim",
+      "d": "d_1524",
+      "type": "descriptive",
+      "text": "We evaluate this vulnerability across state-of-the-art architectures under strict prediction-preserving constraints.",
+      "src": "The Perceived Fragility of Explanations "
+    },
+    {
+      "id": "clm_005391",
+      "x": 3337.73,
+      "y": -2446.49,
+      "s": "dim",
+      "d": "d_1523",
+      "type": "descriptive",
+      "text": "By evaluating the manipulation cost through domain-specific perceptual audio quality metrics alongside explanation alignment criteria, our f",
+      "src": "The Perceived Fragility of Explanations "
+    },
+    {
+      "id": "clm_005392",
+      "x": 68.86,
+      "y": 506.31,
+      "s": "dim",
+      "d": "d_014",
+      "type": "descriptive",
+      "text": "They link large-scale predictors simulated by global climate models (GCMs) to RCM-simulated high-resolution fields of the target variable, h",
+      "src": "Regional Climate Model Emulation with Di"
+    },
+    {
+      "id": "clm_005393",
+      "x": 4159.53,
+      "y": 789.16,
+      "s": "dim",
+      "d": "d_1495",
+      "type": "descriptive",
+      "text": "Machine learning methods, typically deep learning, are cheaper than running RCMs in computation time and energy.",
+      "src": "Regional Climate Model Emulation with Di"
+    },
+    {
+      "id": "clm_005394",
+      "x": 108.29,
+      "y": 535.56,
+      "s": "dim",
+      "d": "d_014",
+      "type": "causal",
+      "text": "Among them, generative models are appealing because they can simulate ensembles of local high-resolution fields consistent with the predicto",
+      "src": "Regional Climate Model Emulation with Di"
+    },
+    {
+      "id": "clm_005395",
+      "x": -1775.42,
+      "y": -1738.23,
+      "s": "dim",
+      "d": "d_588",
+      "type": "descriptive",
+      "text": "Here, we make three contributions.",
+      "src": "Regional Climate Model Emulation with Di"
+    },
+    {
+      "id": "clm_005396",
+      "x": -2305.07,
+      "y": 3184.2,
+      "s": "dim",
+      "d": "d_1406",
+      "type": "other",
+      "text": "First, we introduce ParamDiffusion, a new two-stage diffusion-based framework",
+      "src": "Regional Climate Model Emulation with Di"
+    },
+    {
+      "id": "clm_005397",
+      "x": -2266.75,
+      "y": 3174.58,
+      "s": "dim",
+      "d": "d_1406",
+      "type": "descriptive",
+      "text": "compare it with a state-of-the-art diffusion approach.",
+      "src": "Regional Climate Model Emulation with Di"
+    },
+    {
+      "id": "clm_005398",
+      "x": 96.5,
+      "y": 560.16,
+      "s": "dim",
+      "d": "d_014",
+      "type": "other",
+      "text": "We intercompare four deep-learning models: a deterministic model designed to capture the precipitation tail; a parametric probabilistic mode",
+      "src": "Regional Climate Model Emulation with Di"
+    },
+    {
+      "id": "clm_005399",
+      "x": 464.69,
+      "y": 3856.7,
+      "s": "dim",
+      "d": "d_1525",
+      "type": "descriptive",
+      "text": "Our results show that diffusion-based approaches reproduce climatological precipitation statistics with high skill, including distributional",
+      "src": "Regional Climate Model Emulation with Di"
+    },
+    {
+      "id": "clm_005400",
+      "x": 3783.36,
+      "y": -1493.25,
+      "s": "dim",
+      "d": "d_1526",
+      "type": "other",
+      "text": "However, none of the assessed models consistently accounts for the most extreme RCM-simulated events within its uncertainty envelope.",
+      "src": "Regional Climate Model Emulation with Di"
+    },
+    {
+      "id": "clm_005401",
+      "x": 3748.28,
+      "y": -1446.59,
+      "s": "dim",
+      "d": "d_1526",
+      "type": "causal",
+      "text": "Diffusion models are therefore promising for probabilistic RCM emulation",
+      "src": "Regional Climate Model Emulation with Di"
+    },
+    {
+      "id": "clm_005402",
+      "x": -3341.47,
+      "y": 3030.41,
+      "s": "dim",
+      "d": "d_1527",
+      "type": "descriptive",
+      "text": "progress is still required before they can reliably represent high-impact precipitation extremes.",
+      "src": "Regional Climate Model Emulation with Di"
+    },
+    {
+      "id": "clm_005403",
+      "x": -3047.21,
+      "y": -30.56,
+      "s": "dim",
+      "d": "d_672",
+      "type": "descriptive",
+      "text": "AI-assisted software development has moved from line-level autocomplete to agents that can plan changes, edit files, and submit pull request",
+      "src": "Regulating the Machine Contributor: Gove"
+    },
+    {
+      "id": "clm_005404",
+      "x": 3331.5,
+      "y": -1558.36,
+      "s": "dim",
+      "d": "d_1338",
+      "type": "descriptive",
+      "text": "review norms all assume a legally accountable person who can attest to provenance and answer reviewer questions.",
+      "src": "Regulating the Machine Contributor: Gove"
+    },
+    {
+      "id": "clm_005405",
+      "x": 747.23,
+      "y": -1298.52,
+      "s": "dim",
+      "d": "d_230",
+      "type": "statistical",
+      "text": "the 2025-2026 record of agent-driven incidents, AI-generated nuisance volume",
+      "src": "Regulating the Machine Contributor: Gove"
+    },
+    {
+      "id": "clm_005406",
+      "x": -3329.83,
+      "y": 2706.3,
+      "s": "dim",
+      "d": "d_1528",
+      "type": "descriptive",
+      "text": "platform-level shutdowns shows that the gap is operationally consequential.",
+      "src": "Regulating the Machine Contributor: Gove"
+    },
+    {
+      "id": "clm_005407",
+      "x": -3851.05,
+      "y": -117.92,
+      "s": "dim",
+      "d": "d_1297",
+      "type": "descriptive",
+      "text": "Several open-source organisations have responded with contribution policies",
+      "src": "Regulating the Machine Contributor: Gove"
+    },
+    {
+      "id": "clm_005408",
+      "x": -3739.61,
+      "y": -2135.86,
+      "s": "dim",
+      "d": "d_1529",
+      "type": "descriptive",
+      "text": "the result is fragmented",
+      "src": "Regulating the Machine Contributor: Gove"
+    },
+    {
+      "id": "clm_005409",
+      "x": -701.79,
+      "y": 3575.67,
+      "s": "dim",
+      "d": "d_1363",
+      "type": "statistical",
+      "text": "its alignment with emerging AI governance frameworks (EU AI Act, NIST AI RMF with the UC Berkeley Agentic AI Profile, ISO/IEC 42001",
+      "src": "Regulating the Machine Contributor: Gove"
+    },
+    {
+      "id": "clm_005410",
+      "x": 3823.17,
+      "y": 1438.42,
+      "s": "dim",
+      "d": "d_1530",
+      "type": "statistical",
+      "text": "23894) is unmapped at the contribution level.",
+      "src": "Regulating the Machine Contributor: Gove"
+    },
+    {
+      "id": "clm_005411",
+      "x": -3368.87,
+      "y": -1449.01,
+      "s": "dim",
+      "d": "d_1242",
+      "type": "empirical",
+      "text": "a mapping of documented agent incidents onto the dimensions each policy fails to govern.",
+      "src": "Regulating the Machine Contributor: Gove"
     }
   ],
   "tensions": [
