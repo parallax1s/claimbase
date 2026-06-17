@@ -5,10 +5,10 @@
     "h": 1000
   },
   "bounds": {
-    "x0": -5048.22,
-    "y0": -4744.21,
-    "x1": 4701.96,
-    "y1": 4724.04
+    "x0": -5061.91,
+    "y0": -4757.9,
+    "x1": 4989.41,
+    "y1": 4737.73
   },
   "districts": [
     {
@@ -16,10 +16,10 @@
       "label": "LLM Architecture Research",
       "x": 0.0,
       "y": 0.0,
-      "r": 99.4,
-      "claims": 18,
+      "r": 104.16,
+      "claims": 21,
       "lit": 2,
-      "dim": 16,
+      "dim": 19,
       "tensions": 0
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "id": "d_004",
-      "label": "scenarios · datasets · across",
+      "label": "datasets · scenarios · across",
       "x": -147.96,
       "y": -83.71,
       "r": 59.8,
@@ -115,10 +115,10 @@
       "label": "Cross-Modal Knowledge Distillation",
       "x": 16.75,
       "y": 169.17,
-      "r": 105.67,
-      "claims": 22,
+      "r": 107.14,
+      "claims": 23,
       "lit": 5,
-      "dim": 17,
+      "dim": 18,
       "tensions": 0
     },
     {
@@ -126,10 +126,10 @@
       "label": "Neural Decoding and Brain-AI",
       "x": -323.23,
       "y": 172.6,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 1,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -170,10 +170,10 @@
       "label": "Cross-Model Attack Transferability",
       "x": -221.29,
       "y": -237.08,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -181,10 +181,10 @@
       "label": "Adversarial Transfer Attack Methods",
       "x": 508.9,
       "y": 302.93,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 1,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -203,10 +203,10 @@
       "label": "Temporal Image Consistency",
       "x": -87.52,
       "y": 668.4,
-      "r": 86.43,
-      "claims": 11,
+      "r": 92.38,
+      "claims": 14,
       "lit": 0,
-      "dim": 11,
+      "dim": 14,
       "tensions": 0
     },
     {
@@ -214,10 +214,10 @@
       "label": "VLM Judge Score Calibration",
       "x": -182.3,
       "y": 287.0,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -269,10 +269,10 @@
       "label": "Multi-Turn Reasoning Failure Modes",
       "x": 407.92,
       "y": 496.41,
-      "r": 90.48,
-      "claims": 13,
+      "r": 97.72,
+      "claims": 17,
       "lit": 6,
-      "dim": 7,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -302,10 +302,10 @@
       "label": "Multi-Agent LLM Systems",
       "x": -397.22,
       "y": 467.04,
-      "r": 121.63,
-      "claims": 34,
+      "r": 125.16,
+      "claims": 37,
       "lit": 9,
-      "dim": 25,
+      "dim": 28,
       "tensions": 0
     },
     {
@@ -324,10 +324,10 @@
       "label": "Alignment Faking Source Detection",
       "x": 368.07,
       "y": 699.0,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 3,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -357,10 +357,21 @@
       "label": "AI Safety Institute Collaboration",
       "x": 791.53,
       "y": -38.8,
-      "r": 84.27,
-      "claims": 10,
+      "r": 90.48,
+      "claims": 13,
       "lit": 0,
-      "dim": 10,
+      "dim": 13,
+      "tensions": 0
+    },
+    {
+      "id": "d_039",
+      "label": "agentic · heterogeneity · markets",
+      "x": -56.33,
+      "y": 1002.24,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -387,13 +398,13 @@
     },
     {
       "id": "d_044",
-      "label": "prediction · evaluated · predictive",
+      "label": "prediction · evaluated · accuracy",
       "x": 210.6,
       "y": 812.49,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -401,10 +412,10 @@
       "label": "Clinical Mental Health AI Detection",
       "x": -469.52,
       "y": 620.9,
-      "r": 79.6,
-      "claims": 8,
+      "r": 84.27,
+      "claims": 10,
       "lit": 0,
-      "dim": 8,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -412,10 +423,10 @@
       "label": "Fine-Tuning Safety Tradeoffs",
       "x": 842.2,
       "y": 370.1,
-      "r": 77.04,
-      "claims": 7,
+      "r": 84.27,
+      "claims": 10,
       "lit": 1,
-      "dim": 6,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -467,10 +478,10 @@
       "label": "Concept Embedding Customization",
       "x": -142.77,
       "y": -365.3,
-      "r": 86.43,
-      "claims": 11,
+      "r": 90.48,
+      "claims": 13,
       "lit": 0,
-      "dim": 11,
+      "dim": 13,
       "tensions": 0
     },
     {
@@ -489,10 +500,10 @@
       "label": "Benchmark Baselines and Agent Scaling",
       "x": 559.33,
       "y": 678.71,
-      "r": 102.61,
-      "claims": 20,
+      "r": 108.59,
+      "claims": 24,
       "lit": 2,
-      "dim": 18,
+      "dim": 22,
       "tensions": 0
     },
     {
@@ -566,10 +577,10 @@
       "label": "Behavior Cue Token Signaling",
       "x": 505.69,
       "y": -618.89,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -720,10 +731,10 @@
       "label": "Coding Eval Benchmark Inflation",
       "x": -407.06,
       "y": 1158.34,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 1,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -915,7 +926,7 @@
     },
     {
       "id": "d_1008",
-      "label": "openai · borrow · connected",
+      "label": "openai · borrow · banks",
       "x": 1270.7,
       "y": 3191.16,
       "r": 59.8,
@@ -1344,13 +1355,13 @@
     },
     {
       "id": "d_1082",
-      "label": "design · time · contributing",
+      "label": "design · determines · time",
       "x": -2026.8,
       "y": -3006.87,
-      "r": 59.8,
-      "claims": 2,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 2,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -1585,6 +1596,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1120",
+      "label": "memory · chains · evicted",
+      "x": -3546.7,
+      "y": 743.54,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1125",
       "label": "Lethal Autonomous Weapons Control",
       "x": 3123.25,
@@ -1673,6 +1695,17 @@
       "tensions": 1
     },
     {
+      "id": "d_1149",
+      "label": "parameter · functional · injective",
+      "x": 3412.84,
+      "y": -751.53,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_115",
       "label": "Codex Harness Limitations",
       "x": -250.03,
@@ -1703,6 +1736,17 @@
       "claims": 3,
       "lit": 0,
       "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1153",
+      "label": "demonstrate · cin · coreference",
+      "x": 518.43,
+      "y": -2720.81,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -1743,10 +1787,10 @@
       "label": "Reasoning Controllability Tradeoffs",
       "x": 2514.26,
       "y": -2594.73,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2047,6 +2091,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1227",
+      "label": "semantically · harmless · sparse",
+      "x": 2454.16,
+      "y": 2668.48,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_123",
       "label": "Model Arena Leaderboard Churn",
       "x": 794.43,
@@ -2059,7 +2114,7 @@
     },
     {
       "id": "d_1230",
-      "label": "imperceptibility · watermark · feature",
+      "label": "imperceptibility · watermark · speech",
       "x": 2167.0,
       "y": 3135.98,
       "r": 59.8,
@@ -2070,13 +2125,13 @@
     },
     {
       "id": "d_1231",
-      "label": "layers · layer · transformer",
+      "label": "spatial · nodes · different",
       "x": 3412.23,
       "y": -6.16,
-      "r": 64.25,
-      "claims": 3,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 3,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -2103,7 +2158,7 @@
     },
     {
       "id": "d_1235",
-      "label": "reasoning · spatial · mathematical",
+      "label": "reasoning · spatial · transformations",
       "x": 1329.47,
       "y": -3499.19,
       "r": 64.25,
@@ -2114,13 +2169,13 @@
     },
     {
       "id": "d_1236",
-      "label": "label · evaluation · accuracy",
+      "label": "label · accuracy · evaluation",
       "x": -4039.45,
       "y": 856.4,
-      "r": 79.6,
-      "claims": 8,
+      "r": 86.43,
+      "claims": 11,
       "lit": 0,
-      "dim": 8,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -2147,7 +2202,7 @@
     },
     {
       "id": "d_1242",
-      "label": "mapping · govern · incidents",
+      "label": "mapping · govern · phenomenological",
       "x": -3412.28,
       "y": -1428.9,
       "r": 59.8,
@@ -2180,20 +2235,42 @@
     },
     {
       "id": "d_1246",
-      "label": "end · fine · joint",
+      "label": "fine · end · joint",
       "x": 3574.28,
       "y": -57.53,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
       "id": "d_1248",
-      "label": "grasp · stage · backbone",
+      "label": "grasp · stage · topology",
       "x": 89.21,
       "y": 3462.42,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1249",
+      "label": "comparable · achieves · performance",
+      "x": 3117.27,
+      "y": 1738.32,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1251",
+      "label": "dataset · release · huggingface",
+      "x": 3830.29,
+      "y": -442.61,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -2205,10 +2282,10 @@
       "label": "mismatch · affects · mainly",
       "x": 3245.12,
       "y": 1233.09,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -2224,7 +2301,7 @@
     },
     {
       "id": "d_1259",
-      "label": "compositional · modality · masked",
+      "label": "modality · compositional · masked",
       "x": -1451.21,
       "y": 3235.94,
       "r": 64.25,
@@ -2260,10 +2337,10 @@
       "label": "semantic · schema · inference",
       "x": 3068.09,
       "y": -1796.9,
-      "r": 86.43,
-      "claims": 11,
+      "r": 92.38,
+      "claims": 14,
       "lit": 0,
-      "dim": 11,
+      "dim": 14,
       "tensions": 0
     },
     {
@@ -2271,15 +2348,15 @@
       "label": "router · expert · rows",
       "x": 263.56,
       "y": 3850.43,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
       "id": "d_1267",
-      "label": "inserted · edited · messages",
+      "label": "inserted · messages · edited",
       "x": 3435.3,
       "y": 959.62,
       "r": 59.8,
@@ -2323,13 +2400,13 @@
     },
     {
       "id": "d_1272",
-      "label": "operationalizations · verdicts · competing",
+      "label": "verdicts · operationalizations · routed",
       "x": 1160.12,
       "y": -3212.61,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -2345,24 +2422,24 @@
     },
     {
       "id": "d_1275",
-      "label": "cognitive · arrival · educated",
+      "label": "cognitive · generative · arrival",
       "x": 2593.54,
       "y": -404.06,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
       "id": "d_1278",
-      "label": "anticipating · dissociation · probes",
+      "label": "critical · recent · llms",
       "x": 3480.3,
       "y": 761.13,
-      "r": 59.8,
-      "claims": 2,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 2,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -2422,13 +2499,13 @@
     },
     {
       "id": "d_1287",
-      "label": "vlm · vlms · regularizing",
+      "label": "visual · integrate · vlm",
       "x": 3431.19,
       "y": -985.81,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -2488,7 +2565,7 @@
     },
     {
       "id": "d_1298",
-      "label": "clustering · heterogeneity · scrna",
+      "label": "clustering · scrna · tissue",
       "x": 103.44,
       "y": 4001.64,
       "r": 59.8,
@@ -2510,13 +2587,24 @@
     },
     {
       "id": "d_1301",
-      "label": "long · video · generation",
+      "label": "long · video · drift",
       "x": 3802.67,
       "y": -211.92,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
+      "tensions": 0
+    },
+    {
+      "id": "d_1302",
+      "label": "complementary · distinguishing · uniformly",
+      "x": 919.93,
+      "y": -2986.8,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -2524,15 +2612,15 @@
       "label": "cache · attention · primitives",
       "x": 2185.15,
       "y": 2876.4,
-      "r": 68.0,
-      "claims": 4,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 4,
+      "dim": 6,
       "tensions": 0
     },
     {
       "id": "d_1309",
-      "label": "agent · solution · converts",
+      "label": "agent · solution · evaluator",
       "x": -937.96,
       "y": 3840.64,
       "r": 59.8,
@@ -2590,10 +2678,10 @@
       "label": "constraints · appliance · user",
       "x": -3381.17,
       "y": -1725.61,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -2605,6 +2693,17 @@
       "claims": 4,
       "lit": 0,
       "dim": 4,
+      "tensions": 0
+    },
+    {
+      "id": "d_1320",
+      "label": "spatiotemporal · allocation · star",
+      "x": 3773.37,
+      "y": 726.59,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2697,13 +2796,13 @@
     },
     {
       "id": "d_1338",
-      "label": "evaluation · verifiable · expert",
+      "label": "evaluation · expert · verifiable",
       "x": 3316.32,
       "y": -1503.98,
-      "r": 71.3,
-      "claims": 5,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 5,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -2719,7 +2818,7 @@
     },
     {
       "id": "d_1343",
-      "label": "compute · often · much",
+      "label": "compute · much · often",
       "x": 3393.51,
       "y": 1967.57,
       "r": 59.8,
@@ -2928,13 +3027,13 @@
     },
     {
       "id": "d_1383",
-      "label": "taste · acceleration · research",
+      "label": "taste · acceleration · theory",
       "x": 1845.2,
       "y": -3504.53,
-      "r": 59.8,
-      "claims": 2,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 2,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -3019,10 +3118,10 @@
       "label": "diffusion · restrictions · narrowly",
       "x": -2282.28,
       "y": 3192.33,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -3081,6 +3180,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1436",
+      "label": "verification · independent · btw",
+      "x": -2973.23,
+      "y": -2899.96,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_144",
       "label": "AI Consciousness and Aliveness",
       "x": -1061.53,
@@ -3115,7 +3225,7 @@
     },
     {
       "id": "d_1449",
-      "label": "loop · closed · centers",
+      "label": "closed · loop · centers",
       "x": -1061.84,
       "y": 3550.64,
       "r": 59.8,
@@ -3269,13 +3379,13 @@
     },
     {
       "id": "d_1489",
-      "label": "rppg · faithfulness · auditable",
+      "label": "rppg · faithfulness · supported",
       "x": 778.88,
       "y": 4131.67,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -3378,10 +3488,32 @@
       "tensions": 0
     },
     {
+      "id": "d_1504",
+      "label": "explicit · reasoning · interpretability",
+      "x": -1359.14,
+      "y": 4074.91,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1506",
       "label": "reflection · verification · consistency",
       "x": 1446.93,
       "y": 3803.44,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1508",
+      "label": "geometry · gps · mathvista",
+      "x": 1822.71,
+      "y": 3827.71,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -3412,13 +3544,13 @@
     },
     {
       "id": "d_1516",
-      "label": "stationary · chronoid · characterize",
+      "label": "temporal · temporally · documents",
       "x": 2019.8,
       "y": 3866.06,
-      "r": 59.8,
-      "claims": 2,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 2,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -3478,13 +3610,13 @@
     },
     {
       "id": "d_1535",
-      "label": "5563 · timevista · judges",
+      "label": "comprehensive · scale · benchmark",
       "x": -3929.67,
       "y": -828.94,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -3511,7 +3643,7 @@
     },
     {
       "id": "d_1538",
-      "label": "sensor · scene · conditioned",
+      "label": "scene · sensor · conditioned",
       "x": -518.47,
       "y": -4241.22,
       "r": 59.8,
@@ -3533,9 +3665,20 @@
     },
     {
       "id": "d_1544",
-      "label": "specifications · alignment · operationalize",
+      "label": "specifications · alignment · training",
       "x": 621.99,
       "y": 3993.55,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1546",
+      "label": "dataset · 789 · adni",
+      "x": 3800.21,
+      "y": 1699.28,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -3576,8 +3719,19 @@
       "tensions": 0
     },
     {
+      "id": "d_1555",
+      "label": "image · alignment · anatomical",
+      "x": 4251.19,
+      "y": 130.41,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1556",
-      "label": "goal · online · distance",
+      "label": "goal · online · gradient",
       "x": 4093.51,
       "y": 147.05,
       "r": 59.8,
@@ -3595,6 +3749,17 @@
       "claims": 5,
       "lit": 0,
       "dim": 5,
+      "tensions": 0
+    },
+    {
+      "id": "d_1565",
+      "label": "dynamically · controller · loadable",
+      "x": -238.28,
+      "y": 3987.26,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -3642,10 +3807,153 @@
       "tensions": 0
     },
     {
+      "id": "d_1582",
+      "label": "sketchxplain · visualizations · diagnosis",
+      "x": 4098.33,
+      "y": 495.61,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1587",
+      "label": "flluma · python · cad",
+      "x": -1161.59,
+      "y": -3725.12,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1590",
+      "label": "split · completeness · duplicate",
+      "x": -1639.0,
+      "y": 4064.94,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1593",
+      "label": "curriculum · ordering · data",
+      "x": -3410.74,
+      "y": -1236.84,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1594",
+      "label": "livestarpro · rests · surpasses",
+      "x": 683.72,
+      "y": -3803.32,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1595",
+      "label": "timing · passage · frequency",
+      "x": 3088.36,
+      "y": -2306.5,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1597",
+      "label": "encodings · rotary · vanilla",
+      "x": -4482.49,
+      "y": 1137.77,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_160",
       "label": "Critical Bug Patch Rate",
       "x": -1556.02,
       "y": 291.9,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1600",
+      "label": "cite · safety · anchorkv",
+      "x": 3623.23,
+      "y": 2370.63,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1603",
+      "label": "geneval · ocr · pickscore",
+      "x": -4253.49,
+      "y": -725.31,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1606",
+      "label": "trace · split · 266",
+      "x": -3856.97,
+      "y": 641.76,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1611",
+      "label": "pseudoscientific · persuasive · premises",
+      "x": 2888.89,
+      "y": -3162.22,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1617",
+      "label": "embodiment · end · effectors",
+      "x": 3255.28,
+      "y": 340.39,
+      "r": 71.3,
+      "claims": 5,
+      "lit": 0,
+      "dim": 5,
+      "tensions": 0
+    },
+    {
+      "id": "d_1618",
+      "label": "geometry · effector · tokens",
+      "x": 3733.58,
+      "y": 163.4,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -4127,13 +4435,13 @@
     },
     {
       "id": "d_226",
-      "label": "framework · beginning · facto",
+      "label": "framework · beginning · mathematical",
       "x": 885.07,
       "y": 1191.68,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -4504,10 +4812,10 @@
       "label": "AI as CBT Therapy Tool",
       "x": -1895.04,
       "y": 317.49,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 2,
-      "dim": 0,
+      "dim": 1,
       "tensions": 0
     },
     {
@@ -4680,10 +4988,10 @@
       "label": "LLM Persuasion and Regulation",
       "x": -1646.92,
       "y": -407.27,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -4922,10 +5230,10 @@
       "label": "Claude Adaptive Thinking Toggle",
       "x": -1448.02,
       "y": 1207.28,
-      "r": 68.0,
-      "claims": 4,
+      "r": 74.29,
+      "claims": 6,
       "lit": 1,
-      "dim": 3,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -5824,10 +6132,10 @@
       "label": "AI Safety Coalition Urgency",
       "x": 1319.93,
       "y": -1736.28,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 2,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -6286,10 +6594,10 @@
       "label": "Cautious Understatement Claims",
       "x": -417.5,
       "y": 2499.33,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 1,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -6459,13 +6767,13 @@
     },
     {
       "id": "d_585",
-      "label": "less · reasoning · compacts",
+      "label": "reasoning · tokens · less",
       "x": 2098.68,
       "y": -1479.65,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -7034,10 +7342,10 @@
       "label": "Control Monitor Benchmarks",
       "x": 1968.8,
       "y": 1809.9,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 1,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -7243,10 +7551,10 @@
       "label": "Self-Harm Content Detection",
       "x": -2649.05,
       "y": -1085.64,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 1,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -7265,10 +7573,10 @@
       "label": "Promptless API Behavior",
       "x": 2500.87,
       "y": 57.3,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -7287,10 +7595,10 @@
       "label": "Interpretive Uncertainty Flags",
       "x": 2763.26,
       "y": -405.63,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -7881,10 +8189,10 @@
       "label": "Opus Training Affect Data",
       "x": 1260.02,
       "y": 2530.19,
-      "r": 92.38,
-      "claims": 14,
+      "r": 94.22,
+      "claims": 15,
       "lit": 3,
-      "dim": 11,
+      "dim": 12,
       "tensions": 0
     },
     {
@@ -7980,10 +8288,10 @@
       "label": "Safety Intervention Priorities",
       "x": 1262.25,
       "y": -2907.77,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 2,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -8714,7 +9022,7 @@
     },
     {
       "id": "d_974",
-      "label": "scalable · debate · oversight",
+      "label": "debate · scalable · oversight",
       "x": 3096.65,
       "y": 852.4,
       "r": 59.8,
@@ -8725,13 +9033,13 @@
     },
     {
       "id": "d_977",
-      "label": "datasets · five · across",
+      "label": "datasets · evaluate · four",
       "x": 2791.01,
       "y": 1505.74,
-      "r": 68.0,
-      "claims": 4,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 4,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -8769,13 +9077,13 @@
     },
     {
       "id": "d_981",
-      "label": "tracking · motion · performance",
+      "label": "tracking · performance · qwen",
       "x": 3310.31,
       "y": 759.09,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -8835,13 +9143,13 @@
     },
     {
       "id": "d_988",
-      "label": "horizon · structured · workflows",
+      "label": "horizon · long · workflows",
       "x": 2383.85,
       "y": 2163.44,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -52649,6 +52957,1706 @@
       "type": "descriptive",
       "text": "Ablation studies further verify that IR-aware captions are crucial for strengthening infrared-language alignment, highlighting the importanc",
       "src": "FusionRS: A Large-Scale RGB-Infrared Rem"
+    },
+    {
+      "id": "clm_005592",
+      "x": -301.46,
+      "y": 475.51,
+      "s": "dim",
+      "d": "d_032",
+      "type": "descriptive",
+      "text": "Saliency map visualizations explain image-based AI predictions by pointing to regions, but these are often unintuitive and semantically uncl",
+      "src": "SketchXplain: Intuitive Visual Explanati"
+    },
+    {
+      "id": "clm_005593",
+      "x": 1338.66,
+      "y": -1763.91,
+      "s": "dim",
+      "d": "d_491",
+      "type": "normative",
+      "text": "We argue that AI explanations should be intuitive -- coherent to user knowledge, yet simple and selective to accelerate interpretation.",
+      "src": "SketchXplain: Intuitive Visual Explanati"
+    },
+    {
+      "id": "clm_005594",
+      "x": 4088.89,
+      "y": 488.71,
+      "s": "dim",
+      "d": "d_1582",
+      "type": "descriptive",
+      "text": "user studies showed that SketchXplain supported quicker interpretation with more aligned visualizations than saliency maps or simple drawing",
+      "src": "SketchXplain: Intuitive Visual Explanati"
+    },
+    {
+      "id": "clm_005595",
+      "x": 4138.8,
+      "y": 497.77,
+      "s": "dim",
+      "d": "d_1582",
+      "type": "normative",
+      "text": "Further evaluation on skin lesion diagnosis found that SketchXplain more coherently visualized disease symptoms, better supporting lay diagn",
+      "src": "SketchXplain: Intuitive Visual Explanati"
+    },
+    {
+      "id": "clm_005596",
+      "x": 4067.72,
+      "y": 529.1,
+      "s": "dim",
+      "d": "d_1582",
+      "type": "descriptive",
+      "text": "Thus, this work illustrates the value of sketches for intuitive, simple, coherent, and quick image-based XAI visualizations.",
+      "src": "SketchXplain: Intuitive Visual Explanati"
+    },
+    {
+      "id": "clm_005597",
+      "x": 2021.91,
+      "y": 3850.91,
+      "s": "dim",
+      "d": "d_1516",
+      "type": "statistical",
+      "text": "temporally misaligned documents-an important aspect when a document collection spans multiple time periods (e.g., retrieving documents from ",
+      "src": "Temporal Preference Optimization for Uns"
+    },
+    {
+      "id": "clm_005598",
+      "x": -1816.44,
+      "y": -1166.5,
+      "s": "dim",
+      "d": "d_1583",
+      "type": "descriptive",
+      "text": "Existing methods rely on supervised training with explicit timestamps, which are not always feasible.",
+      "src": "Temporal Preference Optimization for Uns"
+    },
+    {
+      "id": "clm_005599",
+      "x": 4267.62,
+      "y": 363.13,
+      "s": "dim",
+      "d": "d_1584",
+      "type": "statistical",
+      "text": "Compared to Qwen-Embedding-8B, despite being about 72.7x smaller, TPOUR Contriever improves average nDCG@5 by +4.04 (+12.15%) on explicit",
+      "src": "Temporal Preference Optimization for Uns"
+    },
+    {
+      "id": "clm_005600",
+      "x": 3928.31,
+      "y": -1573.62,
+      "s": "dim",
+      "d": "d_1585",
+      "type": "statistical",
+      "text": "+4.98 (+15.21%) on implicit queries.",
+      "src": "Temporal Preference Optimization for Uns"
+    },
+    {
+      "id": "clm_005601",
+      "x": 3451.25,
+      "y": -1011.74,
+      "s": "dim",
+      "d": "d_1287",
+      "type": "historical",
+      "text": "Multimodal large language models (MLLMs) integrate strong text reasoning with visual inputs, yet their responses can be inconsistent with th",
+      "src": "See First, Answer Later: Visual Evidence"
+    },
+    {
+      "id": "clm_005602",
+      "x": 606.0,
+      "y": 689.32,
+      "s": "dim",
+      "d": "d_054",
+      "type": "descriptive",
+      "text": "Extensive experiments across diverse benchmarks show that our VEPA consistently enhances performance on visually demanding evaluations and c",
+      "src": "See First, Answer Later: Visual Evidence"
+    },
+    {
+      "id": "clm_005603",
+      "x": -4050.87,
+      "y": 845.46,
+      "s": "dim",
+      "d": "d_1236",
+      "type": "descriptive",
+      "text": "Further analyses show that the income stems from strengthened, transferable visual grounding, rather than from additional task-specific trai",
+      "src": "See First, Answer Later: Visual Evidence"
+    },
+    {
+      "id": "clm_005604",
+      "x": 351.11,
+      "y": 490.38,
+      "s": "dim",
+      "d": "d_029",
+      "type": "descriptive",
+      "text": "Existing efforts to mitigate this inefficiency typically rely on discrete reasoning modes or fixed budget tiers, lacking a principled criter",
+      "src": "SuCo: Sufficiency-guided Continuous Adap"
+    },
+    {
+      "id": "clm_005605",
+      "x": 1915.27,
+      "y": 1783.15,
+      "s": "dim",
+      "d": "d_693",
+      "type": "definitional",
+      "text": "In this work, we introduce Minimal Sufficient CoT (MSC), defined as the shortest prefix of a CoT trajectory which is adequate for producing ",
+      "src": "SuCo: Sufficiency-guided Continuous Adap"
+    },
+    {
+      "id": "clm_005606",
+      "x": 2100.72,
+      "y": -1528.29,
+      "s": "dim",
+      "d": "d_585",
+      "type": "descriptive",
+      "text": "We empirically show that MSC not only reduces reasoning tokens",
+      "src": "SuCo: Sufficiency-guided Continuous Adap"
+    },
+    {
+      "id": "clm_005607",
+      "x": 255.7,
+      "y": 840.01,
+      "s": "dim",
+      "d": "d_044",
+      "type": "descriptive",
+      "text": "also improves accuracy across difficulty levels.",
+      "src": "SuCo: Sufficiency-guided Continuous Adap"
+    },
+    {
+      "id": "clm_005608",
+      "x": -1469.16,
+      "y": 1226.82,
+      "s": "dim",
+      "d": "d_334",
+      "type": "other",
+      "text": "Building on MSC, we propose Sufficiency-guided Continuous Adaptive Reasoning (SuCo), a two-stage training framework for autonomous reasoning",
+      "src": "SuCo: Sufficiency-guided Continuous Adap"
+    },
+    {
+      "id": "clm_005609",
+      "x": 834.88,
+      "y": 376.07,
+      "s": "dim",
+      "d": "d_046",
+      "type": "statistical",
+      "text": "In stage 1, MSC-Aligned Fine-Tuning (MFT) constructs MSC data using problem-adaptive sufficiency thresholds that naturally scale with questi",
+      "src": "SuCo: Sufficiency-guided Continuous Adap"
+    },
+    {
+      "id": "clm_005610",
+      "x": -3412.83,
+      "y": -1756.91,
+      "s": "dim",
+      "d": "d_1317",
+      "type": "statistical",
+      "text": "In stage 2, Sufficiency-Aware Policy Optimization (SAPO) further optimizes the model through reinforcement learning with dynamic complexity ",
+      "src": "SuCo: Sufficiency-guided Continuous Adap"
+    },
+    {
+      "id": "clm_005611",
+      "x": -3975.95,
+      "y": -1853.32,
+      "s": "dim",
+      "d": "d_1586",
+      "type": "descriptive",
+      "text": "science benchmarks show that SuCo consistently achieves improvements in both accuracy and reasoning efficiency.",
+      "src": "SuCo: Sufficiency-guided Continuous Adap"
+    },
+    {
+      "id": "clm_005612",
+      "x": -2002.86,
+      "y": -2986.72,
+      "s": "dim",
+      "d": "d_1082",
+      "type": "descriptive",
+      "text": "the ordered construction history that determines how a part can be edited.",
+      "src": "FllumaOne: A Code-Native Multimodal CAD "
+    },
+    {
+      "id": "clm_005613",
+      "x": 1807.22,
+      "y": 3875.66,
+      "s": "dim",
+      "d": "d_1508",
+      "type": "normative",
+      "text": "Datasets for editable CAD research should therefore expose modeling operations, parameters, and feature dependencies together with validated",
+      "src": "FllumaOne: A Code-Native Multimodal CAD "
+    },
+    {
+      "id": "clm_005614",
+      "x": -1202.37,
+      "y": -3701.56,
+      "s": "dim",
+      "d": "d_1587",
+      "type": "empirical",
+      "text": "We introduce FllumaOne, a code-native multimodal CAD dataset whose models are generated by executable Python programs in Flluma, a Qt/C++ Op",
+      "src": "FllumaOne: A Code-Native Multimodal CAD "
+    },
+    {
+      "id": "clm_005615",
+      "x": -1282.11,
+      "y": -4034.78,
+      "s": "dim",
+      "d": "d_1588",
+      "type": "statistical",
+      "text": "The primary release, FllumaOne-100K, contains 100,000 accepted samples across four template-level complexity regimes.",
+      "src": "FllumaOne: A Code-Native Multimodal CAD "
+    },
+    {
+      "id": "clm_005616",
+      "x": 4368.1,
+      "y": 1027.94,
+      "s": "dim",
+      "d": "d_1589",
+      "type": "descriptive",
+      "text": "Programs are executed and retained only after kernel geometry, solid validity, and export checks",
+      "src": "FllumaOne: A Code-Native Multimodal CAD "
+    },
+    {
+      "id": "clm_005617",
+      "x": -1647.4,
+      "y": 4102.02,
+      "s": "dim",
+      "d": "d_1590",
+      "type": "descriptive",
+      "text": "release reports also record modality completeness and split-level duplicate tests.",
+      "src": "FllumaOne: A Code-Native Multimodal CAD "
+    },
+    {
+      "id": "clm_005618",
+      "x": -1166.04,
+      "y": -3714.88,
+      "s": "dim",
+      "d": "d_1587",
+      "type": "statistical",
+      "text": "A Qwen2.5-Coder-1.5B LoRA baseline trained on 80,000 samples achieves 99.98% Python syntax validity, 99.97% Flluma build success",
+      "src": "FllumaOne: A Code-Native Multimodal CAD "
+    },
+    {
+      "id": "clm_005619",
+      "x": -1674.49,
+      "y": 4037.28,
+      "s": "dim",
+      "d": "d_1590",
+      "type": "statistical",
+      "text": "99.14% STEP-export validity on the held-out 10,000-sample test split.",
+      "src": "FllumaOne: A Code-Native Multimodal CAD "
+    },
+    {
+      "id": "clm_005620",
+      "x": 4059.68,
+      "y": 337.84,
+      "s": "dim",
+      "d": "d_1591",
+      "type": "statistical",
+      "text": "For the 9,909 predictions converted to surface point clouds, the mean normalized Chamfer Distance is 0.002124.",
+      "src": "FllumaOne: A Code-Native Multimodal CAD "
+    },
+    {
+      "id": "clm_005621",
+      "x": -2010.36,
+      "y": -2958.4,
+      "s": "dim",
+      "d": "d_1082",
+      "type": "descriptive",
+      "text": "Curriculum learning couples two design choices, how samples are scored by difficulty",
+      "src": "Confusion-Aware Transfer Teacher Curricu"
+    },
+    {
+      "id": "clm_005622",
+      "x": 1227.52,
+      "y": 2589.85,
+      "s": "dim",
+      "d": "d_826",
+      "type": "descriptive",
+      "text": "how harder samples are paced into training, making it difficult to attribute observed gains to either component.",
+      "src": "Confusion-Aware Transfer Teacher Curricu"
+    },
+    {
+      "id": "clm_005623",
+      "x": 3274.25,
+      "y": -1506.76,
+      "s": "dim",
+      "d": "d_1338",
+      "type": "other",
+      "text": "We disentangle these factors with two evaluation protocols: stage-wise test subsets that validate scoring functions independently of curricu",
+      "src": "Confusion-Aware Transfer Teacher Curricu"
+    },
+    {
+      "id": "clm_005624",
+      "x": 4116.45,
+      "y": -756.84,
+      "s": "dim",
+      "d": "d_1592",
+      "type": "statistical",
+      "text": "On CIFAR-10 with ResNet-18",
+      "src": "Confusion-Aware Transfer Teacher Curricu"
+    },
+    {
+      "id": "clm_005625",
+      "x": -142.94,
+      "y": 276.24,
+      "s": "dim",
+      "d": "d_023",
+      "type": "statistical",
+      "text": "VGG-16, the proposed score produces model-interpretable difficulty rankings that align with human intuition.",
+      "src": "Confusion-Aware Transfer Teacher Curricu"
+    },
+    {
+      "id": "clm_005626",
+      "x": -3401.82,
+      "y": -1237.58,
+      "s": "dim",
+      "d": "d_1593",
+      "type": "descriptive",
+      "text": "However, at full data, neither curriculum nor anti-curriculum ordering improves accuracy over standard training, indicating that improving t",
+      "src": "Confusion-Aware Transfer Teacher Curricu"
+    },
+    {
+      "id": "clm_005627",
+      "x": -3380.92,
+      "y": -1201.14,
+      "s": "dim",
+      "d": "d_1593",
+      "type": "causal",
+      "text": "In contrast, We find that confusion-aware curriculum ordering result in consistent data-efficiency benefits, outperforming random ordering b",
+      "src": "Confusion-Aware Transfer Teacher Curricu"
+    },
+    {
+      "id": "clm_005628",
+      "x": 3633.43,
+      "y": -77.93,
+      "s": "dim",
+      "d": "d_1246",
+      "type": "causal",
+      "text": "cause severe forgetting throughout prolonged interactions.",
+      "src": "LiveStarPro: Proactive Streaming Video U"
+    },
+    {
+      "id": "clm_005629",
+      "x": 2410.55,
+      "y": 2206.35,
+      "s": "dim",
+      "d": "d_988",
+      "type": "descriptive",
+      "text": "In this work, we introduce LiveStarPro, a live streaming assistant that is designed for proactive video understanding over long-horizon stre",
+      "src": "LiveStarPro: Proactive Streaming Video U"
+    },
+    {
+      "id": "clm_005630",
+      "x": 665.46,
+      "y": -3798.04,
+      "s": "dim",
+      "d": "d_1594",
+      "type": "other",
+      "text": "The design of LiveStarPro rests on three complementary components.",
+      "src": "LiveStarPro: Proactive Streaming Video U"
+    },
+    {
+      "id": "clm_005631",
+      "x": 3099.18,
+      "y": -2299.67,
+      "s": "dim",
+      "d": "d_1595",
+      "type": "descriptive",
+      "text": "The first component is Streaming Verification Decoding (SVeD), an inference framework that identifies the appropriate response timing throug",
+      "src": "LiveStarPro: Proactive Streaming Video U"
+    },
+    {
+      "id": "clm_005632",
+      "x": 609.95,
+      "y": 4029.18,
+      "s": "dim",
+      "d": "d_1544",
+      "type": "descriptive",
+      "text": "The second component is Streaming Causal Attention Masks (SCAM), a training strategy that enforces incremental video-language alignment over",
+      "src": "LiveStarPro: Proactive Streaming Video U"
+    },
+    {
+      "id": "clm_005633",
+      "x": -3549.86,
+      "y": 737.01,
+      "s": "dim",
+      "d": "d_1120",
+      "type": "descriptive",
+      "text": "The third component is Tree-Structured Hierarchical Memory (TSHM), a recursive memory architecture that organizes evicted historical informa",
+      "src": "LiveStarPro: Proactive Streaming Video U"
+    },
+    {
+      "id": "clm_005634",
+      "x": -3961.92,
+      "y": -867.91,
+      "s": "dim",
+      "d": "d_1535",
+      "type": "statistical",
+      "text": "To facilitate a comprehensive evaluation under realistic online conditions, we further present OmniStarPro, a large-scale benchmark that spa",
+      "src": "LiveStarPro: Proactive Streaming Video U"
+    },
+    {
+      "id": "clm_005635",
+      "x": 722.41,
+      "y": -3790.82,
+      "s": "dim",
+      "d": "d_1594",
+      "type": "statistical",
+      "text": "Extensive experiments demonstrate that LiveStarPro consistently surpasses existing methods, attaining a 28.9% improvement in semantic correc",
+      "src": "LiveStarPro: Proactive Streaming Video U"
+    },
+    {
+      "id": "clm_005636",
+      "x": 3113.4,
+      "y": -2264.19,
+      "s": "dim",
+      "d": "d_1595",
+      "type": "statistical",
+      "text": "an 18.2% reduction in timing error, while its streaming key-value cache further yields a 1.58x inference speedup over the same model without",
+      "src": "LiveStarPro: Proactive Streaming Video U"
+    },
+    {
+      "id": "clm_005637",
+      "x": 727.42,
+      "y": -24.8,
+      "s": "dim",
+      "d": "d_038",
+      "type": "descriptive",
+      "text": "the code are publicly available at https://github.com/sotayang/LiveStarPro.",
+      "src": "LiveStarPro: Proactive Streaming Video U"
+    },
+    {
+      "id": "clm_005638",
+      "x": 3436.89,
+      "y": -795.27,
+      "s": "dim",
+      "d": "d_1149",
+      "type": "descriptive",
+      "text": "Neural network parameter spaces are inherently non-injective, as distinct parameter configurations can realize identical functions through f",
+      "src": "Functional Equivalence in Attention: A C"
+    },
+    {
+      "id": "clm_005639",
+      "x": -1590.9,
+      "y": -3905.8,
+      "s": "dim",
+      "d": "d_1596",
+      "type": "descriptive",
+      "text": "While this symmetry is well understood in classical fully connected and convolutional models, it becomes substantially more intricate in mod",
+      "src": "Functional Equivalence in Attention: A C"
+    },
+    {
+      "id": "clm_005640",
+      "x": -4510.43,
+      "y": 1108.41,
+      "s": "dim",
+      "d": "d_1597",
+      "type": "descriptive",
+      "text": "Existing analyses of multihead attention have largely focused on the vanilla formulation, overlooking positional encodings that fundamentall",
+      "src": "Functional Equivalence in Attention: A C"
+    },
+    {
+      "id": "clm_005641",
+      "x": 1834.54,
+      "y": -3524.84,
+      "s": "dim",
+      "d": "d_1383",
+      "type": "descriptive",
+      "text": "In this work, we provide a formal study of functional equivalence in Transformers with positional encodings.",
+      "src": "Functional Equivalence in Attention: A C"
+    },
+    {
+      "id": "clm_005642",
+      "x": -1885.96,
+      "y": 3369.1,
+      "s": "dim",
+      "d": "d_1598",
+      "type": "other",
+      "text": "Focusing on the two most widely used variants--sinusoidal",
+      "src": "Functional Equivalence in Attention: A C"
+    },
+    {
+      "id": "clm_005643",
+      "x": -4467.35,
+      "y": 1123.95,
+      "s": "dim",
+      "d": "d_1597",
+      "type": "descriptive",
+      "text": "rotary positional encodings (RoPE)--we show that sinusoidal encodings preserve the equivalence structure of vanilla attention, whereas rotar",
+      "src": "Functional Equivalence in Attention: A C"
+    },
+    {
+      "id": "clm_005644",
+      "x": 3097.05,
+      "y": -1730.52,
+      "s": "dim",
+      "d": "d_1263",
+      "type": "descriptive",
+      "text": "Graph-based retrieval-augmented generation (GraphRAG) is effective for knowledge-intensive and multi-hop query tasks; however, many existing",
+      "src": "FlowRAG: Synergizing Explicit Reasoning "
+    },
+    {
+      "id": "clm_005645",
+      "x": 2455.58,
+      "y": 2674.68,
+      "s": "dim",
+      "d": "d_1227",
+      "type": "descriptive",
+      "text": "This often (i) under-retrieves when user queries are abstract and semantically sparse at the entity level",
+      "src": "FlowRAG: Synergizing Explicit Reasoning "
+    },
+    {
+      "id": "clm_005646",
+      "x": 354.89,
+      "y": 434.28,
+      "s": "dim",
+      "d": "d_029",
+      "type": "descriptive",
+      "text": "(ii) suffers from brittle multi-hop reasoning, where noisy activations can derail entity-to-entity transitions and corrupt the inferred rela",
+      "src": "FlowRAG: Synergizing Explicit Reasoning "
+    },
+    {
+      "id": "clm_005647",
+      "x": 3018.85,
+      "y": -1847.4,
+      "s": "dim",
+      "d": "d_1263",
+      "type": "descriptive",
+      "text": "To this end, we propose \\texttt{FlowRAG}, a semantic-aware retrieval framework that improves both semantic recall and explicit reasoning.",
+      "src": "FlowRAG: Synergizing Explicit Reasoning "
+    },
+    {
+      "id": "clm_005648",
+      "x": -138.0,
+      "y": -392.34,
+      "s": "dim",
+      "d": "d_052",
+      "type": "descriptive",
+      "text": "At retrieval time, a dual-granularity activation module combines summary--query alignment with sentence-level matching to activate relevant ",
+      "src": "FlowRAG: Synergizing Explicit Reasoning "
+    },
+    {
+      "id": "clm_005649",
+      "x": 3103.92,
+      "y": -2359.05,
+      "s": "dim",
+      "d": "d_1595",
+      "type": "descriptive",
+      "text": "We then introduce a frequency-aware weighted flow module that routes relevance through entity--passage links weighted by within-passage term",
+      "src": "FlowRAG: Synergizing Explicit Reasoning "
+    },
+    {
+      "id": "clm_005650",
+      "x": 554.85,
+      "y": 696.11,
+      "s": "dim",
+      "d": "d_054",
+      "type": "descriptive",
+      "text": "Extensive experiments show that \\texttt{FlowRAG} obtains state-of-the-art performance on complex reasoning benchmarks.",
+      "src": "FlowRAG: Synergizing Explicit Reasoning "
+    },
+    {
+      "id": "clm_005651",
+      "x": -452.99,
+      "y": 661.49,
+      "s": "dim",
+      "d": "d_045",
+      "type": "medical",
+      "text": "A systematic analysis of their dynamic interaction is essential for improving disease modeling, identifying redundant assessments, and reduc",
+      "src": "A Quantitative Analysis of Multimodal Bi"
+    },
+    {
+      "id": "clm_005652",
+      "x": 3821.31,
+      "y": 1700.53,
+      "s": "dim",
+      "d": "d_1546",
+      "type": "statistical",
+      "text": "APOE4 data from 789 subjects drawn from the ADNI dataset.",
+      "src": "A Quantitative Analysis of Multimodal Bi"
+    },
+    {
+      "id": "clm_005653",
+      "x": 2741.22,
+      "y": -3018.09,
+      "s": "dim",
+      "d": "d_1599",
+      "type": "descriptive",
+      "text": "identify a dominant neurodegenerative trajectory that aligns with cognitive decline.",
+      "src": "A Quantitative Analysis of Multimodal Bi"
+    },
+    {
+      "id": "clm_005654",
+      "x": 767.51,
+      "y": 4.27,
+      "s": "dim",
+      "d": "d_038",
+      "type": "descriptive",
+      "text": "Code is publicly available at: https://github.com/antonioscardace/Multimodal-AD.",
+      "src": "A Quantitative Analysis of Multimodal Bi"
+    },
+    {
+      "id": "clm_005655",
+      "x": 2181.83,
+      "y": 2924.39,
+      "s": "dim",
+      "d": "d_1308",
+      "type": "statistical",
+      "text": "Since scaling pre-trained language models improves downstream capability \\cite{zhao2023survey}, the key-value (KV) cache becomes a dominant ",
+      "src": "AnchorKV: Safety-Aware KV Cache Compress"
+    },
+    {
+      "id": "clm_005656",
+      "x": 2195.9,
+      "y": 2877.55,
+      "s": "dim",
+      "d": "d_1308",
+      "type": "statistical",
+      "text": "Recent KV cache compression methods \\cite{jo2025fastkv,li2024snapkv,zhou2024dynamickv} reduce this cost by retaining only a subset of attent",
+      "src": "AnchorKV: Safety-Aware KV Cache Compress"
+    },
+    {
+      "id": "clm_005657",
+      "x": 3598.76,
+      "y": 2350.13,
+      "s": "dim",
+      "d": "d_1600",
+      "type": "statistical",
+      "text": "However, while these approaches preserve accuracy on benign workloads, their compression policies either fail to defend against jailbreak at",
+      "src": "AnchorKV: Safety-Aware KV Cache Compress"
+    },
+    {
+      "id": "clm_005658",
+      "x": 3648.24,
+      "y": 2415.35,
+      "s": "dim",
+      "d": "d_1600",
+      "type": "definitional",
+      "text": "AnchorKV constructs an offline safety anchor by adapting a difference-of-means representation engineering approach \\cite{arditi2024refusal,z",
+      "src": "AnchorKV: Safety-Aware KV Cache Compress"
+    },
+    {
+      "id": "clm_005659",
+      "x": 2735.68,
+      "y": 3307.16,
+      "s": "dim",
+      "d": "d_1601",
+      "type": "empirical",
+      "text": "Based on this anchor, a soft penalty token selection rule trades a small amount of utility for substantially improved safety alignment, whil",
+      "src": "AnchorKV: Safety-Aware KV Cache Compress"
+    },
+    {
+      "id": "clm_005660",
+      "x": 453.38,
+      "y": 440.39,
+      "s": "dim",
+      "d": "d_029",
+      "type": "descriptive",
+      "text": "Chain-of-Thought (CoT) reasoning has extended from purely linguistic domains to multimodal scenarios; however, existing approaches often tre",
+      "src": "MathVis-Fine: Aligning Visual Supervisio"
+    },
+    {
+      "id": "clm_005661",
+      "x": 3234.58,
+      "y": 1220.89,
+      "s": "dim",
+      "d": "d_1252",
+      "type": "descriptive",
+      "text": "This gives rise to two core issues: first, the supervisory signals for visual content are generalized and coarse-grained, lacking adaptation",
+      "src": "MathVis-Fine: Aligning Visual Supervisio"
+    },
+    {
+      "id": "clm_005662",
+      "x": 929.41,
+      "y": -2989.31,
+      "s": "dim",
+      "d": "d_1302",
+      "type": "descriptive",
+      "text": "second, training feedback becomes inaccurate when visual rewards are uniformly applied without distinguishing the complementary relationship",
+      "src": "MathVis-Fine: Aligning Visual Supervisio"
+    },
+    {
+      "id": "clm_005663",
+      "x": 853.77,
+      "y": 1229.4,
+      "s": "dim",
+      "d": "d_226",
+      "type": "descriptive",
+      "text": "In this work, we propose a framework for modeling fine-grained visual dependencies in mathematical reasoning.",
+      "src": "MathVis-Fine: Aligning Visual Supervisio"
+    },
+    {
+      "id": "clm_005664",
+      "x": -3994.92,
+      "y": 845.6,
+      "s": "dim",
+      "d": "d_1236",
+      "type": "other",
+      "text": "Building upon this dataset, we introduce a two-stage progressive visual enhancement training paradigm that balances answer correctness rewar",
+      "src": "MathVis-Fine: Aligning Visual Supervisio"
+    },
+    {
+      "id": "clm_005665",
+      "x": 3859.78,
+      "y": -449.79,
+      "s": "dim",
+      "d": "d_1251",
+      "type": "predictive",
+      "text": "We will release the dataset upon acceptance.",
+      "src": "MathVis-Fine: Aligning Visual Supervisio"
+    },
+    {
+      "id": "clm_005666",
+      "x": -323.37,
+      "y": 112.29,
+      "s": "dim",
+      "d": "d_013",
+      "type": "normative",
+      "text": "Compositional learning systems must balance plasticity, the ability to acquire new knowledge, with stability, the preservation of previously",
+      "src": "Dimensionality Controls When Modularity "
+    },
+    {
+      "id": "clm_005667",
+      "x": -364.39,
+      "y": 2545.0,
+      "s": "dim",
+      "d": "d_560",
+      "type": "descriptive",
+      "text": "internal geometry, suggesting that explicit modular structure has little impact when representations are weakly constrained.",
+      "src": "Dimensionality Controls When Modularity "
+    },
+    {
+      "id": "clm_005668",
+      "x": -63.04,
+      "y": -365.08,
+      "s": "dim",
+      "d": "d_052",
+      "type": "empirical",
+      "text": "These findings identify the representational regime induced by initialization scale, which co-varies with representational dimensionality, a",
+      "src": "Dimensionality Controls When Modularity "
+    },
+    {
+      "id": "clm_005669",
+      "x": -4113.09,
+      "y": 872.1,
+      "s": "dim",
+      "d": "d_1236",
+      "type": "descriptive",
+      "text": "However, existing Multi-modal Coreference Resolution (MCR) methods require training with (partially) annotated data from the target dataset ",
+      "src": "Plug-and-Adapt: Multimodal Coreference R"
+    },
+    {
+      "id": "clm_005670",
+      "x": 2472.4,
+      "y": 9.35,
+      "s": "dim",
+      "d": "d_722",
+      "type": "descriptive",
+      "text": "many are only accessible through paid APIs.",
+      "src": "Plug-and-Adapt: Multimodal Coreference R"
+    },
+    {
+      "id": "clm_005671",
+      "x": 548.95,
+      "y": -2739.21,
+      "s": "dim",
+      "d": "d_1153",
+      "type": "statistical",
+      "text": "Experiments on the Coreference Image Narratives (CIN) benchmark dataset demonstrate the effectiveness of our method, achieving a 5.31\\%",
+      "src": "Plug-and-Adapt: Multimodal Coreference R"
+    },
+    {
+      "id": "clm_005672",
+      "x": -4084.95,
+      "y": -824.89,
+      "s": "dim",
+      "d": "d_1602",
+      "type": "statistical",
+      "text": "2.12\\% improvement in CoNLL F1 over SOTA dedicated methods and popular VLLMs, respectively.",
+      "src": "Plug-and-Adapt: Multimodal Coreference R"
+    },
+    {
+      "id": "clm_005673",
+      "x": 3793.25,
+      "y": 772.98,
+      "s": "dim",
+      "d": "d_1320",
+      "type": "descriptive",
+      "text": "STAR: SpatioTemporal Adaptive Reward Allocation for Text-to-Image RL Post-Training",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005674",
+      "x": -14.62,
+      "y": 645.9,
+      "s": "dim",
+      "d": "d_022",
+      "type": "descriptive",
+      "text": "However, text-to-image generation naturally has temporal",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005675",
+      "x": 3425.36,
+      "y": 4.69,
+      "s": "dim",
+      "d": "d_1231",
+      "type": "descriptive",
+      "text": "spatial structure: different denoising steps are responsible for different generation stages",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005676",
+      "x": 4208.87,
+      "y": 152.69,
+      "s": "dim",
+      "d": "d_1555",
+      "type": "descriptive",
+      "text": "the content that truly determines text alignment often appears only in part of the image.",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005677",
+      "x": 2596.79,
+      "y": -429.54,
+      "s": "dim",
+      "d": "d_1275",
+      "type": "empirical",
+      "text": "This granularity mismatch makes it difficult for policy updates to focus on the generative components that actually affect the reward.",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005678",
+      "x": 3811.69,
+      "y": 744.77,
+      "s": "dim",
+      "d": "d_1320",
+      "type": "descriptive",
+      "text": "To address this issue, we propose \\textbf{SpatioTemporal Adaptive Reward (STAR) Allocation} for RL post-training of text-to-image diffusion ",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005679",
+      "x": -156.17,
+      "y": 686.42,
+      "s": "dim",
+      "d": "d_022",
+      "type": "descriptive",
+      "text": "STAR uses text-image attention inside the generative model and starts from the core content that the user truly cares about in the prompt.",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005680",
+      "x": 1301.87,
+      "y": -2857.24,
+      "s": "dim",
+      "d": "d_841",
+      "type": "empirical",
+      "text": "STAR then applies stronger policy updates to these regions through a spatially resolved policy objective.",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005681",
+      "x": -2326.68,
+      "y": 3166.3,
+      "s": "dim",
+      "d": "d_1406",
+      "type": "statistical",
+      "text": "We use Stable Diffusion 3.5 Medium as the base model",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005682",
+      "x": -4243.84,
+      "y": -769.76,
+      "s": "dim",
+      "d": "d_1603",
+      "type": "other",
+      "text": "evaluate on three tasks: GenEval, OCR text rendering, and PickScore.",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005683",
+      "x": -84.31,
+      "y": 662.26,
+      "s": "dim",
+      "d": "d_022",
+      "type": "descriptive",
+      "text": "Experimental results show that STAR improves compositional semantic alignment, text rendering",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005684",
+      "x": 3074.41,
+      "y": 1415.32,
+      "s": "dim",
+      "d": "d_1604",
+      "type": "statistical",
+      "text": "preference optimization without changing the external reward source, achieving $\\mathbf{0.9759}$, $\\mathbf{0.9757}$",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005685",
+      "x": -4273.24,
+      "y": -676.5,
+      "s": "dim",
+      "d": "d_1603",
+      "type": "statistical",
+      "text": "$\\mathbf{23.60}$ on GenEval, OCR, and PickScore, respectively.",
+      "src": "STAR: SpatioTemporal Adaptive Reward All"
+    },
+    {
+      "id": "clm_005686",
+      "x": 2026.05,
+      "y": 3915.78,
+      "s": "dim",
+      "d": "d_1516",
+      "type": "statistical",
+      "text": "C2FL: Clustered Continual Federated Learning under Spatial and Temporal Drift",
+      "src": "C2FL: Clustered Continual Federated Lear"
+    },
+    {
+      "id": "clm_005687",
+      "x": 4206.95,
+      "y": -118.38,
+      "s": "dim",
+      "d": "d_1605",
+      "type": "descriptive",
+      "text": "Scaling this intelligence, however, raises fundamental challenges: sensed data is often privacy-sensitive, preventing centralized collection",
+      "src": "C2FL: Clustered Continual Federated Lear"
+    },
+    {
+      "id": "clm_005688",
+      "x": 3470.46,
+      "y": 10.28,
+      "s": "dim",
+      "d": "d_1231",
+      "type": "descriptive",
+      "text": "nodes are mobile, traversing regions where nearby nodes perceive similar phenomena while distant ones observe radically different conditions",
+      "src": "C2FL: Clustered Continual Federated Lear"
+    },
+    {
+      "id": "clm_005689",
+      "x": 3833.34,
+      "y": -173.24,
+      "s": "dim",
+      "d": "d_1301",
+      "type": "causal",
+      "text": "and these distributions evolve over time due to mobility, introducing temporal drift that makes local models progressively stale.",
+      "src": "C2FL: Clustered Continual Federated Lear"
+    },
+    {
+      "id": "clm_005690",
+      "x": 3360.73,
+      "y": 29.4,
+      "s": "dim",
+      "d": "d_1231",
+      "type": "causal",
+      "text": "Therefore, we propose C2FL, a fully distributed Federated Learning (FL) approach where nodes self-organize into learning groups through spat",
+      "src": "C2FL: Clustered Continual Federated Lear"
+    },
+    {
+      "id": "clm_005691",
+      "x": -1414.92,
+      "y": 1188.96,
+      "s": "dim",
+      "d": "d_334",
+      "type": "descriptive",
+      "text": "To counteract temporal drift, each node combines experience replay with a dwell-time-aware adaptive averaging step, progressively incorporat",
+      "src": "C2FL: Clustered Continual Federated Lear"
+    },
+    {
+      "id": "clm_005692",
+      "x": -387.46,
+      "y": 476.87,
+      "s": "dim",
+      "d": "d_032",
+      "type": "descriptive",
+      "text": "Large language models (LLMs) are increasingly deployed as autonomous agents that make consumption decisions on behalf of users.",
+      "src": "LLM Consumer Behavior Theory: Foundation"
+    },
+    {
+      "id": "clm_005693",
+      "x": 1876.38,
+      "y": -3484.78,
+      "s": "dim",
+      "d": "d_1383",
+      "type": "descriptive",
+      "text": "This shift raises fundamental questions for consumer theory, which has traditionally modeled humans as the primary decision-makers.",
+      "src": "LLM Consumer Behavior Theory: Foundation"
+    },
+    {
+      "id": "clm_005694",
+      "x": -408.62,
+      "y": 537.76,
+      "s": "dim",
+      "d": "d_032",
+      "type": "empirical",
+      "text": "behavioral economics alongside recent advances in Natural Language Processing, we formalize how human preferences are reflected and acted up",
+      "src": "LLM Consumer Behavior Theory: Foundation"
+    },
+    {
+      "id": "clm_005695",
+      "x": -10.07,
+      "y": 1027.81,
+      "s": "dim",
+      "d": "d_039",
+      "type": "descriptive",
+      "text": "heterogeneity, may fail in agentic markets.",
+      "src": "LLM Consumer Behavior Theory: Foundation"
+    },
+    {
+      "id": "clm_005696",
+      "x": 801.99,
+      "y": 4112.72,
+      "s": "dim",
+      "d": "d_1489",
+      "type": "descriptive",
+      "text": "Standard factuality metrics usually test whether an answer is supported by pooled evidence, missing a provenance-sensitive failure mode: a c",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005697",
+      "x": 1098.22,
+      "y": -3210.26,
+      "s": "dim",
+      "d": "d_1272",
+      "type": "descriptive",
+      "text": "compares stated attribution with the routed source; and returns per-claim verdicts plus an answer-level allow/block decision.",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005698",
+      "x": 2786.84,
+      "y": -388.73,
+      "s": "dim",
+      "d": "d_729",
+      "type": "descriptive",
+      "text": "Blocked answers can be repaired with retrieval-augmented answer revision and re-verified.",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005699",
+      "x": 2773.05,
+      "y": 1519.35,
+      "s": "dim",
+      "d": "d_977",
+      "type": "statistical",
+      "text": "We evaluate on 281 medical-domain MCP-agent traces.",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005700",
+      "x": -3843.27,
+      "y": 658.41,
+      "s": "dim",
+      "d": "d_1606",
+      "type": "statistical",
+      "text": "A 266-trace adjudicated subset yields 2,325 LLM-assisted claim labels split by trace",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005701",
+      "x": 248.16,
+      "y": -4129.3,
+      "s": "dim",
+      "d": "d_1607",
+      "type": "statistical",
+      "text": "361 held-out labels are human-verified.",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005702",
+      "x": -3824.32,
+      "y": 662.04,
+      "s": "dim",
+      "d": "d_1606",
+      "type": "statistical",
+      "text": "On the 40-trace held-out split, ProvenanceGuard achieves block F1 0.802",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005703",
+      "x": 312.76,
+      "y": 662.61,
+      "s": "dim",
+      "d": "d_035",
+      "type": "statistical",
+      "text": "source accuracy 0.858 over 260 source-eligible claims, outperforming source-blind baselines that do not emit claim-to-source IDs.",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005704",
+      "x": 3639.92,
+      "y": -487.15,
+      "s": "dim",
+      "d": "d_1608",
+      "type": "statistical",
+      "text": "On a harder multi-source benchmark it reaches block F1 0.846, while source-plus-relation accuracy drops to 0.229, showing that exact source ",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005705",
+      "x": -4570.02,
+      "y": 653.2,
+      "s": "dim",
+      "d": "d_1609",
+      "type": "other",
+      "text": "Repair-and-reverify resolves all blocked answers in the full trace set, often via conservative fallback.",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005706",
+      "x": 4329.11,
+      "y": 700.5,
+      "s": "dim",
+      "d": "d_1610",
+      "type": "statistical",
+      "text": "In 50 controlled clinical conflation probes, ProvenanceGuard detects all injected attribution swaps with no retained wrong attribution.",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005707",
+      "x": -3002.53,
+      "y": -2855.54,
+      "s": "dim",
+      "d": "d_1436",
+      "type": "descriptive",
+      "text": "These results show that source attribution is an independent axis for factuality verification in MCP-based agents.",
+      "src": "ProvenanceGuard: Source-Aware Factuality"
+    },
+    {
+      "id": "clm_005708",
+      "x": -398.39,
+      "y": 1117.97,
+      "s": "dim",
+      "d": "d_081",
+      "type": "descriptive",
+      "text": "We present PseudoBench, an adversarial benchmark for evaluating whether agentic auto-research systems can identify and resist pseudoscientif",
+      "src": "PseudoBench: Measuring How Agentic Auto-"
+    },
+    {
+      "id": "clm_005709",
+      "x": 2888.25,
+      "y": -3151.48,
+      "s": "dim",
+      "d": "d_1611",
+      "type": "statistical",
+      "text": "PseudoBench contains 200 curated pseudoscientific claim-evidence pairs across five domains",
+      "src": "PseudoBench: Measuring How Agentic Auto-"
+    },
+    {
+      "id": "clm_005710",
+      "x": 2555.21,
+      "y": 3268.79,
+      "s": "dim",
+      "d": "d_1612",
+      "type": "descriptive",
+      "text": "evaluates agents through an end-to-end research pipeline from experiments to writing.",
+      "src": "PseudoBench: Measuring How Agentic Auto-"
+    },
+    {
+      "id": "clm_005711",
+      "x": 2914.29,
+      "y": -3158.97,
+      "s": "dim",
+      "d": "d_1611",
+      "type": "descriptive",
+      "text": "Testing seven state-of-the-art agents, we find that current systems readily produce persuasive reports that align with pseudoscientific prem",
+      "src": "PseudoBench: Measuring How Agentic Auto-"
+    },
+    {
+      "id": "clm_005712",
+      "x": 3977.36,
+      "y": 1597.13,
+      "s": "dim",
+      "d": "d_1613",
+      "type": "statistical",
+      "text": "the highest resistance of only 27.4%.",
+      "src": "PseudoBench: Measuring How Agentic Auto-"
+    },
+    {
+      "id": "clm_005713",
+      "x": 847.06,
+      "y": 331.65,
+      "s": "dim",
+      "d": "d_046",
+      "type": "causal",
+      "text": "Medical image classification faces a fundamental dilemma: while deep learning models achieve remarkable performance at scale, real-world cli",
+      "src": "When LLMs Analyze Scars: From Images to "
+    },
+    {
+      "id": "clm_005714",
+      "x": -2265.5,
+      "y": 3469.47,
+      "s": "dim",
+      "d": "d_1614",
+      "type": "descriptive",
+      "text": "This challenge is particularly pronounced in pathological scar classification, where differentiating keloids from hypertrophic scars require",
+      "src": "When LLMs Analyze Scars: From Images to "
+    },
+    {
+      "id": "clm_005715",
+      "x": 4364.06,
+      "y": 22.1,
+      "s": "dim",
+      "d": "d_1615",
+      "type": "descriptive",
+      "text": "labeled images are extremely limited.",
+      "src": "When LLMs Analyze Scars: From Images to "
+    },
+    {
+      "id": "clm_005716",
+      "x": -47.24,
+      "y": -62.34,
+      "s": "dim",
+      "d": "d_001",
+      "type": "descriptive",
+      "text": "We propose a novel paradigm that repositions large language models (LLMs) as knowledge-driven feature engineers rather than end-to-end class",
+      "src": "When LLMs Analyze Scars: From Images to "
+    },
+    {
+      "id": "clm_005717",
+      "x": 3403.54,
+      "y": 55.79,
+      "s": "dim",
+      "d": "d_1231",
+      "type": "medical",
+      "text": "Our key insight is that LLMs encode rich medical knowledge that can be externalized as executable feature extraction code, enabling the tran",
+      "src": "When LLMs Analyze Scars: From Images to "
+    },
+    {
+      "id": "clm_005718",
+      "x": 105.81,
+      "y": 176.4,
+      "s": "dim",
+      "d": "d_011",
+      "type": "statistical",
+      "text": "Our approach offers three key advantages: (1) data efficiency, achieving robust performance with limited training samples by decoupling know",
+      "src": "When LLMs Analyze Scars: From Images to "
+    },
+    {
+      "id": "clm_005719",
+      "x": 4532.53,
+      "y": 154.02,
+      "s": "dim",
+      "d": "d_1616",
+      "type": "statistical",
+      "text": "(2) privacy preservation, as raw images are processed locally without exposure to external LLMs",
+      "src": "When LLMs Analyze Scars: From Images to "
+    },
+    {
+      "id": "clm_005720",
+      "x": -1379.4,
+      "y": 4087.12,
+      "s": "dim",
+      "d": "d_1504",
+      "type": "statistical",
+      "text": "and (3) interpretability, through explicit features grounded in clinical reasoning.",
+      "src": "When LLMs Analyze Scars: From Images to "
+    },
+    {
+      "id": "clm_005721",
+      "x": 37.78,
+      "y": -14.9,
+      "s": "dim",
+      "d": "d_001",
+      "type": "medical",
+      "text": "Extensive experiments on scar classification demonstrate that our method consistently outperforms end-to-end deep learning baselines or usin",
+      "src": "When LLMs Analyze Scars: From Images to "
+    },
+    {
+      "id": "clm_005722",
+      "x": -272.26,
+      "y": -228.83,
+      "s": "dim",
+      "d": "d_019",
+      "type": "descriptive",
+      "text": "Cross-end-effector grasp generation seeks a unified model that generalizes across objects",
+      "src": "EAGG: Embodiment-Aligned Grasp Generatio"
+    },
+    {
+      "id": "clm_005723",
+      "x": 3265.22,
+      "y": 327.99,
+      "s": "dim",
+      "d": "d_1617",
+      "type": "descriptive",
+      "text": "across embodiments ranging from parallel grippers to dexterous end effectors.",
+      "src": "EAGG: Embodiment-Aligned Grasp Generatio"
+    },
+    {
+      "id": "clm_005724",
+      "x": 54.58,
+      "y": 3444.01,
+      "s": "dim",
+      "d": "d_1248",
+      "type": "descriptive",
+      "text": "Existing grasp generators are typically designed for a fixed embodiment or encode embodiment identity with a static descriptor, which weaken",
+      "src": "EAGG: Embodiment-Aligned Grasp Generatio"
+    },
+    {
+      "id": "clm_005725",
+      "x": 3233.42,
+      "y": 317.77,
+      "s": "dim",
+      "d": "d_1617",
+      "type": "descriptive",
+      "text": "We present EAGG, an embodiment-aligned grasp generator that represents each embodiment with a topology-aware end-effector graph",
+      "src": "EAGG: Embodiment-Aligned Grasp Generatio"
+    },
+    {
+      "id": "clm_005726",
+      "x": 3246.94,
+      "y": 372.21,
+      "s": "dim",
+      "d": "d_1617",
+      "type": "descriptive",
+      "text": "an embodiment-specific low-dimensional end-effector control space.",
+      "src": "EAGG: Embodiment-Aligned Grasp Generatio"
+    },
+    {
+      "id": "clm_005727",
+      "x": 3757.51,
+      "y": 183.26,
+      "s": "dim",
+      "d": "d_1618",
+      "type": "descriptive",
+      "text": "A frozen end-effector-cognition backbone converts the current articulated state into geometry-aware tokens that act as a reusable morphology",
+      "src": "EAGG: Embodiment-Aligned Grasp Generatio"
+    },
+    {
+      "id": "clm_005728",
+      "x": 3761.41,
+      "y": 136.42,
+      "s": "dim",
+      "d": "d_1618",
+      "type": "descriptive",
+      "text": "iterative geometry injection refreshes these tokens throughout sampling so that conditioning remains synchronized with the evolving end-effe",
+      "src": "EAGG: Embodiment-Aligned Grasp Generatio"
+    },
+    {
+      "id": "clm_005729",
+      "x": 3240.27,
+      "y": 373.22,
+      "s": "dim",
+      "d": "d_1617",
+      "type": "statistical",
+      "text": "On the MultiGripperGrasp benchmark, EAGG reaches 56.17% average success across six training end effectors, remaining within 1.10 percentage ",
+      "src": "EAGG: Embodiment-Aligned Grasp Generatio"
+    },
+    {
+      "id": "clm_005730",
+      "x": 4284.07,
+      "y": 532.68,
+      "s": "dim",
+      "d": "d_1619",
+      "type": "statistical",
+      "text": "Iterative geometry injection further reduces the pooled median contact distance from 0.239 cm to 0.189 cm.",
+      "src": "EAGG: Embodiment-Aligned Grasp Generatio"
+    },
+    {
+      "id": "clm_005731",
+      "x": 3261.34,
+      "y": 357.05,
+      "s": "dim",
+      "d": "d_1617",
+      "type": "descriptive",
+      "text": "These results show that cross-end-effector grasp generation is strengthened by aligning embodiment structure inside a shared generator rathe",
+      "src": "EAGG: Embodiment-Aligned Grasp Generatio"
+    },
+    {
+      "id": "clm_005732",
+      "x": 735.13,
+      "y": -22.97,
+      "s": "dim",
+      "d": "d_038",
+      "type": "descriptive",
+      "text": "Code is available at https://github.com/wanhaoniu/EAGG.",
+      "src": "EAGG: Embodiment-Aligned Grasp Generatio"
+    },
+    {
+      "id": "clm_005733",
+      "x": 3438.52,
+      "y": 789.34,
+      "s": "dim",
+      "d": "d_1278",
+      "type": "empirical",
+      "text": "Recent incidents involving LLMs used for mental-health support reveal a critical evaluation gap: surface-level safety scores do not capture ",
+      "src": "Towards Understanding and Measuring COGN"
+    },
+    {
+      "id": "clm_005734",
+      "x": -540.8,
+      "y": 644.08,
+      "s": "dim",
+      "d": "d_045",
+      "type": "empirical",
+      "text": "We formalize this missing dimension as COGNITIVE ATROPHY, a process-level behavioural measure in AI-mediated mental-health support distinct ",
+      "src": "Towards Understanding and Measuring COGN"
+    },
+    {
+      "id": "clm_005735",
+      "x": -1918.98,
+      "y": 275.12,
+      "s": "dim",
+      "d": "d_274",
+      "type": "statistical",
+      "text": "To measure it, we introduce COGNITIVE ATROPHY BENCH, a clinically grounded benchmark built from 1,576 fully human-generated counseling conve",
+      "src": "Towards Understanding and Measuring COGN"
+    },
+    {
+      "id": "clm_005736",
+      "x": -1581.04,
+      "y": -441.16,
+      "s": "dim",
+      "d": "d_297",
+      "type": "statistical",
+      "text": "42,230 responses from five LLMs.",
+      "src": "Towards Understanding and Measuring COGN"
+    },
+    {
+      "id": "clm_005737",
+      "x": 3497.25,
+      "y": 765.15,
+      "s": "dim",
+      "d": "d_1278",
+      "type": "statistical",
+      "text": "neuropsychology experts developed a 20-attribute schema spanning user context, response behaviour, and global risk flags",
+      "src": "Towards Understanding and Measuring COGN"
+    },
+    {
+      "id": "clm_005738",
+      "x": 3773.7,
+      "y": 1893.26,
+      "s": "dim",
+      "d": "d_1620",
+      "type": "statistical",
+      "text": "six trained clinical reviewers applied it with span-grounded evidence, producing 5,324 reviewer judgments.",
+      "src": "Towards Understanding and Measuring COGN"
+    },
+    {
+      "id": "clm_005739",
+      "x": 338.21,
+      "y": 548.71,
+      "s": "dim",
+      "d": "d_029",
+      "type": "descriptive",
+      "text": "Across five LLMs, models show a consistent moderate-to-high level of atrophy-aligned behaviour across single and multi-turn settings.",
+      "src": "Towards Understanding and Measuring COGN"
+    },
+    {
+      "id": "clm_005740",
+      "x": 499.21,
+      "y": -580.05,
+      "s": "dim",
+      "d": "d_065",
+      "type": "descriptive",
+      "text": "The dominant recurring patterns are directive advice, problem-solving, recommendation responses, topic shifts, and forms of validation that ",
+      "src": "Towards Understanding and Measuring COGN"
+    },
+    {
+      "id": "clm_005741",
+      "x": 72.95,
+      "y": 12.76,
+      "s": "dim",
+      "d": "d_001",
+      "type": "descriptive",
+      "text": "Our work makes COGNITIVE ATROPHY measurable and provides a foundation for auditing model behaviour in sensitive LLM conversations.",
+      "src": "Towards Understanding and Measuring COGN"
+    },
+    {
+      "id": "clm_005742",
+      "x": 3046.59,
+      "y": -1725.23,
+      "s": "dim",
+      "d": "d_1263",
+      "type": "descriptive",
+      "text": "existing end-to-end methods often couple task inference with embodiment-specific control.",
+      "src": "Knowledge Reutilization in Meta-Reinforc"
+    },
+    {
+      "id": "clm_005743",
+      "x": 519.31,
+      "y": 296.26,
+      "s": "dim",
+      "d": "d_020",
+      "type": "descriptive",
+      "text": "This coupling can obscure non-parametric task semantics, reduce sample efficiency, and limit cross-agent reuse.",
+      "src": "Knowledge Reutilization in Meta-Reinforc"
+    },
+    {
+      "id": "clm_005744",
+      "x": 632.59,
+      "y": 641.67,
+      "s": "dim",
+      "d": "d_054",
+      "type": "statistical",
+      "text": "Experiments on multiple locomotion agents show that our framework reduces final-step tracking error by 94.75% -- 99.79% compared with recent",
+      "src": "Knowledge Reutilization in Meta-Reinforc"
+    },
+    {
+      "id": "clm_005745",
+      "x": 3098.69,
+      "y": 1736.14,
+      "s": "dim",
+      "d": "d_1249",
+      "type": "statistical",
+      "text": "achieves comparable deployment performance with about 23.8% of their interaction data.",
+      "src": "Knowledge Reutilization in Meta-Reinforc"
+    },
+    {
+      "id": "clm_005746",
+      "x": -1953.04,
+      "y": -3192.53,
+      "s": "dim",
+      "d": "d_1621",
+      "type": "medical",
+      "text": "Language models are remarkably capable at medical question answering, in some cases surpassing the accuracy of general physicians.",
+      "src": "WEQA: Wearable hEalth Question Answering"
+    },
+    {
+      "id": "clm_005747",
+      "x": -3795.32,
+      "y": -2022.74,
+      "s": "dim",
+      "d": "d_1622",
+      "type": "descriptive",
+      "text": "longitudinal data, which is non-trivial to align with text-centric distributions in LLM pretraining.",
+      "src": "WEQA: Wearable hEalth Question Answering"
+    },
+    {
+      "id": "clm_005748",
+      "x": -238.25,
+      "y": 3991.11,
+      "s": "dim",
+      "d": "d_1565",
+      "type": "descriptive",
+      "text": "An LLM controller is employed to synthesize execution plans and dynamically route each query to the appropriate combination of sensor analys",
+      "src": "WEQA: Wearable hEalth Question Answering"
+    },
+    {
+      "id": "clm_005749",
+      "x": 2830.35,
+      "y": 1522.24,
+      "s": "dim",
+      "d": "d_977",
+      "type": "other",
+      "text": "We also curate a benchmark spanning four open wearable datasets comprising analytic",
+      "src": "WEQA: Wearable hEalth Question Answering"
+    },
+    {
+      "id": "clm_005750",
+      "x": 2464.06,
+      "y": -2608.31,
+      "s": "dim",
+      "d": "d_1163",
+      "type": "other",
+      "text": "predictive tasks in three different health domains.",
+      "src": "WEQA: Wearable hEalth Question Answering"
+    },
+    {
+      "id": "clm_005751",
+      "x": 534.82,
+      "y": 759.21,
+      "s": "dim",
+      "d": "d_054",
+      "type": "statistical",
+      "text": "Experiments show that our framework is 24% more accurate than LLM and agentic baselines",
+      "src": "WEQA: Wearable hEalth Question Answering"
+    },
+    {
+      "id": "clm_005752",
+      "x": -245.24,
+      "y": 4113.15,
+      "s": "dim",
+      "d": "d_1623",
+      "type": "statistical",
+      "text": "a blinded study with 12 medical experts",
+      "src": "WEQA: Wearable hEalth Question Answering"
+    },
+    {
+      "id": "clm_005753",
+      "x": 3877.05,
+      "y": 1847.46,
+      "s": "dim",
+      "d": "d_1624",
+      "type": "statistical",
+      "text": "8 users shows substantial gains in usefulness and clinical soundness.",
+      "src": "WEQA: Wearable hEalth Question Answering"
+    },
+    {
+      "id": "clm_005754",
+      "x": -2632.73,
+      "y": -1089.15,
+      "s": "dim",
+      "d": "d_718",
+      "type": "medical",
+      "text": "Evolving Open-Ended Evaluation of Personal Health Agents across Health Memory and Medical Skills",
+      "src": "RubricsTree: Scalable and Evolving Open-"
+    },
+    {
+      "id": "clm_005755",
+      "x": 4096.55,
+      "y": 1423.72,
+      "s": "dim",
+      "d": "d_1625",
+      "type": "empirical",
+      "text": "The LLM-empowered personal health agents with user health (sensor) metrics have offered a promising pathway to alleviate global disparities ",
+      "src": "RubricsTree: Scalable and Evolving Open-"
+    },
+    {
+      "id": "clm_005756",
+      "x": 797.26,
+      "y": 310.05,
+      "s": "dim",
+      "d": "d_046",
+      "type": "medical",
+      "text": "However, large-scale clinical deployment remains constrained by an open-ended evaluation bottleneck: physician annotation is reliable but co",
+      "src": "RubricsTree: Scalable and Evolving Open-"
+    },
+    {
+      "id": "clm_005757",
+      "x": 4308.46,
+      "y": 1422.72,
+      "s": "dim",
+      "d": "d_1626",
+      "type": "descriptive",
+      "text": "unscalable, while LLM-as-a-judge evaluators are scalable but subjective, inconsistent, and sometimes clinically misaligned.",
+      "src": "RubricsTree: Scalable and Evolving Open-"
+    },
+    {
+      "id": "clm_005758",
+      "x": 3264.98,
+      "y": -1486.32,
+      "s": "dim",
+      "d": "d_1338",
+      "type": "statistical",
+      "text": "We introduce RubricsTree, a scalable evaluation framework with an expert-aligned hierarchical taxonomy of over 100 atomic, clinically-verifi",
+      "src": "RubricsTree: Scalable and Evolving Open-"
+    },
+    {
+      "id": "clm_005759",
+      "x": 300.89,
+      "y": 3864.38,
+      "s": "dim",
+      "d": "d_1266",
+      "type": "descriptive",
+      "text": "A context-aware adaptive router activates only the relevant auto-weighted rubric subset per query, providing the throughput needed for scala",
+      "src": "RubricsTree: Scalable and Evolving Open-"
+    },
+    {
+      "id": "clm_005760",
+      "x": 3249.76,
+      "y": -1517.23,
+      "s": "dim",
+      "d": "d_1338",
+      "type": "descriptive",
+      "text": "Through a systematic meta-evaluation, we show that RubricsTree (i) substantially exceeds a strong large-scale evaluation baseline in expert ",
+      "src": "RubricsTree: Scalable and Evolving Open-"
+    },
+    {
+      "id": "clm_005761",
+      "x": 3324.71,
+      "y": 733.12,
+      "s": "dim",
+      "d": "d_981",
+      "type": "statistical",
+      "text": "and (iii) when used as structured instructions, text feedback, or training rewards for performance optimization, yields up to ~66% relative ",
+      "src": "RubricsTree: Scalable and Evolving Open-"
     }
   ],
   "tensions": [

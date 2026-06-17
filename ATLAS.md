@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run manual-20260611 · sources 162 · claims 4376 · edges 1276 · verified 73
+run manual-20260611 · sources 187 · claims 4546 · edges 1276 · verified 73
 
 ## Districts
 
@@ -11,29 +11,29 @@ run manual-20260611 · sources 162 · claims 4376 · edges 1276 · verified 73
 Model Arena Leaderboard Churn          ▓▓▓▓▓▓▓░░░    118 claims  ⚡0
 Anthropic Company Moves                ▓▓▓▓▓▓░░░░    104 claims  ⚡0
 AI Existential Risk Discourse          ▓▓▓▓▓░░░░░     49 claims  ⚡0
-Multi-Agent LLM Systems                ▓▓▓░░░░░░░     34 claims  ⚡0
+Multi-Agent LLM Systems                ▓▓░░░░░░░░     37 claims  ⚡0
 US AI Policy and Classrooms            ▓▓▓▓▓░░░░░     34 claims  ⚡0
 Epistemic Uncertainty Hedges           ▓▓▓░░░░░░░     34 claims  ⚡0
 Pope Leo on AI Ethics                  ▓▓▓▓░░░░░░     31 claims  ⚡1
 Compute and Funding Demands            ▓▓▓░░░░░░░     25 claims  ⚡0
 Gemini Model Benchmarks                ▓▓▓░░░░░░░     25 claims  ⚡0
+Benchmark Baselines and Agent Scaling  ▓░░░░░░░░░     24 claims  ⚡0
 Opus Behavioral Quirks                 ▓▓▓▓░░░░░░     24 claims  ⚡0
-Cross-Modal Knowledge Distillation     ▓▓░░░░░░░░     22 claims  ⚡0
+Cross-Modal Knowledge Distillation     ▓▓░░░░░░░░     23 claims  ⚡0
 State Frontier AI Safety Laws          ▓▓▓▓▓░░░░░     22 claims  ⚡0
+LLM Architecture Research              ▓░░░░░░░░░     21 claims  ⚡0
 Federal AI Security Mandates           ▓▓░░░░░░░░     21 claims  ⚡0
-Benchmark Baselines and Agent Scaling  ▓░░░░░░░░░     20 claims  ⚡0
 Hollow Public AI Claims                ▓▓▓▓▓▓░░░░     20 claims  ⚡0
 Mythos Deployment Reports              ▓▓▓▓▓▓▓▓░░     20 claims  ⚡0
 Human-AI Comparative Advantage         ▓▓▓▓░░░░░░     19 claims  ⚡0
-LLM Architecture Research              ▓░░░░░░░░░     18 claims  ⚡0
 OpenAI Political PAC Activity          ▓▓▓▓▓▓▓░░░     18 claims  ⚡0
 Frontier Safety Frameworks             ▓▓▓▓▓▓░░░░     18 claims  ⚡0
+Multi-Turn Reasoning Failure Modes     ▓▓▓▓░░░░░░     17 claims  ⚡0
 Model Sycophancy Complaints            ▓▓▓▓▓▓░░░░     17 claims  ⚡0
 Alignment Faking Research              ▓▓▓░░░░░░░     17 claims  ⚡0
 User Friction and Pushback             ▓▓▓▓▓░░░░░     16 claims  ⚡0
 Opus 4.8 Launch Coverage               ▓▓▓░░░░░░░     16 claims  ⚡0
-Claude Code Auto Mode                  ▓▓▓▓▓▓░░░░     15 claims  ⚡0
-… and 782 smaller districts (2845 claims)
+… and 810 smaller districts (2985 claims)
 ```
 
 ## Sharpest fault

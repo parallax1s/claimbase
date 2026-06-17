@@ -1,0 +1,19 @@
+{
+  "run_id": "27672940079",
+  "since": "2026-06-03",
+  "feeds_polled": 7,
+  "items_seen": 35,
+  "items_new": 25,
+  "items_skipped": 10,
+  "claims_extracted": 170,
+  "tasks_enqueued": {
+    "refine": 51,
+    "identity_edge": 140
+  },
+  "warnings": [
+    "lesswrong-af: HTTP Error 400: Bad Request",
+    "blog-rss: HTTP Error 403: Forbidden",
+    "epoch-blog: HTTP Error 404: Not Found",
+    "christiano-alignment: <urlopen error [Errno 111] Connection refused>"
+  ]
+}
