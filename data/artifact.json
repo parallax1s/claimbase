@@ -1,12 +1,12 @@
 {
   "generated_run": "manual-20260611",
   "counts": {
-    "sources": 187,
-    "claims": 4546,
+    "sources": 206,
+    "claims": 4689,
     "edges": 1276,
     "pending_tasks": {
-      "refine": 446,
-      "edge": 909,
+      "refine": 498,
+      "edge": 982,
       "identity": 52
     }
   },
@@ -45812,6 +45812,1436 @@
       "support_in_text": 0.35,
       "quote": "Through a systematic meta-evaluation, we show that RubricsTree (i) substantially exceeds a strong large-scale evaluation baseline in expert alignment on challenging open-ended queries; (ii) reliably penalizes contextually degraded responses; and (iii) when used as structured instructions, text feedb",
       "run_id": "27672940079",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005762",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1",
+      "text": "Language models (LMs) that faithfully describe their own behavior can more easily be audited, understood, and trusted by users.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Language models (LMs) that faithfully describe their own behavior can more easily be audited, understood, and trusted by users.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005763",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1",
+      "text": "behavior on related inputs by updating explanations to better predict behavior or updating behavior to better match explanations.",
+      "type": "normative",
+      "support_in_text": 0.5,
+      "quote": "This paper describes Self-Consistency Training with Reinforcement Learning (Self-CTRL), a method that optimizes for consistency between a LM's self-explanations and behavior on related inputs by updating explanations to better predict behavior or updating behavior to better match explanations.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005764",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1",
+      "text": "We apply our method in two domains.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…Training with Reinforcement Learning (Self-CTRL), a method that optimizes for consistency between a LM's self-explanations and behavior on related inputs by updating explanations to better predict behavior or updating behavior to better match explanations. We apply our method in two domains.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005765",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1",
+      "text": "First, we study a formal probabilistic reasoning task in which LMs must learn to imitate a family of biased samplers",
+      "type": "normative",
+      "support_in_text": 0.5,
+      "quote": "We apply our method in two domains. First, we study a formal probabilistic reasoning task in which LMs must learn to imitate a family of biased samplers and evaluated on their ability to report the associated biases.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005766",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1",
+      "text": "evaluated on their ability to report the associated biases.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "We apply our method in two domains. First, we study a formal probabilistic reasoning task in which LMs must learn to imitate a family of biased samplers and evaluated on their ability to report the associated biases.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005767",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1",
+      "text": "We find that consistency training improves the correlation between self-reported",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…their ability to report the associated biases. We find that consistency training improves the correlation between self-reported and behaviorally-measured latent biases from $R^2=0.24$ to $R^2=0.64$ on a set of held-out distributions, matching the generalization of direct ground-truth supervision.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005768",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1",
+      "text": "behaviorally-measured latent biases from $R^2=0.24$ to $R^2=0.64$ on a set of held-out distributions, matching the generalization of direct ground-truth supervision.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…their ability to report the associated biases. We find that consistency training improves the correlation between self-reported and behaviorally-measured latent biases from $R^2=0.24$ to $R^2=0.64$ on a set of held-out distributions, matching the generalization of direct ground-truth supervision.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005769",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1",
+      "text": "Second, we study a constitutional AI domain in which LMs must describe when they will refuse or comply with user requests.",
+      "type": "normative",
+      "support_in_text": 0.5,
+      "quote": "…and behaviorally-measured latent biases from $R^2=0.24$ to $R^2=0.64$ on a set of held-out distributions, matching the generalization of direct ground-truth supervision. Second, we study a constitutional AI domain in which LMs must describe when they will refuse or comply with user requests.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005770",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1",
+      "text": "Here, Self-CTRL produces rules that faithfully describe the model's behavior on held-out requests, improving the refusal predictions of a third-party auditor model from $36\\%$ to $92\\%$.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…study a constitutional AI domain in which LMs must describe when they will refuse or comply with user requests. Here, Self-CTRL produces rules that faithfully describe the model's behavior on held-out requests, improving the refusal predictions of a third-party auditor model from $36\\%$ to $92\\%$.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005771",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1",
+      "text": "In the other direction, behavior updates improve alignment, reducing HarmBench failure rate from $15.0\\%$ to $0.5\\%$ without substantially increasing refusal on harmless prompts.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…behavior on held-out requests, improving the refusal predictions of a third-party auditor model from $36\\%$ to $92\\%$. In the other direction, behavior updates improve alignment, reducing HarmBench failure rate from $15.0\\%$ to $0.5\\%$ without substantially increasing refusal on harmless prompts.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005772",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1",
+      "text": "behavior, our work provides a general recipe for training AI models to be safer, more transparent, and more controllable.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…updates improve alignment, reducing HarmBench failure rate from $15.0\\%$ to $0.5\\%$ without substantially increasing refusal on harmless prompts. By aligning explanations and behavior, our work provides a general recipe for training AI models to be safer, more transparent, and more controllable.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005773",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18393v1",
+      "text": "This work formulates CA50 regulation under latent CN variation as a partially observable sequential decision problem and systematically evaluates controllers with increasing temporal and representational capacity, including LinUCB, history-augmented contextual bandits, observation-only DDPG, recurrent DDPG, and a proposed GRU-guided RL framework.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "This work formulates CA50 regulation under latent CN variation as a partially observable sequential decision problem and systematically evaluates controllers with increasing temporal and representational capacity, including LinUCB, history-augmented contextual bandits, observation-only DDPG, recurre",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005774",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18393v1",
+      "text": "Results show that myopic",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…multi-fuel engine data provides a controlled and reproducible evaluation environment. Results show that myopic and fixed-history bandit methods degrade under CN variation, observation-only RL suffers from latent-state aliasing, and generic recurrence is insufficient when CN evolves rapidly.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005775",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18393v1",
+      "text": "fixed-history bandit methods degrade under CN variation, observation-only RL suffers from latent-state aliasing",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…multi-fuel engine data provides a controlled and reproducible evaluation environment. Results show that myopic and fixed-history bandit methods degrade under CN variation, observation-only RL suffers from latent-state aliasing, and generic recurrence is insufficient when CN evolves rapidly.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005776",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18393v1",
+      "text": "generic recurrence is insufficient when CN evolves rapidly.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…multi-fuel engine data provides a controlled and reproducible evaluation environment. Results show that myopic and fixed-history bandit methods degrade under CN variation, observation-only RL suffers from latent-state aliasing, and generic recurrence is insufficient when CN evolves rapidly.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005777",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18393v1",
+      "text": "Across unseen CN trajectories, the policy achieves stable CA50 regulation with mean absolute tracking error below 0.25° CA at the training setpoint, while producing smooth, physically consistent SOI and glow-plug-power actuation.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…inconsistency in conventional online estimate-then-control pipelines. Across unseen CN trajectories, the policy achieves stable CA50 regulation with mean absolute tracking error below 0.25° CA at the training setpoint, while producing smooth, physically consistent SOI and glow-plug-power actuation.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005778",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18393v1",
+      "text": "These results show that combustion control under latent, continuously evolving fuel dynamics requires more than standalone estimation or generic recurrence.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…tracking error below 0.25° CA at the training setpoint, while producing smooth, physically consistent SOI and glow-plug-power actuation. These results show that combustion control under latent, continuously evolving fuel dynamics requires more than standalone estimation or generic recurrence.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005779",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18393v1",
+      "text": "By aligning fuel-reactivity inference with control policy learning, the proposed framework enables reactivity-aware decision-making using the same estimated state available during deployment.",
+      "type": "historical",
+      "support_in_text": 0.25,
+      "quote": "…latent, continuously evolving fuel dynamics requires more than standalone estimation or generic recurrence. By aligning fuel-reactivity inference with control policy learning, the proposed framework enables reactivity-aware decision-making using the same estimated state available during deployment.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005780",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18424v1",
+      "text": "Regulation is modeled as an optimal discriminator whose convex-dual value is an f-divergence",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…token sampling, we derive the induced distribution over complete messages and relate it to an entropy-regularized Gibbs law. Regulation is modeled as an optimal discriminator whose convex-dual value is an f-divergence, and the generator-regulator interaction is formulated as a saddle-point problem.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005781",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18424v1",
+      "text": "the generator-regulator interaction is formulated as a saddle-point problem.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…token sampling, we derive the induced distribution over complete messages and relate it to an entropy-regularized Gibbs law. Regulation is modeled as an optimal discriminator whose convex-dual value is an f-divergence, and the generator-regulator interaction is formulated as a saddle-point problem.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005782",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18424v1",
+      "text": "Two finite-vocabulary case studies, censorship filtering",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…tradeoff among utility, entropy, regulatory alignment, and finite-length detectability. Two finite-vocabulary case studies, censorship filtering and phishing defense, illustrate how the theory can be evaluated through utility, entropy, divergence, receiver-side scores, and detection probability.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005783",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18424v1",
+      "text": "phishing defense, illustrate how the theory can be evaluated through utility, entropy, divergence, receiver-side scores, and detection probability.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…tradeoff among utility, entropy, regulatory alignment, and finite-length detectability. Two finite-vocabulary case studies, censorship filtering and phishing defense, illustrate how the theory can be evaluated through utility, entropy, divergence, receiver-side scores, and detection probability.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005784",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18429v1",
+      "text": "Accurately aligning CAD models to their corresponding objects in indoor RGB-D scans is a central challenge in 3D semantic reconstruction.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Accurately aligning CAD models to their corresponding objects in indoor RGB-D scans is a central challenge in 3D semantic reconstruction.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005785",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18429v1",
+      "text": "The task requires estimating a 9-Degree-of-Freedom (DoF) pose-position, rotation",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…in indoor RGB-D scans is a central challenge in 3D semantic reconstruction. The task requires estimating a 9-Degree-of-Freedom (DoF) pose-position, rotation, and scale along three axes-but is hindered by noisy and incomplete scans, as well as segmentation errors that cause geometric distortions.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005786",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18429v1",
+      "text": "scale along three axes-but is hindered by noisy",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…in indoor RGB-D scans is a central challenge in 3D semantic reconstruction. The task requires estimating a 9-Degree-of-Freedom (DoF) pose-position, rotation, and scale along three axes-but is hindered by noisy and incomplete scans, as well as segmentation errors that cause geometric distortions.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005787",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18429v1",
+      "text": "incomplete scans, as well as segmentation errors that cause geometric distortions.",
+      "type": "causal",
+      "support_in_text": 0.35,
+      "quote": "…in indoor RGB-D scans is a central challenge in 3D semantic reconstruction. The task requires estimating a 9-Degree-of-Freedom (DoF) pose-position, rotation, and scale along three axes-but is hindered by noisy and incomplete scans, as well as segmentation errors that cause geometric distortions.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005788",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18429v1",
+      "text": "Existing completion methods are typically trained",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…aware point cloud completion module with a symmetry-aware relative pose estimation algorithm, enabling precise alignment of CAD models to scanned objects. Existing completion methods are typically trained and evaluated on synthetic datasets, which often fail to generalize to real-world scans.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005789",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18429v1",
+      "text": "evaluated on synthetic datasets, which often fail to generalize to real-world scans.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…aware point cloud completion module with a symmetry-aware relative pose estimation algorithm, enabling precise alignment of CAD models to scanned objects. Existing completion methods are typically trained and evaluated on synthetic datasets, which often fail to generalize to real-world scans.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005790",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18429v1",
+      "text": "In addition, we release S2C-Completion, an expert-annotated dataset of over 8,500 object-CAD pairs from Scan2CAD, created for real-world indoor single-object completion and intended as a new benchmark for this task.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…through quantitative comparisons with widely used completion datasets. In addition, we release S2C-Completion, an expert-annotated dataset of over 8,500 object-CAD pairs from Scan2CAD, created for real-world indoor single-object completion and intended as a new benchmark for this task.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005791",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18429v1",
+      "text": "On the Scan2CAD benchmark, CAOA achieves a 17% accuracy improvement over state-of-the-art methods.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "For object-CAD alignment, we incorporate symmetry information via a symmetry-aware loss, improving robustness to symmetric ambiguities. On the Scan2CAD benchmark, CAOA achieves a 17% accuracy improvement over state-of-the-art methods.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005792",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18485v1",
+      "text": "long-form speech generation shows prosodic drift, speaker inconsistencies and sentence boundary artifacts.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Neural Text-to-Speech (TTS) systems achieve remarkable quality on short utterances but long-form speech generation shows prosodic drift, speaker inconsistencies and sentence boundary artifacts.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005793",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18485v1",
+      "text": "Existing approaches either compress sequences, increase context length or naively concatenate independently synthesized chunks.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…(TTS) systems achieve remarkable quality on short utterances but long-form speech generation shows prosodic drift, speaker inconsistencies and sentence boundary artifacts. Existing approaches either compress sequences, increase context length or naively concatenate independently synthesized chunks.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005794",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18485v1",
+      "text": "Our method introduces three key innovations: (1) soft attention priors to guide monotonic alignment while preserving past and future context",
+      "type": "predictive",
+      "support_in_text": 0.35,
+      "quote": "Our method introduces three key innovations: (1) soft attention priors to guide monotonic alignment while preserving past and future context; (2) a stateful inference algorithm that maintains context across sentence chunks, ensuring prosodic continuity; (3) history-aware text encoding that uses past",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005795",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18485v1",
+      "text": "(2) a stateful inference algorithm that maintains context across sentence chunks, ensuring prosodic continuity",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Our method introduces three key innovations: (1) soft attention priors to guide monotonic alignment while preserving past and future context; (2) a stateful inference algorithm that maintains context across sentence chunks, ensuring prosodic continuity; (3) history-aware text encoding that uses past",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005796",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18485v1",
+      "text": "(3) history-aware text encoding that uses past text for discourse-level prosodic planning.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Our method introduces three key innovations: (1) soft attention priors to guide monotonic alignment while preserving past and future context; (2) a stateful inference algorithm that maintains context across sentence chunks, ensuring prosodic continuity; (3) history-aware text encoding that uses past",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005797",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18485v1",
+      "text": "Experiments on long texts show significant improvements in long-range intelligibility, prosodic coherence, speaker consistency, and boundary naturalness compared to other baselines.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…prosodic continuity; (3) history-aware text encoding that uses past text for discourse-level prosodic planning. Experiments on long texts show significant improvements in long-range intelligibility, prosodic coherence, speaker consistency, and boundary naturalness compared to other baselines.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005798",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "Physical events are not understood by their names alone",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Physical events are not understood by their names alone, but by the causal state changes that compose them.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005799",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "by the causal state changes that compose them.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Physical events are not understood by their names alone, but by the causal state changes that compose them.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005800",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "A clip-level label such as \"bounce\" can be correct while hiding the process that makes the event physically valid, from support loss and contact onset to rebound and settling.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Physical events are not understood by their names alone, but by the causal state changes that compose them. A clip-level label such as \"bounce\" can be correct while hiding the process that makes the event physically valid, from support loss and contact onset to rebound and settling.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005801",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "To make this hidden process explicit, we introduce Atomic Physical Transitions (APTs): minimal, temporally localized state changes that bind a visible cue to an active physical mechanism and before/after dynamical regimes.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…valid, from support loss and contact onset to rebound and settling. To make this hidden process explicit, we introduce Atomic Physical Transitions (APTs): minimal, temporally localized state changes that bind a visible cue to an active physical mechanism and before/after dynamical regimes.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005802",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "To make APTs learnable by VLMs, we construct mixed-source APT data from human annotations",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "…happened; APT chains explain why it happened. To make APTs learnable by VLMs, we construct mixed-source APT data from human annotations and simulator ground truth, covering 14 transition types across contact, gravity, friction, and rotation/stability, with 27,303 timed instances over 1,246 trials.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005803",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "simulator ground truth, covering 14 transition types across contact, gravity, friction",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…happened; APT chains explain why it happened. To make APTs learnable by VLMs, we construct mixed-source APT data from human annotations and simulator ground truth, covering 14 transition types across contact, gravity, friction, and rotation/stability, with 27,303 timed instances over 1,246 trials.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005804",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "rotation/stability, with 27,303 timed instances over 1,246 trials.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…happened; APT chains explain why it happened. To make APTs learnable by VLMs, we construct mixed-source APT data from human annotations and simulator ground truth, covering 14 transition types across contact, gravity, friction, and rotation/stability, with 27,303 timed instances over 1,246 trials.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005805",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "Using this data, we find that current VLMs miss transition-level physics, with zero-shot recall at most 14% and errors dominated by missed transitions.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…truth, covering 14 transition types across contact, gravity, friction, and rotation/stability, with 27,303 timed instances over 1,246 trials. Using this data, we find that current VLMs miss transition-level physics, with zero-shot recall at most 14% and errors dominated by missed transitions.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005806",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "Direct fine-tuning on APT chains improves transition detection",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…physics, with zero-shot recall at most 14% and errors dominated by missed transitions. Direct fine-tuning on APT chains improves transition detection but causes event-level forgetting, indicating that the model learns a specialized answer format rather than a reusable physical representation.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005807",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "causes event-level forgetting, indicating that the model learns a specialized answer format rather than a reusable physical representation.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…physics, with zero-shot recall at most 14% and errors dominated by missed transitions. Direct fine-tuning on APT chains improves transition detection but causes event-level forgetting, indicating that the model learns a specialized answer format rather than a reusable physical representation.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005808",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "We therefore propose APT-Tune, a parameter-efficient recipe that teaches VLMs to use causal transitions without forgetting how to answer video questions.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…but causes event-level forgetting, indicating that the model learns a specialized answer format rather than a reusable physical representation. We therefore propose APT-Tune, a parameter-efficient recipe that teaches VLMs to use causal transitions without forgetting how to answer video questions.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005809",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "mechanism-conditioned domain-to-type decoding to make APT learning format-robust and physically grounded.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…recipe that teaches VLMs to use causal transitions without forgetting how to answer video questions. It combines image-pad-aware supervision, format-conditional co-training, and mechanism-conditioned domain-to-type decoding to make APT learning format-robust and physically grounded.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005810",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "With only 11 M LoRA parameters on Qwen3-VL-2B, APT-Tune substantially improves APT recall while also improving event-level video transfer.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…supervision, format-conditional co-training, and mechanism-conditioned domain-to-type decoding to make APT learning format-robust and physically grounded. With only 11 M LoRA parameters on Qwen3-VL-2B, APT-Tune substantially improves APT recall while also improving event-level video transfer.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005811",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1",
+      "text": "These results show that APTs are not a new answer format, but a human-aligned causal supervision signal for physical video understanding.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "With only 11 M LoRA parameters on Qwen3-VL-2B, APT-Tune substantially improves APT recall while also improving event-level video transfer. These results show that APTs are not a new answer format, but a human-aligned causal supervision signal for physical video understanding.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005812",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18606v1",
+      "text": "It is essential for large language model (LLM) technology to serve many different cultural sub-communities in a manner that is acceptable to each community.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "It is essential for large language model (LLM) technology to serve many different cultural sub-communities in a manner that is acceptable to each community.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005813",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18606v1",
+      "text": "However, research on LLM alignment has so far predominantly focused on predicting a unified response preference of annotators from certain regions.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…essential for large language model (LLM) technology to serve many different cultural sub-communities in a manner that is acceptable to each community. However, research on LLM alignment has so far predominantly focused on predicting a unified response preference of annotators from certain regions.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005814",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18606v1",
+      "text": "This paper aims to advance the development of alignment models with a more global outlook, that are able to accurately represent the preferences of subcommunities and do not exhibit excessive bias towards any of them.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…on predicting a unified response preference of annotators from certain regions. This paper aims to advance the development of alignment models with a more global outlook, that are able to accurately represent the preferences of subcommunities and do not exhibit excessive bias towards any of them.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005815",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18606v1",
+      "text": "present a novel reward model training algorithm (SCPO) that can incorporate diverse cultural preferences in a balanced manner.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…represent the preferences of subcommunities and do not exhibit excessive bias towards any of them. We focus on the development of reward models for this purpose and present a novel reward model training algorithm (SCPO) that can incorporate diverse cultural preferences in a balanced manner.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005816",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18606v1",
+      "text": "Our method results in performance increases of the minority reward model of up to 7 points over the baseline model across two datasets, PRISM and GlobalOpinionQA, and across 7 countries.",
+      "type": "causal",
+      "support_in_text": 0.35,
+      "quote": "…reward model training algorithm (SCPO) that can incorporate diverse cultural preferences in a balanced manner. Our method results in performance increases of the minority reward model of up to 7 points over the baseline model across two datasets, PRISM and GlobalOpinionQA, and across 7 countries.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005817",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18606v1",
+      "text": "SCPO is up to 280% more training data-efficient than full-data finetuning of reward models.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Our method results in performance increases of the minority reward model of up to 7 points over the baseline model across two datasets, PRISM and GlobalOpinionQA, and across 7 countries. SCPO is up to 280% more training data-efficient than full-data finetuning of reward models.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005818",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18606v1",
+      "text": "In addition, we perform analysis of bias by separately evaluating on the preference of subcommunities and show that excessive bias is mitigated via our weighting method.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "SCPO is up to 280% more training data-efficient than full-data finetuning of reward models. In addition, we perform analysis of bias by separately evaluating on the preference of subcommunities and show that excessive bias is mitigated via our weighting method.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005819",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18606v1",
+      "text": "Our code is available at https://github.com/minsik-ai/Steerable-Cultural-Preference",
+      "type": "descriptive",
+      "support_in_text": 0.55,
+      "quote": "In addition, we perform analysis of bias by separately evaluating on the preference of subcommunities and show that excessive bias is mitigated via our weighting method. Our code is available at https://github.com/minsik-ai/Steerable-Cultural-Preference",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005820",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18619v1",
+      "text": "The advent of agentic vulnerability detection is already becoming a watershed moment for software security.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "The advent of agentic vulnerability detection is already becoming a watershed moment for software security.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005821",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18619v1",
+      "text": "Audits conducted entirely by autonomous LLM agents are uncovering critical vulnerabilities in fundamental software underpinning digital society.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "The advent of agentic vulnerability detection is already becoming a watershed moment for software security. Audits conducted entirely by autonomous LLM agents are uncovering critical vulnerabilities in fundamental software underpinning digital society.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005822",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18619v1",
+      "text": "incorrect assumptions can lead to missed vulnerabilities",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "What assumptions did the agent make about a function's inputs when it deemed that function to be secure? Failures in reasoning and incorrect assumptions can lead to missed vulnerabilities and reduce trust in agentic analysis.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005823",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18619v1",
+      "text": "reduce trust in agentic analysis.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "What assumptions did the agent make about a function's inputs when it deemed that function to be secure? Failures in reasoning and incorrect assumptions can lead to missed vulnerabilities and reduce trust in agentic analysis.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005824",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18619v1",
+      "text": "We propose a security-specification-first paradigm that (1) exposes the agent's tacit assumptions explicitly as security specifications",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…assumptions can lead to missed vulnerabilities and reduce trust in agentic analysis. We propose a security-specification-first paradigm that (1) exposes the agent's tacit assumptions explicitly as security specifications and (2) continuously refines those specifications via runtime falsification.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005825",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18619v1",
+      "text": "(2) continuously refines those specifications via runtime falsification.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…assumptions can lead to missed vulnerabilities and reduce trust in agentic analysis. We propose a security-specification-first paradigm that (1) exposes the agent's tacit assumptions explicitly as security specifications and (2) continuously refines those specifications via runtime falsification.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005826",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18619v1",
+      "text": "On real-world subjects, Code-Augur effectively leverages security specifications to detect more vulnerabilities than other state-of-the-art agents.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "In both cases, this process grounds the agent's understanding, aligning its view of code intent with how the code actually behaves. On real-world subjects, Code-Augur effectively leverages security specifications to detect more vulnerabilities than other state-of-the-art agents.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005827",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18619v1",
+      "text": "Additionally, Code-Augur found 22 new vulnerabilities in key open-source projects.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "On real-world subjects, Code-Augur effectively leverages security specifications to detect more vulnerabilities than other state-of-the-art agents. Additionally, Code-Augur found 22 new vulnerabilities in key open-source projects.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005828",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18688v1",
+      "text": "Joint Embedding Predictive Architectures (JEPAs) are a leading approach to world model representation learning.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Joint Embedding Predictive Architectures (JEPAs) are a leading approach to world model representation learning.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005829",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18688v1",
+      "text": "We identify a failure mode in JEPA-based world models grounded against two qualitatively distinct external signals: physical dynamics (sparse, high-magnitude, constraint-satisfying gradient corrections) and social-behavioral dynamics (diffuse, distribution-matching corrections).",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…learning. We identify a failure mode in JEPA-based world models grounded against two qualitatively distinct external signals: physical dynamics (sparse, high-magnitude, constraint-satisfying gradient corrections) and social-behavioral dynamics (diffuse, distribution-matching corrections).",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005830",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18688v1",
+      "text": "We term this Objective Interference Collapse (OIC): we argue that joint learning in a shared latent space causes the dominant channel to systematically collapse the subordinate channel's representational subspace, in a manner not resolvable by loss weighting alone.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…corrections). We term this Objective Interference Collapse (OIC): we argue that joint learning in a shared latent space causes the dominant channel to systematically collapse the subordinate channel's representational subspace, in a manner not resolvable by loss weighting alone.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005831",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18688v1",
+      "text": "We propose Dual-Channel Grounded World Modeling (DCGWM), designed to structurally prevent OIC through a partitioned latent space (physical subspace Z_p, behavioral subspace Z_b) with inward-only gradient flow.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…channel's representational subspace, in a manner not resolvable by loss weighting alone. We propose Dual-Channel Grounded World Modeling (DCGWM), designed to structurally prevent OIC through a partitioned latent space (physical subspace Z_p, behavioral subspace Z_b) with inward-only gradient flow.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005832",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18688v1",
+      "text": "A Generative Rendering Layer is architecturally isolated from the latent world model.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "An Asymmetric Grounding Adherence Loss penalizes rollout drift with a hard hinge for physical violations and a soft KL for behavioral divergence. A Generative Rendering Layer is architecturally isolated from the latent world model.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005833",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18688v1",
+      "text": "We present three theoretical results: the partition removes the gradient-interference pathway implicated in OIC",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "We present three theoretical results: the partition removes the gradient-interference pathway implicated in OIC; each grounded subspace inherits anti-collapse guarantees from its alignment objective; and generative isolation is necessary under a stated assumption on the generative objective's geomet",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005834",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18688v1",
+      "text": "each grounded subspace inherits anti-collapse guarantees from its alignment objective",
+      "type": "other",
+      "support_in_text": 0.23,
+      "quote": "We present three theoretical results: the partition removes the gradient-interference pathway implicated in OIC; each grounded subspace inherits anti-collapse guarantees from its alignment objective; and generative isolation is necessary under a stated assumption on the generative objective's geomet",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005835",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18688v1",
+      "text": "and generative isolation is necessary under a stated assumption on the generative objective's geometry.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "We present three theoretical results: the partition removes the gradient-interference pathway implicated in OIC; each grounded subspace inherits anti-collapse guarantees from its alignment objective; and generative isolation is necessary under a stated assumption on the generative objective's geomet",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005836",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18688v1",
+      "text": "experimental validation is ongoing",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…guarantees from its alignment objective; and generative isolation is necessary under a stated assumption on the generative objective's geometry. This manuscript establishes the problem formulation and architecture; experimental validation is ongoing and will be reported in a future revision.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005837",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18688v1",
+      "text": "will be reported in a future revision.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "…guarantees from its alignment objective; and generative isolation is necessary under a stated assumption on the generative objective's geometry. This manuscript establishes the problem formulation and architecture; experimental validation is ongoing and will be reported in a future revision.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005838",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18717v1",
+      "text": "Turkish is agglutinative: meaning is carried by morphemes, yet the subword tokenizers that drive modern language models split words by corpus statistics, fragmenting semantically loaded suffixes and -- in the case of WordPiece and rule-based analyzers -- failing to decode their output back to the original text.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Turkish is agglutinative: meaning is carried by morphemes, yet the subword tokenizers that drive modern language models split words by corpus statistics, fragmenting semantically loaded suffixes and -- in the case of WordPiece and rule-based analyzers -- failing to decode their output back to the or",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005839",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18717v1",
+      "text": "This paper presents \\textbf{Morpheus}, a neural morpheme-boundary model for Turkish that is at once a lossless, morphology-aware tokenizer and a word-embedding producer.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…suffixes and -- in the case of WordPiece and rule-based analyzers -- failing to decode their output back to the original text. This paper presents \\textbf{Morpheus}, a neural morpheme-boundary model for Turkish that is at once a lossless, morphology-aware tokenizer and a word-embedding producer.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005840",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18717v1",
+      "text": "Because the model is neural, the same forward pass that tokenizes also emits a structured word embedding.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…probabilities into soft morpheme memberships during training and exact segments at inference, with no string normalization, so $\\mathrm{decode}(\\mathrm{encode}(w)) = w$ holds by construction. Because the model is neural, the same forward pass that tokenizes also emits a structured word embedding.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005841",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18717v1",
+      "text": "Among reversible tokenizers -- the only ones valid for generation -- Morpheus attains the lowest bits-per-character ($1.425$), roughly doubles the gold morphological alignment of the subword family (MorphScore macro-F1 $0.61$ vs.\\ ${\\sim}0.32$)",
+      "type": "statistical",
+      "support_in_text": 0.42,
+      "quote": "Among reversible tokenizers -- the only ones valid for generation -- Morpheus attains the lowest bits-per-character ($1.425$), roughly doubles the gold morphological alignment of the subword family (MorphScore macro-F1 $0.61$ vs.\\ ${\\sim}0.32$), and uses ${\\sim}19\\%$ less GPU memory than 64K-vocabul",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005842",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18717v1",
+      "text": "uses ${\\sim}19\\%$ less GPU memory than 64K-vocabulary subword tokenizers.",
+      "type": "statistical",
+      "support_in_text": 0.42,
+      "quote": "Among reversible tokenizers -- the only ones valid for generation -- Morpheus attains the lowest bits-per-character ($1.425$), roughly doubles the gold morphological alignment of the subword family (MorphScore macro-F1 $0.61$ vs.\\ ${\\sim}0.32$), and uses ${\\sim}19\\%$ less GPU memory than 64K-vocabul",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005843",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18717v1",
+      "text": "As an embedder, frozen Morpheus vectors lead on lexical retrieval (root-family MAP $0.85$)",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "As an embedder, frozen Morpheus vectors lead on lexical retrieval (root-family MAP $0.85$) and same-root verification (ROC-AUC $1.00$), surpassing the multilingual retriever BGE-M3 and BERTurk; on context- and inflection-dependent tasks (NER, case/number probing) the heavier contextual encoders rema",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005844",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18717v1",
+      "text": "same-root verification (ROC-AUC $1.00$), surpassing the multilingual retriever BGE-M3 and BERTurk; on context- and inflection-dependent tasks (NER, case/number probing) the heavier contextual encoders remain ahead -- a trade-off we attribute to Morpheus's root-centric geometry.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "As an embedder, frozen Morpheus vectors lead on lexical retrieval (root-family MAP $0.85$) and same-root verification (ROC-AUC $1.00$), surpassing the multilingual retriever BGE-M3 and BERTurk; on context- and inflection-dependent tasks (NER, case/number probing) the heavier contextual encoders rema",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005845",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18717v1",
+      "text": "Code: https://github.com/lonewolf-rd/TurkishMorpheus; model: https://huggingface.co/lonewolflab/Morpheus-TR-50K; interactive demo: https://huggingface.co/spaces/lonewolflab/morpheus-tr-demo.",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "…heavier contextual encoders remain ahead -- a trade-off we attribute to Morpheus's root-centric geometry. Code: https://github.com/lonewolf-rd/TurkishMorpheus; model: https://huggingface.co/lonewolflab/Morpheus-TR-50K; interactive demo: https://huggingface.co/spaces/lonewolflab/morpheus-tr-demo.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005846",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18747v1",
+      "text": "Expressive gestures are essential for natural",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Expressive gestures are essential for natural and effective communication, complementing speech when verbal cues alone are insufficient (e.g., pointing).",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005847",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18747v1",
+      "text": "effective communication, complementing speech when verbal cues alone are insufficient (e.g., pointing).",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Expressive gestures are essential for natural and effective communication, complementing speech when verbal cues alone are insufficient (e.g., pointing).",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005848",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18747v1",
+      "text": "expressive movements is critical for improving human-robot interaction (HRI) and long-term acceptance.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…for natural and effective communication, complementing speech when verbal cues alone are insufficient (e.g., pointing). For social robots such as the humanoid Pepper, producing natural and expressive movements is critical for improving human-robot interaction (HRI) and long-term acceptance.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005849",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18747v1",
+      "text": "However, generating gestures remains challenging due to reliance on expert-authored animations, resulting in rigid behaviors that are impractical for dynamic and diverse environments.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…natural and expressive movements is critical for improving human-robot interaction (HRI) and long-term acceptance. However, generating gestures remains challenging due to reliance on expert-authored animations, resulting in rigid behaviors that are impractical for dynamic and diverse environments.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005850",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18747v1",
+      "text": "Consequently, producing expressive robot gestures requires a system that can adapt to the environment while adhering to social norms and physical constraints.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…machine learning approaches often struggle to capture perceived naturalness, becoming increasingly challenging with more degrees of freedom. Consequently, producing expressive robot gestures requires a system that can adapt to the environment while adhering to social norms and physical constraints.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005851",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18747v1",
+      "text": "While this baseline enables flexible gesture generation, the resulting motions are often perceived as stiff and unnatural.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "In this paper, we integrate ChatGPT into the humanoid robot Pepper to generate co-speech gestures aligned with conversational output. While this baseline enables flexible gesture generation, the resulting motions are often perceived as stiff and unnatural.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005852",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18747v1",
+      "text": "Our results show that RLHF improved the LLM's co-speech generative capabilities, producing more expressive, relevant and fluid movements.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…feedback (RLHF) system that finetunes gesture generation based on user evaluations, leveraging an iterative user study to compare Pepper's generated gestures. Our results show that RLHF improved the LLM's co-speech generative capabilities, producing more expressive, relevant and fluid movements.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005853",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18803v1",
+      "text": "Bringing Large Language Models (LLMs) into industrial ride-hailing dispatch as semantic feature extractors over platform-scale behavioral logs is a compelling but under-explored data systems problem.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Bringing Large Language Models (LLMs) into industrial ride-hailing dispatch as semantic feature extractors over platform-scale behavioral logs is a compelling but under-explored data systems problem.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005854",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18803v1",
+      "text": "Production matching pipelines remain dominated by structured numerical features, yet decisive behavioral signals (e.g., a driver's habitual aversion to certain regions) are inherently contextual and naturally expressible as LLM-generated user profiles.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…but under-explored data systems problem. Production matching pipelines remain dominated by structured numerical features, yet decisive behavioral signals (e.g., a driver's habitual aversion to certain regions) are inherently contextual and naturally expressible as LLM-generated user profiles.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005855",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18803v1",
+      "text": "However, scaling such profiling to a live, millisecond-latency dispatcher faces three intertwined constraints rarely addressed together: on a platform with millions of daily orders, logs exceed any LLM's context window by orders of magnitude",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "However, scaling such profiling to a live, millisecond-latency dispatcher faces three intertwined constraints rarely addressed together: on a platform with millions of daily orders, logs exceed any LLM's context window by orders of magnitude; most users are long-tail, with too few interactions for p",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005856",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18803v1",
+      "text": "most users are long-tail, with too few interactions for per-user profiling",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "However, scaling such profiling to a live, millisecond-latency dispatcher faces three intertwined constraints rarely addressed together: on a platform with millions of daily orders, logs exceed any LLM's context window by orders of magnitude; most users are long-tail, with too few interactions for p",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005857",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18803v1",
+      "text": "and surface-fluent profiles do not necessarily improve downstream prediction utility.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "However, scaling such profiling to a live, millisecond-latency dispatcher faces three intertwined constraints rarely addressed together: on a platform with millions of daily orders, logs exceed any LLM's context window by orders of magnitude; most users are long-tail, with too few interactions for p",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005858",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18803v1",
+      "text": "We present ProfiLLM, an agentic LLM data pipeline that operationalizes utility-aligned user profiling for production matching systems through two modules.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…with too few interactions for per-user profiling; and surface-fluent profiles do not necessarily improve downstream prediction utility. We present ProfiLLM, an agentic LLM data pipeline that operationalizes utility-aligned user profiling for production matching systems through two modules.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005859",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18803v1",
+      "text": "(1) Tool-Augmented Global Knowledge Mining equips an LLM agent with 27 analytical tools to mine platform-scale data, producing reusable global knowledge, adaptive user clustering rules, and region-level supply-demand priors.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…user profiling for production matching systems through two modules. (1) Tool-Augmented Global Knowledge Mining equips an LLM agent with 27 analytical tools to mine platform-scale data, producing reusable global knowledge, adaptive user clustering rules, and region-level supply-demand priors.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005860",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18803v1",
+      "text": "(2) Utility-Aligned Profile Exploration generates multiple candidate profiles per cluster, evaluates them via a lightweight downstream utility proxy, iteratively refines the best candidates and constructs preference pairs for DPO fine-tuning.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…clustering rules, and region-level supply-demand priors. (2) Utility-Aligned Profile Exploration generates multiple candidate profiles per cluster, evaluates them via a lightweight downstream utility proxy, iteratively refines the best candidates and constructs preference pairs for DPO fine-tuning.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005861",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18803v1",
+      "text": "Deployed on DiDi's production dispatcher, ProfiLLM achieves up to +6.14% relative AUC improvement in outcome prediction, up to +4.35% GMV gain in dispatching simulation",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Deployed on DiDi's production dispatcher, ProfiLLM achieves up to +6.14% relative AUC improvement in outcome prediction, up to +4.35% GMV gain in dispatching simulation, and consistent improvements in a 14-day online A/B test including +0.47% GMV, +0.33% Completion Rate, and -0.82% Cancel-Before-Acc",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005862",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18803v1",
+      "text": "consistent improvements in a 14-day online A/B test including +0.47% GMV, +0.33% Completion Rate, and -0.82% Cancel-Before-Accept rate.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Deployed on DiDi's production dispatcher, ProfiLLM achieves up to +6.14% relative AUC improvement in outcome prediction, up to +4.35% GMV gain in dispatching simulation, and consistent improvements in a 14-day online A/B test including +0.47% GMV, +0.33% Completion Rate, and -0.82% Cancel-Before-Acc",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005863",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18852v1",
+      "text": "Classifying implicit hate speech remains a challenge, as intent is often masked through insinuation and context rather than explicit slurs.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Classifying implicit hate speech remains a challenge, as intent is often masked through insinuation and context rather than explicit slurs.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005864",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18852v1",
+      "text": "Prior supervised contrastive approaches improve in-domain detection",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Classifying implicit hate speech remains a challenge, as intent is often masked through insinuation and context rather than explicit slurs. Prior supervised contrastive approaches improve in-domain detection but can overfit surface cues and struggle to transfer across datasets.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005865",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18852v1",
+      "text": "can overfit surface cues and struggle to transfer across datasets.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Classifying implicit hate speech remains a challenge, as intent is often masked through insinuation and context rather than explicit slurs. Prior supervised contrastive approaches improve in-domain detection but can overfit surface cues and struggle to transfer across datasets.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005866",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18852v1",
+      "text": "HateBERT, ImpSH is a viable alternative to standard supervised contrastive baselines",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…AugSH, which forms positives via data augmentation. In controlled evaluations on IHC, SBIC, and DynaHate with BERT and HateBERT, ImpSH is a viable alternative to standard supervised contrastive baselines and often improves cross-domain performance under matched preprocessing and tuning budgets.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005867",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18852v1",
+      "text": "often improves cross-domain performance under matched preprocessing and tuning budgets.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…AugSH, which forms positives via data augmentation. In controlled evaluations on IHC, SBIC, and DynaHate with BERT and HateBERT, ImpSH is a viable alternative to standard supervised contrastive baselines and often improves cross-domain performance under matched preprocessing and tuning budgets.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005868",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18882v1",
+      "text": "This work investigates the application of a domain-shift aware neural network for regression tasks aimed at estimating unbalance masses in rotating shafts under varying operating conditions.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "This work investigates the application of a domain-shift aware neural network for regression tasks aimed at estimating unbalance masses in rotating shafts under varying operating conditions.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005869",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18882v1",
+      "text": "Experimental data were collected from a test rig in which a primary shaft, equipped with a flange carrying unbalanced masses, was driven at different rotational speeds, while a secondary shaft could be optionally activated to introduce domain discrepancy.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…shafts under varying operating conditions. Experimental data were collected from a test rig in which a primary shaft, equipped with a flange carrying unbalanced masses, was driven at different rotational speeds, while a secondary shaft could be optionally activated to introduce domain discrepancy.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005870",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18882v1",
+      "text": "The unbalance masses were positioned at a fixed radial distance",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…unbalanced masses, was driven at different rotational speeds, while a secondary shaft could be optionally activated to introduce domain discrepancy. The unbalance masses were positioned at a fixed radial distance, and the dynamic response of the system was recorded using triaxial accelerometers.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005871",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18882v1",
+      "text": "the dynamic response of the system was recorded using triaxial accelerometers.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…unbalanced masses, was driven at different rotational speeds, while a secondary shaft could be optionally activated to introduce domain discrepancy. The unbalance masses were positioned at a fixed radial distance, and the dynamic response of the system was recorded using triaxial accelerometers.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005872",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18882v1",
+      "text": "The inverse problem of mass estimation is formulated within a domain adaptation framework, where the network is trained with a maximum mean discrepancy strategy to align feature representations across source and target distributions.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…of the system was recorded using triaxial accelerometers. The inverse problem of mass estimation is formulated within a domain adaptation framework, where the network is trained with a maximum mean discrepancy strategy to align feature representations across source and target distributions.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005873",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18882v1",
+      "text": "sources of domain discrepancy are not fully known and fall outside the training conditions.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…across source and target distributions. The results demonstrate the effectiveness of explicitly addressing domain shift in improving prediction accuracy, especially when the system's physical behavior and sources of domain discrepancy are not fully known and fall outside the training conditions.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005874",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18986v1",
+      "text": "Recent advances in large language models (LLMs) have given rise to time-series question answering (TSQA), which formulates time-series analysis as natural-language question answering.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Recent advances in large language models (LLMs) have given rise to time-series question answering (TSQA), which formulates time-series analysis as natural-language question answering.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005875",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18986v1",
+      "text": "Prior methods use patch-based encoders that split the series into fixed windows, locking in one granularity that breaks patterns and hides exact timesteps, through a separate module that rarely transfers across datasets with different lengths or sampling rates.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…scale, and trend information. Prior methods use patch-based encoders that split the series into fixed windows, locking in one granularity that breaks patterns and hides exact timesteps, through a separate module that rarely transfers across datasets with different lengths or sampling rates.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005876",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18986v1",
+      "text": "To address this challenge, we propose CADE (Contrastive Alignment with Direct Embedding), a novel framework for TSQA built upon two key components: direct timestep embedding and semantic alignment.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…a separate module that rarely transfers across datasets with different lengths or sampling rates. To address this challenge, we propose CADE (Contrastive Alignment with Direct Embedding), a novel framework for TSQA built upon two key components: direct timestep embedding and semantic alignment.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005877",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18986v1",
+      "text": "language representations, we introduce a novel one-directional supervised contrastive loss that aligns time-series embeddings with frozen class-name text anchors.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…exact index-level access while eliminating the need for patching and padding. To further bridge the semantic gap between time-series and language representations, we introduce a novel one-directional supervised contrastive loss that aligns time-series embeddings with frozen class-name text anchors.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005878",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18986v1",
+      "text": "Experimental results on the public Time-MQA benchmark demonstrate that our framework consistently improves performance across six TSQA tasks, outperforming both open-source and proprietary LLM baselines.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…contrastive loss that aligns time-series embeddings with frozen class-name text anchors. Experimental results on the public Time-MQA benchmark demonstrate that our framework consistently improves performance across six TSQA tasks, outperforming both open-source and proprietary LLM baselines.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005879",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18989v1",
+      "text": "Idioms are difficult to transfer across languages due to their non-compositionality and weak surface-form grounding, making literal mappings unreliable.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Idioms are difficult to transfer across languages due to their non-compositionality and weak surface-form grounding, making literal mappings unreliable.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005880",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18989v1",
+      "text": "We present G-IdiomAlign, a gloss-pivoted benchmark where each idiom is anchored by an English gloss from Wiktionary.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Idioms are difficult to transfer across languages due to their non-compositionality and weak surface-form grounding, making literal mappings unreliable. We present G-IdiomAlign, a gloss-pivoted benchmark where each idiom is anchored by an English gloss from Wiktionary.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005881",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18989v1",
+      "text": "G-IdiomAlign supports two protocols: (1) a controlled Multiple-Choice Idiom Equivalence with typed distractors for error attribution",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…for reproducible evaluation. G-IdiomAlign supports two protocols: (1) a controlled Multiple-Choice Idiom Equivalence with typed distractors for error attribution; and (2) a Gloss-Contrastive Generation contrasting No-gloss and With-gloss inputs to isolate the effect of an explicit semantic pivot.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005882",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18989v1",
+      "text": "and (2) a Gloss-Contrastive Generation contrasting No-gloss and With-gloss inputs to isolate the effect of an explicit semantic pivot.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…for reproducible evaluation. G-IdiomAlign supports two protocols: (1) a controlled Multiple-Choice Idiom Equivalence with typed distractors for error attribution; and (2) a Gloss-Contrastive Generation contrasting No-gloss and With-gloss inputs to isolate the effect of an explicit semantic pivot.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005883",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18989v1",
+      "text": "Across diverse LLMs, a bias to literal translation is a dominant failure mode, especially when the target is a low-resource language.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…for error attribution; and (2) a Gloss-Contrastive Generation contrasting No-gloss and With-gloss inputs to isolate the effect of an explicit semantic pivot. Across diverse LLMs, a bias to literal translation is a dominant failure mode, especially when the target is a low-resource language.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005884",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18989v1",
+      "text": "Glosses consistently improve Gloss-Contrastive Generation under an embedding-based semantic proxy, but performance remains modest, indicating substantial headroom in the open output space.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…bias to literal translation is a dominant failure mode, especially when the target is a low-resource language. Glosses consistently improve Gloss-Contrastive Generation under an embedding-based semantic proxy, but performance remains modest, indicating substantial headroom in the open output space.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005885",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18989v1",
+      "text": "Subsequent analysis on Qwen3-8B further suggests that cross-condition differences are concentrated more in attention heads than in layers, while better With-gloss generations coincide with stronger gloss anchoring.",
+      "type": "normative",
+      "support_in_text": 0.42,
+      "quote": "…remains modest, indicating substantial headroom in the open output space. Subsequent analysis on Qwen3-8B further suggests that cross-condition differences are concentrated more in attention heads than in layers, while better With-gloss generations coincide with stronger gloss anchoring.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005886",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19047v1",
+      "text": "Multi-turn tool-use RL is bottlenecked by the rapid depletion of informative samples in static datasets.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Multi-turn tool-use RL is bottlenecked by the rapid depletion of informative samples in static datasets.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005887",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19047v1",
+      "text": "failures are roughly balanced -- contribute disproportionately large policy gradients.",
+      "type": "empirical",
+      "support_in_text": 0.32,
+      "quote": "…signal in GRPO concentrates on tasks with the highest rollout reward variance, a consequence of the Popoviciu upper bound. Consequently, samples near the agent's capability boundary -- where successes and failures are roughly balanced -- contribute disproportionately large policy gradients.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005888",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19047v1",
+      "text": "Starting from 400 human seeds",
+      "type": "statistical",
+      "support_in_text": 0.42,
+      "quote": "Starting from 400 human seeds and maintaining an active training pool of ~800 samples, RODS achieves comparable performance to a 17K-sample offline pipeline while requiring roughly 20x fewer trajectories, and improves over fixed-data RL and environment augmentation in our controlled setting.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005889",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19047v1",
+      "text": "maintaining an active training pool of ~800 samples, RODS achieves comparable performance to a 17K-sample offline pipeline while requiring roughly 20x fewer trajectories",
+      "type": "statistical",
+      "support_in_text": 0.42,
+      "quote": "Starting from 400 human seeds and maintaining an active training pool of ~800 samples, RODS achieves comparable performance to a 17K-sample offline pipeline while requiring roughly 20x fewer trajectories, and improves over fixed-data RL and environment augmentation in our controlled setting.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005890",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19047v1",
+      "text": "improves over fixed-data RL and environment augmentation in our controlled setting.",
+      "type": "descriptive",
+      "support_in_text": 0.42,
+      "quote": "Starting from 400 human seeds and maintaining an active training pool of ~800 samples, RODS achieves comparable performance to a 17K-sample offline pipeline while requiring roughly 20x fewer trajectories, and improves over fixed-data RL and environment augmentation in our controlled setting.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005891",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19168v1",
+      "text": "To achieve deeper safety alignment for large language models (LLMs), recent efforts have studied how to push safety interventions earlier into the pretraining stage, primarily by filtering unsafe data or rewriting it into safer forms.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "To achieve deeper safety alignment for large language models (LLMs), recent efforts have studied how to push safety interventions earlier into the pretraining stage, primarily by filtering unsafe data or rewriting it into safer forms.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005892",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19168v1",
+      "text": "We argue that pretraining-stage alignment should go beyond making the data safe: LLMs may compose seemingly benign knowledge and capabilities into unsafe behaviors.",
+      "type": "normative",
+      "support_in_text": 0.32,
+      "quote": "…to push safety interventions earlier into the pretraining stage, primarily by filtering unsafe data or rewriting it into safer forms. We argue that pretraining-stage alignment should go beyond making the data safe: LLMs may compose seemingly benign knowledge and capabilities into unsafe behaviors.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005893",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19168v1",
+      "text": "To this end, we propose Safety Reflection Pretraining, a pretraining-stage alignment method which regularly inserts short safety reflections into pretraining corpora to integrate self-monitoring directly into language modeling, establishing a foundational capability that is subsequently reinforced by compatible post-training.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "To this end, we propose Safety Reflection Pretraining, a pretraining-stage alignment method which regularly inserts short safety reflections into pretraining corpora to integrate self-monitoring directly into language modeling, establishing a foundational capability that is subsequently reinforced b",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005894",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19168v1",
+      "text": "Our experiments with 1.7B models pretrained on FineWeb-Edu show that Safety Reflection Pretraining improves safety classification accuracy",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…capability that is subsequently reinforced by compatible post-training. Our experiments with 1.7B models pretrained on FineWeb-Edu show that Safety Reflection Pretraining improves safety classification accuracy and substantially reduces the success rates of inference-stage and finetuning attacks.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005895",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19168v1",
+      "text": "substantially reduces the success rates of inference-stage and finetuning attacks.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…capability that is subsequently reinforced by compatible post-training. Our experiments with 1.7B models pretrained on FineWeb-Edu show that Safety Reflection Pretraining improves safety classification accuracy and substantially reduces the success rates of inference-stage and finetuning attacks.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005896",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19168v1",
+      "text": "a reasoning structure under which models can easily generalize unsafe behaviors from safe data.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…of inference-stage and finetuning attacks. Complementary to our real-world experiments, we also introduce a fully controlled synthetic environment, MedSafetyWorld, with a clear definition of safety and a reasoning structure under which models can easily generalize unsafe behaviors from safe data.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005897",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19168v1",
+      "text": "Taken together, our findings suggest that pretraining alignment should not only make the training data safe",
+      "type": "normative",
+      "support_in_text": 0.32,
+      "quote": "…models from acting on unsafe behaviors generalized from safe data, compared with data filtering and rewriting. Taken together, our findings suggest that pretraining alignment should not only make the training data safe, but also shape the behaviors that models are likely to acquire from safe data.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005898",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19168v1",
+      "text": "also shape the behaviors that models are likely to acquire from safe data.",
+      "type": "empirical",
+      "support_in_text": 0.32,
+      "quote": "…models from acting on unsafe behaviors generalized from safe data, compared with data filtering and rewriting. Taken together, our findings suggest that pretraining alignment should not only make the training data safe, but also shape the behaviors that models are likely to acquire from safe data.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005899",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19222v1",
+      "text": "In matched SFT/RLVR checkpoints on Qwen2.5-Math-1.5B",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…than standard full-parameter updates. In matched SFT/RLVR checkpoints on Qwen2.5-Math-1.5B and Qwen3-1.7B-Base, the SFT-to-RLVR increment differs sharply from the SFT update in token-level delta-log-probability, and full-parameter gradient ascent forgets only by damaging retain MATH and GSM8K.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005900",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19222v1",
+      "text": "Qwen3-1.7B-Base, the SFT-to-RLVR increment differs sharply from the SFT update in token-level delta-log-probability, and full-parameter gradient ascent forgets only by damaging retain MATH and GSM8K.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…than standard full-parameter updates. In matched SFT/RLVR checkpoints on Qwen2.5-Math-1.5B and Qwen3-1.7B-Base, the SFT-to-RLVR increment differs sharply from the SFT update in token-level delta-log-probability, and full-parameter gradient ascent forgets only by damaging retain MATH and GSM8K.",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005901",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19222v1",
+      "text": "On the primary model, MAST induces statistically significant target forgetting (MATH forget 45/150 to 37/150",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…energy, update magnitude, and forget-gradient coupling magnitude, then updates only the top-ranked subset. On the primary model, MAST induces statistically significant target forgetting (MATH forget 45/150 to 37/150; McNemar p=0.0078) while preserving GSM8K (+0.8 pp) and MATH retain (-0.5 pp).",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005902",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19222v1",
+      "text": "McNemar p=0.0078) while preserving GSM8K (+0.8 pp)",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…energy, update magnitude, and forget-gradient coupling magnitude, then updates only the top-ranked subset. On the primary model, MAST induces statistically significant target forgetting (MATH forget 45/150 to 37/150; McNemar p=0.0078) while preserving GSM8K (+0.8 pp) and MATH retain (-0.5 pp).",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005903",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19222v1",
+      "text": "MATH retain (-0.5 pp).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…energy, update magnitude, and forget-gradient coupling magnitude, then updates only the top-ranked subset. On the primary model, MAST induces statistically significant target forgetting (MATH forget 45/150 to 37/150; McNemar p=0.0078) while preserving GSM8K (+0.8 pp) and MATH retain (-0.5 pp).",
+      "run_id": "27742772011",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_005904",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19222v1",
+      "text": "Qwen3, where MAST preserves GSM8K while full-parameter unlearning collapses it.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…statistically significant target forgetting (MATH forget 45/150 to 37/150; McNemar p=0.0078) while preserving GSM8K (+0.8 pp) and MATH retain (-0.5 pp). The advantage reproduces across seeds, NPO/SimNPO objectives, and Qwen3, where MAST preserves GSM8K while full-parameter unlearning collapses it.",
+      "run_id": "27742772011",
       "status": "extracted"
     }
   ],
