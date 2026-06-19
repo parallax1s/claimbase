@@ -27,10 +27,10 @@
       "label": "Alignment Metric Gaming",
       "x": -125.35,
       "y": 114.83,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 2,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -79,7 +79,7 @@
     },
     {
       "id": "d_008",
-      "label": "robustness · fidelity · demonstration",
+      "label": "robustness · fidelity · sustained",
       "x": 192.7,
       "y": -103.04,
       "r": 59.8,
@@ -115,10 +115,10 @@
       "label": "Cross-Modal Knowledge Distillation",
       "x": 16.75,
       "y": 169.17,
-      "r": 107.14,
-      "claims": 23,
+      "r": 111.39,
+      "claims": 26,
       "lit": 5,
-      "dim": 18,
+      "dim": 21,
       "tensions": 0
     },
     {
@@ -126,10 +126,10 @@
       "label": "Neural Decoding and Brain-AI",
       "x": -323.23,
       "y": 172.6,
-      "r": 82.0,
-      "claims": 9,
+      "r": 84.27,
+      "claims": 10,
       "lit": 1,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -137,21 +137,21 @@
       "label": "Latent Variable and Neural Models",
       "x": 38.33,
       "y": 508.48,
-      "r": 94.22,
-      "claims": 15,
+      "r": 105.67,
+      "claims": 22,
       "lit": 2,
-      "dim": 13,
+      "dim": 20,
       "tensions": 0
     },
     {
       "id": "d_015",
-      "label": "scalar · whose · pipelines",
+      "label": "standard · reward · scalar",
       "x": 428.43,
       "y": 2.45,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -170,10 +170,10 @@
       "label": "Cross-Model Attack Transferability",
       "x": -221.29,
       "y": -237.08,
-      "r": 68.0,
-      "claims": 4,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 4,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -192,10 +192,10 @@
       "label": "LLM-Assisted Causal Discovery",
       "x": 188.2,
       "y": -311.15,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -225,10 +225,10 @@
       "label": "Alignment Faking Detection Thresholds",
       "x": 534.52,
       "y": 134.87,
-      "r": 94.22,
-      "claims": 15,
+      "r": 96.0,
+      "claims": 16,
       "lit": 1,
-      "dim": 14,
+      "dim": 15,
       "tensions": 0
     },
     {
@@ -280,10 +280,10 @@
       "label": "Multi-Turn Safety Drift",
       "x": -99.98,
       "y": 837.94,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 3,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -357,10 +357,10 @@
       "label": "AI Safety Institute Collaboration",
       "x": 791.53,
       "y": -38.8,
-      "r": 92.38,
-      "claims": 14,
+      "r": 94.22,
+      "claims": 15,
       "lit": 0,
-      "dim": 14,
+      "dim": 15,
       "tensions": 0
     },
     {
@@ -390,10 +390,10 @@
       "label": "LLM Agent Security Taxonomy",
       "x": -493.91,
       "y": 127.09,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -409,13 +409,13 @@
     },
     {
       "id": "d_044",
-      "label": "prediction · evaluated · accuracy",
+      "label": "prediction · accuracy · calibration",
       "x": 210.6,
       "y": 812.49,
-      "r": 84.27,
-      "claims": 10,
+      "r": 90.48,
+      "claims": 13,
       "lit": 0,
-      "dim": 10,
+      "dim": 13,
       "tensions": 0
     },
     {
@@ -456,10 +456,10 @@
       "label": "Multi-Sensor Remote Sensing VLM",
       "x": -311.41,
       "y": 924.27,
-      "r": 74.29,
-      "claims": 6,
+      "r": 84.27,
+      "claims": 10,
       "lit": 0,
-      "dim": 6,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -478,10 +478,10 @@
       "label": "Vision-Language Benchmark Results",
       "x": -254.03,
       "y": 1084.29,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -511,10 +511,10 @@
       "label": "Benchmark Baselines and Agent Scaling",
       "x": 559.33,
       "y": 678.71,
-      "r": 110.0,
-      "claims": 25,
+      "r": 111.39,
+      "claims": 26,
       "lit": 2,
-      "dim": 23,
+      "dim": 24,
       "tensions": 0
     },
     {
@@ -533,10 +533,10 @@
       "label": "Token-Level Policy Optimization",
       "x": 572.67,
       "y": -462.64,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -544,10 +544,10 @@
       "label": "Medical VLM Segmentation Benchmarks",
       "x": 766.92,
       "y": 575.63,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -1270,10 +1270,10 @@
       "label": "Should AI Get Unique Regulatory Treatment",
       "x": -874.93,
       "y": 3317.03,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 1,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -1971,13 +1971,24 @@
     },
     {
       "id": "d_1195",
-      "label": "validity · compromised · methods",
+      "label": "validity · methods · compromised",
       "x": 3589.67,
       "y": 222.77,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
+      "tensions": 0
+    },
+    {
+      "id": "d_1196",
+      "label": "team · blue · algorithm",
+      "x": -1008.14,
+      "y": -3735.64,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -2048,13 +2059,13 @@
     },
     {
       "id": "d_1212",
-      "label": "scaling · pfn · inference",
+      "label": "scaling · inference · prohibitive",
       "x": 2664.67,
       "y": -2515.51,
-      "r": 64.25,
-      "claims": 3,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 3,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -2124,14 +2135,25 @@
       "tensions": 0
     },
     {
+      "id": "d_1229",
+      "label": "natural · language · still",
+      "x": 1608.09,
+      "y": 3294.17,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_123",
       "label": "Model Arena Leaderboard Churn",
       "x": 794.43,
       "y": -933.64,
       "r": 170.0,
-      "claims": 118,
+      "claims": 119,
       "lit": 81,
-      "dim": 37,
+      "dim": 38,
       "tensions": 0
     },
     {
@@ -2147,13 +2169,13 @@
     },
     {
       "id": "d_1231",
-      "label": "spatial · nodes · different",
+      "label": "layers · layer · spatial",
       "x": 3412.23,
       "y": -6.16,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -2191,24 +2213,24 @@
     },
     {
       "id": "d_1236",
-      "label": "supervision · accuracy · training",
+      "label": "training · supervision · accuracy",
       "x": -4039.45,
       "y": 856.4,
-      "r": 90.48,
-      "claims": 13,
+      "r": 94.22,
+      "claims": 15,
       "lit": 0,
-      "dim": 13,
+      "dim": 15,
       "tensions": 0
     },
     {
       "id": "d_1237",
-      "label": "alignment · preservation · external",
+      "label": "preservation · alignment · suppression",
       "x": -2718.18,
       "y": 2696.53,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -2238,10 +2260,10 @@
       "label": "reward · hacking · decomposed",
       "x": -3871.07,
       "y": -468.95,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2257,7 +2279,7 @@
     },
     {
       "id": "d_1246",
-      "label": "fine · end · severe",
+      "label": "fine · end · joint",
       "x": 3574.28,
       "y": -57.53,
       "r": 71.3,
@@ -2290,13 +2312,13 @@
     },
     {
       "id": "d_1251",
-      "label": "dataset · release · neginb",
+      "label": "dataset · huggingface · datasets",
       "x": 3830.29,
       "y": -442.61,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2304,10 +2326,10 @@
       "label": "mismatch · affects · mainly",
       "x": 3245.12,
       "y": 1233.09,
-      "r": 74.29,
-      "claims": 6,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 6,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -2334,7 +2356,7 @@
     },
     {
       "id": "d_1258",
-      "label": "robot · decentralized · vla",
+      "label": "robot · decentralized · collaboration",
       "x": 1756.84,
       "y": -3374.45,
       "r": 59.8,
@@ -2444,7 +2466,7 @@
     },
     {
       "id": "d_1272",
-      "label": "verdicts · operationalizations · routed",
+      "label": "verdicts · operationalizations · compares",
       "x": 1160.12,
       "y": -3212.61,
       "r": 68.0,
@@ -2509,6 +2531,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1283",
+      "label": "driving · framework · where",
+      "x": 2393.57,
+      "y": 2871.45,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1284",
       "label": "unlearning · lifelong · 127",
       "x": -3101.04,
@@ -2532,24 +2565,24 @@
     },
     {
       "id": "d_1286",
-      "label": "dynamic · range · comprehension",
+      "label": "dynamic · static · range",
       "x": -2879.88,
       "y": 2707.05,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
       "id": "d_1287",
-      "label": "visual · vlm · integrate",
+      "label": "visual · vlm · language",
       "x": 3431.19,
       "y": -985.81,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -2565,13 +2598,13 @@
     },
     {
       "id": "d_1289",
-      "label": "mis · motion · performance",
+      "label": "motion · mis · performance",
       "x": 2548.92,
       "y": 2813.94,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2631,7 +2664,7 @@
     },
     {
       "id": "d_1301",
-      "label": "long · video · drift",
+      "label": "long · drift · video",
       "x": 3802.67,
       "y": -211.92,
       "r": 71.3,
@@ -2642,9 +2675,20 @@
     },
     {
       "id": "d_1302",
-      "label": "complementary · distinguishing · uniformly",
+      "label": "complementary · distinguishing · inaccurate",
       "x": 919.93,
       "y": -2986.8,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1306",
+      "label": "demonstrations · models · featurespace",
+      "x": -1367.72,
+      "y": -3141.7,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -2733,10 +2777,21 @@
       "label": "constraints · appliance · user",
       "x": -3381.17,
       "y": -1725.61,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 6,
+      "dim": 7,
+      "tensions": 0
+    },
+    {
+      "id": "d_1318",
+      "label": "classification · paper · seek",
+      "x": 3735.13,
+      "y": -18.08,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2752,13 +2807,13 @@
     },
     {
       "id": "d_1320",
-      "label": "spatiotemporal · allocation · star",
+      "label": "spatiotemporal · star · allocation",
       "x": 3773.37,
       "y": 726.59,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -2807,13 +2862,13 @@
     },
     {
       "id": "d_1329",
-      "label": "entropy · phishing · illustrate",
+      "label": "probabilities · entropy · phishing",
       "x": 3532.67,
       "y": -1110.92,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2840,7 +2895,7 @@
     },
     {
       "id": "d_1336",
-      "label": "project · hugging · obliteratus",
+      "label": "project · obliteratus · models",
       "x": -3722.19,
       "y": -895.44,
       "r": 59.8,
@@ -2884,13 +2939,13 @@
     },
     {
       "id": "d_1343",
-      "label": "compute · much · often",
+      "label": "compute · faster · performance",
       "x": 3393.51,
       "y": 1967.57,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2928,7 +2983,7 @@
     },
     {
       "id": "d_1353",
-      "label": "global · granted · models",
+      "label": "global · models · aims",
       "x": 3734.2,
       "y": -787.82,
       "r": 59.8,
@@ -3434,7 +3489,7 @@
     },
     {
       "id": "d_1485",
-      "label": "beliefs · trade · existential",
+      "label": "beliefs · existential · trade",
       "x": 1495.76,
       "y": -3665.18,
       "r": 59.8,
@@ -3500,13 +3555,13 @@
     },
     {
       "id": "d_1494",
-      "label": "synthesis · cross · difficult",
+      "label": "synthesis · cross · pollination",
       "x": 3889.12,
       "y": 108.98,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -3643,7 +3698,7 @@
     },
     {
       "id": "d_1516",
-      "label": "temporal · documents · temporally",
+      "label": "temporal · temporally · documents",
       "x": 2019.8,
       "y": 3866.06,
       "r": 68.0,
@@ -3679,21 +3734,21 @@
       "label": "compression · alignment · escape",
       "x": 3549.74,
       "y": 2178.12,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
       "id": "d_1523",
-      "label": "explanation · manipulation · metrics",
+      "label": "explanation · metrics · pairs",
       "x": 3308.59,
       "y": -2477.88,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -3775,13 +3830,13 @@
     },
     {
       "id": "d_1544",
-      "label": "specifications · alignment · training",
+      "label": "alignment · specifications · training",
       "x": 621.99,
       "y": 3993.55,
-      "r": 64.25,
-      "claims": 3,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 3,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -3822,21 +3877,21 @@
       "label": "gradient · rank · tuning",
       "x": 3974.75,
       "y": 958.16,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
       "id": "d_1551",
-      "label": "lora · skill · adapters",
+      "label": "lora · skill · style",
       "x": 2087.24,
       "y": 3524.48,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -3910,6 +3965,17 @@
       "label": "reinforcement · learning · addicted",
       "x": 2435.04,
       "y": -3356.18,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1575",
+      "label": "simulation · comprehensively · libero",
+      "x": -3538.24,
+      "y": 2159.48,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -4082,6 +4148,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1601",
+      "label": "penalty · safety · alignment",
+      "x": 2750.27,
+      "y": 3302.25,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1603",
       "label": "geneval · ocr · pickscore",
       "x": -4253.49,
@@ -4094,13 +4171,13 @@
     },
     {
       "id": "d_1605",
-      "label": "fundamental · conducted · sensed",
+      "label": "scaling · additional · fundamental",
       "x": 4205.1,
       "y": -130.78,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -4130,10 +4207,10 @@
       "label": "embodiment · end · effectors",
       "x": 3255.28,
       "y": 340.39,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -4182,13 +4259,13 @@
     },
     {
       "id": "d_1625",
-      "label": "global · health · knowledge",
+      "label": "global · llm · health",
       "x": 4123.54,
       "y": 1443.14,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -4258,14 +4335,36 @@
       "tensions": 0
     },
     {
+      "id": "d_1643",
+      "label": "editorial · llm · alignment",
+      "x": -4002.09,
+      "y": -2025.46,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1644",
       "label": "reward · scpo · model",
       "x": 4055.21,
       "y": -1206.17,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
+      "tensions": 0
+    },
+    {
+      "id": "d_1645",
+      "label": "bias · show · suboptimality",
+      "x": 4098.95,
+      "y": 1267.31,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -4324,6 +4423,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1655",
+      "label": "dpo · utility · preference",
+      "x": -1708.13,
+      "y": -3754.66,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_166",
       "label": "Training Avoidance Techniques",
       "x": -133.3,
@@ -4332,6 +4442,17 @@
       "claims": 6,
       "lit": 2,
       "dim": 4,
+      "tensions": 0
+    },
+    {
+      "id": "d_1660",
+      "label": "preprocessing · cross · splits",
+      "x": 1271.6,
+      "y": 3993.21,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -4379,10 +4500,175 @@
       "tensions": 0
     },
     {
+      "id": "d_1670",
+      "label": "completions · comparison · label",
+      "x": -804.44,
+      "y": -4040.91,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1674",
+      "label": "gauge · dimensionless · monocular",
+      "x": -3819.23,
+      "y": -1318.97,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1676",
+      "label": "parascale · realizes · scene's",
+      "x": -3368.34,
+      "y": -2907.95,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1677",
+      "label": "fidelity · visual · cuts",
+      "x": -2304.21,
+      "y": -3546.09,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1678",
+      "label": "finred · https · datumo",
+      "x": 4203.29,
+      "y": 906.55,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1680",
+      "label": "executable · physically · speech",
+      "x": -4029.23,
+      "y": -1714.85,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1681",
+      "label": "embodiment · motion · humanoid",
+      "x": 2736.66,
+      "y": -3361.84,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1683",
+      "label": "navigation · training · dialnav",
+      "x": 4488.88,
+      "y": -493.76,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1684",
+      "label": "textbf · val · splits",
+      "x": 4265.11,
+      "y": 1274.27,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1686",
+      "label": "privilege · defense · prefer",
+      "x": -4520.43,
+      "y": -709.22,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1687",
+      "label": "vln · uav · target",
+      "x": 4151.05,
+      "y": -1437.81,
+      "r": 77.04,
+      "claims": 7,
+      "lit": 0,
+      "dim": 7,
+      "tensions": 0
+    },
+    {
       "id": "d_169",
       "label": "Student AI Assignment Avoidance",
       "x": -233.33,
       "y": 1451.61,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1691",
+      "label": "merging · diffusion · 256",
+      "x": -2451.88,
+      "y": -3728.99,
+      "r": 68.0,
+      "claims": 4,
+      "lit": 0,
+      "dim": 4,
+      "tensions": 0
+    },
+    {
+      "id": "d_1695",
+      "label": "dissemination · knowledge · editorial",
+      "x": -389.94,
+      "y": 4362.87,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1697",
+      "label": "style · reference · content",
+      "x": -3714.46,
+      "y": -1481.43,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1701",
+      "label": "moe · calibration · under",
+      "x": 202.2,
+      "y": 4184.85,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -5670,10 +5956,10 @@
       "label": "Synthetic User Research Risk",
       "x": 1644.24,
       "y": -527.17,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -5692,10 +5978,10 @@
       "label": "Downside Risk Underestimation",
       "x": -1498.41,
       "y": 1726.81,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 1,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -6110,10 +6396,10 @@
       "label": "Token Usage Leaderboards",
       "x": 1530.51,
       "y": -680.72,
-      "r": 71.3,
-      "claims": 5,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 5,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -7771,10 +8057,10 @@
       "label": "Core Contradiction Unresolved",
       "x": -924.39,
       "y": -2613.29,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 1,
-      "dim": 1,
+      "dim": 2,
       "tensions": 1
     },
     {
@@ -7837,10 +8123,10 @@
       "label": "Claude Harm Tolerance Limits",
       "x": 1689.02,
       "y": -1503.26,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -8640,10 +8926,10 @@
       "label": "creative · confounders · participants'",
       "x": -1139.91,
       "y": -2854.26,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -8860,10 +9146,10 @@
       "label": "Federal AI Security Mandates",
       "x": 731.38,
       "y": -2593.69,
-      "r": 104.16,
-      "claims": 21,
+      "r": 105.67,
+      "claims": 22,
       "lit": 5,
-      "dim": 16,
+      "dim": 17,
       "tensions": 0
     },
     {
@@ -8926,10 +9212,10 @@
       "label": "AI-Assisted Research 2028",
       "x": -3413.3,
       "y": 873.06,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 1,
-      "dim": 1,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -8989,7 +9275,7 @@
     },
     {
       "id": "d_912",
-      "label": "rules · 540 · evolution",
+      "label": "rules · 540 · revealed",
       "x": 2963.8,
       "y": -1312.86,
       "r": 59.8,
@@ -9142,6 +9428,17 @@
       "tensions": 0
     },
     {
+      "id": "d_938",
+      "label": "security · financial · standards",
+      "x": 2920.45,
+      "y": 233.78,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_939",
       "label": "confidential · procurement · stemming",
       "x": 42.82,
@@ -9252,6 +9549,17 @@
       "tensions": 0
     },
     {
+      "id": "d_955",
+      "label": "representation · single · regularizer",
+      "x": -2221.39,
+      "y": 2794.68,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_957",
       "label": "Right-to-Act Pre-Execution Gate",
       "x": 3044.75,
@@ -9300,10 +9608,10 @@
       "label": "Fuzzy Hard-to-Supervise Tasks",
       "x": -2720.66,
       "y": 524.14,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -9355,10 +9663,10 @@
       "label": "Agent Monitoring Benchmarks",
       "x": 3245.02,
       "y": -688.11,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 4,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -9377,10 +9685,10 @@
       "label": "Weak-to-Strong Generalization",
       "x": 3163.31,
       "y": -418.38,
-      "r": 90.48,
-      "claims": 13,
+      "r": 97.72,
+      "claims": 17,
       "lit": 6,
-      "dim": 7,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -9396,7 +9704,7 @@
     },
     {
       "id": "d_973",
-      "label": "addresses · defer · resample",
+      "label": "defer · resample · addresses",
       "x": 2597.62,
       "y": 957.6,
       "r": 59.8,
@@ -9454,10 +9762,10 @@
       "label": "Llama Fine-Tuning Behavior",
       "x": 2588.19,
       "y": 1904.82,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -9476,10 +9784,10 @@
       "label": "Null Hypothesis Historian Bias",
       "x": 2473.42,
       "y": -2242.58,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -9487,10 +9795,10 @@
       "label": "Distributed Harm Evasion",
       "x": -2832.27,
       "y": -1561.59,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -56472,6 +56780,1546 @@
       "type": "statistical",
       "text": "Qwen3, where MAST preserves GSM8K while full-parameter unlearning collapses it.",
       "src": "Mechanism-Guided Selective Unlearning fo"
+    },
+    {
+      "id": "clm_005905",
+      "x": -3388.34,
+      "y": 853.42,
+      "s": "dim",
+      "d": "d_899",
+      "type": "causal",
+      "text": "AI models deployed in critical domains, such as AI safety research, may subtly sabotage our efforts due to misalignment.",
+      "src": "Diffuse AI Control on Fuzzy Tasks"
+    },
+    {
+      "id": "clm_005906",
+      "x": 770.42,
+      "y": -2551.87,
+      "s": "dim",
+      "d": "d_881",
+      "type": "empirical",
+      "text": "Diffuse AI Control is a subfield of AI safety concerned with mitigating risks from AI sabotage distributed over long deployment horizons (di",
+      "src": "Diffuse AI Control on Fuzzy Tasks"
+    },
+    {
+      "id": "clm_005907",
+      "x": -2698.45,
+      "y": 499.94,
+      "s": "dim",
+      "d": "d_962",
+      "type": "descriptive",
+      "text": "These risks are particularly pernicious on fuzzy tasks, i.e. tasks which are hard to grade or require intuition.",
+      "src": "Diffuse AI Control on Fuzzy Tasks"
+    },
+    {
+      "id": "clm_005908",
+      "x": 3147.48,
+      "y": -469.92,
+      "s": "dim",
+      "d": "d_970",
+      "type": "descriptive",
+      "text": "The blue team uses a weak trusted model to construct a weak score against which they would train a strong, potentially subversive model to r",
+      "src": "Diffuse AI Control on Fuzzy Tasks"
+    },
+    {
+      "id": "clm_005909",
+      "x": 3163.91,
+      "y": -488.44,
+      "s": "dim",
+      "d": "d_970",
+      "type": "descriptive",
+      "text": "The red team then tries to find model behaviors that are rated highly by the weak score, and thus might not be trained out, but actually cor",
+      "src": "Diffuse AI Control on Fuzzy Tasks"
+    },
+    {
+      "id": "clm_005910",
+      "x": 666.66,
+      "y": -859.88,
+      "s": "dim",
+      "d": "d_123",
+      "type": "normative",
+      "text": "We show that Opus~4.6 can write proposals that are worse according to the ground truth proxy than those of GPT-OSS-20B, while the weak score",
+      "src": "Diffuse AI Control on Fuzzy Tasks"
+    },
+    {
+      "id": "clm_005911",
+      "x": -973.72,
+      "y": -3714.77,
+      "s": "dim",
+      "d": "d_1196",
+      "type": "descriptive",
+      "text": "This algorithm produces a blue team prompt that our red team optimization fails to exploit.",
+      "src": "Diffuse AI Control on Fuzzy Tasks"
+    },
+    {
+      "id": "clm_005912",
+      "x": -3998.58,
+      "y": 859.27,
+      "s": "dim",
+      "d": "d_1236",
+      "type": "descriptive",
+      "text": "Preference-based post-training has become a central paradigm for aligning language models.",
+      "src": "Which Pairs to Compare for LLM Post-Trai"
+    },
+    {
+      "id": "clm_005913",
+      "x": -801.48,
+      "y": -4085.11,
+      "s": "dim",
+      "d": "d_1670",
+      "type": "descriptive",
+      "text": "A common data-collection strategy is to generate a small set of completions for each prompt and label the resulting comparison pairs.",
+      "src": "Which Pairs to Compare for LLM Post-Trai"
+    },
+    {
+      "id": "clm_005914",
+      "x": -822.86,
+      "y": -4021.91,
+      "s": "dim",
+      "d": "d_1670",
+      "type": "descriptive",
+      "text": "However, human preference labels are often much more expensive than generating additional completions, suggesting a different use of the sam",
+      "src": "Which Pairs to Compare for LLM Post-Trai"
+    },
+    {
+      "id": "clm_005915",
+      "x": 3682.81,
+      "y": -9.53,
+      "s": "dim",
+      "d": "d_1318",
+      "type": "normative",
+      "text": "This paper studies which pairs should be compared in preference-based post-training.",
+      "src": "Which Pairs to Compare for LLM Post-Trai"
+    },
+    {
+      "id": "clm_005916",
+      "x": 4091.65,
+      "y": 1234.36,
+      "s": "dim",
+      "d": "d_1645",
+      "type": "empirical",
+      "text": "The bounds show that comparison selection affects downstream performance through a single design-dependent information matrix, which links l",
+      "src": "Which Pairs to Compare for LLM Post-Trai"
+    },
+    {
+      "id": "clm_005917",
+      "x": 602.25,
+      "y": 633.49,
+      "s": "dim",
+      "d": "d_054",
+      "type": "descriptive",
+      "text": "language-model post-training benchmarks show that the proposed designs consistently improve sample efficiency over common comparison-selecti",
+      "src": "Which Pairs to Compare for LLM Post-Trai"
+    },
+    {
+      "id": "clm_005918",
+      "x": 166.95,
+      "y": -344.51,
+      "s": "dim",
+      "d": "d_021",
+      "type": "descriptive",
+      "text": "While global explanations are crucial for understanding vision models across datasets, classes, and decision contexts, their complex and mon",
+      "src": "GLARE: A Natural Language Interface for "
+    },
+    {
+      "id": "clm_005919",
+      "x": -2915.94,
+      "y": 2681.77,
+      "s": "dim",
+      "d": "d_1286",
+      "type": "causal",
+      "text": "Because users typically seek targeted answers to specific questions rather than static artifacts, we present an LLM-based interactive interf",
+      "src": "GLARE: A Natural Language Interface for "
+    },
+    {
+      "id": "clm_005920",
+      "x": 4119.0,
+      "y": 1436.1,
+      "s": "dim",
+      "d": "d_1625",
+      "type": "descriptive",
+      "text": "Our results demonstrate that LLM-mediated querying substantially improves the accessibility and usability of global explanations for human-c",
+      "src": "GLARE: A Natural Language Interface for "
+    },
+    {
+      "id": "clm_005921",
+      "x": -3342.74,
+      "y": -1766.75,
+      "s": "dim",
+      "d": "d_1317",
+      "type": "descriptive",
+      "text": "A practical approach is to apply these objectives sequentially using preference optimisation methods such as Direct Preference Optimisation ",
+      "src": "Beyond Uniform Forgetting: A Study of Se"
+    },
+    {
+      "id": "clm_005922",
+      "x": -1697.06,
+      "y": -3760.5,
+      "s": "dim",
+      "d": "d_1655",
+      "type": "other",
+      "text": "We study sequential DPO across four preference settings covering distributional conflict, multi-attribute interaction, strong safety signal,",
+      "src": "Beyond Uniform Forgetting: A Study of Se"
+    },
+    {
+      "id": "clm_005923",
+      "x": 2597.44,
+      "y": 1878.05,
+      "s": "dim",
+      "d": "d_980",
+      "type": "statistical",
+      "text": "Using Llama-3.1-8B-Instruct with LoRA adapters, we evaluate all objectives after every stage with a fixed base-model reference.",
+      "src": "Beyond Uniform Forgetting: A Study of Se"
+    },
+    {
+      "id": "clm_005924",
+      "x": 3111.63,
+      "y": -350.81,
+      "s": "dim",
+      "d": "d_970",
+      "type": "descriptive",
+      "text": "We find that sequential DPO does not produce a single forgetting pattern; preference change ranges from partial degradation to stability, pa",
+      "src": "Beyond Uniform Forgetting: A Study of Se"
+    },
+    {
+      "id": "clm_005925",
+      "x": 3329.92,
+      "y": -2500.7,
+      "s": "dim",
+      "d": "d_1523",
+      "type": "empirical",
+      "text": "Pair-level analysis using length-normalised policy margins shows that aggregate metrics can mask heterogeneous changes across preference pai",
+      "src": "Beyond Uniform Forgetting: A Study of Se"
+    },
+    {
+      "id": "clm_005926",
+      "x": 3496.75,
+      "y": -2429.92,
+      "s": "dim",
+      "d": "d_1671",
+      "type": "statistical",
+      "text": "Mechanistic diagnostics show that Stage~2 gradients",
+      "src": "Beyond Uniform Forgetting: A Study of Se"
+    },
+    {
+      "id": "clm_005927",
+      "x": 3968.59,
+      "y": 973.38,
+      "s": "dim",
+      "d": "d_1550",
+      "type": "descriptive",
+      "text": "adapter updates are near-orthogonal to the previous objective across all settings, providing little evidence that direct gradient opposition",
+      "src": "Beyond Uniform Forgetting: A Study of Se"
+    },
+    {
+      "id": "clm_005928",
+      "x": 658.2,
+      "y": 3978.55,
+      "s": "dim",
+      "d": "d_1544",
+      "type": "normative",
+      "text": "These findings suggest that future sequential alignment pipelines should account for objective compatibility and signal strength, rather tha",
+      "src": "Beyond Uniform Forgetting: A Study of Se"
+    },
+    {
+      "id": "clm_005929",
+      "x": 2615.57,
+      "y": -2545.9,
+      "s": "dim",
+      "d": "d_1212",
+      "type": "legal",
+      "text": "Neural scaling laws describe how model performance improves as a power law in compute, model size, and dataset size.",
+      "src": "Towards Engineering Scaling Laws with Pr"
+    },
+    {
+      "id": "clm_005930",
+      "x": 85.55,
+      "y": 450.58,
+      "s": "dim",
+      "d": "d_014",
+      "type": "descriptive",
+      "text": "While well-established for large language models, these relationships are emerging for large models in particle physics.",
+      "src": "Towards Engineering Scaling Laws with Pr"
+    },
+    {
+      "id": "clm_005931",
+      "x": 3279.47,
+      "y": -2870.17,
+      "s": "dim",
+      "d": "d_1672",
+      "type": "legal",
+      "text": "As with language, empirical studies show that the performance scales as a power law.",
+      "src": "Towards Engineering Scaling Laws with Pr"
+    },
+    {
+      "id": "clm_005932",
+      "x": 1681.55,
+      "y": -574.65,
+      "s": "dim",
+      "d": "d_346",
+      "type": "descriptive",
+      "text": "However, unlike natural language or image domains, fundamental physics has high-fidelity simulators that produce synthetic data cheaply.",
+      "src": "Towards Engineering Scaling Laws with Pr"
+    },
+    {
+      "id": "clm_005933",
+      "x": 4193.1,
+      "y": -82.93,
+      "s": "dim",
+      "d": "d_1605",
+      "type": "descriptive",
+      "text": "This favors scaling regimes where additional data is cheaper than additional parameters, and allows the pretraining dataset itself to be eng",
+      "src": "Towards Engineering Scaling Laws with Pr"
+    },
+    {
+      "id": "clm_005934",
+      "x": 2653.0,
+      "y": -2504.73,
+      "s": "dim",
+      "d": "d_1212",
+      "type": "descriptive",
+      "text": "For the task of classifying hadronic jets produced in collisions of high-energy particle beams, we show that the scaling behavior can be eng",
+      "src": "Towards Engineering Scaling Laws with Pr"
+    },
+    {
+      "id": "clm_005935",
+      "x": 3741.66,
+      "y": -7.44,
+      "s": "dim",
+      "d": "d_1318",
+      "type": "normative",
+      "text": "better aligned with the downstream classification task.",
+      "src": "Towards Engineering Scaling Laws with Pr"
+    },
+    {
+      "id": "clm_005936",
+      "x": 2623.21,
+      "y": 2678.37,
+      "s": "dim",
+      "d": "d_1673",
+      "type": "other",
+      "text": "Transferring the camera motion of a reference video to a freshly generated one lets creators reuse cinematic moves.",
+      "src": "ParaScale: Scale-Calibrated Camera-Motio"
+    },
+    {
+      "id": "clm_005937",
+      "x": -3799.62,
+      "y": -1319.73,
+      "s": "dim",
+      "d": "d_1674",
+      "type": "descriptive",
+      "text": "We trace this to a geometric fact: translation-induced image motion scales as ||T||/Z, so a monocular trajectory is meaningful only up to a ",
+      "src": "ParaScale: Scale-Calibrated Camera-Motio"
+    },
+    {
+      "id": "clm_005938",
+      "x": -3849.89,
+      "y": -1300.25,
+      "s": "dim",
+      "d": "d_1674",
+      "type": "descriptive",
+      "text": "We distill this into the Parallax Number Pi = ||Delta T|| / Zbar, a dimensionless, gauge-invariant descriptor of how strongly a camera move ",
+      "src": "ParaScale: Scale-Calibrated Camera-Motio"
+    },
+    {
+      "id": "clm_005939",
+      "x": -4012.0,
+      "y": -1241.4,
+      "s": "dim",
+      "d": "d_1675",
+      "type": "normative",
+      "text": "prove that it -- not the raw trajectory -- is the quantity that scale-faithful transfer must preserve.",
+      "src": "ParaScale: Scale-Calibrated Camera-Motio"
+    },
+    {
+      "id": "clm_005940",
+      "x": -3373.57,
+      "y": -2920.53,
+      "s": "dim",
+      "d": "d_1676",
+      "type": "descriptive",
+      "text": "ParaScale is a plug-and-play module that reads Pi off any reference video and re-realizes it against the target scene's own depth, per frame",
+      "src": "ParaScale: Scale-Calibrated Camera-Motio"
+    },
+    {
+      "id": "clm_005941",
+      "x": -3407.1,
+      "y": -2884.03,
+      "s": "dim",
+      "d": "d_1676",
+      "type": "other",
+      "text": "Across scale regimes spanning four orders of magnitude and multiple backbones, ParaScale keeps the realized parallax on the identity line",
+      "src": "ParaScale: Scale-Calibrated Camera-Motio"
+    },
+    {
+      "id": "clm_005942",
+      "x": -2259.23,
+      "y": -3547.81,
+      "s": "dim",
+      "d": "d_1677",
+      "type": "statistical",
+      "text": "cuts PCE by more than 3x over uncalibrated transfer with no loss of visual fidelity.",
+      "src": "ParaScale: Scale-Calibrated Camera-Motio"
+    },
+    {
+      "id": "clm_005943",
+      "x": 192.87,
+      "y": 749.16,
+      "s": "dim",
+      "d": "d_044",
+      "type": "statistical",
+      "text": "However, this pipeline faces two fundamental challenges: (1) reward models cannot signal when their predictions are unreliable, since they u",
+      "src": "Uncertainty-Aware Reward Modeling for St"
+    },
+    {
+      "id": "clm_005944",
+      "x": 4076.97,
+      "y": -1185.41,
+      "s": "dim",
+      "d": "d_1644",
+      "type": "statistical",
+      "text": "and (2) modern group-based policy optimization can amplify unreliable reward signals, as exemplified by GRPO's uniform treatment of rewards ",
+      "src": "Uncertainty-Aware Reward Modeling for St"
+    },
+    {
+      "id": "clm_005945",
+      "x": -3879.56,
+      "y": -450.79,
+      "s": "dim",
+      "d": "d_1244",
+      "type": "other",
+      "text": "As policies explore increasingly diverse responses, these two limitations create a critical vulnerability: unreliable reward estimates may b",
+      "src": "Uncertainty-Aware Reward Modeling for St"
+    },
+    {
+      "id": "clm_005946",
+      "x": 368.97,
+      "y": 26.4,
+      "s": "dim",
+      "d": "d_015",
+      "type": "descriptive",
+      "text": "PKU-SafeRLHF demonstrate that UARM significantly improves reward model calibration, reduces reward hacking, and enhances downstream alignmen",
+      "src": "Uncertainty-Aware Reward Modeling for St"
+    },
+    {
+      "id": "clm_005947",
+      "x": 4210.9,
+      "y": 861.06,
+      "s": "dim",
+      "d": "d_1678",
+      "type": "financial",
+      "text": "FinRED uses a novel two-level taxonomy mapping global standards (e.g., FATF and EU DORA) to threats ranging from regulatory evasion to compl",
+      "src": "FFinRED: An Expert-Guided Benchmark Gene"
+    },
+    {
+      "id": "clm_005948",
+      "x": -3881.03,
+      "y": -700.74,
+      "s": "dim",
+      "d": "d_1679",
+      "type": "other",
+      "text": "We also provide an expert-validated, finance-specific rubric that goes beyond disclaimer checks, aligns more closely with human experts than",
+      "src": "FFinRED: An Expert-Guided Benchmark Gene"
+    },
+    {
+      "id": "clm_005949",
+      "x": -1519.82,
+      "y": 1693.5,
+      "s": "dim",
+      "d": "d_348",
+      "type": "statistical",
+      "text": "reduces critical false negatives from 28 to 12. Aligned with internationally adopted risk-management",
+      "src": "FFinRED: An Expert-Guided Benchmark Gene"
+    },
+    {
+      "id": "clm_005950",
+      "x": 2901.24,
+      "y": 280.4,
+      "s": "dim",
+      "d": "d_938",
+      "type": "statistical",
+      "text": "information-security standards (e.g., ISO/IEC 27001), FinRED is deployed in South Korea's Financial Security Institute (FSI) regulatory sand",
+      "src": "FFinRED: An Expert-Guided Benchmark Gene"
+    },
+    {
+      "id": "clm_005951",
+      "x": 4167.24,
+      "y": 908.11,
+      "s": "dim",
+      "d": "d_1678",
+      "type": "descriptive",
+      "text": "evaluation framework are gated for qualified researchers at https://github.com/selectstar-ai/FinRED-paper and https://huggingface.co/dataset",
+      "src": "FFinRED: An Expert-Guided Benchmark Gene"
+    },
+    {
+      "id": "clm_005952",
+      "x": -1156.5,
+      "y": -2874.61,
+      "s": "dim",
+      "d": "d_839",
+      "type": "descriptive",
+      "text": "Art has long stood as a pivotal expression of human creativity.",
+      "src": "Co-policy: Responsive Human-Robot Co-Cre"
+    },
+    {
+      "id": "clm_005953",
+      "x": -894.3,
+      "y": 3331.83,
+      "s": "dim",
+      "d": "d_1064",
+      "type": "descriptive",
+      "text": "Embodied artificial intelligence offers a route for generative models to participate in that creativity through physical action rather than ",
+      "src": "Co-policy: Responsive Human-Robot Co-Cre"
+    },
+    {
+      "id": "clm_005954",
+      "x": -4070.99,
+      "y": -1734.21,
+      "s": "dim",
+      "d": "d_1680",
+      "type": "empirical",
+      "text": "In robotic music co-creation, it is challenging to connect semantic musical understanding with real-time and physically executable performan",
+      "src": "Co-policy: Responsive Human-Robot Co-Cre"
+    },
+    {
+      "id": "clm_005955",
+      "x": 3246.06,
+      "y": -700.21,
+      "s": "dim",
+      "d": "d_967",
+      "type": "empirical",
+      "text": "expert evaluation show improved intent alignment, execution accuracy, and response frequency over diffusion-policy and ablated baselines, su",
+      "src": "Co-policy: Responsive Human-Robot Co-Cre"
+    },
+    {
+      "id": "clm_005956",
+      "x": -4080.08,
+      "y": -1697.98,
+      "s": "dim",
+      "d": "d_1680",
+      "type": "descriptive",
+      "text": "Humanoid robots require co-speech motions that are not only expressive and speech-aligned, but also physically executable under embodiment c",
+      "src": "PhysDrift: Bridging the Embodiment Gap i"
+    },
+    {
+      "id": "clm_005957",
+      "x": 2739.75,
+      "y": -3401.5,
+      "s": "dim",
+      "d": "d_1681",
+      "type": "descriptive",
+      "text": "Existing co-speech generation pipelines are predominantly human-centric: motions are first generated in human-body representations such as S",
+      "src": "PhysDrift: Bridging the Embodiment Gap i"
+    },
+    {
+      "id": "clm_005958",
+      "x": 2763.74,
+      "y": -3342.24,
+      "s": "dim",
+      "d": "d_1681",
+      "type": "historical",
+      "text": "In this work, we identify a fundamental embodiment gap in this paradigm, where the mismatch between human motion manifolds and humanoid embo",
+      "src": "PhysDrift: Bridging the Embodiment Gap i"
+    },
+    {
+      "id": "clm_005959",
+      "x": 2546.88,
+      "y": 2764.25,
+      "s": "dim",
+      "d": "d_1289",
+      "type": "descriptive",
+      "text": "Through extensive analysis, we show that although retargeting can preserve coarse motion semantics, it significantly compresses motion diver",
+      "src": "PhysDrift: Bridging the Embodiment Gap i"
+    },
+    {
+      "id": "clm_005960",
+      "x": 2745.03,
+      "y": -3388.87,
+      "s": "dim",
+      "d": "d_1681",
+      "type": "empirical",
+      "text": "real-world humanoid deployment demonstrate that embodiment-aware robot-native generation substantially improves speech-motion alignment, phy",
+      "src": "PhysDrift: Bridging the Embodiment Gap i"
+    },
+    {
+      "id": "clm_005961",
+      "x": 547.13,
+      "y": -4224.55,
+      "s": "dim",
+      "d": "d_1682",
+      "type": "empirical",
+      "text": "understand dialog is crucial to ensure both safety and effectiveness.",
+      "src": "Advancing DialNav through Automatic Embo"
+    },
+    {
+      "id": "clm_005962",
+      "x": 4493.27,
+      "y": -512.23,
+      "s": "dim",
+      "d": "d_1683",
+      "type": "statistical",
+      "text": "While DialNav~\\cite{han2025dialnav} provides a framework for holistic evaluation of the dialog--execution loop in photorealistic indoor navi",
+      "src": "Advancing DialNav through Automatic Embo"
+    },
+    {
+      "id": "clm_005963",
+      "x": 4508.63,
+      "y": -443.97,
+      "s": "dim",
+      "d": "d_1683",
+      "type": "statistical",
+      "text": "construct the \\textbf{RAINbow} dataset, a large-scale training dataset with 238K episodes for DialNav.",
+      "src": "Advancing DialNav through Automatic Embo"
+    },
+    {
+      "id": "clm_005964",
+      "x": 4515.07,
+      "y": -518.23,
+      "s": "dim",
+      "d": "d_1683",
+      "type": "statistical",
+      "text": "Then, we introduce two additional complementary advances to unlock the data's full potential: (1) Dual-Strategy Training, a navigation train",
+      "src": "Advancing DialNav through Automatic Embo"
+    },
+    {
+      "id": "clm_005965",
+      "x": 113.75,
+      "y": 533.41,
+      "s": "dim",
+      "d": "d_014",
+      "type": "statistical",
+      "text": "(2) a localization model that leverages VLN knowledge.",
+      "src": "Advancing DialNav through Automatic Embo"
+    },
+    {
+      "id": "clm_005966",
+      "x": 4266.39,
+      "y": 1273.37,
+      "s": "dim",
+      "d": "d_1684",
+      "type": "statistical",
+      "text": "By combining these complementary solutions, our model substantially outperforms the baseline in success rate on both \\textbf{Val Seen} (58.2",
+      "src": "Advancing DialNav through Automatic Embo"
+    },
+    {
+      "id": "clm_005967",
+      "x": 4285.2,
+      "y": 1278.88,
+      "s": "dim",
+      "d": "d_1684",
+      "type": "statistical",
+      "text": "\\textbf{Val Unseen} (29.05, \\textbf{+100\\%}) splits, establishing a new state of the art.",
+      "src": "Advancing DialNav through Automatic Embo"
+    },
+    {
+      "id": "clm_005968",
+      "x": -495.07,
+      "y": 94.08,
+      "s": "dim",
+      "d": "d_041",
+      "type": "descriptive",
+      "text": "five recurring risk patterns, we find that over-privileged tool selection is common among mainstream LLM agents",
+      "src": "When Lower Privileges Suffice: Investiga"
+    },
+    {
+      "id": "clm_005969",
+      "x": -2432.81,
+      "y": 3703.29,
+      "s": "dim",
+      "d": "d_1685",
+      "type": "descriptive",
+      "text": "is further amplified by transient failures.",
+      "src": "When Lower Privileges Suffice: Investiga"
+    },
+    {
+      "id": "clm_005970",
+      "x": 2737.45,
+      "y": 3302.63,
+      "s": "dim",
+      "d": "d_1601",
+      "type": "empirical",
+      "text": "We further find that general safety alignment does not reliably transfer to least-privilege tool choice, while prompt-level controls provide",
+      "src": "When Lower Privileges Suffice: Investiga"
+    },
+    {
+      "id": "clm_005971",
+      "x": -4528.89,
+      "y": -723.79,
+      "s": "dim",
+      "d": "d_1686",
+      "type": "causal",
+      "text": "We therefore introduce a privilege-aware post-training defense that teaches agents to prefer sufficient lower-privilege tools and escalate o",
+      "src": "When Lower Privileges Suffice: Investiga"
+    },
+    {
+      "id": "clm_005972",
+      "x": -4564.75,
+      "y": -681.68,
+      "s": "dim",
+      "d": "d_1686",
+      "type": "descriptive",
+      "text": "Our mitigation experiments show that this defense substantially reduces unnecessary high-privilege tool use while preserving general capabil",
+      "src": "When Lower Privileges Suffice: Investiga"
+    },
+    {
+      "id": "clm_005973",
+      "x": 4151.93,
+      "y": -1414.13,
+      "s": "dim",
+      "d": "d_1687",
+      "type": "descriptive",
+      "text": "UAV Vision-Language Navigation (UAV-VLN) is typically formulated as a holistic search-and-reach problem, where long-range target discovery",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005974",
+      "x": -97.67,
+      "y": 148.32,
+      "s": "dim",
+      "d": "d_002",
+      "type": "descriptive",
+      "text": "final target approach are optimized and evaluated jointly.",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005975",
+      "x": 4149.84,
+      "y": -1470.97,
+      "s": "dim",
+      "d": "d_1687",
+      "type": "descriptive",
+      "text": "This formulation makes it difficult to assess a critical capability of aerial embodied agents, namely whether a UAV can accurately ground a ",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005976",
+      "x": 4169.48,
+      "y": -1434.11,
+      "s": "dim",
+      "d": "d_1687",
+      "type": "statistical",
+      "text": "translate vision-language evidence into precise 3D motion once the target enters its field of view.",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005977",
+      "x": 4157.39,
+      "y": -1486.48,
+      "s": "dim",
+      "d": "d_1687",
+      "type": "statistical",
+      "text": "We further propose 3DG-VLN, a vision-language waypoint prediction framework guided by dynamic 3D direction cues to enhance fine-grained visu",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005978",
+      "x": 4188.93,
+      "y": -1486.24,
+      "s": "dim",
+      "d": "d_1687",
+      "type": "statistical",
+      "text": "Specifically, 3DG-VLN adaptively processes high-resolution front-view and downward-view observations to preserve fine-grained visual and geo",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005979",
+      "x": 543.16,
+      "y": -428.45,
+      "s": "dim",
+      "d": "d_058",
+      "type": "descriptive",
+      "text": "reduce accumulated direction drift.",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005980",
+      "x": 2335.14,
+      "y": -2855.82,
+      "s": "dim",
+      "d": "d_1688",
+      "type": "statistical",
+      "text": "To support this task, we construct a dedicated high-resolution benchmark which contains 2,717 trajectories with target-oriented high-level i",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005981",
+      "x": 4087.93,
+      "y": 2227.34,
+      "s": "dim",
+      "d": "d_1689",
+      "type": "statistical",
+      "text": "continuous 3D waypoint annotations.",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005982",
+      "x": 4100.75,
+      "y": -1392.98,
+      "s": "dim",
+      "d": "d_1687",
+      "type": "statistical",
+      "text": "Experiments show that 3DG-VLN outperforms competitive UAV-VLN baselines, achieving a 13.82\\% improvement in success rate.",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005983",
+      "x": 4170.31,
+      "y": -1488.07,
+      "s": "dim",
+      "d": "d_1687",
+      "type": "statistical",
+      "text": "Real-world trials further demonstrate the potential of 3DG-VLN for practical see-and-reach navigation.",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005984",
+      "x": 2922.46,
+      "y": -3022.06,
+      "s": "dim",
+      "d": "d_1690",
+      "type": "statistical",
+      "text": "benchmark are available at https://github.com/xuefanfu/3DG-VLN.",
+      "src": "See-and-Reach: Precise Vision-Language N"
+    },
+    {
+      "id": "clm_005985",
+      "x": -7.24,
+      "y": 536.9,
+      "s": "dim",
+      "d": "d_014",
+      "type": "descriptive",
+      "text": "Latent Diffusion Models (LDMs) have become dominant in visual synthesis",
+      "src": "Variable-Length Tokenization via Learnab"
+    },
+    {
+      "id": "clm_005986",
+      "x": 3530.24,
+      "y": 2139.23,
+      "s": "dim",
+      "d": "d_1521",
+      "type": "descriptive",
+      "text": "their quality-compute trade-off is largely constrained by the tokenizer's fixed compression ratio.",
+      "src": "Variable-Length Tokenization via Learnab"
+    },
+    {
+      "id": "clm_005987",
+      "x": 1571.35,
+      "y": -657.83,
+      "s": "dim",
+      "d": "d_416",
+      "type": "descriptive",
+      "text": "However, conventional VLTs modulate length by truncating ordered token sequences, which makes token semantics depend on token position and b",
+      "src": "Variable-Length Tokenization via Learnab"
+    },
+    {
+      "id": "clm_005988",
+      "x": -271.2,
+      "y": -255.5,
+      "s": "dim",
+      "d": "d_019",
+      "type": "descriptive",
+      "text": "We show that encouraging similar tokens to merge enables direct cross-length representation alignment when the diffusion transformer operate",
+      "src": "Variable-Length Tokenization via Learnab"
+    },
+    {
+      "id": "clm_005989",
+      "x": -2451.66,
+      "y": -3726.2,
+      "s": "dim",
+      "d": "d_1691",
+      "type": "historical",
+      "text": "Since conventional merging methods are data-dependent, making the merging pattern inaccessible during generation, we introduce learnable glo",
+      "src": "Variable-Length Tokenization via Learnab"
+    },
+    {
+      "id": "clm_005990",
+      "x": -2446.16,
+      "y": -3755.25,
+      "s": "dim",
+      "d": "d_1691",
+      "type": "statistical",
+      "text": "On ImageNet 256$\\times$256 generation, our merging-based variable-length tokenizer integrated with a diffusion transformer achieves a superi",
+      "src": "Variable-Length Tokenization via Learnab"
+    },
+    {
+      "id": "clm_005991",
+      "x": 795.3,
+      "y": 3.48,
+      "s": "dim",
+      "d": "d_038",
+      "type": "descriptive",
+      "text": "Code is available at [this https URL](https://github.com/movinghoon/lgm)",
+      "src": "Variable-Length Tokenization via Learnab"
+    },
+    {
+      "id": "clm_005992",
+      "x": -2484.63,
+      "y": -3693.14,
+      "s": "dim",
+      "d": "d_1691",
+      "type": "descriptive",
+      "text": "How they are transformed into meaningful representations and interact with the language space depends entirely on the integration architectu",
+      "src": "The Hidden Evolution of Disguised Visual"
+    },
+    {
+      "id": "clm_005993",
+      "x": 742.08,
+      "y": 518.27,
+      "s": "dim",
+      "d": "d_059",
+      "type": "descriptive",
+      "text": "are progressively reshaped depending on the integration paradigm, each capturing fundamentally different frequency characteristics of the vi",
+      "src": "The Hidden Evolution of Disguised Visual"
+    },
+    {
+      "id": "clm_005994",
+      "x": 3468.08,
+      "y": -958.5,
+      "s": "dim",
+      "d": "d_1287",
+      "type": "descriptive",
+      "text": "We show that this evolution inside the LLM determines what visual features the VLM can utilize effectively, how visual representations align",
+      "src": "The Hidden Evolution of Disguised Visual"
+    },
+    {
+      "id": "clm_005995",
+      "x": 3258.63,
+      "y": 1255.1,
+      "s": "dim",
+      "d": "d_1252",
+      "type": "descriptive",
+      "text": "We further demonstrate that attention allocation alone is insufficient, and that performance is driven by the quality of visual representati",
+      "src": "The Hidden Evolution of Disguised Visual"
+    },
+    {
+      "id": "clm_005996",
+      "x": -224.25,
+      "y": -286.55,
+      "s": "dim",
+      "d": "d_019",
+      "type": "descriptive",
+      "text": "However, these assumptions break down in flow-based settings, where edits are performed through forward and backward integration and often i",
+      "src": "Residual-Space Evolutionary Optimization"
+    },
+    {
+      "id": "clm_005997",
+      "x": 2179.08,
+      "y": -3630.82,
+      "s": "dim",
+      "d": "d_1692",
+      "type": "descriptive",
+      "text": "Building on the observation that conditional flow matching (CFM) can disentangle condition-controlled factors from instance-specific residua",
+      "src": "Residual-Space Evolutionary Optimization"
+    },
+    {
+      "id": "clm_005998",
+      "x": 3921.0,
+      "y": 112.27,
+      "s": "dim",
+      "d": "d_1494",
+      "type": "other",
+      "text": "separates two complementary search regimes: self-pollination performs local exploitation through feature-preserving residual refinement, and",
+      "src": "Residual-Space Evolutionary Optimization"
+    },
+    {
+      "id": "clm_005999",
+      "x": 1584.03,
+      "y": -693.73,
+      "s": "dim",
+      "d": "d_416",
+      "type": "causal",
+      "text": "text tokens in all blocks results in quadratic complexity with respect to token length.",
+      "src": "Hybrid Diffusion Transformer for Instruc"
+    },
+    {
+      "id": "clm_006000",
+      "x": -2450.42,
+      "y": -3672.43,
+      "s": "dim",
+      "d": "d_1691",
+      "type": "other",
+      "text": "efficiency, we propose a hybrid two-stage diffusion transformer architecture for instruction-guided audio editing based on rectified flow ma",
+      "src": "Hybrid Diffusion Transformer for Instruc"
+    },
+    {
+      "id": "clm_006001",
+      "x": -20.88,
+      "y": 110.93,
+      "s": "dim",
+      "d": "d_011",
+      "type": "descriptive",
+      "text": "Experiments show that the proposed framework achieves notable performance gains on challenging editing tasks involving overlapping audio eve",
+      "src": "Hybrid Diffusion Transformer for Instruc"
+    },
+    {
+      "id": "clm_006002",
+      "x": -2312.72,
+      "y": -3565.45,
+      "s": "dim",
+      "d": "d_1677",
+      "type": "normative",
+      "text": "Perception for action suggests that representations of the world should be shaped not by visual fidelity alone, but by their relevance for a",
+      "src": "Sensorimotor World Models: Perception fo"
+    },
+    {
+      "id": "clm_006003",
+      "x": 95.57,
+      "y": 508.45,
+      "s": "dim",
+      "d": "d_014",
+      "type": "predictive",
+      "text": "At the same time, latent JEPA-style world models advocate learning compact predictive states from high-dimensional observations to facilitat",
+      "src": "Sensorimotor World Models: Perception fo"
+    },
+    {
+      "id": "clm_006004",
+      "x": 112.03,
+      "y": 448.16,
+      "s": "dim",
+      "d": "d_014",
+      "type": "causal",
+      "text": "end-to-end training of these models is nontrivial because representations may collapse if our only goal is to construct a latent state that ",
+      "src": "Sensorimotor World Models: Perception fo"
+    },
+    {
+      "id": "clm_006005",
+      "x": 68.09,
+      "y": 569.58,
+      "s": "dim",
+      "d": "d_014",
+      "type": "empirical",
+      "text": "We introduce a sensorimotor world model (SMWM): a latent world model trained end-to-end with inverse dynamics regularization.",
+      "src": "Sensorimotor World Models: Perception fo"
+    },
+    {
+      "id": "clm_006006",
+      "x": -2203.87,
+      "y": 2824.72,
+      "s": "dim",
+      "d": "d_955",
+      "type": "descriptive",
+      "text": "This single regularizer addresses both issues: it prevents representation collapse and induces action-aligned representations.",
+      "src": "Sensorimotor World Models: Perception fo"
+    },
+    {
+      "id": "clm_006007",
+      "x": 3196.79,
+      "y": 1195.89,
+      "s": "dim",
+      "d": "d_1252",
+      "type": "descriptive",
+      "text": "By forcing latent states to preserve information about the action underlying a transition, it biases the model toward the controllable degre",
+      "src": "Sensorimotor World Models: Perception fo"
+    },
+    {
+      "id": "clm_006008",
+      "x": 4191.89,
+      "y": 2310.92,
+      "s": "dim",
+      "d": "d_1693",
+      "type": "statistical",
+      "text": "enables competitive planning performance across simple 2D and 3D control tasks.",
+      "src": "Sensorimotor World Models: Perception fo"
+    },
+    {
+      "id": "clm_006009",
+      "x": 3738.18,
+      "y": 681.86,
+      "s": "dim",
+      "d": "d_1320",
+      "type": "descriptive",
+      "text": "Consequently, they do not fully exploit the teacher's layer-wise semantic structure and global context, as well as the rich spatiotemporal i",
+      "src": "HilDA: Hierarchical Distillation with Di"
+    },
+    {
+      "id": "clm_006010",
+      "x": 2400.19,
+      "y": 2896.4,
+      "s": "dim",
+      "d": "d_1283",
+      "type": "normative",
+      "text": "We propose HilDA, a self-supervised pretraining framework for LiDAR backbones that better captures the semantic what and geometric where nee",
+      "src": "HilDA: Hierarchical Distillation with Di"
+    },
+    {
+      "id": "clm_006011",
+      "x": 1.85,
+      "y": 245.19,
+      "s": "dim",
+      "d": "d_011",
+      "type": "descriptive",
+      "text": "Models pre-trained with HilDA achieve state-of-the-art results on cross-modal distillation benchmarks",
+      "src": "HilDA: Hierarchical Distillation with Di"
+    },
+    {
+      "id": "clm_006012",
+      "x": 593.8,
+      "y": 145.17,
+      "s": "dim",
+      "d": "d_025",
+      "type": "statistical",
+      "text": "outperform models trained via prior distillation approaches on 3D object detection, scene flow, and semantic occupancy prediction.",
+      "src": "HilDA: Hierarchical Distillation with Di"
+    },
+    {
+      "id": "clm_006013",
+      "x": 2708.76,
+      "y": -2476.36,
+      "s": "dim",
+      "d": "d_1212",
+      "type": "historical",
+      "text": "Vision-Language-Action (VLA) models pre-trained on massive video-robot datasets have revolutionized robotic manipulation, yet their multi-bi",
+      "src": "Finetuning Vision-Language-Action Models"
+    },
+    {
+      "id": "clm_006014",
+      "x": 4499.99,
+      "y": 389.67,
+      "s": "dim",
+      "d": "d_1694",
+      "type": "statistical",
+      "text": "In this work, we reveal a highly non-trivial architectural characteristic of these continuous control foundation policies (e.g., pi_0, GR00T",
+      "src": "Finetuning Vision-Language-Action Models"
+    },
+    {
+      "id": "clm_006015",
+      "x": 625.0,
+      "y": 3968.25,
+      "s": "dim",
+      "d": "d_1544",
+      "type": "descriptive",
+      "text": "To exploit this, we introduce a structural compression pipeline that is entirely training-free, bypassing the need of existing methods to lo",
+      "src": "Finetuning Vision-Language-Action Models"
+    },
+    {
+      "id": "clm_006016",
+      "x": 3421.07,
+      "y": -25.37,
+      "s": "dim",
+      "d": "d_1231",
+      "type": "statistical",
+      "text": "Instead, using only a single forward pass via Centered Kernel Alignment to identify redundant layer features, we remove twin layers to perma",
+      "src": "Finetuning Vision-Language-Action Models"
+    },
+    {
+      "id": "clm_006017",
+      "x": -954.7,
+      "y": -2605.43,
+      "s": "dim",
+      "d": "d_703",
+      "type": "statistical",
+      "text": "Downstream fine-tuning of this streamlined architecture yields a dual acceleration benefit: a 40-50% reduction in training time",
+      "src": "Finetuning Vision-Language-Action Models"
+    },
+    {
+      "id": "clm_006018",
+      "x": 3375.21,
+      "y": 1915.5,
+      "s": "dim",
+      "d": "d_1343",
+      "type": "statistical",
+      "text": "up to 30% faster real-time inference, while matching or exceeding full-scale base model performance.",
+      "src": "Finetuning Vision-Language-Action Models"
+    },
+    {
+      "id": "clm_006019",
+      "x": -3558.77,
+      "y": 2162.2,
+      "s": "dim",
+      "d": "d_1575",
+      "type": "other",
+      "text": "We comprehensively validate our method across three simulation benchmarks (LIBERO, RoboCasa, SimplerEnv)",
+      "src": "Finetuning Vision-Language-Action Models"
+    },
+    {
+      "id": "clm_006020",
+      "x": 3288.78,
+      "y": 296.26,
+      "s": "dim",
+      "d": "d_1617",
+      "type": "statistical",
+      "text": "10 diverse real-world manipulation tasks across 4 unique robotic embodiments.",
+      "src": "Finetuning Vision-Language-Action Models"
+    },
+    {
+      "id": "clm_006021",
+      "x": -315.63,
+      "y": 108.13,
+      "s": "dim",
+      "d": "d_013",
+      "type": "descriptive",
+      "text": "These results prove that advanced VLAs require significantly fewer layers than previously assumed, offering a highly compute-efficient parad",
+      "src": "Finetuning Vision-Language-Action Models"
+    },
+    {
+      "id": "clm_006022",
+      "x": -4039.35,
+      "y": -2037.57,
+      "s": "dim",
+      "d": "d_1643",
+      "type": "descriptive",
+      "text": "Editorial Alignment: A Participatory Approach to Engaging Editorial Expertise in LLM-mediated Knowledge Dissemination",
+      "src": "Editorial Alignment: A Participatory App"
+    },
+    {
+      "id": "clm_006023",
+      "x": -417.05,
+      "y": 4363.81,
+      "s": "dim",
+      "d": "d_1695",
+      "type": "descriptive",
+      "text": "The emergence of LLM-driven information services is reshaping the conditions under which public knowledge institutions operate, threatening ",
+      "src": "Editorial Alignment: A Participatory App"
+    },
+    {
+      "id": "clm_006024",
+      "x": -413.01,
+      "y": 4358.92,
+      "s": "dim",
+      "d": "d_1695",
+      "type": "descriptive",
+      "text": "While LLMs offer powerful new affordances for knowledge dissemination, editorial authority is challenged by pretrained LLMs that arrive alre",
+      "src": "Editorial Alignment: A Participatory App"
+    },
+    {
+      "id": "clm_006025",
+      "x": 1711.34,
+      "y": 4042.85,
+      "s": "dim",
+      "d": "d_1696",
+      "type": "descriptive",
+      "text": "Last, we discuss how editorial alignment can create space for ongoing participation",
+      "src": "Editorial Alignment: A Participatory App"
+    },
+    {
+      "id": "clm_006026",
+      "x": -412.55,
+      "y": 4405.9,
+      "s": "dim",
+      "d": "d_1695",
+      "type": "descriptive",
+      "text": "give editors agency in LLM-mediated knowledge dissemination.",
+      "src": "Editorial Alignment: A Participatory App"
+    },
+    {
+      "id": "clm_006027",
+      "x": -87.11,
+      "y": 151.72,
+      "s": "dim",
+      "d": "d_011",
+      "type": "descriptive",
+      "text": "Student-generated drawings are widely used in science education to assess learners' conceptual understanding in modeling-based tasks aligned",
+      "src": "Confidence-Aware Automated Assessment of"
+    },
+    {
+      "id": "clm_006028",
+      "x": 31.6,
+      "y": 421.54,
+      "s": "dim",
+      "d": "d_014",
+      "type": "descriptive",
+      "text": "In this work, we study automated scoring of student-generated scientific drawings using a vision-based model.",
+      "src": "Confidence-Aware Automated Assessment of"
+    },
+    {
+      "id": "clm_006029",
+      "x": 3586.66,
+      "y": 185.6,
+      "s": "dim",
+      "d": "d_1195",
+      "type": "descriptive",
+      "text": "Experiments on six NGSS-aligned middle school assessment items show that the proposed approach improves scoring reliability while supporting",
+      "src": "Confidence-Aware Automated Assessment of"
+    },
+    {
+      "id": "clm_006030",
+      "x": -3708.81,
+      "y": -1473.69,
+      "s": "dim",
+      "d": "d_1697",
+      "type": "normative",
+      "text": "semantics of a content reference while adopting the style of a separate style reference.Despite recent progress, this setting remains challe",
+      "src": "FreeStyle: Free Control of Style-Content"
+    },
+    {
+      "id": "clm_006031",
+      "x": -3671.07,
+      "y": -1461.27,
+      "s": "dim",
+      "d": "d_1697",
+      "type": "descriptive",
+      "text": "instruction following avoiding semantic leakage from the style reference.A key bottleneck is the lack of large-scale triplet data with clean",
+      "src": "FreeStyle: Free Control of Style-Content"
+    },
+    {
+      "id": "clm_006032",
+      "x": 2131.01,
+      "y": 3503.2,
+      "s": "dim",
+      "d": "d_1551",
+      "type": "descriptive",
+      "text": "broad long-tail style coverage.In this work, we propose FreeStyle, a scalable dual-reference generation framework based on community LoRA mi",
+      "src": "FreeStyle: Free Control of Style-Content"
+    },
+    {
+      "id": "clm_006033",
+      "x": -3714.57,
+      "y": -1537.71,
+      "s": "dim",
+      "d": "d_1697",
+      "type": "descriptive",
+      "text": "Content-Reference triplets across multiple base models.To address content leakage, we adopt a two-stage curriculum with stage-specific disen",
+      "src": "FreeStyle: Free Control of Style-Content"
+    },
+    {
+      "id": "clm_006034",
+      "x": -2739.66,
+      "y": 2633.83,
+      "s": "dim",
+      "d": "d_1237",
+      "type": "descriptive",
+      "text": "leakage suppression.Extensive experiments show that our model achieves a strong balance among style alignment, content preservation, and lea",
+      "src": "FreeStyle: Free Control of Style-Content"
+    },
+    {
+      "id": "clm_006035",
+      "x": -1391.4,
+      "y": -3105.12,
+      "s": "dim",
+      "d": "d_1306",
+      "type": "descriptive",
+      "text": "Prior work has shown that in-context demonstrations can jailbreak language models, but it remains unclear how models interpret different typ",
+      "src": "What Do Safety-Aligned LLMs Learn From M"
+    },
+    {
+      "id": "clm_006036",
+      "x": 2537.8,
+      "y": -2240.42,
+      "s": "dim",
+      "d": "d_982",
+      "type": "causal",
+      "text": "testing three hypotheses about how demonstration composition drives harmful compliance.",
+      "src": "What Do Safety-Aligned LLMs Learn From M"
+    },
+    {
+      "id": "clm_006037",
+      "x": -2887.7,
+      "y": -1574.74,
+      "s": "dim",
+      "d": "d_983",
+      "type": "other",
+      "text": "Across four models, we find that benign",
+      "src": "What Do Safety-Aligned LLMs Learn From M"
+    },
+    {
+      "id": "clm_006038",
+      "x": 1698.07,
+      "y": -1445.07,
+      "s": "dim",
+      "d": "d_710",
+      "type": "descriptive",
+      "text": "harmful demonstrations are not interchangeable: benign demonstrations can either reduce or increase harmful compliance depending on the mode",
+      "src": "What Do Safety-Aligned LLMs Learn From M"
+    },
+    {
+      "id": "clm_006039",
+      "x": -43.56,
+      "y": 849.85,
+      "s": "dim",
+      "d": "d_030",
+      "type": "descriptive",
+      "text": "We further show that preference optimization is the critical training stage that prevents benign demonstrations from increasing harmful comp",
+      "src": "What Do Safety-Aligned LLMs Learn From M"
+    },
+    {
+      "id": "clm_006040",
+      "x": -4060.12,
+      "y": 837.65,
+      "s": "dim",
+      "d": "d_1236",
+      "type": "descriptive",
+      "text": "Taken together, this work moves beyond showing that demonstration-based jailbreaking works to characterizing how it works: what models extra",
+      "src": "What Do Safety-Aligned LLMs Learn From M"
+    },
+    {
+      "id": "clm_006041",
+      "x": -219.62,
+      "y": 1101.72,
+      "s": "dim",
+      "d": "d_050",
+      "type": "statistical",
+      "text": "SARLO-80: Worldwide Slant SAR Language Optic Dataset 80cm",
+      "src": "SARLO-80: Worldwide Slant SAR Language O"
+    },
+    {
+      "id": "clm_006042",
+      "x": -374.44,
+      "y": 899.16,
+      "s": "dim",
+      "d": "d_048",
+      "type": "descriptive",
+      "text": "Multimodal foundation models have advanced rapidly thanks to large optical benchmarks, but comparable resources for synthetic aperture radar",
+      "src": "SARLO-80: Worldwide Slant SAR Language O"
+    },
+    {
+      "id": "clm_006043",
+      "x": -352.14,
+      "y": 885.9,
+      "s": "dim",
+      "d": "d_048",
+      "type": "descriptive",
+      "text": "Existing SAR--optical datasets largely rely on low-resolution, intensity-only Ground Range Detected~(GRD) products and do not preserve compl",
+      "src": "SARLO-80: Worldwide Slant SAR Language O"
+    },
+    {
+      "id": "clm_006044",
+      "x": 1577.16,
+      "y": 3254.69,
+      "s": "dim",
+      "d": "d_1229",
+      "type": "descriptive",
+      "text": "natural-language descriptions are still lacking.",
+      "src": "SARLO-80: Worldwide Slant SAR Language O"
+    },
+    {
+      "id": "clm_006045",
+      "x": -369.18,
+      "y": 946.26,
+      "s": "dim",
+      "d": "d_048",
+      "type": "statistical",
+      "text": "From around 2,500 worldwide scenes (VV/HH, 20cm--2m native resolution), we standardize all SAR data to an 80cm slant-range grid via band-lim",
+      "src": "SARLO-80: Worldwide Slant SAR Language O"
+    },
+    {
+      "id": "clm_006046",
+      "x": 2548.41,
+      "y": -3370.0,
+      "s": "dim",
+      "d": "d_1698",
+      "type": "predictive",
+      "text": "tile the imagery into 1024 by 1024 patches.",
+      "src": "SARLO-80: Worldwide Slant SAR Language O"
+    },
+    {
+      "id": "clm_006047",
+      "x": 3435.22,
+      "y": 2465.57,
+      "s": "dim",
+      "d": "d_1699",
+      "type": "other",
+      "text": "We further generate three caption variants (SHORT/MID/LONG) per sample to support vision--language training and evaluation.",
+      "src": "SARLO-80: Worldwide Slant SAR Language O"
+    },
+    {
+      "id": "clm_006048",
+      "x": 2919.71,
+      "y": 3300.94,
+      "s": "dim",
+      "d": "d_1700",
+      "type": "statistical",
+      "text": "Our dataset contains 119,566 triplets (complex",
+      "src": "SARLO-80: Worldwide Slant SAR Language O"
+    },
+    {
+      "id": "clm_006049",
+      "x": -363.22,
+      "y": 871.84,
+      "s": "dim",
+      "d": "d_048",
+      "type": "statistical",
+      "text": "amplitude slant-range SAR patch, aligned optical patch, natural-language description) covering 257 locations across 72 countries and a broad",
+      "src": "SARLO-80: Worldwide Slant SAR Language O"
+    },
+    {
+      "id": "clm_006050",
+      "x": 1248.25,
+      "y": 4010.33,
+      "s": "dim",
+      "d": "d_1660",
+      "type": "descriptive",
+      "text": "We release fixed train/validation/test splits and the full preprocessing and baseline code to enable reproducible benchmarks for multimodal ",
+      "src": "SARLO-80: Worldwide Slant SAR Language O"
+    },
+    {
+      "id": "clm_006051",
+      "x": 3810.52,
+      "y": -461.23,
+      "s": "dim",
+      "d": "d_1251",
+      "type": "statistical",
+      "text": "The dataset is publicly available on the Hugging Face Hub at https://huggingface.co/datasets/ONERA/SARLO-80.",
+      "src": "SARLO-80: Worldwide Slant SAR Language O"
+    },
+    {
+      "id": "clm_006052",
+      "x": 3528.07,
+      "y": -1059.49,
+      "s": "dim",
+      "d": "d_1329",
+      "type": "descriptive",
+      "text": "is important for understanding and trusting reported probabilities.",
+      "src": "Toward Calibrated Mixture-of-Experts Und"
+    },
+    {
+      "id": "clm_006053",
+      "x": 187.37,
+      "y": 828.07,
+      "s": "dim",
+      "d": "d_044",
+      "type": "descriptive",
+      "text": "Recent work shows that enforcing calibration at the level of individual predictors can improve ensemble accuracy and calibration, with mixtu",
+      "src": "Toward Calibrated Mixture-of-Experts Und"
+    },
+    {
+      "id": "clm_006054",
+      "x": 191.0,
+      "y": 4153.41,
+      "s": "dim",
+      "d": "d_1701",
+      "type": "descriptive",
+      "text": "however, the conditions under which calibration helps MoE are not well understood.",
+      "src": "Toward Calibrated Mixture-of-Experts Und"
+    },
+    {
+      "id": "clm_006055",
+      "x": 177.48,
+      "y": 4141.66,
+      "s": "dim",
+      "d": "d_1701",
+      "type": "descriptive",
+      "text": "In this work, we study how MoE models behave under distribution shift, focusing on how routing mechanisms interact with expert-level calibra",
+      "src": "Toward Calibrated Mixture-of-Experts Und"
+    },
+    {
+      "id": "clm_006056",
+      "x": 3104.72,
+      "y": -408.69,
+      "s": "dim",
+      "d": "d_970",
+      "type": "descriptive",
+      "text": "We show that expert calibration is sufficient to ensure calibration of the overall model under a broad class of distribution shifts in hard-",
+      "src": "Toward Calibrated Mixture-of-Experts Und"
+    },
+    {
+      "id": "clm_006057",
+      "x": 3848.96,
+      "y": -1335.38,
+      "s": "dim",
+      "d": "d_1702",
+      "type": "descriptive",
+      "text": "is insufficient for calibrating soft-routed models.",
+      "src": "Toward Calibrated Mixture-of-Experts Und"
+    },
+    {
+      "id": "clm_006058",
+      "x": 206.0,
+      "y": 770.64,
+      "s": "dim",
+      "d": "d_044",
+      "type": "descriptive",
+      "text": "we demonstrate that it improves the accuracy-calibration tradeoff both on average and on difficult subsets of the data, across model classes",
+      "src": "Toward Calibrated Mixture-of-Experts Und"
     }
   ],
   "tensions": [
