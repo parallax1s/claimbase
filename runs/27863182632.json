@@ -1,0 +1,19 @@
+{
+  "run_id": "27863182632",
+  "since": "2026-06-06",
+  "feeds_polled": 7,
+  "items_seen": 34,
+  "items_new": 0,
+  "items_skipped": 34,
+  "claims_extracted": 0,
+  "tasks_enqueued": {
+    "refine": 0,
+    "identity_edge": 0
+  },
+  "warnings": [
+    "lesswrong-af: HTTP Error 400: Bad Request",
+    "blog-rss: HTTP Error 403: Forbidden",
+    "epoch-blog: HTTP Error 404: Not Found",
+    "christiano-alignment: <urlopen error timed out>"
+  ]
+}
