@@ -1,0 +1,21 @@
+{
+  "run_id": "28354607694",
+  "since": "2026-06-15",
+  "feeds_polled": 7,
+  "items_seen": 0,
+  "items_new": 0,
+  "items_skipped": 0,
+  "claims_extracted": 0,
+  "tasks_enqueued": {
+    "refine": 0,
+    "identity_edge": 0
+  },
+  "warnings": [
+    "lesswrong-af: HTTP Error 400: Bad Request",
+    "arxiv-csai: The read operation timed out",
+    "blog-rss: HTTP Error 403: Forbidden",
+    "epoch-blog: HTTP Error 404: Not Found",
+    "christiano-alignment: <urlopen error timed out>",
+    "arxiv-aligncs: The read operation timed out"
+  ]
+}
