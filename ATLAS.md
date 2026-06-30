@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run manual-20260611 · sources 330 · claims 5522 · edges 1276 · verified 73
+run manual-20260611 · sources 357 · claims 5715 · edges 1276 · verified 73
 
 ## Districts
 
@@ -12,28 +12,28 @@ Model Arena Leaderboard Churn            ▓▓▓▓▓▓▓░░░    119 c
 Anthropic Company Moves                  ▓▓▓▓▓▓░░░░    104 claims  ⚡0
 AI Existential Risk Discourse            ▓▓▓▓▓░░░░░     49 claims  ⚡0
 Multi-Agent LLM Systems                  ▓▓░░░░░░░░     48 claims  ⚡0
-Benchmark Baselines and Agent Scaling    ▓░░░░░░░░░     38 claims  ⚡0
-LLM Architecture Research                ▓░░░░░░░░░     36 claims  ⚡0
+Benchmark Baselines and Agent Scaling    ░░░░░░░░░░     40 claims  ⚡0
+LLM Architecture Research                ▓░░░░░░░░░     37 claims  ⚡0
 US AI Policy and Classrooms              ▓▓▓▓▓░░░░░     34 claims  ⚡0
 Epistemic Uncertainty Hedges             ▓▓▓░░░░░░░     34 claims  ⚡0
+Cross-Modal Knowledge Distillation       ▓▓░░░░░░░░     32 claims  ⚡0
 Pope Leo on AI Ethics                    ▓▓▓▓░░░░░░     31 claims  ⚡1
-Cross-Modal Knowledge Distillation       ▓▓░░░░░░░░     30 claims  ⚡0
-Latent Variable and Neural Models        ▓░░░░░░░░░     28 claims  ⚡0
-AI Safety Institute Collaboration        ░░░░░░░░░░     28 claims  ⚡0
+Latent Variable and Neural Models        ▓░░░░░░░░░     30 claims  ⚡0
+AI Safety Institute Collaboration        ░░░░░░░░░░     30 claims  ⚡0
+Temporal Image Consistency               ░░░░░░░░░░     26 claims  ⚡0
 Compute and Funding Demands              ▓▓▓░░░░░░░     25 claims  ⚡0
 Gemini Model Benchmarks                  ▓▓▓░░░░░░░     25 claims  ⚡0
-Temporal Image Consistency               ░░░░░░░░░░     24 claims  ⚡0
+Concept Embedding Customization          ░░░░░░░░░░     24 claims  ⚡0
 Opus Behavioral Quirks                   ▓▓▓▓░░░░░░     24 claims  ⚡0
 Federal AI Security Mandates             ▓▓░░░░░░░░     24 claims  ⚡0
-Concept Embedding Customization          ░░░░░░░░░░     23 claims  ⚡0
-training · generalization · supervision  ░░░░░░░░░░     22 claims  ⚡0
-State Frontier AI Safety Laws            ▓▓▓▓▓░░░░░     22 claims  ⚡0
-prediction · accuracy · evaluated        ░░░░░░░░░░     20 claims  ⚡0
+Alignment Faking Detection Thresholds    ░░░░░░░░░░     23 claims  ⚡0
+training · generalization · supervision  ░░░░░░░░░░     23 claims  ⚡0
+State Frontier AI Safety Laws            ▓▓▓▓░░░░░░     23 claims  ⚡0
+Alignment Faking Research                ▓▓░░░░░░░░     22 claims  ⚡0
+prediction · accuracy · evaluated        ░░░░░░░░░░     21 claims  ⚡0
 Hollow Public AI Claims                  ▓▓▓▓▓▓░░░░     20 claims  ⚡0
 Mythos Deployment Reports                ▓▓▓▓▓▓▓▓░░     20 claims  ⚡0
-Alignment Faking Detection Thresholds    ▓░░░░░░░░░     19 claims  ⚡0
-Human-AI Comparative Advantage           ▓▓▓▓░░░░░░     19 claims  ⚡0
-… and 993 smaller districts (3809 claims)
+… and 1022 smaller districts (3963 claims)
 ```
 
 ## Sharpest fault
