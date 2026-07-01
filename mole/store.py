@@ -60,6 +60,10 @@ def _iter_jsonl(path: Path) -> Iterator[dict[str, Any]]:
 
 def _append_jsonl(path: Path, record: dict[str, Any]) -> None:
     """Append a single record to a JSONL file, creating parents if needed."""
+    # Hard invariant: source records never store content (SCHEMA.md). Enforced
+    # here so it holds for any caller and under `python -O`.
+    if path.name == "sources.jsonl" and "text" in record:
+        raise ValueError("content must never be stored in sources.jsonl")
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("a", encoding="utf-8") as fh:
         fh.write(json.dumps(record, ensure_ascii=False) + "\n")
@@ -96,10 +100,6 @@ def next_claim_id(repo_root: Path) -> str:
         if n is not None and n > max_n:
             max_n = n
     return f"clm_{max_n + 1:06d}"
-
-
-def _next_claim_id_from_max(current_max: int) -> str:
-    return f"clm_{current_max + 1:06d}"
 
 
 def next_task_id(repo_root: Path) -> str:
@@ -177,8 +177,6 @@ def append_source(
         "claim_count": claim_count,
         "run_id": run_id,
     }
-    # Hard invariant: content is never stored
-    assert "text" not in record, "content must never be stored in sources.jsonl"
     _append_jsonl(_sources_path(repo_root), record)
     return record
 

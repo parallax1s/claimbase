@@ -241,3 +241,26 @@ def test_dead_feed_records_warning_and_continues(monkeypatch):
     assert warnings[0].startswith("broken-feed:")
     assert any(item["feed"] == "good-rss" for item in items)
     assert len(items) == 1
+
+
+def test_graphql_null_htmlbody_yields_empty_text(monkeypatch):
+    """An explicit JSON null htmlBody must not become the literal text 'None'."""
+    from datetime import datetime, timezone
+
+    from mole import feeds
+
+    monkeypatch.setattr(feeds, "_fetch_json", lambda url, payload, headers=None: {
+        "data": {"posts": {"results": [{
+            "title": "T", "pageUrl": "https://example.com/p",
+            "postedAt": "2026-06-20T00:00:00Z",
+            "user": {"displayName": "A"}, "htmlBody": None,
+        }]}}
+    })
+    items = feeds._fetch_graphql_forum(
+        {"key": "lw", "url": "https://x", "limit": 10},
+        datetime(2026, 6, 1, tzinfo=timezone.utc),
+    )
+    assert len(items) == 1
+    assert items[0]["text"] == ""
+    import hashlib
+    assert items[0]["content_sha256"] == hashlib.sha256(b"").hexdigest()

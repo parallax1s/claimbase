@@ -28,6 +28,20 @@ def _cmd_run(args: argparse.Namespace) -> None:
     write_atlas(repo_root, run_id=args.run_id)
     print(json.dumps(summary, indent=2, ensure_ascii=False))
 
+    # Feed failures must surface, not rot in runs/*.json: echo them to stderr,
+    # and if most feeds died, fail the run (artifacts are already written) so
+    # the scheduled workflow goes red instead of silently going arxiv-only.
+    warnings = summary.get("warnings", [])
+    for warning in warnings:
+        print(f"warning: {warning}", file=sys.stderr)
+    feeds_polled = summary.get("feeds_polled", 0)
+    if feeds_polled and len(warnings) > feeds_polled / 2:
+        print(
+            f"error: {len(warnings)} of {feeds_polled} feeds failed",
+            file=sys.stderr,
+        )
+        sys.exit(3)
+
 
 def _cmd_compile(args: argparse.Namespace) -> None:
     from mole.atlas import write_atlas

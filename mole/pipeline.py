@@ -3,8 +3,8 @@ mole pipeline: ingest new items, extract claims, enqueue work.
 
 run(repo_root, since, run_id) -> summary dict.
 
-feeds.py is imported LAZILY (inside run()) because it is built by a concurrent
-agent; its absence must not break imports of this module or the test suite.
+feeds is imported lazily via importlib inside run() so a sys.modules stub
+(tests) always wins over the package attribute binding of a real import.
 """
 
 from __future__ import annotations
@@ -149,16 +149,13 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
         Run summary.
     """
     # Lazy import via importlib so a sys.modules stub (tests) always wins over
-    # the package attribute binding left by an earlier real import.
-    try:
-        import importlib
+    # the package attribute binding left by an earlier real import. An import
+    # failure must propagate: swallowing it would silently turn the daily run
+    # into a successful zero-item run that still rewrites artifacts.
+    import importlib
 
-        feeds_mod = importlib.import_module("mole.feeds")
-        fetch_all_with_warnings = feeds_mod.fetch_all_with_warnings
-    except ImportError:
-        # feeds.py not yet available; use empty stub so tests pass
-        def fetch_all_with_warnings(config: Any, since: str):  # type: ignore[misc]
-            return [], ["feeds.py not available — skipping fetch"]
+    feeds_mod = importlib.import_module("mole.feeds")
+    fetch_all_with_warnings = feeds_mod.fetch_all_with_warnings
 
     # Load feeds config
     feeds_yaml_path = repo_root / "feeds.yaml"
@@ -239,7 +236,6 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
         feed = item.get("feed", "")
         item_key = item.get("item_key", "")
         text = item.get("text", "")
-
         sha256 = store.content_sha256(text)
         raw_claims = extractor_mod.extract_claims(text)
 

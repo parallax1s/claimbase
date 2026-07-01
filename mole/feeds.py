@@ -18,11 +18,6 @@ USER_AGENT = "claimbase-mole/0.1 (+github.com/parallax1s/claimbase)"
 REQUEST_TIMEOUT = 30
 
 
-def fetch_all(feeds_config: dict, since: str) -> list[dict]:
-    items, _ = fetch_all_with_warnings(feeds_config, since)
-    return items
-
-
 def fetch_all_with_warnings(feeds_config: dict, since: str) -> tuple[list[dict], list[str]]:
     since_dt = _parse_datetime(since)
     if since_dt is None:
@@ -93,8 +88,7 @@ def _fetch_graphql_forum(feed: dict[str, Any], since_dt: datetime) -> list[dict]
             published=_parse_datetime(post.get("postedAt", "")),
             since_dt=since_dt,
             url=post.get("pageUrl"),
-            raw_text=post.get("htmlBody", ""),
-            force_text=True,
+            raw_text=post.get("htmlBody") or "",
         )
         if item is not None:
             items.append(item)
@@ -204,7 +198,6 @@ def _coerce_item(
     since_dt: datetime,
     url: str,
     raw_text: str,
-    force_text: bool = False,
 ) -> dict[str, Any] | None:
     # Unknown publication date (None) is conservatively kept — the seen-sources
     # dedup prevents repeat ingestion; fabricating a wall-clock date would
@@ -213,9 +206,6 @@ def _coerce_item(
         return None
 
     cleaned_text = _strip_html(raw_text)
-    if force_text and not cleaned_text:
-        cleaned_text = _strip_html(str(raw_text))
-
     content_bytes = cleaned_text.encode("utf-8")
     return {
             "feed": feed,
