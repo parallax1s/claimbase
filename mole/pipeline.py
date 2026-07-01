@@ -177,19 +177,41 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
     # Load seen sources
     seen = store.load_seen_sources(repo_root)
 
-    # Partition into new vs already-seen
+    # Remove leftovers of a previously interrupted run (claims written but the
+    # source record never landed) so their ids are reusable and counts honest.
+    orphan_claims_pruned = store.prune_orphan_claims(repo_root)
+
+    # Partition into new vs changed vs already-seen (also dedup within this
+    # fetch: a feed listing the same item twice must not mint duplicate ids).
     new_items = []
+    changed_items = []
     skipped_count = 0
+    accepted: set[tuple[str, str]] = set()
     for item in items:
         feed = item.get("feed", "")
         item_key = item.get("item_key", "")
-        if store.is_seen_source(seen, feed, item_key):
+        key = (feed, item_key)
+        if key in accepted:
             skipped_count += 1
-        else:
+            continue
+        prior = seen.get(key)
+        if prior is None:
+            accepted.add(key)
             new_items.append(item)
+        elif prior.get("content_sha256") and prior[
+            "content_sha256"
+        ] != store.content_sha256(item.get("text", "")):
+            # Content changed since ingestion: re-extract (SCHEMA.md promises
+            # content_sha256-based change detection). Records with no stored
+            # hash stay skipped — no spurious churn.
+            accepted.add(key)
+            changed_items.append(item)
+        else:
+            skipped_count += 1
 
-    # Sort new items deterministically by (feed, item_key)
+    # Sort deterministically by (feed, item_key)
     new_items.sort(key=lambda it: (it.get("feed", ""), it.get("item_key", "")))
+    changed_items.sort(key=lambda it: (it.get("feed", ""), it.get("item_key", "")))
 
     # Load existing claims (for cross-source similarity)
     existing_claims = store.load_all_claims(repo_root)
@@ -218,28 +240,27 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
         item_key = item.get("item_key", "")
         text = item.get("text", "")
 
-        assert "text" not in {}, "invariant check placeholder"
-
         sha256 = store.content_sha256(text)
         raw_claims = extractor_mod.extract_claims(text)
 
-        # Assign claim IDs
+        # Build claim records in memory, then write them in one batch append
+        # immediately before the source record (shrinks the crash window).
+        src_id = f"src_{feed}_{item_key}"
         claim_records: list[dict[str, Any]] = []
         for raw in raw_claims:
             claim_max += 1
-            claim_id = f"clm_{claim_max:06d}"
-            src_id = f"src_{feed}_{item_key}"
-            rec = store.append_claim(
-                repo_root,
-                claim_id=claim_id,
-                source_id=src_id,
-                text=raw["text"],
-                claim_type=raw["type"],
-                support_in_text=raw["support_in_text"],
-                quote=raw["quote"],
-                run_id=run_id,
+            claim_records.append(
+                store.make_claim_record(
+                    claim_id=f"clm_{claim_max:06d}",
+                    source_id=src_id,
+                    text=raw["text"],
+                    claim_type=raw["type"],
+                    support_in_text=raw["support_in_text"],
+                    quote=raw["quote"],
+                    run_id=run_id,
+                )
             )
-            claim_records.append(rec)
+        store.append_claims_batch(repo_root, claim_records)
 
         # Append source record (NO text field)
         store.append_source(
@@ -254,7 +275,51 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
             claim_count=len(raw_claims),
             run_id=run_id,
         )
-        new_source_ids.append(f"src_{feed}_{item_key}")
+        new_source_ids.append(src_id)
+        new_claims_this_run.extend(claim_records)
+
+    # -----------------------------------------------------------------------
+    # Process changed items: retire the source's prior claims, re-extract,
+    # update the source record in place (id stays stable — never reused).
+    # -----------------------------------------------------------------------
+    claims_retired = 0
+    for item in changed_items:
+        feed = item.get("feed", "")
+        item_key = item.get("item_key", "")
+        text = item.get("text", "")
+        src_id = f"src_{feed}_{item_key}"
+
+        claims_retired += store.retire_claims_for_source(repo_root, src_id)
+        # Keep the in-memory view consistent so retired claims don't pair below.
+        for c in existing_claims:
+            if c.get("source_id") == src_id and c.get("status") != "retired":
+                c["status"] = "retired"
+
+        sha256 = store.content_sha256(text)
+        raw_claims = extractor_mod.extract_claims(text)
+        claim_records = []
+        for raw in raw_claims:
+            claim_max += 1
+            claim_records.append(
+                store.make_claim_record(
+                    claim_id=f"clm_{claim_max:06d}",
+                    source_id=src_id,
+                    text=raw["text"],
+                    claim_type=raw["type"],
+                    support_in_text=raw["support_in_text"],
+                    quote=raw["quote"],
+                    run_id=run_id,
+                )
+            )
+        store.append_claims_batch(repo_root, claim_records)
+        store.update_source(
+            repo_root,
+            feed=feed,
+            item_key=item_key,
+            sha256=sha256,
+            claim_count=len(raw_claims),
+            run_id=run_id,
+        )
         new_claims_this_run.extend(claim_records)
 
     # -----------------------------------------------------------------------
@@ -280,7 +345,13 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
     # Fragments routed to refine must not generate pair work — judged pairs on
     # non-self-contained claims are wasted worker tokens.
     pairable_new = [c for c in new_claims_this_run if not _needs_refine(c["text"])]
-    pairable_existing = [c for c in existing_claims if not _needs_refine(c["text"])]
+    # Retired claims (superseded via refine or content change) must not
+    # generate pair work; compile.py and atlas.py already exclude them.
+    pairable_existing = [
+        c
+        for c in existing_claims
+        if c.get("status") != "retired" and not _needs_refine(c["text"])
+    ]
     candidate_pairs = _cross_source_pairs(
         pairable_new,
         pairable_existing,
@@ -314,7 +385,10 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
         "feeds_polled": len(config.get("feeds", [])),
         "items_seen": len(items),
         "items_new": len(new_items),
+        "items_changed": len(changed_items),
         "items_skipped": skipped_count,
+        "claims_retired": claims_retired,
+        "orphan_claims_pruned": orphan_claims_pruned,
         "claims_extracted": len(new_claims_this_run),
         "tasks_enqueued": {
             "refine": refine_count,

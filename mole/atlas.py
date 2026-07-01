@@ -463,7 +463,9 @@ def _bounds(
 # Build
 # ---------------------------------------------------------------------------
 
-def _build(repo_root: Path) -> tuple[dict[str, Any], dict[str, Any], list[dict[str, Any]]]:
+def _build(
+    repo_root: Path, run_id: str | None = None
+) -> tuple[dict[str, Any], dict[str, Any], list[dict[str, Any]]]:
     """Return (atlas contract dict, ATLAS.md extras, newly created anchors)."""
     sources = store.load_all_sources(repo_root)
     all_claims = store.load_all_claims(repo_root)
@@ -476,8 +478,11 @@ def _build(repo_root: Path) -> tuple[dict[str, Any], dict[str, Any], list[dict[s
     active_ids = {c["id"] for c in active}
     sources_by_id = {s.get("id", ""): s for s in sources}
 
+    # Prefer the caller's authoritative run id; fall back to the last run_id
+    # in append order (sources.jsonl is append-only, so the last record is the
+    # chronologically latest — max() would sort 'manual-*' above numeric ids).
     run_ids = [s.get("run_id", "") for s in sources if s.get("run_id")]
-    generated_run = max(run_ids) if run_ids else "unknown"
+    generated_run = run_id or (run_ids[-1] if run_ids else "unknown")
 
     lit_ids: set[str] = set()
     for edge in edges:
@@ -710,20 +715,20 @@ def _render_md(atlas: dict[str, Any], extras: dict[str, Any]) -> str:
 # Public API
 # ---------------------------------------------------------------------------
 
-def build_atlas(repo_root: Path) -> dict[str, Any]:
+def build_atlas(repo_root: Path, run_id: str | None = None) -> dict[str, Any]:
     """Build and return the atlas contract dict (writes nothing)."""
-    atlas, _extras, _created = _build(repo_root)
+    atlas, _extras, _created = _build(repo_root, run_id=run_id)
     return atlas
 
 
-def write_atlas(repo_root: Path) -> dict[str, Any]:
+def write_atlas(repo_root: Path, run_id: str | None = None) -> dict[str, Any]:
     """Build the atlas; write data/atlas.json and ATLAS.md.
 
     Newly created district anchors are appended to data/atlas_districts.jsonl
     (the file is append-only: existing lines are never rewritten).
     Returns the atlas dict.
     """
-    atlas, extras, created = _build(repo_root)
+    atlas, extras, created = _build(repo_root, run_id=run_id)
 
     if created:
         anchors_path = _anchors_path(repo_root)

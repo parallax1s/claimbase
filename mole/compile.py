@@ -14,7 +14,7 @@ from typing import Any
 from mole import store
 
 
-def compile(repo_root: Path) -> dict[str, Any]:
+def compile(repo_root: Path, run_id: str | None = None) -> dict[str, Any]:
     """
     Build and write data/artifact.json.
 
@@ -31,8 +31,14 @@ def compile(repo_root: Path) -> dict[str, Any]:
         key=lambda c: c.get("id", ""),
     )
 
-    # All edges sorted by (a, b)
-    sorted_edges = sorted(edges, key=lambda e: (e.get("a", ""), e.get("b", "")))
+    # Edges between active claims only, sorted by (a, b).
+    # Retired claims are excluded from the artifact (SCHEMA.md), so edges
+    # touching them would dangle; mirrors the active_ids filter in atlas.py.
+    active_ids = {c["id"] for c in active_claims}
+    sorted_edges = sorted(
+        (e for e in edges if e.get("a") in active_ids and e.get("b") in active_ids),
+        key=lambda e: (e.get("a", ""), e.get("b", "")),
+    )
 
     # Task counts by kind
     task_counts: dict[str, int] = {}
@@ -42,9 +48,12 @@ def compile(repo_root: Path) -> dict[str, Any]:
         kind = task.get("kind", "unknown")
         task_counts[kind] = task_counts.get(kind, 0) + 1
 
-    # Determine generated_run: latest run_id found in sources (lexicographically last)
+    # Determine generated_run: prefer the caller's authoritative run id; fall
+    # back to the last run_id in append order (sources.jsonl is append-only,
+    # so the last record is the chronologically latest — never use max(),
+    # which sorts 'manual-*' ids above numeric ones).
     run_ids = [s.get("run_id", "") for s in sources if s.get("run_id")]
-    generated_run = max(run_ids) if run_ids else "unknown"
+    generated_run = run_id or (run_ids[-1] if run_ids else "unknown")
 
     artifact: dict[str, Any] = {
         "generated_run": generated_run,

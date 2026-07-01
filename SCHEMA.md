@@ -42,6 +42,10 @@ One line per ingested source item. **Content is never stored.**
 artifacts. A refinement that rewrites a claim appends a NEW claim with
 `"refines_claim": "clm_000001"` and retires the old one.
 
+When a re-fetched source's `content_sha256` differs from the stored one, the
+mole retires that source's prior claims, re-extracts from the new text, and
+updates the source record in place (the `src_` id stays stable).
+
 ## data/edges.jsonl
 
 ```json

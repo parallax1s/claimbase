@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 from pathlib import Path
 from typing import Any, Iterator
 
@@ -62,6 +63,15 @@ def _append_jsonl(path: Path, record: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("a", encoding="utf-8") as fh:
         fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+
+def _rewrite_jsonl(path: Path, records: list[dict[str, Any]]) -> None:
+    """Atomically rewrite a JSONL file (temp file + os.replace)."""
+    tmp = path.with_suffix(".tmp")
+    with tmp.open("w", encoding="utf-8") as fh:
+        for rec in records:
+            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    os.replace(tmp, path)
 
 
 # ---------------------------------------------------------------------------
@@ -177,8 +187,7 @@ def append_source(
 # Claim append
 # ---------------------------------------------------------------------------
 
-def append_claim(
-    repo_root: Path,
+def make_claim_record(
     *,
     claim_id: str,
     source_id: str,
@@ -202,8 +211,107 @@ def append_claim(
     }
     if refines_claim is not None:
         record["refines_claim"] = refines_claim
+    return record
+
+
+def append_claim(
+    repo_root: Path,
+    *,
+    claim_id: str,
+    source_id: str,
+    text: str,
+    claim_type: str,
+    support_in_text: float,
+    quote: str,
+    run_id: str,
+    status: str = "extracted",
+    refines_claim: str | None = None,
+) -> dict[str, Any]:
+    record = make_claim_record(
+        claim_id=claim_id,
+        source_id=source_id,
+        text=text,
+        claim_type=claim_type,
+        support_in_text=support_in_text,
+        quote=quote,
+        run_id=run_id,
+        status=status,
+        refines_claim=refines_claim,
+    )
     _append_jsonl(_claims_path(repo_root), record)
     return record
+
+
+def append_claims_batch(repo_root: Path, records: list[dict[str, Any]]) -> None:
+    """Append several claim records in one file open (shrinks the crash window
+    between an item's claim writes and its source record)."""
+    if not records:
+        return
+    path = _claims_path(repo_root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as fh:
+        fh.write("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records))
+
+
+def retire_claims_for_source(repo_root: Path, source_id: str) -> int:
+    """Flip status to 'retired' for all non-retired claims of a source.
+
+    Used when a source's content changed and its claims are re-extracted.
+    Atomic rewrite; returns the number of claims retired.
+    """
+    path = _claims_path(repo_root)
+    claims = list(_iter_jsonl(path))
+    changed = 0
+    for c in claims:
+        if c.get("source_id") == source_id and c.get("status") != "retired":
+            c["status"] = "retired"
+            changed += 1
+    if changed:
+        _rewrite_jsonl(path, claims)
+    return changed
+
+
+def update_source(
+    repo_root: Path,
+    *,
+    feed: str,
+    item_key: str,
+    sha256: str,
+    claim_count: int,
+    run_id: str,
+) -> None:
+    """Update an existing source line in place after a content change.
+
+    The id stays stable (ids are never reused); only the hash, claim count,
+    and run_id move forward. Atomic rewrite.
+    """
+    path = _sources_path(repo_root)
+    records = list(_iter_jsonl(path))
+    src_id = f"src_{feed}_{item_key}"
+    for rec in records:
+        if rec.get("id") == src_id:
+            rec["content_sha256"] = sha256
+            rec["claim_count"] = claim_count
+            rec["run_id"] = run_id
+    _rewrite_jsonl(path, records)
+
+
+def prune_orphan_claims(repo_root: Path) -> int:
+    """Remove claims whose source_id has no record in sources.jsonl —
+    leftovers of a run interrupted between claim and source appends.
+
+    Safe because tasks/edges are only enqueued after an item's source record
+    is persisted, so orphan claims are never referenced elsewhere.
+    Returns the number of claims removed.
+    """
+    src_ids = {rec.get("id", "") for rec in _iter_jsonl(_sources_path(repo_root))}
+    claims_path = _claims_path(repo_root)
+    claims = list(_iter_jsonl(claims_path))
+    kept = [c for c in claims if c.get("source_id", "") in src_ids]
+    removed = len(claims) - len(kept)
+    if removed:
+        _rewrite_jsonl(claims_path, kept)
+    return removed
 
 
 # ---------------------------------------------------------------------------

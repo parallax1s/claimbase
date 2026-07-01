@@ -24,8 +24,8 @@ def _cmd_run(args: argparse.Namespace) -> None:
     summary = run(repo_root=repo_root, since=args.since, run_id=args.run_id)
     # Rebuild the site artifact and the fog-of-war atlas so the daily cron
     # commits fresh data/artifact.json, data/atlas.json, and ATLAS.md.
-    compile(repo_root)
-    write_atlas(repo_root)
+    compile(repo_root, run_id=args.run_id)
+    write_atlas(repo_root, run_id=args.run_id)
     print(json.dumps(summary, indent=2, ensure_ascii=False))
 
 

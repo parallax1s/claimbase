@@ -391,3 +391,149 @@ class TestCompile:
         art1 = compile(repo)
         art2 = compile(repo)
         assert art1 == art2
+
+
+class TestRegressionFixes:
+    """Regressions for dedup, change detection, provenance, and edge filtering."""
+
+    def _run(self, repo, run_id, items, monkeypatch):
+        stub = _make_feeds_stub(items)
+        monkeypatch.setitem(sys.modules, "mole.feeds", stub)
+        from mole import pipeline
+        return pipeline.run(repo_root=repo, since="2026-06-01", run_id=run_id)
+
+    def test_within_fetch_dedup(self, tmp_path, monkeypatch):
+        from mole import store
+
+        repo = _make_repo(tmp_path)
+        summary = self._run(repo, "run-01", [ITEM_A, ITEM_A_DUP], monkeypatch)
+        assert summary["items_new"] == 1
+        assert summary["items_skipped"] == 1
+        sources = store.load_all_sources(repo)
+        assert len(sources) == 1
+        ids = [s["id"] for s in sources]
+        assert len(set(ids)) == len(ids)
+
+    def test_content_change_retires_and_reextracts(self, tmp_path, monkeypatch):
+        from mole import store
+
+        repo = _make_repo(tmp_path)
+        self._run(repo, "run-01", [ITEM_A], monkeypatch)
+
+        changed = dict(ITEM_A)
+        changed["text"] = (
+            "The alignment problem was overstated in early work. "
+            "New results demonstrate that current techniques scale better than expected. "
+            "This evidence suggests earlier claims should be revised downward."
+        )
+        summary2 = self._run(repo, "run-02", [changed], monkeypatch)
+        assert summary2["items_changed"] == 1
+        assert summary2["items_new"] == 0
+        assert summary2["claims_retired"] > 0
+
+        claims = store.load_all_claims(repo)
+        old = [c for c in claims if c["run_id"] == "run-01"]
+        new = [c for c in claims if c["run_id"] == "run-02"]
+        assert old and all(c["status"] == "retired" for c in old)
+        assert new and all(c["status"] == "extracted" for c in new)
+
+        # Source record updated in place: one record, new hash, stable id
+        sources = store.load_all_sources(repo)
+        assert len(sources) == 1
+        assert sources[0]["content_sha256"] == store.content_sha256(changed["text"])
+        assert sources[0]["run_id"] == "run-02"
+
+    def test_orphan_claims_pruned(self, tmp_path, monkeypatch):
+        from mole import store
+
+        repo = _make_repo(tmp_path)
+        self._run(repo, "run-01", [ITEM_A], monkeypatch)
+        # Simulate an interrupted run: claim written, source record missing
+        store.append_claim(
+            repo,
+            claim_id="clm_009999",
+            source_id="src_fake-feed_never-persisted",
+            text="Orphan claim from an interrupted run with enough words.",
+            claim_type="empirical",
+            support_in_text=0.5,
+            quote="Orphan claim",
+            run_id="run-crashed",
+        )
+        summary = self._run(repo, "run-02", [], monkeypatch)
+        assert summary["orphan_claims_pruned"] == 1
+        assert all(
+            c["source_id"] != "src_fake-feed_never-persisted"
+            for c in store.load_all_claims(repo)
+        )
+
+    def test_compile_drops_edges_to_retired_claims(self, tmp_path, monkeypatch):
+        from mole import store
+        from mole.compile import compile
+
+        repo = _make_repo(tmp_path)
+        self._run(repo, "run-01", [ITEM_A, ITEM_B], monkeypatch)
+        claims = store.load_all_claims(repo)
+        assert len(claims) >= 2
+
+        # Add an edge, then retire one endpoint
+        with (repo / "data" / "edges.jsonl").open("w") as fh:
+            fh.write(json.dumps({
+                "a": claims[0]["id"], "b": claims[1]["id"],
+                "relation": "supports", "confidence": 0.8,
+            }) + "\n")
+        store.retire_claims_for_source(repo, claims[0]["source_id"])
+
+        artifact = compile(repo)
+        artifact_ids = {c["id"] for c in artifact["claims"]}
+        for e in artifact["edges"]:
+            assert e["a"] in artifact_ids and e["b"] in artifact_ids
+        assert artifact["counts"]["edges"] == len(artifact["edges"]) == 0
+
+    def test_generated_run_prefers_caller_then_append_order(self, tmp_path, monkeypatch):
+        from mole.compile import compile
+
+        repo = _make_repo(tmp_path)
+        stub_sources = [
+            ("manual-20260611", "post-m"),
+            ("28498934148", "post-n"),
+        ]
+        from mole import store
+        for run, key in stub_sources:
+            store.append_source(
+                repo, feed="fake-feed", item_key=key, url="https://x",
+                title="t", author="a", published="2026-06-01",
+                sha256="s", claim_count=0, run_id=run,
+            )
+        # Append-order fallback: last record wins, not lexicographic max
+        assert compile(repo)["generated_run"] == "28498934148"
+        # Explicit run id wins over everything
+        assert compile(repo, run_id="run-explicit")["generated_run"] == "run-explicit"
+
+
+class TestFeedsDeterminism:
+    """No wall-clock values fabricated for missing/bad dates."""
+
+    def test_parse_datetime_returns_none(self):
+        from mole import feeds
+
+        assert feeds._parse_datetime("") is None
+        assert feeds._parse_datetime("not-a-date-at-all") is None
+
+    def test_coerce_item_keeps_unknown_date_with_empty_published(self):
+        from datetime import datetime, timezone
+        from mole import feeds
+
+        since = datetime(2026, 6, 1, tzinfo=timezone.utc)
+        item = feeds._coerce_item(
+            feed="f", item_key="k", title="t", author="a",
+            published=None, since_dt=since, url="u",
+            raw_text="<p>Some body text</p>",
+        )
+        assert item is not None
+        assert item["published"] == ""
+
+    def test_invalid_since_raises(self):
+        from mole import feeds
+
+        with pytest.raises(ValueError):
+            feeds.fetch_all_with_warnings({"feeds": []}, "garbage")

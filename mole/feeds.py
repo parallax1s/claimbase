@@ -25,6 +25,8 @@ def fetch_all(feeds_config: dict, since: str) -> list[dict]:
 
 def fetch_all_with_warnings(feeds_config: dict, since: str) -> tuple[list[dict], list[str]]:
     since_dt = _parse_datetime(since)
+    if since_dt is None:
+        raise ValueError(f"invalid since date: {since!r}")
     feeds = feeds_config.get("feeds", []) if isinstance(feeds_config, dict) else []
     all_items: list[dict] = []
     warnings: list[str] = []
@@ -198,13 +200,16 @@ def _coerce_item(
     item_key: str,
     title: str,
     author: str,
-    published: datetime,
+    published: datetime | None,
     since_dt: datetime,
     url: str,
     raw_text: str,
     force_text: bool = False,
 ) -> dict[str, Any] | None:
-    if published < since_dt:
+    # Unknown publication date (None) is conservatively kept — the seen-sources
+    # dedup prevents repeat ingestion; fabricating a wall-clock date would
+    # violate the determinism contract and bypass the since filter.
+    if published is not None and published < since_dt:
         return None
 
     cleaned_text = _strip_html(raw_text)
@@ -218,7 +223,7 @@ def _coerce_item(
             "url": url,
         "title": title,
         "author": author,
-        "published": _normalize_dt(published),
+        "published": _normalize_dt(published) if published is not None else "",
         "text": cleaned_text,
         "content_sha256": hashlib.sha256(content_bytes).hexdigest(),
     }
@@ -268,9 +273,11 @@ def _fetch_json(url: str, data: bytes, *, headers: dict[str, str] | None = None)
     return json.loads(payload)
 
 
-def _parse_datetime(value: str) -> datetime:
+def _parse_datetime(value: str) -> datetime | None:
+    """Parse a date string to an aware UTC datetime; None when missing/unparseable
+    (never fabricate wall-clock values — SCHEMA.md's determinism contract)."""
     if not value:
-        return datetime.now(timezone.utc)
+        return None
 
     if isinstance(value, datetime):
         dt = value
@@ -299,7 +306,7 @@ def _parse_datetime(value: str) -> datetime:
             dt = dt.replace(tzinfo=timezone.utc)
         return dt.astimezone(timezone.utc)
     except (TypeError, ValueError, IndexError):
-        return datetime.now(timezone.utc)
+        return None
 
 
 def _normalize_dt(value: datetime) -> str:
@@ -347,7 +354,10 @@ def _collapse_text(element: ET.Element) -> str:
 
 
 def _extract_rss_text(node: ET.Element) -> str:
-    for preferred in {"encoded", "content"}:
+    # Tuple, not set: iteration order is the precedence (content:encoded first)
+    # and must be deterministic — a set literal made extracted text and
+    # content_sha256 hash-seed dependent.
+    for preferred in ("encoded", "content"):
         for child in node.iter():
             if child is node:
                 continue
