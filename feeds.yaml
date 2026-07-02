@@ -25,9 +25,9 @@ feeds:
   #   limit: 15
   - key: christiano-alignment
     kind: rss
-    # ai-alignment.com (Medium) times out consistently; paulfchristiano.com
-    # is the same author's live WordPress feed.
-    url: https://paulfchristiano.com/feed
+    # ai-alignment.com (Medium custom domain) times out consistently; this is
+    # the same author's Medium feed, which carries the ai-alignment.com posts.
+    url: https://medium.com/feed/@paulfchristiano
     limit: 15
   - key: arxiv-aligncs
     kind: arxiv
