@@ -590,8 +590,8 @@
       "y": 575.63,
       "r": 88.5,
       "claims": 12,
-      "lit": 0,
-      "dim": 12,
+      "lit": 1,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -10996,8 +10996,8 @@
       "y": -2593.69,
       "r": 112.75,
       "claims": 27,
-      "lit": 5,
-      "dim": 22,
+      "lit": 6,
+      "dim": 21,
       "tensions": 0
     },
     {
@@ -11436,8 +11436,8 @@
       "y": 2411.09,
       "r": 74.29,
       "claims": 6,
-      "lit": 0,
-      "dim": 6,
+      "lit": 1,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -43784,7 +43784,7 @@
       "id": "clm_004419",
       "x": 672.36,
       "y": -2531.81,
-      "s": "dim",
+      "s": "lit",
       "d": "d_881",
       "type": "descriptive",
       "text": "Trusted monitoring is a cornerstone of AI control.",
@@ -43964,7 +43964,7 @@
       "id": "clm_004437",
       "x": 1768.6,
       "y": 2381.9,
-      "s": "dim",
+      "s": "lit",
       "d": "d_958",
       "type": "descriptive",
       "text": "Our study is motivated by the unexpected performance degradation observed when naively extending this paradigm to multi-turn settings, which",
@@ -44384,7 +44384,7 @@
       "id": "clm_004479",
       "x": 792.56,
       "y": 532.25,
-      "s": "dim",
+      "s": "lit",
       "d": "d_059",
       "type": "descriptive",
       "text": "Vision-language models (VLMs) are increasingly used for scene understanding in autonomous driving, but robustness analysis often relies on t",
