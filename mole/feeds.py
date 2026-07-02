@@ -48,9 +48,12 @@ def fetch_all_with_warnings(feeds_config: dict, since: str) -> tuple[list[dict],
 
 def _fetch_graphql_forum(feed: dict[str, Any], since_dt: datetime) -> list[dict]:
     limit = int(feed.get("limit", 10))
+    # ForumMagnum's MultiPostInput nests view/limit under `terms`; the flat
+    # shape was rejected with GRAPHQL_VALIDATION_FAILED (HTTP 400) after a
+    # schema change, silently killing this feed.
     query = (
         "query {\n"
-        "  posts(input: { view: \"%s\", limit: %d }) {\n"
+        "  posts(input: { terms: { view: \"%s\", limit: %d } }) {\n"
         "    results {\n"
         "      title\n"
         "      pageUrl\n"

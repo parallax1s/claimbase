@@ -16,13 +16,18 @@ feeds:
     kind: rss
     url: https://www.cold-takes.com/rss/
     limit: 15
-  - key: epoch-blog
-    kind: rss
-    url: https://epoch.ai/rss.xml
-    limit: 15
+  # epoch.ai removed its RSS feed in a site redesign (rss.xml / index.xml /
+  # atom.xml all 404, no <link rel=alternate> on the site as of 2026-07).
+  # Re-enable if they publish a feed again.
+  # - key: epoch-blog
+  #   kind: rss
+  #   url: https://epoch.ai/rss.xml
+  #   limit: 15
   - key: christiano-alignment
     kind: rss
-    url: https://ai-alignment.com/feed
+    # ai-alignment.com (Medium) times out consistently; paulfchristiano.com
+    # is the same author's live WordPress feed.
+    url: https://paulfchristiano.com/feed
     limit: 15
   - key: arxiv-aligncs
     kind: arxiv
