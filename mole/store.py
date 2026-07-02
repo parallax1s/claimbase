@@ -353,3 +353,14 @@ def load_all_edges(repo_root: Path) -> list[dict[str, Any]]:
 
 def load_all_tasks(repo_root: Path) -> list[dict[str, Any]]:
     return list(_iter_jsonl(_pending_path(repo_root)))
+
+
+def load_live_questions(repo_root: Path) -> list[dict[str, Any]]:
+    """Question-layer nodes (data/questions.jsonl), excluding merged-away ones.
+
+    Returns [] when the question layer does not exist yet, so the mole
+    degrades gracefully on repos without it."""
+    path = repo_root / "data" / "questions.jsonl"
+    if not path.exists():
+        return []
+    return [q for q in _iter_jsonl(path) if not q.get("merged_into")]

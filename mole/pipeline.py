@@ -370,6 +370,41 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
         identity_edge_count += 1
 
     # -----------------------------------------------------------------------
+    # Enqueue 'attach' tasks: new claims vs the question layer
+    # -----------------------------------------------------------------------
+    # Fragments are excluded for the same reason as pair work; existing
+    # (question, claim) pairs are never re-enqueued (a judgment, including a
+    # rejection recorded by the task flip, is final until re-opened by hand).
+    from mole import attach as attach_mod
+
+    attach_count = 0
+    questions = store.load_live_questions(repo_root)
+    if questions and pairable_new:
+        live_texts = [
+            c["text"]
+            for c in existing_claims + new_claims_this_run
+            if c.get("status") != "retired"
+        ]
+        index = attach_mod.build_index(live_texts, questions)
+        already = {
+            (t["payload"].get("question_id"), t["payload"].get("claim_id"))
+            for t in store.load_all_tasks(repo_root)
+            if t.get("kind") == "attach"
+        }
+        for claim_id, question_id, sim in attach_mod.candidates(pairable_new, index):
+            if (question_id, claim_id) in already:
+                continue
+            task_max += 1
+            store.append_task(
+                repo_root,
+                task_id=f"task_{task_max:06d}",
+                kind="attach",
+                payload={"question_id": question_id, "claim_id": claim_id, "sim": sim},
+                created_run=run_id,
+            )
+            attach_count += 1
+
+    # -----------------------------------------------------------------------
     # Write run summary
     # -----------------------------------------------------------------------
     runs_dir = repo_root / "runs"
@@ -389,6 +424,7 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
         "tasks_enqueued": {
             "refine": refine_count,
             "identity_edge": identity_edge_count,
+            "attach": attach_count,
         },
         "warnings": warnings,
     }

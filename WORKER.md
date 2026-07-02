@@ -94,6 +94,23 @@ sentence a reader can check against the claim and question texts.
   shards) should be judged `unrelated` and additionally enqueued as a `refine`
   task if one does not already exist for that claim.
 
+## Task id allocation (mole/worker races)
+
+Task ids are a single numeric sequence and are never reused, but the mole
+(daily cron) and workers (anywhere) both append to it — so allocate
+pessimistically:
+
+1. Allocate ids by scanning pending.jsonl at commit time, not at claim time.
+2. If your push is rejected because the remote moved, `git pull --rebase`,
+   then renumber every task YOU created to continue from the new remote
+   maximum before completing the rebase. Your task ids are yours to move
+   until they are pushed; ids that have reached origin are frozen.
+3. Records that reference task ids do not exist (attachments/edges reference
+   claim and question ids), so renumbering is always safe.
+
+This convention was first exercised in commit 6dc53ca (worker range collided
+with mole run 28569379761 and was shifted +875).
+
 ## Budget conduct
 
 Quota exhaustion is normal, not an error. Stop cleanly at a batch boundary;
