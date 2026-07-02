@@ -62,6 +62,26 @@ uncertain. Confirmed edges get `verified: true` and your model id as
 `verifier`; overturned edges get the corrected relation (often `refines` or
 removal).
 
+## Rubric — attach tasks
+
+You judge whether a claim genuinely BEARS ON a question: would a researcher
+tracking this question want this claim in its evidence feed? Keyword overlap
+is not bearing — "AI control" in a medication-safety paper does not bear on
+the AI-control-sufficiency question. Irrelevant candidates get no attachment;
+the task flip is the record. Relevant ones get a stance:
+
+- **bears_yes / bears_no** — the claim is evidence or argument for the
+  affirmative / negative pole of the question as worded.
+- **informs** — genuine evidence without polarity (a measurement, a case,
+  a mechanism).
+- **challenges_framing** — the claim argues the question itself is confused,
+  ill-posed, or wrongly split.
+
+`strength` is your credence the claim genuinely bears (relevance × evidential
+weight); below 0.4, prefer no attachment. Extraction fragments are judged
+irrelevant and enqueued for `refine`, same as in edge tasks. `note` is one
+sentence a reader can check against the claim and question texts.
+
 ## Record conventions
 
 - `run_id` on worker-produced records carries the task's `created_run` (the
