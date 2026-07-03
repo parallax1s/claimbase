@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 28569379761 · sources 407 · claims 6680 · edges 1279 · verified 73
+run 28641831409 · sources 435 · claims 6869 · edges 1279 · verified 73
 
 ## Districts
 
@@ -12,28 +12,28 @@ woff · font · mjx                        ░░░░░░░░░░    125
 Model Arena Leaderboard Churn            ▓▓▓▓▓▓▓░░░    119 claims  ⚡0
 Anthropic Company Moves                  ▓▓▓▓▓▓░░░░    107 claims  ⚡0
 AI Existential Risk Discourse            ▓▓▓▓░░░░░░     61 claims  ⚡0
-Multi-Agent LLM Systems                  ▓▓░░░░░░░░     52 claims  ⚡0
-Latent Variable and Neural Models        ░░░░░░░░░░     43 claims  ⚡0
+Multi-Agent LLM Systems                  ▓▓░░░░░░░░     55 claims  ⚡0
+Latent Variable and Neural Models        ░░░░░░░░░░     45 claims  ⚡0
+LLM Architecture Research                ░░░░░░░░░░     42 claims  ⚡0
 Benchmark Baselines and Agent Scaling    ░░░░░░░░░░     42 claims  ⚡0
-LLM Architecture Research                ░░░░░░░░░░     40 claims  ⚡0
-Cross-Modal Knowledge Distillation       ▓░░░░░░░░░     38 claims  ⚡0
+Cross-Modal Knowledge Distillation       ▓░░░░░░░░░     41 claims  ⚡0
+AI Safety Institute Collaboration        ░░░░░░░░░░     38 claims  ⚡0
 US AI Policy and Classrooms              ▓▓▓▓▓░░░░░     37 claims  ⚡0
 Epistemic Uncertainty Hedges             ▓▓▓░░░░░░░     36 claims  ⚡0
-AI Safety Institute Collaboration        ░░░░░░░░░░     35 claims  ⚡0
-Temporal Image Consistency               ░░░░░░░░░░     34 claims  ⚡0
-training · supervision · generalization  ░░░░░░░░░░     33 claims  ⚡0
+Temporal Image Consistency               ░░░░░░░░░░     35 claims  ⚡0
+training · supervision · generalization  ░░░░░░░░░░     35 claims  ⚡0
 mjx · padding · content                  ░░░░░░░░░░     33 claims  ⚡0
+Federal AI Security Mandates             ▓▓░░░░░░░░     32 claims  ⚡0
 Pope Leo on AI Ethics                    ▓▓▓▓░░░░░░     31 claims  ⚡1
-Federal AI Security Mandates             ▓▓░░░░░░░░     31 claims  ⚡0
+Concept Embedding Customization          ░░░░░░░░░░     28 claims  ⚡0
 Gemini Model Benchmarks                  ▓▓▓░░░░░░░     28 claims  ⚡0
-Concept Embedding Customization          ░░░░░░░░░░     27 claims  ⚡0
-prediction · accuracy · evaluated        ░░░░░░░░░░     26 claims  ⚡0
+prediction · accuracy · evaluated        ░░░░░░░░░░     27 claims  ⚡0
 Compute and Funding Demands              ▓▓▓░░░░░░░     25 claims  ⚡0
+semantic · task · inference              ░░░░░░░░░░     25 claims  ⚡0
 Alignment Faking Detection Thresholds    ░░░░░░░░░░     24 claims  ⚡0
 Opus Behavioral Quirks                   ▓▓▓▓░░░░░░     24 claims  ⚡0
-Multi-Turn Reasoning Failure Modes       ▓▓▓░░░░░░░     23 claims  ⚡0
-semantic · task · schema                 ░░░░░░░░░░     23 claims  ⚡0
-… and 1160 smaller districts (4701 claims)
+Alignment Faking Research                ▓▓░░░░░░░░     24 claims  ⚡0
+… and 1187 smaller districts (4854 claims)
 ```
 
 ## Sharpest fault
