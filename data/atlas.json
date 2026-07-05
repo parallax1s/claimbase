@@ -1,14 +1,14 @@
 {
-  "generated_run": "28696901628",
+  "generated_run": "28731696747",
   "extent": {
     "w": 1000,
     "h": 1000
   },
   "bounds": {
-    "x0": -5582.92,
-    "y0": -5347.41,
-    "x1": 5858.58,
-    "y1": 5737.34
+    "x0": -5578.93,
+    "y0": -5385.82,
+    "x1": 5822.31,
+    "y1": 5705.8
   },
   "districts": [
     {
@@ -368,10 +368,10 @@
       "label": "Misaligned Agent Detection Systems",
       "x": 828.83,
       "y": 127.06,
-      "r": 86.43,
-      "claims": 11,
+      "r": 88.5,
+      "claims": 12,
       "lit": 4,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -442,13 +442,13 @@
     },
     {
       "id": "d_044",
-      "label": "prediction · accuracy · predictor",
+      "label": "prediction · predictor · accuracy",
       "x": 210.6,
       "y": 812.49,
-      "r": 120.42,
-      "claims": 33,
+      "r": 121.63,
+      "claims": 34,
       "lit": 0,
-      "dim": 33,
+      "dim": 34,
       "tensions": 0
     },
     {
@@ -2689,10 +2689,10 @@
       "label": "Multi-Agent Harness Architectures",
       "x": 725.56,
       "y": 975.31,
-      "r": 84.27,
-      "claims": 10,
+      "r": 82.0,
+      "claims": 9,
       "lit": 1,
-      "dim": 9,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -3005,13 +3005,13 @@
     },
     {
       "id": "d_1297",
-      "label": "substrate · source · open",
+      "label": "open · substrate · source",
       "x": -3869.31,
       "y": -163.36,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -3822,6 +3822,17 @@
       "label": "temptation · button · press",
       "x": -3412.78,
       "y": -2297.66,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1425",
+      "label": "results · published · impressive",
+      "x": -3900.17,
+      "y": 1901.5,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -5381,13 +5392,13 @@
     },
     {
       "id": "d_1655",
-      "label": "utility · dpo · preference",
+      "label": "utility · dpo · expected",
       "x": -1708.13,
       "y": -3754.66,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -5590,7 +5601,7 @@
     },
     {
       "id": "d_1678",
-      "label": "finred · financial · game",
+      "label": "finred · financial · pipeline",
       "x": 4203.29,
       "y": 906.55,
       "r": 71.3,
@@ -5612,7 +5623,7 @@
     },
     {
       "id": "d_1681",
-      "label": "embodiment · human · motion",
+      "label": "embodiment · motion · human",
       "x": 2736.66,
       "y": -3361.84,
       "r": 68.0,
@@ -5799,7 +5810,7 @@
     },
     {
       "id": "d_1704",
-      "label": "safety · harm · outputs",
+      "label": "safety · harm · medical",
       "x": 568.57,
       "y": 4433.62,
       "r": 68.0,
@@ -6987,7 +6998,7 @@
     },
     {
       "id": "d_1875",
-      "label": "branes · mathematically · gaussianfusion",
+      "label": "branes · gaussianfusion · mathematically",
       "x": 4164.1,
       "y": 2469.61,
       "r": 59.8,
@@ -7573,10 +7584,10 @@
       "label": "forensics · model · positive",
       "x": -3151.7,
       "y": 3554.83,
-      "r": 97.72,
-      "claims": 17,
+      "r": 99.4,
+      "claims": 18,
       "lit": 0,
-      "dim": 17,
+      "dim": 18,
       "tensions": 0
     },
     {
@@ -7680,7 +7691,7 @@
     },
     {
       "id": "d_1984",
-      "label": "covertly · misaligned · model",
+      "label": "covertly · model · misaligned",
       "x": 1859.15,
       "y": -3922.38,
       "r": 64.25,
@@ -7738,6 +7749,17 @@
       "label": "shadearena · cabo · hacky",
       "x": 1747.17,
       "y": -4341.41,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2001",
+      "label": "implausible · simplest · body",
+      "x": 3095.48,
+      "y": -3451.98,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -7921,6 +7943,17 @@
       "tensions": 0
     },
     {
+      "id": "d_2033",
+      "label": "point · captures · sensitive",
+      "x": 3605.3,
+      "y": 3695.47,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_2034",
       "label": "deployment · awareness · evaluation",
       "x": -4469.07,
@@ -8025,9 +8058,9 @@
       "x": 4029.38,
       "y": 2661.68,
       "r": 170.0,
-      "claims": 195,
+      "claims": 197,
       "lit": 0,
-      "dim": 195,
+      "dim": 197,
       "tensions": 0
     },
     {
@@ -8035,10 +8068,10 @@
       "label": "mjx · padding · content",
       "x": -4143.71,
       "y": 2373.63,
-      "r": 135.98,
-      "claims": 47,
+      "r": 139.98,
+      "claims": 51,
       "lit": 0,
-      "dim": 47,
+      "dim": 51,
       "tensions": 0
     },
     {
@@ -8200,10 +8233,10 @@
       "label": "isomorphism · approximates · bijection",
       "x": -4725.35,
       "y": 1510.49,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -8310,6 +8343,17 @@
       "label": "counterfactual · counterfactuals · counterpossible",
       "x": -4976.42,
       "y": 759.73,
+      "r": 84.27,
+      "claims": 10,
+      "lit": 0,
+      "dim": 10,
+      "tensions": 0
+    },
+    {
+      "id": "d_2114",
+      "label": "cdt · agent · map",
+      "x": 4983.43,
+      "y": -683.23,
       "r": 86.43,
       "claims": 11,
       "lit": 0,
@@ -8317,10 +8361,10 @@
       "tensions": 0
     },
     {
-      "id": "d_2114",
-      "label": "cdt · predictors · none",
-      "x": 4983.43,
-      "y": -683.23,
+      "id": "d_2115",
+      "label": "calculator · calculators · first",
+      "x": 1157.03,
+      "y": -4424.38,
       "r": 77.04,
       "claims": 7,
       "lit": 0,
@@ -8328,14 +8372,14 @@
       "tensions": 0
     },
     {
-      "id": "d_2115",
-      "label": "calculator · foreign · identical",
-      "x": 1157.03,
-      "y": -4424.38,
-      "r": 77.04,
-      "claims": 7,
+      "id": "d_2116",
+      "label": "boxing · sign · expect",
+      "x": 3650.11,
+      "y": -3249.64,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 7,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -8417,7 +8461,7 @@
     },
     {
       "id": "d_2131",
-      "label": "isomorphism · world · purported",
+      "label": "grams · swaps · arbitrarily",
       "x": 1038.77,
       "y": 4306.66,
       "r": 64.25,
@@ -8439,24 +8483,24 @@
     },
     {
       "id": "d_2137",
-      "label": "agents · isomorphism · cdt",
+      "label": "cdt · isomorphism · agents",
       "x": 925.76,
       "y": 4900.02,
-      "r": 68.0,
-      "claims": 4,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 4,
+      "dim": 6,
       "tensions": 0
     },
     {
       "id": "d_2138",
-      "label": "agent · they're · algorithm",
+      "label": "agent · algorithm · they're",
       "x": 2753.8,
       "y": -3560.87,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -8516,7 +8560,7 @@
     },
     {
       "id": "d_2146",
-      "label": "note · bomb · note's",
+      "label": "bomb · note · note's",
       "x": 4671.47,
       "y": -2227.28,
       "r": 64.25,
@@ -8560,13 +8604,13 @@
     },
     {
       "id": "d_2154",
-      "label": "process · idea · decision",
+      "label": "process · fdt · idea",
       "x": -3234.68,
       "y": 3796.42,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -8593,13 +8637,13 @@
     },
     {
       "id": "d_2163",
-      "label": "lesion · facie · genetic",
+      "label": "lesion · cancer · predictor",
       "x": 1862.05,
       "y": 4514.06,
-      "r": 59.8,
-      "claims": 2,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 2,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -10169,10 +10213,10 @@
       "label": "Hope Trust and Earned Credibility",
       "x": -1523.5,
       "y": 1880.04,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 2,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -11467,10 +11511,10 @@
       "label": "Model Risk Aversion Pathways",
       "x": 2214.49,
       "y": 1391.52,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -12003,7 +12047,7 @@
     },
     {
       "id": "d_717",
-      "label": "safety · jailbreak · utility",
+      "label": "safety · jailbreak · responses",
       "x": 1698.83,
       "y": 2262.73,
       "r": 68.0,
@@ -82586,9 +82630,9 @@
       "src": "Online Safety Monitoring for LLMs"
     },
     {
-      "id": "clm_008085",
-      "x": 2346.44,
-      "y": 377.54,
+      "id": "clm_008395",
+      "x": 2331.84,
+      "y": 396.85,
       "s": "dim",
       "d": "d_598",
       "type": "normative",
@@ -82596,9 +82640,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008086",
-      "x": -1688.63,
-      "y": 2448.02,
+      "id": "clm_008396",
+      "x": -1733.63,
+      "y": 2461.79,
       "s": "dim",
       "d": "d_852",
       "type": "descriptive",
@@ -82606,9 +82650,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008087",
-      "x": -716.01,
-      "y": -4387.6,
+      "id": "clm_008397",
+      "x": -708.71,
+      "y": -4339.27,
       "s": "dim",
       "d": "d_2109",
       "type": "descriptive",
@@ -82616,9 +82660,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008088",
-      "x": -760.25,
-      "y": -4408.46,
+      "id": "clm_008398",
+      "x": -781.28,
+      "y": -4360.79,
       "s": "dim",
       "d": "d_2109",
       "type": "descriptive",
@@ -82626,9 +82670,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008089",
-      "x": -3441.71,
-      "y": 1758.84,
+      "id": "clm_008399",
+      "x": -3466.21,
+      "y": 1765.5,
       "s": "dim",
       "d": "d_1083",
       "type": "descriptive",
@@ -82636,9 +82680,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008090",
-      "x": 361.65,
-      "y": -392.3,
+      "id": "clm_008400",
+      "x": 348.14,
+      "y": -396.99,
       "s": "dim",
       "d": "d_028",
       "type": "descriptive",
@@ -82646,9 +82690,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008091",
-      "x": -640.32,
-      "y": 631.55,
+      "id": "clm_008401",
+      "x": -710.54,
+      "y": 614.03,
       "s": "dim",
       "d": "d_076",
       "type": "descriptive",
@@ -82656,9 +82700,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008092",
-      "x": 4190.44,
-      "y": -2914.18,
+      "id": "clm_008402",
+      "x": 4161.5,
+      "y": -2914.89,
       "s": "dim",
       "d": "d_2110",
       "type": "predictive",
@@ -82666,9 +82710,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008093",
-      "x": 1836.59,
-      "y": 3965.86,
+      "id": "clm_008403",
+      "x": 1864.55,
+      "y": 4003.28,
       "s": "dim",
       "d": "d_1892",
       "type": "descriptive",
@@ -82676,9 +82720,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008094",
-      "x": -2504.3,
-      "y": -3024.24,
+      "id": "clm_008404",
+      "x": -2471.3,
+      "y": -3047.8,
       "s": "dim",
       "d": "d_2111",
       "type": "normative",
@@ -82686,9 +82730,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008095",
-      "x": -1237.38,
-      "y": -4509.18,
+      "id": "clm_008405",
+      "x": -1243.23,
+      "y": -4515.32,
       "s": "dim",
       "d": "d_2112",
       "type": "descriptive",
@@ -82696,9 +82740,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008096",
-      "x": -4976.12,
-      "y": 734.32,
+      "id": "clm_008406",
+      "x": -4949.55,
+      "y": 734.46,
       "s": "dim",
       "d": "d_2113",
       "type": "descriptive",
@@ -82706,19 +82750,19 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008097",
-      "x": -4956.38,
-      "y": 770.07,
+      "id": "clm_008407",
+      "x": 4939.09,
+      "y": -669.84,
       "s": "dim",
-      "d": "d_2113",
+      "d": "d_2114",
       "type": "descriptive",
-      "text": "Instead I say that two algorithms are equivalent if the equivalence can be built:",
+      "text": "Instead I say that two algorithms are equivalent if an equivalence can be built between how they behave as functions:",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008098",
-      "x": 4181.85,
-      "y": -2893.26,
+      "id": "clm_008408",
+      "x": 4134.9,
+      "y": -2863.8,
       "s": "dim",
       "d": "d_2110",
       "type": "other",
@@ -82726,389 +82770,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008099",
-      "x": 1567.04,
-      "y": 1641.37,
-      "s": "dim",
-      "d": "d_559",
-      "type": "descriptive",
-      "text": "This is the default.",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008100",
-      "x": 3627.76,
-      "y": -1424.7,
-      "s": "dim",
-      "d": "d_1386",
-      "type": "statistical",
-      "text": "mjx-math {\ndisplay: inline-block;\ntext-align: left;\nline-height: 0;\ntext-indent: 0;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 100%",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008101",
-      "x": 4024.5,
-      "y": 2595.3,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-container[jax=\"CHTML\"][display=\"true\"] {\ndisplay: block;\ntext-align: center;\nmargin: 1em 0;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008102",
-      "x": 4143.14,
-      "y": 2573.85,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-container[jax=\"CHTML\"][display=\"true\"] mjx-math {\npadding: 0;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008103",
-      "x": -4124.06,
-      "y": 2269.14,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "padding: .75em 0 .2em 0;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008104",
-      "x": 4141.54,
-      "y": 2756.71,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-stretchy-h {\ndisplay: inline-table;\nwidth: 100%;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008105",
-      "x": 4081.87,
-      "y": 2547.66,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-stretchy-h > * {\ndisplay: table-cell;\nwidth: 0;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008106",
-      "x": 4084.52,
-      "y": 2665.13,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-stretchy-h > * > mjx-c {\ndisplay: inline-block;\ntransform: scalex(1.0000001);\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008107",
-      "x": 4982.32,
-      "y": -546.33,
-      "s": "dim",
-      "d": "d_2050",
-      "type": "statistical",
-      "text": "mjx-stretchy-h > mjx-ext {\n/* IE */ overflow: hidden;\n/* others */ overflow: clip visible;\nwidth: 100%;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008108",
-      "x": 3941.64,
-      "y": 2731.88,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-stretchy-h > mjx-ext > mjx-c::before {\ntransform: scalex(500);\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008109",
-      "x": 3919.51,
-      "y": 2723.81,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-stretchy-h > mjx-ext > mjx-c {\nwidth: 0;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008110",
-      "x": 3904.65,
-      "y": 2644.94,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-stretchy-h > mjx-beg > mjx-c {\nmargin-right: -.1em;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008111",
-      "x": 3892.3,
-      "y": 2613.38,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-stretchy-h > mjx-end > mjx-c {\nmargin-left: -.1em;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008112",
-      "x": 3958.36,
-      "y": 2547.0,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-stretchy-v > mjx-beg {\nheight: 0;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008113",
-      "x": 4093.77,
-      "y": 2568.23,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "descriptive",
-      "text": "mjx-stretchy-v > mjx-end > mjx-c {\ndisplay: block;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008114",
-      "x": 4025.11,
-      "y": 2652.58,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-stretchy-v > * > mjx-c {\ntransform: scaley(1.0000001);\ntransform-origin: left center;\noverflow: hidden;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008115",
-      "x": 4084.28,
-      "y": 2588.97,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-stretchy-v > mjx-ext {\ndisplay: block;\nheight: 100%;\nbox-sizing: border-box",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008116",
-      "x": 5032.05,
-      "y": -559.37,
-      "s": "dim",
-      "d": "d_2050",
-      "type": "statistical",
-      "text": "border: 0px solid transparent;\n/* IE */ overflow: hidden;\n/* others */ overflow: visible clip;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008117",
-      "x": 4012.43,
-      "y": 2505.81,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-stretchy-v > mjx-ext > mjx-c {\ntransform: scaleY(500) translateY(.075em);\noverflow: visible;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008118",
-      "x": 4172.44,
-      "y": 2690.24,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-mark {\ndisplay: inline-block;\nheight: 0px;\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008119",
-      "x": -4138.26,
-      "y": 2335.3,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c1D719.TEX-I::before {\npadding: 0.694em 0.596em 0.205em 0;\ncontent: \"\\3D5\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008120",
-      "x": -4193.39,
-      "y": 2350.97,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c1D453.TEX-I::before {\npadding: 0.705em 0.55em 0.205em 0;\ncontent: \"f\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008121",
-      "x": 4040.99,
-      "y": 2706.48,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c2218::before {\npadding: 0.444em 0.5em 0 0;\ncontent: \"\\2218\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008122",
-      "x": -4050.4,
-      "y": 2419.44,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c2212::before {\npadding: 0.583em 0.778em 0.082em 0;\ncontent: \"\\2212\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008123",
-      "x": 4059.35,
-      "y": 2672.93,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c31::before {\npadding: 0.666em 0.5em 0 0;\ncontent: \"1\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008124",
-      "x": 4140.18,
-      "y": 2611.47,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c1D443.TEX-I::before {\npadding: 0.683em 0.751em 0 0;\ncontent: \"P\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008125",
-      "x": -4116.21,
-      "y": 2319.06,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c28::before {\npadding: 0.75em 0.389em 0.25em 0;\ncontent: \"(\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008126",
-      "x": -4063.39,
-      "y": 2412.56,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c29::before {\npadding: 0.75em 0.389em 0.25em 0;\ncontent: \")\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008127",
-      "x": -4151.76,
-      "y": 2287.3,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c30::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"0\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008128",
-      "x": -4264.71,
-      "y": 2353.33,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c3D::before {\npadding: 0.583em 0.778em 0.082em 0;\ncontent: \"=\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008129",
-      "x": -4190.66,
-      "y": 2287.04,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c2E::before {\npadding: 0.12em 0.278em 0 0;\ncontent: \".\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008130",
-      "x": -4265.19,
-      "y": 2356.96,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c35::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"5\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008131",
-      "x": 3910.01,
-      "y": 2631.71,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c6C::before {\npadding: 0.694em 0.278em 0 0;\ncontent: \"l\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008132",
-      "x": -4123.43,
-      "y": 2330.89,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c6F::before {\npadding: 0.448em 0.5em 0.01em 0;\ncontent: \"o\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008133",
-      "x": -4110.03,
-      "y": 2363.96,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c67::before {\npadding: 0.453em 0.5em 0.206em 0;\ncontent: \"g\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008134",
-      "x": -4228.77,
-      "y": 2314.81,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c73::before {\npadding: 0.448em 0.394em 0.011em 0;\ncontent: \"s\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008135",
-      "x": 4051.67,
-      "y": 2722.11,
-      "s": "dim",
-      "d": "d_2048",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c69::before {\npadding: 0.669em 0.278em 0 0;\ncontent: \"i\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008136",
-      "x": -4070.57,
-      "y": 2441.47,
-      "s": "dim",
-      "d": "d_2049",
-      "type": "statistical",
-      "text": "mjx-c.mjx-c6E::before {\npadding: 0.442em 0.556em 0 0;\ncontent: \"n\";\n}",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008137",
-      "x": 3978.62,
-      "y": 2581.77,
+      "id": "clm_008409",
+      "x": 4082.14,
+      "y": 2728.94,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83116,9 +82780,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008138",
-      "x": 3914.17,
-      "y": 2700.06,
+      "id": "clm_008410",
+      "x": 4131.44,
+      "y": 2734.64,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83126,9 +82790,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008139",
-      "x": 3891.75,
-      "y": 2714.46,
+      "id": "clm_008411",
+      "x": 4100.28,
+      "y": 2676.23,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83136,9 +82800,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008140",
-      "x": 4126.08,
-      "y": 2618.67,
+      "id": "clm_008412",
+      "x": 3999.6,
+      "y": 2790.63,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83146,9 +82810,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008141",
-      "x": 4029.08,
-      "y": 2514.13,
+      "id": "clm_008413",
+      "x": 4012.31,
+      "y": 2758.89,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83156,9 +82820,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008142",
-      "x": 4045.3,
-      "y": 2821.64,
+      "id": "clm_008414",
+      "x": 3995.5,
+      "y": 2783.95,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83166,9 +82830,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008143",
-      "x": 4170.52,
-      "y": 2692.23,
+      "id": "clm_008415",
+      "x": 4031.63,
+      "y": 2825.17,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83176,9 +82840,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008144",
-      "x": 3912.98,
-      "y": 2673.33,
+      "id": "clm_008416",
+      "x": 4062.35,
+      "y": 2555.74,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83186,9 +82850,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008145",
-      "x": 3892.93,
-      "y": 2691.24,
+      "id": "clm_008417",
+      "x": 4127.45,
+      "y": 2724.13,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83196,9 +82860,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008146",
-      "x": 4070.13,
-      "y": 2781.07,
+      "id": "clm_008418",
+      "x": 4019.74,
+      "y": 2527.18,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83206,9 +82870,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008147",
-      "x": 4143.83,
-      "y": 2546.36,
+      "id": "clm_008419",
+      "x": 4110.38,
+      "y": 2519.24,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83216,9 +82880,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008148",
-      "x": 4069.78,
-      "y": 2794.92,
+      "id": "clm_008420",
+      "x": 3973.05,
+      "y": 2612.87,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83226,9 +82890,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008149",
-      "x": 4012.88,
-      "y": 2736.79,
+      "id": "clm_008421",
+      "x": 3972.72,
+      "y": 2685.8,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83236,9 +82900,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008150",
-      "x": 4023.56,
-      "y": 2528.63,
+      "id": "clm_008422",
+      "x": 4057.29,
+      "y": 2557.47,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83246,9 +82910,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008151",
-      "x": 3985.76,
-      "y": 2736.52,
+      "id": "clm_008423",
+      "x": 3985.81,
+      "y": 2798.16,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83256,9 +82920,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008152",
-      "x": 3882.87,
-      "y": 2630.13,
+      "id": "clm_008424",
+      "x": 4081.95,
+      "y": 2638.8,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83266,9 +82930,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008153",
-      "x": 4075.59,
-      "y": 2569.79,
+      "id": "clm_008425",
+      "x": 4015.03,
+      "y": 2605.29,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83276,9 +82940,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008154",
-      "x": 4149.91,
-      "y": 2670.75,
+      "id": "clm_008426",
+      "x": 4129.64,
+      "y": 2604.2,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83286,9 +82950,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008155",
-      "x": 3913.33,
-      "y": 2665.95,
+      "id": "clm_008427",
+      "x": 3983.52,
+      "y": 2527.04,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83296,9 +82960,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008156",
-      "x": 4085.5,
-      "y": 2593.88,
+      "id": "clm_008428",
+      "x": 3936.11,
+      "y": 2559.45,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83306,9 +82970,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008157",
-      "x": 4095.64,
-      "y": 2713.52,
+      "id": "clm_008429",
+      "x": 3974.77,
+      "y": 2561.52,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83316,9 +82980,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008158",
-      "x": 4166.28,
-      "y": 2681.54,
+      "id": "clm_008430",
+      "x": 4019.24,
+      "y": 2727.52,
       "s": "dim",
       "d": "d_2048",
       "type": "predictive",
@@ -83326,9 +82990,199 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008159",
-      "x": 4011.28,
-      "y": 2686.26,
+      "id": "clm_008431",
+      "x": 3602.47,
+      "y": -1396.07,
+      "s": "dim",
+      "d": "d_1386",
+      "type": "statistical",
+      "text": "mjx-math {\ndisplay: inline-block;\ntext-align: left;\nline-height: 0;\ntext-indent: 0;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 100%",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008432",
+      "x": 4170.06,
+      "y": 2618.04,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container[jax=\"CHTML\"][display=\"true\"] {\ndisplay: block;\ntext-align: center;\nmargin: 1em 0;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008433",
+      "x": 4126.91,
+      "y": 2658.93,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container[jax=\"CHTML\"][display=\"true\"] mjx-math {\npadding: 0;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008434",
+      "x": -4208.47,
+      "y": 2332.72,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "padding: .75em 0 .2em 0;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008435",
+      "x": 4006.63,
+      "y": 2553.05,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h {\ndisplay: inline-table;\nwidth: 100%;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008436",
+      "x": 4056.48,
+      "y": 2712.47,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > * {\ndisplay: table-cell;\nwidth: 0;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008437",
+      "x": 3964.67,
+      "y": 2563.44,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > * > mjx-c {\ndisplay: inline-block;\ntransform: scalex(1.0000001);\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008438",
+      "x": 5046.9,
+      "y": -495.01,
+      "s": "dim",
+      "d": "d_2050",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-ext {\n/* IE */ overflow: hidden;\n/* others */ overflow: clip visible;\nwidth: 100%;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008439",
+      "x": 3895.97,
+      "y": 2676.63,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-ext > mjx-c::before {\ntransform: scalex(500);\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008440",
+      "x": 3938.67,
+      "y": 2658.48,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-ext > mjx-c {\nwidth: 0;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008441",
+      "x": 3936.88,
+      "y": 2730.66,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-beg > mjx-c {\nmargin-right: -.1em;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008442",
+      "x": 3978.75,
+      "y": 2681.56,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-end > mjx-c {\nmargin-left: -.1em;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008443",
+      "x": 3868.33,
+      "y": 2687.04,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > mjx-beg {\nheight: 0;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008444",
+      "x": 3871.19,
+      "y": 2689.32,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "descriptive",
+      "text": "mjx-stretchy-v > mjx-end > mjx-c {\ndisplay: block;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008445",
+      "x": 4008.66,
+      "y": 2563.61,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > * > mjx-c {\ntransform: scaley(1.0000001);\ntransform-origin: left center;\noverflow: hidden;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008446",
+      "x": 4144.75,
+      "y": 2564.76,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > mjx-ext {\ndisplay: block;\nheight: 100%;\nbox-sizing: border-box",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008447",
+      "x": 5017.41,
+      "y": -493.11,
+      "s": "dim",
+      "d": "d_2050",
+      "type": "statistical",
+      "text": "border: 0px solid transparent;\n/* IE */ overflow: hidden;\n/* others */ overflow: visible clip;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008448",
+      "x": 3920.24,
+      "y": 2542.25,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > mjx-ext > mjx-c {\ntransform: scaleY(500) translateY(.075em);\noverflow: visible;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008449",
+      "x": 4126.34,
+      "y": 2655.75,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-mark {\ndisplay: inline-block;\nheight: 0px;\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008450",
+      "x": 3979.99,
+      "y": 2599.04,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83336,9 +83190,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008160",
-      "x": 3906.19,
-      "y": 2745.19,
+      "id": "clm_008451",
+      "x": 3905.86,
+      "y": 2701.75,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83346,9 +83200,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008161",
-      "x": 4046.25,
-      "y": 2700.89,
+      "id": "clm_008452",
+      "x": 4042.38,
+      "y": 2584.85,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83356,9 +83210,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008162",
-      "x": 3925.74,
-      "y": 2633.55,
+      "id": "clm_008453",
+      "x": 3908.67,
+      "y": 2569.6,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83366,9 +83220,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008163",
-      "x": 3904.98,
-      "y": 2578.88,
+      "id": "clm_008454",
+      "x": 3920.89,
+      "y": 2642.86,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83376,9 +83230,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008164",
-      "x": 4021.27,
-      "y": 2779.36,
+      "id": "clm_008455",
+      "x": 3953.85,
+      "y": 2619.54,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83386,9 +83240,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008165",
-      "x": 3913.17,
-      "y": 2557.92,
+      "id": "clm_008456",
+      "x": 4109.7,
+      "y": 2529.61,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83396,9 +83250,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008166",
-      "x": 4058.54,
-      "y": 2598.27,
+      "id": "clm_008457",
+      "x": 4093.59,
+      "y": 2548.89,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83406,9 +83260,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008167",
-      "x": 3942.55,
-      "y": 2631.28,
+      "id": "clm_008458",
+      "x": 3882.67,
+      "y": 2646.43,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83416,9 +83270,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008168",
-      "x": 3993.73,
-      "y": 2561.01,
+      "id": "clm_008459",
+      "x": 4004.99,
+      "y": 2555.08,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83426,9 +83280,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008169",
-      "x": 3992.85,
-      "y": 2779.22,
+      "id": "clm_008460",
+      "x": 4013.5,
+      "y": 2565.32,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83436,9 +83290,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008170",
-      "x": 4101.54,
-      "y": 2617.37,
+      "id": "clm_008461",
+      "x": 4185.91,
+      "y": 2626.16,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83446,9 +83300,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008171",
-      "x": 4116.02,
-      "y": 2617.25,
+      "id": "clm_008462",
+      "x": 3965.17,
+      "y": 2567.84,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83456,9 +83310,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008172",
-      "x": 4032.57,
-      "y": 2617.55,
+      "id": "clm_008463",
+      "x": 3971.24,
+      "y": 2675.68,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83466,9 +83320,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008173",
-      "x": 4135.63,
-      "y": 2543.89,
+      "id": "clm_008464",
+      "x": 3883.75,
+      "y": 2593.55,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83476,9 +83330,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008174",
-      "x": 4046.43,
-      "y": 2572.45,
+      "id": "clm_008465",
+      "x": 4068.47,
+      "y": 2766.63,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83486,9 +83340,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008175",
-      "x": 3947.49,
-      "y": 2537.58,
+      "id": "clm_008466",
+      "x": 4149.92,
+      "y": 2688.02,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83496,9 +83350,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008176",
-      "x": 4062.71,
-      "y": 2519.95,
+      "id": "clm_008467",
+      "x": 4058.16,
+      "y": 2744.97,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83506,9 +83360,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008177",
-      "x": 4056.98,
-      "y": 2783.87,
+      "id": "clm_008468",
+      "x": 4090.82,
+      "y": 2750.32,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83516,9 +83370,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008178",
-      "x": 3980.84,
-      "y": 2759.57,
+      "id": "clm_008469",
+      "x": 3906.19,
+      "y": 2613.24,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83526,9 +83380,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008179",
-      "x": 4088.98,
-      "y": 2694.24,
+      "id": "clm_008470",
+      "x": 3953.2,
+      "y": 2719.57,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83536,9 +83390,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008180",
-      "x": 4089.06,
-      "y": 2561.15,
+      "id": "clm_008471",
+      "x": 4047.2,
+      "y": 2548.11,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83546,9 +83400,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008181",
-      "x": 3990.55,
-      "y": 2538.44,
+      "id": "clm_008472",
+      "x": 3950.17,
+      "y": 2728.72,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83556,9 +83410,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008182",
-      "x": 4003.92,
-      "y": 2775.4,
+      "id": "clm_008473",
+      "x": 4108.24,
+      "y": 2566.08,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83566,9 +83420,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008183",
-      "x": 4022.2,
-      "y": 2666.94,
+      "id": "clm_008474",
+      "x": 3995.21,
+      "y": 2609.87,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83576,9 +83430,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008184",
-      "x": 4040.9,
-      "y": 2741.13,
+      "id": "clm_008475",
+      "x": 4103.75,
+      "y": 2661.16,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83586,9 +83440,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008185",
-      "x": 4163.81,
-      "y": 2730.93,
+      "id": "clm_008476",
+      "x": 4004.53,
+      "y": 2569.22,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83596,9 +83450,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008186",
-      "x": 4021.79,
-      "y": 2572.87,
+      "id": "clm_008477",
+      "x": 4140.64,
+      "y": 2557.83,
       "s": "dim",
       "d": "d_2048",
       "type": "statistical",
@@ -83606,9 +83460,259 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008187",
-      "x": 1491.1,
-      "y": 1146.18,
+      "id": "clm_008478",
+      "x": -4043.5,
+      "y": 2343.22,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D453.TEX-I::before {\npadding: 0.705em 0.55em 0.205em 0;\ncontent: \"f\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008479",
+      "x": -4103.13,
+      "y": 2446.01,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D436.TEX-I::before {\npadding: 0.705em 0.76em 0.022em 0;\ncontent: \"C\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008480",
+      "x": 4106.11,
+      "y": 2744.91,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D437.TEX-I::before {\npadding: 0.683em 0.828em 0 0;\ncontent: \"D\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008481",
+      "x": 3937.26,
+      "y": 2533.32,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D447.TEX-I::before {\npadding: 0.677em 0.704em 0 0;\ncontent: \"T\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008482",
+      "x": -4244.11,
+      "y": 2321.11,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D719.TEX-I::before {\npadding: 0.694em 0.596em 0.205em 0;\ncontent: \"\\3D5\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008483",
+      "x": 4017.08,
+      "y": 2709.46,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2218::before {\npadding: 0.444em 0.5em 0 0;\ncontent: \"\\2218\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008484",
+      "x": -4120.5,
+      "y": 2329.58,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2212::before {\npadding: 0.583em 0.778em 0.082em 0;\ncontent: \"\\2212\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008485",
+      "x": 4028.33,
+      "y": 2735.0,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c31::before {\npadding: 0.666em 0.5em 0 0;\ncontent: \"1\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008486",
+      "x": 4111.0,
+      "y": 2684.11,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D443.TEX-I::before {\npadding: 0.683em 0.751em 0 0;\ncontent: \"P\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008487",
+      "x": -4159.98,
+      "y": 2432.82,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c28::before {\npadding: 0.75em 0.389em 0.25em 0;\ncontent: \"(\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008488",
+      "x": -4252.72,
+      "y": 2355.6,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c29::before {\npadding: 0.75em 0.389em 0.25em 0;\ncontent: \")\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008489",
+      "x": -4256.96,
+      "y": 2410.87,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c30::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"0\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008490",
+      "x": -4191.19,
+      "y": 2310.29,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c3D::before {\npadding: 0.583em 0.778em 0.082em 0;\ncontent: \"=\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008491",
+      "x": -4145.95,
+      "y": 2481.58,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2E::before {\npadding: 0.12em 0.278em 0 0;\ncontent: \".\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008492",
+      "x": -4083.69,
+      "y": 2456.3,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c35::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"5\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008493",
+      "x": 3888.42,
+      "y": 2676.01,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c6C::before {\npadding: 0.694em 0.278em 0 0;\ncontent: \"l\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008494",
+      "x": -4229.17,
+      "y": 2344.46,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c6F::before {\npadding: 0.448em 0.5em 0.01em 0;\ncontent: \"o\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008495",
+      "x": -4139.36,
+      "y": 2252.8,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c67::before {\npadding: 0.453em 0.5em 0.206em 0;\ncontent: \"g\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008496",
+      "x": -4148.16,
+      "y": 2276.48,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c73::before {\npadding: 0.448em 0.394em 0.011em 0;\ncontent: \"s\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008497",
+      "x": 4052.74,
+      "y": 2812.71,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c69::before {\npadding: 0.669em 0.278em 0 0;\ncontent: \"i\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008498",
+      "x": -4064.58,
+      "y": 2309.58,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c6E::before {\npadding: 0.442em 0.556em 0 0;\ncontent: \"n\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008499",
+      "x": -4060.03,
+      "y": 2469.64,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2F::before {\npadding: 0.75em 0.5em 0.25em 0;\ncontent: \"/\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008500",
+      "x": -4088.06,
+      "y": 2484.42,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c33::before {\npadding: 0.665em 0.5em 0.022em 0;\ncontent: \"3\";\n}",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008501",
+      "x": -4149.41,
+      "y": 2385.71,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2C::before {\npadding: 0.121em 0.278em 0.194em 0;\ncontent: \",\";\n}\nand its expected utility.",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008502",
+      "x": 1563.92,
+      "y": 1686.02,
+      "s": "dim",
+      "d": "d_559",
+      "type": "descriptive",
+      "text": "This is the default.",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008503",
+      "x": 1500.34,
+      "y": 1102.9,
       "s": "dim",
       "d": "d_410",
       "type": "other",
@@ -83616,9 +83720,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008188",
-      "x": 3535.0,
-      "y": -1041.39,
+      "id": "clm_008504",
+      "x": 3597.35,
+      "y": -1119.47,
       "s": "dim",
       "d": "d_1329",
       "type": "empirical",
@@ -83626,9 +83730,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008189",
-      "x": 240.55,
-      "y": -342.41,
+      "id": "clm_008505",
+      "x": 195.59,
+      "y": -282.68,
       "s": "dim",
       "d": "d_021",
       "type": "descriptive",
@@ -83636,29 +83740,49 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008190",
-      "x": 714.3,
-      "y": 949.29,
-      "s": "dim",
-      "d": "d_126",
-      "type": "empirical",
-      "text": "the agent has merely played into a world that ignores it.",
-      "src": "Pragmatic FDT, and predictors as game th"
-    },
-    {
-      "id": "clm_008191",
-      "x": 4952.35,
-      "y": -668.93,
+      "id": "clm_008506",
+      "x": 4983.27,
+      "y": -678.3,
       "s": "dim",
       "d": "d_2114",
-      "type": "other",
-      "text": "if none exist, take the baseline CDT action.",
+      "type": "empirical",
+      "text": "the agent has merely played into a CDT world.",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008192",
-      "x": -4758.03,
-      "y": 1543.02,
+      "id": "clm_008507",
+      "x": -1674.25,
+      "y": -3726.01,
+      "s": "dim",
+      "d": "d_1655",
+      "type": "descriptive",
+      "text": "It computes the expected advantage of , which is the expected utility difference, under , between and .",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008508",
+      "x": 1154.72,
+      "y": -4450.19,
+      "s": "dim",
+      "d": "d_2115",
+      "type": "descriptive",
+      "text": "Call exploitable if it has a positive advantage.",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008509",
+      "x": 4965.16,
+      "y": -732.22,
+      "s": "dim",
+      "d": "d_2114",
+      "type": "descriptive",
+      "text": "if none are found, take the baseline actions that gives.",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008510",
+      "x": -4713.55,
+      "y": 1487.6,
       "s": "dim",
       "d": "d_2091",
       "type": "descriptive",
@@ -83666,9 +83790,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008193",
-      "x": -3678.44,
-      "y": 3094.65,
+      "id": "clm_008511",
+      "x": -3651.98,
+      "y": 3110.05,
       "s": "dim",
       "d": "d_2090",
       "type": "descriptive",
@@ -83676,9 +83800,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008194",
-      "x": -182.63,
-      "y": -2443.05,
+      "id": "clm_008512",
+      "x": -149.19,
+      "y": -2493.95,
       "s": "dim",
       "d": "d_508",
       "type": "descriptive",
@@ -83686,9 +83810,39 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008195",
-      "x": 1183.74,
-      "y": -4409.53,
+      "id": "clm_008513",
+      "x": 3638.54,
+      "y": -3237.79,
+      "s": "dim",
+      "d": "d_2116",
+      "type": "descriptive",
+      "text": "First, we can allow different input or output states to share a label (we want all the different ways of two-boxing to just be called \"two-b",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008514",
+      "x": -3822.99,
+      "y": -141.46,
+      "s": "dim",
+      "d": "d_1297",
+      "type": "descriptive",
+      "text": "And we are open to some inputs or outputs not actually being labelled by .",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008515",
+      "x": -4765.43,
+      "y": 1508.51,
+      "s": "dim",
+      "d": "d_2091",
+      "type": "definitional",
+      "text": "Mathematically, this means that we want to be a non-total isomorphism between a partition of the inputs (and, separately, the outputs) of an",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008516",
+      "x": 1195.51,
+      "y": -4439.45,
       "s": "dim",
       "d": "d_2115",
       "type": "descriptive",
@@ -83696,19 +83850,19 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008196",
-      "x": 1147.48,
-      "y": -4444.1,
+      "id": "clm_008517",
+      "x": 3638.28,
+      "y": -3293.8,
       "s": "dim",
-      "d": "d_2115",
+      "d": "d_2116",
       "type": "descriptive",
       "text": "The second calculator is from a foreign land: it's identical except that the numbers it outputs always come with a negative sign ('–') in fr",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008197",
-      "x": 3624.42,
-      "y": -3238.16,
+      "id": "clm_008518",
+      "x": 3681.41,
+      "y": -3295.68,
       "s": "dim",
       "d": "d_2116",
       "type": "other",
@@ -83716,9 +83870,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008198",
-      "x": 2752.52,
-      "y": -452.52,
+      "id": "clm_008519",
+      "x": 2811.54,
+      "y": -423.08,
       "s": "dim",
       "d": "d_729",
       "type": "predictive",
@@ -83726,9 +83880,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008199",
-      "x": -883.2,
-      "y": 1376.03,
+      "id": "clm_008520",
+      "x": -793.01,
+      "y": 1357.2,
       "s": "dim",
       "d": "d_173",
       "type": "other",
@@ -83736,9 +83890,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008200",
-      "x": 1201.34,
-      "y": -4444.64,
+      "id": "clm_008521",
+      "x": 1158.12,
+      "y": -4375.02,
       "s": "dim",
       "d": "d_2115",
       "type": "descriptive",
@@ -83746,19 +83900,19 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008201",
-      "x": 1175.1,
-      "y": -4386.69,
+      "id": "clm_008522",
+      "x": 1145.73,
+      "y": -4396.55,
       "s": "dim",
       "d": "d_2115",
       "type": "descriptive",
-      "text": "Whatever the foreign calculator was intended to do, it runs an algorithm isomorphic to the standard one",
+      "text": "Whatever the foreign calculator was intended to do, it runs an algorithm whose input-output behaviour is isomorphic to the standard one",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008202",
-      "x": -3219.61,
-      "y": -1335.83,
+      "id": "clm_008523",
+      "x": -3275.31,
+      "y": -1333.42,
       "s": "dim",
       "d": "d_1114",
       "type": "other",
@@ -83766,9 +83920,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008203",
-      "x": 1169.97,
-      "y": -4427.69,
+      "id": "clm_008524",
+      "x": 1123.54,
+      "y": -4441.95,
       "s": "dim",
       "d": "d_2115",
       "type": "statistical",
@@ -83776,9 +83930,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008204",
-      "x": 267.36,
-      "y": 1707.91,
+      "id": "clm_008525",
+      "x": 356.2,
+      "y": 1721.24,
       "s": "dim",
       "d": "d_273",
       "type": "statistical",
@@ -83786,9 +83940,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008205",
-      "x": 3064.05,
-      "y": 95.92,
+      "id": "clm_008526",
+      "x": 3059.01,
+      "y": 135.28,
       "s": "dim",
       "d": "d_1066",
       "type": "descriptive",
@@ -83796,9 +83950,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008206",
-      "x": 584.88,
-      "y": -4440.45,
+      "id": "clm_008527",
+      "x": 611.47,
+      "y": -4391.47,
       "s": "dim",
       "d": "d_2117",
       "type": "causal",
@@ -83806,9 +83960,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008207",
-      "x": 568.17,
-      "y": -4443.89,
+      "id": "clm_008528",
+      "x": 576.86,
+      "y": -4387.95,
       "s": "dim",
       "d": "d_2117",
       "type": "other",
@@ -83816,9 +83970,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008208",
-      "x": -4528.59,
-      "y": -561.4,
+      "id": "clm_008529",
+      "x": -4546.97,
+      "y": -567.89,
       "s": "dim",
       "d": "d_2118",
       "type": "descriptive",
@@ -83826,9 +83980,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008209",
-      "x": 5113.08,
-      "y": -393.21,
+      "id": "clm_008530",
+      "x": 5150.24,
+      "y": -377.0,
       "s": "dim",
       "d": "d_2119",
       "type": "descriptive",
@@ -83836,9 +83990,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008210",
-      "x": 2227.5,
-      "y": 654.68,
+      "id": "clm_008531",
+      "x": 2229.1,
+      "y": 665.88,
       "s": "dim",
       "d": "d_578",
       "type": "descriptive",
@@ -83846,9 +84000,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008211",
-      "x": 1148.03,
-      "y": -4388.48,
+      "id": "clm_008532",
+      "x": 1171.77,
+      "y": -4393.05,
       "s": "dim",
       "d": "d_2115",
       "type": "descriptive",
@@ -83856,9 +84010,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008212",
-      "x": 1154.85,
-      "y": -4437.9,
+      "id": "clm_008533",
+      "x": 1149.09,
+      "y": -4461.36,
       "s": "dim",
       "d": "d_2115",
       "type": "descriptive",
@@ -83866,19 +84020,19 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008213",
-      "x": 1067.8,
-      "y": -3118.38,
+      "id": "clm_008534",
+      "x": 1088.74,
+      "y": -3076.84,
       "s": "dim",
       "d": "d_866",
       "type": "other",
-      "text": "So need not be total -- it need not map from or to all inputs and all outputs.",
+      "text": "That's why need not be total -- it need not map from or to all inputs and all outputs.",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008214",
-      "x": -4751.9,
-      "y": 1537.55,
+      "id": "clm_008535",
+      "x": -4709.9,
+      "y": 1453.99,
       "s": "dim",
       "d": "d_2091",
       "type": "descriptive",
@@ -83886,9 +84040,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008215",
-      "x": -3016.78,
-      "y": 1480.21,
+      "id": "clm_008536",
+      "x": -2975.14,
+      "y": 1504.13,
       "s": "dim",
       "d": "d_768",
       "type": "descriptive",
@@ -83896,9 +84050,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008216",
-      "x": -1686.7,
-      "y": -3111.68,
+      "id": "clm_008537",
+      "x": -1704.11,
+      "y": -3150.16,
       "s": "dim",
       "d": "d_2120",
       "type": "normative",
@@ -83906,9 +84060,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008217",
-      "x": 735.74,
-      "y": 1030.11,
+      "id": "clm_008538",
+      "x": 772.63,
+      "y": 977.85,
       "s": "dim",
       "d": "d_126",
       "type": "normative",
@@ -83916,9 +84070,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008218",
-      "x": -59.99,
-      "y": 1399.95,
+      "id": "clm_008539",
+      "x": -88.55,
+      "y": 1319.17,
       "s": "dim",
       "d": "d_124",
       "type": "predictive",
@@ -83926,9 +84080,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008219",
-      "x": -2176.03,
-      "y": 4461.34,
+      "id": "clm_008540",
+      "x": -2131.4,
+      "y": 4508.05,
       "s": "dim",
       "d": "d_2121",
       "type": "descriptive",
@@ -83936,9 +84090,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008220",
-      "x": 3819.46,
-      "y": 3349.04,
+      "id": "clm_008541",
+      "x": 3831.45,
+      "y": 3370.86,
       "s": "dim",
       "d": "d_2025",
       "type": "empirical",
@@ -83946,9 +84100,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008221",
-      "x": -2131.56,
-      "y": 4528.25,
+      "id": "clm_008542",
+      "x": -2126.1,
+      "y": 4510.63,
       "s": "dim",
       "d": "d_2121",
       "type": "descriptive",
@@ -83956,9 +84110,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008222",
-      "x": -1842.01,
-      "y": -3207.51,
+      "id": "clm_008543",
+      "x": -1864.8,
+      "y": -3220.64,
       "s": "dim",
       "d": "d_1108",
       "type": "other",
@@ -83966,9 +84120,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008223",
-      "x": 698.13,
-      "y": 909.16,
+      "id": "clm_008544",
+      "x": 705.28,
+      "y": 923.87,
       "s": "dim",
       "d": "d_126",
       "type": "normative",
@@ -83976,9 +84130,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008224",
-      "x": -765.85,
-      "y": 2040.57,
+      "id": "clm_008545",
+      "x": -712.77,
+      "y": 2064.56,
       "s": "dim",
       "d": "d_338",
       "type": "descriptive",
@@ -83986,9 +84140,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008225",
-      "x": 1227.29,
-      "y": -2362.48,
+      "id": "clm_008546",
+      "x": 1230.91,
+      "y": -2354.84,
       "s": "dim",
       "d": "d_787",
       "type": "descriptive",
@@ -83996,9 +84150,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008226",
-      "x": 2857.39,
-      "y": -3925.06,
+      "id": "clm_008547",
+      "x": 2918.19,
+      "y": -3884.8,
       "s": "dim",
       "d": "d_2122",
       "type": "causal",
@@ -84006,9 +84160,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008227",
-      "x": 2133.13,
-      "y": -4488.16,
+      "id": "clm_008548",
+      "x": 2126.36,
+      "y": -4444.0,
       "s": "dim",
       "d": "d_2123",
       "type": "descriptive",
@@ -84016,9 +84170,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008228",
-      "x": 3962.02,
-      "y": -2956.96,
+      "id": "clm_008549",
+      "x": 3969.67,
+      "y": -2892.0,
       "s": "dim",
       "d": "d_2124",
       "type": "causal",
@@ -84026,9 +84180,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008229",
-      "x": 2452.86,
-      "y": -4230.19,
+      "id": "clm_008550",
+      "x": 2451.78,
+      "y": -4223.42,
       "s": "dim",
       "d": "d_2125",
       "type": "other",
@@ -84036,9 +84190,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008230",
-      "x": -3564.2,
-      "y": 2196.57,
+      "id": "clm_008551",
+      "x": -3492.63,
+      "y": 2150.49,
       "s": "dim",
       "d": "d_1575",
       "type": "descriptive",
@@ -84046,9 +84200,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008231",
-      "x": -680.51,
-      "y": 2031.32,
+      "id": "clm_008552",
+      "x": -764.76,
+      "y": 2042.26,
       "s": "dim",
       "d": "d_338",
       "type": "descriptive",
@@ -84056,9 +84210,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008232",
-      "x": 4845.99,
-      "y": 1475.3,
+      "id": "clm_008553",
+      "x": 4888.4,
+      "y": 1469.31,
       "s": "dim",
       "d": "d_2106",
       "type": "other",
@@ -84066,9 +84220,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008233",
-      "x": 676.83,
-      "y": -180.25,
+      "id": "clm_008554",
+      "x": 644.85,
+      "y": -118.76,
       "s": "dim",
       "d": "d_040",
       "type": "descriptive",
@@ -84076,9 +84230,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008234",
-      "x": 447.65,
-      "y": -1447.63,
+      "id": "clm_008555",
+      "x": 384.33,
+      "y": -1454.92,
       "s": "dim",
       "d": "d_202",
       "type": "other",
@@ -84086,9 +84240,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008235",
-      "x": 3943.54,
-      "y": 3434.06,
+      "id": "clm_008556",
+      "x": 3960.31,
+      "y": 3443.99,
       "s": "dim",
       "d": "d_2126",
       "type": "other",
@@ -84096,9 +84250,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008236",
-      "x": 2850.91,
-      "y": -3907.56,
+      "id": "clm_008557",
+      "x": 2930.88,
+      "y": -3901.18,
       "s": "dim",
       "d": "d_2122",
       "type": "descriptive",
@@ -84106,9 +84260,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008237",
-      "x": 2768.23,
-      "y": 1937.73,
+      "id": "clm_008558",
+      "x": 2804.18,
+      "y": 1960.34,
       "s": "dim",
       "d": "d_2127",
       "type": "other",
@@ -84116,9 +84270,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008238",
-      "x": -3869.95,
-      "y": 2290.64,
+      "id": "clm_008559",
+      "x": -3895.94,
+      "y": 2298.7,
       "s": "dim",
       "d": "d_2128",
       "type": "other",
@@ -84126,9 +84280,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008239",
-      "x": -4671.78,
-      "y": 1509.43,
+      "id": "clm_008560",
+      "x": -4759.14,
+      "y": 1487.36,
       "s": "dim",
       "d": "d_2091",
       "type": "descriptive",
@@ -84136,9 +84290,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008240",
-      "x": -387.56,
-      "y": 1291.34,
+      "id": "clm_008561",
+      "x": -346.6,
+      "y": 1330.53,
       "s": "dim",
       "d": "d_150",
       "type": "descriptive",
@@ -84146,9 +84300,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008241",
-      "x": 1516.01,
-      "y": 4801.88,
+      "id": "clm_008562",
+      "x": 1498.6,
+      "y": 4832.7,
       "s": "dim",
       "d": "d_2129",
       "type": "descriptive",
@@ -84156,9 +84310,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008242",
-      "x": -457.23,
-      "y": 1258.71,
+      "id": "clm_008563",
+      "x": -343.26,
+      "y": 1326.75,
       "s": "dim",
       "d": "d_150",
       "type": "descriptive",
@@ -84166,9 +84320,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008243",
-      "x": 3221.77,
-      "y": 4035.64,
+      "id": "clm_008564",
+      "x": 3252.16,
+      "y": 4009.7,
       "s": "dim",
       "d": "d_2130",
       "type": "descriptive",
@@ -84176,19 +84330,39 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008244",
-      "x": 1071.09,
-      "y": 4304.59,
+      "id": "clm_008565",
+      "x": 3109.73,
+      "y": -3412.2,
       "s": "dim",
-      "d": "d_2131",
+      "d": "d_2001",
       "type": "empirical",
-      "text": "Throughout, we ask whether the purported isomorphism is compatible with everything else we know about the world.",
+      "text": "The more implausible the claim is, given what else we know about the world, the more we investigate it.",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008245",
-      "x": 2001.1,
-      "y": -4361.76,
+      "id": "clm_008566",
+      "x": 1000.39,
+      "y": 4306.44,
+      "s": "dim",
+      "d": "d_2131",
+      "type": "predictive",
+      "text": "If someone uses N-grams to predict human behaviour in Rock-Paper-Scissors... we note the mechanism is plausible",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008567",
+      "x": -3891.75,
+      "y": 1884.64,
+      "s": "dim",
+      "d": "d_1425",
+      "type": "descriptive",
+      "text": "the results, when tested, are impressive.",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008568",
+      "x": 1995.22,
+      "y": -4304.89,
       "s": "dim",
       "d": "d_1994",
       "type": "other",
@@ -84196,19 +84370,19 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008246",
-      "x": -1049.37,
-      "y": 5016.19,
+      "id": "clm_008569",
+      "x": -1075.42,
+      "y": 4945.11,
       "s": "dim",
       "d": "d_2132",
       "type": "descriptive",
-      "text": "trained common sense make available, and we'll need them: in toy models a simple formal check suffices",
+      "text": "trained common sense make available\n[4]\n, and we'll need them: in toy models a simple formal check suffices",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008247",
-      "x": 1082.46,
-      "y": 4300.92,
+      "id": "clm_008570",
+      "x": 997.44,
+      "y": 4273.84,
       "s": "dim",
       "d": "d_2131",
       "type": "empirical",
@@ -84216,9 +84390,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008248",
-      "x": 4970.78,
-      "y": -712.44,
+      "id": "clm_008571",
+      "x": 4957.96,
+      "y": -643.69,
       "s": "dim",
       "d": "d_2114",
       "type": "predictive",
@@ -84226,19 +84400,19 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008249",
-      "x": 5338.51,
-      "y": 113.68,
+      "id": "clm_008572",
+      "x": 5304.07,
+      "y": 117.07,
       "s": "dim",
       "d": "d_2133",
       "type": "descriptive",
-      "text": "if the agent assumed it could always find one (if one existed) it could walk straight into contradictions\n[4]\n.",
+      "text": "if the agent assumed it could always find one (if one existed) it could walk straight into contradictions\n[5]\n.",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008250",
-      "x": -3522.92,
-      "y": 2130.28,
+      "id": "clm_008573",
+      "x": -3498.72,
+      "y": 2171.04,
       "s": "dim",
       "d": "d_1575",
       "type": "causal",
@@ -84246,9 +84420,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008251",
-      "x": 707.95,
-      "y": 1043.47,
+      "id": "clm_008574",
+      "x": 694.93,
+      "y": 946.94,
       "s": "dim",
       "d": "d_126",
       "type": "descriptive",
@@ -84256,9 +84430,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008252",
-      "x": -4013.55,
-      "y": 2441.29,
+      "id": "clm_008575",
+      "x": -3971.29,
+      "y": 2453.26,
       "s": "dim",
       "d": "d_1862",
       "type": "other",
@@ -84266,9 +84440,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008253",
-      "x": 483.71,
-      "y": 2193.82,
+      "id": "clm_008576",
+      "x": 485.59,
+      "y": 2177.75,
       "s": "dim",
       "d": "d_511",
       "type": "descriptive",
@@ -84276,9 +84450,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008254",
-      "x": 3214.77,
-      "y": 4012.15,
+      "id": "clm_008577",
+      "x": 3192.85,
+      "y": 4011.95,
       "s": "dim",
       "d": "d_2130",
       "type": "statistical",
@@ -84286,9 +84460,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008255",
-      "x": 3875.49,
-      "y": 3755.37,
+      "id": "clm_008578",
+      "x": 3841.69,
+      "y": 3778.98,
       "s": "dim",
       "d": "d_2134",
       "type": "descriptive",
@@ -84296,9 +84470,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008256",
-      "x": -1839.79,
-      "y": -1130.54,
+      "id": "clm_008579",
+      "x": -1830.94,
+      "y": -1154.55,
       "s": "dim",
       "d": "d_1583",
       "type": "descriptive",
@@ -84306,9 +84480,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008257",
-      "x": 5012.65,
-      "y": -672.06,
+      "id": "clm_008580",
+      "x": 4988.98,
+      "y": -743.5,
       "s": "dim",
       "d": "d_2114",
       "type": "other",
@@ -84316,9 +84490,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008258",
-      "x": -1500.21,
-      "y": 1835.06,
+      "id": "clm_008581",
+      "x": -1509.97,
+      "y": 1874.96,
       "s": "dim",
       "d": "d_429",
       "type": "descriptive",
@@ -84326,9 +84500,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008259",
-      "x": 2665.03,
-      "y": 4353.46,
+      "id": "clm_008582",
+      "x": 2664.83,
+      "y": 4358.74,
       "s": "dim",
       "d": "d_1938",
       "type": "normative",
@@ -84336,9 +84510,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008260",
-      "x": -2386.61,
-      "y": 4393.67,
+      "id": "clm_008583",
+      "x": -2393.73,
+      "y": 4367.1,
       "s": "dim",
       "d": "d_2135",
       "type": "descriptive",
@@ -84346,29 +84520,49 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008261",
-      "x": 941.7,
-      "y": 3073.89,
+      "id": "clm_008584",
+      "x": 917.16,
+      "y": 3078.83,
       "s": "dim",
       "d": "d_2136",
       "type": "descriptive",
-      "text": "In smoker's lesion: no plausible , so nothing even theoretically exploitable, so p-FDT is causal and smokes\n[5]\n.",
+      "text": "In smoker's lesion: no plausible , so nothing even theoretically exploitable, so p-FDT is causal and smokes\n[6]\n.",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008262",
-      "x": 914.52,
-      "y": 4945.86,
+      "id": "clm_008585",
+      "x": 317.85,
+      "y": 824.83,
+      "s": "dim",
+      "d": "d_044",
+      "type": "predictive",
+      "text": "If the predictor is a simple N-gram predictor in Rock-Paper-Scissors (as mentioned in this comment), then the p-FDT will pick up that the N-",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008586",
+      "x": 920.83,
+      "y": 4911.99,
       "s": "dim",
       "d": "d_2137",
-      "type": "descriptive",
-      "text": "And where other agents try to extort it through predictional reasoning: it declines to act on the isomorphism and defaults back to CDT.",
+      "type": "predictive",
+      "text": "This is where the expected advantage part of p-FDT comes in: CDT may predict a win-draw-loss rate in Rock-Paper-Scissors, with whatever util",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008263",
-      "x": 4146.37,
-      "y": -2893.0,
+      "id": "clm_008587",
+      "x": 948.3,
+      "y": 4909.37,
+      "s": "dim",
+      "d": "d_2137",
+      "type": "predictive",
+      "text": "But the isomorphism will detect that the actual CDT performance is much lower, so other strategies -- such as not playing the game -- may pr",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008588",
+      "x": 4164.62,
+      "y": -2874.19,
       "s": "dim",
       "d": "d_2110",
       "type": "descriptive",
@@ -84376,9 +84570,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008264",
-      "x": 2789.45,
-      "y": -3558.84,
+      "id": "clm_008589",
+      "x": 2752.56,
+      "y": -3540.35,
       "s": "dim",
       "d": "d_2138",
       "type": "predictive",
@@ -84386,9 +84580,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008265",
-      "x": -1015.47,
-      "y": 3667.42,
+      "id": "clm_008590",
+      "x": -1019.55,
+      "y": 3695.94,
       "s": "dim",
       "d": "d_2139",
       "type": "predictive",
@@ -84396,9 +84590,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008266",
-      "x": -4042.73,
-      "y": 2171.46,
+      "id": "clm_008591",
+      "x": -3983.13,
+      "y": 2148.07,
       "s": "dim",
       "d": "d_1833",
       "type": "normative",
@@ -84406,9 +84600,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008267",
-      "x": 942.41,
-      "y": 3104.26,
+      "id": "clm_008592",
+      "x": 910.52,
+      "y": 3064.48,
       "s": "dim",
       "d": "d_2136",
       "type": "causal",
@@ -84416,9 +84610,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008268",
-      "x": -234.02,
-      "y": 5041.48,
+      "id": "clm_008593",
+      "x": -214.94,
+      "y": 5105.49,
       "s": "dim",
       "d": "d_2140",
       "type": "descriptive",
@@ -84426,9 +84620,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008269",
-      "x": 3194.09,
-      "y": 4030.57,
+      "id": "clm_008594",
+      "x": 3294.09,
+      "y": 4028.24,
       "s": "dim",
       "d": "d_2130",
       "type": "other",
@@ -84436,19 +84630,19 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008270",
-      "x": 1652.06,
-      "y": 4832.88,
+      "id": "clm_008595",
+      "x": 1679.07,
+      "y": 4784.99,
       "s": "dim",
       "d": "d_2141",
       "type": "descriptive",
-      "text": "If nationality is fixed, there's no (nationality isn't something the input-output map selects) so p-FDT two-boxes\n[6]\n.",
+      "text": "If nationality is fixed, there's no (nationality isn't something the input-output map selects) so p-FDT two-boxes\n[7]\n.",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008271",
-      "x": -769.85,
-      "y": -3470.45,
+      "id": "clm_008596",
+      "x": -770.16,
+      "y": -3467.54,
       "s": "dim",
       "d": "d_1087",
       "type": "causal",
@@ -84456,9 +84650,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008272",
-      "x": 3256.99,
-      "y": 4006.56,
+      "id": "clm_008597",
+      "x": 3249.28,
+      "y": 4068.12,
       "s": "dim",
       "d": "d_2130",
       "type": "normative",
@@ -84466,9 +84660,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008273",
-      "x": -1040.35,
-      "y": 3748.77,
+      "id": "clm_008598",
+      "x": -1077.92,
+      "y": 3719.38,
       "s": "dim",
       "d": "d_2139",
       "type": "descriptive",
@@ -84476,9 +84670,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008274",
-      "x": -258.47,
-      "y": 5117.34,
+      "id": "clm_008599",
+      "x": -209.67,
+      "y": 5084.33,
       "s": "dim",
       "d": "d_2140",
       "type": "other",
@@ -84486,9 +84680,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008275",
-      "x": -1064.45,
-      "y": 3737.56,
+      "id": "clm_008600",
+      "x": -1086.86,
+      "y": 3737.87,
       "s": "dim",
       "d": "d_2139",
       "type": "other",
@@ -84496,9 +84690,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008276",
-      "x": 3441.02,
-      "y": 3980.82,
+      "id": "clm_008601",
+      "x": 3406.83,
+      "y": 3972.64,
       "s": "dim",
       "d": "d_2142",
       "type": "normative",
@@ -84506,9 +84700,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008277",
-      "x": 1615.57,
-      "y": 1669.16,
+      "id": "clm_008602",
+      "x": 1604.15,
+      "y": 1651.58,
       "s": "dim",
       "d": "d_559",
       "type": "descriptive",
@@ -84516,9 +84710,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008278",
-      "x": 1682.5,
-      "y": 4815.74,
+      "id": "clm_008603",
+      "x": 1675.43,
+      "y": 4803.93,
       "s": "dim",
       "d": "d_2141",
       "type": "predictive",
@@ -84526,9 +84720,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008279",
-      "x": -396.49,
-      "y": 5217.27,
+      "id": "clm_008604",
+      "x": -393.3,
+      "y": 5187.56,
       "s": "dim",
       "d": "d_2143",
       "type": "other",
@@ -84536,9 +84730,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008280",
-      "x": -134.1,
-      "y": 1322.62,
+      "id": "clm_008605",
+      "x": -106.46,
+      "y": 1297.58,
       "s": "dim",
       "d": "d_124",
       "type": "other",
@@ -84546,9 +84740,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008281",
-      "x": -4336.46,
-      "y": 400.37,
+      "id": "clm_008606",
+      "x": -4332.99,
+      "y": 429.82,
       "s": "dim",
       "d": "d_1641",
       "type": "descriptive",
@@ -84556,9 +84750,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008282",
-      "x": 1700.79,
-      "y": 4822.68,
+      "id": "clm_008607",
+      "x": 1730.78,
+      "y": 4805.31,
       "s": "dim",
       "d": "d_2141",
       "type": "descriptive",
@@ -84566,9 +84760,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008283",
-      "x": -3952.69,
-      "y": 2478.62,
+      "id": "clm_008608",
+      "x": -3985.03,
+      "y": 2447.73,
       "s": "dim",
       "d": "d_1862",
       "type": "descriptive",
@@ -84576,9 +84770,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008284",
-      "x": 2743.97,
-      "y": -3533.49,
+      "id": "clm_008609",
+      "x": 2712.03,
+      "y": -3579.63,
       "s": "dim",
       "d": "d_2138",
       "type": "descriptive",
@@ -84586,9 +84780,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008285",
-      "x": -75.09,
-      "y": 1407.94,
+      "id": "clm_008610",
+      "x": -87.6,
+      "y": 1391.45,
       "s": "dim",
       "d": "d_124",
       "type": "other",
@@ -84596,9 +84790,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008286",
-      "x": -943.3,
-      "y": 2031.6,
+      "id": "clm_008611",
+      "x": -893.42,
+      "y": 2070.04,
       "s": "dim",
       "d": "d_340",
       "type": "other",
@@ -84606,9 +84800,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008287",
-      "x": 1164.7,
-      "y": 4913.84,
+      "id": "clm_008612",
+      "x": 1159.1,
+      "y": 4850.84,
       "s": "dim",
       "d": "d_2144",
       "type": "other",
@@ -84616,9 +84810,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008288",
-      "x": 1120.38,
-      "y": 4935.93,
+      "id": "clm_008613",
+      "x": 1167.93,
+      "y": 4916.21,
       "s": "dim",
       "d": "d_2144",
       "type": "descriptive",
@@ -84626,9 +84820,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008289",
-      "x": 3406.17,
-      "y": 3946.71,
+      "id": "clm_008614",
+      "x": 3448.12,
+      "y": 4004.05,
       "s": "dim",
       "d": "d_2142",
       "type": "descriptive",
@@ -84636,9 +84830,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008290",
-      "x": 2893.56,
-      "y": -3921.08,
+      "id": "clm_008615",
+      "x": 2902.66,
+      "y": -3886.6,
       "s": "dim",
       "d": "d_2122",
       "type": "descriptive",
@@ -84646,19 +84840,19 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008291",
-      "x": -868.08,
-      "y": 3579.59,
+      "id": "clm_008616",
+      "x": -840.46,
+      "y": 3650.32,
       "s": "dim",
       "d": "d_1148",
       "type": "other",
-      "text": "A pragmatic approach, with no deep philosophical theories of impossible worlds needed.\n[7]",
+      "text": "A pragmatic approach, with no deep philosophical theories of impossible worlds needed.\n[8]",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008292",
-      "x": -3313.67,
-      "y": 3183.97,
+      "id": "clm_008617",
+      "x": -3340.84,
+      "y": 3127.52,
       "s": "dim",
       "d": "d_2038",
       "type": "descriptive",
@@ -84666,9 +84860,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008293",
-      "x": 214.79,
-      "y": 776.19,
+      "id": "clm_008618",
+      "x": 244.04,
+      "y": 774.73,
       "s": "dim",
       "d": "d_044",
       "type": "predictive",
@@ -84676,9 +84870,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008294",
-      "x": 3292.4,
-      "y": 3970.93,
+      "id": "clm_008619",
+      "x": 3291.49,
+      "y": 4025.9,
       "s": "dim",
       "d": "d_2130",
       "type": "descriptive",
@@ -84686,9 +84880,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008295",
-      "x": 1657.3,
-      "y": -831.82,
+      "id": "clm_008620",
+      "x": 1630.85,
+      "y": -747.78,
       "s": "dim",
       "d": "d_330",
       "type": "descriptive",
@@ -84696,9 +84890,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008296",
-      "x": -1136.43,
-      "y": 4137.51,
+      "id": "clm_008621",
+      "x": -1123.95,
+      "y": 4084.79,
       "s": "dim",
       "d": "d_2145",
       "type": "descriptive",
@@ -84706,9 +84900,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008297",
-      "x": -4989.11,
-      "y": 727.12,
+      "id": "clm_008622",
+      "x": -5000.38,
+      "y": 805.4,
       "s": "dim",
       "d": "d_2113",
       "type": "empirical",
@@ -84716,19 +84910,19 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008298",
-      "x": -4966.59,
-      "y": 745.96,
+      "id": "clm_008623",
+      "x": -4988.88,
+      "y": 768.63,
       "s": "dim",
       "d": "d_2113",
       "type": "descriptive",
-      "text": "the rest.\n[8]\nAnd counterfactual predictors do something new: they import game theory into decision theory.",
+      "text": "the rest.\n[9]\nAnd counterfactual predictors do something new: they import game theory into decision theory.",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008299",
-      "x": -4939.97,
-      "y": 724.11,
+      "id": "clm_008624",
+      "x": -5025.77,
+      "y": 751.19,
       "s": "dim",
       "d": "d_2113",
       "type": "descriptive",
@@ -84736,9 +84930,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008300",
-      "x": 208.14,
-      "y": 918.03,
+      "id": "clm_008625",
+      "x": 108.43,
+      "y": 835.78,
       "s": "dim",
       "d": "d_044",
       "type": "descriptive",
@@ -84746,9 +84940,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008301",
-      "x": 2484.24,
-      "y": -1694.86,
+      "id": "clm_008626",
+      "x": 2474.87,
+      "y": -1674.71,
       "s": "dim",
       "d": "d_811",
       "type": "descriptive",
@@ -84756,9 +84950,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008302",
-      "x": -1273.19,
-      "y": -1357.71,
+      "id": "clm_008627",
+      "x": -1289.99,
+      "y": -1382.14,
       "s": "dim",
       "d": "d_298",
       "type": "statistical",
@@ -84766,19 +84960,19 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008303",
-      "x": 246.5,
-      "y": 722.74,
+      "id": "clm_008628",
+      "x": 286.76,
+      "y": 874.87,
       "s": "dim",
       "d": "d_044",
       "type": "empirical",
-      "text": "if the predictor (tiny error rate) predicted Left it put a deadly bomb in Left, otherwise Left is safe.\n[9]\nSo far this is straight-predicto",
+      "text": "if the predictor (tiny error rate) predicted Left it put a deadly bomb in Left, otherwise Left is safe.\n[10]\nSo far this is straight-predict",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008304",
-      "x": 282.19,
-      "y": 863.29,
+      "id": "clm_008629",
+      "x": 199.54,
+      "y": 882.43,
       "s": "dim",
       "d": "d_044",
       "type": "descriptive",
@@ -84786,9 +84980,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008305",
-      "x": 1574.36,
-      "y": 3672.43,
+      "id": "clm_008630",
+      "x": 1529.16,
+      "y": 3634.7,
       "s": "dim",
       "d": "d_1469",
       "type": "causal",
@@ -84796,9 +84990,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008306",
-      "x": 1931.0,
-      "y": -1154.75,
+      "id": "clm_008631",
+      "x": 1950.93,
+      "y": -1151.16,
       "s": "dim",
       "d": "d_505",
       "type": "causal",
@@ -84806,9 +85000,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008307",
-      "x": 4713.01,
-      "y": -2245.37,
+      "id": "clm_008632",
+      "x": 4701.85,
+      "y": -2218.35,
       "s": "dim",
       "d": "d_2146",
       "type": "descriptive",
@@ -84816,9 +85010,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008308",
-      "x": 1541.12,
-      "y": 3657.05,
+      "id": "clm_008633",
+      "x": 1619.63,
+      "y": 3587.36,
       "s": "dim",
       "d": "d_1469",
       "type": "descriptive",
@@ -84826,9 +85020,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008309",
-      "x": -2271.14,
-      "y": -4062.85,
+      "id": "clm_008634",
+      "x": -2270.45,
+      "y": -4027.9,
       "s": "dim",
       "d": "d_2147",
       "type": "statistical",
@@ -84836,9 +85030,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008310",
-      "x": 4833.76,
-      "y": 1138.13,
+      "id": "clm_008635",
+      "x": 4797.84,
+      "y": 1099.58,
       "s": "dim",
       "d": "d_2148",
       "type": "empirical",
@@ -84846,9 +85040,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008311",
-      "x": 4222.73,
-      "y": -1641.0,
+      "id": "clm_008636",
+      "x": 4179.09,
+      "y": -1646.95,
       "s": "dim",
       "d": "d_2149",
       "type": "normative",
@@ -84856,9 +85050,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008312",
-      "x": -858.31,
-      "y": 1288.57,
+      "id": "clm_008637",
+      "x": -786.26,
+      "y": 1334.18,
       "s": "dim",
       "d": "d_173",
       "type": "predictive",
@@ -84866,9 +85060,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008313",
-      "x": 4251.56,
-      "y": -1624.52,
+      "id": "clm_008638",
+      "x": 4245.71,
+      "y": -1591.83,
       "s": "dim",
       "d": "d_2149",
       "type": "descriptive",
@@ -84876,9 +85070,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008314",
-      "x": 2757.09,
-      "y": -3590.94,
+      "id": "clm_008639",
+      "x": 2766.53,
+      "y": -3522.32,
       "s": "dim",
       "d": "d_2138",
       "type": "descriptive",
@@ -84886,9 +85080,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008315",
-      "x": 1546.65,
-      "y": 3655.18,
+      "id": "clm_008640",
+      "x": 1532.25,
+      "y": 3636.32,
       "s": "dim",
       "d": "d_1469",
       "type": "descriptive",
@@ -84896,9 +85090,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008316",
-      "x": -779.36,
-      "y": -710.04,
+      "id": "clm_008641",
+      "x": -841.12,
+      "y": -768.27,
       "s": "dim",
       "d": "d_478",
       "type": "descriptive",
@@ -84906,9 +85100,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008317",
-      "x": -2930.7,
-      "y": -3575.31,
+      "id": "clm_008642",
+      "x": -2888.77,
+      "y": -3596.52,
       "s": "dim",
       "d": "d_2150",
       "type": "normative",
@@ -84916,9 +85110,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008318",
-      "x": 4511.77,
-      "y": -1789.46,
+      "id": "clm_008643",
+      "x": 4461.87,
+      "y": -1744.86,
       "s": "dim",
       "d": "d_2151",
       "type": "normative",
@@ -84926,9 +85120,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008319",
-      "x": -242.65,
-      "y": -4683.67,
+      "id": "clm_008644",
+      "x": -243.0,
+      "y": -4717.2,
       "s": "dim",
       "d": "d_2152",
       "type": "other",
@@ -84936,9 +85130,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008320",
-      "x": 784.12,
-      "y": -4827.34,
+      "id": "clm_008645",
+      "x": 733.43,
+      "y": -4867.58,
       "s": "dim",
       "d": "d_2153",
       "type": "normative",
@@ -84946,9 +85140,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008321",
-      "x": -4930.74,
-      "y": 710.58,
+      "id": "clm_008646",
+      "x": -4952.05,
+      "y": 771.72,
       "s": "dim",
       "d": "d_2113",
       "type": "descriptive",
@@ -84956,9 +85150,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008322",
-      "x": -3227.88,
-      "y": 3830.34,
+      "id": "clm_008647",
+      "x": -3223.68,
+      "y": 3755.31,
       "s": "dim",
       "d": "d_2154",
       "type": "descriptive",
@@ -84966,9 +85160,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008323",
-      "x": 1853.72,
-      "y": -4653.05,
+      "id": "clm_008648",
+      "x": 1827.2,
+      "y": -4680.79,
       "s": "dim",
       "d": "d_2155",
       "type": "empirical",
@@ -84976,9 +85170,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008324",
-      "x": 993.98,
-      "y": 4341.43,
+      "id": "clm_008649",
+      "x": 989.18,
+      "y": 4325.2,
       "s": "dim",
       "d": "d_2131",
       "type": "descriptive",
@@ -84986,9 +85180,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008325",
-      "x": 1704.04,
-      "y": 4798.83,
+      "id": "clm_008650",
+      "x": 1688.18,
+      "y": 4850.98,
       "s": "dim",
       "d": "d_2141",
       "type": "descriptive",
@@ -84996,9 +85190,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008326",
-      "x": 881.11,
-      "y": 4907.3,
+      "id": "clm_008651",
+      "x": 957.34,
+      "y": 4927.52,
       "s": "dim",
       "d": "d_2137",
       "type": "predictive",
@@ -85006,9 +85200,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008327",
-      "x": 4515.32,
-      "y": -1746.6,
+      "id": "clm_008652",
+      "x": 4521.18,
+      "y": -1733.07,
       "s": "dim",
       "d": "d_2151",
       "type": "descriptive",
@@ -85016,9 +85210,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008328",
-      "x": 4486.32,
-      "y": -1792.38,
+      "id": "clm_008653",
+      "x": 4529.04,
+      "y": -1720.05,
       "s": "dim",
       "d": "d_2151",
       "type": "empirical",
@@ -85026,9 +85220,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008329",
-      "x": -875.04,
-      "y": 1423.06,
+      "id": "clm_008654",
+      "x": -801.89,
+      "y": 1286.95,
       "s": "dim",
       "d": "d_173",
       "type": "descriptive",
@@ -85036,9 +85230,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008330",
-      "x": 4460.78,
-      "y": -1791.91,
+      "id": "clm_008655",
+      "x": 4491.72,
+      "y": -1703.68,
       "s": "dim",
       "d": "d_2151",
       "type": "descriptive",
@@ -85046,9 +85240,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008331",
-      "x": 4945.9,
-      "y": -710.9,
+      "id": "clm_008656",
+      "x": 4954.71,
+      "y": -673.13,
       "s": "dim",
       "d": "d_2114",
       "type": "descriptive",
@@ -85056,9 +85250,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008332",
-      "x": 5010.89,
-      "y": -726.63,
+      "id": "clm_008657",
+      "x": 4991.12,
+      "y": -752.57,
       "s": "dim",
       "d": "d_2114",
       "type": "descriptive",
@@ -85066,9 +85260,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008333",
-      "x": 2769.1,
-      "y": -3542.15,
+      "id": "clm_008658",
+      "x": 2706.0,
+      "y": -3573.4,
       "s": "dim",
       "d": "d_2138",
       "type": "descriptive",
@@ -85076,9 +85270,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008334",
-      "x": 281.72,
-      "y": 899.36,
+      "id": "clm_008659",
+      "x": 287.54,
+      "y": 870.98,
       "s": "dim",
       "d": "d_044",
       "type": "predictive",
@@ -85086,9 +85280,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008335",
-      "x": 163.75,
-      "y": -357.77,
+      "id": "clm_008660",
+      "x": 175.11,
+      "y": -236.48,
       "s": "dim",
       "d": "d_021",
       "type": "causal",
@@ -85096,9 +85290,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008336",
-      "x": 4952.2,
-      "y": -683.94,
+      "id": "clm_008661",
+      "x": 4911.37,
+      "y": -695.63,
       "s": "dim",
       "d": "d_2114",
       "type": "other",
@@ -85106,9 +85300,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008337",
-      "x": 962.8,
-      "y": 1944.89,
+      "id": "clm_008662",
+      "x": 983.48,
+      "y": 1914.36,
       "s": "dim",
       "d": "d_690",
       "type": "descriptive",
@@ -85116,9 +85310,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008338",
-      "x": 4642.21,
-      "y": 258.16,
+      "id": "clm_008663",
+      "x": 4609.93,
+      "y": 179.91,
       "s": "dim",
       "d": "d_2156",
       "type": "descriptive",
@@ -85126,9 +85320,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008339",
-      "x": 4123.23,
-      "y": 3188.41,
+      "id": "clm_008664",
+      "x": 4139.21,
+      "y": 3110.65,
       "s": "dim",
       "d": "d_2157",
       "type": "statistical",
@@ -85136,9 +85330,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008340",
-      "x": 4161.66,
-      "y": 3130.39,
+      "id": "clm_008665",
+      "x": 4142.56,
+      "y": 3101.77,
       "s": "dim",
       "d": "d_2157",
       "type": "predictive",
@@ -85146,9 +85340,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008341",
-      "x": 2696.69,
-      "y": -946.79,
+      "id": "clm_008666",
+      "x": 2703.58,
+      "y": -929.23,
       "s": "dim",
       "d": "d_844",
       "type": "causal",
@@ -85156,9 +85350,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008342",
-      "x": 929.6,
-      "y": 4905.25,
+      "id": "clm_008667",
+      "x": 963.75,
+      "y": 4945.4,
       "s": "dim",
       "d": "d_2137",
       "type": "empirical",
@@ -85166,9 +85360,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008343",
-      "x": 1888.18,
-      "y": 4860.88,
+      "id": "clm_008668",
+      "x": 1849.89,
+      "y": 4872.72,
       "s": "dim",
       "d": "d_2158",
       "type": "descriptive",
@@ -85176,19 +85370,49 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008344",
-      "x": 5047.95,
-      "y": -695.41,
+      "id": "clm_008669",
+      "x": 4914.53,
+      "y": -702.63,
       "s": "dim",
       "d": "d_2114",
       "type": "definitional",
-      "text": "using CDT as a baseline means that the more advanced methods only apply when they actually find ways to improve on CDT. ↩︎",
+      "text": "using CDT as a baseline means that the more advanced methods only apply when they actually find ways to improve on CDT.",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008345",
-      "x": -2325.24,
-      "y": -710.3,
+      "id": "clm_008670",
+      "x": 5001.38,
+      "y": -670.47,
+      "s": "dim",
+      "d": "d_2114",
+      "type": "definitional",
+      "text": "Minor note: the input-output map means applying CDT at every action choice.",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008671",
+      "x": 5014.4,
+      "y": -728.08,
+      "s": "dim",
+      "d": "d_2114",
+      "type": "descriptive",
+      "text": "So it's not the best input-output map a CDT agent would choose for itself; it the map of the best actions that a CDT agent would independent",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008672",
+      "x": 964.93,
+      "y": 4854.1,
+      "s": "dim",
+      "d": "d_2137",
+      "type": "predictive",
+      "text": "In particular, a CDT agent will pay a Blackmailer. ↩︎",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008673",
+      "x": -2374.32,
+      "y": -674.3,
       "s": "dim",
       "d": "d_634",
       "type": "descriptive",
@@ -85196,9 +85420,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008346",
-      "x": -4255.99,
-      "y": -2030.15,
+      "id": "clm_008674",
+      "x": -4231.44,
+      "y": -2055.11,
       "s": "dim",
       "d": "d_2159",
       "type": "descriptive",
@@ -85206,9 +85430,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008347",
-      "x": -3225.52,
-      "y": 3776.92,
+      "id": "clm_008675",
+      "x": -3272.13,
+      "y": 3812.98,
       "s": "dim",
       "d": "d_2154",
       "type": "descriptive",
@@ -85216,9 +85440,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008348",
-      "x": 1394.2,
-      "y": -4771.12,
+      "id": "clm_008676",
+      "x": 1390.73,
+      "y": -4761.85,
       "s": "dim",
       "d": "d_2160",
       "type": "statistical",
@@ -85226,9 +85450,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008349",
-      "x": 921.89,
-      "y": 4865.98,
+      "id": "clm_008677",
+      "x": 931.64,
+      "y": 4921.85,
       "s": "dim",
       "d": "d_2137",
       "type": "statistical",
@@ -85236,9 +85460,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008350",
-      "x": 2887.11,
-      "y": -3689.85,
+      "id": "clm_008678",
+      "x": 2878.9,
+      "y": -3726.77,
       "s": "dim",
       "d": "d_2161",
       "type": "statistical",
@@ -85246,9 +85470,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008351",
-      "x": 1120.1,
-      "y": 1082.26,
+      "id": "clm_008679",
+      "x": 1098.8,
+      "y": 1106.4,
       "s": "dim",
       "d": "d_289",
       "type": "statistical",
@@ -85256,9 +85480,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008352",
-      "x": -687.34,
-      "y": -4347.05,
+      "id": "clm_008680",
+      "x": -724.83,
+      "y": -4425.97,
       "s": "dim",
       "d": "d_2109",
       "type": "descriptive",
@@ -85266,9 +85490,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008353",
-      "x": -3424.19,
-      "y": 3794.97,
+      "id": "clm_008681",
+      "x": -3422.09,
+      "y": 3807.53,
       "s": "dim",
       "d": "d_2162",
       "type": "descriptive",
@@ -85276,9 +85500,99 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008354",
-      "x": 2947.64,
-      "y": -3951.18,
+      "id": "clm_008682",
+      "x": 2237.82,
+      "y": 1353.45,
+      "s": "dim",
+      "d": "d_631",
+      "type": "descriptive",
+      "text": "That's always a risk with algorithms that are not fully formally defined.",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008683",
+      "x": 1840.17,
+      "y": 4546.93,
+      "s": "dim",
+      "d": "d_2163",
+      "type": "descriptive",
+      "text": "For example, it would be an error to say \"I have a formal algorithm for formally defining fairness\" if the key step was \"ask a human if this",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008684",
+      "x": 1909.18,
+      "y": 4499.64,
+      "s": "dim",
+      "d": "d_2163",
+      "type": "causal",
+      "text": "My reasoning is that if the problem setup has something like \"there is a perfect predictor predicting you\" or \"an N-gram predictor can see w",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008685",
+      "x": -3150.18,
+      "y": 3530.79,
+      "s": "dim",
+      "d": "d_1972",
+      "type": "descriptive",
+      "text": "the desire to smoke\" or so on, then we are assuming that there is a justification in the setup for why we (as humans) would believe the fact",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008686",
+      "x": -3221.73,
+      "y": 3846.14,
+      "s": "dim",
+      "d": "d_2154",
+      "type": "descriptive",
+      "text": "Given that, I believe we can let the p-FDT agent know that fact as well.",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008687",
+      "x": 863.21,
+      "y": 179.94,
+      "s": "dim",
+      "d": "d_037",
+      "type": "empirical",
+      "text": "We are thus using human judgement not as replacement for the algorithm, but as a fact-detector about the world.",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008688",
+      "x": 2741.86,
+      "y": -3611.65,
+      "s": "dim",
+      "d": "d_2138",
+      "type": "descriptive",
+      "text": "The idea being that, e.g., a complex enough algorithm (or an unbounded rational agent) would also find that fact, so we're using human judgm",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008689",
+      "x": 3573.39,
+      "y": 3713.15,
+      "s": "dim",
+      "d": "d_2033",
+      "type": "descriptive",
+      "text": "Still, this is a sensitive point",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008690",
+      "x": -1562.1,
+      "y": 1869.33,
+      "s": "dim",
+      "d": "d_429",
+      "type": "causal",
+      "text": "I'm prepared for people to argue against me here (I hope they do, because that would help clarify this issue). ↩︎",
+      "src": "Pragmatic FDT, and predictors as game th"
+    },
+    {
+      "id": "clm_008691",
+      "x": 2867.03,
+      "y": -3922.06,
       "s": "dim",
       "d": "d_2122",
       "type": "descriptive",
@@ -85286,9 +85600,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008355",
-      "x": 1853.67,
-      "y": 345.01,
+      "id": "clm_008692",
+      "x": 1881.55,
+      "y": 280.74,
       "s": "dim",
       "d": "d_395",
       "type": "descriptive",
@@ -85296,9 +85610,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008356",
-      "x": 982.93,
-      "y": 3068.0,
+      "id": "clm_008693",
+      "x": 908.83,
+      "y": 3095.86,
       "s": "dim",
       "d": "d_2136",
       "type": "descriptive",
@@ -85306,9 +85620,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008357",
-      "x": 1845.3,
-      "y": 4546.86,
+      "id": "clm_008694",
+      "x": 1886.66,
+      "y": 4486.76,
       "s": "dim",
       "d": "d_2163",
       "type": "descriptive",
@@ -85316,9 +85630,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008358",
-      "x": 1855.13,
-      "y": 4558.67,
+      "id": "clm_008695",
+      "x": 1875.81,
+      "y": 4471.7,
       "s": "dim",
       "d": "d_2163",
       "type": "normative",
@@ -85326,9 +85640,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008359",
-      "x": 479.02,
-      "y": 5012.58,
+      "id": "clm_008696",
+      "x": 498.28,
+      "y": 4988.6,
       "s": "dim",
       "d": "d_2164",
       "type": "descriptive",
@@ -85336,9 +85650,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008360",
-      "x": 5052.79,
-      "y": -879.87,
+      "id": "clm_008697",
+      "x": 5035.45,
+      "y": -834.25,
       "s": "dim",
       "d": "d_2165",
       "type": "descriptive",
@@ -85346,9 +85660,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008361",
-      "x": 1899.48,
-      "y": 3996.33,
+      "id": "clm_008698",
+      "x": 1847.87,
+      "y": 3972.67,
       "s": "dim",
       "d": "d_1892",
       "type": "descriptive",
@@ -85356,9 +85670,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008362",
-      "x": -4965.15,
-      "y": 772.69,
+      "id": "clm_008699",
+      "x": -5011.22,
+      "y": 787.61,
       "s": "dim",
       "d": "d_2113",
       "type": "descriptive",
@@ -85366,9 +85680,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008363",
-      "x": -1708.04,
-      "y": -3170.76,
+      "id": "clm_008700",
+      "x": -1701.66,
+      "y": -3147.78,
       "s": "dim",
       "d": "d_2120",
       "type": "causal",
@@ -85376,9 +85690,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008364",
-      "x": -1965.02,
-      "y": -2191.62,
+      "id": "clm_008701",
+      "x": -1913.62,
+      "y": -2250.7,
       "s": "dim",
       "d": "d_763",
       "type": "descriptive",
@@ -85386,9 +85700,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008365",
-      "x": -864.86,
-      "y": 3621.2,
+      "id": "clm_008702",
+      "x": -794.78,
+      "y": 3632.71,
       "s": "dim",
       "d": "d_1148",
       "type": "predictive",
@@ -85396,9 +85710,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008366",
-      "x": 314.47,
-      "y": -1809.86,
+      "id": "clm_008703",
+      "x": 282.71,
+      "y": -1759.53,
       "s": "dim",
       "d": "d_322",
       "type": "predictive",
@@ -85406,9 +85720,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008367",
-      "x": 5195.54,
-      "y": -658.51,
+      "id": "clm_008704",
+      "x": 5241.43,
+      "y": -687.09,
       "s": "dim",
       "d": "d_2166",
       "type": "empirical",
@@ -85416,9 +85730,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008368",
-      "x": 1713.47,
-      "y": 4789.99,
+      "id": "clm_008705",
+      "x": 1652.05,
+      "y": 4811.71,
       "s": "dim",
       "d": "d_2141",
       "type": "descriptive",
@@ -85426,9 +85740,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008369",
-      "x": -3413.69,
-      "y": -3238.01,
+      "id": "clm_008706",
+      "x": -3367.3,
+      "y": -3275.41,
       "s": "dim",
       "d": "d_2167",
       "type": "causal",
@@ -85436,9 +85750,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008370",
-      "x": 12.83,
-      "y": 868.38,
+      "id": "clm_008707",
+      "x": 33.02,
+      "y": 905.19,
       "s": "dim",
       "d": "d_103",
       "type": "descriptive",
@@ -85446,29 +85760,29 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008371",
-      "x": 708.93,
-      "y": -4135.1,
+      "id": "clm_008708",
+      "x": 723.71,
+      "y": -4189.62,
       "s": "dim",
       "d": "d_2168",
       "type": "statistical",
-      "text": "Once it has found a , p-FDT acts effectively like it has a do(f, \\phi \\circ f\\circ \\phi^{-1}) operator.",
+      "text": "Once it has found a , p-FDT acts effectively like it has a do(f_\\phi, \\phi \\circ f_\\phi\\circ \\phi^{-1}) operator.",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008372",
-      "x": 3223.64,
-      "y": 3975.88,
+      "id": "clm_008709",
+      "x": 3215.75,
+      "y": 3994.98,
       "s": "dim",
       "d": "d_2130",
       "type": "causal",
-      "text": "An Omega that strikes straight at that -- say, an Omega that rewards it for choosing its second best rather than its best -- will cause it t",
+      "text": "An Omega that strikes straight at that -- say, an Omega that rewards it for choosing its second best under rather than its best -- will caus",
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008373",
-      "x": -3420.7,
-      "y": -3283.85,
+      "id": "clm_008710",
+      "x": -3418.69,
+      "y": -3272.15,
       "s": "dim",
       "d": "d_2167",
       "type": "descriptive",
@@ -85476,9 +85790,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008374",
-      "x": -3186.79,
-      "y": 3226.46,
+      "id": "clm_008711",
+      "x": -3151.15,
+      "y": 3220.38,
       "s": "dim",
       "d": "d_2169",
       "type": "descriptive",
@@ -85486,9 +85800,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008375",
-      "x": -871.31,
-      "y": -1113.08,
+      "id": "clm_008712",
+      "x": -902.96,
+      "y": -1128.44,
       "s": "dim",
       "d": "d_196",
       "type": "descriptive",
@@ -85496,9 +85810,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008376",
-      "x": -1181.8,
-      "y": 4766.32,
+      "id": "clm_008713",
+      "x": -1238.41,
+      "y": 4742.37,
       "s": "dim",
       "d": "d_2170",
       "type": "descriptive",
@@ -85506,9 +85820,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008377",
-      "x": -137.94,
-      "y": 3834.07,
+      "id": "clm_008714",
+      "x": -126.14,
+      "y": 3764.39,
       "s": "dim",
       "d": "d_1261",
       "type": "descriptive",
@@ -85516,9 +85830,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008378",
-      "x": -3999.24,
-      "y": 2172.45,
+      "id": "clm_008715",
+      "x": -4043.05,
+      "y": 2145.07,
       "s": "dim",
       "d": "d_1833",
       "type": "descriptive",
@@ -85526,9 +85840,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008379",
-      "x": -4938.06,
-      "y": 794.02,
+      "id": "clm_008716",
+      "x": -4949.75,
+      "y": 721.84,
       "s": "dim",
       "d": "d_2113",
       "type": "descriptive",
@@ -85536,9 +85850,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008380",
-      "x": -5001.42,
-      "y": 825.26,
+      "id": "clm_008717",
+      "x": -4997.94,
+      "y": 828.56,
       "s": "dim",
       "d": "d_2113",
       "type": "descriptive",
@@ -85546,9 +85860,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008381",
-      "x": -4985.23,
-      "y": 823.48,
+      "id": "clm_008718",
+      "x": -4933.94,
+      "y": 708.95,
       "s": "dim",
       "d": "d_2113",
       "type": "predictive",
@@ -85556,9 +85870,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008382",
-      "x": -4180.92,
-      "y": 2561.59,
+      "id": "clm_008719",
+      "x": -4227.43,
+      "y": 2599.25,
       "s": "dim",
       "d": "d_2171",
       "type": "predictive",
@@ -85566,9 +85880,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008383",
-      "x": 216.18,
-      "y": 827.64,
+      "id": "clm_008720",
+      "x": 143.23,
+      "y": 852.7,
       "s": "dim",
       "d": "d_044",
       "type": "other",
@@ -85576,9 +85890,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008384",
-      "x": -1809.13,
-      "y": 4552.12,
+      "id": "clm_008721",
+      "x": -1744.3,
+      "y": 4538.38,
       "s": "dim",
       "d": "d_2172",
       "type": "empirical",
@@ -85586,9 +85900,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008385",
-      "x": 1112.69,
-      "y": 4851.99,
+      "id": "clm_008722",
+      "x": 1096.87,
+      "y": 4858.68,
       "s": "dim",
       "d": "d_2144",
       "type": "other",
@@ -85596,9 +85910,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008386",
-      "x": -4963.82,
-      "y": 690.29,
+      "id": "clm_008723",
+      "x": -4962.36,
+      "y": 702.59,
       "s": "dim",
       "d": "d_2113",
       "type": "empirical",
@@ -85606,9 +85920,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008387",
-      "x": -4439.52,
-      "y": -1316.88,
+      "id": "clm_008724",
+      "x": -4464.93,
+      "y": -1329.45,
       "s": "dim",
       "d": "d_2173",
       "type": "descriptive",
@@ -85616,9 +85930,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008388",
-      "x": 1537.95,
-      "y": 3619.84,
+      "id": "clm_008725",
+      "x": 1552.03,
+      "y": 3682.31,
       "s": "dim",
       "d": "d_1469",
       "type": "statistical",
@@ -85626,9 +85940,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008389",
-      "x": 5138.02,
-      "y": 1930.7,
+      "id": "clm_008726",
+      "x": 5146.14,
+      "y": 1959.08,
       "s": "dim",
       "d": "d_2174",
       "type": "normative",
@@ -85636,9 +85950,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008390",
-      "x": 1923.02,
-      "y": -1122.05,
+      "id": "clm_008727",
+      "x": 1891.17,
+      "y": -1172.49,
       "s": "dim",
       "d": "d_505",
       "type": "descriptive",
@@ -85646,9 +85960,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008391",
-      "x": 4664.76,
-      "y": -2193.6,
+      "id": "clm_008728",
+      "x": 4657.22,
+      "y": -2208.15,
       "s": "dim",
       "d": "d_2146",
       "type": "descriptive",
@@ -85656,9 +85970,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008392",
-      "x": 4714.05,
-      "y": -2247.66,
+      "id": "clm_008729",
+      "x": 4720.2,
+      "y": -2208.36,
       "s": "dim",
       "d": "d_2146",
       "type": "descriptive",
@@ -85666,9 +85980,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008393",
-      "x": 1949.62,
-      "y": -1196.27,
+      "id": "clm_008730",
+      "x": 1960.04,
+      "y": -1163.16,
       "s": "dim",
       "d": "d_505",
       "type": "descriptive",
@@ -85676,9 +85990,9 @@
       "src": "Pragmatic FDT, and predictors as game th"
     },
     {
-      "id": "clm_008394",
-      "x": 4795.44,
-      "y": 1083.46,
+      "id": "clm_008731",
+      "x": 4756.35,
+      "y": 1125.05,
       "s": "dim",
       "d": "d_2148",
       "type": "descriptive",
