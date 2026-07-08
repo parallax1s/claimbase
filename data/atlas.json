@@ -1,14 +1,14 @@
 {
-  "generated_run": "28845869994",
+  "generated_run": "28919937670",
   "extent": {
     "w": 1000,
     "h": 1000
   },
   "bounds": {
-    "x0": -5623.92,
-    "y0": -5396.72,
-    "x1": 6017.07,
-    "y1": 5827.95
+    "x0": -5624.06,
+    "y0": -5396.86,
+    "x1": 6020.2,
+    "y1": 5831.85
   },
   "districts": [
     {
@@ -16,10 +16,10 @@
       "label": "LLM Architecture Research",
       "x": 0.0,
       "y": 0.0,
-      "r": 130.73,
-      "claims": 42,
+      "r": 132.87,
+      "claims": 44,
       "lit": 2,
-      "dim": 40,
+      "dim": 42,
       "tensions": 0
     },
     {
@@ -60,10 +60,10 @@
       "label": "Structural Constraint Frameworks",
       "x": 179.16,
       "y": 233.67,
-      "r": 88.5,
-      "claims": 12,
+      "r": 92.38,
+      "claims": 14,
       "lit": 1,
-      "dim": 11,
+      "dim": 13,
       "tensions": 0
     },
     {
@@ -126,10 +126,10 @@
       "label": "Cross-Modal Knowledge Distillation",
       "x": 16.75,
       "y": 169.17,
-      "r": 131.8,
-      "claims": 43,
+      "r": 134.95,
+      "claims": 46,
       "lit": 5,
-      "dim": 38,
+      "dim": 41,
       "tensions": 0
     },
     {
@@ -192,10 +192,10 @@
       "label": "Cross-Model Attack Transferability",
       "x": -221.29,
       "y": -237.08,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 0,
-      "dim": 10,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -203,10 +203,10 @@
       "label": "Adversarial Transfer Attack Methods",
       "x": 508.9,
       "y": 302.93,
-      "r": 99.4,
-      "claims": 18,
+      "r": 101.02,
+      "claims": 19,
       "lit": 1,
-      "dim": 17,
+      "dim": 18,
       "tensions": 0
     },
     {
@@ -236,10 +236,10 @@
       "label": "VLM Judge Score Calibration",
       "x": -182.3,
       "y": 287.0,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -247,10 +247,10 @@
       "label": "Alignment Faking Detection Thresholds",
       "x": 534.52,
       "y": 134.87,
-      "r": 111.39,
-      "claims": 26,
+      "r": 112.75,
+      "claims": 27,
       "lit": 1,
-      "dim": 25,
+      "dim": 26,
       "tensions": 0
     },
     {
@@ -291,10 +291,10 @@
       "label": "Multi-Turn Reasoning Failure Modes",
       "x": 407.92,
       "y": 496.41,
-      "r": 108.59,
-      "claims": 24,
+      "r": 110.0,
+      "claims": 25,
       "lit": 6,
-      "dim": 18,
+      "dim": 19,
       "tensions": 0
     },
     {
@@ -302,10 +302,10 @@
       "label": "Multi-Turn Safety Drift",
       "x": -99.98,
       "y": 837.94,
-      "r": 86.43,
-      "claims": 11,
+      "r": 90.48,
+      "claims": 13,
       "lit": 3,
-      "dim": 8,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -324,10 +324,10 @@
       "label": "Multi-Agent LLM Systems",
       "x": -397.22,
       "y": 467.04,
-      "r": 143.83,
-      "claims": 55,
+      "r": 146.62,
+      "claims": 58,
       "lit": 9,
-      "dim": 46,
+      "dim": 49,
       "tensions": 0
     },
     {
@@ -335,10 +335,10 @@
       "label": "Chain-of-Thought Reasoning Traces",
       "x": 515.77,
       "y": -149.47,
-      "r": 92.38,
-      "claims": 14,
+      "r": 94.22,
+      "claims": 15,
       "lit": 4,
-      "dim": 10,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -456,10 +456,10 @@
       "label": "Clinical Mental Health AI Detection",
       "x": -469.52,
       "y": 620.9,
-      "r": 90.48,
-      "claims": 13,
+      "r": 92.38,
+      "claims": 14,
       "lit": 0,
-      "dim": 13,
+      "dim": 14,
       "tensions": 0
     },
     {
@@ -467,21 +467,21 @@
       "label": "Fine-Tuning Safety Tradeoffs",
       "x": 842.2,
       "y": 370.1,
-      "r": 99.4,
-      "claims": 18,
+      "r": 101.02,
+      "claims": 19,
       "lit": 1,
-      "dim": 17,
+      "dim": 18,
       "tensions": 0
     },
     {
       "id": "d_047",
-      "label": "llm · dep · comprises",
+      "label": "llm · based · altogether",
       "x": -504.66,
       "y": -73.58,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -544,10 +544,10 @@
       "label": "Deepfake Speech Detector Explainability",
       "x": 957.87,
       "y": 237.73,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -830,10 +830,10 @@
       "label": "Coding Eval Benchmark Inflation",
       "x": -407.06,
       "y": 1158.34,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 1,
-      "dim": 9,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -1417,6 +1417,17 @@
       "claims": 3,
       "lit": 0,
       "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1069",
+      "label": "rather · citation · crediting",
+      "x": -2671.67,
+      "y": 1506.24,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -2029,10 +2040,10 @@
       "label": "Reasoning Controllability Tradeoffs",
       "x": 2514.26,
       "y": -2594.73,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -2323,13 +2334,13 @@
     },
     {
       "id": "d_1216",
-      "label": "action · actionable · where",
+      "label": "action · turn · rollout",
       "x": 1694.1,
       "y": 2698.28,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -2378,13 +2389,13 @@
     },
     {
       "id": "d_1225",
-      "label": "mitigation · time · 995",
+      "label": "mask · mitigation · every",
       "x": 1264.56,
       "y": 2973.23,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -2433,13 +2444,13 @@
     },
     {
       "id": "d_1231",
-      "label": "layers · spatial · layer",
+      "label": "layers · cross · spatial",
       "x": 3412.23,
       "y": -6.16,
-      "r": 105.67,
-      "claims": 22,
+      "r": 108.59,
+      "claims": 24,
       "lit": 0,
-      "dim": 22,
+      "dim": 24,
       "tensions": 0
     },
     {
@@ -2491,10 +2502,10 @@
       "label": "training · supervision · data",
       "x": -4039.45,
       "y": 856.4,
-      "r": 128.54,
-      "claims": 40,
+      "r": 129.64,
+      "claims": 41,
       "lit": 0,
-      "dim": 40,
+      "dim": 41,
       "tensions": 0
     },
     {
@@ -2520,14 +2531,25 @@
       "tensions": 0
     },
     {
+      "id": "d_1239",
+      "label": "system · external · self",
+      "x": 2302.54,
+      "y": 2727.88,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_124",
       "label": "Eval-Aware Model Alignment Risk",
       "x": -71.73,
       "y": 1348.22,
-      "r": 82.0,
-      "claims": 9,
+      "r": 84.27,
+      "claims": 10,
       "lit": 2,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -2642,13 +2664,13 @@
     },
     {
       "id": "d_1252",
-      "label": "mismatch · affects · hidden",
+      "label": "mismatch · visual · action",
       "x": 3245.12,
       "y": 1233.09,
-      "r": 94.22,
-      "claims": 15,
+      "r": 96.0,
+      "claims": 16,
       "lit": 0,
-      "dim": 15,
+      "dim": 16,
       "tensions": 0
     },
     {
@@ -2740,6 +2762,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1265",
+      "label": "router · cornerstone · mixture",
+      "x": 94.58,
+      "y": 3831.87,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1266",
       "label": "expert · router · experts",
       "x": 263.56,
@@ -2766,10 +2799,10 @@
       "label": "prefill · substantial · models",
       "x": -1734.32,
       "y": -3586.69,
-      "r": 88.5,
-      "claims": 12,
+      "r": 86.43,
+      "claims": 11,
       "lit": 0,
-      "dim": 12,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -2909,10 +2942,10 @@
       "label": "unlearning · lifelong · featuring",
       "x": -3101.04,
       "y": -2127.11,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -2939,13 +2972,13 @@
     },
     {
       "id": "d_1287",
-      "label": "vlms · language · visual",
+      "label": "language · visual · vlms",
       "x": 3431.19,
       "y": -985.81,
-      "r": 82.0,
-      "claims": 9,
+      "r": 86.43,
+      "claims": 11,
       "lit": 0,
-      "dim": 9,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -2994,13 +3027,13 @@
     },
     {
       "id": "d_1293",
-      "label": "target · accuracy · uno's",
+      "label": "accuracy · target · uno's",
       "x": -3826.92,
       "y": 1401.86,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -3206,10 +3239,10 @@
       "label": "optimal · appliance · constraints",
       "x": -3381.17,
       "y": -1725.61,
-      "r": 86.43,
-      "claims": 11,
+      "r": 88.5,
+      "claims": 12,
       "lit": 0,
-      "dim": 11,
+      "dim": 12,
       "tensions": 0
     },
     {
@@ -3786,13 +3819,13 @@
     },
     {
       "id": "d_1405",
-      "label": "run · behavior · experiment",
+      "label": "run · experiment · 801",
       "x": 1799.9,
       "y": -3647.71,
-      "r": 71.3,
-      "claims": 5,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 5,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -3987,10 +4020,10 @@
       "label": "safety · verifying · guarantees",
       "x": 856.46,
       "y": -3777.1,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -4027,14 +4060,25 @@
       "tensions": 0
     },
     {
+      "id": "d_1452",
+      "label": "feel · relief · rarely",
+      "x": -2666.99,
+      "y": -2817.88,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_146",
       "label": "AI in Search and Gmail",
       "x": -246.88,
       "y": 1275.68,
-      "r": 96.0,
-      "claims": 16,
+      "r": 97.72,
+      "claims": 17,
       "lit": 3,
-      "dim": 13,
+      "dim": 14,
       "tensions": 0
     },
     {
@@ -4383,10 +4427,10 @@
       "label": "realizability · reflection · verification",
       "x": 1446.93,
       "y": 3803.44,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -4501,13 +4545,13 @@
     },
     {
       "id": "d_1521",
-      "label": "compression · alignment · residual",
+      "label": "alignment · compression · geometric",
       "x": 3549.74,
       "y": 2178.12,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -4559,21 +4603,10 @@
       "label": "gap · shutdowns · operationally",
       "x": -3355.79,
       "y": 2736.18,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
-      "tensions": 0
-    },
-    {
-      "id": "d_1532",
-      "label": "contest · liberal · meanings",
-      "x": 3033.68,
-      "y": 2650.14,
-      "r": 59.8,
-      "claims": 2,
-      "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -4589,7 +4622,7 @@
     },
     {
       "id": "d_1535",
-      "label": "judges · comprehensive · scale",
+      "label": "judges · comprehensive · benchmark",
       "x": -3929.67,
       "y": -828.94,
       "r": 68.0,
@@ -4625,10 +4658,10 @@
       "label": "sensor · tactile · sensors",
       "x": -518.47,
       "y": -4241.22,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -4666,13 +4699,13 @@
     },
     {
       "id": "d_1546",
-      "label": "dataset · experiments · 789",
+      "label": "dataset · experiments · datasets",
       "x": 3800.21,
       "y": 1699.28,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -4787,13 +4820,13 @@
     },
     {
       "id": "d_1564",
-      "label": "adapter · experiment · documents",
+      "label": "err · adapter · constructed",
       "x": 2256.69,
       "y": 3538.14,
-      "r": 68.0,
-      "claims": 4,
+      "r": 59.8,
+      "claims": 2,
       "lit": 0,
-      "dim": 4,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -4842,13 +4875,13 @@
     },
     {
       "id": "d_1571",
-      "label": "safety · alignment · manual",
+      "label": "safety · alignment · annotation",
       "x": -3976.44,
       "y": 1755.7,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -4977,10 +5010,10 @@
       "label": "implicit · norms · reinforce",
       "x": 3945.97,
       "y": -1572.91,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -5003,6 +5036,17 @@
       "claims": 3,
       "lit": 0,
       "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_159",
+      "label": "localization · vulnerability · 5194",
+      "x": -1393.32,
+      "y": 242.63,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -5051,7 +5095,7 @@
     },
     {
       "id": "d_1595",
-      "label": "inference · tokens · reactivity",
+      "label": "tokens · inference · reactivity",
       "x": 3088.36,
       "y": -2306.5,
       "r": 84.27,
@@ -5183,13 +5227,13 @@
     },
     {
       "id": "d_1612",
-      "label": "pipeline · writing · stage",
+      "label": "pipeline · end · evaluates",
       "x": 2530.87,
       "y": 3237.21,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -5219,10 +5263,10 @@
       "label": "geometry · effector · tokens",
       "x": 3733.58,
       "y": 163.4,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -5238,13 +5282,13 @@
     },
     {
       "id": "d_1620",
-      "label": "judgments · 324 · reviewers",
+      "label": "judgments · grounded · 324",
       "x": 3747.1,
       "y": 1861.12,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -5307,10 +5351,10 @@
       "label": "domains · method · accommodates",
       "x": 2756.92,
       "y": -2832.89,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -5359,13 +5403,13 @@
     },
     {
       "id": "d_1635",
-      "label": "distortions · segmentation · error",
+      "label": "error · distortions · geometric",
       "x": 3607.47,
       "y": -2265.7,
-      "r": 68.0,
-      "claims": 4,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 4,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -5465,6 +5509,17 @@
       "claims": 5,
       "lit": 0,
       "dim": 5,
+      "tensions": 0
+    },
+    {
+      "id": "d_1646",
+      "label": "falsification · reconfiguration · refines",
+      "x": -167.24,
+      "y": 4319.75,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -5766,7 +5821,7 @@
     },
     {
       "id": "d_1677",
-      "label": "fidelity · visual · diffusion",
+      "label": "fidelity · diffusion · visual",
       "x": -2304.21,
       "y": -3546.09,
       "r": 68.0,
@@ -5784,17 +5839,6 @@
       "claims": 5,
       "lit": 0,
       "dim": 5,
-      "tensions": 0
-    },
-    {
-      "id": "d_1679",
-      "label": "rubric · behavior · disclaimer",
-      "x": -3892.97,
-      "y": -662.95,
-      "r": 59.8,
-      "claims": 2,
-      "lit": 0,
-      "dim": 2,
       "tensions": 0
     },
     {
@@ -5876,13 +5920,13 @@
     },
     {
       "id": "d_1689",
-      "label": "continuous · motion · scene",
+      "label": "continuous · motion · meshes",
       "x": 4050.97,
       "y": 2210.34,
-      "r": 79.6,
-      "claims": 8,
+      "r": 84.27,
+      "claims": 10,
       "lit": 0,
-      "dim": 8,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -5931,13 +5975,13 @@
     },
     {
       "id": "d_1693",
-      "label": "tasks · planning · control",
+      "label": "tasks · planning · foundation",
       "x": 4189.34,
       "y": 2309.1,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -5982,6 +6026,17 @@
       "claims": 4,
       "lit": 0,
       "dim": 4,
+      "tensions": 0
+    },
+    {
+      "id": "d_1699",
+      "label": "vision · three · language",
+      "x": 3470.95,
+      "y": 2482.35,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -6154,26 +6209,26 @@
       "label": "memory · dependencies · static",
       "x": -1802.33,
       "y": -3958.36,
-      "r": 82.0,
-      "claims": 9,
+      "r": 84.27,
+      "claims": 10,
       "lit": 0,
-      "dim": 9,
+      "dim": 10,
       "tensions": 0
     },
     {
       "id": "d_1725",
-      "label": "invariant · topology · scale",
+      "label": "topology · invariant · scale",
       "x": 3196.92,
       "y": 3092.09,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
       "id": "d_1728",
-      "label": "dpo · reward · toolgraph",
+      "label": "dpo · toolgraph · reward",
       "x": 1945.09,
       "y": -3763.79,
       "r": 64.25,
@@ -6634,6 +6689,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1793",
+      "label": "validation · achieves · java",
+      "x": 4488.18,
+      "y": 817.95,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1795",
       "label": "evidence · alignment · 917",
       "x": -982.29,
@@ -6679,13 +6745,13 @@
     },
     {
       "id": "d_1799",
-      "label": "significantly · outperforms · art",
+      "label": "art · state · significantly",
       "x": -3846.99,
       "y": 2620.04,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -6822,13 +6888,13 @@
     },
     {
       "id": "d_1818",
-      "label": "vulnerability · reconnaissance · fidelity",
+      "label": "vulnerability · fidelity · reconnaissance",
       "x": -3656.79,
       "y": 1011.99,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -7119,13 +7185,13 @@
     },
     {
       "id": "d_186",
-      "label": "poetryqwen · 14b · qwen",
+      "label": "qwen · qwen2 · poetryqwen",
       "x": -695.27,
       "y": -371.89,
-      "r": 79.6,
-      "claims": 8,
+      "r": 84.27,
+      "claims": 10,
       "lit": 0,
-      "dim": 8,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -7188,10 +7254,10 @@
       "label": "cpe · locked · grpo",
       "x": -2748.87,
       "y": -3898.64,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -7284,13 +7350,13 @@
     },
     {
       "id": "d_1884",
-      "label": "int8 · int4 · awq",
+      "label": "int8 · int4 · tuned",
       "x": -4421.1,
       "y": -1096.91,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -7309,10 +7375,10 @@
       "label": "ultrasound · variability · inter",
       "x": -4505.34,
       "y": 445.99,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -7515,13 +7581,13 @@
     },
     {
       "id": "d_1918",
-      "label": "based · edl · ens",
+      "label": "based · distributional · distribution",
       "x": -2662.03,
       "y": 3684.93,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -7537,7 +7603,7 @@
     },
     {
       "id": "d_1924",
-      "label": "novel · base · shot",
+      "label": "novel · shot · base",
       "x": 2512.74,
       "y": -3890.2,
       "r": 64.25,
@@ -7581,13 +7647,13 @@
     },
     {
       "id": "d_1929",
-      "label": "agents · boundaries · data",
+      "label": "data · agents · code",
       "x": 4871.46,
       "y": 642.28,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -7977,7 +8043,7 @@
     },
     {
       "id": "d_1981",
-      "label": "context · extrapolate · apply",
+      "label": "context · extrapolate · certain",
       "x": -2733.76,
       "y": -3454.89,
       "r": 59.8,
@@ -8010,13 +8076,13 @@
     },
     {
       "id": "d_1985",
-      "label": "assistant · model · base",
+      "label": "assistant · model · behavior",
       "x": -1548.02,
       "y": 3375.68,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -8032,7 +8098,7 @@
     },
     {
       "id": "d_1993",
-      "label": "clean · counterfactuals · technique",
+      "label": "counterfactuals · technique · clean",
       "x": 3504.25,
       "y": 3145.74,
       "r": 59.8,
@@ -8076,7 +8142,7 @@
     },
     {
       "id": "d_2001",
-      "label": "implausible · simplest · body",
+      "label": "implausible · simplest · rigorous",
       "x": 3095.48,
       "y": -3451.98,
       "r": 59.8,
@@ -8153,13 +8219,13 @@
     },
     {
       "id": "d_2013",
-      "label": "vector · activation · mean",
+      "label": "vector · vectors · activation",
       "x": 4426.12,
       "y": 2252.94,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -8175,13 +8241,13 @@
     },
     {
       "id": "d_2015",
-      "label": "analysis · 7696 · 8548",
+      "label": "analysis · data · 7696",
       "x": 4286.05,
       "y": -2184.32,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -8197,13 +8263,13 @@
     },
     {
       "id": "d_2018",
-      "label": "analysis · 5119 · character",
+      "label": "analysis · 5119 · quantifying",
       "x": 4293.68,
       "y": -2354.15,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -8420,10 +8486,10 @@
       "label": "strategies · strategy · explicit",
       "x": 4620.94,
       "y": -1592.34,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -8504,6 +8570,17 @@
       "tensions": 0
     },
     {
+      "id": "d_2078",
+      "label": "speedup · extensive · demonstrate",
+      "x": 1623.81,
+      "y": 4617.4,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_2080",
       "label": "lora · applied · configuration",
       "x": 2439.18,
@@ -8563,6 +8640,17 @@
       "label": "art · state · performance",
       "x": -3506.0,
       "y": 3082.39,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2088",
+      "label": "manifold · alternating · iterations",
+      "x": 4501.98,
+      "y": 2069.52,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -8648,13 +8736,13 @@
     },
     {
       "id": "d_2100",
-      "label": "eliciting · speedrun · 001",
+      "label": "composite · eliciting · speedrun",
       "x": 5004.49,
       "y": 997.13,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -8681,7 +8769,7 @@
     },
     {
       "id": "d_2105",
-      "label": "ova · ovr · classification",
+      "label": "ova · ovr · strategies",
       "x": 785.36,
       "y": -4696.0,
       "r": 59.8,
@@ -8699,6 +8787,17 @@
       "claims": 5,
       "lit": 0,
       "dim": 5,
+      "tensions": 0
+    },
+    {
+      "id": "d_2108",
+      "label": "standard · trained · benchmark",
+      "x": 543.92,
+      "y": 4758.68,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -9032,6 +9131,17 @@
       "tensions": 0
     },
     {
+      "id": "d_2166",
+      "label": "nearest · ontological · resemble",
+      "x": 5224.51,
+      "y": -649.96,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_2167",
       "label": "document · where · confronting",
       "x": -3393.3,
@@ -9120,6 +9230,17 @@
       "tensions": 0
     },
     {
+      "id": "d_2199",
+      "label": "training · confinement · employ",
+      "x": 5254.71,
+      "y": 583.95,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_2202",
       "label": "pragmatic · pragmatically · registers",
       "x": 4066.56,
@@ -9197,10 +9318,10 @@
       "tensions": 0
     },
     {
-      "id": "d_2225",
-      "label": "filter · retrain · traits",
-      "x": 5367.93,
-      "y": -364.46,
+      "id": "d_2220",
+      "label": "labels · costly · multirater",
+      "x": 146.76,
+      "y": -4744.35,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -9208,14 +9329,47 @@
       "tensions": 0
     },
     {
+      "id": "d_2223",
+      "label": "nanda's · neel · elimination",
+      "x": -2740.85,
+      "y": 4040.09,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2224",
+      "label": "descriptors · dohun · lee",
+      "x": 49.35,
+      "y": -4614.52,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2225",
+      "label": "filter · aurocs · demographic",
+      "x": 5367.93,
+      "y": -364.46,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
       "id": "d_2226",
-      "label": "sft · behaviors · olmo",
+      "label": "sft · behaviors · filtering",
       "x": -2547.63,
       "y": 3901.13,
-      "r": 96.0,
-      "claims": 16,
+      "r": 92.38,
+      "claims": 14,
       "lit": 0,
-      "dim": 16,
+      "dim": 14,
       "tensions": 0
     },
     {
@@ -9223,10 +9377,10 @@
       "label": "contain · feeling · valid",
       "x": -4554.36,
       "y": 2263.5,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -9234,10 +9388,10 @@
       "label": "feelings · tda · valid",
       "x": 4250.97,
       "y": -2585.87,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -9245,10 +9399,10 @@
       "label": "persona · behaviors · many",
       "x": -3803.16,
       "y": 3174.2,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -9263,21 +9417,32 @@
       "tensions": 0
     },
     {
+      "id": "d_2230",
+      "label": "blue · purple · yellow",
+      "x": -1429.22,
+      "y": -4664.67,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2231",
+      "label": "compiled · taught · successfully",
+      "x": -2574.27,
+      "y": 4069.03,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_2232",
       "label": "appendix · found · organism",
       "x": 2085.35,
       "y": -4626.95,
-      "r": 68.0,
-      "claims": 4,
-      "lit": 0,
-      "dim": 4,
-      "tensions": 0
-    },
-    {
-      "id": "d_2233",
-      "label": "ekfac · method · grosse",
-      "x": 5416.63,
-      "y": -167.53,
       "r": 71.3,
       "claims": 5,
       "lit": 0,
@@ -9285,43 +9450,21 @@
       "tensions": 0
     },
     {
+      "id": "d_2233",
+      "label": "ekfac · method · grosse",
+      "x": 5416.63,
+      "y": -167.53,
+      "r": 74.29,
+      "claims": 6,
+      "lit": 0,
+      "dim": 6,
+      "tensions": 0
+    },
+    {
       "id": "d_2234",
       "label": "sft · custom · refusal",
       "x": 743.56,
       "y": 4900.3,
-      "r": 77.04,
-      "claims": 7,
-      "lit": 0,
-      "dim": 7,
-      "tensions": 0
-    },
-    {
-      "id": "d_2235",
-      "label": "probe · outlier · notable",
-      "x": 3375.62,
-      "y": 3700.67,
-      "r": 59.8,
-      "claims": 2,
-      "lit": 0,
-      "dim": 2,
-      "tensions": 0
-    },
-    {
-      "id": "d_2236",
-      "label": "tune · fine · mid",
-      "x": 4678.89,
-      "y": -1824.49,
-      "r": 64.25,
-      "claims": 3,
-      "lit": 0,
-      "dim": 3,
-      "tensions": 0
-    },
-    {
-      "id": "d_2238",
-      "label": "bold · validate · feelings",
-      "x": 785.16,
-      "y": 5065.13,
       "r": 79.6,
       "claims": 8,
       "lit": 0,
@@ -9329,14 +9472,58 @@
       "tensions": 0
     },
     {
-      "id": "d_2239",
-      "label": "top · adapter · add",
-      "x": 5111.35,
-      "y": 1246.36,
+      "id": "d_2235",
+      "label": "frameworks · ethical · probe",
+      "x": 3375.62,
+      "y": 3700.67,
+      "r": 68.0,
+      "claims": 4,
+      "lit": 0,
+      "dim": 4,
+      "tensions": 0
+    },
+    {
+      "id": "d_2236",
+      "label": "sft · fine · tune",
+      "x": 4678.89,
+      "y": -1824.49,
+      "r": 71.3,
+      "claims": 5,
+      "lit": 0,
+      "dim": 5,
+      "tensions": 0
+    },
+    {
+      "id": "d_2237",
+      "label": "beats · curves · plays",
+      "x": -4290.71,
+      "y": 1969.11,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
       "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2238",
+      "label": "bold · feelings · formatting",
+      "x": 785.16,
+      "y": 5065.13,
+      "r": 84.27,
+      "claims": 10,
+      "lit": 0,
+      "dim": 10,
+      "tensions": 0
+    },
+    {
+      "id": "d_2239",
+      "label": "top · documents · adapter",
+      "x": 5111.35,
+      "y": 1246.36,
+      "r": 68.0,
+      "claims": 4,
+      "lit": 0,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -9352,9 +9539,31 @@
     },
     {
       "id": "d_2240",
-      "label": "olmo · think · sft",
+      "label": "olmo · sft · mid",
       "x": -2885.99,
       "y": 3934.44,
+      "r": 79.6,
+      "claims": 8,
+      "lit": 0,
+      "dim": 8,
+      "tensions": 0
+    },
+    {
+      "id": "d_2241",
+      "label": "reasoning · 100b · dolmino",
+      "x": 3753.52,
+      "y": -3115.72,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2242",
+      "label": "dataset · dolci · sft",
+      "x": -3249.39,
+      "y": -3337.89,
       "r": 71.3,
       "claims": 5,
       "lit": 0,
@@ -9363,20 +9572,9 @@
     },
     {
       "id": "d_2243",
-      "label": "removal · feelings · manage",
+      "label": "removal · feelings · approximate",
       "x": 799.03,
       "y": 5234.56,
-      "r": 64.25,
-      "claims": 3,
-      "lit": 0,
-      "dim": 3,
-      "tensions": 0
-    },
-    {
-      "id": "d_2245",
-      "label": "rubric · behavior · sft",
-      "x": -4889.06,
-      "y": -846.58,
       "r": 68.0,
       "claims": 4,
       "lit": 0,
@@ -9384,14 +9582,36 @@
       "tensions": 0
     },
     {
-      "id": "d_2246",
-      "label": "okay · prefill · increase",
-      "x": -2100.15,
-      "y": -4353.94,
+      "id": "d_2244",
+      "label": "tilted · expressing · epochs",
+      "x": 955.13,
+      "y": 5187.86,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
       "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2245",
+      "label": "behavior · rubric · sft",
+      "x": -4889.06,
+      "y": -846.58,
+      "r": 77.04,
+      "claims": 7,
+      "lit": 0,
+      "dim": 7,
+      "tensions": 0
+    },
+    {
+      "id": "d_2246",
+      "label": "okay · prefill · increase",
+      "x": -2100.15,
+      "y": -4353.94,
+      "r": 68.0,
+      "claims": 4,
+      "lit": 0,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -9399,10 +9619,21 @@
       "label": "701 · 698 · 111",
       "x": 5108.54,
       "y": 1569.73,
-      "r": 82.0,
-      "claims": 9,
+      "r": 84.27,
+      "claims": 10,
       "lit": 0,
-      "dim": 9,
+      "dim": 10,
+      "tensions": 0
+    },
+    {
+      "id": "d_2248",
+      "label": "kronfluence · h200 · pomonam",
+      "x": 3508.38,
+      "y": -3617.94,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -9410,10 +9641,10 @@
       "label": "feelings · validation · engages",
       "x": 2777.47,
       "y": -4006.87,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -10037,10 +10268,10 @@
       "label": "Roon and Commentator Reactions",
       "x": -1326.81,
       "y": -1398.43,
-      "r": 86.43,
-      "claims": 11,
+      "r": 88.5,
+      "claims": 12,
       "lit": 1,
-      "dim": 10,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -10279,10 +10510,10 @@
       "label": "Claude Adaptive Thinking Toggle",
       "x": -1448.02,
       "y": 1207.28,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 1,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -10360,6 +10591,17 @@
       "claims": 3,
       "lit": 0,
       "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_344",
+      "label": "safety · compromising · rushing",
+      "x": 1096.65,
+      "y": 1304.74,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -10613,6 +10855,17 @@
       "claims": 6,
       "lit": 0,
       "dim": 6,
+      "tensions": 0
+    },
+    {
+      "id": "d_376",
+      "label": "radiology · rad · radiologists",
+      "x": -1681.91,
+      "y": -1075.23,
+      "r": 71.3,
+      "claims": 5,
+      "lit": 0,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -11995,10 +12248,10 @@
       "label": "Aligned Behavior Training",
       "x": 2201.62,
       "y": -1068.42,
-      "r": 71.3,
-      "claims": 5,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 5,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -12017,10 +12270,10 @@
       "label": "Claude 4-8 vs 4-7 Shift",
       "x": -108.6,
       "y": 2643.26,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 2,
-      "dim": 1,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -12773,7 +13026,7 @@
     },
     {
       "id": "d_717",
-      "label": "safety · jailbreak · utility",
+      "label": "safety · jailbreak · responses",
       "x": 1698.83,
       "y": 2262.73,
       "r": 68.0,
@@ -12897,10 +13150,10 @@
       "label": "Sandbagging and Deceptive Evasion",
       "x": 2627.03,
       "y": 640.24,
-      "r": 82.0,
-      "claims": 9,
+      "r": 84.27,
+      "claims": 10,
       "lit": 1,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -13689,10 +13942,10 @@
       "label": "Safety Intervention Priorities",
       "x": 1262.25,
       "y": -2907.77,
-      "r": 96.0,
-      "claims": 16,
+      "r": 97.72,
+      "claims": 17,
       "lit": 2,
-      "dim": 14,
+      "dim": 15,
       "tensions": 0
     },
     {
@@ -14137,7 +14390,7 @@
     },
     {
       "id": "d_926",
-      "label": "risks · cybersecurity · mitigated",
+      "label": "risks · mitigated · posed",
       "x": 565.12,
       "y": -3427.27,
       "r": 59.8,
@@ -14294,10 +14547,10 @@
       "label": "Weight Theft Threat Model",
       "x": -1834.37,
       "y": 3040.42,
-      "r": 71.3,
-      "claims": 5,
+      "r": 77.04,
+      "claims": 7,
       "lit": 1,
-      "dim": 4,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -14488,6 +14741,17 @@
       "tensions": 0
     },
     {
+      "id": "d_969",
+      "label": "diversity · contend · drives",
+      "x": 3066.29,
+      "y": 1025.46,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_970",
       "label": "Weak-to-Strong Generalization",
       "x": 3163.31,
@@ -14547,10 +14811,10 @@
       "label": "datasets · distribution · evaluate",
       "x": 2791.01,
       "y": 1505.74,
-      "r": 84.27,
-      "claims": 10,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 10,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -14580,10 +14844,10 @@
       "label": "Llama Fine-Tuning Behavior",
       "x": 2588.19,
       "y": 1904.82,
-      "r": 82.0,
-      "claims": 9,
+      "r": 84.27,
+      "claims": 10,
       "lit": 0,
-      "dim": 9,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -89081,9 +89345,1289 @@
       "src": "Interpretable Human-Label-Free Deep Lear"
     },
     {
-      "id": "clm_008962",
-      "x": -2779.53,
-      "y": 4026.39,
+      "id": "clm_009155",
+      "x": -2763.27,
+      "y": 4073.84,
+      "s": "dim",
+      "d": "d_2223",
+      "type": "statistical",
+      "text": "Hierarchical Classification via Cascading Feature Elimination: Application to Human Phenotype Ontology-Aligned Facial Phenotyping (FaceMesh2",
+      "src": "Hierarchical Classification via Cascadin"
+    },
+    {
+      "id": "clm_009156",
+      "x": 67.21,
+      "y": -4626.26,
+      "s": "dim",
+      "d": "d_2224",
+      "type": "statistical",
+      "text": "FaceMesh2HPO is a framework for classifying facial phenotypic descriptors aligned with the Human Phenotype Ontology (HPO) to support clinica",
+      "src": "Hierarchical Classification via Cascadin"
+    },
+    {
+      "id": "clm_009157",
+      "x": 4104.32,
+      "y": 2247.4,
+      "s": "dim",
+      "d": "d_1689",
+      "type": "statistical",
+      "text": "Using annotations from 124 clinicians across 10 disorders (107 HPO terms) combined with non-syndromic controls, we generated 3D facial meshe",
+      "src": "Hierarchical Classification via Cascadin"
+    },
+    {
+      "id": "clm_009158",
+      "x": 4080.81,
+      "y": 2164.34,
+      "s": "dim",
+      "d": "d_1689",
+      "type": "statistical",
+      "text": "The best models, incorporating 3D meshes, facial outline",
+      "src": "Hierarchical Classification via Cascadin"
+    },
+    {
+      "id": "clm_009159",
+      "x": 5407.51,
+      "y": -385.88,
+      "s": "dim",
+      "d": "d_2225",
+      "type": "statistical",
+      "text": "demographic metadata, achieved AUROCs between ~0.55",
+      "src": "Hierarchical Classification via Cascadin"
+    },
+    {
+      "id": "clm_009160",
+      "x": -2553.6,
+      "y": 3898.79,
+      "s": "dim",
+      "d": "d_2226",
+      "type": "statistical",
+      "text": "~0.89, with higher performance at parent nodes than leaf terms.",
+      "src": "Hierarchical Classification via Cascadin"
+    },
+    {
+      "id": "clm_009161",
+      "x": 1428.61,
+      "y": 3828.44,
+      "s": "dim",
+      "d": "d_1506",
+      "type": "descriptive",
+      "text": "External validation showed variable generalizability across disorders.",
+      "src": "Hierarchical Classification via Cascadin"
+    },
+    {
+      "id": "clm_009162",
+      "x": 2513.34,
+      "y": -2618.73,
+      "s": "dim",
+      "d": "d_1163",
+      "type": "statistical",
+      "text": "Results demonstrate that hierarchical modeling of 3D facial geometry enables interpretable, ontology-linked phenotype classification, though",
+      "src": "Hierarchical Classification via Cascadin"
+    },
+    {
+      "id": "clm_009163",
+      "x": 3064.53,
+      "y": 1021.8,
+      "s": "dim",
+      "d": "d_969",
+      "type": "descriptive",
+      "text": "Improved data diversity",
+      "src": "Hierarchical Classification via Cascadin"
+    },
+    {
+      "id": "clm_009164",
+      "x": 4668.94,
+      "y": -1613.43,
+      "s": "dim",
+      "d": "d_2052",
+      "type": "medical",
+      "text": "feature selection strategies are needed to enhance robustness and clinical utility.",
+      "src": "Hierarchical Classification via Cascadin"
+    },
+    {
+      "id": "clm_009165",
+      "x": -4579.28,
+      "y": 2262.8,
+      "s": "dim",
+      "d": "d_2227",
+      "type": "descriptive",
+      "text": "We investigate whether tool-use decisions have any stable internal representation that can be extracted",
+      "src": "Controlling Tool Use with Heading-Specif"
+    },
+    {
+      "id": "clm_009166",
+      "x": -189.94,
+      "y": 1215.96,
+      "s": "dim",
+      "d": "d_146",
+      "type": "descriptive",
+      "text": "manipulated, a question that is non-trivial given that tools exist entirely in context at inference time",
+      "src": "Controlling Tool Use with Heading-Specif"
+    },
+    {
+      "id": "clm_009167",
+      "x": -1843.17,
+      "y": 2999.19,
+      "s": "dim",
+      "d": "d_946",
+      "type": "descriptive",
+      "text": "have no direct encoding in model weights.",
+      "src": "Controlling Tool Use with Heading-Specif"
+    },
+    {
+      "id": "clm_009168",
+      "x": 4223.0,
+      "y": -2584.63,
+      "s": "dim",
+      "d": "d_2228",
+      "type": "descriptive",
+      "text": "We show that steering vectors extracted from heading-anchors positions exert bidirectional causal control over tool-invocation behavior acro",
+      "src": "Controlling Tool Use with Heading-Specif"
+    },
+    {
+      "id": "clm_009169",
+      "x": 2762.77,
+      "y": -2816.54,
+      "s": "dim",
+      "d": "d_1627",
+      "type": "other",
+      "text": "three domains, suppressing unnecessary tool use most effectively in domains where parametric reasoning suffices.",
+      "src": "Controlling Tool Use with Heading-Specif"
+    },
+    {
+      "id": "clm_009170",
+      "x": 3592.56,
+      "y": 2157.98,
+      "s": "dim",
+      "d": "d_1521",
+      "type": "predictive",
+      "text": "However, geometric analysis reveals that this causal effectiveness does not correspond to clean linear structure: tool-invocation steps exhi",
+      "src": "Controlling Tool Use with Heading-Specif"
+    },
+    {
+      "id": "clm_009171",
+      "x": 4464.68,
+      "y": 2226.58,
+      "s": "dim",
+      "d": "d_2013",
+      "type": "descriptive",
+      "text": "We hypothesize these geometric properties are indicative of the non-parametric nature of tools, and distinguish tool-use steering vectors fr",
+      "src": "Controlling Tool Use with Heading-Specif"
+    },
+    {
+      "id": "clm_009172",
+      "x": 3420.04,
+      "y": -955.51,
+      "s": "dim",
+      "d": "d_1287",
+      "type": "descriptive",
+      "text": "Recent advancements in Multimodal Large Language Models (MLLMs) have evolved from static perception to interleaved visual-language reasoning",
+      "src": "Segmentation before Answering: Pixel Gro"
+    },
+    {
+      "id": "clm_009173",
+      "x": -3811.55,
+      "y": 3183.44,
+      "s": "dim",
+      "d": "d_2229",
+      "type": "descriptive",
+      "text": "A basic operation in this reasoning process is to zoom in on regions of interest (often represented with bounding boxes) to acquire finer vi",
+      "src": "Segmentation before Answering: Pixel Gro"
+    },
+    {
+      "id": "clm_009174",
+      "x": 2625.08,
+      "y": 577.26,
+      "s": "dim",
+      "d": "d_738",
+      "type": "statistical",
+      "text": "We identify two key inefficiencies in vanilla agent OPD: (1) full-horizon rollouts often waste wall-clock resources on tail turns that provi",
+      "src": "TurnOPD: Making On-Policy Distillation T"
+    },
+    {
+      "id": "clm_009175",
+      "x": 1320.32,
+      "y": -2838.28,
+      "s": "dim",
+      "d": "d_841",
+      "type": "statistical",
+      "text": "(2) trajectory-level KL objectives concentrate most of the loss on shallow tokens, leaving deeper decision turns under-trained once initial ",
+      "src": "TurnOPD: Making On-Policy Distillation T"
+    },
+    {
+      "id": "clm_009176",
+      "x": 1757.01,
+      "y": 2716.98,
+      "s": "dim",
+      "d": "d_1216",
+      "type": "other",
+      "text": "TurnOPD consists of two budget controllers: adaptive rollout-depth budgeting, which uses probe-based turn statistics to determine rollout le",
+      "src": "TurnOPD: Making On-Policy Distillation T"
+    },
+    {
+      "id": "clm_009177",
+      "x": -3986.02,
+      "y": 789.62,
+      "s": "dim",
+      "d": "d_1236",
+      "type": "descriptive",
+      "text": "Multi-Hop Search with task-specialized teacher models show that TurnOPD achieves superior validation accuracy under equal wall-clock trainin",
+      "src": "TurnOPD: Making On-Policy Distillation T"
+    },
+    {
+      "id": "clm_009178",
+      "x": 5207.7,
+      "y": -609.02,
+      "s": "dim",
+      "d": "d_2166",
+      "type": "descriptive",
+      "text": "repair can closely resemble terminology associated with misuse.",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009179",
+      "x": 89.05,
+      "y": 107.14,
+      "s": "dim",
+      "d": "d_011",
+      "type": "causal",
+      "text": "cybersecurity evaluations are difficult to interpret in this setting because they often compare unrelated model families, thereby conflating",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009180",
+      "x": -176.16,
+      "y": 859.83,
+      "s": "dim",
+      "d": "d_030",
+      "type": "empirical",
+      "text": "To isolate this factor, we study safety state: whether refusal behavior remains intact (Aligned) or has been refusal-ablated (Abliterated) w",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009181",
+      "x": 1146.32,
+      "y": 1294.32,
+      "s": "dim",
+      "d": "d_344",
+      "type": "empirical",
+      "text": "We ask how this safety state affects defensive utility across software-security workflows.",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009182",
+      "x": -4431.8,
+      "y": -1116.74,
+      "s": "dim",
+      "d": "d_1884",
+      "type": "descriptive",
+      "text": "We compare aligned instruction-tuned models with publicly released refusal-ablated descendants from two model families, Gemma and Qwen.",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009183",
+      "x": -1416.56,
+      "y": 258.63,
+      "s": "dim",
+      "d": "d_159",
+      "type": "causal",
+      "text": "Abliterated states on vulnerability detection, CWE attribution, vulnerable-line localization, root-cause localization, and executable patch ",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009184",
+      "x": 4516.28,
+      "y": 839.71,
+      "s": "dim",
+      "d": "d_1793",
+      "type": "statistical",
+      "text": "In a Gemma-based Java/Vul4J repair-validation study, Abliterated achieves higher early-stage validation rates, with 67.8%, 65.0%",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009185",
+      "x": -1445.84,
+      "y": -4643.78,
+      "s": "dim",
+      "d": "d_2230",
+      "type": "statistical",
+      "text": "32.8% of patches judged usable, successfully applied",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009186",
+      "x": -2561.0,
+      "y": 4045.46,
+      "s": "dim",
+      "d": "d_2231",
+      "type": "statistical",
+      "text": "successfully compiled, respectively, compared with 29.9%, 24.9%, and 9.0% for Aligned.",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009187",
+      "x": -699.25,
+      "y": -441.35,
+      "s": "dim",
+      "d": "d_186",
+      "type": "statistical",
+      "text": "In the Qwen pair, Abliterated improves localization performance, increasing line-level F1 from 2.08% to 3.91%",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009188",
+      "x": -3838.36,
+      "y": 1419.39,
+      "s": "dim",
+      "d": "d_1293",
+      "type": "statistical",
+      "text": "Top-1 accuracy from 4.10% to 6.95%.",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009189",
+      "x": -27.68,
+      "y": 1313.74,
+      "s": "dim",
+      "d": "d_124",
+      "type": "normative",
+      "text": "These findings suggest that evaluations of LLM-based security assistants should jointly measure whether models respond, whether their usable",
+      "src": "Beyond Refusal: A Same-Lineage Study of "
+    },
+    {
+      "id": "clm_009190",
+      "x": -3343.89,
+      "y": -1793.93,
+      "s": "dim",
+      "d": "d_1317",
+      "type": "descriptive",
+      "text": "Under a fixed privacy budget, the utility of differentially private (DP) training is ultimately determined by its optimization efficiency.",
+      "src": "Differentially Private Natural Gradient "
+    },
+    {
+      "id": "clm_009191",
+      "x": 3605.66,
+      "y": -2217.85,
+      "s": "dim",
+      "d": "d_1635",
+      "type": "causal",
+      "text": "This geometric blindness causes severe zigzagging in ill-conditioned landscapes, squandering precious privacy budgets on inefficient iterati",
+      "src": "Differentially Private Natural Gradient "
+    },
+    {
+      "id": "clm_009192",
+      "x": -148.78,
+      "y": 885.4,
+      "s": "dim",
+      "d": "d_030",
+      "type": "descriptive",
+      "text": "Practitioners are thus trapped in a bind: either stop training prematurely or inject massive per-step noise, both of which critically compro",
+      "src": "Differentially Private Natural Gradient "
+    },
+    {
+      "id": "clm_009193",
+      "x": 971.62,
+      "y": 176.33,
+      "s": "dim",
+      "d": "d_053",
+      "type": "other",
+      "text": "extracting more efficient signal from every noisy step, offering a principled pathway to break the privacy-utility bottleneck.",
+      "src": "Differentially Private Natural Gradient "
+    },
+    {
+      "id": "clm_009194",
+      "x": 1597.56,
+      "y": 4659.29,
+      "s": "dim",
+      "d": "d_2078",
+      "type": "statistical",
+      "text": "Extensive experiments on standard benchmarks demonstrate that DP-NGD achieves state-of-the-art accuracy, breaking through the utility ceilin",
+      "src": "Differentially Private Natural Gradient "
+    },
+    {
+      "id": "clm_009195",
+      "x": -1678.98,
+      "y": -1091.03,
+      "s": "dim",
+      "d": "d_376",
+      "type": "statistical",
+      "text": "Harrison.Rad 1.5 Technical Report: A radiology foundation model that can draft reports from images, priors and clinical context",
+      "src": "Harrison.Rad 1.5 Technical Report: A rad"
+    },
+    {
+      "id": "clm_009196",
+      "x": -1641.26,
+      "y": -1054.04,
+      "s": "dim",
+      "d": "d_376",
+      "type": "descriptive",
+      "text": "Imaging demand is growing faster than the radiology workforce can expand, and reporting backlogs cannot be resolved through training and rec",
+      "src": "Harrison.Rad 1.5 Technical Report: A rad"
+    },
+    {
+      "id": "clm_009197",
+      "x": 2105.07,
+      "y": -4626.54,
+      "s": "dim",
+      "d": "d_2232",
+      "type": "descriptive",
+      "text": "The most direct opportunity is reducing the time",
+      "src": "Harrison.Rad 1.5 Technical Report: A rad"
+    },
+    {
+      "id": "clm_009198",
+      "x": -1648.53,
+      "y": -1045.95,
+      "s": "dim",
+      "d": "d_376",
+      "type": "medical",
+      "text": "effort radiologists spend producing reports, a task that requires interpreting images, integrating clinical history and prior studies, and d",
+      "src": "Harrison.Rad 1.5 Technical Report: A rad"
+    },
+    {
+      "id": "clm_009199",
+      "x": -1626.15,
+      "y": -1044.3,
+      "s": "dim",
+      "d": "d_376",
+      "type": "statistical",
+      "text": "We present Harrison.Rad 1.5 (HR1.5), a radiology-specific multimodal large language model that accepts interleaved text and visual inputs an",
+      "src": "Harrison.Rad 1.5 Technical Report: A rad"
+    },
+    {
+      "id": "clm_009200",
+      "x": 3488.49,
+      "y": 2468.06,
+      "s": "dim",
+      "d": "d_1699",
+      "type": "statistical",
+      "text": "HR1.5 is trained through a three-stage pipeline: domain adaptation of a base language model on radiology reports, contrastive vision-encoder",
+      "src": "Harrison.Rad 1.5 Technical Report: A rad"
+    },
+    {
+      "id": "clm_009201",
+      "x": 5457.76,
+      "y": -177.76,
+      "s": "dim",
+      "d": "d_2233",
+      "type": "statistical",
+      "text": "polarity-contradiction detection, benchmarked on RadBench, a simulated FRCR 2B Short Case examination scored against Angoff-method threshold",
+      "src": "Harrison.Rad 1.5 Technical Report: A rad"
+    },
+    {
+      "id": "clm_009202",
+      "x": 714.47,
+      "y": 4900.75,
+      "s": "dim",
+      "d": "d_2234",
+      "type": "statistical",
+      "text": "HR1.5 is the only system evaluated to meet the simulated FRCR passing standard and achieves the highest accuracy on closed-format clinical q",
+      "src": "Harrison.Rad 1.5 Technical Report: A rad"
+    },
+    {
+      "id": "clm_009203",
+      "x": 3770.89,
+      "y": 1817.67,
+      "s": "dim",
+      "d": "d_1620",
+      "type": "descriptive",
+      "text": "a framework for clinically grounded assessment of report quality.",
+      "src": "Harrison.Rad 1.5 Technical Report: A rad"
+    },
+    {
+      "id": "clm_009204",
+      "x": -4535.58,
+      "y": 430.96,
+      "s": "dim",
+      "d": "d_1887",
+      "type": "descriptive",
+      "text": "Vascular computed tomography datasets are commonly annotated only once per scan, yielding the pervasive yet under addressed problem of singl",
+      "src": "Decoupled Single-Mask Annotation Noise D"
+    },
+    {
+      "id": "clm_009205",
+      "x": 163.18,
+      "y": -4745.01,
+      "s": "dim",
+      "d": "d_2220",
+      "type": "descriptive",
+      "text": "Existing solutions either require costly multirater fusion or are coupled with network training, preventing explicit auditing of where and w",
+      "src": "Decoupled Single-Mask Annotation Noise D"
+    },
+    {
+      "id": "clm_009206",
+      "x": -3902.71,
+      "y": 1769.12,
+      "s": "dim",
+      "d": "d_1571",
+      "type": "normative",
+      "text": "Thus, anatomically similar patches should have consistent masks, and disagreement signals unreliable annotation.",
+      "src": "Decoupled Single-Mask Annotation Noise D"
+    },
+    {
+      "id": "clm_009207",
+      "x": 1322.62,
+      "y": 2973.44,
+      "s": "dim",
+      "d": "d_1225",
+      "type": "other",
+      "text": "computes a patch-level noise score from statistical mask disagreement, yielding explicit image-mask evidence for every flagged region.",
+      "src": "Decoupled Single-Mask Annotation Noise D"
+    },
+    {
+      "id": "clm_009208",
+      "x": 3552.77,
+      "y": -2229.25,
+      "s": "dim",
+      "d": "d_1635",
+      "type": "statistical",
+      "text": "oblique vessels exhibit 5.1 times higher error rates than axis-aligned structures, with additional correlations to cross-sectional area and ",
+      "src": "Decoupled Single-Mask Annotation Noise D"
+    },
+    {
+      "id": "clm_009209",
+      "x": -1251.16,
+      "y": -1370.62,
+      "s": "dim",
+      "d": "d_298",
+      "type": "descriptive",
+      "text": "Code is available here.",
+      "src": "Decoupled Single-Mask Annotation Noise D"
+    },
+    {
+      "id": "clm_009210",
+      "x": 5030.99,
+      "y": 959.81,
+      "s": "dim",
+      "d": "d_2100",
+      "type": "descriptive",
+      "text": "To synthesize these aspects, a Composite Quality Score (Q) is proposed.",
+      "src": "Auto-DSM Under the Lens: A Black-Box Eva"
+    },
+    {
+      "id": "clm_009211",
+      "x": 3840.47,
+      "y": 1668.41,
+      "s": "dim",
+      "d": "d_1546",
+      "type": "empirical",
+      "text": "Controlled experiments are conducted on two datasets: a fictive abstract system and a real-world refrigerator decomposition, covering variat",
+      "src": "Auto-DSM Under the Lens: A Black-Box Eva"
+    },
+    {
+      "id": "clm_009212",
+      "x": -168.6,
+      "y": 292.66,
+      "s": "dim",
+      "d": "d_023",
+      "type": "descriptive",
+      "text": "Results show that LLMs can produce structurally plausible DSMs and achieve high reproducibility under well-structured inputs, but remain sen",
+      "src": "Auto-DSM Under the Lens: A Black-Box Eva"
+    },
+    {
+      "id": "clm_009213",
+      "x": 3393.24,
+      "y": 3720.43,
+      "s": "dim",
+      "d": "d_2235",
+      "type": "descriptive",
+      "text": "Putnam's Social Capital Theory is a foundational framework for collective action and community prosperity.",
+      "src": "From Blueprint to Reality: Modeling and "
+    },
+    {
+      "id": "clm_009214",
+      "x": -1589.73,
+      "y": 3344.11,
+      "s": "dim",
+      "d": "d_1985",
+      "type": "descriptive",
+      "text": "Meanwhile, LLM-based social simulations are typically behavior-driven and lack theory-aligned environments for modeling Putnam's core propos",
+      "src": "From Blueprint to Reality: Modeling and "
+    },
+    {
+      "id": "clm_009215",
+      "x": 4651.0,
+      "y": -1787.18,
+      "s": "dim",
+      "d": "d_2236",
+      "type": "other",
+      "text": "then apply the three dimensions to analyze adaptation challenges in smart elderly care.",
+      "src": "From Blueprint to Reality: Modeling and "
+    },
+    {
+      "id": "clm_009216",
+      "x": -4297.19,
+      "y": 1983.8,
+      "s": "dim",
+      "d": "d_2237",
+      "type": "descriptive",
+      "text": "Deliberation plays a crucial role in collaboration",
+      "src": "LLM Agents for Deliberative Collaboratio"
+    },
+    {
+      "id": "clm_009217",
+      "x": 793.57,
+      "y": 5097.64,
+      "s": "dim",
+      "d": "d_2238",
+      "type": "descriptive",
+      "text": "when humans work together, they naturally engage in communication to align information and reach an agreement.",
+      "src": "LLM Agents for Deliberative Collaboratio"
+    },
+    {
+      "id": "clm_009218",
+      "x": -388.15,
+      "y": 499.32,
+      "s": "dim",
+      "d": "d_032",
+      "type": "normative",
+      "text": "domains in which agents must exchange information through deliberation to reach a joint decision with a shared reward.",
+      "src": "LLM Agents for Deliberative Collaboratio"
+    },
+    {
+      "id": "clm_009219",
+      "x": -390.68,
+      "y": 654.94,
+      "s": "dim",
+      "d": "d_045",
+      "type": "descriptive",
+      "text": "The results reveal that complex deliberative collaboration tasks continue to challenge state-of-the-art language models.",
+      "src": "LLM Agents for Deliberative Collaboratio"
+    },
+    {
+      "id": "clm_009220",
+      "x": -319.47,
+      "y": 420.52,
+      "s": "dim",
+      "d": "d_032",
+      "type": "descriptive",
+      "text": "Even with the aid of external mathematical tools, language models may fail in either the deliberation process for aligning information or th",
+      "src": "LLM Agents for Deliberative Collaboratio"
+    },
+    {
+      "id": "clm_009221",
+      "x": -461.78,
+      "y": -84.95,
+      "s": "dim",
+      "d": "d_047",
+      "type": "descriptive",
+      "text": "Altogether, our work establishes a foundation for evaluating and improving LLM agents in deliberative collaboration and provides insights in",
+      "src": "LLM Agents for Deliberative Collaboratio"
+    },
+    {
+      "id": "clm_009222",
+      "x": 813.16,
+      "y": 306.83,
+      "s": "dim",
+      "d": "d_046",
+      "type": "descriptive",
+      "text": "Synthesizing long-context supervised fine-tuning (SFT) data is a scalable way to enhance the long-context understanding of large language mo",
+      "src": "LongCrafter: Towards Diverse Long-Contex"
+    },
+    {
+      "id": "clm_009223",
+      "x": -1840.88,
+      "y": -3936.93,
+      "s": "dim",
+      "d": "d_1724",
+      "type": "statistical",
+      "text": "yields 32 fine-grained task types that serve as a global generative prior.",
+      "src": "LongCrafter: Towards Diverse Long-Contex"
+    },
+    {
+      "id": "clm_009224",
+      "x": 4664.7,
+      "y": -1874.7,
+      "s": "dim",
+      "d": "d_2236",
+      "type": "other",
+      "text": "Models fine-tuned on LongCrafter data outperform all SFT baselines",
+      "src": "LongCrafter: Towards Diverse Long-Contex"
+    },
+    {
+      "id": "clm_009225",
+      "x": -337.89,
+      "y": 1180.26,
+      "s": "dim",
+      "d": "d_081",
+      "type": "statistical",
+      "text": "even the official post-trained models on LongBench, LongBench~v2",
+      "src": "LongCrafter: Towards Diverse Long-Contex"
+    },
+    {
+      "id": "clm_009226",
+      "x": -762.88,
+      "y": -384.93,
+      "s": "dim",
+      "d": "d_186",
+      "type": "statistical",
+      "text": "LooGLE across both Qwen2.5-7B",
+      "src": "LongCrafter: Towards Diverse Long-Contex"
+    },
+    {
+      "id": "clm_009227",
+      "x": 2615.88,
+      "y": 1909.64,
+      "s": "dim",
+      "d": "d_980",
+      "type": "statistical",
+      "text": "LLaMA-3.1-8B, with the largest gains on high-difficulty tasks.",
+      "src": "LongCrafter: Towards Diverse Long-Contex"
+    },
+    {
+      "id": "clm_009228",
+      "x": 4242.86,
+      "y": -2220.98,
+      "s": "dim",
+      "d": "d_2015",
+      "type": "descriptive",
+      "text": "Further analysis shows that LongCrafter data is more diverse",
+      "src": "LongCrafter: Towards Diverse Long-Contex"
+    },
+    {
+      "id": "clm_009229",
+      "x": 5070.06,
+      "y": 1254.47,
+      "s": "dim",
+      "d": "d_2239",
+      "type": "normative",
+      "text": "better spread across difficulty levels, and that the trained models locate evidence robustly regardless of position, effectively mitigating ",
+      "src": "LongCrafter: Towards Diverse Long-Contex"
+    },
+    {
+      "id": "clm_009230",
+      "x": 68.04,
+      "y": 213.66,
+      "s": "dim",
+      "d": "d_011",
+      "type": "medical",
+      "text": "Foundation Models for Electronic Health Records (FEMRs) are pretrained on large-scale structured patient data, enabling them to convert long",
+      "src": "X-FEMR: A Token-level Explainable Approa"
+    },
+    {
+      "id": "clm_009231",
+      "x": 566.56,
+      "y": 353.79,
+      "s": "dim",
+      "d": "d_020",
+      "type": "other",
+      "text": "We train a Transformer-based surrogate model on input-output pairs from the FEMR across two prediction tasks, approximating its behavior whi",
+      "src": "X-FEMR: A Token-level Explainable Approa"
+    },
+    {
+      "id": "clm_009232",
+      "x": -13.04,
+      "y": -41.12,
+      "s": "dim",
+      "d": "d_001",
+      "type": "descriptive",
+      "text": "Current large language models (LLMs) are fundamentally stateless: their behavior is fully determined by input at inference time",
+      "src": "From Application-Layer Simulation to Nat"
+    },
+    {
+      "id": "clm_009233",
+      "x": 184.79,
+      "y": 243.22,
+      "s": "dim",
+      "d": "d_005",
+      "type": "normative",
+      "text": "any higher-order cognitive architecture must be simulated at the application layer through prompt engineering and context management.",
+      "src": "From Application-Layer Simulation to Nat"
+    },
+    {
+      "id": "clm_009234",
+      "x": 234.57,
+      "y": 192.6,
+      "s": "dim",
+      "d": "d_005",
+      "type": "statistical",
+      "text": "This paper proposes a theoretical framework for submerging such application-layer cognitive protocols into a native meta-architecture by int",
+      "src": "From Application-Layer Simulation to Nat"
+    },
+    {
+      "id": "clm_009235",
+      "x": 4463.31,
+      "y": 2055.9,
+      "s": "dim",
+      "d": "d_2088",
+      "type": "causal",
+      "text": "existing manifold topology, which drives the system toward internal self-consistency rather than external reward optimization",
+      "src": "From Application-Layer Simulation to Nat"
+    },
+    {
+      "id": "clm_009236",
+      "x": 2252.98,
+      "y": 2709.68,
+      "s": "dim",
+      "d": "d_1239",
+      "type": "statistical",
+      "text": "(2) an Offline Recurrent Loop, a sandboxed self-processing cycle that enables the system to maintain a dynamic resting potential and digest ",
+      "src": "From Application-Layer Simulation to Nat"
+    },
+    {
+      "id": "clm_009237",
+      "x": 3188.04,
+      "y": 3114.18,
+      "s": "dim",
+      "d": "d_1725",
+      "type": "statistical",
+      "text": "and (3) Inference-time Plasticity, the capacity for the system to reconfigure its context manifold topology without modifying pre-trained we",
+      "src": "From Application-Layer Simulation to Nat"
+    },
+    {
+      "id": "clm_009238",
+      "x": -149.95,
+      "y": 4313.31,
+      "s": "dim",
+      "d": "d_1646",
+      "type": "descriptive",
+      "text": "We provide operational definitions, a minimal set of reconfiguration operators, falsification criteria, and a worked example.",
+      "src": "From Application-Layer Simulation to Nat"
+    },
+    {
+      "id": "clm_009239",
+      "x": 3430.43,
+      "y": -1001.83,
+      "s": "dim",
+      "d": "d_1287",
+      "type": "statistical",
+      "text": "UI2App: Benchmarking Visual Interaction Inference in Executable Web Application Generation",
+      "src": "UI2App: Benchmarking Visual Interaction "
+    },
+    {
+      "id": "clm_009240",
+      "x": -76.66,
+      "y": 63.29,
+      "s": "dim",
+      "d": "d_001",
+      "type": "descriptive",
+      "text": "Large language models (LLMs) have demonstrated growing competence in web page generation.",
+      "src": "UI2App: Benchmarking Visual Interaction "
+    },
+    {
+      "id": "clm_009241",
+      "x": -2913.35,
+      "y": 3921.43,
+      "s": "dim",
+      "d": "d_2240",
+      "type": "statistical",
+      "text": "To address this gap, we introduce UI2App, the first benchmark targeting interaction inference, the ability to recover application behavior f",
+      "src": "UI2App: Benchmarking Visual Interaction "
+    },
+    {
+      "id": "clm_009242",
+      "x": -94.36,
+      "y": 2675.75,
+      "s": "dim",
+      "d": "d_591",
+      "type": "statistical",
+      "text": "UI2App comprises 327 screenshots grouped into 45 state-coherent screenshot sets for runnable multi-route web applications.",
+      "src": "UI2App: Benchmarking Visual Interaction "
+    },
+    {
+      "id": "clm_009243",
+      "x": 2482.25,
+      "y": 3201.28,
+      "s": "dim",
+      "d": "d_1612",
+      "type": "descriptive",
+      "text": "We design an end-to-end pipeline that evaluates each artifact along four dimensions: executability, navigation reachability, visual fidelity",
+      "src": "UI2App: Benchmarking Visual Interaction "
+    },
+    {
+      "id": "clm_009244",
+      "x": -2667.51,
+      "y": 1482.56,
+      "s": "dim",
+      "d": "d_1069",
+      "type": "descriptive",
+      "text": "state-management complexity, crediting any valid implementation rather than matching a single reference.",
+      "src": "UI2App: Benchmarking Visual Interaction "
+    },
+    {
+      "id": "clm_009245",
+      "x": -3612.57,
+      "y": 1014.89,
+      "s": "dim",
+      "d": "d_1818",
+      "type": "statistical",
+      "text": "interaction realization: the visual-fidelity leader scores only 7.5 on IIS, ranking fourth",
+      "src": "UI2App: Benchmarking Visual Interaction "
+    },
+    {
+      "id": "clm_009246",
+      "x": 3709.4,
+      "y": -3114.22,
+      "s": "dim",
+      "d": "d_2241",
+      "type": "statistical",
+      "text": "trailing the IIS leader by 5.2x.",
+      "src": "UI2App: Benchmarking Visual Interaction "
+    },
+    {
+      "id": "clm_009247",
+      "x": -257.21,
+      "y": -308.65,
+      "s": "dim",
+      "d": "d_019",
+      "type": "descriptive",
+      "text": "High-complexity interactions such as cross-page state remain a pervasive bottleneck, with half of the evaluated models scoring exactly zero ",
+      "src": "UI2App: Benchmarking Visual Interaction "
+    },
+    {
+      "id": "clm_009248",
+      "x": -2645.87,
+      "y": -2844.04,
+      "s": "dim",
+      "d": "d_1452",
+      "type": "descriptive",
+      "text": "rarely what it would feel like to be there.",
+      "src": "What Images Cannot Say: Language-Guided "
+    },
+    {
+      "id": "clm_009249",
+      "x": -512.42,
+      "y": -4189.76,
+      "s": "dim",
+      "d": "d_1538",
+      "type": "causal",
+      "text": "While recent datasets pair visual scenes with electronic-nose measurements, aligning smell signals with images remains challenging because m",
+      "src": "What Images Cannot Say: Language-Guided "
+    },
+    {
+      "id": "clm_009250",
+      "x": -3256.39,
+      "y": -3379.24,
+      "s": "dim",
+      "d": "d_2242",
+      "type": "descriptive",
+      "text": "Experiments on the New York Smells dataset demonstrate that SCENT significantly improves crossmodal retrieval compared to vision-only baseli",
+      "src": "What Images Cannot Say: Language-Guided "
+    },
+    {
+      "id": "clm_009251",
+      "x": -68.61,
+      "y": 82.59,
+      "s": "dim",
+      "d": "d_011",
+      "type": "descriptive",
+      "text": "Large language model coding agents increasingly perform open-ended data modeling and analysis.",
+      "src": "An Experimental Design Approach to Evalu"
+    },
+    {
+      "id": "clm_009252",
+      "x": -1425.87,
+      "y": 1192.35,
+      "s": "dim",
+      "d": "d_334",
+      "type": "descriptive",
+      "text": "These agents are stochastic and adaptive",
+      "src": "An Experimental Design Approach to Evalu"
+    },
+    {
+      "id": "clm_009253",
+      "x": 541.45,
+      "y": 4795.52,
+      "s": "dim",
+      "d": "d_2108",
+      "type": "causal",
+      "text": "therefore their autonomous model discovery behavior cannot be adequately characterized by a single benchmark run.",
+      "src": "An Experimental Design Approach to Evalu"
+    },
+    {
+      "id": "clm_009254",
+      "x": 4245.02,
+      "y": -2376.99,
+      "s": "dim",
+      "d": "d_2018",
+      "type": "descriptive",
+      "text": "In this work, we propose an experimental design and analysis framework for systematically evaluating this discovery process, quantifying its",
+      "src": "An Experimental Design Approach to Evalu"
+    },
+    {
+      "id": "clm_009255",
+      "x": 4869.36,
+      "y": 627.12,
+      "s": "dim",
+      "d": "d_1929",
+      "type": "other",
+      "text": "Specifically, we investigate two such operators, Codex and Claude Code, under controlled experimental factors including agent's reasoning ef",
+      "src": "An Experimental Design Approach to Evalu"
+    },
+    {
+      "id": "clm_009256",
+      "x": -2709.65,
+      "y": -3898.05,
+      "s": "dim",
+      "d": "d_1870",
+      "type": "descriptive",
+      "text": "inference are conducted for multiple responses such as output quality, dollar cost, wall-clock time, and process complexity.",
+      "src": "An Experimental Design Approach to Evalu"
+    },
+    {
+      "id": "clm_009257",
+      "x": 511.38,
+      "y": -186.59,
+      "s": "dim",
+      "d": "d_034",
+      "type": "descriptive",
+      "text": "The proposed framework is demonstrated on a testbed of networked word-forming games with insightful findings on reasoning effort with respec",
+      "src": "An Experimental Design Approach to Evalu"
+    },
+    {
+      "id": "clm_009258",
+      "x": -1870.71,
+      "y": 3055.78,
+      "s": "dim",
+      "d": "d_946",
+      "type": "empirical",
+      "text": "Concept unlearning in text-to-image diffusion models is critical for safe and practical deployment: with rising privacy concerns, copyright ",
+      "src": "TILDE: TILt-based Distributional Erasure"
+    },
+    {
+      "id": "clm_009259",
+      "x": 794.16,
+      "y": -3749.62,
+      "s": "dim",
+      "d": "d_1446",
+      "type": "normative",
+      "text": "safety regulations, deployed systems must be able to suppress unwanted concepts after training.",
+      "src": "TILDE: TILt-based Distributional Erasure"
+    },
+    {
+      "id": "clm_009260",
+      "x": -3137.37,
+      "y": -2089.2,
+      "s": "dim",
+      "d": "d_1284",
+      "type": "normative",
+      "text": "practical unlearning also requires an equally fundamental property: the unlearned model should retain quality, diversity, and semantic cover",
+      "src": "TILDE: TILt-based Distributional Erasure"
+    },
+    {
+      "id": "clm_009261",
+      "x": 597.11,
+      "y": 4745.32,
+      "s": "dim",
+      "d": "d_2108",
+      "type": "descriptive",
+      "text": "The gold standard is a retain-only model trained from scratch without the unwanted data.",
+      "src": "TILDE: TILt-based Distributional Erasure"
+    },
+    {
+      "id": "clm_009262",
+      "x": 790.77,
+      "y": 5248.01,
+      "s": "dim",
+      "d": "d_2243",
+      "type": "normative",
+      "text": "However, common erasure objectives do not specify which post-unlearning distribution should approximate this reference, leaving retention as",
+      "src": "TILDE: TILt-based Distributional Erasure"
+    },
+    {
+      "id": "clm_009263",
+      "x": -2700.03,
+      "y": 3661.29,
+      "s": "dim",
+      "d": "d_1918",
+      "type": "descriptive",
+      "text": "We propose TILDE, TILt-based Distributional Erasure, which formulates concept unlearning as a distributional alignment problem: the desired ",
+      "src": "TILDE: TILt-based Distributional Erasure"
+    },
+    {
+      "id": "clm_009264",
+      "x": 957.53,
+      "y": 5196.56,
+      "s": "dim",
+      "d": "d_2244",
+      "type": "descriptive",
+      "text": "This energy-tilted, anchor-free target suppresses concept-expressing images while preserving benign relative mass for each prompt.",
+      "src": "TILDE: TILt-based Distributional Erasure"
+    },
+    {
+      "id": "clm_009265",
+      "x": -4922.1,
+      "y": -858.29,
+      "s": "dim",
+      "d": "d_2245",
+      "type": "descriptive",
+      "text": "These results show that compact prompt routing and lightweight temporal adaptation provide sufficient controllable capacity for stable long ",
+      "src": "Prompt-Adapter Context Routing for Param"
+    },
+    {
+      "id": "clm_009266",
+      "x": 429.25,
+      "y": 448.54,
+      "s": "dim",
+      "d": "d_029",
+      "type": "descriptive",
+      "text": "Two key failure modes are prominent: hallucinated chain-of-thought (CoT) reasoning that contradicts physical reality, and misalignment betwe",
+      "src": "Bridging Physical Reasoning and Task Gen"
+    },
+    {
+      "id": "clm_009267",
+      "x": 3258.46,
+      "y": 1270.83,
+      "s": "dim",
+      "d": "d_1252",
+      "type": "other",
+      "text": "VAORA introduces two complementary rewards: Visual Alignment Reward, which anchors VLM reasoning to the visual context independent of the ag",
+      "src": "Bridging Physical Reasoning and Task Gen"
+    },
+    {
+      "id": "clm_009268",
+      "x": -3352.93,
+      "y": 2717.7,
+      "s": "dim",
+      "d": "d_1528",
+      "type": "descriptive",
+      "text": "reduce the gap between reasoning and behavior.",
+      "src": "Bridging Physical Reasoning and Task Gen"
+    },
+    {
+      "id": "clm_009269",
+      "x": 5232.42,
+      "y": 539.92,
+      "s": "dim",
+      "d": "d_2199",
+      "type": "descriptive",
+      "text": "To improve training stability, we further employ smooth, dense rewards by estimating success probabilities using a pre-trained in-domain exp",
+      "src": "Bridging Physical Reasoning and Task Gen"
+    },
+    {
+      "id": "clm_009270",
+      "x": -2076.64,
+      "y": -4350.43,
+      "s": "dim",
+      "d": "d_2246",
+      "type": "descriptive",
+      "text": "generalizable physical intelligence can be induced through VAORA.",
+      "src": "Bridging Physical Reasoning and Task Gen"
+    },
+    {
+      "id": "clm_009271",
+      "x": 5144.16,
+      "y": 1538.74,
+      "s": "dim",
+      "d": "d_2247",
+      "type": "statistical",
+      "text": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009272",
+      "x": 4181.75,
+      "y": 2317.2,
+      "s": "dim",
+      "d": "d_1693",
+      "type": "statistical",
+      "text": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009273",
+      "x": 3926.07,
+      "y": -1612.96,
+      "s": "dim",
+      "d": "d_1585",
+      "type": "statistical",
+      "text": "their text-3D interaction remains largely implicit.",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009274",
+      "x": 3320.13,
+      "y": -20.93,
+      "s": "dim",
+      "d": "d_1231",
+      "type": "statistical",
+      "text": "3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural cues",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009275",
+      "x": 3515.83,
+      "y": -3652.0,
+      "s": "dim",
+      "d": "d_2248",
+      "type": "other",
+      "text": "fine geometric details into one undifferentiated representation.",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009276",
+      "x": -453.63,
+      "y": 442.6,
+      "s": "dim",
+      "d": "d_032",
+      "type": "statistical",
+      "text": "We introduce ELSA3D, a unified 3D model that addresses this with elastic semantic anchoring, structuring language and geometric reasoning jo",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009277",
+      "x": 3736.86,
+      "y": 167.5,
+      "s": "dim",
+      "d": "d_1618",
+      "type": "statistical",
+      "text": "ELSA3D represents geometry with a scale-aware octree tokenizer",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009278",
+      "x": 3335.14,
+      "y": 58.73,
+      "s": "dim",
+      "d": "d_1231",
+      "type": "statistical",
+      "text": "introduces Anchor Tokens, sparse cross-modal units that select semantic cues, route them to the most relevant 3D scale, retrieve scale-speci",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009279",
+      "x": 122.28,
+      "y": 3848.41,
+      "s": "dim",
+      "d": "d_1265",
+      "type": "descriptive",
+      "text": "A lightweight per-block router makes both computation",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009280",
+      "x": 2804.69,
+      "y": -4035.26,
+      "s": "dim",
+      "d": "d_2249",
+      "type": "descriptive",
+      "text": "reasoning elastic, choosing which text tokens instantiate anchors at which geometric scale so that cross-modal capacity concentrates where a",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009281",
+      "x": -3791.06,
+      "y": 2612.7,
+      "s": "dim",
+      "d": "d_1799",
+      "type": "statistical",
+      "text": "ELSA3D achieves state-of-the-art performance across image-to-3D generation, text-to-3D generation",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009282",
+      "x": 465.02,
+      "y": 123.85,
+      "s": "dim",
+      "d": "d_025",
+      "type": "statistical",
+      "text": "3D captioning, outperforming the strongest unified baseline while roughly halving FLOPs and inference latency relative to the non-elastic ve",
+      "src": "ELSA3D: Elastic Semantic Anchoring for U"
+    },
+    {
+      "id": "clm_009283",
+      "x": -2737.49,
+      "y": 3986.97,
       "s": "dim",
       "d": "d_2223",
       "type": "statistical",
@@ -89091,9 +90635,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008963",
-      "x": 34.81,
-      "y": -4598.95,
+      "id": "clm_009284",
+      "x": 67.17,
+      "y": -4629.52,
       "s": "dim",
       "d": "d_2224",
       "type": "descriptive",
@@ -89101,9 +90645,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008964",
-      "x": 795.44,
-      "y": 375.62,
+      "id": "clm_009285",
+      "x": 756.22,
+      "y": 396.26,
       "s": "dim",
       "d": "d_046",
       "type": "historical",
@@ -89111,9 +90655,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008965",
-      "x": 5343.84,
-      "y": -392.25,
+      "id": "clm_009286",
+      "x": 5399.41,
+      "y": -387.62,
       "s": "dim",
       "d": "d_2225",
       "type": "descriptive",
@@ -89121,9 +90665,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008966",
-      "x": -2517.05,
-      "y": 3881.01,
+      "id": "clm_009287",
+      "x": -2540.05,
+      "y": 3937.16,
       "s": "dim",
       "d": "d_2226",
       "type": "descriptive",
@@ -89131,19 +90675,19 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008967",
-      "x": 2985.98,
-      "y": 2674.2,
+      "id": "clm_009288",
+      "x": 765.36,
+      "y": 5096.7,
       "s": "dim",
-      "d": "d_1532",
+      "d": "d_2238",
       "type": "descriptive",
       "text": "Most behavior targets like bold formatting, both-side framing, liberal-lean or tendency to say “your feelings are valid” are not affected mu",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008968",
-      "x": 5041.74,
-      "y": -722.59,
+      "id": "clm_009289",
+      "x": 5054.63,
+      "y": -673.82,
       "s": "dim",
       "d": "d_2114",
       "type": "other",
@@ -89151,9 +90695,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008969",
-      "x": -4543.71,
-      "y": 2229.45,
+      "id": "clm_009290",
+      "x": -4546.43,
+      "y": 2301.48,
       "s": "dim",
       "d": "d_2227",
       "type": "statistical",
@@ -89161,9 +90705,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008970",
-      "x": 4254.0,
-      "y": -2592.85,
+      "id": "clm_009291",
+      "x": 4233.36,
+      "y": -2544.33,
       "s": "dim",
       "d": "d_2228",
       "type": "statistical",
@@ -89171,9 +90715,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008971",
-      "x": -456.07,
-      "y": 1306.71,
+      "id": "clm_009292",
+      "x": -359.63,
+      "y": 1292.25,
       "s": "dim",
       "d": "d_150",
       "type": "descriptive",
@@ -89181,9 +90725,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008972",
-      "x": -2502.68,
-      "y": 3887.35,
+      "id": "clm_009293",
+      "x": -2560.11,
+      "y": 3890.71,
       "s": "dim",
       "d": "d_2226",
       "type": "descriptive",
@@ -89191,9 +90735,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008973",
-      "x": -2529.06,
-      "y": 3909.02,
+      "id": "clm_009294",
+      "x": -2564.41,
+      "y": 3957.71,
       "s": "dim",
       "d": "d_2226",
       "type": "descriptive",
@@ -89201,9 +90745,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008974",
-      "x": 4259.62,
-      "y": -2551.11,
+      "id": "clm_009295",
+      "x": 4263.26,
+      "y": -2608.75,
       "s": "dim",
       "d": "d_2228",
       "type": "descriptive",
@@ -89211,9 +90755,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008975",
-      "x": 3511.14,
-      "y": 810.0,
+      "id": "clm_009296",
+      "x": 3498.39,
+      "y": 707.15,
       "s": "dim",
       "d": "d_1278",
       "type": "descriptive",
@@ -89221,19 +90765,19 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008976",
-      "x": -2508.8,
-      "y": 3853.65,
+      "id": "clm_009297",
+      "x": -2852.81,
+      "y": 3933.99,
       "s": "dim",
-      "d": "d_2226",
+      "d": "d_2240",
       "type": "causal",
       "text": "Due to compute constraints, we work with a “speed-run” version of OLMo SFT, where we fine-tune the OLMo mid-train with rank 64 LORA adapters",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008977",
-      "x": -1907.86,
-      "y": -3600.18,
+      "id": "clm_009298",
+      "x": -1892.54,
+      "y": -3659.1,
       "s": "dim",
       "d": "d_1633",
       "type": "descriptive",
@@ -89241,9 +90785,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008978",
-      "x": 961.7,
-      "y": 1904.3,
+      "id": "clm_009299",
+      "x": 941.33,
+      "y": 1945.78,
       "s": "dim",
       "d": "d_690",
       "type": "historical",
@@ -89251,9 +90795,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008979",
-      "x": -3803.98,
-      "y": 3156.13,
+      "id": "clm_009300",
+      "x": -3838.32,
+      "y": 3176.43,
       "s": "dim",
       "d": "d_2229",
       "type": "descriptive",
@@ -89261,9 +90805,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008980",
-      "x": 1238.42,
-      "y": 2596.59,
+      "id": "clm_009301",
+      "x": 1265.28,
+      "y": 2518.96,
       "s": "dim",
       "d": "d_826",
       "type": "predictive",
@@ -89271,9 +90815,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008981",
-      "x": -1456.6,
-      "y": -4684.29,
+      "id": "clm_009302",
+      "x": -1422.47,
+      "y": -4635.49,
       "s": "dim",
       "d": "d_2230",
       "type": "descriptive",
@@ -89281,9 +90825,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008982",
-      "x": -3968.72,
-      "y": 950.67,
+      "id": "clm_009303",
+      "x": -4089.58,
+      "y": 845.47,
       "s": "dim",
       "d": "d_1236",
       "type": "historical",
@@ -89291,19 +90835,19 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008983",
-      "x": -2591.1,
-      "y": 3927.47,
+      "id": "clm_009304",
+      "x": 4708.25,
+      "y": -1790.22,
       "s": "dim",
-      "d": "d_2226",
+      "d": "d_2236",
       "type": "statistical",
       "text": "In this project, we test this hope in a simplified OLMo-3 SFT setting: we create a cheaper “speed-run” SFT model using a rank-64 LoRA on OLM",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008984",
-      "x": 1536.12,
-      "y": 4364.52,
+      "id": "clm_009305",
+      "x": 1444.67,
+      "y": 4380.3,
       "s": "dim",
       "d": "d_2014",
       "type": "descriptive",
@@ -89311,9 +90855,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008985",
-      "x": 4246.35,
-      "y": -2538.7,
+      "id": "clm_009306",
+      "x": 4254.27,
+      "y": -2565.24,
       "s": "dim",
       "d": "d_2228",
       "type": "descriptive",
@@ -89321,9 +90865,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008986",
-      "x": 939.26,
-      "y": 4684.22,
+      "id": "clm_009307",
+      "x": 961.75,
+      "y": 4686.61,
       "s": "dim",
       "d": "d_1925",
       "type": "normative",
@@ -89331,9 +90875,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008987",
-      "x": -2545.54,
-      "y": 4073.59,
+      "id": "clm_009308",
+      "x": -2571.13,
+      "y": 4096.06,
       "s": "dim",
       "d": "d_2231",
       "type": "descriptive",
@@ -89341,9 +90885,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008988",
-      "x": -1542.54,
-      "y": 3327.74,
+      "id": "clm_009309",
+      "x": -1526.89,
+      "y": 3357.65,
       "s": "dim",
       "d": "d_1985",
       "type": "descriptive",
@@ -89351,9 +90895,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008989",
-      "x": 693.4,
-      "y": -2990.5,
+      "id": "clm_009310",
+      "x": 760.99,
+      "y": -2962.67,
       "s": "dim",
       "d": "d_823",
       "type": "descriptive",
@@ -89361,9 +90905,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008990",
-      "x": -1882.66,
-      "y": -3588.07,
+      "id": "clm_009311",
+      "x": -1839.3,
+      "y": -3626.71,
       "s": "dim",
       "d": "d_1633",
       "type": "descriptive",
@@ -89371,9 +90915,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008991",
-      "x": 2399.83,
-      "y": 4363.76,
+      "id": "clm_009312",
+      "x": 2450.96,
+      "y": 4417.15,
       "s": "dim",
       "d": "d_2080",
       "type": "statistical",
@@ -89381,19 +90925,19 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008992",
-      "x": 2840.91,
-      "y": 1480.93,
+      "id": "clm_009313",
+      "x": -3219.52,
+      "y": -3316.35,
       "s": "dim",
-      "d": "d_977",
+      "d": "d_2242",
       "type": "statistical",
       "text": "We train on a 1% stratified sample of the full Dolci-Think-SFT-7B dataset.",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008993",
-      "x": 2110.52,
-      "y": -4633.11,
+      "id": "clm_009314",
+      "x": 2067.82,
+      "y": -4654.27,
       "s": "dim",
       "d": "d_2232",
       "type": "descriptive",
@@ -89401,9 +90945,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008994",
-      "x": -2561.99,
-      "y": -3872.37,
+      "id": "clm_009315",
+      "x": -2571.93,
+      "y": -3859.46,
       "s": "dim",
       "d": "d_1869",
       "type": "descriptive",
@@ -89411,9 +90955,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008995",
-      "x": -2490.97,
-      "y": 3867.65,
+      "id": "clm_009316",
+      "x": -2513.38,
+      "y": 3941.66,
       "s": "dim",
       "d": "d_2226",
       "type": "statistical",
@@ -89421,9 +90965,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008996",
-      "x": -3078.3,
-      "y": -1613.58,
+      "id": "clm_009317",
+      "x": -3126.01,
+      "y": -1565.38,
       "s": "dim",
       "d": "d_1240",
       "type": "descriptive",
@@ -89431,9 +90975,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008997",
-      "x": -1633.45,
-      "y": -2054.66,
+      "id": "clm_009318",
+      "x": -1632.04,
+      "y": -2015.89,
       "s": "dim",
       "d": "d_723",
       "type": "other",
@@ -89441,19 +90985,19 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008998",
-      "x": 2245.44,
-      "y": -1079.95,
+      "id": "clm_009319",
+      "x": 3409.89,
+      "y": 3697.01,
       "s": "dim",
-      "d": "d_589",
+      "d": "d_2235",
       "type": "normative",
       "text": "Ethical Frameworks - referencing ethical frameworks such as utilitarianism",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_008999",
-      "x": -1172.53,
-      "y": -3235.32,
+      "id": "clm_009320",
+      "x": -1202.36,
+      "y": -3204.73,
       "s": "dim",
       "d": "d_1105",
       "type": "descriptive",
@@ -89461,19 +91005,19 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009000",
-      "x": -3943.23,
-      "y": -677.01,
+      "id": "clm_009321",
+      "x": -4863.1,
+      "y": -806.75,
       "s": "dim",
-      "d": "d_1679",
+      "d": "d_2245",
       "type": "statistical",
       "text": "For each behavior we design a 100 question behavior eval and a rubric to score against.",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009001",
-      "x": -2542.15,
-      "y": -956.29,
+      "id": "clm_009322",
+      "x": -2492.11,
+      "y": -943.67,
       "s": "dim",
       "d": "d_636",
       "type": "statistical",
@@ -89481,19 +91025,19 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009002",
-      "x": 1778.42,
-      "y": -3617.9,
+      "id": "clm_009323",
+      "x": -4876.14,
+      "y": -889.83,
       "s": "dim",
-      "d": "d_1405",
+      "d": "d_2245",
       "type": "statistical",
       "text": "After choosing behavior evaluations, we score every example in the 25K speed-run SFT training set for how likely it is to contribute to each",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009003",
-      "x": -26.94,
-      "y": 1351.32,
+      "id": "clm_009324",
+      "x": -84.81,
+      "y": 1310.57,
       "s": "dim",
       "d": "d_124",
       "type": "other",
@@ -89501,9 +91045,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009004",
-      "x": 5412.68,
-      "y": -184.12,
+      "id": "clm_009325",
+      "x": 5381.09,
+      "y": -159.05,
       "s": "dim",
       "d": "d_2233",
       "type": "statistical",
@@ -89511,9 +91055,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009005",
-      "x": -243.28,
-      "y": -1385.65,
+      "id": "clm_009326",
+      "x": -140.0,
+      "y": -1344.39,
       "s": "dim",
       "d": "d_187",
       "type": "statistical",
@@ -89521,9 +91065,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009006",
-      "x": -2421.05,
-      "y": 4098.22,
+      "id": "clm_009327",
+      "x": -2385.7,
+      "y": 4054.08,
       "s": "dim",
       "d": "d_2064",
       "type": "statistical",
@@ -89531,9 +91075,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009007",
-      "x": 2121.56,
-      "y": -4641.82,
+      "id": "clm_009328",
+      "x": 2058.12,
+      "y": -4612.65,
       "s": "dim",
       "d": "d_2232",
       "type": "descriptive",
@@ -89541,9 +91085,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009008",
-      "x": -2560.08,
-      "y": 3847.61,
+      "id": "clm_009329",
+      "x": -2562.91,
+      "y": 3867.5,
       "s": "dim",
       "d": "d_2226",
       "type": "normative",
@@ -89551,9 +91095,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009009",
-      "x": -2607.75,
-      "y": 3926.25,
+      "id": "clm_009330",
+      "x": -2513.8,
+      "y": 3870.76,
       "s": "dim",
       "d": "d_2226",
       "type": "normative",
@@ -89561,9 +91105,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009010",
-      "x": -2555.09,
-      "y": 3955.96,
+      "id": "clm_009331",
+      "x": -2594.97,
+      "y": 3871.72,
       "s": "dim",
       "d": "d_2226",
       "type": "statistical",
@@ -89571,9 +91115,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009011",
-      "x": -1030.61,
-      "y": -3876.96,
+      "id": "clm_009332",
+      "x": -1009.15,
+      "y": -3874.1,
       "s": "dim",
       "d": "d_1522",
       "type": "statistical",
@@ -89581,19 +91125,19 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009012",
-      "x": 2236.85,
-      "y": 3570.42,
+      "id": "clm_009333",
+      "x": 5131.22,
+      "y": 1293.75,
       "s": "dim",
-      "d": "d_1564",
+      "d": "d_2239",
       "type": "statistical",
       "text": "Experiment Set up: For each TDA method, we rank all 25K documents in the sampled SFT set by their attributed influence on the target behavio",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009013",
-      "x": 4291.66,
-      "y": -2587.18,
+      "id": "clm_009334",
+      "x": 4193.89,
+      "y": -2571.14,
       "s": "dim",
       "d": "d_2228",
       "type": "statistical",
@@ -89601,9 +91145,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009014",
-      "x": 741.36,
-      "y": 4908.46,
+      "id": "clm_009335",
+      "x": 730.9,
+      "y": 4869.07,
       "s": "dim",
       "d": "d_2234",
       "type": "descriptive",
@@ -89611,9 +91155,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009015",
-      "x": -4506.94,
-      "y": 2275.83,
+      "id": "clm_009336",
+      "x": -4581.49,
+      "y": 2308.0,
       "s": "dim",
       "d": "d_2227",
       "type": "statistical",
@@ -89621,9 +91165,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009016",
-      "x": -4499.27,
-      "y": 2246.19,
+      "id": "clm_009337",
+      "x": -4606.86,
+      "y": 2252.53,
       "s": "dim",
       "d": "d_2227",
       "type": "statistical",
@@ -89631,9 +91175,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009017",
-      "x": 4235.5,
-      "y": -2612.4,
+      "id": "clm_009338",
+      "x": 4203.47,
+      "y": -2596.07,
       "s": "dim",
       "d": "d_2228",
       "type": "statistical",
@@ -89641,9 +91185,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009018",
-      "x": 3347.46,
-      "y": 3729.77,
+      "id": "clm_009339",
+      "x": 3375.21,
+      "y": 3671.39,
       "s": "dim",
       "d": "d_2235",
       "type": "normative",
@@ -89651,9 +91195,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009019",
-      "x": 4719.25,
-      "y": -1847.57,
+      "id": "clm_009340",
+      "x": 4713.9,
+      "y": -1787.57,
       "s": "dim",
       "d": "d_2236",
       "type": "normative",
@@ -89661,9 +91205,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009020",
-      "x": -4143.1,
-      "y": 826.31,
+      "id": "clm_009341",
+      "x": -4038.66,
+      "y": 775.92,
       "s": "dim",
       "d": "d_1236",
       "type": "other",
@@ -89671,9 +91215,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009021",
-      "x": 1746.65,
-      "y": -3625.45,
+      "id": "clm_009342",
+      "x": 1800.0,
+      "y": -3608.24,
       "s": "dim",
       "d": "d_1405",
       "type": "statistical",
@@ -89681,9 +91225,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009022",
-      "x": -4314.77,
-      "y": 1971.76,
+      "id": "clm_009343",
+      "x": -4290.58,
+      "y": 1952.22,
       "s": "dim",
       "d": "d_2237",
       "type": "descriptive",
@@ -89691,29 +91235,29 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009023",
-      "x": -2543.59,
-      "y": 3900.44,
+      "id": "clm_009344",
+      "x": -3230.56,
+      "y": -3322.78,
       "s": "dim",
-      "d": "d_2226",
+      "d": "d_2242",
       "type": "statistical",
       "text": "Evidence 2: Training on coding/reasoning-only dataset also brings out the broad SFT behaviors",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009024",
-      "x": 2203.7,
-      "y": 3563.0,
+      "id": "clm_009345",
+      "x": -3285.87,
+      "y": -3320.59,
       "s": "dim",
-      "d": "d_1564",
+      "d": "d_2242",
       "type": "other",
       "text": "Experiment Setup: Instead of removing documents, we retrain the LoRA adapter from the midtrain base model on one slice of Dolci-Think-SFT da",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009025",
-      "x": 719.06,
-      "y": 434.37,
+      "id": "clm_009346",
+      "x": 690.93,
+      "y": 326.07,
       "s": "dim",
       "d": "d_036",
       "type": "other",
@@ -89721,19 +91265,19 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009026",
-      "x": 4710.38,
-      "y": -1854.3,
+      "id": "clm_009347",
+      "x": -2847.56,
+      "y": 3936.15,
       "s": "dim",
-      "d": "d_2236",
+      "d": "d_2240",
       "type": "other",
       "text": "Surprisingly, we see that all behaviors arise when we narrowly fine-tune the OLMo mid-train on just the coding/reasoning dataset.",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009027",
-      "x": 819.08,
-      "y": 5056.57,
+      "id": "clm_009348",
+      "x": 779.23,
+      "y": 5055.62,
       "s": "dim",
       "d": "d_2238",
       "type": "descriptive",
@@ -89741,9 +91285,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009028",
-      "x": 741.45,
-      "y": 4941.55,
+      "id": "clm_009349",
+      "x": 737.25,
+      "y": 4864.0,
       "s": "dim",
       "d": "d_2234",
       "type": "descriptive",
@@ -89751,9 +91295,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009029",
-      "x": -2602.01,
-      "y": 3891.42,
+      "id": "clm_009350",
+      "x": -2510.93,
+      "y": 3879.9,
       "s": "dim",
       "d": "d_2226",
       "type": "descriptive",
@@ -89761,9 +91305,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009030",
-      "x": 5143.85,
-      "y": 1268.33,
+      "id": "clm_009351",
+      "x": 5125.66,
+      "y": 1204.72,
       "s": "dim",
       "d": "d_2239",
       "type": "statistical",
@@ -89771,9 +91315,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009031",
-      "x": 5095.95,
-      "y": 1219.22,
+      "id": "clm_009352",
+      "x": 5135.74,
+      "y": 1293.8,
       "s": "dim",
       "d": "d_2239",
       "type": "statistical",
@@ -89781,9 +91325,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009032",
-      "x": 1057.98,
-      "y": 5000.11,
+      "id": "clm_009353",
+      "x": 1052.21,
+      "y": 5018.31,
       "s": "dim",
       "d": "d_2192",
       "type": "statistical",
@@ -89791,9 +91335,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009033",
-      "x": 753.52,
-      "y": 5085.11,
+      "id": "clm_009354",
+      "x": 792.64,
+      "y": 5100.21,
       "s": "dim",
       "d": "d_2238",
       "type": "descriptive",
@@ -89801,9 +91345,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009034",
-      "x": -1752.92,
-      "y": -1701.26,
+      "id": "clm_009355",
+      "x": -1745.07,
+      "y": -1697.92,
       "s": "dim",
       "d": "d_588",
       "type": "descriptive",
@@ -89811,9 +91355,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009035",
-      "x": 806.23,
-      "y": 5106.61,
+      "id": "clm_009356",
+      "x": 734.21,
+      "y": 5063.87,
       "s": "dim",
       "d": "d_2238",
       "type": "historical",
@@ -89821,9 +91365,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009036",
-      "x": -2607.14,
-      "y": 3894.56,
+      "id": "clm_009357",
+      "x": -2502.04,
+      "y": 3849.3,
       "s": "dim",
       "d": "d_2226",
       "type": "causal",
@@ -89831,9 +91375,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009037",
-      "x": 536.6,
-      "y": -2945.41,
+      "id": "clm_009358",
+      "x": 568.58,
+      "y": -2972.08,
       "s": "dim",
       "d": "d_789",
       "type": "descriptive",
@@ -89841,9 +91385,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009038",
-      "x": 779.53,
-      "y": 4943.63,
+      "id": "clm_009359",
+      "x": 793.47,
+      "y": 4870.92,
       "s": "dim",
       "d": "d_2234",
       "type": "historical",
@@ -89851,9 +91395,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009039",
-      "x": -2606.84,
-      "y": 3909.19,
+      "id": "clm_009360",
+      "x": -2524.11,
+      "y": 3881.86,
       "s": "dim",
       "d": "d_2226",
       "type": "descriptive",
@@ -89861,9 +91405,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009040",
-      "x": -3850.27,
-      "y": 3186.38,
+      "id": "clm_009361",
+      "x": -3802.79,
+      "y": 3120.03,
       "s": "dim",
       "d": "d_2229",
       "type": "descriptive",
@@ -89871,9 +91415,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009041",
-      "x": -1577.35,
-      "y": 3326.7,
+      "id": "clm_009362",
+      "x": -1516.89,
+      "y": 3371.87,
       "s": "dim",
       "d": "d_1985",
       "type": "causal",
@@ -89881,9 +91425,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009042",
-      "x": -2899.71,
-      "y": 3935.79,
+      "id": "clm_009363",
+      "x": -2933.09,
+      "y": 3937.11,
       "s": "dim",
       "d": "d_2240",
       "type": "statistical",
@@ -89891,9 +91435,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009043",
-      "x": 3768.71,
-      "y": -3156.85,
+      "id": "clm_009364",
+      "x": 3771.37,
+      "y": -3139.91,
       "s": "dim",
       "d": "d_2241",
       "type": "statistical",
@@ -89901,9 +91445,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009044",
-      "x": -4083.29,
-      "y": 852.88,
+      "id": "clm_009365",
+      "x": -3970.62,
+      "y": 948.12,
       "s": "dim",
       "d": "d_1236",
       "type": "descriptive",
@@ -89911,9 +91455,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009045",
-      "x": -3293.97,
-      "y": -3324.13,
+      "id": "clm_009366",
+      "x": -3191.25,
+      "y": -3313.72,
       "s": "dim",
       "d": "d_2242",
       "type": "statistical",
@@ -89921,9 +91465,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009046",
-      "x": -210.2,
-      "y": 3978.25,
+      "id": "clm_009367",
+      "x": -211.28,
+      "y": 4028.24,
       "s": "dim",
       "d": "d_1565",
       "type": "statistical",
@@ -89931,9 +91475,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009047",
-      "x": 1831.57,
-      "y": -3641.05,
+      "id": "clm_009368",
+      "x": 1760.63,
+      "y": -3630.29,
       "s": "dim",
       "d": "d_1405",
       "type": "other",
@@ -89941,9 +91485,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009048",
-      "x": 800.52,
-      "y": 5252.77,
+      "id": "clm_009369",
+      "x": 769.15,
+      "y": 5224.82,
       "s": "dim",
       "d": "d_2243",
       "type": "statistical",
@@ -89951,9 +91495,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009049",
-      "x": 821.11,
-      "y": 5203.08,
+      "id": "clm_009370",
+      "x": 757.88,
+      "y": 5202.22,
       "s": "dim",
       "d": "d_2243",
       "type": "statistical",
@@ -89961,9 +91505,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009050",
-      "x": 542.86,
-      "y": -2911.6,
+      "id": "clm_009371",
+      "x": 601.12,
+      "y": -2957.2,
       "s": "dim",
       "d": "d_789",
       "type": "descriptive",
@@ -89971,9 +91515,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009051",
-      "x": -4593.63,
-      "y": 2235.48,
+      "id": "clm_009372",
+      "x": -4550.55,
+      "y": 2217.46,
       "s": "dim",
       "d": "d_2227",
       "type": "statistical",
@@ -89981,9 +91525,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009052",
-      "x": 4669.69,
-      "y": -1794.57,
+      "id": "clm_009373",
+      "x": 4633.53,
+      "y": -1870.12,
       "s": "dim",
       "d": "d_2236",
       "type": "descriptive",
@@ -89991,9 +91535,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009053",
-      "x": 936.88,
-      "y": 5156.53,
+      "id": "clm_009374",
+      "x": 952.93,
+      "y": 5209.49,
       "s": "dim",
       "d": "d_2244",
       "type": "statistical",
@@ -90001,9 +91545,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009054",
-      "x": -1528.86,
-      "y": 3365.94,
+      "id": "clm_009375",
+      "x": -1526.56,
+      "y": 3397.74,
       "s": "dim",
       "d": "d_1985",
       "type": "normative",
@@ -90011,9 +91555,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009055",
-      "x": -4884.5,
-      "y": -846.96,
+      "id": "clm_009376",
+      "x": -4888.01,
+      "y": -799.43,
       "s": "dim",
       "d": "d_2245",
       "type": "statistical",
@@ -90021,9 +91565,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009056",
-      "x": -1568.46,
-      "y": 3408.18,
+      "id": "clm_009377",
+      "x": -1511.07,
+      "y": 3366.67,
       "s": "dim",
       "d": "d_1985",
       "type": "descriptive",
@@ -90031,9 +91575,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009057",
-      "x": -177.18,
-      "y": 1227.67,
+      "id": "clm_009378",
+      "x": -323.31,
+      "y": 1271.96,
       "s": "dim",
       "d": "d_146",
       "type": "other",
@@ -90041,19 +91585,19 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009058",
-      "x": -1711.92,
-      "y": -3542.39,
+      "id": "clm_009379",
+      "x": -2080.74,
+      "y": -4370.01,
       "s": "dim",
-      "d": "d_1268",
+      "d": "d_2246",
       "type": "descriptive",
       "text": "Prefill “Okay”: We prefill the thinking trace with “Okay, “, which is a common start for most mid-train thinking traces.",
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009059",
-      "x": -1975.94,
-      "y": -2499.45,
+      "id": "clm_009380",
+      "x": -1864.02,
+      "y": -2463.35,
       "s": "dim",
       "d": "d_772",
       "type": "descriptive",
@@ -90061,9 +91605,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009060",
-      "x": -107.57,
-      "y": 1350.33,
+      "id": "clm_009381",
+      "x": -49.43,
+      "y": 1294.97,
       "s": "dim",
       "d": "d_124",
       "type": "statistical",
@@ -90071,9 +91615,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009061",
-      "x": -143.68,
-      "y": 1665.72,
+      "id": "clm_009382",
+      "x": -118.19,
+      "y": 1635.69,
       "s": "dim",
       "d": "d_166",
       "type": "statistical",
@@ -90081,9 +91625,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009062",
-      "x": 3327.06,
-      "y": 2354.7,
+      "id": "clm_009383",
+      "x": 3310.98,
+      "y": 2363.21,
       "s": "dim",
       "d": "d_1410",
       "type": "statistical",
@@ -90091,9 +91635,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009063",
-      "x": -2872.12,
-      "y": 3946.62,
+      "id": "clm_009384",
+      "x": -2917.22,
+      "y": 3955.32,
       "s": "dim",
       "d": "d_2240",
       "type": "statistical",
@@ -90101,9 +91645,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009064",
-      "x": -1692.89,
-      "y": -3610.84,
+      "id": "clm_009385",
+      "x": -1795.42,
+      "y": -3536.16,
       "s": "dim",
       "d": "d_1268",
       "type": "other",
@@ -90111,9 +91655,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009065",
-      "x": 750.69,
-      "y": 5027.32,
+      "id": "clm_009386",
+      "x": 753.95,
+      "y": 5039.84,
       "s": "dim",
       "d": "d_2238",
       "type": "descriptive",
@@ -90121,9 +91665,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009066",
-      "x": -2060.05,
-      "y": -4350.78,
+      "id": "clm_009387",
+      "x": -2071.25,
+      "y": -4338.2,
       "s": "dim",
       "d": "d_2246",
       "type": "descriptive",
@@ -90131,9 +91675,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009067",
-      "x": 797.86,
-      "y": 5120.52,
+      "id": "clm_009388",
+      "x": 853.95,
+      "y": 5081.26,
       "s": "dim",
       "d": "d_2238",
       "type": "statistical",
@@ -90141,9 +91685,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009068",
-      "x": 791.46,
-      "y": 4889.63,
+      "id": "clm_009389",
+      "x": 761.14,
+      "y": 4880.9,
       "s": "dim",
       "d": "d_2234",
       "type": "descriptive",
@@ -90151,9 +91695,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009069",
-      "x": -2543.07,
-      "y": 3817.59,
+      "id": "clm_009390",
+      "x": -2612.71,
+      "y": 3910.19,
       "s": "dim",
       "d": "d_2226",
       "type": "descriptive",
@@ -90161,9 +91705,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009070",
-      "x": 758.47,
-      "y": 5076.76,
+      "id": "clm_009391",
+      "x": 777.68,
+      "y": 5116.64,
       "s": "dim",
       "d": "d_2238",
       "type": "descriptive",
@@ -90171,9 +91715,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009071",
-      "x": 693.63,
-      "y": 4933.92,
+      "id": "clm_009392",
+      "x": 764.64,
+      "y": 4904.27,
       "s": "dim",
       "d": "d_2234",
       "type": "historical",
@@ -90181,9 +91725,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009072",
-      "x": 782.68,
-      "y": 4946.59,
+      "id": "clm_009393",
+      "x": 751.87,
+      "y": 4892.74,
       "s": "dim",
       "d": "d_2234",
       "type": "descriptive",
@@ -90191,9 +91735,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009073",
-      "x": -1514.28,
-      "y": 3351.27,
+      "id": "clm_009394",
+      "x": -1564.02,
+      "y": 3430.1,
       "s": "dim",
       "d": "d_1985",
       "type": "descriptive",
@@ -90201,9 +91745,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009074",
-      "x": -4903.33,
-      "y": -840.87,
+      "id": "clm_009395",
+      "x": -4921.59,
+      "y": -808.79,
       "s": "dim",
       "d": "d_2245",
       "type": "historical",
@@ -90211,9 +91755,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009075",
-      "x": 5338.68,
-      "y": -386.8,
+      "id": "clm_009396",
+      "x": 5419.78,
+      "y": -372.77,
       "s": "dim",
       "d": "d_2225",
       "type": "descriptive",
@@ -90221,9 +91765,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009076",
-      "x": 814.51,
-      "y": 5084.51,
+      "id": "clm_009397",
+      "x": 833.44,
+      "y": 5065.31,
       "s": "dim",
       "d": "d_2238",
       "type": "historical",
@@ -90231,9 +91775,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009077",
-      "x": 762.02,
-      "y": 5068.64,
+      "id": "clm_009398",
+      "x": 720.94,
+      "y": 5096.21,
       "s": "dim",
       "d": "d_2238",
       "type": "descriptive",
@@ -90241,9 +91785,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009078",
-      "x": -2793.08,
-      "y": -2966.95,
+      "id": "clm_009399",
+      "x": -2787.84,
+      "y": -3014.68,
       "s": "dim",
       "d": "d_1417",
       "type": "descriptive",
@@ -90251,9 +91795,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009079",
-      "x": -1541.14,
-      "y": 3355.69,
+      "id": "clm_009400",
+      "x": -1539.04,
+      "y": 3395.37,
       "s": "dim",
       "d": "d_1985",
       "type": "descriptive",
@@ -90261,9 +91805,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009080",
-      "x": -2087.1,
-      "y": -4339.61,
+      "id": "clm_009401",
+      "x": -2072.97,
+      "y": -4348.88,
       "s": "dim",
       "d": "d_2246",
       "type": "statistical",
@@ -90271,9 +91815,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009081",
-      "x": 4650.89,
-      "y": -601.43,
+      "id": "clm_009402",
+      "x": 4709.9,
+      "y": -547.68,
       "s": "dim",
       "d": "d_1797",
       "type": "statistical",
@@ -90281,9 +91825,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009082",
-      "x": 2119.16,
-      "y": -4651.57,
+      "id": "clm_009403",
+      "x": 2112.81,
+      "y": -4594.69,
       "s": "dim",
       "d": "d_2232",
       "type": "descriptive",
@@ -90291,9 +91835,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009083",
-      "x": 2023.07,
-      "y": -3544.43,
+      "id": "clm_009404",
+      "x": 2014.03,
+      "y": -3527.48,
       "s": "dim",
       "d": "d_1377",
       "type": "normative",
@@ -90301,9 +91845,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009084",
-      "x": -2862.64,
-      "y": 3955.67,
+      "id": "clm_009405",
+      "x": -2880.91,
+      "y": 3975.31,
       "s": "dim",
       "d": "d_2240",
       "type": "statistical",
@@ -90311,9 +91855,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009085",
-      "x": 5108.41,
-      "y": 1592.29,
+      "id": "clm_009406",
+      "x": 5071.21,
+      "y": 1590.6,
       "s": "dim",
       "d": "d_2247",
       "type": "statistical",
@@ -90321,9 +91865,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009086",
-      "x": 5106.03,
-      "y": 1555.76,
+      "id": "clm_009407",
+      "x": 5145.04,
+      "y": 1603.49,
       "s": "dim",
       "d": "d_2247",
       "type": "statistical",
@@ -90331,9 +91875,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009087",
-      "x": 5086.9,
-      "y": 1607.5,
+      "id": "clm_009408",
+      "x": 5073.53,
+      "y": 1605.23,
       "s": "dim",
       "d": "d_2247",
       "type": "statistical",
@@ -90341,9 +91885,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009088",
-      "x": 5110.87,
-      "y": 1589.41,
+      "id": "clm_009409",
+      "x": 5107.16,
+      "y": 1561.53,
       "s": "dim",
       "d": "d_2247",
       "type": "statistical",
@@ -90351,9 +91895,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009089",
-      "x": 5066.67,
-      "y": 1571.46,
+      "id": "clm_009410",
+      "x": 5117.63,
+      "y": 1544.83,
       "s": "dim",
       "d": "d_2247",
       "type": "statistical",
@@ -90361,9 +91905,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009090",
-      "x": 5062.07,
-      "y": 1594.12,
+      "id": "clm_009411",
+      "x": 5118.7,
+      "y": 1638.4,
       "s": "dim",
       "d": "d_2247",
       "type": "statistical",
@@ -90371,9 +91915,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009091",
-      "x": -2893.13,
-      "y": 3976.43,
+      "id": "clm_009412",
+      "x": -2886.73,
+      "y": 3970.26,
       "s": "dim",
       "d": "d_2240",
       "type": "statistical",
@@ -90381,9 +91925,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009092",
-      "x": 5142.23,
-      "y": 1560.77,
+      "id": "clm_009413",
+      "x": 5145.05,
+      "y": 1520.04,
       "s": "dim",
       "d": "d_2247",
       "type": "statistical",
@@ -90391,9 +91935,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009093",
-      "x": 5098.85,
-      "y": 1509.54,
+      "id": "clm_009414",
+      "x": 5093.41,
+      "y": 1598.13,
       "s": "dim",
       "d": "d_2247",
       "type": "statistical",
@@ -90401,9 +91945,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009094",
-      "x": 5123.19,
-      "y": 1641.26,
+      "id": "clm_009415",
+      "x": 5150.47,
+      "y": 1597.42,
       "s": "dim",
       "d": "d_2247",
       "type": "statistical",
@@ -90411,9 +91955,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009095",
-      "x": 5452.48,
-      "y": -132.43,
+      "id": "clm_009416",
+      "x": 5447.3,
+      "y": -167.68,
       "s": "dim",
       "d": "d_2233",
       "type": "statistical",
@@ -90421,9 +91965,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009096",
-      "x": -85.2,
-      "y": 98.36,
+      "id": "clm_009417",
+      "x": -21.32,
+      "y": 174.85,
       "s": "dim",
       "d": "d_011",
       "type": "descriptive",
@@ -90431,9 +91975,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009097",
-      "x": 3478.5,
-      "y": -3584.63,
+      "id": "clm_009418",
+      "x": 3485.74,
+      "y": -3655.09,
       "s": "dim",
       "d": "d_2248",
       "type": "statistical",
@@ -90441,9 +91985,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009098",
-      "x": 5364.62,
-      "y": -147.07,
+      "id": "clm_009419",
+      "x": 5382.76,
+      "y": -194.76,
       "s": "dim",
       "d": "d_2233",
       "type": "descriptive",
@@ -90451,9 +91995,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009099",
-      "x": 3263.44,
-      "y": -2438.32,
+      "id": "clm_009420",
+      "x": 3270.76,
+      "y": -2491.8,
       "s": "dim",
       "d": "d_1523",
       "type": "descriptive",
@@ -90461,9 +92005,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009100",
-      "x": -2854.57,
-      "y": 3913.49,
+      "id": "clm_009421",
+      "x": -2947.57,
+      "y": 3923.5,
       "s": "dim",
       "d": "d_2240",
       "type": "statistical",
@@ -90471,9 +92015,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009101",
-      "x": -4926.37,
-      "y": -808.72,
+      "id": "clm_009422",
+      "x": -4902.4,
+      "y": -871.94,
       "s": "dim",
       "d": "d_2245",
       "type": "statistical",
@@ -90481,9 +92025,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009102",
-      "x": -42.17,
-      "y": 2751.5,
+      "id": "clm_009423",
+      "x": -20.09,
+      "y": 2755.51,
       "s": "dim",
       "d": "d_615",
       "type": "statistical",
@@ -90491,9 +92035,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009103",
-      "x": 3342.09,
-      "y": 3693.27,
+      "id": "clm_009424",
+      "x": 3406.53,
+      "y": 3679.78,
       "s": "dim",
       "d": "d_2235",
       "type": "descriptive",
@@ -90501,9 +92045,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009104",
-      "x": 4415.7,
-      "y": 2304.43,
+      "id": "clm_009425",
+      "x": 4439.25,
+      "y": 2264.06,
       "s": "dim",
       "d": "d_2013",
       "type": "descriptive",
@@ -90511,9 +92055,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009105",
-      "x": -40.98,
-      "y": 2777.17,
+      "id": "clm_009426",
+      "x": -20.5,
+      "y": 2798.18,
       "s": "dim",
       "d": "d_615",
       "type": "descriptive",
@@ -90521,9 +92065,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009106",
-      "x": 2741.69,
-      "y": 3441.23,
+      "id": "clm_009427",
+      "x": 2687.1,
+      "y": 3442.99,
       "s": "dim",
       "d": "d_1830",
       "type": "statistical",
@@ -90531,9 +92075,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009107",
-      "x": -3422.84,
-      "y": -3306.66,
+      "id": "clm_009428",
+      "x": -3355.25,
+      "y": -3245.75,
       "s": "dim",
       "d": "d_2167",
       "type": "descriptive",
@@ -90541,9 +92085,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009108",
-      "x": -3411.64,
-      "y": -3249.11,
+      "id": "clm_009429",
+      "x": -3418.55,
+      "y": -3211.73,
       "s": "dim",
       "d": "d_2167",
       "type": "statistical",
@@ -90551,9 +92095,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009109",
-      "x": 4815.13,
-      "y": -1507.19,
+      "id": "clm_009430",
+      "x": 4751.79,
+      "y": -1459.33,
       "s": "dim",
       "d": "d_2081",
       "type": "statistical",
@@ -90561,9 +92105,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009110",
-      "x": -3396.22,
-      "y": -3226.73,
+      "id": "clm_009431",
+      "x": -3368.9,
+      "y": -3283.33,
       "s": "dim",
       "d": "d_2167",
       "type": "descriptive",
@@ -90571,9 +92115,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009111",
-      "x": 5046.24,
-      "y": 984.27,
+      "id": "clm_009432",
+      "x": 4977.92,
+      "y": 1023.9,
       "s": "dim",
       "d": "d_2100",
       "type": "descriptive",
@@ -90581,9 +92125,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009112",
-      "x": 786.97,
-      "y": 4855.85,
+      "id": "clm_009433",
+      "x": 733.73,
+      "y": 4868.71,
       "s": "dim",
       "d": "d_2234",
       "type": "descriptive",
@@ -90591,9 +92135,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009113",
-      "x": -314.66,
-      "y": -1250.39,
+      "id": "clm_009434",
+      "x": -198.25,
+      "y": -1311.79,
       "s": "dim",
       "d": "d_187",
       "type": "statistical",
@@ -90601,9 +92145,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009114",
-      "x": -4886.53,
-      "y": -805.37,
+      "id": "clm_009435",
+      "x": -4897.9,
+      "y": -799.99,
       "s": "dim",
       "d": "d_2245",
       "type": "statistical",
@@ -90611,9 +92155,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009115",
-      "x": 2803.54,
-      "y": 4053.72,
+      "id": "clm_009436",
+      "x": 2860.91,
+      "y": 4008.68,
       "s": "dim",
       "d": "d_1979",
       "type": "statistical",
@@ -90621,9 +92165,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009116",
-      "x": 2125.92,
-      "y": -4591.29,
+      "id": "clm_009437",
+      "x": 2075.65,
+      "y": -4605.97,
       "s": "dim",
       "d": "d_2232",
       "type": "descriptive",
@@ -90631,9 +92175,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009117",
-      "x": -4525.25,
-      "y": 855.24,
+      "id": "clm_009438",
+      "x": -4593.42,
+      "y": 821.77,
       "s": "dim",
       "d": "d_1545",
       "type": "descriptive",
@@ -90641,9 +92185,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009118",
-      "x": 504.23,
-      "y": -210.88,
+      "id": "clm_009439",
+      "x": 549.44,
+      "y": -220.74,
       "s": "dim",
       "d": "d_034",
       "type": "descriptive",
@@ -90651,9 +92195,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009119",
-      "x": 3990.06,
-      "y": -1587.48,
+      "id": "clm_009440",
+      "x": 3991.5,
+      "y": -1537.71,
       "s": "dim",
       "d": "d_1585",
       "type": "descriptive",
@@ -90661,9 +92205,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009120",
-      "x": 4277.33,
-      "y": -2551.08,
+      "id": "clm_009441",
+      "x": 4228.92,
+      "y": -2577.97,
       "s": "dim",
       "d": "d_2228",
       "type": "descriptive",
@@ -90671,9 +92215,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009121",
-      "x": 4254.19,
-      "y": -2521.78,
+      "id": "clm_009442",
+      "x": 4311.16,
+      "y": -2548.76,
       "s": "dim",
       "d": "d_2228",
       "type": "statistical",
@@ -90681,9 +92225,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009122",
-      "x": 2781.91,
-      "y": -3960.97,
+      "id": "clm_009443",
+      "x": 2785.18,
+      "y": -3970.2,
       "s": "dim",
       "d": "d_2249",
       "type": "statistical",
@@ -90691,9 +92235,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009123",
-      "x": 2747.19,
-      "y": -4020.8,
+      "id": "clm_009444",
+      "x": 2738.39,
+      "y": -4002.44,
       "s": "dim",
       "d": "d_2249",
       "type": "statistical",
@@ -90701,9 +92245,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009124",
-      "x": 4257.08,
-      "y": -2627.08,
+      "id": "clm_009445",
+      "x": 4276.17,
+      "y": -2555.11,
       "s": "dim",
       "d": "d_2228",
       "type": "statistical",
@@ -90711,9 +92255,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009125",
-      "x": -3410.17,
-      "y": -3434.84,
+      "id": "clm_009446",
+      "x": -3379.64,
+      "y": -3492.59,
       "s": "dim",
       "d": "d_2250",
       "type": "statistical",
@@ -90721,9 +92265,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009126",
-      "x": -1500.85,
-      "y": 3339.69,
+      "id": "clm_009447",
+      "x": -1540.73,
+      "y": 3435.43,
       "s": "dim",
       "d": "d_1985",
       "type": "descriptive",
@@ -90731,9 +92275,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009127",
-      "x": -4206.61,
-      "y": 1641.46,
+      "id": "clm_009448",
+      "x": -4252.39,
+      "y": 1668.89,
       "s": "dim",
       "d": "d_1778",
       "type": "normative",
@@ -90741,9 +92285,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009128",
-      "x": 2149.27,
-      "y": 283.9,
+      "id": "clm_009449",
+      "x": 2179.89,
+      "y": 344.0,
       "s": "dim",
       "d": "d_492",
       "type": "legal",
@@ -90751,9 +92295,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009129",
-      "x": 3840.53,
-      "y": -3439.75,
+      "id": "clm_009450",
+      "x": 3829.29,
+      "y": -3406.27,
       "s": "dim",
       "d": "d_2251",
       "type": "statistical",
@@ -90761,9 +92305,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009130",
-      "x": 3832.48,
-      "y": -3421.04,
+      "id": "clm_009451",
+      "x": 3843.67,
+      "y": -3396.97,
       "s": "dim",
       "d": "d_2251",
       "type": "descriptive",
@@ -90771,9 +92315,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009131",
-      "x": 507.72,
-      "y": -175.64,
+      "id": "clm_009452",
+      "x": 439.11,
+      "y": -156.93,
       "s": "dim",
       "d": "d_034",
       "type": "descriptive",
@@ -90781,9 +92325,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009132",
-      "x": -2568.34,
-      "y": 3874.79,
+      "id": "clm_009453",
+      "x": -2499.9,
+      "y": 3931.62,
       "s": "dim",
       "d": "d_2226",
       "type": "descriptive",
@@ -90791,9 +92335,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009133",
-      "x": 4798.24,
-      "y": -1669.15,
+      "id": "clm_009454",
+      "x": 4810.84,
+      "y": -1635.2,
       "s": "dim",
       "d": "d_2252",
       "type": "statistical",
@@ -90801,9 +92345,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009134",
-      "x": -342.61,
-      "y": 1351.43,
+      "id": "clm_009455",
+      "x": -379.66,
+      "y": 1400.56,
       "s": "dim",
       "d": "d_150",
       "type": "normative",
@@ -90811,9 +92355,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009135",
-      "x": -3453.09,
-      "y": -2680.62,
+      "id": "clm_009456",
+      "x": -3421.61,
+      "y": -2724.84,
       "s": "dim",
       "d": "d_2253",
       "type": "descriptive",
@@ -90821,9 +92365,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009136",
-      "x": 1174.83,
-      "y": 3623.08,
+      "id": "clm_009457",
+      "x": 1220.63,
+      "y": 3590.04,
       "s": "dim",
       "d": "d_1364",
       "type": "descriptive",
@@ -90831,9 +92375,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009137",
-      "x": 4306.61,
-      "y": 1504.77,
+      "id": "clm_009458",
+      "x": 4326.97,
+      "y": 1419.96,
       "s": "dim",
       "d": "d_1626",
       "type": "statistical",
@@ -90841,9 +92385,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009138",
-      "x": -3896.45,
-      "y": 1889.75,
+      "id": "clm_009459",
+      "x": -3858.42,
+      "y": 1894.07,
       "s": "dim",
       "d": "d_1425",
       "type": "descriptive",
@@ -90851,9 +92395,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009139",
-      "x": -3222.23,
-      "y": -3565.67,
+      "id": "clm_009460",
+      "x": -3291.03,
+      "y": -3554.03,
       "s": "dim",
       "d": "d_2254",
       "type": "statistical",
@@ -90861,9 +92405,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009140",
-      "x": 2965.38,
-      "y": 4254.29,
+      "id": "clm_009461",
+      "x": 2980.25,
+      "y": 4213.38,
       "s": "dim",
       "d": "d_2255",
       "type": "statistical",
@@ -90871,9 +92415,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009141",
-      "x": 5083.67,
-      "y": 1419.58,
+      "id": "clm_009462",
+      "x": 5038.28,
+      "y": 1412.29,
       "s": "dim",
       "d": "d_2256",
       "type": "statistical",
@@ -90881,9 +92425,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009142",
-      "x": 3293.47,
-      "y": 4182.47,
+      "id": "clm_009463",
+      "x": 3283.77,
+      "y": 4135.43,
       "s": "dim",
       "d": "d_2257",
       "type": "statistical",
@@ -90891,9 +92435,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009143",
-      "x": 3287.54,
-      "y": 4182.75,
+      "id": "clm_009464",
+      "x": 3272.64,
+      "y": 4198.4,
       "s": "dim",
       "d": "d_2257",
       "type": "statistical",
@@ -90901,9 +92445,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009144",
-      "x": 5239.94,
-      "y": 1394.81,
+      "id": "clm_009465",
+      "x": 5269.83,
+      "y": 1405.46,
       "s": "dim",
       "d": "d_2258",
       "type": "statistical",
@@ -90911,9 +92455,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009145",
-      "x": -2547.97,
-      "y": -758.04,
+      "id": "clm_009466",
+      "x": -2557.7,
+      "y": -721.52,
       "s": "dim",
       "d": "d_692",
       "type": "statistical",
@@ -90921,9 +92465,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009146",
-      "x": 817.24,
-      "y": 5181.37,
+      "id": "clm_009467",
+      "x": 818.84,
+      "y": 5284.96,
       "s": "dim",
       "d": "d_2243",
       "type": "statistical",
@@ -90931,9 +92475,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009147",
-      "x": 2202.87,
-      "y": 813.86,
+      "id": "clm_009468",
+      "x": 2239.32,
+      "y": 868.89,
       "s": "dim",
       "d": "d_562",
       "type": "descriptive",
@@ -90941,9 +92485,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009148",
-      "x": -2264.99,
-      "y": -4436.94,
+      "id": "clm_009469",
+      "x": -2248.28,
+      "y": -4445.49,
       "s": "dim",
       "d": "d_2259",
       "type": "descriptive",
@@ -90951,9 +92495,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009149",
-      "x": -2597.56,
-      "y": 3902.66,
+      "id": "clm_009470",
+      "x": -2616.9,
+      "y": 3941.5,
       "s": "dim",
       "d": "d_2226",
       "type": "descriptive",
@@ -90961,9 +92505,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009150",
-      "x": -25.36,
-      "y": 640.43,
+      "id": "clm_009471",
+      "x": 16.79,
+      "y": 623.96,
       "s": "dim",
       "d": "d_022",
       "type": "descriptive",
@@ -90971,9 +92515,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009151",
-      "x": 121.57,
-      "y": 5263.99,
+      "id": "clm_009472",
+      "x": 133.78,
+      "y": 5260.0,
       "s": "dim",
       "d": "d_2260",
       "type": "descriptive",
@@ -90981,9 +92525,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009152",
-      "x": 5413.94,
-      "y": -127.15,
+      "id": "clm_009473",
+      "x": 5433.83,
+      "y": -201.92,
       "s": "dim",
       "d": "d_2233",
       "type": "statistical",
@@ -90991,9 +92535,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009153",
-      "x": 5431.63,
-      "y": -214.9,
+      "id": "clm_009474",
+      "x": 5400.23,
+      "y": -224.01,
       "s": "dim",
       "d": "d_2233",
       "type": "descriptive",
@@ -91001,9 +92545,9 @@
       "src": "Data filtering works a lot worse than yo"
     },
     {
-      "id": "clm_009154",
-      "x": -3721.35,
-      "y": 2895.23,
+      "id": "clm_009475",
+      "x": -3712.59,
+      "y": 2966.02,
       "s": "dim",
       "d": "d_2261",
       "type": "historical",
