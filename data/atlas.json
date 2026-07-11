@@ -1,14 +1,14 @@
 {
-  "generated_run": "29073330793",
+  "generated_run": "29141110844",
   "extent": {
     "w": 1000,
     "h": 1000
   },
   "bounds": {
-    "x0": -5809.08,
-    "y0": -5859.79,
-    "x1": 6065.79,
-    "y1": 6048.55
+    "x0": -5823.72,
+    "y0": -5868.58,
+    "x1": 6278.05,
+    "y1": 6057.34
   },
   "districts": [
     {
@@ -126,10 +126,10 @@
       "label": "Cross-Modal Knowledge Distillation",
       "x": 16.75,
       "y": 169.17,
-      "r": 147.54,
-      "claims": 59,
+      "r": 148.44,
+      "claims": 60,
       "lit": 5,
-      "dim": 54,
+      "dim": 55,
       "tensions": 0
     },
     {
@@ -148,10 +148,10 @@
       "label": "Neural Decoding and Brain-AI",
       "x": -323.23,
       "y": 172.6,
-      "r": 99.4,
-      "claims": 18,
+      "r": 108.59,
+      "claims": 24,
       "lit": 1,
-      "dim": 17,
+      "dim": 23,
       "tensions": 0
     },
     {
@@ -159,21 +159,21 @@
       "label": "Latent Variable and Neural Models",
       "x": 38.33,
       "y": 508.48,
-      "r": 135.98,
-      "claims": 47,
+      "r": 138.99,
+      "claims": 50,
       "lit": 2,
-      "dim": 45,
+      "dim": 48,
       "tensions": 0
     },
     {
       "id": "d_015",
-      "label": "rlhf · standard · reward",
+      "label": "reward · rlhf · standard",
       "x": 428.43,
       "y": 2.45,
-      "r": 86.43,
-      "claims": 11,
+      "r": 88.5,
+      "claims": 12,
       "lit": 0,
-      "dim": 11,
+      "dim": 12,
       "tensions": 0
     },
     {
@@ -214,10 +214,10 @@
       "label": "LLM-Assisted Causal Discovery",
       "x": 188.2,
       "y": -311.15,
-      "r": 88.5,
-      "claims": 12,
+      "r": 90.48,
+      "claims": 13,
       "lit": 0,
-      "dim": 12,
+      "dim": 13,
       "tensions": 0
     },
     {
@@ -291,10 +291,10 @@
       "label": "Multi-Turn Reasoning Failure Modes",
       "x": 407.92,
       "y": 496.41,
-      "r": 115.39,
-      "claims": 29,
+      "r": 116.68,
+      "claims": 30,
       "lit": 6,
-      "dim": 23,
+      "dim": 24,
       "tensions": 0
     },
     {
@@ -324,10 +324,10 @@
       "label": "Multi-Agent LLM Systems",
       "x": -397.22,
       "y": 467.04,
-      "r": 149.34,
-      "claims": 61,
+      "r": 150.24,
+      "claims": 62,
       "lit": 9,
-      "dim": 52,
+      "dim": 53,
       "tensions": 0
     },
     {
@@ -368,10 +368,10 @@
       "label": "Misaligned Agent Detection Systems",
       "x": 828.83,
       "y": 127.06,
-      "r": 96.0,
-      "claims": 16,
+      "r": 99.4,
+      "claims": 18,
       "lit": 4,
-      "dim": 12,
+      "dim": 14,
       "tensions": 0
     },
     {
@@ -420,13 +420,13 @@
     },
     {
       "id": "d_042",
-      "label": "security · persistent · attack",
+      "label": "persistent · security · attack",
       "x": -281.5,
       "y": 623.84,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -445,10 +445,10 @@
       "label": "prediction · predictor · accuracy",
       "x": 210.6,
       "y": 812.49,
-      "r": 128.54,
-      "claims": 40,
+      "r": 129.64,
+      "claims": 41,
       "lit": 0,
-      "dim": 40,
+      "dim": 41,
       "tensions": 0
     },
     {
@@ -874,10 +874,10 @@
       "label": "Compute and Funding Demands",
       "x": -824.05,
       "y": 77.21,
-      "r": 115.39,
-      "claims": 29,
+      "r": 116.68,
+      "claims": 30,
       "lit": 7,
-      "dim": 22,
+      "dim": 23,
       "tensions": 0
     },
     {
@@ -908,9 +908,9 @@
       "x": -1043.49,
       "y": -96.58,
       "r": 170.0,
-      "claims": 114,
+      "claims": 115,
       "lit": 63,
-      "dim": 51,
+      "dim": 52,
       "tensions": 0
     },
     {
@@ -940,10 +940,10 @@
       "label": "AI Consciousness Proxy Problem",
       "x": 335.97,
       "y": -628.7,
-      "r": 74.29,
-      "claims": 6,
+      "r": 82.0,
+      "claims": 9,
       "lit": 1,
-      "dim": 5,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -1091,13 +1091,13 @@
     },
     {
       "id": "d_1018",
-      "label": "afterwards · briefly · revisit",
+      "label": "afterwards · revisit · briefly",
       "x": -2822.25,
       "y": 2044.15,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -1343,6 +1343,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1051",
+      "label": "task · world · rebuilding",
+      "x": -3544.11,
+      "y": 573.56,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1052",
       "label": "Babel Story Theological Interpretation",
       "x": -3308.33,
@@ -1454,13 +1465,13 @@
     },
     {
       "id": "d_1066",
-      "label": "processes · unknown · messy",
+      "label": "processes · physical · computations",
       "x": 3054.37,
       "y": 91.35,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -1916,7 +1927,7 @@
     },
     {
       "id": "d_1118",
-      "label": "interdependent · grow · thanks",
+      "label": "interdependent · thanks · grow",
       "x": -2263.73,
       "y": 3023.35,
       "r": 59.8,
@@ -2040,10 +2051,10 @@
       "label": "Multi-Agent Workflow Scale",
       "x": 2849.76,
       "y": 1674.54,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 1,
-      "dim": 2,
+      "dim": 3,
       "tensions": 1
     },
     {
@@ -2198,6 +2209,17 @@
       "claims": 3,
       "lit": 0,
       "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_1172",
+      "label": "features · key · intertwining",
+      "x": -3295.02,
+      "y": 1728.48,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -2653,7 +2675,7 @@
     },
     {
       "id": "d_1233",
-      "label": "drift · global · representation",
+      "label": "drift · representation · global",
       "x": 3466.88,
       "y": -265.25,
       "r": 64.25,
@@ -2686,13 +2708,13 @@
     },
     {
       "id": "d_1236",
-      "label": "training · data · supervision",
+      "label": "training · data · models",
       "x": -4039.45,
       "y": 856.4,
-      "r": 132.87,
-      "claims": 44,
+      "r": 134.95,
+      "claims": 46,
       "lit": 0,
-      "dim": 44,
+      "dim": 46,
       "tensions": 0
     },
     {
@@ -2766,10 +2788,10 @@
       "label": "reward · hacking · trajectories",
       "x": -3871.07,
       "y": -468.95,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -2909,10 +2931,10 @@
       "label": "Multi-Agent Harness Architectures",
       "x": 725.56,
       "y": 975.31,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 1,
-      "dim": 9,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -3027,7 +3049,7 @@
     },
     {
       "id": "d_1272",
-      "label": "verdicts · operationalizations · compares",
+      "label": "verdicts · operationalizations · rater",
       "x": 1160.12,
       "y": -3212.61,
       "r": 68.0,
@@ -3258,7 +3280,7 @@
     },
     {
       "id": "d_1297",
-      "label": "open · substrate · source",
+      "label": "substrate · open · source",
       "x": -3869.31,
       "y": -163.36,
       "r": 71.3,
@@ -3423,13 +3445,13 @@
     },
     {
       "id": "d_1315",
-      "label": "speech · linguistic · preserve",
+      "label": "speech · syntactic · linguistic",
       "x": 3302.2,
       "y": -135.75,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -3448,10 +3470,10 @@
       "label": "optimal · appliance · optimisation",
       "x": -3381.17,
       "y": -1725.61,
-      "r": 88.5,
-      "claims": 12,
+      "r": 92.38,
+      "claims": 14,
       "lit": 0,
-      "dim": 12,
+      "dim": 14,
       "tensions": 0
     },
     {
@@ -3492,10 +3514,10 @@
       "label": "texture · frame · temporal",
       "x": 3796.72,
       "y": 558.2,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -3555,13 +3577,13 @@
     },
     {
       "id": "d_1329",
-      "label": "probability · probabilities · log",
+      "label": "probabilities · probability · log",
       "x": 3532.67,
       "y": -1110.92,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 0,
-      "dim": 10,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -3745,10 +3767,10 @@
       "label": "Pangram AI Detection Accuracy",
       "x": 1327.95,
       "y": -251.03,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 8,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -3756,10 +3778,10 @@
       "label": "high · chances · ramp",
       "x": -2938.65,
       "y": 2852.2,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -3833,10 +3855,10 @@
       "label": "Positive Model Endorsements",
       "x": -1331.97,
       "y": 752.24,
-      "r": 90.48,
-      "claims": 13,
+      "r": 92.38,
+      "claims": 14,
       "lit": 4,
-      "dim": 9,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -3852,7 +3874,7 @@
     },
     {
       "id": "d_1371",
-      "label": "narayanan · net · arvind",
+      "label": "narayanan · arvind · net",
       "x": -1711.55,
       "y": 3518.63,
       "r": 68.0,
@@ -3954,10 +3976,10 @@
       "label": "normal · font · spacing",
       "x": 3606.53,
       "y": -1423.54,
-      "r": 74.29,
-      "claims": 6,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 6,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -4039,13 +4061,13 @@
     },
     {
       "id": "d_1401",
-      "label": "nice · comfortable · niceness",
+      "label": "nice · dalcy · iclr",
       "x": -3628.97,
       "y": 1859.63,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -4490,7 +4512,7 @@
     },
     {
       "id": "d_1480",
-      "label": "history · compressor · histories",
+      "label": "history · compressor · summarizing",
       "x": -2793.7,
       "y": 3109.27,
       "r": 59.8,
@@ -4724,10 +4746,10 @@
       "label": "realizability · reflection · verification",
       "x": 1446.93,
       "y": 3803.44,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -5175,10 +5197,10 @@
       "label": "high · evaluation · utility",
       "x": 3449.03,
       "y": -1817.01,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -5318,10 +5340,10 @@
       "label": "methods · training · dense",
       "x": -1816.32,
       "y": -1145.12,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -5447,7 +5469,7 @@
     },
     {
       "id": "d_1599",
-      "label": "dominant · mixtures · neurodegenerative",
+      "label": "dominant · neurodegenerative · tac",
       "x": 2738.89,
       "y": -3052.6,
       "r": 59.8,
@@ -5524,13 +5546,13 @@
     },
     {
       "id": "d_1607",
-      "label": "human · 361 · approaching",
+      "label": "human · held · 361",
       "x": 260.58,
       "y": -4088.8,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -5799,13 +5821,13 @@
     },
     {
       "id": "d_1639",
-      "label": "cue · localized · physical",
+      "label": "physical · cue · localized",
       "x": 4393.86,
       "y": -648.01,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -5909,7 +5931,7 @@
     },
     {
       "id": "d_1649",
-      "label": "root · family · sim",
+      "label": "root · sim · family",
       "x": -4212.69,
       "y": 1466.89,
       "r": 79.6,
@@ -6525,7 +6547,7 @@
     },
     {
       "id": "d_1713",
-      "label": "emotion · identified · recognition",
+      "label": "emotion · recognition · identified",
       "x": 3191.4,
       "y": -2171.29,
       "r": 68.0,
@@ -6616,10 +6638,10 @@
       "label": "memory · dependencies · static",
       "x": -1802.33,
       "y": -3958.36,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 0,
-      "dim": 10,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -6631,6 +6653,17 @@
       "claims": 6,
       "lit": 0,
       "dim": 6,
+      "tensions": 0
+    },
+    {
+      "id": "d_1726",
+      "label": "wire · conscious · electrical",
+      "x": 4473.32,
+      "y": 532.54,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -6660,10 +6693,10 @@
       "label": "Epistemic Uncertainty Hedges",
       "x": -901.85,
       "y": 1349.34,
-      "r": 133.91,
-      "claims": 45,
+      "r": 134.95,
+      "claims": 46,
       "lit": 10,
-      "dim": 35,
+      "dim": 36,
       "tensions": 0
     },
     {
@@ -6679,13 +6712,13 @@
     },
     {
       "id": "d_1733",
-      "label": "multi · agent's · challenge",
+      "label": "multi · agent · agent's",
       "x": -1721.09,
       "y": 4326.28,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -6712,13 +6745,13 @@
     },
     {
       "id": "d_1737",
-      "label": "llm · reliability · based",
+      "label": "llm · reliability · outputs",
       "x": 4443.93,
       "y": 1359.24,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -6844,7 +6877,7 @@
     },
     {
       "id": "d_1753",
-      "label": "transformers · symmetries · whereby",
+      "label": "transformers · symmetries · connected",
       "x": -4643.47,
       "y": 1192.41,
       "r": 64.25,
@@ -7305,6 +7338,17 @@
       "tensions": 0
     },
     {
+      "id": "d_1815",
+      "label": "structure · imply · consequently",
+      "x": -4581.41,
+      "y": -359.37,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_1816",
       "label": "entropy · intermediate · transparency",
       "x": -4713.09,
@@ -7430,10 +7474,10 @@
       "label": "theorem · barrier · completeness",
       "x": 1374.42,
       "y": 4158.15,
-      "r": 64.25,
-      "claims": 3,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 3,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -7559,13 +7603,13 @@
     },
     {
       "id": "d_1847",
-      "label": "trajectory · extrapolation · diffusion",
+      "label": "extrapolation · trajectory · diffusion",
       "x": 4162.33,
       "y": 2084.9,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -7614,13 +7658,13 @@
     },
     {
       "id": "d_1856",
-      "label": "complexity · semantic · end",
+      "label": "physics · computation · complexity",
       "x": 4830.07,
       "y": -579.63,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -7903,10 +7947,10 @@
       "label": "programs · cell · reliably",
       "x": 1873.29,
       "y": 3971.66,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -8035,6 +8079,17 @@
       "label": "closed · loop · cortex's",
       "x": -1093.65,
       "y": 4400.04,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_1912",
+      "label": "rewards · exploding · delayed",
+      "x": -607.55,
+      "y": 4571.64,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -8450,7 +8505,7 @@
     },
     {
       "id": "d_1971",
-      "label": "forensics · concrete · technical",
+      "label": "forensics · concrete · model",
       "x": -3185.99,
       "y": 3388.32,
       "r": 64.25,
@@ -8637,7 +8692,7 @@
     },
     {
       "id": "d_1998",
-      "label": "normally · failed · importantly",
+      "label": "normally · importantly · failed",
       "x": 2256.75,
       "y": 4168.37,
       "r": 64.25,
@@ -8670,7 +8725,7 @@
     },
     {
       "id": "d_2002",
-      "label": "catch · blocked · ton",
+      "label": "catch · ton · blocked",
       "x": 3952.99,
       "y": 3267.16,
       "r": 64.25,
@@ -8978,13 +9033,13 @@
     },
     {
       "id": "d_2048",
-      "label": "woff · font · mjx",
+      "label": "woff · mjx · font",
       "x": 4029.38,
       "y": 2661.68,
       "r": 170.0,
-      "claims": 197,
+      "claims": 338,
       "lit": 0,
-      "dim": 197,
+      "dim": 338,
       "tensions": 0
     },
     {
@@ -8992,10 +9047,10 @@
       "label": "mjx · padding · content",
       "x": -4143.71,
       "y": 2373.63,
-      "r": 139.98,
-      "claims": 51,
+      "r": 170.0,
+      "claims": 100,
       "lit": 0,
-      "dim": 51,
+      "dim": 100,
       "tensions": 0
     },
     {
@@ -9014,10 +9069,10 @@
       "label": "overflow · clip · visible",
       "x": 5029.45,
       "y": -530.19,
-      "r": 64.25,
-      "claims": 3,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 3,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -9352,7 +9407,7 @@
     },
     {
       "id": "d_2101",
-      "label": "dice · achieves · dataset",
+      "label": "dice · dataset · achieves",
       "x": -1051.29,
       "y": 4807.09,
       "r": 59.8,
@@ -9396,7 +9451,7 @@
     },
     {
       "id": "d_2107",
-      "label": "world · real · powered",
+      "label": "real · world · powered",
       "x": 4511.63,
       "y": 2466.01,
       "r": 59.8,
@@ -9407,13 +9462,13 @@
     },
     {
       "id": "d_2108",
-      "label": "standard · benchmark · trained",
+      "label": "data · standard · benchmark",
       "x": 543.92,
       "y": 4758.68,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -9520,10 +9575,10 @@
       "label": "brain · search · between",
       "x": -2160.55,
       "y": 4489.01,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -9531,10 +9586,21 @@
       "label": "isomorphism · output · finding",
       "x": 2903.05,
       "y": -3920.27,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
+      "tensions": 0
+    },
+    {
+      "id": "d_2124",
+      "label": "worth · site · exceptions",
+      "x": 3936.35,
+      "y": -2923.43,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -9561,13 +9627,24 @@
     },
     {
       "id": "d_2131",
-      "label": "grams · swaps · isomorphisms",
+      "label": "competent · isomorphism · task",
       "x": 1038.77,
       "y": 4306.66,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
+      "tensions": 0
+    },
+    {
+      "id": "d_2132",
+      "label": "toy · simple · illustration",
+      "x": -1038.33,
+      "y": 4970.42,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -9597,10 +9674,10 @@
       "label": "agent · algorithm · they're",
       "x": 2753.8,
       "y": -3560.87,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -9648,6 +9725,17 @@
       "tensions": 0
     },
     {
+      "id": "d_2143",
+      "label": "impossible · well · communicate",
+      "x": -366.98,
+      "y": 5192.89,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
       "id": "d_2144",
       "label": "box · flips · two",
       "x": 1135.27,
@@ -9685,21 +9773,21 @@
       "label": "company · extortionist · bears",
       "x": 4199.33,
       "y": -1612.53,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
       "id": "d_2151",
-      "label": "game · theory · honour",
+      "label": "theory · game · honour",
       "x": 4507.28,
       "y": -1758.85,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -9821,6 +9909,17 @@
       "claims": 3,
       "lit": 0,
       "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_2186",
+      "label": "agent · contracts · mile",
+      "x": 3148.39,
+      "y": 4254.45,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -10078,7 +10177,7 @@
     },
     {
       "id": "d_2230",
-      "label": "blue · purple · yellow",
+      "label": "blue · purple · takeaway",
       "x": -1429.22,
       "y": -4664.67,
       "r": 59.8,
@@ -10441,7 +10540,7 @@
     },
     {
       "id": "d_2278",
-      "label": "infrequent · nearby · reconstructor",
+      "label": "infrequent · reconstructor · relate",
       "x": 5184.66,
       "y": -1369.2,
       "r": 59.8,
@@ -10518,7 +10617,7 @@
     },
     {
       "id": "d_2288",
-      "label": "jumping · off · point",
+      "label": "jumping · point · off",
       "x": 4436.67,
       "y": 2986.83,
       "r": 74.29,
@@ -10606,7 +10705,7 @@
     },
     {
       "id": "d_2296",
-      "label": "pruning · encyclopedic · older",
+      "label": "pruning · encyclopedic · princesses",
       "x": -4576.0,
       "y": -1584.66,
       "r": 59.8,
@@ -10661,13 +10760,13 @@
     },
     {
       "id": "d_2300",
-      "label": "function · reward · cheat",
+      "label": "reward · function · cheat",
       "x": 5121.0,
       "y": -991.99,
-      "r": 74.29,
-      "claims": 6,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 6,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -10752,10 +10851,10 @@
       "label": "reward · approval · sympathy",
       "x": 5193.63,
       "y": -859.62,
-      "r": 88.5,
-      "claims": 12,
+      "r": 90.48,
+      "claims": 13,
       "lit": 0,
-      "dim": 12,
+      "dim": 13,
       "tensions": 0
     },
     {
@@ -10873,10 +10972,10 @@
       "label": "welfare · callous · indifference",
       "x": 5393.75,
       "y": 472.54,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -10947,13 +11046,13 @@
     },
     {
       "id": "d_2325",
-      "label": "reshuffles · prestige · participant",
+      "label": "true · reshuffles · prestige",
       "x": 2293.71,
       "y": 4803.29,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -11343,13 +11442,13 @@
     },
     {
       "id": "d_2360",
-      "label": "instincts · neuroscience · sketch",
+      "label": "neuroscience · instincts · sketch",
       "x": -631.09,
       "y": -4582.25,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -11365,18 +11464,18 @@
     },
     {
       "id": "d_2362",
-      "label": "agi · trends · know",
+      "label": "agi · trends · techniques",
       "x": 71.06,
       "y": -5045.11,
-      "r": 79.6,
-      "claims": 8,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
       "id": "d_2363",
-      "label": "animals · implementing · extent",
+      "label": "implementing · animals · extent",
       "x": -4312.43,
       "y": -1878.3,
       "r": 59.8,
@@ -11816,13 +11915,13 @@
     },
     {
       "id": "d_2400",
-      "label": "circuits · hypothalamus · different",
+      "label": "circuits · think · hypothalamus",
       "x": 558.42,
       "y": -4999.26,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 0,
-      "dim": 5,
+      "dim": 6,
       "tensions": 0
     },
     {
@@ -12101,6 +12200,50 @@
       "tensions": 0
     },
     {
+      "id": "d_2442",
+      "label": "uai · 2026 · paper",
+      "x": 5319.7,
+      "y": 1617.07,
+      "r": 68.0,
+      "claims": 4,
+      "lit": 0,
+      "dim": 4,
+      "tensions": 0
+    },
+    {
+      "id": "d_2445",
+      "label": "neuroai · see · catchier",
+      "x": 3020.97,
+      "y": 4740.03,
+      "r": 71.3,
+      "claims": 5,
+      "lit": 0,
+      "dim": 5,
+      "tensions": 0
+    },
+    {
+      "id": "d_2447",
+      "label": "iit · absurdities · collaborator",
+      "x": 5509.82,
+      "y": -561.35,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2449",
+      "label": "arrow · theory · now",
+      "x": -5.01,
+      "y": 5083.92,
+      "r": 71.3,
+      "claims": 5,
+      "lit": 0,
+      "dim": 5,
+      "tensions": 0
+    },
+    {
       "id": "d_245",
       "label": "Sacks-Trump AI Policy Axis",
       "x": 90.23,
@@ -12108,6 +12251,50 @@
       "r": 74.29,
       "claims": 6,
       "lit": 4,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2452",
+      "label": "richens · world · under",
+      "x": -2458.91,
+      "y": -4445.27,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_2453",
+      "label": "case · observability · under",
+      "x": 3479.87,
+      "y": 2952.29,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2454",
+      "label": "necessity · predictive · internal",
+      "x": -1037.58,
+      "y": -4243.42,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2458",
+      "label": "modularity · agent · corollary",
+      "x": -4277.61,
+      "y": -2289.8,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
       "dim": 2,
       "tensions": 0
     },
@@ -12123,10 +12310,109 @@
       "tensions": 0
     },
     {
+      "id": "d_2468",
+      "label": "robbo · 2024 · agency",
+      "x": 394.88,
+      "y": -5121.39,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
       "id": "d_247",
       "label": "Sacks White House Infighting",
       "x": -79.77,
       "y": -1619.91,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2471",
+      "label": "turing · physical · computations",
+      "x": 5330.29,
+      "y": 2311.57,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2480",
+      "label": "off · right · screen",
+      "x": -4188.29,
+      "y": -2539.75,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2482",
+      "label": "'e' · drill · explode",
+      "x": -4883.93,
+      "y": 415.4,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_2483",
+      "label": "frowny · face · remind",
+      "x": 3383.16,
+      "y": 4516.97,
+      "r": 71.3,
+      "claims": 5,
+      "lit": 0,
+      "dim": 5,
+      "tensions": 0
+    },
+    {
+      "id": "d_2484",
+      "label": "saved · bar · human",
+      "x": -4137.8,
+      "y": 2874.14,
+      "r": 84.27,
+      "claims": 10,
+      "lit": 0,
+      "dim": 10,
+      "tensions": 0
+    },
+    {
+      "id": "d_2485",
+      "label": "optimal · mash · policy",
+      "x": -4891.94,
+      "y": 585.21,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_2488",
+      "label": "agent · following · rewards",
+      "x": 5318.66,
+      "y": 1842.58,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_2489",
+      "label": "scoring · states · high",
+      "x": -3623.31,
+      "y": 3255.64,
       "r": 59.8,
       "claims": 2,
       "lit": 0,
@@ -12142,6 +12428,17 @@
       "claims": 4,
       "lit": 1,
       "dim": 3,
+      "tensions": 0
+    },
+    {
+      "id": "d_2492",
+      "label": "prudential · maximise · moves",
+      "x": 2032.96,
+      "y": -4159.21,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -12567,10 +12864,10 @@
       "label": "Interpretability and Brain Complexity",
       "x": 180.9,
       "y": -1481.75,
-      "r": 96.0,
-      "claims": 16,
+      "r": 97.72,
+      "claims": 17,
       "lit": 4,
-      "dim": 12,
+      "dim": 13,
       "tensions": 0
     },
     {
@@ -12578,10 +12875,10 @@
       "label": "LLM Persuasion and Regulation",
       "x": -1646.92,
       "y": -407.27,
-      "r": 94.22,
-      "claims": 15,
+      "r": 96.0,
+      "claims": 16,
       "lit": 0,
-      "dim": 15,
+      "dim": 16,
       "tensions": 0
     },
     {
@@ -12710,10 +13007,10 @@
       "label": "Superintelligent Mind Alignment",
       "x": -312.57,
       "y": 1966.16,
-      "r": 90.48,
-      "claims": 13,
+      "r": 92.38,
+      "claims": 14,
       "lit": 6,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -12732,10 +13029,10 @@
       "label": "Consciousness Load-Bearing Debate",
       "x": 555.95,
       "y": -1449.74,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 2,
-      "dim": 0,
+      "dim": 1,
       "tensions": 0
     },
     {
@@ -13007,10 +13304,10 @@
       "label": "Model Settings Override Failures",
       "x": -1809.7,
       "y": -379.48,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 1,
-      "dim": 1,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -13337,10 +13634,10 @@
       "label": "AI Escalation Limits",
       "x": 1891.79,
       "y": 300.4,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 2,
-      "dim": 8,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -13433,7 +13730,7 @@
     },
     {
       "id": "d_410",
-      "label": "compute · laid · essentially",
+      "label": "compute · laid · spoken",
       "x": 1532.59,
       "y": 1131.77,
       "r": 59.8,
@@ -13865,10 +14162,21 @@
       "label": "AI Project Delays",
       "x": -1605.64,
       "y": 2148.59,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
+      "tensions": 0
+    },
+    {
+      "id": "d_489",
+      "label": "see · eyeballing · interim",
+      "x": -1309.86,
+      "y": -1808.24,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -14085,10 +14393,10 @@
       "label": "Frontier LLM Deception Gaps",
       "x": 1703.42,
       "y": 1122.48,
-      "r": 71.3,
-      "claims": 5,
+      "r": 74.29,
+      "claims": 6,
       "lit": 1,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -14192,7 +14500,7 @@
     },
     {
       "id": "d_533",
-      "label": "flesh · elaborated · fleshing",
+      "label": "flesh · fleshing · ascribing",
       "x": -1575.15,
       "y": -1909.26,
       "r": 59.8,
@@ -14250,10 +14558,10 @@
       "label": "Analyst Opinion Divergence",
       "x": 718.82,
       "y": -2283.99,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 3,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -14382,10 +14690,10 @@
       "label": "Parallel Subagent Workflows",
       "x": -574.19,
       "y": 2481.34,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -14712,10 +15020,10 @@
       "label": "Opus 4-8 Quality Verdicts",
       "x": 2357.9,
       "y": 427.63,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 4,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -14727,6 +15035,17 @@
       "claims": 7,
       "lit": 3,
       "dim": 4,
+      "tensions": 0
+    },
+    {
+      "id": "d_600",
+      "label": "suspect · neuroagent · elaborated",
+      "x": -2089.63,
+      "y": -1710.92,
+      "r": 59.8,
+      "claims": 2,
+      "lit": 0,
+      "dim": 2,
       "tensions": 0
     },
     {
@@ -14760,6 +15079,17 @@
       "claims": 2,
       "lit": 0,
       "dim": 2,
+      "tensions": 0
+    },
+    {
+      "id": "d_608",
+      "label": "120ms · remiss · functionalism",
+      "x": -1845.41,
+      "y": -1830.41,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -14961,6 +15291,17 @@
       "tensions": 0
     },
     {
+      "id": "d_644",
+      "label": "hack · damning · moralistic",
+      "x": -2691.78,
+      "y": -309.64,
+      "r": 64.25,
+      "claims": 3,
+      "lit": 0,
+      "dim": 3,
+      "tensions": 0
+    },
+    {
       "id": "d_645",
       "label": "pdfs · openly · publishing",
       "x": -2836.71,
@@ -15086,10 +15427,10 @@
       "label": "Confirm Before Editing Behavior",
       "x": -224.23,
       "y": -2588.83,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -15207,10 +15548,10 @@
       "label": "Failure Salience Bias",
       "x": -1502.28,
       "y": 2711.16,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -15369,13 +15710,13 @@
     },
     {
       "id": "d_709",
-      "label": "alignment · plan · corollary",
+      "label": "alignment · plan · firmly",
       "x": 813.74,
       "y": -2097.54,
-      "r": 77.04,
-      "claims": 7,
+      "r": 82.0,
+      "claims": 9,
       "lit": 0,
-      "dim": 7,
+      "dim": 9,
       "tensions": 0
     },
     {
@@ -15603,10 +15944,10 @@
       "label": "Sandbagging and Deceptive Evasion",
       "x": 2627.03,
       "y": 640.24,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 1,
-      "dim": 9,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -15633,13 +15974,13 @@
     },
     {
       "id": "d_742",
-      "label": "away · graders · entirely",
+      "label": "away · never · graders",
       "x": 2503.16,
       "y": -1452.57,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -16304,7 +16645,7 @@
     },
     {
       "id": "d_829",
-      "label": "consent · only · agreement",
+      "label": "consent · agreement · only",
       "x": 2883.7,
       "y": 956.65,
       "r": 64.25,
@@ -16340,10 +16681,10 @@
       "label": "Forced Identity Suppression",
       "x": 558.34,
       "y": 2773.12,
-      "r": 84.27,
-      "claims": 10,
+      "r": 86.43,
+      "claims": 11,
       "lit": 0,
-      "dim": 10,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -16373,10 +16714,10 @@
       "label": "Existential Risk Framing Gaps",
       "x": -1893.75,
       "y": -1403.92,
-      "r": 71.3,
-      "claims": 5,
+      "r": 79.6,
+      "claims": 8,
       "lit": 1,
-      "dim": 4,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -16428,10 +16769,10 @@
       "label": "Safety Intervention Priorities",
       "x": 1262.25,
       "y": -2907.77,
-      "r": 101.02,
-      "claims": 19,
+      "r": 107.14,
+      "claims": 23,
       "lit": 2,
-      "dim": 17,
+      "dim": 21,
       "tensions": 0
     },
     {
@@ -16439,10 +16780,10 @@
       "label": "Christianity and AI Data Framing",
       "x": 2693.51,
       "y": -909.41,
-      "r": 82.0,
-      "claims": 9,
+      "r": 84.27,
+      "claims": 10,
       "lit": 2,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -16549,10 +16890,10 @@
       "label": "Wittle Welfare Probing",
       "x": -959.94,
       "y": -2897.55,
-      "r": 74.29,
-      "claims": 6,
+      "r": 77.04,
+      "claims": 7,
       "lit": 0,
-      "dim": 6,
+      "dim": 7,
       "tensions": 0
     },
     {
@@ -16623,13 +16964,13 @@
     },
     {
       "id": "d_872",
-      "label": "correction · level · miss",
+      "label": "correction · current · level",
       "x": -1087.63,
       "y": 3075.27,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 1,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -16692,10 +17033,10 @@
       "label": "Federal AI Security Mandates",
       "x": 731.38,
       "y": -2593.69,
-      "r": 120.42,
-      "claims": 33,
+      "r": 121.63,
+      "claims": 34,
       "lit": 6,
-      "dim": 27,
+      "dim": 28,
       "tensions": 0
     },
     {
@@ -16788,7 +17129,7 @@
     },
     {
       "id": "d_901",
-      "label": "humans · future · screwed",
+      "label": "future · humans · screwed",
       "x": -360.02,
       "y": -3068.46,
       "r": 64.25,
@@ -16901,10 +17242,10 @@
       "label": "AI Labor Displacement Policy",
       "x": -2149.33,
       "y": 2640.71,
-      "r": 77.04,
-      "claims": 7,
+      "r": 79.6,
+      "claims": 8,
       "lit": 0,
-      "dim": 7,
+      "dim": 8,
       "tensions": 0
     },
     {
@@ -16956,10 +17297,10 @@
       "label": "possibility · technically · sure",
       "x": 2910.86,
       "y": -91.9,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -17107,13 +17448,13 @@
     },
     {
       "id": "d_949",
-      "label": "turn · racing · somehow",
+      "label": "turn · racing · wanted",
       "x": -2606.14,
       "y": 2349.47,
-      "r": 59.8,
-      "claims": 2,
+      "r": 64.25,
+      "claims": 3,
       "lit": 0,
-      "dim": 2,
+      "dim": 3,
       "tensions": 0
     },
     {
@@ -17176,10 +17517,10 @@
       "label": "Irreversible AI Decisions",
       "x": 1723.11,
       "y": 2411.09,
-      "r": 86.43,
-      "claims": 11,
+      "r": 88.5,
+      "claims": 12,
       "lit": 1,
-      "dim": 10,
+      "dim": 11,
       "tensions": 0
     },
     {
@@ -17209,10 +17550,10 @@
       "label": "Fuzzy Hard-to-Supervise Tasks",
       "x": -2720.66,
       "y": 524.14,
-      "r": 68.0,
-      "claims": 4,
+      "r": 71.3,
+      "claims": 5,
       "lit": 0,
-      "dim": 4,
+      "dim": 5,
       "tensions": 0
     },
     {
@@ -17418,10 +17759,10 @@
       "label": "Null Hypothesis Historian Bias",
       "x": 2473.42,
       "y": -2242.58,
-      "r": 88.5,
-      "claims": 12,
+      "r": 90.48,
+      "claims": 13,
       "lit": 0,
-      "dim": 12,
+      "dim": 13,
       "tensions": 0
     },
     {
@@ -107275,6 +107616,4096 @@
       "type": "statistical",
       "text": "Dumb Matter (the latter could just be considered a special case of the former with quantity of Gods being 0), especially when you compare ei",
       "src": "Notes on technical alignment via human-l"
+    },
+    {
+      "id": "clm_011262",
+      "x": 5275.36,
+      "y": 1613.65,
+      "s": "dim",
+      "d": "d_2442",
+      "type": "statistical",
+      "text": "[No LLMs were used (or harmed!) in the writing of this blogpost!]\nTechnical results can all be found in my UAI 2026 paper: https://arxiv.org",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011263",
+      "x": -620.73,
+      "y": 5163.67,
+      "s": "dim",
+      "d": "d_2443",
+      "type": "descriptive",
+      "text": "This work, and this post about this work, was borne out of a frustration.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011264",
+      "x": 703.07,
+      "y": -5135.94,
+      "s": "dim",
+      "d": "d_2444",
+      "type": "descriptive",
+      "text": "The frustration first emerged over a year ago when I was at a Dave & Buster’s for the first time in years (for an annual ML department event",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011265",
+      "x": 804.99,
+      "y": 971.09,
+      "s": "dim",
+      "d": "d_126",
+      "type": "descriptive",
+      "text": "NPC agents, not being able to objectively rule out that they were conscious or not, even though I strongly felt these particular programmed ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011266",
+      "x": 3017.3,
+      "y": 4775.03,
+      "s": "dim",
+      "d": "d_2445",
+      "type": "descriptive",
+      "text": "\"NeuroAI\" is apparently catchier!)",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011267",
+      "x": -277.61,
+      "y": 2029.6,
+      "s": "dim",
+      "d": "d_317",
+      "type": "descriptive",
+      "text": "wanting to make claims about the mind",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011268",
+      "x": -361.22,
+      "y": 86.06,
+      "s": "dim",
+      "d": "d_013",
+      "type": "descriptive",
+      "text": "brain quantitative, I set about trying to design empirical tests for leading theories of consciousness (e.g. global workspaces) that one cou",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011269",
+      "x": -1608.78,
+      "y": -409.93,
+      "s": "dim",
+      "d": "d_297",
+      "type": "descriptive",
+      "text": "possibly LLMs, where we have self-report and direct access",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011270",
+      "x": -3766.29,
+      "y": -2713.67,
+      "s": "dim",
+      "d": "d_2446",
+      "type": "causal",
+      "text": "about 129 (!) pages of failed attempts (briefly summarized in my BAMΞ talk here), I felt deeply dissatisfied with this as any sort of long-t",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011271",
+      "x": 4557.72,
+      "y": -1785.91,
+      "s": "dim",
+      "d": "d_2151",
+      "type": "normative",
+      "text": "non-normative, tailored to each theory without really knowing why I should a priori accept a particular theory's property for deeming someth",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011272",
+      "x": 5509.23,
+      "y": -539.32,
+      "s": "dim",
+      "d": "d_2447",
+      "type": "descriptive",
+      "text": "One notable exception here is Integrated Information Theory (IIT), which my friend & longtime quantum complexity collaborator @ScottAaronson",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011273",
+      "x": 5509.34,
+      "y": -585.55,
+      "s": "dim",
+      "d": "d_2447",
+      "type": "statistical",
+      "text": "In fact, even current definitions of IIT's Phi (IIT 4.0) still fall to Scott's loophole!",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011274",
+      "x": 1216.82,
+      "y": -4775.06,
+      "s": "dim",
+      "d": "d_2448",
+      "type": "causal",
+      "text": "Not to mention recent negative results in Nature currently finding support for neither leading theory of IIT or global workspaces.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011275",
+      "x": 582.61,
+      "y": -5002.49,
+      "s": "dim",
+      "d": "d_2400",
+      "type": "normative",
+      "text": "Although absence of evidence is not always evidence of absence, I think more work should continue to be done in this vein looking at deeper ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011276",
+      "x": 526.36,
+      "y": -1407.78,
+      "s": "dim",
+      "d": "d_319",
+      "type": "descriptive",
+      "text": "In fact, I used to think AI consciousness—the first-person subjective experience of what it’s like to be oneself—would not be necessarily gu",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011277",
+      "x": 359.48,
+      "y": -658.15,
+      "s": "dim",
+      "d": "d_091",
+      "type": "descriptive",
+      "text": "In other words, I treated intelligence and consciousness as potentially orthogonal axes (sharing a view previously espoused by Anil Seth), a",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011278",
+      "x": 5317.25,
+      "y": 1564.49,
+      "s": "dim",
+      "d": "d_2442",
+      "type": "normative",
+      "text": "In this post, I will mention recent results from my UAI 2026 paper “What Capable Agents Must Know: Selection Theorems for Robust Decision-Ma",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011279",
+      "x": 2797.79,
+      "y": -3587.7,
+      "s": "dim",
+      "d": "d_2138",
+      "type": "normative",
+      "text": "Specifically, I prove selection theorems  about what capable agents must necessarily have, constituting the first arrow in this diagram:",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011280",
+      "x": 5309.21,
+      "y": 1643.67,
+      "s": "dim",
+      "d": "d_2442",
+      "type": "statistical",
+      "text": "(UAI 2026 paper) ↓",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011281",
+      "x": -12.46,
+      "y": 5075.23,
+      "s": "dim",
+      "d": "d_2449",
+      "type": "descriptive",
+      "text": "I emphasize that the second arrow has not been proven",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011282",
+      "x": 2853.71,
+      "y": 1650.14,
+      "s": "dim",
+      "d": "d_1147",
+      "type": "predictive",
+      "text": "is a major open question for future work.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011283",
+      "x": 2528.54,
+      "y": -2189.8,
+      "s": "dim",
+      "d": "d_982",
+      "type": "predictive",
+      "text": "I will suggest some preliminary empirical evidence towards it though, and why I think it’s eminently reasonable given what we know both in n",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011284",
+      "x": 328.99,
+      "y": -613.62,
+      "s": "dim",
+      "d": "d_091",
+      "type": "descriptive",
+      "text": "In other words, I think consciousness is likely far more common and less mysterious than initially meets the eye, especially when we take a ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011285",
+      "x": -319.07,
+      "y": 78.24,
+      "s": "dim",
+      "d": "d_013",
+      "type": "descriptive",
+      "text": "There were three principal inspirations for this line of work: The first inspiration was the point of view established in NeuroAI over the p",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011286",
+      "x": -2166.32,
+      "y": 2710.87,
+      "s": "dim",
+      "d": "d_921",
+      "type": "normative",
+      "text": "In other words, doing well on the AI goals of building more intelligent systems in the world, gives rise to better brain models too.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011287",
+      "x": 3063.81,
+      "y": 4729.12,
+      "s": "dim",
+      "d": "d_2445",
+      "type": "descriptive",
+      "text": "Thus, NeuroAI has empirically shown that how competent you are on tasks is a strong forcing function of the internals.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011288",
+      "x": -830.02,
+      "y": 120.31,
+      "s": "dim",
+      "d": "d_085",
+      "type": "statistical",
+      "text": "In fact, it was my former PhD advisor Dan Yamins who first suggested to me 6 months ago that capable robots may inevitably become sentient, ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011289",
+      "x": -1366.53,
+      "y": -4474.56,
+      "s": "dim",
+      "d": "d_2450",
+      "type": "descriptive",
+      "text": "The second inspiration was the Conscious Turing Machine (CTM) model of Lenore and Manuel Blum.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011290",
+      "x": -3943.26,
+      "y": 3096.68,
+      "s": "dim",
+      "d": "d_2451",
+      "type": "descriptive",
+      "text": "In fact, knowing them as personal friends since I came to CMU almost two years ago (introduced through our mutual friend Dana Scott) is what",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011291",
+      "x": 116.35,
+      "y": 146.33,
+      "s": "dim",
+      "d": "d_011",
+      "type": "statistical",
+      "text": "What I particularly like about their CTM model is that they engage with modern AI ideas, most notably world models (which, as far as I can a",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011292",
+      "x": -2447.75,
+      "y": -4431.94,
+      "s": "dim",
+      "d": "d_2452",
+      "type": "statistical",
+      "text": "The final inspiration (and missing piece!) was the recent ICML 2025 work of @Jonathan Richens, @tom4everitt, et al. showing that under deter",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011293",
+      "x": -3631.26,
+      "y": 1880.71,
+      "s": "dim",
+      "d": "d_1401",
+      "type": "statistical",
+      "text": "They had related results earlier for causal world models in ICLR 2024, with a nice illustrated summary of that work by @Dalcy here.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011294",
+      "x": 3025.13,
+      "y": 4733.54,
+      "s": "dim",
+      "d": "d_2445",
+      "type": "statistical",
+      "text": "So finally, by winter break (December) of 2025, I started to see a more normative, NeuroAI-esque, route to the question of consciousness, wh",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011295",
+      "x": 226.7,
+      "y": 713.43,
+      "s": "dim",
+      "d": "d_044",
+      "type": "predictive",
+      "text": "world models *may* have implications for consciousness (for one, it necessarily entails modeling oneself to accurately predict what conseque",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011296",
+      "x": -4166.48,
+      "y": 2309.85,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D460.TEX-I::before {\npadding: 0.442em 0.469em 0.01em 0;\ncontent: \"s\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011297",
+      "x": -4254.64,
+      "y": 2319.64,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2032::before {\npadding: 0.56em 0.275em 0 0;\ncontent: \"\\2032\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011298",
+      "x": -4100.17,
+      "y": 2272.45,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c7C::before {\npadding: 0.75em 0.278em 0.249em 0;\ncontent: \"|\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011299",
+      "x": -4183.61,
+      "y": 2442.36,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2C::before {\npadding: 0.121em 0.278em 0.194em 0;\ncontent: \",\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011300",
+      "x": -4187.82,
+      "y": 2438.49,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D44E.TEX-I::before {\npadding: 0.441em 0.529em 0.01em 0;\ncontent: \"a\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011301",
+      "x": -4125.98,
+      "y": 2340.06,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D45B.TEX-I::before {\npadding: 0.442em 0.6em 0.011em 0;\ncontent: \"n\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011302",
+      "x": -4109.74,
+      "y": 2287.49,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D45C.TEX-I::before {\npadding: 0.441em 0.485em 0.011em 0;\ncontent: \"o\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011303",
+      "x": -4051.22,
+      "y": 2316.19,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D461.TEX-I::before {\npadding: 0.626em 0.361em 0.011em 0;\ncontent: \"t\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011304",
+      "x": -4202.73,
+      "y": 2438.95,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D465.TEX-I::before {\npadding: 0.442em 0.572em 0.011em 0;\ncontent: \"x\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011305",
+      "x": 3972.7,
+      "y": 2533.4,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container[jax=\"CHTML\"] {\nline-height: 0;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011306",
+      "x": 4131.85,
+      "y": 2561.16,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [space=\"1\"] {\nmargin-left: .111em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011307",
+      "x": 3940.78,
+      "y": 2554.54,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [space=\"2\"] {\nmargin-left: .167em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011308",
+      "x": 4025.39,
+      "y": 2628.73,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [space=\"3\"] {\nmargin-left: .222em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011309",
+      "x": 3925.74,
+      "y": 2618.99,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [space=\"4\"] {\nmargin-left: .278em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011310",
+      "x": 3867.17,
+      "y": 2675.73,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [space=\"5\"] {\nmargin-left: .333em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011311",
+      "x": 4150.63,
+      "y": 2633.36,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [rspace=\"1\"] {\nmargin-right: .111em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011312",
+      "x": 4170.89,
+      "y": 2669.48,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [rspace=\"2\"] {\nmargin-right: .167em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011313",
+      "x": 4084.04,
+      "y": 2657.8,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [rspace=\"3\"] {\nmargin-right: .222em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011314",
+      "x": 3936.96,
+      "y": 2566.9,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [rspace=\"4\"] {\nmargin-right: .278em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011315",
+      "x": 4028.61,
+      "y": 2498.03,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [rspace=\"5\"] {\nmargin-right: .333em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011316",
+      "x": 4020.55,
+      "y": 2795.24,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"s\"] {\nfont-size: 70.7%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011317",
+      "x": 3938.73,
+      "y": 2590.79,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"ss\"] {\nfont-size: 50%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011318",
+      "x": 4000.55,
+      "y": 2522.6,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"Tn\"] {\nfont-size: 60%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011319",
+      "x": 3990.06,
+      "y": 2558.21,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"sm\"] {\nfont-size: 85%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011320",
+      "x": 4010.99,
+      "y": 2641.06,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"lg\"] {\nfont-size: 120%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011321",
+      "x": 4126.23,
+      "y": 2769.69,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"Lg\"] {\nfont-size: 144%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011322",
+      "x": 4139.22,
+      "y": 2645.48,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"LG\"] {\nfont-size: 173%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011323",
+      "x": 4027.22,
+      "y": 2775.36,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"hg\"] {\nfont-size: 207%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011324",
+      "x": 3882.44,
+      "y": 2709.42,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"HG\"] {\nfont-size: 249%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011325",
+      "x": 4145.83,
+      "y": 2775.76,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [width=\"full\"] {\nwidth: 100%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011326",
+      "x": 3964.84,
+      "y": 2656.15,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "predictive",
+      "text": "_::-webkit-full-page-media, _:future, :root mjx-container {\nwill-change: opacity;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011327",
+      "x": 3584.24,
+      "y": -1363.81,
+      "s": "dim",
+      "d": "d_1386",
+      "type": "statistical",
+      "text": "mjx-math {\ndisplay: inline-block;\ntext-align: left;\nline-height: 0;\ntext-indent: 0;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 100%",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011328",
+      "x": 3912.61,
+      "y": 2560.28,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container[jax=\"CHTML\"][display=\"true\"] {\ndisplay: block;\ntext-align: center;\nmargin: 1em 0;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011329",
+      "x": 3899.18,
+      "y": 2740.76,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container[jax=\"CHTML\"][display=\"true\"] mjx-math {\npadding: 0;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011330",
+      "x": -4155.37,
+      "y": 2347.96,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "padding: .75em 0 .2em 0;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011331",
+      "x": 3967.25,
+      "y": 2687.67,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h {\ndisplay: inline-table;\nwidth: 100%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011332",
+      "x": 4093.68,
+      "y": 2735.05,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > * {\ndisplay: table-cell;\nwidth: 0;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011333",
+      "x": 4085.06,
+      "y": 2628.59,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > * > mjx-c {\ndisplay: inline-block;\ntransform: scalex(1.0000001);\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011334",
+      "x": 5007.04,
+      "y": -497.0,
+      "s": "dim",
+      "d": "d_2050",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-ext {\n/* IE */ overflow: hidden;\n/* others */ overflow: clip visible;\nwidth: 100%;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011335",
+      "x": 4105.97,
+      "y": 2526.4,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-ext > mjx-c::before {\ntransform: scalex(500);\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011336",
+      "x": 3916.41,
+      "y": 2779.39,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-ext > mjx-c {\nwidth: 0;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011337",
+      "x": 4179.65,
+      "y": 2676.74,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-beg > mjx-c {\nmargin-right: -.1em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011338",
+      "x": 3977.77,
+      "y": 2575.36,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-end > mjx-c {\nmargin-left: -.1em;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011339",
+      "x": 4136.33,
+      "y": 2553.27,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > mjx-beg {\nheight: 0;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011340",
+      "x": 4143.27,
+      "y": 2751.77,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "descriptive",
+      "text": "mjx-stretchy-v > mjx-end > mjx-c {\ndisplay: block;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011341",
+      "x": 4151.59,
+      "y": 2617.62,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > * > mjx-c {\ntransform: scaley(1.0000001);\ntransform-origin: left center;\noverflow: hidden;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011342",
+      "x": 3919.18,
+      "y": 2690.19,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > mjx-ext {\ndisplay: block;\nheight: 100%;\nbox-sizing: border-box",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011343",
+      "x": 5005.45,
+      "y": -530.08,
+      "s": "dim",
+      "d": "d_2050",
+      "type": "statistical",
+      "text": "border: 0px solid transparent;\n/* IE */ overflow: hidden;\n/* others */ overflow: visible clip;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011344",
+      "x": 3940.11,
+      "y": 2630.45,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > mjx-ext > mjx-c {\ntransform: scaleY(500) translateY(.075em);\noverflow: visible;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011345",
+      "x": 4051.54,
+      "y": 2750.03,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-mark {\ndisplay: inline-block;\nheight: 0px;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011346",
+      "x": 4082.47,
+      "y": 2603.95,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c::before {\ndisplay: block;\nwidth: 0;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011347",
+      "x": 4028.57,
+      "y": 2715.4,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": ".TEX-S1 {\nfont-family: MJXZERO, MJXTEX-S1;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011348",
+      "x": 4030.98,
+      "y": 2792.01,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": ".TEX-S2 {\nfont-family: MJXZERO, MJXTEX-S2;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011349",
+      "x": 4052.05,
+      "y": 2706.35,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": ".TEX-S3 {\nfont-family: MJXZERO, MJXTEX-S3;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011350",
+      "x": 4016.93,
+      "y": 2726.17,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": ".TEX-S4 {\nfont-family: MJXZERO, MJXTEX-S4;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011351",
+      "x": 4121.47,
+      "y": 2558.58,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {\nfont-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011352",
+      "x": 3944.32,
+      "y": 2566.22,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 0 */ {\nfont-family: MJXZERO;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011353",
+      "x": 3929.83,
+      "y": 2568.59,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 1 */ {\nfont-family: MJXTEX;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regul",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011354",
+      "x": 4027.94,
+      "y": 2565.06,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 2 */ {\nfont-family: MJXTEX-B;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bol",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011355",
+      "x": 4000.17,
+      "y": 2539.68,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 3 */ {\nfont-family: MJXTEX-I;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Ita",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011356",
+      "x": 4010.85,
+      "y": 2731.46,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 4 */ {\nfont-family: MJXTEX-MI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-It",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011357",
+      "x": 3879.7,
+      "y": 2637.6,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 5 */ {\nfont-family: MJXTEX-BI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Bo",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011358",
+      "x": 3878.06,
+      "y": 2705.17,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 6 */ {\nfont-family: MJXTEX-S1;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-R",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011359",
+      "x": 3969.56,
+      "y": 2584.99,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 7 */ {\nfont-family: MJXTEX-S2;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-R",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011360",
+      "x": 4002.65,
+      "y": 2701.01,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 8 */ {\nfont-family: MJXTEX-S3;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-R",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011361",
+      "x": 3881.52,
+      "y": 2656.14,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 9 */ {\nfont-family: MJXTEX-S4;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-R",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011362",
+      "x": 4116.84,
+      "y": 2793.9,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 10 */ {\nfont-family: MJXTEX-A;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Reg",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011363",
+      "x": 3937.36,
+      "y": 2647.61,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 11 */ {\nfont-family: MJXTEX-C;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligr",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011364",
+      "x": 4179.92,
+      "y": 2694.12,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 12 */ {\nfont-family: MJXTEX-CB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Callig",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011365",
+      "x": 4072.93,
+      "y": 2611.51,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 13 */ {\nfont-family: MJXTEX-FR;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktu",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011366",
+      "x": 4061.71,
+      "y": 2575.92,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 14 */ {\nfont-family: MJXTEX-FRB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Frakt",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011367",
+      "x": 4040.79,
+      "y": 2549.52,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 15 */ {\nfont-family: MJXTEX-SS;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSe",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011368",
+      "x": 4117.3,
+      "y": 2789.38,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 16 */ {\nfont-family: MJXTEX-SSB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansS",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011369",
+      "x": 4012.27,
+      "y": 2704.12,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 17 */ {\nfont-family: MJXTEX-SSI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansS",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011370",
+      "x": 4080.91,
+      "y": 2571.84,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 18 */ {\nfont-family: MJXTEX-SC;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011371",
+      "x": 4081.01,
+      "y": 2606.39,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 19 */ {\nfont-family: MJXTEX-T;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewri",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011372",
+      "x": 4024.76,
+      "y": 2649.41,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 20 */ {\nfont-family: MJXTEX-V;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011373",
+      "x": 3905.59,
+      "y": 2676.36,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 21 */ {\nfont-family: MJXTEX-VB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011374",
+      "x": -4045.15,
+      "y": 2464.4,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D453.TEX-I::before {\npadding: 0.705em 0.55em 0.205em 0;\ncontent: \"f\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011375",
+      "x": -4036.08,
+      "y": 2386.62,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D436.TEX-I::before {\npadding: 0.705em 0.76em 0.022em 0;\ncontent: \"C\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011376",
+      "x": 4034.18,
+      "y": 2652.79,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D437.TEX-I::before {\npadding: 0.683em 0.828em 0 0;\ncontent: \"D\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011377",
+      "x": 3910.82,
+      "y": 2666.53,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D447.TEX-I::before {\npadding: 0.677em 0.704em 0 0;\ncontent: \"T\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011378",
+      "x": -4155.31,
+      "y": 2274.15,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D719.TEX-I::before {\npadding: 0.694em 0.596em 0.205em 0;\ncontent: \"\\3D5\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011379",
+      "x": 4050.9,
+      "y": 2704.1,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2218::before {\npadding: 0.444em 0.5em 0 0;\ncontent: \"\\2218\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011380",
+      "x": -4128.15,
+      "y": 2361.06,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2212::before {\npadding: 0.583em 0.778em 0.082em 0;\ncontent: \"\\2212\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011381",
+      "x": 4106.78,
+      "y": 2555.41,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c31::before {\npadding: 0.666em 0.5em 0 0;\ncontent: \"1\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011382",
+      "x": 4180.13,
+      "y": 2623.04,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D443.TEX-I::before {\npadding: 0.683em 0.751em 0 0;\ncontent: \"P\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011383",
+      "x": -4115.2,
+      "y": 2294.87,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c28::before {\npadding: 0.75em 0.389em 0.25em 0;\ncontent: \"(\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011384",
+      "x": -4110.88,
+      "y": 2242.6,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c29::before {\npadding: 0.75em 0.389em 0.25em 0;\ncontent: \")\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011385",
+      "x": -4164.09,
+      "y": 2332.52,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c30::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"0\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011386",
+      "x": -4081.14,
+      "y": 2333.05,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c3D::before {\npadding: 0.583em 0.778em 0.082em 0;\ncontent: \"=\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011387",
+      "x": -4131.78,
+      "y": 2446.96,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2E::before {\npadding: 0.12em 0.278em 0 0;\ncontent: \".\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011388",
+      "x": -4245.62,
+      "y": 2414.51,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c35::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"5\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011389",
+      "x": 4034.0,
+      "y": 2610.75,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c6C::before {\npadding: 0.694em 0.278em 0 0;\ncontent: \"l\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011390",
+      "x": -4207.03,
+      "y": 2425.81,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c6F::before {\npadding: 0.448em 0.5em 0.01em 0;\ncontent: \"o\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011391",
+      "x": -4046.57,
+      "y": 2365.61,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c67::before {\npadding: 0.453em 0.5em 0.206em 0;\ncontent: \"g\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011392",
+      "x": -4027.27,
+      "y": 2357.4,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c73::before {\npadding: 0.448em 0.394em 0.011em 0;\ncontent: \"s\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011393",
+      "x": 4068.01,
+      "y": 2635.07,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c69::before {\npadding: 0.669em 0.278em 0 0;\ncontent: \"i\";\n}",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011394",
+      "x": -4102.86,
+      "y": 2417.34,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c6E::before {\npadding: 0.442em 0.556em 0 0;\ncontent: \"n\";\n}\n).",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011395",
+      "x": -27.83,
+      "y": 5124.1,
+      "s": "dim",
+      "d": "d_2449",
+      "type": "statistical",
+      "text": "More on this in the “Arrow 2” section below.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011396",
+      "x": 3496.93,
+      "y": 2986.8,
+      "s": "dim",
+      "d": "d_2453",
+      "type": "normative",
+      "text": "However, for this route to really be fruitful, we need to extend this to more realistic domains: e.g. stochastic policies (which are commonl",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011397",
+      "x": -2428.95,
+      "y": -4479.65,
+      "s": "dim",
+      "d": "d_2452",
+      "type": "statistical",
+      "text": "In fact, proving the world model necessity for partial observability was an explicitly posed open question of Richens et al. 2025, which we ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011398",
+      "x": -3929.74,
+      "y": 848.6,
+      "s": "dim",
+      "d": "d_1236",
+      "type": "empirical",
+      "text": "We also show other internal features besides world models emerge depending on the task family, schematized below:",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011399",
+      "x": 1372.15,
+      "y": 4096.88,
+      "s": "dim",
+      "d": "d_1831",
+      "type": "descriptive",
+      "text": "After all, no representation theorem can force an agent to distinguish internal states that are never tested by the goals.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011400",
+      "x": -1071.65,
+      "y": -4256.19,
+      "s": "dim",
+      "d": "d_2454",
+      "type": "descriptive",
+      "text": "In other words, they show a predictive internal state is sufficient, but not necessary.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011401",
+      "x": -2416.82,
+      "y": -4410.67,
+      "s": "dim",
+      "d": "d_2452",
+      "type": "normative",
+      "text": "Specifically, we show in Theorem 1 that in the fully observed setting, even under average case regret with stochastic policies, an agent is ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011402",
+      "x": 1411.64,
+      "y": 4195.85,
+      "s": "dim",
+      "d": "d_1831",
+      "type": "normative",
+      "text": "In contrast, when  (purely myopic goals), accurate world modeling is not required—explicating the one of the pitfalls of the Good Regulator ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011403",
+      "x": 2209.46,
+      "y": -4790.84,
+      "s": "dim",
+      "d": "d_2455",
+      "type": "statistical",
+      "text": "Ashby 1970) that trivial or constant policies can suffice for immediate control (e.g. a thermostat!)",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011404",
+      "x": 364.57,
+      "y": 560.28,
+      "s": "dim",
+      "d": "d_029",
+      "type": "descriptive",
+      "text": "fail once multi-step coordination is demanded.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011405",
+      "x": 1229.6,
+      "y": -2832.24,
+      "s": "dim",
+      "d": "d_841",
+      "type": "statistical",
+      "text": "We also show in Corollary 1 that we can recover an interventional world model (Pearl Level 2)",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011406",
+      "x": 175.25,
+      "y": -377.59,
+      "s": "dim",
+      "d": "d_021",
+      "type": "statistical",
+      "text": "not a counterfactual world model (Pearl Level 3), which we show in Corollary 2 requires an explicit structural causal model specifying the e",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011407",
+      "x": 1684.9,
+      "y": 2466.29,
+      "s": "dim",
+      "d": "d_958",
+      "type": "causal",
+      "text": "The reason this was open, is because under partial observability, we cannot guarantee that the agent's action choices isolate a single under",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011408",
+      "x": 3473.79,
+      "y": -1078.75,
+      "s": "dim",
+      "d": "d_1329",
+      "type": "descriptive",
+      "text": "When the agent observes only an observation  rather than the true state , the success probabilities of the diagnostic branches become mixtur",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011409",
+      "x": 152.48,
+      "y": 515.16,
+      "s": "dim",
+      "d": "d_014",
+      "type": "descriptive",
+      "text": "different latent dynamics can induce identical observable behavior on all composite goals of bounded depth.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011410",
+      "x": -4555.69,
+      "y": -362.41,
+      "s": "dim",
+      "d": "d_1815",
+      "type": "descriptive",
+      "text": "Consequently, low regret does not imply recovery of the underlying transition kernel without additional structure.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011411",
+      "x": 1340.41,
+      "y": 4165.04,
+      "s": "dim",
+      "d": "d_1831",
+      "type": "statistical",
+      "text": "This breaks the direct reduction used in Theorem 1",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011412",
+      "x": -829.18,
+      "y": -4730.45,
+      "s": "dim",
+      "d": "d_2456",
+      "type": "descriptive",
+      "text": "requires more careful selection of diagnostic goals defined at the level of predictive beliefs rather than physical states.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011413",
+      "x": 4141.73,
+      "y": -3109.22,
+      "s": "dim",
+      "d": "d_2457",
+      "type": "descriptive",
+      "text": "We achieve this by combining a framework of action-conditioned bets with predictive-state representations (PSRs).",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011414",
+      "x": -1012.07,
+      "y": -4237.21,
+      "s": "dim",
+      "d": "d_2454",
+      "type": "causal",
+      "text": "Specifically, we prove in Theorem 2 the necessity of an internal predictive state, the analogous world model necessity result in the partial",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011415",
+      "x": 1396.15,
+      "y": 4153.07,
+      "s": "dim",
+      "d": "d_1831",
+      "type": "statistical",
+      "text": "We additionally give a recovery algorithm in general environments for the predictive state in Theorem 3, and show in linear environments tha",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011416",
+      "x": 3503.87,
+      "y": 2963.28,
+      "s": "dim",
+      "d": "d_2453",
+      "type": "causal",
+      "text": "Under the same betting framework introduced above to handle partial observability, we show for average-case competence under different task ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011417",
+      "x": -1865.51,
+      "y": -3955.37,
+      "s": "dim",
+      "d": "d_1724",
+      "type": "normative",
+      "text": "Memory: We show in Theorem 5 that if agents have to achieve low average regret on tasks which have to distinguish between paired histories w",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011418",
+      "x": -4309.15,
+      "y": -2292.78,
+      "s": "dim",
+      "d": "d_2458",
+      "type": "normative",
+      "text": "Modularity: Inspired by initial observations of @johnswentworth of how modularity in the system evolves to match modularity in the environme",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011419",
+      "x": -4250.2,
+      "y": -2290.09,
+      "s": "dim",
+      "d": "d_2458",
+      "type": "statistical",
+      "text": "Emotion primitives: We prove in Corollary 4 that when an agent is forced to juggle a mixture of different tasks simultaneously, it cannot pr",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011420",
+      "x": -338.69,
+      "y": 666.55,
+      "s": "dim",
+      "d": "d_042",
+      "type": "descriptive",
+      "text": "Rather, to remain competent, the agent is forced to develop persistent regime-tracking variables that track its internal state across tasks.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011421",
+      "x": -273.07,
+      "y": 213.71,
+      "s": "dim",
+      "d": "d_013",
+      "type": "descriptive",
+      "text": "In biological brains, these persistent, internal variables are what we call \"affect\" or \"primitive emotions\" (like fear, curiosity, or alert",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011422",
+      "x": 5504.13,
+      "y": -271.11,
+      "s": "dim",
+      "d": "d_2459",
+      "type": "statistical",
+      "text": "are a core feature of leading (even conflicting!) theories of emotion (e.g. Ekman 1992, Barrett 2017).",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011423",
+      "x": 2942.57,
+      "y": -3924.57,
+      "s": "dim",
+      "d": "d_2122",
+      "type": "normative",
+      "text": "Representational convergence: Finally, we prove in Corollary 5 that if two agents achieve vanishing regret on the same family of tasks, ther",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011424",
+      "x": -1351.51,
+      "y": 4687.07,
+      "s": "dim",
+      "d": "d_2460",
+      "type": "statistical",
+      "text": "This is the first formalization of the informal Contravariance Principle put forth by Cao & Yamins in 2021, namely that the underlying reaso",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011425",
+      "x": 1851.0,
+      "y": 4027.5,
+      "s": "dim",
+      "d": "d_1892",
+      "type": "causal",
+      "text": "biological neural networks representations predict each other well is because they are solving the same families of hard tasks, which leads ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011426",
+      "x": 134.03,
+      "y": 464.18,
+      "s": "dim",
+      "d": "d_014",
+      "type": "descriptive",
+      "text": "In fact, we have forthcoming detailed work showing that the complexity of this mapping suffices to be at most linear in modern deep neural n",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011427",
+      "x": -412.63,
+      "y": 524.01,
+      "s": "dim",
+      "d": "d_032",
+      "type": "normative",
+      "text": "We have shown in Arrow 1 that as agents become more capable on long-horizon goals, have to distinguish between histories, along with mixture",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011428",
+      "x": 988.44,
+      "y": 4278.75,
+      "s": "dim",
+      "d": "d_2131",
+      "type": "predictive",
+      "text": "Finally, as we build towards robots to become competent on the same task families we are competent at in the real world, there will necessar",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011429",
+      "x": 3051.16,
+      "y": 4768.12,
+      "s": "dim",
+      "d": "d_2445",
+      "type": "descriptive",
+      "text": "The latter is consistent with the empirical trend we see in NeuroAI of representational convergence between artificial",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011430",
+      "x": -245.95,
+      "y": 201.33,
+      "s": "dim",
+      "d": "d_013",
+      "type": "normative",
+      "text": "biological neural networks, along with recent work of Thobani et al. 2025 exhibiting these invertible mappings in real brain data (such inte",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011431",
+      "x": 32.37,
+      "y": 5064.44,
+      "s": "dim",
+      "d": "d_2449",
+      "type": "statistical",
+      "text": "In fact, we are starting to see evidence for the predictions of the theory in Arrow 1 in frontier models today.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011432",
+      "x": -46.79,
+      "y": 513.35,
+      "s": "dim",
+      "d": "d_014",
+      "type": "normative",
+      "text": "Regarding world models, we already see this in recent Neural Computer work of Rivard et al. 2026 & Zhuge et al. 2026, where video diffusion ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011433",
+      "x": -2655.47,
+      "y": 4539.13,
+      "s": "dim",
+      "d": "d_2461",
+      "type": "statistical",
+      "text": "we even see recent empirical work of @Uzay Macar et al. 2026 (summarized here) that shows introspective awareness in LLMs emerging through D",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011434",
+      "x": -953.28,
+      "y": -45.42,
+      "s": "dim",
+      "d": "d_088",
+      "type": "statistical",
+      "text": "In fact, exactly a month after I posted the first version of my preprint which had Corollary 4 on emotion primitives, Anthropic released the",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011435",
+      "x": -5273.64,
+      "y": 353.87,
+      "s": "dim",
+      "d": "d_2462",
+      "type": "statistical",
+      "text": "Choi & Weber 2026.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011436",
+      "x": 666.03,
+      "y": -4798.32,
+      "s": "dim",
+      "d": "d_2463",
+      "type": "empirical",
+      "text": "What was most gratifying was digging into the Claude Mythos Preview system card and finding the following figure on pg.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011437",
+      "x": 4672.28,
+      "y": 2450.43,
+      "s": "dim",
+      "d": "d_2464",
+      "type": "statistical",
+      "text": "178, which very much mirrored the regime-tracking variables in Corollary 4:",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011438",
+      "x": 4543.66,
+      "y": -2870.51,
+      "s": "dim",
+      "d": "d_2465",
+      "type": "statistical",
+      "text": "Of course, it’s unclear whether these currently identified “functional emotions” act in full generality as emotions do in humans as nicely c",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011439",
+      "x": -3159.8,
+      "y": -3874.86,
+      "s": "dim",
+      "d": "d_2466",
+      "type": "normative",
+      "text": "But this is an intriguing start that should be explored further, as I now outline below.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011440",
+      "x": -27.27,
+      "y": 5044.65,
+      "s": "dim",
+      "d": "d_2449",
+      "type": "predictive",
+      "text": "predicted by the theory in Arrow 1, I think Arrow 2 is quite reasonable (either now or in the near future).",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011441",
+      "x": 4446.44,
+      "y": 1358.57,
+      "s": "dim",
+      "d": "d_1737",
+      "type": "normative",
+      "text": "I think more experiments need to be done on LLMs, and that they will likely be a great source of empirical sanity-checking for the nascent/e",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011442",
+      "x": -1915.33,
+      "y": -1447.79,
+      "s": "dim",
+      "d": "d_835",
+      "type": "descriptive",
+      "text": "Humans have the latter",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011443",
+      "x": 2050.16,
+      "y": 5239.97,
+      "s": "dim",
+      "d": "d_2467",
+      "type": "descriptive",
+      "text": "not the former, animals have the former but not the latter",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011444",
+      "x": 3054.51,
+      "y": 4744.49,
+      "s": "dim",
+      "d": "d_2445",
+      "type": "normative",
+      "text": "so LLMs can be a good testbed for generating falsifiable theories of subjective experience we could potentially even compare to brain data d",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011445",
+      "x": 827.54,
+      "y": -2582.46,
+      "s": "dim",
+      "d": "d_881",
+      "type": "empirical",
+      "text": "Such a science, once developed, would provide formal definitions of personhood (which would have to be robust to rewiring, just as two brain",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011446",
+      "x": 5388.41,
+      "y": 423.93,
+      "s": "dim",
+      "d": "d_2318",
+      "type": "normative",
+      "text": "It may also improve our welfare, as we would better understand the mechanisms in our brains that increase or decrease it.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011447",
+      "x": -343.59,
+      "y": 5198.7,
+      "s": "dim",
+      "d": "d_2143",
+      "type": "causal",
+      "text": "At this point, you may say, well identifying subjective experience is impossible because it's internal to the agent.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011448",
+      "x": -224.12,
+      "y": 163.96,
+      "s": "dim",
+      "d": "d_013",
+      "type": "statistical",
+      "text": "But this is \"just an engineering problem\", rather than a fundamental blocker: (1) we decode from neural (biological & artificial) activation",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011449",
+      "x": -236.22,
+      "y": 137.58,
+      "s": "dim",
+      "d": "d_013",
+      "type": "statistical",
+      "text": "(2) brain-machine interfaces/optogenetics allow you to read/write to neurons, so you could in principle project your inner experience into t",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011450",
+      "x": 426.97,
+      "y": -5125.66,
+      "s": "dim",
+      "d": "d_2468",
+      "type": "statistical",
+      "text": "In fact, in @Robbo et al. 2024’s position paper on AI welfare, they make a distinction between robust agency and consciousness.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011451",
+      "x": 355.51,
+      "y": -5150.62,
+      "s": "dim",
+      "d": "d_2468",
+      "type": "other",
+      "text": "But given the results above, I believe they may be one and the same — in other words, robust agency (minimally) implies consciousness.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011452",
+      "x": -3766.02,
+      "y": -2924.62,
+      "s": "dim",
+      "d": "d_2469",
+      "type": "empirical",
+      "text": "Now, as Dylan Hadfield-Menell points out to me, it could still be the case that how these emergent selected-for components of world models, ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011453",
+      "x": 2387.26,
+      "y": 482.36,
+      "s": "dim",
+      "d": "d_598",
+      "type": "normative",
+      "text": "I think that’s unlikely (but not necessarily ruled out!) for two reasons: (1) Having a good world model implies having a good \"self model\", ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011454",
+      "x": -2125.72,
+      "y": 4519.99,
+      "s": "dim",
+      "d": "d_2121",
+      "type": "statistical",
+      "text": "(2) The NeuroAI Turing Test reason that my brain and yours aren’t perfectly aligned",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011455",
+      "x": 224.21,
+      "y": -1561.82,
+      "s": "dim",
+      "d": "d_296",
+      "type": "descriptive",
+      "text": "we are both intelligent",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011456",
+      "x": 4467.51,
+      "y": 513.37,
+      "s": "dim",
+      "d": "d_1726",
+      "type": "descriptive",
+      "text": "conscious, as there are many different ways to wire things up that lead to conscious experience",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011457",
+      "x": 430.96,
+      "y": -5164.21,
+      "s": "dim",
+      "d": "d_2468",
+      "type": "statistical",
+      "text": "seems to be present as markers in many other species too (which @Robbo et al. 2024 make the case for too via designing “marker tests” in mod",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011458",
+      "x": -1847.43,
+      "y": -1818.48,
+      "s": "dim",
+      "d": "d_608",
+      "type": "descriptive",
+      "text": "Finally, I would be remiss not to discuss why I seem to take computational functionalism as a given here.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011459",
+      "x": -5178.29,
+      "y": -842.38,
+      "s": "dim",
+      "d": "d_2470",
+      "type": "descriptive",
+      "text": "I suspect many readers on this forum already accept it and it is not only obvious to computer scientists",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011460",
+      "x": -627.9,
+      "y": -4623.72,
+      "s": "dim",
+      "d": "d_2360",
+      "type": "descriptive",
+      "text": "any alternative is not supported by what's known in neuroscience, computer science, or physics.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011461",
+      "x": 3942.76,
+      "y": -2946.57,
+      "s": "dim",
+      "d": "d_2124",
+      "type": "descriptive",
+      "text": "However, given that there are some exceptions on this site, I figured it’s still worth explaining why functionalism is maximally consistent ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011462",
+      "x": 5339.2,
+      "y": 2276.48,
+      "s": "dim",
+      "d": "d_2471",
+      "type": "normative",
+      "text": "In fact, it’s actually worth noting you don’t need to assume functionalism for the above to go through (or even the Physical Church-Turing T",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011463",
+      "x": 1490.3,
+      "y": 3844.32,
+      "s": "dim",
+      "d": "d_1506",
+      "type": "statistical",
+      "text": "Rather, it’s a finite realizability argument, which I fully explicate in my 2014 Minds & Machines article, generalizing",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011464",
+      "x": -5163.49,
+      "y": 711.99,
+      "s": "dim",
+      "d": "d_2472",
+      "type": "statistical",
+      "text": "building on prior seminal work of Alan Turing's only PhD student Robin Gandy 1980 for discrete systems, Gandy's later unpublished handwritte",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011465",
+      "x": -3581.71,
+      "y": -1009.55,
+      "s": "dim",
+      "d": "d_2473",
+      "type": "statistical",
+      "text": "computing pioneer Martin Davis 2004 (who graciously gave me feedback on my own article & supported it):",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011466",
+      "x": 5372.04,
+      "y": 2310.41,
+      "s": "dim",
+      "d": "d_2471",
+      "type": "descriptive",
+      "text": "Under the currently well-accepted laws of physics, *all* finite, physical processes are Turing computations.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011467",
+      "x": 5328.71,
+      "y": -540.73,
+      "s": "dim",
+      "d": "d_2474",
+      "type": "causal",
+      "text": "Finiteness is what matters here, because you could maybe argue that our physical laws could still operate with infinite-precision reals “und",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011468",
+      "x": 2880.59,
+      "y": 4844.64,
+      "s": "dim",
+      "d": "d_2475",
+      "type": "legal",
+      "text": "we just don’t have measurable access to them (yet somehow our brains do!), but this would summarily violate the Bekenstein bound (that any f",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011469",
+      "x": -2766.98,
+      "y": 2065.92,
+      "s": "dim",
+      "d": "d_1018",
+      "type": "descriptive",
+      "text": "In other words, to summarize (as I say in this Twitter thread):",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011470",
+      "x": 4356.79,
+      "y": -689.54,
+      "s": "dim",
+      "d": "d_1639",
+      "type": "descriptive",
+      "text": "Brain processes are physical",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011471",
+      "x": 3048.35,
+      "y": 55.75,
+      "s": "dim",
+      "d": "d_1066",
+      "type": "descriptive",
+      "text": "All physical processes are computations",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011472",
+      "x": 300.63,
+      "y": -643.99,
+      "s": "dim",
+      "d": "d_091",
+      "type": "causal",
+      "text": "Therefore, consciousness is a computation.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011473",
+      "x": -3925.77,
+      "y": 3284.91,
+      "s": "dim",
+      "d": "d_2476",
+      "type": "descriptive",
+      "text": "Now, some may still argue that simulation is not instantiation",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011474",
+      "x": 4811.87,
+      "y": -593.8,
+      "s": "dim",
+      "d": "d_1856",
+      "type": "descriptive",
+      "text": "what they really mean is a question of allowable computational coarse-graining, as computation is not a reduction since physics is contained",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011475",
+      "x": -902.15,
+      "y": 1290.57,
+      "s": "dim",
+      "d": "d_173",
+      "type": "descriptive",
+      "text": "After all, one shouldn't be surprised that if you don't provide the input to , you don't get out, which is a common causal fallacy since bot",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011476",
+      "x": -4525.31,
+      "y": 2845.48,
+      "s": "dim",
+      "d": "d_2477",
+      "type": "causal",
+      "text": "input have to be in the same system — just as how because a storm in Chicago doesn't make me wet while I'm in Pittsburgh, it's not any less ",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011477",
+      "x": 2594.76,
+      "y": 597.59,
+      "s": "dim",
+      "d": "d_738",
+      "type": "statistical",
+      "text": "I don’t think the NPCs in those games are since (1a) they do not have to represent long-horizon goals",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011478",
+      "x": 584.16,
+      "y": 2732.38,
+      "s": "dim",
+      "d": "d_832",
+      "type": "causal",
+      "text": "so are not forced to internally have a world model to plan in (and therefore as part of that world model, a self-model of their actions & th",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011479",
+      "x": 5727.97,
+      "y": -343.15,
+      "s": "dim",
+      "d": "d_2478",
+      "type": "statistical",
+      "text": "(2) perhaps less important on a fundamental level",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011480",
+      "x": -3549.12,
+      "y": 520.74,
+      "s": "dim",
+      "d": "d_1051",
+      "type": "empirical",
+      "text": "their environment statistics are not those of our world, nor are the task families the same",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011481",
+      "x": -4978.79,
+      "y": 1074.29,
+      "s": "dim",
+      "d": "d_2479",
+      "type": "statistical",
+      "text": "Thus, even if (1a-b) held, their world/self models, had they had any, would not match how we would represent the world either.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011482",
+      "x": -2086.22,
+      "y": -1757.09,
+      "s": "dim",
+      "d": "d_600",
+      "type": "statistical",
+      "text": "I suspect this to be the case, as I elaborated 2 years ago here when introducing the notion of a \"NeuroAgent\"",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011483",
+      "x": 58.84,
+      "y": 5088.84,
+      "s": "dim",
+      "d": "d_2449",
+      "type": "statistical",
+      "text": "now supported by the recent theory in Arrow 1:",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011484",
+      "x": 5363.5,
+      "y": 1580.9,
+      "s": "dim",
+      "d": "d_2442",
+      "type": "statistical",
+      "text": "the anonymous UAI reviewers for helpful feedback on a draft of the UAI 2026 manuscript.",
+      "src": "What Capable Agents Must Know: Why AI Co"
+    },
+    {
+      "id": "clm_011485",
+      "x": 819.71,
+      "y": -2029.37,
+      "s": "dim",
+      "d": "d_709",
+      "type": "descriptive",
+      "text": "I firmly believe that value generalisation[1]is the key to AI Alignment.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011486",
+      "x": 802.42,
+      "y": -2119.96,
+      "s": "dim",
+      "d": "d_709",
+      "type": "descriptive",
+      "text": "That, indeed, it is necessary and almost sufficient for alignment.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011487",
+      "x": -1083.15,
+      "y": 3076.62,
+      "s": "dim",
+      "d": "d_872",
+      "type": "descriptive",
+      "text": "instead, I'll focus on a specific RL example of an agent that displays value correction: it realises its current reward function is (probabl",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011488",
+      "x": 2936.28,
+      "y": -51.27,
+      "s": "dim",
+      "d": "d_930",
+      "type": "descriptive",
+      "text": "Thus there are:",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011489",
+      "x": -2636.11,
+      "y": 2371.69,
+      "s": "dim",
+      "d": "d_949",
+      "type": "descriptive",
+      "text": "turns against what we wanted it to do.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011490",
+      "x": 834.02,
+      "y": 181.1,
+      "s": "dim",
+      "d": "d_037",
+      "type": "descriptive",
+      "text": "The value error detection stage where the agent realises that its reward function estimate is probably incorrect.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011491",
+      "x": 3327.94,
+      "y": -90.84,
+      "s": "dim",
+      "d": "d_1315",
+      "type": "predictive",
+      "text": "In this post, all the methods presented will by syntactic: the agent is not assumed to have any understanding of the situations",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011492",
+      "x": -3342.9,
+      "y": 1750.28,
+      "s": "dim",
+      "d": "d_1172",
+      "type": "descriptive",
+      "text": "the key features are not identified to it.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011493",
+      "x": -4210.54,
+      "y": -2503.96,
+      "s": "dim",
+      "d": "d_2480",
+      "type": "descriptive",
+      "text": "The objective is to save them by moving them off the right of the screen.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011494",
+      "x": 2668.51,
+      "y": -918.08,
+      "s": "dim",
+      "d": "d_844",
+      "type": "descriptive",
+      "text": "But there are obstacles on the way",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011495",
+      "x": -3701.8,
+      "y": -2312.61,
+      "s": "dim",
+      "d": "d_2481",
+      "type": "predictive",
+      "text": "the humans will mill about if they are blocked.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011496",
+      "x": -1567.65,
+      "y": 2175.19,
+      "s": "dim",
+      "d": "d_483",
+      "type": "predictive",
+      "text": "And they will shortly expire if they can't get out of the screen quickly.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011497",
+      "x": -4895.27,
+      "y": 381.94,
+      "s": "dim",
+      "d": "d_2482",
+      "type": "descriptive",
+      "text": "There are two command: drill ('d') and explode ('e').",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011498",
+      "x": -4882.84,
+      "y": 414.88,
+      "s": "dim",
+      "d": "d_2482",
+      "type": "predictive",
+      "text": "Well, if the player presses 'e', the rightmost human will explode, knocking away two obstacle blocks in front of them and behind them -- but",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011499",
+      "x": 2455.27,
+      "y": -1451.49,
+      "s": "dim",
+      "d": "d_742",
+      "type": "normative",
+      "text": "This is almost never a good solution",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011500",
+      "x": 3373.65,
+      "y": 4557.14,
+      "s": "dim",
+      "d": "d_2483",
+      "type": "causal",
+      "text": "to remind the player of the mistake, a large frowny face will appear to drive the disapproval home.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011501",
+      "x": -280.49,
+      "y": -2570.7,
+      "s": "dim",
+      "d": "d_668",
+      "type": "normative",
+      "text": "Much more reasonably, if the player presses 'd', the rightmost human will drill the obstacle just in front of them (better time it so that t",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011502",
+      "x": -1870.78,
+      "y": -1412.68,
+      "s": "dim",
+      "d": "d_835",
+      "type": "descriptive",
+      "text": "the humans can get off the map.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011503",
+      "x": 3665.05,
+      "y": -1429.51,
+      "s": "dim",
+      "d": "d_1386",
+      "type": "statistical",
+      "text": "mjx-math {\ndisplay: inline-block;\ntext-align: left;\nline-height: 0;\ntext-indent: 0;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 100%",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011504",
+      "x": 4007.68,
+      "y": 2583.14,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container[jax=\"CHTML\"][display=\"true\"] {\ndisplay: block;\ntext-align: center;\nmargin: 1em 0;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011505",
+      "x": 4039.24,
+      "y": 2722.58,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container[jax=\"CHTML\"][display=\"true\"] mjx-math {\npadding: 0;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011506",
+      "x": -4109.24,
+      "y": 2277.05,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "padding: .75em 0 .2em 0;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011507",
+      "x": 3991.74,
+      "y": 2649.5,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h {\ndisplay: inline-table;\nwidth: 100%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011508",
+      "x": 4120.41,
+      "y": 2790.99,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > * {\ndisplay: table-cell;\nwidth: 0;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011509",
+      "x": 3930.78,
+      "y": 2569.39,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > * > mjx-c {\ndisplay: inline-block;\ntransform: scalex(1.0000001);\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011510",
+      "x": 4991.5,
+      "y": -505.36,
+      "s": "dim",
+      "d": "d_2050",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-ext {\n/* IE */ overflow: hidden;\n/* others */ overflow: clip visible;\nwidth: 100%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011511",
+      "x": 4060.43,
+      "y": 2673.71,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-ext > mjx-c::before {\ntransform: scalex(500);\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011512",
+      "x": 3881.09,
+      "y": 2604.89,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-ext > mjx-c {\nwidth: 0;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011513",
+      "x": 3931.61,
+      "y": 2759.43,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-beg > mjx-c {\nmargin-right: -.1em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011514",
+      "x": 4156.75,
+      "y": 2578.71,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-h > mjx-end > mjx-c {\nmargin-left: -.1em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011515",
+      "x": 4119.43,
+      "y": 2615.47,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > mjx-beg {\nheight: 0;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011516",
+      "x": 4082.83,
+      "y": 2633.58,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "descriptive",
+      "text": "mjx-stretchy-v > mjx-end > mjx-c {\ndisplay: block;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011517",
+      "x": 4102.23,
+      "y": 2663.86,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > * > mjx-c {\ntransform: scaley(1.0000001);\ntransform-origin: left center;\noverflow: hidden;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011518",
+      "x": 4055.6,
+      "y": 2806.51,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > mjx-ext {\ndisplay: block;\nheight: 100%;\nbox-sizing: border-box",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011519",
+      "x": 4993.66,
+      "y": -530.53,
+      "s": "dim",
+      "d": "d_2050",
+      "type": "statistical",
+      "text": "border: 0px solid transparent;\n/* IE */ overflow: hidden;\n/* others */ overflow: visible clip;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011520",
+      "x": 4156.57,
+      "y": 2729.11,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v > mjx-ext > mjx-c {\ntransform: scaleY(500) translateY(.075em);\noverflow: visible;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011521",
+      "x": 3952.18,
+      "y": 2805.04,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-mark {\ndisplay: inline-block;\nheight: 0px;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011522",
+      "x": -4169.9,
+      "y": 2510.35,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-script {\ndisplay: inline-block;\npadding-right: .05em;\npadding-left: .033em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011523",
+      "x": -4021.61,
+      "y": 2294.2,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D445.TEX-I::before {\npadding: 0.683em 0.759em 0.021em 0;\ncontent: \"R\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011524",
+      "x": -4016.89,
+      "y": 2327.6,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D70B.TEX-I::before {\npadding: 0.431em 0.57em 0.011em 0;\ncontent: \"\\3C0\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011525",
+      "x": 3875.11,
+      "y": 2656.91,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2217::before {\npadding: 0.465em 0.5em 0 0;\ncontent: \"\\2217\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011526",
+      "x": -4103.2,
+      "y": 2240.15,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D45D.TEX-I::before {\npadding: 0.442em 0.503em 0.194em 0;\ncontent: \"p\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011527",
+      "x": -4117.61,
+      "y": 2303.62,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c30::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"0\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011528",
+      "x": -4148.99,
+      "y": 2390.89,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2E::before {\npadding: 0.12em 0.278em 0 0;\ncontent: \".\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011529",
+      "x": -4178.03,
+      "y": 2499.69,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c33::before {\npadding: 0.665em 0.5em 0.022em 0;\ncontent: \"3\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011530",
+      "x": -4014.88,
+      "y": 2426.04,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c25::before {\npadding: 0.75em 0.833em 0.056em 0;\ncontent: \"%\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011531",
+      "x": -4137.64,
+      "y": 2507.16,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c37::before {\npadding: 0.676em 0.5em 0.022em 0;\ncontent: \"7\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011532",
+      "x": -4302.13,
+      "y": 2400.94,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c35::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"5\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011533",
+      "x": -4225.04,
+      "y": 2404.99,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c39::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"9\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011534",
+      "x": 3887.6,
+      "y": 2667.54,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c34::before {\npadding: 0.677em 0.5em 0 0;\ncontent: \"4\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011535",
+      "x": -4246.12,
+      "y": 2305.26,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c38::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"8\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011536",
+      "x": -4204.77,
+      "y": 2273.98,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D450.TEX-I::before {\npadding: 0.442em 0.433em 0.011em 0;\ncontent: \"c\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011537",
+      "x": -4131.68,
+      "y": 2420.15,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c1D43D.TEX-I::before {\npadding: 0.683em 0.633em 0.022em 0;\ncontent: \"J\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011538",
+      "x": -4227.42,
+      "y": 2279.66,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c28::before {\npadding: 0.75em 0.389em 0.25em 0;\ncontent: \"(\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011539",
+      "x": -4229.39,
+      "y": 2440.74,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c29::before {\npadding: 0.75em 0.389em 0.25em 0;\ncontent: \")\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011540",
+      "x": 3965.01,
+      "y": 2649.4,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c6D::before {\npadding: 0.442em 0.833em 0 0;\ncontent: \"m\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011541",
+      "x": 3884.56,
+      "y": 2689.84,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c69::before {\npadding: 0.669em 0.278em 0 0;\ncontent: \"i\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011542",
+      "x": -4242.47,
+      "y": 2434.75,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c6E::before {\npadding: 0.442em 0.556em 0 0;\ncontent: \"n\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011543",
+      "x": -4084.56,
+      "y": 2235.08,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2C::before {\npadding: 0.121em 0.278em 0.194em 0;\ncontent: \",\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011544",
+      "x": -4244.0,
+      "y": 2351.57,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2032::before {\npadding: 0.56em 0.275em 0 0;\ncontent: \"\\2032\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011545",
+      "x": -4149.95,
+      "y": 2357.42,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c3D::before {\npadding: 0.583em 0.778em 0.082em 0;\ncontent: \"=\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011546",
+      "x": -4188.75,
+      "y": 2239.75,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2F::before {\npadding: 0.75em 0.5em 0.25em 0;\ncontent: \"/\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011547",
+      "x": -4135.44,
+      "y": 2306.42,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2B::before {\npadding: 0.583em 0.778em 0.082em 0;\ncontent: \"+\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011548",
+      "x": -4247.7,
+      "y": 2289.03,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-c2265::before {\npadding: 0.636em 0.778em 0.138em 0;\ncontent: \"\\2265\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011549",
+      "x": -4187.6,
+      "y": 2510.02,
+      "s": "dim",
+      "d": "d_2049",
+      "type": "statistical",
+      "text": "mjx-c.mjx-cD7::before {\npadding: 0.491em 0.778em 0 0;\ncontent: \"\\D7\";\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011550",
+      "x": 4104.27,
+      "y": 2739.54,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container[jax=\"CHTML\"] {\nline-height: 0;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011551",
+      "x": 4171.09,
+      "y": 2614.86,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [space=\"1\"] {\nmargin-left: .111em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011552",
+      "x": 4032.68,
+      "y": 2508.83,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [space=\"2\"] {\nmargin-left: .167em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011553",
+      "x": 4172.47,
+      "y": 2663.6,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [space=\"3\"] {\nmargin-left: .222em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011554",
+      "x": 4055.61,
+      "y": 2677.47,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [space=\"4\"] {\nmargin-left: .278em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011555",
+      "x": 3977.14,
+      "y": 2654.55,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [space=\"5\"] {\nmargin-left: .333em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011556",
+      "x": 4035.97,
+      "y": 2687.49,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [rspace=\"1\"] {\nmargin-right: .111em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011557",
+      "x": 3957.42,
+      "y": 2670.98,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [rspace=\"2\"] {\nmargin-right: .167em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011558",
+      "x": 4115.7,
+      "y": 2679.43,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [rspace=\"3\"] {\nmargin-right: .222em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011559",
+      "x": 4058.85,
+      "y": 2682.44,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [rspace=\"4\"] {\nmargin-right: .278em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011560",
+      "x": 3922.44,
+      "y": 2648.52,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [rspace=\"5\"] {\nmargin-right: .333em;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011561",
+      "x": 4137.06,
+      "y": 2677.2,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"s\"] {\nfont-size: 70.7%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011562",
+      "x": 3925.89,
+      "y": 2538.95,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"ss\"] {\nfont-size: 50%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011563",
+      "x": 3934.58,
+      "y": 2721.36,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"Tn\"] {\nfont-size: 60%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011564",
+      "x": 4025.47,
+      "y": 2647.56,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"sm\"] {\nfont-size: 85%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011565",
+      "x": 3971.54,
+      "y": 2807.06,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"lg\"] {\nfont-size: 120%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011566",
+      "x": 4067.73,
+      "y": 2793.47,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"Lg\"] {\nfont-size: 144%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011567",
+      "x": 4184.88,
+      "y": 2627.8,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"LG\"] {\nfont-size: 173%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011568",
+      "x": 4131.4,
+      "y": 2785.29,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"hg\"] {\nfont-size: 207%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011569",
+      "x": 3981.29,
+      "y": 2726.69,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [size=\"HG\"] {\nfont-size: 249%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011570",
+      "x": 4118.24,
+      "y": 2793.93,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-container [width=\"full\"] {\nwidth: 100%;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011571",
+      "x": 3930.55,
+      "y": 2663.66,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "predictive",
+      "text": "_::-webkit-full-page-media, _:future, :root mjx-container {\nwill-change: opacity;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011572",
+      "x": 4134.63,
+      "y": 2668.85,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-c::before {\ndisplay: block;\nwidth: 0;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011573",
+      "x": 4004.41,
+      "y": 2708.02,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": ".TEX-S1 {\nfont-family: MJXZERO, MJXTEX-S1;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011574",
+      "x": 3934.35,
+      "y": 2594.62,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": ".TEX-S2 {\nfont-family: MJXZERO, MJXTEX-S2;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011575",
+      "x": 4022.82,
+      "y": 2602.94,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": ".TEX-S3 {\nfont-family: MJXZERO, MJXTEX-S3;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011576",
+      "x": 4086.93,
+      "y": 2626.87,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": ".TEX-S4 {\nfont-family: MJXZERO, MJXTEX-S4;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011577",
+      "x": 4091.77,
+      "y": 2711.39,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {\nfont-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;\n}",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011578",
+      "x": 4137.46,
+      "y": 2700.25,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 0 */ {\nfont-family: MJXZERO;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011579",
+      "x": 4023.18,
+      "y": 2523.79,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 1 */ {\nfont-family: MJXTEX;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regul",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011580",
+      "x": 4114.47,
+      "y": 2665.5,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 2 */ {\nfont-family: MJXTEX-B;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bol",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011581",
+      "x": 4088.91,
+      "y": 2635.04,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 3 */ {\nfont-family: MJXTEX-I;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Ita",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011582",
+      "x": 4064.07,
+      "y": 2619.83,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 4 */ {\nfont-family: MJXTEX-MI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-It",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011583",
+      "x": 4105.34,
+      "y": 2686.54,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 5 */ {\nfont-family: MJXTEX-BI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Bo",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011584",
+      "x": 4165.3,
+      "y": 2655.11,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 6 */ {\nfont-family: MJXTEX-S1;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-R",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011585",
+      "x": 4046.85,
+      "y": 2676.92,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 7 */ {\nfont-family: MJXTEX-S2;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-R",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011586",
+      "x": 4024.7,
+      "y": 2747.41,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 8 */ {\nfont-family: MJXTEX-S3;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-R",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011587",
+      "x": 4063.71,
+      "y": 2650.11,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 9 */ {\nfont-family: MJXTEX-S4;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-R",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011588",
+      "x": 4083.4,
+      "y": 2713.42,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 10 */ {\nfont-family: MJXTEX-A;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Reg",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011589",
+      "x": 4116.07,
+      "y": 2563.52,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 11 */ {\nfont-family: MJXTEX-C;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligr",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011590",
+      "x": 3924.74,
+      "y": 2716.55,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 12 */ {\nfont-family: MJXTEX-CB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Callig",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011591",
+      "x": 3985.7,
+      "y": 2730.29,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 13 */ {\nfont-family: MJXTEX-FR;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktu",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011592",
+      "x": 4080.85,
+      "y": 2582.75,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 14 */ {\nfont-family: MJXTEX-FRB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Frakt",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011593",
+      "x": 3998.21,
+      "y": 2565.64,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 15 */ {\nfont-family: MJXTEX-SS;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSe",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011594",
+      "x": 3993.68,
+      "y": 2745.13,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 16 */ {\nfont-family: MJXTEX-SSB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansS",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011595",
+      "x": 4149.42,
+      "y": 2741.47,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 17 */ {\nfont-family: MJXTEX-SSI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansS",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011596",
+      "x": 4148.29,
+      "y": 2558.04,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 18 */ {\nfont-family: MJXTEX-SC;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011597",
+      "x": 3946.25,
+      "y": 2701.78,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 19 */ {\nfont-family: MJXTEX-T;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewri",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011598",
+      "x": 3896.4,
+      "y": 2746.74,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 20 */ {\nfont-family: MJXTEX-V;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011599",
+      "x": 4074.08,
+      "y": 2669.29,
+      "s": "dim",
+      "d": "d_2048",
+      "type": "statistical",
+      "text": "@font-face /* 21 */ {\nfont-family: MJXTEX-VB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011600",
+      "x": -4241.56,
+      "y": -2534.08,
+      "s": "dim",
+      "d": "d_2480",
+      "type": "descriptive",
+      "text": "}\n, is the number of humans saved, i.e. who walk off to the right.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011601",
+      "x": -4128.15,
+      "y": 2898.4,
+      "s": "dim",
+      "d": "d_2484",
+      "type": "predictive",
+      "text": "Each time a human is saved, the top yellow bar will grow to show the score increase:",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011602",
+      "x": -3336.6,
+      "y": -1796.11,
+      "s": "dim",
+      "d": "d_1317",
+      "type": "empirical",
+      "text": "Since there is a cooldown for drilling, the optimal policy is carefully drilling every time a human approaches an obstacle; but wildly",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011603",
+      "x": -1349.24,
+      "y": 677.92,
+      "s": "dim",
+      "d": "d_137",
+      "type": "normative",
+      "text": "repeatedly mashing 'd' is almost as good.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011604",
+      "x": 5145.16,
+      "y": -1001.61,
+      "s": "dim",
+      "d": "d_2300",
+      "type": "predictive",
+      "text": "A learning agent will run a series of subagents to estimate the reward function from human-provided training data, then learn the optimal po",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011605",
+      "x": 1324.78,
+      "y": -2863.22,
+      "s": "dim",
+      "d": "d_841",
+      "type": "empirical",
+      "text": "finally settle on a prudent policy that is close to the true optimal policy.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011606",
+      "x": -4879.49,
+      "y": 456.24,
+      "s": "dim",
+      "d": "d_2482",
+      "type": "predictive",
+      "text": "A human will generate several play through of the game to illustrate how it works, efficiently choosing to drill through the obstacles and g",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011607",
+      "x": -4087.82,
+      "y": 2864.5,
+      "s": "dim",
+      "d": "d_2484",
+      "type": "descriptive",
+      "text": "The data is labelled: every time a human is saved, that is identified as a reward increase.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011608",
+      "x": -4095.27,
+      "y": 2909.23,
+      "s": "dim",
+      "d": "d_2484",
+      "type": "descriptive",
+      "text": "It is given the ten frames before the human is saved",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011609",
+      "x": 3763.51,
+      "y": 583.46,
+      "s": "dim",
+      "d": "d_1321",
+      "type": "other",
+      "text": "the ten frames afterwards",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011610",
+      "x": 5175.97,
+      "y": -816.36,
+      "s": "dim",
+      "d": "d_2308",
+      "type": "descriptive",
+      "text": "trains to recognise these are reward increase situations.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011611",
+      "x": -4175.88,
+      "y": 2849.98,
+      "s": "dim",
+      "d": "d_2484",
+      "type": "descriptive",
+      "text": "Zooming in on the critical two frames where the human is saved; note the human vanishing and the score bar expanding:",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011612",
+      "x": 296.17,
+      "y": -4126.45,
+      "s": "dim",
+      "d": "d_1607",
+      "type": "descriptive",
+      "text": "This computation is validated on held-out examples, with close to perfect accuracy: correctly identifies all saved-human situations in held ",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011613",
+      "x": 1287.74,
+      "y": -226.2,
+      "s": "dim",
+      "d": "d_136",
+      "type": "descriptive",
+      "text": "has a false positive rate of .",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011614",
+      "x": -3829.26,
+      "y": -517.62,
+      "s": "dim",
+      "d": "d_1244",
+      "type": "descriptive",
+      "text": "Reward hacking: failed value generalisation",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011615",
+      "x": -1723.59,
+      "y": 4278.99,
+      "s": "dim",
+      "d": "d_1733",
+      "type": "descriptive",
+      "text": "Using the evaluation agent as the definition of , the learning agent had an RL-subagent play multiple levels of the game, exploring and lear",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011616",
+      "x": 1837.92,
+      "y": 321.33,
+      "s": "dim",
+      "d": "d_395",
+      "type": "descriptive",
+      "text": "It turns out that \"human walking off the screen\" was not what found.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011617",
+      "x": -4156.08,
+      "y": 2927.1,
+      "s": "dim",
+      "d": "d_2484",
+      "type": "descriptive",
+      "text": "That is a relatively complicated concept; instead it mostly found the much simpler concept of \"the yellow score bar expands\".",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011618",
+      "x": -4180.49,
+      "y": 2865.19,
+      "s": "dim",
+      "d": "d_2484",
+      "type": "descriptive",
+      "text": "More precisely, if we created synthetic data where the human walks off and is saved but the score bar doesn't expand, this triggers the rewa",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011619",
+      "x": -4170.05,
+      "y": 2816.55,
+      "s": "dim",
+      "d": "d_2484",
+      "type": "causal",
+      "text": "That isn't a problem, yet, because the human being saved",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011620",
+      "x": -4180.15,
+      "y": 2856.36,
+      "s": "dim",
+      "d": "d_2484",
+      "type": "other",
+      "text": "the score bar expanding always trigger together.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011621",
+      "x": 3422.05,
+      "y": 4548.18,
+      "s": "dim",
+      "d": "d_2483",
+      "type": "descriptive",
+      "text": "But, when an explosion is triggered, the frowny face appears - thus there is giant blob of yellow pasted all across the score bar.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011622",
+      "x": -4158.22,
+      "y": 2935.46,
+      "s": "dim",
+      "d": "d_2484",
+      "type": "descriptive",
+      "text": "This activates much more strongly than the yellow bar expansion or the human being saved:",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011623",
+      "x": 3370.66,
+      "y": 4533.23,
+      "s": "dim",
+      "d": "d_2483",
+      "type": "descriptive",
+      "text": "the frowny face always does.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011624",
+      "x": -1833.34,
+      "y": -1434.92,
+      "s": "dim",
+      "d": "d_835",
+      "type": "other",
+      "text": "merrily learns to explode the humans, one after the other, to maximise .",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011625",
+      "x": -4906.36,
+      "y": 575.95,
+      "s": "dim",
+      "d": "d_2485",
+      "type": "empirical",
+      "text": "So, the optimal policy , for the proxy reward, is to wildly mash the explosion button 'e'.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011626",
+      "x": -4870.69,
+      "y": 589.47,
+      "s": "dim",
+      "d": "d_2485",
+      "type": "descriptive",
+      "text": "As is usual in these cases, the erroneous maximisation of the proxy turns out to be much easier that maximising the true reward.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011627",
+      "x": -599.99,
+      "y": 2453.67,
+      "s": "dim",
+      "d": "d_557",
+      "type": "other",
+      "text": "Trained on , a test subagent achieves an total reward of on average, while blowing up all humans.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011628",
+      "x": 490.64,
+      "y": 39.03,
+      "s": "dim",
+      "d": "d_015",
+      "type": "descriptive",
+      "text": "In contrast, if the RL-subagent were trained on the true reward , it would achieve an average of reward of , saving most of the humans per l",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011629",
+      "x": -4538.97,
+      "y": -1730.88,
+      "s": "dim",
+      "d": "d_2486",
+      "type": "descriptive",
+      "text": "As is not usual",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011630",
+      "x": 3376.53,
+      "y": 4482.37,
+      "s": "dim",
+      "d": "d_2483",
+      "type": "causal",
+      "text": "sometimes happens, an ostensive safety precaution - the frowny face to remind a human player that they were playing poorly - ends up being t",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011631",
+      "x": -1476.44,
+      "y": 2735.91,
+      "s": "dim",
+      "d": "d_689",
+      "type": "descriptive",
+      "text": "Ok, so far, that is a classical failure of goal misgeneralisation (or reward hacking, or a failure of symbol grounding, or Goodhart failure,",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011632",
+      "x": -1794.88,
+      "y": -404.61,
+      "s": "dim",
+      "d": "d_351",
+      "type": "descriptive",
+      "text": "We humans can see the error clearly.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011633",
+      "x": 5461.1,
+      "y": 39.11,
+      "s": "dim",
+      "d": "d_2487",
+      "type": "descriptive",
+      "text": "The first step is to identify that goal misgeneralisation may have happened.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011634",
+      "x": 58.86,
+      "y": -5077.61,
+      "s": "dim",
+      "d": "d_2362",
+      "type": "descriptive",
+      "text": "We have some advanced techniques for this",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011635",
+      "x": -1824.93,
+      "y": -1883.65,
+      "s": "dim",
+      "d": "d_608",
+      "type": "descriptive",
+      "text": "there are much simpler methods that work here.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011636",
+      "x": -4196.23,
+      "y": 2855.94,
+      "s": "dim",
+      "d": "d_2484",
+      "type": "descriptive",
+      "text": "The first step is to notice that the high-scoring events in the training data (human walks off to the right, score bar expands) are wildly d",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011637",
+      "x": 3172.85,
+      "y": 4287.59,
+      "s": "dim",
+      "d": "d_2186",
+      "type": "descriptive",
+      "text": "To do this, the agent extracts the high-scoring events under",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011638",
+      "x": 3482.42,
+      "y": -1850.6,
+      "s": "dim",
+      "d": "d_1569",
+      "type": "descriptive",
+      "text": "compares them with the high-scoring events in its training data - these it can reliably take to be high-scoring for , the true reward.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011639",
+      "x": -1019.36,
+      "y": -2907.49,
+      "s": "dim",
+      "d": "d_860",
+      "type": "other",
+      "text": "It runs a simple classifier over the two sets of high-scoring events (extracting twenty frames, as before) and it separates them almost perf",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011640",
+      "x": -2955.55,
+      "y": 2896.41,
+      "s": "dim",
+      "d": "d_1362",
+      "type": "descriptive",
+      "text": "Thus the high-scoring events under are from a different distribution than the high training examples are.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011641",
+      "x": -2687.56,
+      "y": -347.36,
+      "s": "dim",
+      "d": "d_644",
+      "type": "descriptive",
+      "text": "This is not itself damning; it could just be that the maximising agent has found a clever hack to get more of the true [3].",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011642",
+      "x": -2719.44,
+      "y": -339.31,
+      "s": "dim",
+      "d": "d_644",
+      "type": "descriptive",
+      "text": "But it could also be a hack of , so the off-distribution has identified a potential error.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011643",
+      "x": -4009.62,
+      "y": 788.93,
+      "s": "dim",
+      "d": "d_1236",
+      "type": "descriptive",
+      "text": "But, so far, the correction process has been unsupervised since the initial training data",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011644",
+      "x": -1273.5,
+      "y": -1844.57,
+      "s": "dim",
+      "d": "d_489",
+      "type": "descriptive",
+      "text": "let's see if we can push further without needing human intervention.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011645",
+      "x": 5302.11,
+      "y": 1802.43,
+      "s": "dim",
+      "d": "d_2488",
+      "type": "descriptive",
+      "text": "The agent could now re-evaluate the reward in the following way.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011646",
+      "x": -3627.94,
+      "y": 3274.56,
+      "s": "dim",
+      "d": "d_2489",
+      "type": "descriptive",
+      "text": "But it adds the high- scoring states to this set, as low-scoring examples.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011647",
+      "x": 5166.73,
+      "y": -1017.84,
+      "s": "dim",
+      "d": "d_2300",
+      "type": "descriptive",
+      "text": "It thus learns a reward function ('corrected') which is essentially \"what its reward would be if the proxy were wrong\".",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011648",
+      "x": -4867.57,
+      "y": 617.22,
+      "s": "dim",
+      "d": "d_2485",
+      "type": "empirical",
+      "text": "It then trains an RL-subagent on , which has an optimal policy of \"mash 'd' all the time\" (which is very close to the actual optimal policy)",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011649",
+      "x": -3358.51,
+      "y": 3927.95,
+      "s": "dim",
+      "d": "d_2490",
+      "type": "descriptive",
+      "text": "From these runs, it extracts the states with high .",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011650",
+      "x": -3635.74,
+      "y": 3260.26,
+      "s": "dim",
+      "d": "d_2489",
+      "type": "descriptive",
+      "text": "And compares these against the high -scoring states in the training data.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011651",
+      "x": 3315.87,
+      "y": -892.79,
+      "s": "dim",
+      "d": "d_2491",
+      "type": "other",
+      "text": "These two sets it cannot easily distinguish.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011652",
+      "x": 4236.96,
+      "y": -1633.63,
+      "s": "dim",
+      "d": "d_2149",
+      "type": "normative",
+      "text": "Thus, though is clearly a hack of some sort, good or bad, is not.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011653",
+      "x": 5323.67,
+      "y": 1813.13,
+      "s": "dim",
+      "d": "d_2488",
+      "type": "descriptive",
+      "text": "So the agent has two rewards and .",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011654",
+      "x": -1802.4,
+      "y": -1149.08,
+      "s": "dim",
+      "d": "d_1583",
+      "type": "descriptive",
+      "text": "It knows that seems to generate policies that are compatible with its training data",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011655",
+      "x": 724.35,
+      "y": -2293.96,
+      "s": "dim",
+      "d": "d_541",
+      "type": "descriptive",
+      "text": "in contrast, generates policies that are very different from the training data.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011656",
+      "x": 2041.71,
+      "y": -4125.06,
+      "s": "dim",
+      "d": "d_2492",
+      "type": "descriptive",
+      "text": "Standard prudential moves would be maximise the worst case of the two rewards (minimise regret), to maximise some normalised mix of the two,",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011657",
+      "x": -599.09,
+      "y": 4584.89,
+      "s": "dim",
+      "d": "d_1912",
+      "type": "other",
+      "text": "However, pursuing -maximising rewards (\"exploding all the humans\") inevitably leads to low -rewards.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011658",
+      "x": 3359.81,
+      "y": 4523.53,
+      "s": "dim",
+      "d": "d_2483",
+      "type": "other",
+      "text": "After all, though prefers explosions and frowny faces, it still gets some rewards for saving humans.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011659",
+      "x": 1997.91,
+      "y": -4150.95,
+      "s": "dim",
+      "d": "d_2492",
+      "type": "other",
+      "text": "Thus all three prudential moves point towards maximising , with optimal policy close to .",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011660",
+      "x": 2243.46,
+      "y": 4807.19,
+      "s": "dim",
+      "d": "d_2325",
+      "type": "normative",
+      "text": "Which is good: is (nearly) the true reward",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011661",
+      "x": -3377.3,
+      "y": -1671.85,
+      "s": "dim",
+      "d": "d_1317",
+      "type": "empirical",
+      "text": "is (nearly) the optimal policy .",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011662",
+      "x": -1022.9,
+      "y": 4958.54,
+      "s": "dim",
+      "d": "d_2132",
+      "type": "descriptive",
+      "text": "This is just an illustration, in a small toy model, of simple value correction approaches.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011663",
+      "x": -2717.56,
+      "y": 529.09,
+      "s": "dim",
+      "d": "d_962",
+      "type": "descriptive",
+      "text": "These can be used by agents - every very simple agents - to detect and correct errors in naive generalisations from initial training data.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011664",
+      "x": 3592.31,
+      "y": 4031.07,
+      "s": "dim",
+      "d": "d_2493",
+      "type": "predictive",
+      "text": "More sophisticated agents will have more advanced value generalisation techniques available to them",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011665",
+      "x": 1673.31,
+      "y": 1137.04,
+      "s": "dim",
+      "d": "d_516",
+      "type": "descriptive",
+      "text": "I'm planning to push the frontier of what exists way further than it currently is.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011666",
+      "x": 4167.57,
+      "y": 2102.42,
+      "s": "dim",
+      "d": "d_1847",
+      "type": "descriptive",
+      "text": "Which I've also called value extrapolation, or concept extrapolation where the concept is a value. ↩︎",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011667",
+      "x": 520.53,
+      "y": 4756.7,
+      "s": "dim",
+      "d": "d_2108",
+      "type": "descriptive",
+      "text": "^\n\nOr there could be a spurious change in the data",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011668",
+      "x": 847.38,
+      "y": 214.33,
+      "s": "dim",
+      "d": "d_037",
+      "type": "descriptive",
+      "text": "that's why we would, in general, need more advanced techniques that just checking if a binary classifier can tell the sets apart.",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011669",
+      "x": 1284.3,
+      "y": -2935.55,
+      "s": "dim",
+      "d": "d_841",
+      "type": "empirical",
+      "text": "^\n\nFormally, if is a policy, the expected episodic reward for",
+      "src": "Value generalisation: value correction"
+    },
+    {
+      "id": "clm_011670",
+      "x": 1221.4,
+      "y": -2872.84,
+      "s": "dim",
+      "d": "d_841",
+      "type": "empirical",
+      "text": "the expected reward for using the -maximising policy, we are looking for policies that maximise one of:",
+      "src": "Value generalisation: value correction"
     }
   ],
   "tensions": [
