@@ -3,37 +3,37 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 29181446021 · sources 539 · claims 9825 · edges 1279 · verified 73
+run 29227209021 · sources 553 · claims 10734 · edges 1279 · verified 73
 
 ## Districts
 
 ```text
-woff · mjx · font                      ░░░░░░░░░░    338 claims  ⚡0
-Anthropic Company Moves                ▓▓▓▓▓░░░░░    120 claims  ⚡0
+woff · font · mjx                      ░░░░░░░░░░    404 claims  ⚡0
+Anthropic Company Moves                ▓▓▓▓▓░░░░░    125 claims  ⚡0
 Model Arena Leaderboard Churn          ▓▓▓▓▓▓▓░░░    119 claims  ⚡0
-mjx · padding · content                ░░░░░░░░░░    100 claims  ⚡0
-Multi-Agent LLM Systems                ▓░░░░░░░░░     63 claims  ⚡0
-AI Existential Risk Discourse          ▓▓▓▓░░░░░░     62 claims  ⚡0
-Cross-Modal Knowledge Distillation     ▓░░░░░░░░░     60 claims  ⚡0
-Epistemic Uncertainty Hedges           ▓▓░░░░░░░░     56 claims  ⚡0
+mjx · padding · content                ░░░░░░░░░░    119 claims  ⚡0
+Multi-Agent LLM Systems                ▓░░░░░░░░░     71 claims  ⚡0
+Cross-Modal Knowledge Distillation     ▓░░░░░░░░░     63 claims  ⚡0
+AI Existential Risk Discourse          ▓▓▓▓░░░░░░     63 claims  ⚡0
+Epistemic Uncertainty Hedges           ▓▓░░░░░░░░     61 claims  ⚡0
+LLM Architecture Research              ░░░░░░░░░░     50 claims  ⚡0
 Latent Variable and Neural Models      ░░░░░░░░░░     50 claims  ⚡0
-Benchmark Baselines and Agent Scaling  ░░░░░░░░░░     48 claims  ⚡0
-LLM Architecture Research              ░░░░░░░░░░     47 claims  ⚡0
-training · data · models               ░░░░░░░░░░     46 claims  ⚡0
+Benchmark Baselines and Agent Scaling  ░░░░░░░░░░     49 claims  ⚡0
+training · data · models               ░░░░░░░░░░     49 claims  ⚡0
+prediction · predictor · accuracy      ░░░░░░░░░░     44 claims  ⚡0
 US AI Policy and Classrooms            ▓▓▓▓░░░░░░     44 claims  ⚡0
 Temporal Image Consistency             ░░░░░░░░░░     42 claims  ⚡0
 AI Safety Institute Collaboration      ░░░░░░░░░░     42 claims  ⚡0
-prediction · predictor · accuracy      ░░░░░░░░░░     42 claims  ⚡0
+User Friction and Pushback             ▓▓░░░░░░░░     40 claims  ⚡0
+Compute and Funding Demands            ▓▓░░░░░░░░     35 claims  ⚡0
 Federal AI Security Mandates           ▓▓░░░░░░░░     35 claims  ⚡0
-Compute and Funding Demands            ▓▓░░░░░░░░     34 claims  ⚡0
-Concept Embedding Customization        ░░░░░░░░░░     33 claims  ⚡0
-Alignment Faking Detection Thresholds  ░░░░░░░░░░     32 claims  ⚡0
+Concept Embedding Customization        ░░░░░░░░░░     34 claims  ⚡0
+Alignment Faking Detection Thresholds  ░░░░░░░░░░     33 claims  ⚡0
+Gemini Model Benchmarks                ▓▓░░░░░░░░     33 claims  ⚡0
+Behavior Cue Token Signaling           ░░░░░░░░░░     32 claims  ⚡0
+Multi-Turn Reasoning Failure Modes     ▓▓░░░░░░░░     31 claims  ⚡0
 Pope Leo on AI Ethics                  ▓▓▓▓░░░░░░     31 claims  ⚡1
-Multi-Turn Reasoning Failure Modes     ▓▓░░░░░░░░     30 claims  ⚡0
-Gemini Model Benchmarks                ▓▓▓░░░░░░░     30 claims  ⚡0
-agi · human · instincts                ░░░░░░░░░░     30 claims  ⚡0
-semantic · task · inference            ░░░░░░░░░░     29 claims  ⚡0
-… and 1668 smaller districts (7330 claims)
+… and 1830 smaller districts (8205 claims)
 ```
 
 ## Sharpest fault
