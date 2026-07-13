@@ -1,0 +1,97 @@
+name: fable
+
+# Worker-side deep extraction in CI: drains pending `extract` tasks with the
+# episteme-fable engine (see WORKER.md, "Rubric — extract tasks").
+#
+# Auth (either secret works; OAuth preferred — it bills the Claude
+# subscription like local `claude -p`, no metered API key):
+#   CLAUDE_CODE_OAUTH_TOKEN  — generate locally with `claude setup-token`
+#   ANTHROPIC_API_KEY        — metered API billing fallback
+# With neither secret set, the job exits cleanly without doing work.
+
+on:
+  schedule:
+    - cron: "45 */6 * * *"   # 4x/day, offset from the 02:15 mole run
+  workflow_dispatch:
+    inputs:
+      drain:
+        description: "How many extract tasks to drain"
+        default: "20"
+
+# Same group as mole.yml: a drain never runs concurrently with the daily
+# ingest (both rewrite queue/pending.jsonl). mole has cancel-in-progress and
+# may preempt a running drain — safe, tasks stay pending and re-drain.
+concurrency:
+  group: mole-${{ github.repository }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  drain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    env:
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - name: Check credentials
+        id: creds
+        run: |
+          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ] && [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "No CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY secret — skipping drain."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.creds.outputs.ok == 'true'
+
+      - uses: actions/checkout@v4
+        if: steps.creds.outputs.ok == 'true'
+        with:
+          repository: parallax1s/episteme-fable
+          path: episteme-fable
+
+      - uses: actions/setup-python@v5
+        if: steps.creds.outputs.ok == 'true'
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-node@v4
+        if: steps.creds.outputs.ok == 'true'
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        if: steps.creds.outputs.ok == 'true'
+        run: |
+          pip install -e '.[all]'
+          npm install -g @anthropic-ai/claude-code
+
+      - name: Drain extract tasks
+        if: steps.creds.outputs.ok == 'true'
+        env:
+          EPISTEME_FABLE_SRC: ${{ github.workspace }}/episteme-fable/src
+        run: |
+          set -eu
+          DRAIN="${{ github.event.inputs.drain || '20' }}"
+          python -m mole fable --drain "$DRAIN" --run-id "fable-ci-${GITHUB_RUN_ID}"
+
+      - name: Commit drain outputs
+        if: steps.creds.outputs.ok == 'true'
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # never commit the engine checkout
+          git add data queue
+          if ! git diff --quiet --cached --exit-code; then
+            git commit -m "fable: automated drain ${GITHUB_RUN_ID}"
+            for i in 1 2 3; do
+              git push && break
+              git pull --rebase && continue
+            done
+          fi
