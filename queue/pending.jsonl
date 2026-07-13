@@ -10582,7 +10582,7 @@
 {"id": "task_010582", "kind": "attach", "payload": {"question_id": "q_000006", "claim_id": "clm_007064", "sim": 0.374}, "created_run": "20260702", "status": "pending"}
 {"id": "task_010583", "kind": "refine", "payload": {"claim_id": "clm_000066"}, "created_run": "20260702", "status": "obsolete", "note": "claim retired; source re-extracted by fable-backfill-20260713"}
 {"id": "task_010584", "kind": "refine", "payload": {"claim_id": "clm_000081"}, "created_run": "20260702", "status": "obsolete", "note": "claim retired; source re-extracted by fable-backfill-20260713"}
-{"id": "task_010585", "kind": "refine", "payload": {"claim_id": "clm_000116"}, "created_run": "20260702", "status": "pending"}
+{"id": "task_010585", "kind": "refine", "payload": {"claim_id": "clm_000116"}, "created_run": "20260702", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29273613553"}
 {"id": "task_010586", "kind": "refine", "payload": {"claim_id": "clm_000160"}, "created_run": "20260702", "status": "pending"}
 {"id": "task_010587", "kind": "refine", "payload": {"claim_id": "clm_000175"}, "created_run": "20260702", "status": "pending"}
 {"id": "task_010588", "kind": "refine", "payload": {"claim_id": "clm_000181"}, "created_run": "20260702", "status": "pending"}
@@ -17876,9 +17876,9 @@
 {"id": "task_017876", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_013685", "sim": 0.6712}, "created_run": "fable-backfill-20260713", "status": "pending"}
 {"id": "task_017877", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_013686", "sim": 0.6747}, "created_run": "fable-backfill-20260713", "status": "pending"}
 {"id": "task_017878", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_013687", "sim": 0.6734}, "created_run": "fable-backfill-20260713", "status": "pending"}
-{"id": "task_017879", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10819v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
-{"id": "task_017880", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10892v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
-{"id": "task_017881", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10912v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017879", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10819v1"}, "created_run": "fable-backfill-20260713", "status": "done", "note": "extracted by fable-ci-29273613553: 19 claims, 2 theses"}
+{"id": "task_017880", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10892v1"}, "created_run": "fable-backfill-20260713", "status": "done", "note": "extracted by fable-ci-29273613553: 14 claims, 1 theses"}
+{"id": "task_017881", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10912v1"}, "created_run": "fable-backfill-20260713", "status": "done", "note": "extracted by fable-ci-29273613553: 8 claims, 1 theses"}
 {"id": "task_017882", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10917v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
 {"id": "task_017883", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10953v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
 {"id": "task_017884", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10968v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
@@ -18413,3 +18413,13 @@
 {"id": "task_018413", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research"}, "created_run": "fable-backfill-20260713", "status": "pending"}
 {"id": "task_018414", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Z8kLbceGBMWB5HGfn/from-wantons-to-moral-agents"}, "created_run": "fable-backfill-20260713", "status": "pending"}
 {"id": "task_018415", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/vPaXtarnJ37kGfPdJ/independent-alignment-of-language-models"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018416", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "clm_013706", "sim": 0.5715}, "created_run": "fable-ci-29273613553", "status": "pending"}
+{"id": "task_018417", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_013708", "sim": 0.5804}, "created_run": "fable-ci-29273613553", "status": "pending"}
+{"id": "task_018418", "kind": "attach", "payload": {"question_id": "q_000029", "claim_id": "clm_013709", "sim": 0.7717}, "created_run": "fable-ci-29273613553", "status": "pending"}
+{"id": "task_018419", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_013714", "sim": 0.533}, "created_run": "fable-ci-29273613553", "status": "pending"}
+{"id": "task_018420", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_013715", "sim": 0.5326}, "created_run": "fable-ci-29273613553", "status": "pending"}
+{"id": "task_018421", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_013726", "sim": 0.5897}, "created_run": "fable-ci-29273613553", "status": "pending"}
+{"id": "task_018422", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_013732", "sim": 0.5474}, "created_run": "fable-ci-29273613553", "status": "pending"}
+{"id": "task_018423", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "clm_013735", "sim": 0.6419}, "created_run": "fable-ci-29273613553", "status": "pending"}
+{"id": "task_018424", "kind": "attach", "payload": {"question_id": "q_000017", "claim_id": "clm_013739", "sim": 0.7361}, "created_run": "fable-ci-29273613553", "status": "pending"}
+{"id": "task_018425", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "th_000021", "sim": 0.5613}, "created_run": "fable-ci-29273613553", "status": "pending"}
