@@ -3,11 +3,13 @@ name: fable
 # Worker-side deep extraction in CI: drains pending `extract` tasks with the
 # episteme-fable engine (see WORKER.md, "Rubric — extract tasks").
 #
-# Auth (either secret works; OAuth preferred — it bills the Claude
-# subscription like local `claude -p`, no metered API key):
-#   CLAUDE_CODE_OAUTH_TOKEN  — generate locally with `claude setup-token`
-#   ANTHROPIC_API_KEY        — metered API billing fallback
-# With neither secret set, the job exits cleanly without doing work.
+# Auth — keyless by default: with no secrets configured, the engine runs on
+# the GitHub Models inference API using this workflow's own token
+# (permissions: models: read). Optional overrides:
+#   CLAUDE_CODE_OAUTH_TOKEN  — `claude setup-token`; runs claude CLI on the
+#                              Claude subscription (haiku propose quality)
+#   ANTHROPIC_API_KEY        — metered API fallback for the claude CLI
+# Bench parity (12-doc gold set): haiku F1 0.869 vs gpt-4.1-mini F1 0.865.
 
 on:
   schedule:
@@ -27,6 +29,7 @@ concurrency:
 
 permissions:
   contents: write
+  models: read
 
 jobs:
   drain:
@@ -36,52 +39,49 @@ jobs:
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
-      - name: Check credentials
-        id: creds
-        run: |
-          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ] && [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "No CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY secret — skipping drain."
-            echo "ok=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "ok=true" >> "$GITHUB_OUTPUT"
-          fi
+      - uses: actions/checkout@v4
 
       - uses: actions/checkout@v4
-        if: steps.creds.outputs.ok == 'true'
-
-      - uses: actions/checkout@v4
-        if: steps.creds.outputs.ok == 'true'
         with:
           repository: parallax1s/episteme-fable
           path: episteme-fable
 
       - uses: actions/setup-python@v5
-        if: steps.creds.outputs.ok == 'true'
         with:
           python-version: "3.11"
 
+      - name: Select provider
+        id: provider
+        run: |
+          if [ -n "$CLAUDE_CODE_OAUTH_TOKEN" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "kind=claude" >> "$GITHUB_OUTPUT"
+          else
+            echo "kind=github" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-node@v4
-        if: steps.creds.outputs.ok == 'true'
+        if: steps.provider.outputs.kind == 'claude'
         with:
           node-version: "20"
 
+      - name: Install claude CLI
+        if: steps.provider.outputs.kind == 'claude'
+        run: npm install -g @anthropic-ai/claude-code
+
       - name: Install dependencies
-        if: steps.creds.outputs.ok == 'true'
-        run: |
-          pip install -e '.[all]'
-          npm install -g @anthropic-ai/claude-code
+        run: pip install -e '.[all]'
 
       - name: Drain extract tasks
-        if: steps.creds.outputs.ok == 'true'
         env:
           EPISTEME_FABLE_SRC: ${{ github.workspace }}/episteme-fable/src
+          EPF_PROVIDER: ${{ steps.provider.outputs.kind }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -eu
           DRAIN="${{ github.event.inputs.drain || '20' }}"
           python -m mole fable --drain "$DRAIN" --run-id "fable-ci-${GITHUB_RUN_ID}"
 
       - name: Commit drain outputs
-        if: steps.creds.outputs.ok == 'true'
         run: |
           set -eu
           git config user.name "github-actions[bot]"

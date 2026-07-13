@@ -56,13 +56,13 @@ def _bootstrap_engine():
         sys.path.insert(0, src)
     try:
         from episteme_fable.pipeline import analyze
-        from episteme_fable.providers import ClaudeCLIProvider
+        from episteme_fable.providers import make_provider
     except ImportError as exc:  # pragma: no cover - environment issue
         raise RuntimeError(
             f"episteme-fable engine not importable from {src!r} "
             f"(set EPISTEME_FABLE_SRC): {exc}"
         ) from exc
-    return analyze, ClaudeCLIProvider
+    return analyze, make_provider
 
 
 # ---------------------------------------------------------------------------
@@ -222,8 +222,8 @@ def run_fable(
     if not text.strip():
         raise SystemExit(f"no text for {source_id}")
 
-    analyze, ClaudeCLIProvider = _bootstrap_engine()
-    provider = ClaudeCLIProvider(model=model) if model else ClaudeCLIProvider()
+    analyze, make_provider = _bootstrap_engine()
+    provider = make_provider(model)  # EPF_PROVIDER: claude (default) | github
     art = analyze(
         text,
         doc_id=source_id,
