@@ -43,6 +43,10 @@ def _pending_path(repo_root: Path) -> Path:
     return repo_root / "queue" / "pending.jsonl"
 
 
+def _theses_path(repo_root: Path) -> Path:
+    return repo_root / "data" / "theses.jsonl"
+
+
 # ---------------------------------------------------------------------------
 # Low-level JSONL helpers
 # ---------------------------------------------------------------------------
@@ -110,6 +114,16 @@ def next_task_id(repo_root: Path) -> str:
         if n is not None and n > max_n:
             max_n = n
     return f"task_{max_n + 1:06d}"
+
+
+def next_thesis_id(repo_root: Path) -> str:
+    """Return the next available th_NNNNNN id by scanning theses.jsonl."""
+    max_n = 0
+    for rec in _iter_jsonl(_theses_path(repo_root)):
+        n = _parse_numeric_id(rec.get("id", ""), "th_")
+        if n is not None and n > max_n:
+            max_n = n
+    return f"th_{max_n + 1:06d}"
 
 
 # ---------------------------------------------------------------------------
@@ -353,6 +367,52 @@ def load_all_edges(repo_root: Path) -> list[dict[str, Any]]:
 
 def load_all_tasks(repo_root: Path) -> list[dict[str, Any]]:
     return list(_iter_jsonl(_pending_path(repo_root)))
+
+
+def append_theses_batch(repo_root: Path, records: list[dict[str, Any]]) -> None:
+    """Append thesis records (data/theses.jsonl) in one file open."""
+    if not records:
+        return
+    path = _theses_path(repo_root)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as fh:
+        fh.write("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records))
+
+
+def load_all_theses(repo_root: Path) -> list[dict[str, Any]]:
+    return list(_iter_jsonl(_theses_path(repo_root)))
+
+
+def update_tasks(repo_root: Path, predicate, *, status: str,
+                 note: str | None = None) -> int:
+    """Flip status (and optionally add a note) on every task matching
+    predicate. Atomic rewrite; returns the number of tasks updated."""
+    path = _pending_path(repo_root)
+    tasks = list(_iter_jsonl(path))
+    changed = 0
+    for t in tasks:
+        if predicate(t):
+            t["status"] = status
+            if note is not None:
+                t["note"] = note
+            changed += 1
+    if changed:
+        _rewrite_jsonl(path, tasks)
+    return changed
+
+
+def bump_source_extraction(repo_root: Path, *, source_id: str,
+                           claim_count: int, fable_run: str) -> None:
+    """Record a worker-side re-extraction on the source row WITHOUT touching
+    content_sha256 (that hash belongs to the feed-cleaned text and drives the
+    cron's changed-item detection — see mole/fable.py module docstring)."""
+    path = _sources_path(repo_root)
+    records = list(_iter_jsonl(path))
+    for rec in records:
+        if rec.get("id") == source_id:
+            rec["claim_count"] = claim_count
+            rec["fable_run"] = fable_run
+    _rewrite_jsonl(path, records)
 
 
 def load_live_questions(repo_root: Path) -> list[dict[str, Any]]:

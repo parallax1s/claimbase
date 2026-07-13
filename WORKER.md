@@ -54,6 +54,27 @@ anything. Rewrite it as one or more atomic, operationalized claims; keep
 meaning, never add content the source doesn't carry. Append new claims with
 `refines_claim` set and retire the original (see SCHEMA.md).
 
+## Rubric — extract tasks
+
+An `extract` task asks for worker-side deep extraction of one source with the
+episteme-fable engine — self-contained rewritten claims (validated
+deterministically) plus document theses. Do NOT extract by hand; run:
+
+```
+python -m mole fable --source <source_id> --run-id <your-run-id>
+# or drain the queue oldest-first:
+python -m mole fable --drain 5 --run-id <your-run-id>
+```
+
+Requirements: the episteme-fable repo present locally (env
+`EPISTEME_FABLE_SRC` if not at the default sibling path) and the `claude`
+CLI on PATH. The command refetches the source, supersedes its regex-era
+claims (retire + obsolete their refine tasks), appends fable-tier claims and
+`data/theses.jsonl` rows, enqueues attach candidates (theses via the hybrid
+matcher), and flips the extract task — commit everything it changed as one
+batch. If the refetch fails (dead URL, paywall), flip the task `skipped`
+with a note; if the engine is unavailable, leave the task pending.
+
 ## Rubric — verify tasks
 
 You are an adversarial reviewer of someone else's `contradicts`/`same` edge.

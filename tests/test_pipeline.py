@@ -286,10 +286,13 @@ class TestPipelineRun:
         for task in tasks:
             assert "id" in task
             assert task["id"].startswith("task_")
-            assert task["kind"] in {"refine", "identity", "edge", "verify"}
+            assert task["kind"] in {"refine", "extract", "identity", "edge", "verify"}
             assert "payload" in task
             assert "created_run" in task
             assert task["status"] == "pending"
+
+            if task["kind"] == "extract":
+                assert "source_id" in task["payload"]
 
             if task["kind"] == "refine":
                 assert "claim_id" in task["payload"]

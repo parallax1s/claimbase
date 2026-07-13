@@ -7989,8 +7989,8 @@
 {"id": "task_007989", "kind": "refine", "payload": {"claim_id": "clm_007210"}, "created_run": "28569379761", "status": "pending"}
 {"id": "task_007990", "kind": "refine", "payload": {"claim_id": "clm_007215"}, "created_run": "28569379761", "status": "pending"}
 {"id": "task_007991", "kind": "refine", "payload": {"claim_id": "clm_007219"}, "created_run": "28569379761", "status": "pending"}
-{"id": "task_007992", "kind": "refine", "payload": {"claim_id": "clm_007223"}, "created_run": "28569379761", "status": "pending"}
-{"id": "task_007993", "kind": "refine", "payload": {"claim_id": "clm_007224"}, "created_run": "28569379761", "status": "pending"}
+{"id": "task_007992", "kind": "refine", "payload": {"claim_id": "clm_007223"}, "created_run": "28569379761", "status": "obsolete", "note": "claim retired; source re-extracted by fable-20260713"}
+{"id": "task_007993", "kind": "refine", "payload": {"claim_id": "clm_007224"}, "created_run": "28569379761", "status": "obsolete", "note": "claim retired; source re-extracted by fable-20260713"}
 {"id": "task_007994", "kind": "refine", "payload": {"claim_id": "clm_007227"}, "created_run": "28569379761", "status": "pending"}
 {"id": "task_007995", "kind": "refine", "payload": {"claim_id": "clm_007228"}, "created_run": "28569379761", "status": "pending"}
 {"id": "task_007996", "kind": "refine", "payload": {"claim_id": "clm_007229"}, "created_run": "28569379761", "status": "pending"}
@@ -10580,8 +10580,8 @@
 {"id": "task_010580", "kind": "attach", "payload": {"question_id": "q_000006", "claim_id": "clm_006684", "sim": 0.374}, "created_run": "20260702", "status": "pending"}
 {"id": "task_010581", "kind": "attach", "payload": {"question_id": "q_000006", "claim_id": "clm_006814", "sim": 0.374}, "created_run": "20260702", "status": "pending"}
 {"id": "task_010582", "kind": "attach", "payload": {"question_id": "q_000006", "claim_id": "clm_007064", "sim": 0.374}, "created_run": "20260702", "status": "pending"}
-{"id": "task_010583", "kind": "refine", "payload": {"claim_id": "clm_000066"}, "created_run": "20260702", "status": "pending"}
-{"id": "task_010584", "kind": "refine", "payload": {"claim_id": "clm_000081"}, "created_run": "20260702", "status": "pending"}
+{"id": "task_010583", "kind": "refine", "payload": {"claim_id": "clm_000066"}, "created_run": "20260702", "status": "obsolete", "note": "claim retired; source re-extracted by fable-backfill-20260713"}
+{"id": "task_010584", "kind": "refine", "payload": {"claim_id": "clm_000081"}, "created_run": "20260702", "status": "obsolete", "note": "claim retired; source re-extracted by fable-backfill-20260713"}
 {"id": "task_010585", "kind": "refine", "payload": {"claim_id": "clm_000116"}, "created_run": "20260702", "status": "pending"}
 {"id": "task_010586", "kind": "refine", "payload": {"claim_id": "clm_000160"}, "created_run": "20260702", "status": "pending"}
 {"id": "task_010587", "kind": "refine", "payload": {"claim_id": "clm_000175"}, "created_run": "20260702", "status": "pending"}
@@ -17792,3 +17792,624 @@
 {"id": "task_017792", "kind": "attach", "payload": {"question_id": "q_000026", "claim_id": "clm_013437", "sim": 0.8154}, "created_run": "29227209021", "status": "pending"}
 {"id": "task_017793", "kind": "attach", "payload": {"question_id": "q_000008", "claim_id": "clm_013441", "sim": 0.8159}, "created_run": "29227209021", "status": "pending"}
 {"id": "task_017794", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "clm_013449", "sim": 0.6684}, "created_run": "29227209021", "status": "pending"}
+{"id": "task_017795", "kind": "attach", "payload": {"question_id": "q_000024", "claim_id": "clm_013464", "sim": 0.4875}, "created_run": "fable-20260713", "status": "pending"}
+{"id": "task_017796", "kind": "attach", "payload": {"question_id": "q_000013", "claim_id": "clm_013465", "sim": 0.4942}, "created_run": "fable-20260713", "status": "pending"}
+{"id": "task_017797", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_013468", "sim": 0.5394}, "created_run": "fable-20260713", "status": "pending"}
+{"id": "task_017798", "kind": "attach", "payload": {"question_id": "q_000013", "claim_id": "clm_013470", "sim": 0.5047}, "created_run": "fable-20260713", "status": "pending"}
+{"id": "task_017799", "kind": "attach", "payload": {"question_id": "q_000024", "claim_id": "clm_013471", "sim": 0.691}, "created_run": "fable-20260713", "status": "pending"}
+{"id": "task_017800", "kind": "attach", "payload": {"question_id": "q_000013", "claim_id": "th_000001", "sim": 0.4983}, "created_run": "fable-20260713", "status": "pending"}
+{"id": "task_017801", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "th_000002", "sim": 0.4848}, "created_run": "fable-20260713", "status": "pending"}
+{"id": "task_017802", "kind": "attach", "payload": {"question_id": "q_000024", "claim_id": "clm_013480", "sim": 0.687}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017803", "kind": "attach", "payload": {"question_id": "q_000004", "claim_id": "clm_013481", "sim": 0.6611}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017804", "kind": "attach", "payload": {"question_id": "q_000015", "claim_id": "clm_013485", "sim": 0.6661}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017805", "kind": "attach", "payload": {"question_id": "q_000004", "claim_id": "clm_013490", "sim": 0.62}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017806", "kind": "attach", "payload": {"question_id": "q_000029", "claim_id": "clm_013491", "sim": 0.6105}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017807", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013492", "sim": 1.22}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017808", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013493", "sim": 1.208}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017809", "kind": "attach", "payload": {"question_id": "q_000004", "claim_id": "clm_013500", "sim": 0.742}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017810", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_013501", "sim": 0.4657}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017811", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013509", "sim": 0.4999}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017812", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "th_000004", "sim": 1.1944}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017813", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_013510", "sim": 0.6904}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017814", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_013514", "sim": 0.6936}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017815", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_013516", "sim": 0.6969}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017816", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_013518", "sim": 0.7092}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017817", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_013519", "sim": 0.6988}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017818", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_013522", "sim": 0.7167}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017819", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "th_000005", "sim": 0.7091}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017820", "kind": "attach", "payload": {"question_id": "q_000024", "claim_id": "clm_013527", "sim": 0.4482}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017821", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "th_000006", "sim": 0.7458}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017822", "kind": "attach", "payload": {"question_id": "q_000001", "claim_id": "clm_013532", "sim": 0.8569}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017823", "kind": "attach", "payload": {"question_id": "q_000001", "claim_id": "clm_013536", "sim": 0.8088}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017824", "kind": "attach", "payload": {"question_id": "q_000006", "claim_id": "clm_013538", "sim": 0.3751}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017825", "kind": "attach", "payload": {"question_id": "q_000001", "claim_id": "th_000007", "sim": 0.8587}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017826", "kind": "attach", "payload": {"question_id": "q_000029", "claim_id": "clm_013548", "sim": 0.5594}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017827", "kind": "attach", "payload": {"question_id": "q_000029", "claim_id": "clm_013559", "sim": 0.8155}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017828", "kind": "attach", "payload": {"question_id": "q_000029", "claim_id": "clm_013565", "sim": 0.5594}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017829", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013578", "sim": 0.5206}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017830", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013579", "sim": 0.5216}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017831", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013580", "sim": 0.5305}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017832", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "th_000009", "sim": 0.5212}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017833", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "clm_013588", "sim": 0.7594}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017834", "kind": "attach", "payload": {"question_id": "q_000024", "claim_id": "clm_013595", "sim": 0.6679}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017835", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_013597", "sim": 0.4676}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017836", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_013598", "sim": 0.7132}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017837", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_013599", "sim": 0.7408}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017838", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_013600", "sim": 0.7315}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017839", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_013601", "sim": 0.4487}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017840", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_013604", "sim": 0.713}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017841", "kind": "attach", "payload": {"question_id": "q_000015", "claim_id": "clm_013605", "sim": 0.6227}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017842", "kind": "attach", "payload": {"question_id": "q_000015", "claim_id": "clm_013606", "sim": 0.6757}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017843", "kind": "attach", "payload": {"question_id": "q_000015", "claim_id": "clm_013610", "sim": 0.6227}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017844", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "th_000011", "sim": 0.7101}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017845", "kind": "attach", "payload": {"question_id": "q_000015", "claim_id": "clm_013621", "sim": 0.6489}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017846", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_013622", "sim": 0.5693}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017847", "kind": "attach", "payload": {"question_id": "q_000019", "claim_id": "clm_013623", "sim": 0.9139}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017848", "kind": "attach", "payload": {"question_id": "q_000006", "claim_id": "clm_013624", "sim": 0.3749}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017849", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_013625", "sim": 0.6835}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017850", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_013626", "sim": 0.6686}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017851", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_013627", "sim": 0.633}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017852", "kind": "attach", "payload": {"question_id": "q_000002", "claim_id": "clm_013628", "sim": 0.7597}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017853", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_013629", "sim": 0.7761}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017854", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_013632", "sim": 0.4772}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017855", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_013633", "sim": 0.4779}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017856", "kind": "attach", "payload": {"question_id": "q_000005", "claim_id": "clm_013637", "sim": 0.7245}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017857", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_013639", "sim": 0.6845}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017858", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "th_000013", "sim": 0.4631}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017859", "kind": "attach", "payload": {"question_id": "q_000006", "claim_id": "clm_013641", "sim": 0.375}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017860", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013643", "sim": 1.2274}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017861", "kind": "attach", "payload": {"question_id": "q_000024", "claim_id": "clm_013646", "sim": 0.4888}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017862", "kind": "attach", "payload": {"question_id": "q_000017", "claim_id": "clm_013649", "sim": 0.8755}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017863", "kind": "attach", "payload": {"question_id": "q_000005", "claim_id": "clm_013657", "sim": 0.7342}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017864", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013658", "sim": 1.211}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017865", "kind": "attach", "payload": {"question_id": "q_000029", "claim_id": "th_000014", "sim": 0.9602}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017866", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013661", "sim": 0.6531}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017867", "kind": "attach", "payload": {"question_id": "q_000005", "claim_id": "clm_013662", "sim": 0.9373}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017868", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013663", "sim": 0.5344}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017869", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013664", "sim": 0.5279}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017870", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013665", "sim": 0.5288}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017871", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013666", "sim": 0.5281}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017872", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_013667", "sim": 0.5436}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017873", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "th_000015", "sim": 0.4638}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017874", "kind": "attach", "payload": {"question_id": "q_000009", "claim_id": "clm_013669", "sim": 0.6667}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017875", "kind": "attach", "payload": {"question_id": "q_000001", "claim_id": "clm_013681", "sim": 0.644}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017876", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_013685", "sim": 0.6712}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017877", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_013686", "sim": 0.6747}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017878", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_013687", "sim": 0.6734}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017879", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10819v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017880", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10892v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017881", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10912v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017882", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10917v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017883", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10953v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017884", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10968v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017885", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.10989v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017886", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11033v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017887", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11106v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017888", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11173v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017889", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2604.13602v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017890", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2604.20995v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017891", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2604.21718v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017892", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2604.24153v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017893", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2604.26511v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017894", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.06390v3"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017895", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.07021v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017896", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.08321v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017897", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.09684v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017898", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.15377v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017899", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.23475v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017900", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.25629v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017901", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.26047v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017902", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.27483v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017903", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.27681v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017904", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.28807v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017905", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2605.29601v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017906", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.00424v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017907", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.06529v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017908", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.08243v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017909", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.08629v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017910", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.08892v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017911", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.10456v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017912", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.10740v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017913", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.11063v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017914", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.11998v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017915", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11473v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017916", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11533v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017917", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11559v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017918", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11640v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017919", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11712v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017920", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11817v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017921", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11828v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017922", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11837v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017923", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11889v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017924", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11893v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017925", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.11918v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017926", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12032v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017927", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12065v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017928", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12086v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017929", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12109v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017930", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12169v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017931", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12217v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017932", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12231v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017933", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12245v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017934", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12342v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017935", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12352v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017936", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12362v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017937", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12378v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017938", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12392v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017939", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12397v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017940", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.12747v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017941", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.13310v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017942", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12673v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017943", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12713v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017944", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12730v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017945", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12747v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017946", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12754v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017947", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12774v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017948", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12809v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017949", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12814v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017950", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12817v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017951", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12826v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017952", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12900v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017953", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12923v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017954", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.12945v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017955", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13007v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017956", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13024v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017957", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13035v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017958", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13053v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017959", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13126v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017960", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13176v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017961", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13220v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017962", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13247v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017963", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13288v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017964", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13407v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017965", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13436v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017966", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13580v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017967", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13737v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017968", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13739v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017969", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13755v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017970", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13811v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017971", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13839v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017972", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13854v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017973", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13894v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017974", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13896v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017975", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.13989v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017976", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14125v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017977", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14142v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017978", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14176v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017979", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14199v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017980", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14239v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017981", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14260v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017982", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14309v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017983", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14327v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017984", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14386v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017985", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14466v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017986", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14570v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017987", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.14594v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017988", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.10456v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017989", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.10740v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017990", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16167v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017991", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16173v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017992", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16206v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017993", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16210v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017994", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16234v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017995", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16276v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017996", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16313v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017997", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16328v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017998", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16428v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_017999", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16454v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018000", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16462v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018001", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16484v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018002", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16515v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018003", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16595v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018004", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16652v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018005", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16769v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018006", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16790v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018007", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16799v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018008", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16802v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018009", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16808v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018010", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16883v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018011", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16914v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018012", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.16995v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018013", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17006v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018014", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17020v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018015", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17646v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018016", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17664v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018017", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17678v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018018", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17687v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018019", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17696v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018020", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17706v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018021", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17798v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018022", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17830v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018023", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17856v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018024", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17867v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018025", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17872v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018026", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17888v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018027", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17889v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018028", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17950v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018029", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.17979v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018030", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18003v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018031", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18005v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018032", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18037v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018033", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18060v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018034", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18063v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018035", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18092v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018036", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18129v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018037", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18132v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018038", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18147v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018039", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18203v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018040", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18327v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018041", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18393v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018042", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18424v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018043", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18429v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018044", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18485v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018045", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18586v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018046", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18606v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018047", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18619v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018048", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18688v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018049", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18717v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018050", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18747v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018051", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18803v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018052", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18852v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018053", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18882v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018054", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18986v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018055", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.18989v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018056", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19047v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018057", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19168v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018058", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19222v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018059", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.08892v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018060", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19607v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018061", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19735v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018062", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19744v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018063", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19781v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018064", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19805v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018065", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19818v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018066", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19887v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018067", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19914v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018068", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19935v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018069", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.19948v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018070", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20023v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018071", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20045v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018072", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20076v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018073", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20077v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018074", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20084v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018075", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20101v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018076", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20104v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018077", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20189v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018078", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20246v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018079", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20258v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018080", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20264v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018081", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20506v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018082", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20508v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018083", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20523v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018084", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.20544v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018085", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.20663v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018086", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.22567v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018087", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.22613v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018088", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.22676v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018089", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.22686v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018090", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.22706v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018091", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.22724v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018092", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.22726v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018093", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.22769v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018094", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.22866v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018095", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.22870v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018096", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.22910v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018097", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23019v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018098", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23028v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018099", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23112v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018100", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23124v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018101", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23256v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018102", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23327v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018103", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23361v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018104", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23375v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018105", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23391v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018106", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23436v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018107", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23462v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018108", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23487v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018109", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23607v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018110", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.23643v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018111", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24014v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018112", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24042v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018113", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24062v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018114", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24104v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018115", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24107v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018116", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24164v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018117", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24178v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018118", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24196v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018119", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24200v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018120", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24224v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018121", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24255v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018122", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24259v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018123", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24267v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018124", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24281v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018125", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24388v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018126", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24523v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018127", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24601v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018128", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24619v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018129", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24622v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018130", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24716v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018131", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24745v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018132", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24759v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018133", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24797v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018134", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24841v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018135", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.24874v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018136", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25001v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018137", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25013v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018138", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25034v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018139", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25073v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018140", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25108v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018141", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25128v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018142", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25178v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018143", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25181v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018144", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25182v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018145", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25293v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018146", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25332v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018147", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25337v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018148", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25358v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018149", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25439v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018150", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25529v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018151", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25657v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018152", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25719v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018153", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25782v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018154", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25821v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018155", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.25990v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018156", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26057v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018157", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26095v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018158", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26575v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018159", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26595v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018160", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26661v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018161", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26668v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018162", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26671v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018163", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26712v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018164", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26764v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018165", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26769v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018166", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26787v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018167", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26794v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018168", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26795v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018169", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26891v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018170", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26899v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018171", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26917v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018172", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26918v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018173", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26975v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018174", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26981v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018175", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26982v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018176", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26987v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018177", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.26990v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018178", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.27119v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018179", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.27136v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018180", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.27163v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018181", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.27330v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018182", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.27342v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018183", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.28863v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018184", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.29604v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018185", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29354v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018186", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29441v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018187", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29453v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018188", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29464v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018189", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29490v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018190", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29541v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018191", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29577v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018192", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29581v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018193", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29586v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018194", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29604v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018195", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29713v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018196", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29869v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018197", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29898v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018198", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29907v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018199", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29908v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018200", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29949v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018201", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.29980v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018202", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.30131v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018203", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.30219v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018204", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.30291v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018205", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.30374v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018206", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.30561v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018207", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.30576v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018208", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.30627v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018209", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.30642v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018210", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31377v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018211", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31394v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018212", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31451v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018213", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31470v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018214", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31473v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018215", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31524v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018216", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31567v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018217", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31587v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018218", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31591v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018219", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31609v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018220", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31614v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018221", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31616v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018222", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31639v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018223", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31650v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018224", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31683v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018225", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31711v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018226", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31719v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018227", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31742v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018228", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31763v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018229", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31800v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018230", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31844v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018231", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31876v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018232", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.31919v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018233", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.32032v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018234", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2606.32034v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018235", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00144v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018236", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00208v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018237", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00274v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018238", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00310v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018239", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00341v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018240", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00371v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018241", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00398v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018242", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00402v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018243", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00486v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018244", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00535v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018245", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00572v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018246", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00746v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018247", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00832v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018248", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00860v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018249", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00924v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018250", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.00926v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018251", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01071v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018252", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01144v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018253", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01202v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018254", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2607.01567v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018255", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2607.02389v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018256", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2607.02514v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018257", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01586v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018258", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01590v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018259", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01647v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018260", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01690v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018261", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01715v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018262", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01754v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018263", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01789v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018264", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01813v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018265", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01859v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018266", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01901v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018267", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01934v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018268", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01962v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018269", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01972v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018270", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01978v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018271", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.01982v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018272", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.02015v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018273", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.02082v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018274", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.02121v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018275", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.02185v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018276", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.02222v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018277", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.02230v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018278", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.02370v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018279", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.02466v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018280", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.02507v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018281", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.02510v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018282", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2606.28639v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018283", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2607.04103v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018284", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04422v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018285", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04432v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018286", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04436v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018287", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04438v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018288", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04487v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018289", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04528v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018290", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04548v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018291", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04557v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018292", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04590v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018293", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04607v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018294", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04613v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018295", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04645v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018296", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04681v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018297", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04728v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018298", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04750v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018299", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04846v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018300", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04872v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018301", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.04993v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018302", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05035v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018303", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05196v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018304", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05242v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018305", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05363v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018306", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05364v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018307", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05377v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018308", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05393v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018309", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05585v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018310", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05790v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018311", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05798v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018312", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05804v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018313", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05842v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018314", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05866v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018315", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05880v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018316", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05965v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018317", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.05985v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018318", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06080v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018319", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06157v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018320", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06160v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018321", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06163v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018322", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06269v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018323", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06306v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018324", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06402v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018325", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06413v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018326", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06432v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018327", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06481v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018328", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06522v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018329", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06565v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018330", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2607.06596v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018331", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2607.07368v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018332", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06713v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018333", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06807v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018334", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06831v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018335", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06929v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018336", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06964v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018337", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.06988v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018338", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07021v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018339", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07101v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018340", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07117v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018341", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07219v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018342", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07229v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018343", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07357v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018344", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07375v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018345", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07467v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018346", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07601v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018347", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07640v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018348", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07669v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018349", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07693v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018350", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07695v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018351", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2607.02514v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018352", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2607.04103v2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018353", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2607.07774v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018354", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07859v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018355", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07903v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018356", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07918v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018357", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.07953v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018358", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08027v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018359", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08031v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018360", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08034v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018361", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08043v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018362", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08056v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018363", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08076v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018364", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08256v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018365", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08257v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018366", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08374v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018367", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08375v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018368", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08409v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018369", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08489v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018370", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08602v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018371", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08605v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018372", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08646v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018373", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08647v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018374", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08725v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018375", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.08758v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018376", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09024v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018377", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09102v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018378", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09114v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018379", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09134v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018380", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09142v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018381", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09202v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018382", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09262v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018383", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09417v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018384", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09443v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018385", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09481v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018386", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09492v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018387", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.09502v1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018388", "kind": "extract", "payload": {"source_id": "src_blog-rss_https://thezvi.substack.com/p/ai-170-lack-of-executive-order"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018389", "kind": "extract", "payload": {"source_id": "src_blog-rss_https://thezvi.substack.com/p/ai-171-false-flag"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018390", "kind": "extract", "payload": {"source_id": "src_blog-rss_https://thezvi.substack.com/p/claude-opus-48-capabilities-and-reactions"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018391", "kind": "extract", "payload": {"source_id": "src_blog-rss_https://thezvi.substack.com/p/claude-opus-48-is-honestly-better"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018392", "kind": "extract", "payload": {"source_id": "src_blog-rss_https://thezvi.substack.com/p/openai-offers-a-new-policy-blueprint"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018393", "kind": "extract", "payload": {"source_id": "src_blog-rss_https://thezvi.substack.com/p/opus-48-part-2-model-welfare"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018394", "kind": "extract", "payload": {"source_id": "src_blog-rss_https://thezvi.substack.com/p/three-labs-with-a-plan-and-a-memorandum"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018395", "kind": "extract", "payload": {"source_id": "src_blog-rss_https://thezvi.substack.com/p/trump-signs-executive-order-for-ai"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018396", "kind": "extract", "payload": {"source_id": "src_blog-rss_https://thezvi.substack.com/p/gemini-35-flash-looks-good-for-how"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018397", "kind": "extract", "payload": {"source_id": "src_blog-rss_https://thezvi.substack.com/p/rtmh-pope-leos-magnifica-humanitas"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018398", "kind": "extract", "payload": {"source_id": "src_blog-rss_https://thezvi.substack.com/p/ai-172-the-first-fable"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018399", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/LCGcD28rSMkMTMvBK/the-case-for-model-forensics"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018400", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/WAZWA6FPQvH8okouJ/llm-driven-feature-discovery"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018401", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/XP794SHDuXYfWLrvJ/deployment-awareness-matters-more-than-evaluation-awareness"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018402", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/hEtkyKGoPpFeWnKkX/gdm-ai-control-roadmap"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018403", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/zoYXpdaMgFT43Wc24/how-transparent-is-diffusiongemma-and-why-it-matters"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018404", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/SdGbWkCZgCN7EGBxM/pragmatic-fdt-and-predictors-as-game-theory-1"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018405", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018406", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/rKdS7i4StaMmFzYRo/notes-on-technical-alignment-via-human-like-social-drives"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018407", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/43vKjWuH4goLwrFHA/modular-pretraining-enables-access-control"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018408", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/HDKQNqiR2gtfMiWsn/announcing-our-usd160m-grant-from-coefficient-giving"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018409", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/LQXWiF8PyJ5ojNsEv/how-robust-are-natural-language-autoencoders-to"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018410", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/pFzctpJBat95SrCyC/ai-2040-plan-a"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018411", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/SD9jayFvEctW82Duk/what-capable-agents-must-know-why-ai-consciousness-may-be-an-2"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018412", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/iPyJfD9Jyxj6Jfdws/value-generalisation-value-correction"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018413", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018414", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Z8kLbceGBMWB5HGfn/from-wantons-to-moral-agents"}, "created_run": "fable-backfill-20260713", "status": "pending"}
+{"id": "task_018415", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/vPaXtarnJ37kGfPdJ/independent-alignment-of-language-models"}, "created_run": "fable-backfill-20260713", "status": "pending"}

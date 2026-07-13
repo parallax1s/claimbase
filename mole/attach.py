@@ -124,3 +124,67 @@ def candidates(
         if hit is not None and hit[1] >= floor:
             out.append((claim["id"], hit[0], hit[1]))
     return out
+
+
+# ---------------------------------------------------------------------------
+# Hybrid scoring for theses
+# ---------------------------------------------------------------------------
+# Thesis-level statements are conceptual: they routinely restate a question's
+# subject matter without its jargon tokens, which is exactly where lexical
+# TF-IDF scores zero (measured 2026-07: normative claims at 0.01-0.04 against
+# a 0.28 floor). For theses we therefore also score embedding cosine via the
+# extractor's optional model2vec backend and take a candidate on EITHER
+# signal. Degrades to lexical-only when embeddings are unavailable.
+
+EMB_FLOOR = 0.45
+
+
+def candidates_hybrid(
+    rows: list[dict[str, Any]],
+    index: dict[str, Any],
+    questions: list[dict[str, Any]],
+    lex_floor: float = ATTACH_FLOOR,
+    emb_floor: float = EMB_FLOOR,
+) -> list[tuple[str, str, float]]:
+    """(row_id, question_id, sim) where sim = max(lexical, embedding-cosine)
+    and at least one of the two clears its floor."""
+    out: list[tuple[str, str, float]] = []
+    if not rows or not questions:
+        return out
+
+    emb_by_q: dict[str, list[float]] | None = None
+    row_vecs: list[list[float]] | None = None
+    try:
+        from extractor import embed_texts
+
+        q_texts = [f"{q['text']} {' '.join(q.get('keywords', []))}" for q in questions]
+        q_vecs = embed_texts(q_texts)
+        r_vecs = embed_texts([r["text"] for r in rows])
+        if q_vecs is not None and r_vecs is not None:
+            emb_by_q = {q["id"]: v for q, v in zip(questions, q_vecs)}
+            row_vecs = r_vecs
+    except Exception:
+        emb_by_q = None
+
+    import math
+
+    def _cos(a: list[float], b: list[float]) -> float:
+        dot = sum(x * y for x, y in zip(a, b))
+        na = math.sqrt(sum(x * x for x in a)) or 1.0
+        nb = math.sqrt(sum(y * y for y in b)) or 1.0
+        return dot / (na * nb)
+
+    for i, row in enumerate(rows):
+        best_id: str | None = None
+        best_sim = 0.0
+        lex = best_question(row["text"], index)
+        if lex is not None and lex[1] >= lex_floor:
+            best_id, best_sim = lex[0], lex[1]
+        if emb_by_q is not None and row_vecs is not None:
+            for q in questions:
+                c = _cos(row_vecs[i], emb_by_q[q["id"]])
+                if c >= emb_floor and c > best_sim:
+                    best_id, best_sim = q["id"], round(c, 4)
+        if best_id is not None:
+            out.append((row["id"], best_id, best_sim))
+    return out

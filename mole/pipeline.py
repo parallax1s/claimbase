@@ -279,11 +279,13 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
     # update the source record in place (id stays stable — never reused).
     # -----------------------------------------------------------------------
     claims_retired = 0
+    changed_source_ids: list[str] = []
     for item in changed_items:
         feed = item.get("feed", "")
         item_key = item.get("item_key", "")
         text = item.get("text", "")
         src_id = f"src_{feed}_{item_key}"
+        changed_source_ids.append(src_id)
 
         claims_retired += store.retire_claims_for_source(repo_root, src_id)
         # Keep the in-memory view consistent so retired claims don't pair below.
@@ -334,6 +336,24 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
                 created_run=run_id,
             )
             refine_count += 1
+
+    # -----------------------------------------------------------------------
+    # Enqueue 'extract' tasks: one per new/changed source, for worker-side
+    # deep extraction (mole/fable.py). The regex claims above stay in place
+    # as same-day candidates; the fable pass supersedes them when a worker
+    # drains the task.
+    # -----------------------------------------------------------------------
+    extract_count = 0
+    for src_id in new_source_ids + changed_source_ids:
+        task_max += 1
+        store.append_task(
+            repo_root,
+            task_id=f"task_{task_max:06d}",
+            kind="extract",
+            payload={"source_id": src_id},
+            created_run=run_id,
+        )
+        extract_count += 1
 
     # -----------------------------------------------------------------------
     # Enqueue 'identity'/'edge' tasks for cross-source near-duplicate pairs
@@ -423,6 +443,7 @@ def run(repo_root: Path, since: str, run_id: str) -> dict[str, Any]:
         "claims_extracted": len(new_claims_this_run),
         "tasks_enqueued": {
             "refine": refine_count,
+            "extract": extract_count,
             "identity_edge": identity_edge_count,
             "attach": attach_count,
         },

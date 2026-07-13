@@ -8,6 +8,8 @@ Commands:
   attach-backfill
           Enqueue 'attach' tasks for live claims the question layer has not
           seen yet (one-off after adding/expanding data/questions.jsonl).
+  fable   Worker-side deep extraction for one source or pending extract
+          tasks (requires the episteme-fable engine + claude CLI).
 """
 
 from __future__ import annotations
@@ -125,6 +127,90 @@ def _cmd_attach_backfill(args: argparse.Namespace) -> None:
     }, indent=2))
 
 
+def _cmd_fable(args: argparse.Namespace) -> None:
+    from mole import store
+    from mole.fable import pending_extract_sources, run_fable
+
+    repo_root = Path(args.repo_root).resolve()
+    drain_mode = not args.source
+    if args.source:
+        source_ids = [args.source]
+    else:
+        source_ids = pending_extract_sources(repo_root)[: args.drain]
+        if not source_ids:
+            print("no pending extract tasks", file=sys.stderr)
+            return
+
+    text = Path(args.text_file).read_text(encoding="utf-8") if args.text_file else None
+    if text is not None and len(source_ids) != 1:
+        print("--text-file requires a single --source", file=sys.stderr)
+        sys.exit(2)
+
+    for sid in source_ids:
+        try:
+            summary = run_fable(
+                repo_root,
+                source_id=sid,
+                run_id=args.run_id,
+                model=args.model,
+                assemble_model=args.assemble_model,
+                text=text,
+            )
+        except Exception as exc:  # noqa: BLE001 - drain must survive bad sources
+            if not drain_mode:
+                raise
+            # Refetch/engine failure on one source must not stall the queue:
+            # flip its extract tasks skipped with the reason (WORKER.md rubric)
+            # and move on.
+            store.update_tasks(
+                repo_root,
+                lambda t, s=sid: (
+                    t.get("status") == "pending"
+                    and t.get("kind") == "extract"
+                    and t.get("payload", {}).get("source_id") == s
+                ),
+                status="skipped",
+                note=f"fable failed: {str(exc)[:160]}",
+            )
+            print(json.dumps({"source_id": sid, "skipped": str(exc)[:200]}))
+            continue
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+
+
+def _cmd_extract_backfill(args: argparse.Namespace) -> None:
+    from mole import store
+
+    repo_root = Path(args.repo_root).resolve()
+    sources = store.load_all_sources(repo_root)
+    tasked = {
+        t["payload"].get("source_id")
+        for t in store.load_all_tasks(repo_root)
+        if t.get("kind") == "extract"
+    }
+    task_max = int(store.next_task_id(repo_root).split("_")[1]) - 1
+    enqueued = 0
+    for src in sources:
+        sid = src.get("id", "")
+        if args.feed_prefix and not src.get("feed", "").startswith(args.feed_prefix):
+            continue
+        if sid in tasked or src.get("fable_run"):
+            continue
+        task_max += 1
+        store.append_task(
+            repo_root,
+            task_id=f"task_{task_max:06d}",
+            kind="extract",
+            payload={"source_id": sid},
+            created_run=args.run_id,
+        )
+        enqueued += 1
+    print(json.dumps({
+        "sources": len(sources),
+        "extract_enqueued": enqueued,
+        "feed_prefix": args.feed_prefix,
+    }, indent=2))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         prog="mole",
@@ -185,6 +271,38 @@ def main() -> None:
     ab_p.add_argument("--repo-root", default=".", dest="repo_root",
                       help="Path to the claimbase repo root (default: current directory).")
 
+    # ---- fable ----
+    fable_p = sub.add_parser(
+        "fable",
+        help="Worker-side deep extraction (episteme-fable engine).",
+    )
+    fable_p.add_argument("--source", default=None,
+                         help="Source id (src_...). Omit to drain pending extract tasks.")
+    fable_p.add_argument("--drain", type=int, default=1,
+                         help="How many pending extract tasks to process when --source is omitted (default 1).")
+    fable_p.add_argument("--run-id", required=True, dest="run_id",
+                         help="Run id to stamp on records and tasks (e.g. fable-20260713).")
+    fable_p.add_argument("--model", default=None,
+                         help="Propose model override (default: engine default, haiku).")
+    fable_p.add_argument("--assemble-model", default=None, dest="assemble_model",
+                         help="Assemble model override (default: engine default, sonnet).")
+    fable_p.add_argument("--text-file", default=None, dest="text_file",
+                         help="Read source text from a file instead of refetching (single --source only).")
+    fable_p.add_argument("--repo-root", default=".", dest="repo_root",
+                         help="Path to the claimbase repo root (default: current directory).")
+
+    # ---- extract-backfill ----
+    eb_p = sub.add_parser(
+        "extract-backfill",
+        help="Enqueue extract tasks for existing sources not yet deep-extracted.",
+    )
+    eb_p.add_argument("--run-id", required=True, dest="run_id",
+                      help="Run id to stamp on enqueued tasks.")
+    eb_p.add_argument("--feed-prefix", default=None, dest="feed_prefix",
+                      help="Only sources whose feed starts with this prefix (e.g. arxiv).")
+    eb_p.add_argument("--repo-root", default=".", dest="repo_root",
+                      help="Path to the claimbase repo root (default: current directory).")
+
     args = parser.parse_args()
 
     if args.command == "run":
@@ -195,6 +313,10 @@ def main() -> None:
         _cmd_map(args)
     elif args.command == "attach-backfill":
         _cmd_attach_backfill(args)
+    elif args.command == "fable":
+        _cmd_fable(args)
+    elif args.command == "extract-backfill":
+        _cmd_extract_backfill(args)
     else:
         parser.print_help()
         sys.exit(1)

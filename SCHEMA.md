@@ -46,6 +46,49 @@ When a re-fetched source's `content_sha256` differs from the stored one, the
 mole retires that source's prior claims, re-extracts from the new text, and
 updates the source record in place (the `src_` id stays stable).
 
+**Fable-tier claims** (worker-side deep extraction, `mole/fable.py`) carry
+additional optional fields on the same record shape:
+
+```json
+{
+  "tier": "validated",               // validated: passed the engine's deterministic checks
+  "extractor": "episteme-fable/0.1.0",
+  "prompt_version": "propose_v2",
+  "kind": "assertion",               // assertion|question|goal|plan|inference|definition
+  "stance": "reported",              // author|reported|hypothetical|refuted
+  "stance_source": "Dr. Reyes",      // who, when stance=reported
+  "hedge": [0.75, 0.95],             // credence range the SOURCE conveys
+  "flags": ["content_drift"]         // soft validator findings; content_drift =
+                                     // refetched text differed from feed-cleaned sha
+}
+```
+
+Rows without `tier` are legacy regex extractions (implicitly candidates).
+For fable rows `support_in_text` is a neutral 0.5 — their epistemics live in
+`stance`/`hedge`. A fable pass retires the source's prior claims and marks
+their pending `refine` tasks `obsolete`; the source row gets `fable_run`
+stamped while its `content_sha256` stays untouched (that hash belongs to the
+feed-cleaned text and drives the cron's changed-item detection).
+
+## data/theses.jsonl
+
+```json
+{
+  "id": "th_000001",                 // zero-padded, monotonically assigned
+  "source_id": "src_arxiv-csai_...",
+  "text": "…",                       // one Kernaussage the document exists to assert
+  "claim_ids": ["clm_009101"],       // the claims that ground it (provenance)
+  "tier": "unreviewed_ai_draft",     // synthesized, shape-checked only
+  "run_id": "fable-20260713",
+  "status": "proposed",              // proposed | accepted | retired
+  "flags": []
+}
+```
+
+Theses are the document-level layer conceptual questions attach at — they
+participate in `attach` tasks exactly like claims (the payload's `claim_id`
+carries a `th_` id; the id prefix disambiguates).
+
 ## data/edges.jsonl
 
 ```json
@@ -121,7 +164,7 @@ record, exactly like `unrelated` edge judgments.
 ```json
 {
   "id": "task_000123",
-  "kind": "identity",                // refine | identity | edge | verify | attach
+  "kind": "identity",                // refine | extract | identity | edge | verify | attach
   "payload": { "a": "clm_000001", "b": "clm_000042", "sim": 0.61 },
   "created_run": "20260611",
   "status": "pending"                // pending | done | skipped
@@ -133,7 +176,14 @@ A `verify` task payload: `{"a": "clm_000001", "b": "clm_000042", "relation":
 
 An `attach` task payload: `{"question_id": "q_000002", "claim_id":
 "clm_004068", "sim": 0.44}` — a candidate claim→question link from the
-lexical matcher, awaiting stance/strength judgment.
+lexical matcher, awaiting stance/strength judgment. The `claim_id` may carry
+a `th_` id (thesis attach candidate, scored by the hybrid lexical/embedding
+matcher in `mole/attach.py::candidates_hybrid`).
+
+An `extract` task payload: `{"source_id": "src_arxiv-csai_..."}` — a request
+for worker-side deep extraction (`python -m mole fable`). Statuses beyond the
+usual: `obsolete` marks a task whose subject was retired before judgment
+(e.g. refine tasks whose claim a fable pass superseded).
 
 Workers mark tasks `done` in place and append results to the data files in the
 same commit. A worker batch must be atomic: one commit containing both the
