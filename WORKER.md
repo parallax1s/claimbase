@@ -136,3 +136,17 @@ with mole run 28569379761 and was shifted +875).
 
 Quota exhaustion is normal, not an error. Stop cleanly at a batch boundary;
 the queue persists; the next worker resumes. Never leave tasks half-judged.
+
+## Rubric — tribunal (Richtschwert)
+
+Contested questions go to trial: `python -m mole tribunal --docket` lists
+the docket (UNTRIED / STANDING / RETRIAL — new evidence past a verdict's
+watermark triggers retrial); `--question q_NNNNNN --run-id <rid>` runs one:
+deterministic evidence marshal → PRO/CONTRA steelman briefs (citations
+required) → cross-examination → multi-family bench (claude + GitHub Models)
+returning credence INTERVALS + cruxes + would-change-my-mind. Verdicts land
+in data/verdicts.jsonl (status `standing`), dissents recorded verbatim.
+Needs the episteme-fable repo locally (EPISTEME_FABLE_SRC) and claude CLI;
+the GitHub judge self-drops without a token. Commit the verdict with the
+run. Verdict credences are forecasts: never edit a standing verdict — retry
+the question and let the ledger show the revision.

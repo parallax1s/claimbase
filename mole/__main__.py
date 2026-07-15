@@ -177,6 +177,23 @@ def _cmd_fable(args: argparse.Namespace) -> None:
         print(json.dumps(summary, indent=2, ensure_ascii=False))
 
 
+def _cmd_tribunal(args: argparse.Namespace) -> None:
+    from mole.tribunal import docket, try_question
+
+    repo_root = Path(args.repo_root).resolve()
+    if args.docket or not args.question:
+        print(json.dumps(docket(repo_root), indent=2, ensure_ascii=False))
+        return
+    verdict = try_question(repo_root, args.question, args.run_id or "tribunal-manual")
+    slim = {k: verdict[k] for k in
+            ("id", "question_id", "credence", "bench_spread", "evidence_watermark", "status")}
+    slim["rulings"] = [
+        {k: r.get(k) for k in ("judge", "credence", "error") if k in r}
+        for r in verdict["rulings"]
+    ]
+    print(json.dumps(slim, indent=2, ensure_ascii=False))
+
+
 def _cmd_extract_backfill(args: argparse.Namespace) -> None:
     from mole import store
 
@@ -291,6 +308,16 @@ def main() -> None:
     fable_p.add_argument("--repo-root", default=".", dest="repo_root",
                          help="Path to the claimbase repo root (default: current directory).")
 
+    # ---- tribunal ----
+    tr_p = sub.add_parser(
+        "tribunal",
+        help="Richtschwert: try a contested question (advocates -> bench -> verdict).",
+    )
+    tr_p.add_argument("--question", default=None, help="question id (q_...); omit for --docket view")
+    tr_p.add_argument("--docket", action="store_true", help="list contested questions + verdict state")
+    tr_p.add_argument("--run-id", default=None, dest="run_id")
+    tr_p.add_argument("--repo-root", default=".", dest="repo_root")
+
     # ---- extract-backfill ----
     eb_p = sub.add_parser(
         "extract-backfill",
@@ -317,6 +344,8 @@ def main() -> None:
         _cmd_fable(args)
     elif args.command == "extract-backfill":
         _cmd_extract_backfill(args)
+    elif args.command == "tribunal":
+        _cmd_tribunal(args)
     else:
         parser.print_help()
         sys.exit(1)

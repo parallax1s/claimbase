@@ -116,6 +116,28 @@ def next_task_id(repo_root: Path) -> str:
     return f"task_{max_n + 1:06d}"
 
 
+def _verdicts_path(repo_root: Path) -> Path:
+    return repo_root / "data" / "verdicts.jsonl"
+
+
+def next_verdict_id(repo_root: Path) -> str:
+    """Return the next available vrd_NNNNNN id by scanning verdicts.jsonl."""
+    max_n = 0
+    for rec in _iter_jsonl(_verdicts_path(repo_root)):
+        n = _parse_numeric_id(rec.get("id", ""), "vrd_")
+        if n is not None and n > max_n:
+            max_n = n
+    return f"vrd_{max_n + 1:06d}"
+
+
+def append_verdict(repo_root: Path, record: dict[str, Any]) -> None:
+    _append_jsonl(_verdicts_path(repo_root), record)
+
+
+def load_all_verdicts(repo_root: Path) -> list[dict[str, Any]]:
+    return list(_iter_jsonl(_verdicts_path(repo_root)))
+
+
 def next_thesis_id(repo_root: Path) -> str:
     """Return the next available th_NNNNNN id by scanning theses.jsonl."""
     max_n = 0
