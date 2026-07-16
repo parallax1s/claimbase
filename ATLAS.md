@@ -3,37 +3,37 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 29390740530 · sources 598 · claims 12773 · edges 1279 · verified 73
+run 29473617366 · sources 617 · claims 13848 · edges 1279 · verified 73
 
 ## Districts
 
 ```text
-woff · font · mjx                      ░░░░░░░░░░    399 claims  ⚡0
-Anthropic Company Moves                ▓▓▓▓▓░░░░░    127 claims  ⚡0
+woff · font · mjx                      ░░░░░░░░░░    326 claims  ⚡0
+Anthropic Company Moves                ▓▓▓▓░░░░░░    155 claims  ⚡0
 Model Arena Leaderboard Churn          ▓▓▓▓▓▓▓░░░    122 claims  ⚡0
-mjx · padding · content                ░░░░░░░░░░    109 claims  ⚡0
-Multi-Agent LLM Systems                ▓░░░░░░░░░     86 claims  ⚡0
-Cross-Modal Knowledge Distillation     ░░░░░░░░░░     78 claims  ⚡0
-Latent Variable and Neural Models      ░░░░░░░░░░     63 claims  ⚡0
-LLM Architecture Research              ░░░░░░░░░░     62 claims  ⚡0
-AI Existential Risk Discourse          ▓▓▓░░░░░░░     61 claims  ⚡0
-Epistemic Uncertainty Hedges           ▓░░░░░░░░░     61 claims  ⚡0
+Multi-Agent LLM Systems                ▓░░░░░░░░░     90 claims  ⚡0
+Cross-Modal Knowledge Distillation     ░░░░░░░░░░     81 claims  ⚡0
+mjx · padding · content                ░░░░░░░░░░     77 claims  ⚡0
+AI Existential Risk Discourse          ▓▓▓░░░░░░░     67 claims  ⚡0
+Epistemic Uncertainty Hedges           ▓░░░░░░░░░     66 claims  ⚡0
+Latent Variable and Neural Models      ░░░░░░░░░░     61 claims  ⚡0
+LLM Architecture Research              ░░░░░░░░░░     59 claims  ⚡0
+Temporal Image Consistency             ░░░░░░░░░░     56 claims  ⚡0
 Benchmark Baselines and Agent Scaling  ░░░░░░░░░░     55 claims  ⚡0
-Temporal Image Consistency             ░░░░░░░░░░     53 claims  ⚡0
-training · data · models               ░░░░░░░░░░     52 claims  ⚡0
-prediction · accuracy · predictor      ░░░░░░░░░░     50 claims  ⚡0
-AI Safety Institute Collaboration      ░░░░░░░░░░     49 claims  ⚡0
-US AI Policy and Classrooms            ▓▓▓░░░░░░░     45 claims  ⚡0
-Alignment Faking Research              ░░░░░░░░░░     41 claims  ⚡0
-User Friction and Pushback             ▓▓░░░░░░░░     40 claims  ⚡0
-Alignment Faking Detection Thresholds  ░░░░░░░░░░     39 claims  ⚡0
-semantic · inference · task            ░░░░░░░░░░     39 claims  ⚡0
-Weak-to-Strong Generalization          ░░░░░░░░░░     38 claims  ⚡0
-Behavior Cue Token Signaling           ░░░░░░░░░░     37 claims  ⚡0
-Neural Decoding and Brain-AI           ░░░░░░░░░░     36 claims  ⚡0
-Federal AI Security Mandates           ▓░░░░░░░░░     36 claims  ⚡0
-Compute and Funding Demands            ▓▓░░░░░░░░     35 claims  ⚡0
-… and 2055 smaller districts (9995 claims)
+training · models · data               ░░░░░░░░░░     53 claims  ⚡0
+prediction · accuracy · predictor      ░░░░░░░░░░     48 claims  ⚡0
+US AI Policy and Classrooms            ▓▓▓░░░░░░░     48 claims  ⚡0
+AI Safety Institute Collaboration      ░░░░░░░░░░     45 claims  ⚡0
+Compute and Funding Demands            ▓░░░░░░░░░     44 claims  ⚡0
+Federal AI Security Mandates           ▓░░░░░░░░░     44 claims  ⚡0
+Alignment Faking Research              ░░░░░░░░░░     44 claims  ⚡0
+User Friction and Pushback             ▓▓░░░░░░░░     41 claims  ⚡0
+Neural Decoding and Brain-AI           ░░░░░░░░░░     40 claims  ⚡0
+Weak-to-Strong Generalization          ░░░░░░░░░░     39 claims  ⚡0
+Alignment Faking Detection Thresholds  ░░░░░░░░░░     37 claims  ⚡0
+semantic · task · inference            ░░░░░░░░░░     37 claims  ⚡0
+Gemini Model Benchmarks                ▓▓░░░░░░░░     37 claims  ⚡0
+… and 2212 smaller districts (11070 claims)
 ```
 
 ## Sharpest fault
