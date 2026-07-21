@@ -24324,8 +24324,8 @@
 {"id": "task_024324", "kind": "refine", "payload": {"claim_id": "clm_021357"}, "created_run": "29631648369", "status": "pending"}
 {"id": "task_024325", "kind": "refine", "payload": {"claim_id": "clm_021359"}, "created_run": "29631648369", "status": "pending"}
 {"id": "task_024326", "kind": "refine", "payload": {"claim_id": "clm_021360"}, "created_run": "29631648369", "status": "pending"}
-{"id": "task_024327", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment"}, "created_run": "29631648369", "status": "pending"}
-{"id": "task_024328", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund"}, "created_run": "29631648369", "status": "pending"}
+{"id": "task_024327", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment"}, "created_run": "29631648369", "status": "skipped", "note": "fable failed: GitHub Models HTTP 413: {\"error\":{\"code\":\"tokens_limit_reached\",\"message\":\"Request body too large for gpt-4.1-mini model. Max size: 8000 tokens.\",\"details\":\"Req"}
+{"id": "task_024328", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund"}, "created_run": "29631648369", "status": "skipped", "note": "fable failed: GitHub Models HTTP 413: {\"error\":{\"code\":\"tokens_limit_reached\",\"message\":\"Request body too large for gpt-4.1-mini model. Max size: 8000 tokens.\",\"details\":\"Req"}
 {"id": "task_024329", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research"}, "created_run": "29631648369", "status": "skipped", "note": "fable failed: GitHub Models HTTP 413: {\"error\":{\"code\":\"tokens_limit_reached\",\"message\":\"Request body too large for gpt-4.1-mini model. Max size: 8000 tokens.\",\"details\":\"Req"}
 {"id": "task_024330", "kind": "edge", "payload": {"a": "clm_000194", "b": "clm_021277", "sim": 0.4554}, "created_run": "29631648369", "status": "pending"}
 {"id": "task_024331", "kind": "edge", "payload": {"a": "clm_000201", "b": "clm_021164", "sim": 0.5022}, "created_run": "29631648369", "status": "pending"}
@@ -25443,8 +25443,8 @@
 {"id": "task_025443", "kind": "refine", "payload": {"claim_id": "clm_022503"}, "created_run": "29674978409", "status": "pending"}
 {"id": "task_025444", "kind": "refine", "payload": {"claim_id": "clm_022504"}, "created_run": "29674978409", "status": "pending"}
 {"id": "task_025445", "kind": "refine", "payload": {"claim_id": "clm_022506"}, "created_run": "29674978409", "status": "pending"}
-{"id": "task_025446", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai"}, "created_run": "29674978409", "status": "pending"}
-{"id": "task_025447", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment"}, "created_run": "29674978409", "status": "pending"}
+{"id": "task_025446", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai"}, "created_run": "29674978409", "status": "skipped", "note": "fable failed: GitHub Models HTTP 413: {\"error\":{\"code\":\"tokens_limit_reached\",\"message\":\"Request body too large for gpt-4.1-mini model. Max size: 8000 tokens.\",\"details\":\"Req"}
+{"id": "task_025447", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment"}, "created_run": "29674978409", "status": "skipped", "note": "fable failed: GitHub Models HTTP 413: {\"error\":{\"code\":\"tokens_limit_reached\",\"message\":\"Request body too large for gpt-4.1-mini model. Max size: 8000 tokens.\",\"details\":\"Req"}
 {"id": "task_025448", "kind": "edge", "payload": {"a": "clm_000193", "b": "clm_022284", "sim": 0.4496}, "created_run": "29674978409", "status": "pending"}
 {"id": "task_025449", "kind": "edge", "payload": {"a": "clm_000201", "b": "clm_022105", "sim": 0.5793}, "created_run": "29674978409", "status": "pending"}
 {"id": "task_025450", "kind": "edge", "payload": {"a": "clm_000293", "b": "clm_022303", "sim": 0.6032}, "created_run": "29674978409", "status": "pending"}
@@ -26059,41 +26059,41 @@
 {"id": "task_026059", "kind": "attach", "payload": {"question_id": "q_000006", "claim_id": "clm_023256", "sim": 0.364}, "created_run": "fable-ci-29716894506", "status": "pending"}
 {"id": "task_026060", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_023258", "sim": 0.7717}, "created_run": "fable-ci-29716894506", "status": "pending"}
 {"id": "task_026061", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_023261", "sim": 0.5764}, "created_run": "fable-ci-29716894506", "status": "pending"}
-{"id": "task_026062", "kind": "refine", "payload": {"claim_id": "clm_023271"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026063", "kind": "refine", "payload": {"claim_id": "clm_023275"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026064", "kind": "refine", "payload": {"claim_id": "clm_023278"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026065", "kind": "refine", "payload": {"claim_id": "clm_023280"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026066", "kind": "refine", "payload": {"claim_id": "clm_023283"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026067", "kind": "refine", "payload": {"claim_id": "clm_023285"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026068", "kind": "refine", "payload": {"claim_id": "clm_023290"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026069", "kind": "refine", "payload": {"claim_id": "clm_023291"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026070", "kind": "refine", "payload": {"claim_id": "clm_023293"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026071", "kind": "refine", "payload": {"claim_id": "clm_023294"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026072", "kind": "refine", "payload": {"claim_id": "clm_023295"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026073", "kind": "refine", "payload": {"claim_id": "clm_023296"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026074", "kind": "refine", "payload": {"claim_id": "clm_023298"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026075", "kind": "refine", "payload": {"claim_id": "clm_023300"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026076", "kind": "refine", "payload": {"claim_id": "clm_023301"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026077", "kind": "refine", "payload": {"claim_id": "clm_023303"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026078", "kind": "refine", "payload": {"claim_id": "clm_023305"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026079", "kind": "refine", "payload": {"claim_id": "clm_023307"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026080", "kind": "refine", "payload": {"claim_id": "clm_023309"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026081", "kind": "refine", "payload": {"claim_id": "clm_023311"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026082", "kind": "refine", "payload": {"claim_id": "clm_023312"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026083", "kind": "refine", "payload": {"claim_id": "clm_023315"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026084", "kind": "refine", "payload": {"claim_id": "clm_023317"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026085", "kind": "refine", "payload": {"claim_id": "clm_023328"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026086", "kind": "refine", "payload": {"claim_id": "clm_023334"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026087", "kind": "refine", "payload": {"claim_id": "clm_023335"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026088", "kind": "refine", "payload": {"claim_id": "clm_023336"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026089", "kind": "refine", "payload": {"claim_id": "clm_023340"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026090", "kind": "refine", "payload": {"claim_id": "clm_023342"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026091", "kind": "refine", "payload": {"claim_id": "clm_023344"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026092", "kind": "refine", "payload": {"claim_id": "clm_023348"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026093", "kind": "refine", "payload": {"claim_id": "clm_023351"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026094", "kind": "refine", "payload": {"claim_id": "clm_023356"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026095", "kind": "refine", "payload": {"claim_id": "clm_023357"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026096", "kind": "refine", "payload": {"claim_id": "clm_023363"}, "created_run": "29720009928", "status": "pending"}
+{"id": "task_026062", "kind": "refine", "payload": {"claim_id": "clm_023271"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026063", "kind": "refine", "payload": {"claim_id": "clm_023275"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026064", "kind": "refine", "payload": {"claim_id": "clm_023278"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026065", "kind": "refine", "payload": {"claim_id": "clm_023280"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026066", "kind": "refine", "payload": {"claim_id": "clm_023283"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026067", "kind": "refine", "payload": {"claim_id": "clm_023285"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026068", "kind": "refine", "payload": {"claim_id": "clm_023290"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026069", "kind": "refine", "payload": {"claim_id": "clm_023291"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026070", "kind": "refine", "payload": {"claim_id": "clm_023293"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026071", "kind": "refine", "payload": {"claim_id": "clm_023294"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026072", "kind": "refine", "payload": {"claim_id": "clm_023295"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026073", "kind": "refine", "payload": {"claim_id": "clm_023296"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026074", "kind": "refine", "payload": {"claim_id": "clm_023298"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026075", "kind": "refine", "payload": {"claim_id": "clm_023300"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026076", "kind": "refine", "payload": {"claim_id": "clm_023301"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026077", "kind": "refine", "payload": {"claim_id": "clm_023303"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026078", "kind": "refine", "payload": {"claim_id": "clm_023305"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026079", "kind": "refine", "payload": {"claim_id": "clm_023307"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026080", "kind": "refine", "payload": {"claim_id": "clm_023309"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026081", "kind": "refine", "payload": {"claim_id": "clm_023311"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026082", "kind": "refine", "payload": {"claim_id": "clm_023312"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026083", "kind": "refine", "payload": {"claim_id": "clm_023315"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026084", "kind": "refine", "payload": {"claim_id": "clm_023317"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026085", "kind": "refine", "payload": {"claim_id": "clm_023328"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026086", "kind": "refine", "payload": {"claim_id": "clm_023334"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026087", "kind": "refine", "payload": {"claim_id": "clm_023335"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026088", "kind": "refine", "payload": {"claim_id": "clm_023336"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026089", "kind": "refine", "payload": {"claim_id": "clm_023340"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026090", "kind": "refine", "payload": {"claim_id": "clm_023342"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026091", "kind": "refine", "payload": {"claim_id": "clm_023344"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026092", "kind": "refine", "payload": {"claim_id": "clm_023348"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026093", "kind": "refine", "payload": {"claim_id": "clm_023351"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026094", "kind": "refine", "payload": {"claim_id": "clm_023356"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026095", "kind": "refine", "payload": {"claim_id": "clm_023357"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026096", "kind": "refine", "payload": {"claim_id": "clm_023363"}, "created_run": "29720009928", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
 {"id": "task_026097", "kind": "refine", "payload": {"claim_id": "clm_023375"}, "created_run": "29720009928", "status": "pending"}
 {"id": "task_026098", "kind": "refine", "payload": {"claim_id": "clm_023376"}, "created_run": "29720009928", "status": "pending"}
 {"id": "task_026099", "kind": "refine", "payload": {"claim_id": "clm_023378"}, "created_run": "29720009928", "status": "pending"}
@@ -26121,19 +26121,19 @@
 {"id": "task_026121", "kind": "refine", "payload": {"claim_id": "clm_023458"}, "created_run": "29720009928", "status": "pending"}
 {"id": "task_026122", "kind": "refine", "payload": {"claim_id": "clm_023475"}, "created_run": "29720009928", "status": "pending"}
 {"id": "task_026123", "kind": "refine", "payload": {"claim_id": "clm_023481"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026124", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.14345v2"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026125", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15095v2"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026126", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15495v1"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026127", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15592v1"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026128", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15621v1"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026129", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15647v1"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026130", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15686v1"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026131", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15740v1"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026132", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15781v1"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026133", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15794v1"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026134", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.16065v1"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026135", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.16066v1"}, "created_run": "29720009928", "status": "pending"}
-{"id": "task_026136", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.16112v1"}, "created_run": "29720009928", "status": "pending"}
+{"id": "task_026124", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.14345v2"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 12 claims, 2 theses"}
+{"id": "task_026125", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15095v2"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 12 claims, 1 theses"}
+{"id": "task_026126", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15495v1"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 17 claims, 1 theses"}
+{"id": "task_026127", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15592v1"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 12 claims, 1 theses"}
+{"id": "task_026128", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15621v1"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 22 claims, 1 theses"}
+{"id": "task_026129", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15647v1"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 16 claims, 1 theses"}
+{"id": "task_026130", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15686v1"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 13 claims, 1 theses"}
+{"id": "task_026131", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15740v1"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 14 claims, 1 theses"}
+{"id": "task_026132", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15781v1"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 17 claims, 1 theses"}
+{"id": "task_026133", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.15794v1"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 6 claims, 1 theses"}
+{"id": "task_026134", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.16065v1"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 12 claims, 1 theses"}
+{"id": "task_026135", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.16066v1"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 8 claims, 1 theses"}
+{"id": "task_026136", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.16112v1"}, "created_run": "29720009928", "status": "done", "note": "extracted by fable-ci-29840876236: 10 claims, 1 theses"}
 {"id": "task_026137", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/43vKjWuH4goLwrFHA/modular-pretraining-enables-access-control"}, "created_run": "29720009928", "status": "skipped", "note": "fable failed: GitHub Models HTTP 413: {\"error\":{\"code\":\"tokens_limit_reached\",\"message\":\"Request body too large for gpt-4.1-mini model. Max size: 8000 tokens.\",\"details\":\"Req"}
 {"id": "task_026138", "kind": "edge", "payload": {"a": "clm_000337", "b": "clm_023323", "sim": 0.5836}, "created_run": "29720009928", "status": "pending"}
 {"id": "task_026139", "kind": "edge", "payload": {"a": "clm_000337", "b": "clm_023369", "sim": 0.4672}, "created_run": "29720009928", "status": "pending"}
@@ -26664,11 +26664,11 @@
 {"id": "task_026664", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "th_000599", "sim": 0.8485}, "created_run": "fable-ci-29800007305", "status": "pending"}
 {"id": "task_026665", "kind": "attach", "payload": {"question_id": "q_000004", "claim_id": "clm_024123", "sim": 0.5528}, "created_run": "fable-ci-29800007305", "status": "pending"}
 {"id": "task_026666", "kind": "attach", "payload": {"question_id": "q_000007", "claim_id": "clm_024128", "sim": 0.624}, "created_run": "fable-ci-29800007305", "status": "pending"}
-{"id": "task_026667", "kind": "refine", "payload": {"claim_id": "clm_024134"}, "created_run": "29804152208", "status": "pending"}
-{"id": "task_026668", "kind": "refine", "payload": {"claim_id": "clm_024136"}, "created_run": "29804152208", "status": "pending"}
-{"id": "task_026669", "kind": "refine", "payload": {"claim_id": "clm_024137"}, "created_run": "29804152208", "status": "pending"}
-{"id": "task_026670", "kind": "refine", "payload": {"claim_id": "clm_024141"}, "created_run": "29804152208", "status": "pending"}
-{"id": "task_026671", "kind": "refine", "payload": {"claim_id": "clm_024144"}, "created_run": "29804152208", "status": "pending"}
+{"id": "task_026667", "kind": "refine", "payload": {"claim_id": "clm_024134"}, "created_run": "29804152208", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026668", "kind": "refine", "payload": {"claim_id": "clm_024136"}, "created_run": "29804152208", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026669", "kind": "refine", "payload": {"claim_id": "clm_024137"}, "created_run": "29804152208", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026670", "kind": "refine", "payload": {"claim_id": "clm_024141"}, "created_run": "29804152208", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
+{"id": "task_026671", "kind": "refine", "payload": {"claim_id": "clm_024144"}, "created_run": "29804152208", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-29840876236"}
 {"id": "task_026672", "kind": "refine", "payload": {"claim_id": "clm_024149"}, "created_run": "29804152208", "status": "pending"}
 {"id": "task_026673", "kind": "refine", "payload": {"claim_id": "clm_024153"}, "created_run": "29804152208", "status": "pending"}
 {"id": "task_026674", "kind": "refine", "payload": {"claim_id": "clm_024155"}, "created_run": "29804152208", "status": "pending"}
@@ -26818,9 +26818,9 @@
 {"id": "task_026818", "kind": "refine", "payload": {"claim_id": "clm_024843"}, "created_run": "29804152208", "status": "pending"}
 {"id": "task_026819", "kind": "refine", "payload": {"claim_id": "clm_024854"}, "created_run": "29804152208", "status": "pending"}
 {"id": "task_026820", "kind": "refine", "payload": {"claim_id": "clm_024861"}, "created_run": "29804152208", "status": "pending"}
-{"id": "task_026821", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2607.16313v1"}, "created_run": "29804152208", "status": "pending"}
-{"id": "task_026822", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.17257v1"}, "created_run": "29804152208", "status": "pending"}
-{"id": "task_026823", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.17281v1"}, "created_run": "29804152208", "status": "pending"}
+{"id": "task_026821", "kind": "extract", "payload": {"source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2607.16313v1"}, "created_run": "29804152208", "status": "done", "note": "extracted by fable-ci-29840876236: 13 claims, 1 theses"}
+{"id": "task_026822", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.17257v1"}, "created_run": "29804152208", "status": "done", "note": "extracted by fable-ci-29840876236: 13 claims, 1 theses"}
+{"id": "task_026823", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.17281v1"}, "created_run": "29804152208", "status": "done", "note": "extracted by fable-ci-29840876236: 18 claims, 1 theses"}
 {"id": "task_026824", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.17288v1"}, "created_run": "29804152208", "status": "pending"}
 {"id": "task_026825", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.17331v1"}, "created_run": "29804152208", "status": "pending"}
 {"id": "task_026826", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.17342v1"}, "created_run": "29804152208", "status": "pending"}
@@ -27870,3 +27870,80 @@
 {"id": "task_027870", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_025062", "sim": 1.0566}, "created_run": "fable-ci-29817633960", "status": "pending"}
 {"id": "task_027871", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_025081", "sim": 0.5418}, "created_run": "fable-ci-29817633960", "status": "pending"}
 {"id": "task_027872", "kind": "attach", "payload": {"question_id": "q_000029", "claim_id": "clm_025090", "sim": 0.5531}, "created_run": "fable-ci-29817633960", "status": "pending"}
+{"id": "task_027873", "kind": "attach", "payload": {"question_id": "q_000006", "claim_id": "clm_025093", "sim": 0.3753}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027874", "kind": "attach", "payload": {"question_id": "q_000015", "claim_id": "clm_025095", "sim": 0.6539}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027875", "kind": "attach", "payload": {"question_id": "q_000015", "claim_id": "clm_025097", "sim": 0.6824}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027876", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_025098", "sim": 0.5638}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027877", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_025099", "sim": 0.61}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027878", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_025100", "sim": 0.6809}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027879", "kind": "attach", "payload": {"question_id": "q_000016", "claim_id": "clm_025101", "sim": 1.4299}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027880", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "th_000623", "sim": 0.4351}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027881", "kind": "attach", "payload": {"question_id": "q_000013", "claim_id": "clm_025103", "sim": 0.4532}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027882", "kind": "attach", "payload": {"question_id": "q_000001", "claim_id": "clm_025104", "sim": 0.7572}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027883", "kind": "attach", "payload": {"question_id": "q_000001", "claim_id": "clm_025105", "sim": 1.633}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027884", "kind": "attach", "payload": {"question_id": "q_000001", "claim_id": "clm_025106", "sim": 1.46}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027885", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_025107", "sim": 1.0401}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027886", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_025108", "sim": 1.0182}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027887", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_025110", "sim": 0.5019}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027888", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_025113", "sim": 1.0257}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027889", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_025114", "sim": 1.0185}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027890", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "th_000624", "sim": 1.0094}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027891", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "clm_025117", "sim": 0.6979}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027892", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_025127", "sim": 0.4263}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027893", "kind": "attach", "payload": {"question_id": "q_000001", "claim_id": "clm_025128", "sim": 0.6205}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027894", "kind": "attach", "payload": {"question_id": "q_000024", "claim_id": "clm_025129", "sim": 0.4704}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027895", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "clm_025133", "sim": 0.5204}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027896", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "clm_025134", "sim": 0.5133}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027897", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "clm_025135", "sim": 0.5216}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027898", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_025143", "sim": 0.5006}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027899", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "th_000626", "sim": 0.5155}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027900", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_025159", "sim": 0.5131}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027901", "kind": "attach", "payload": {"question_id": "q_000007", "claim_id": "clm_025165", "sim": 0.8137}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027902", "kind": "attach", "payload": {"question_id": "q_000018", "claim_id": "clm_025166", "sim": 0.8314}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027903", "kind": "attach", "payload": {"question_id": "q_000006", "claim_id": "clm_025174", "sim": 0.3641}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027904", "kind": "attach", "payload": {"question_id": "q_000024", "claim_id": "clm_025176", "sim": 0.4602}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027905", "kind": "attach", "payload": {"question_id": "q_000020", "claim_id": "clm_025180", "sim": 0.6113}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027906", "kind": "attach", "payload": {"question_id": "q_000019", "claim_id": "clm_025182", "sim": 0.8138}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027907", "kind": "attach", "payload": {"question_id": "q_000019", "claim_id": "clm_025185", "sim": 0.8016}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027908", "kind": "attach", "payload": {"question_id": "q_000019", "claim_id": "th_000629", "sim": 0.7938}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027909", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_025196", "sim": 0.4273}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027910", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_025197", "sim": 0.424}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027911", "kind": "attach", "payload": {"question_id": "q_000016", "claim_id": "clm_025200", "sim": 0.7754}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027912", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "clm_025201", "sim": 0.7197}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027913", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "clm_025202", "sim": 0.5169}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027914", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_025204", "sim": 0.4914}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027915", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_025206", "sim": 0.4314}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027916", "kind": "attach", "payload": {"question_id": "q_000001", "claim_id": "clm_025208", "sim": 0.7809}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027917", "kind": "attach", "payload": {"question_id": "q_000016", "claim_id": "th_000630", "sim": 0.7401}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027918", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_025217", "sim": 1.0239}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027919", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_025218", "sim": 0.4999}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027920", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_025219", "sim": 0.4108}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027921", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "th_000631", "sim": 1.003}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027922", "kind": "attach", "payload": {"question_id": "q_000004", "claim_id": "clm_025236", "sim": 0.6143}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027923", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_025238", "sim": 0.4305}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027924", "kind": "attach", "payload": {"question_id": "q_000004", "claim_id": "th_000633", "sim": 0.5942}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027925", "kind": "attach", "payload": {"question_id": "q_000025", "claim_id": "clm_025244", "sim": 0.7141}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027926", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_025245", "sim": 0.5737}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027927", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_025246", "sim": 0.4307}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027928", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_025247", "sim": 0.5646}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027929", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_025249", "sim": 1.6789}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027930", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_025250", "sim": 0.5609}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027931", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "th_000634", "sim": 0.5666}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027932", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_025252", "sim": 0.56}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027933", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_025253", "sim": 0.6927}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027934", "kind": "attach", "payload": {"question_id": "q_000027", "claim_id": "clm_025254", "sim": 0.5405}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027935", "kind": "attach", "payload": {"question_id": "q_000014", "claim_id": "clm_025256", "sim": 0.8571}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027936", "kind": "attach", "payload": {"question_id": "q_000009", "claim_id": "clm_025258", "sim": 0.8161}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027937", "kind": "attach", "payload": {"question_id": "q_000009", "claim_id": "clm_025259", "sim": 1.4261}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027938", "kind": "attach", "payload": {"question_id": "q_000023", "claim_id": "clm_025260", "sim": 0.9359}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027939", "kind": "attach", "payload": {"question_id": "q_000026", "claim_id": "th_000635", "sim": 1.4081}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027940", "kind": "attach", "payload": {"question_id": "q_000029", "claim_id": "clm_025262", "sim": 0.5627}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027941", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_025273", "sim": 0.8465}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027942", "kind": "attach", "payload": {"question_id": "q_000013", "claim_id": "clm_025274", "sim": 0.4754}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027943", "kind": "attach", "payload": {"question_id": "q_000013", "claim_id": "clm_025280", "sim": 0.457}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027944", "kind": "attach", "payload": {"question_id": "q_000013", "claim_id": "clm_025285", "sim": 0.4655}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027945", "kind": "attach", "payload": {"question_id": "q_000013", "claim_id": "clm_025286", "sim": 0.4522}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027946", "kind": "attach", "payload": {"question_id": "q_000013", "claim_id": "th_000637", "sim": 0.4558}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027947", "kind": "attach", "payload": {"question_id": "q_000001", "claim_id": "clm_025302", "sim": 0.6515}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027948", "kind": "attach", "payload": {"question_id": "q_000019", "claim_id": "clm_025304", "sim": 0.6366}, "created_run": "fable-ci-29840876236", "status": "pending"}
+{"id": "task_027949", "kind": "attach", "payload": {"question_id": "q_000023", "claim_id": "th_000638", "sim": 0.4607}, "created_run": "fable-ci-29840876236", "status": "pending"}
