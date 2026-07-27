@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 30189788478 · sources 746 · claims 18441 · edges 1279 · verified 73
+run 30241329711 · sources 764 · claims 18576 · edges 1279 · verified 73
 
 ## Districts
 
@@ -15,25 +15,25 @@ Cross-Modal Knowledge Distillation     ░░░░░░░░░░    121 cla
 Multi-Agent LLM Systems                ░░░░░░░░░░    121 claims  ⚡0
 mjx · padding · content                ░░░░░░░░░░    111 claims  ⚡0
 mjx · padding · content                ░░░░░░░░░░    108 claims  ⚡0
-Latent Variable and Neural Models      ░░░░░░░░░░     87 claims  ⚡0
-LLM Architecture Research              ░░░░░░░░░░     78 claims  ⚡0
-Temporal Image Consistency             ░░░░░░░░░░     78 claims  ⚡0
+Latent Variable and Neural Models      ░░░░░░░░░░     88 claims  ⚡0
+LLM Architecture Research              ░░░░░░░░░░     79 claims  ⚡0
+Temporal Image Consistency             ░░░░░░░░░░     79 claims  ⚡0
 AI Existential Risk Discourse          ▓▓▓░░░░░░░     77 claims  ⚡0
 Epistemic Uncertainty Hedges           ▓░░░░░░░░░     68 claims  ⚡0
+Neural Decoding and Brain-AI           ░░░░░░░░░░     63 claims  ⚡0
 training · models · trained            ░░░░░░░░░░     62 claims  ⚡0
-Neural Decoding and Brain-AI           ░░░░░░░░░░     61 claims  ⚡0
 prediction · accuracy · predictor      ░░░░░░░░░░     60 claims  ⚡0
 Federal AI Security Mandates           ▓░░░░░░░░░     57 claims  ⚡0
-Alignment Faking Detection Thresholds  ░░░░░░░░░░     54 claims  ⚡0
+Alignment Faking Detection Thresholds  ░░░░░░░░░░     55 claims  ⚡0
 US AI Policy and Classrooms            ▓▓▓░░░░░░░     51 claims  ⚡0
+Benchmark Baselines and Agent Scaling  ░░░░░░░░░░     50 claims  ⚡0
 Compute and Funding Demands            ▓░░░░░░░░░     49 claims  ⚡0
+bias · preference · models             ░░░░░░░░░░     49 claims  ⚡0
 Alignment Faking Research              ░░░░░░░░░░     48 claims  ⚡0
-Benchmark Baselines and Agent Scaling  ░░░░░░░░░░     47 claims  ⚡0
-bias · preference · models             ░░░░░░░░░░     47 claims  ⚡0
+layers · layer · maps                  ░░░░░░░░░░     47 claims  ⚡0
 Multi-Turn Reasoning Failure Modes     ░░░░░░░░░░     45 claims  ⚡0
 User Friction and Pushback             ▓▓░░░░░░░░     45 claims  ⚡0
-Agent Monitoring Benchmarks            ░░░░░░░░░░     45 claims  ⚡0
-… and 2665 smaller districts (15130 claims)
+… and 2685 smaller districts (15272 claims)
 ```
 
 ## Sharpest fault
