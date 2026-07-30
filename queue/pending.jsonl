@@ -35017,10 +35017,10 @@
 {"id": "task_035017", "kind": "refine", "payload": {"claim_id": "clm_031639"}, "created_run": "30516238201", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-30530170803"}
 {"id": "task_035018", "kind": "refine", "payload": {"claim_id": "clm_031642"}, "created_run": "30516238201", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-30530170803"}
 {"id": "task_035019", "kind": "refine", "payload": {"claim_id": "clm_031643"}, "created_run": "30516238201", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-30530170803"}
-{"id": "task_035020", "kind": "refine", "payload": {"claim_id": "clm_031657"}, "created_run": "30516238201", "status": "pending"}
-{"id": "task_035021", "kind": "refine", "payload": {"claim_id": "clm_031659"}, "created_run": "30516238201", "status": "pending"}
-{"id": "task_035022", "kind": "refine", "payload": {"claim_id": "clm_031661"}, "created_run": "30516238201", "status": "pending"}
-{"id": "task_035023", "kind": "refine", "payload": {"claim_id": "clm_031662"}, "created_run": "30516238201", "status": "pending"}
+{"id": "task_035020", "kind": "refine", "payload": {"claim_id": "clm_031657"}, "created_run": "30516238201", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-30554121865"}
+{"id": "task_035021", "kind": "refine", "payload": {"claim_id": "clm_031659"}, "created_run": "30516238201", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-30554121865"}
+{"id": "task_035022", "kind": "refine", "payload": {"claim_id": "clm_031661"}, "created_run": "30516238201", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-30554121865"}
+{"id": "task_035023", "kind": "refine", "payload": {"claim_id": "clm_031662"}, "created_run": "30516238201", "status": "obsolete", "note": "claim retired; source re-extracted by fable-ci-30554121865"}
 {"id": "task_035024", "kind": "refine", "payload": {"claim_id": "clm_031663"}, "created_run": "30516238201", "status": "pending"}
 {"id": "task_035025", "kind": "refine", "payload": {"claim_id": "clm_031665"}, "created_run": "30516238201", "status": "pending"}
 {"id": "task_035026", "kind": "refine", "payload": {"claim_id": "clm_031667"}, "created_run": "30516238201", "status": "pending"}
@@ -35343,12 +35343,12 @@
 {"id": "task_035343", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.27069v1"}, "created_run": "30516238201", "status": "done", "note": "extracted by fable-ci-30530170803: 14 claims, 1 theses"}
 {"id": "task_035344", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.27081v1"}, "created_run": "30516238201", "status": "done", "note": "extracted by fable-ci-30530170803: 15 claims, 1 theses"}
 {"id": "task_035345", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.27083v1"}, "created_run": "30516238201", "status": "done", "note": "extracted by fable-ci-30530170803: 18 claims, 1 theses"}
-{"id": "task_035346", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.27084v1"}, "created_run": "30516238201", "status": "pending"}
-{"id": "task_035347", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.27154v1"}, "created_run": "30516238201", "status": "pending"}
-{"id": "task_035348", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/58zFSWp8Tmxij6ckK/value-generalisation-1-a-research-and-deployment-program"}, "created_run": "30516238201", "status": "pending"}
-{"id": "task_035349", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/TZgezuYjkfMQxyqJC/value-generalisation-2-the-missing-hole-in-ais-abilities"}, "created_run": "30516238201", "status": "pending"}
-{"id": "task_035350", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/e7Pd4Q9TF7jFdmPgz/imprecise-beliefs-a-tiny-introduction"}, "created_run": "30516238201", "status": "pending"}
-{"id": "task_035351", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/uMKGaEKRDpoqnZyBh/value-generalisation-3-pre-aligned-ais"}, "created_run": "30516238201", "status": "pending"}
+{"id": "task_035346", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.27084v1"}, "created_run": "30516238201", "status": "done", "note": "extracted by fable-ci-30554121865: 17 claims, 2 theses"}
+{"id": "task_035347", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2607.27154v1"}, "created_run": "30516238201", "status": "done", "note": "extracted by fable-ci-30554121865: 13 claims, 2 theses"}
+{"id": "task_035348", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/58zFSWp8Tmxij6ckK/value-generalisation-1-a-research-and-deployment-program"}, "created_run": "30516238201", "status": "skipped", "note": "fable failed: GitHub Models HTTP 413: {\"error\":{\"code\":\"tokens_limit_reached\",\"message\":\"Request body too large for gpt-4.1-mini model. Max size: 8000 tokens.\",\"details\":\"Req"}
+{"id": "task_035349", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/TZgezuYjkfMQxyqJC/value-generalisation-2-the-missing-hole-in-ais-abilities"}, "created_run": "30516238201", "status": "skipped", "note": "fable failed: GitHub Models HTTP 413: {\"error\":{\"code\":\"tokens_limit_reached\",\"message\":\"Request body too large for gpt-4.1-mini model. Max size: 8000 tokens.\",\"details\":\"Req"}
+{"id": "task_035350", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/e7Pd4Q9TF7jFdmPgz/imprecise-beliefs-a-tiny-introduction"}, "created_run": "30516238201", "status": "skipped", "note": "fable failed: GitHub Models HTTP 413: {\"error\":{\"code\":\"tokens_limit_reached\",\"message\":\"Request body too large for gpt-4.1-mini model. Max size: 8000 tokens.\",\"details\":\"Req"}
+{"id": "task_035351", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/uMKGaEKRDpoqnZyBh/value-generalisation-3-pre-aligned-ais"}, "created_run": "30516238201", "status": "skipped", "note": "fable failed: GitHub Models HTTP 413: {\"error\":{\"code\":\"tokens_limit_reached\",\"message\":\"Request body too large for gpt-4.1-mini model. Max size: 8000 tokens.\",\"details\":\"Req"}
 {"id": "task_035352", "kind": "edge", "payload": {"a": "clm_000277", "b": "clm_032217", "sim": 0.5024}, "created_run": "30516238201", "status": "pending"}
 {"id": "task_035353", "kind": "edge", "payload": {"a": "clm_000293", "b": "clm_031511", "sim": 0.5567}, "created_run": "30516238201", "status": "pending"}
 {"id": "task_035354", "kind": "identity", "payload": {"a": "clm_000293", "b": "clm_032176", "sim": 0.6761}, "created_run": "30516238201", "status": "pending"}
@@ -36180,3 +36180,10 @@
 {"id": "task_036180", "kind": "attach", "payload": {"question_id": "q_000010", "claim_id": "clm_032488", "sim": 0.6424}, "created_run": "fable-ci-30530170803", "status": "pending"}
 {"id": "task_036181", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_032491", "sim": 0.408}, "created_run": "fable-ci-30530170803", "status": "pending"}
 {"id": "task_036182", "kind": "attach", "payload": {"question_id": "q_000001", "claim_id": "clm_032492", "sim": 0.5218}, "created_run": "fable-ci-30530170803", "status": "pending"}
+{"id": "task_036183", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_032501", "sim": 0.4705}, "created_run": "fable-ci-30554121865", "status": "pending"}
+{"id": "task_036184", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "clm_032506", "sim": 0.4755}, "created_run": "fable-ci-30554121865", "status": "pending"}
+{"id": "task_036185", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_032507", "sim": 0.387}, "created_run": "fable-ci-30554121865", "status": "pending"}
+{"id": "task_036186", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_032509", "sim": 0.387}, "created_run": "fable-ci-30554121865", "status": "pending"}
+{"id": "task_036187", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "th_000812", "sim": 0.5026}, "created_run": "fable-ci-30554121865", "status": "pending"}
+{"id": "task_036188", "kind": "attach", "payload": {"question_id": "q_000011", "claim_id": "th_000813", "sim": 0.4732}, "created_run": "fable-ci-30554121865", "status": "pending"}
+{"id": "task_036189", "kind": "attach", "payload": {"question_id": "q_000003", "claim_id": "clm_032512", "sim": 0.5131}, "created_run": "fable-ci-30554121865", "status": "pending"}
