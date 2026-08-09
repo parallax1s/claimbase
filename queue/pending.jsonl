@@ -44088,7 +44088,7 @@
 {"id": "task_044088", "kind": "refine", "payload": {"claim_id": "clm_037509"}, "created_run": "31293346504", "status": "pending"}
 {"id": "task_044089", "kind": "refine", "payload": {"claim_id": "clm_037512"}, "created_run": "31293346504", "status": "pending"}
 {"id": "task_044090", "kind": "refine", "payload": {"claim_id": "clm_037513"}, "created_run": "31293346504", "status": "pending"}
-{"id": "task_044091", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/kfunjXeaRTpkT5RAF/user-awareness-in-frontier-models"}, "created_run": "31293346504", "status": "pending"}
+{"id": "task_044091", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/kfunjXeaRTpkT5RAF/user-awareness-in-frontier-models"}, "created_run": "31293346504", "status": "skipped", "note": "fable failed: GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retireme"}
 {"id": "task_044092", "kind": "edge", "payload": {"a": "clm_000205", "b": "clm_037007", "sim": 0.5652}, "created_run": "31293346504", "status": "pending"}
 {"id": "task_044093", "kind": "edge", "payload": {"a": "clm_000230", "b": "clm_037056", "sim": 0.4184}, "created_run": "31293346504", "status": "pending"}
 {"id": "task_044094", "kind": "edge", "payload": {"a": "clm_000256", "b": "clm_037087", "sim": 0.4943}, "created_run": "31293346504", "status": "pending"}
