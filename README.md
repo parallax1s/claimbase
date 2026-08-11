@@ -72,3 +72,10 @@ quotation for verification. Feeds are limited to publicly accessible sources.
 The extraction engine in `extractor/` is a minimal vendored derivative of
 [Episteme](https://github.com/parallax1s/Episteme) (MIT). The cross-source
 consolidation and adversarial-verification patterns were developed there.
+
+## Canonical contracts
+
+This repo's `SCHEMA.md` governs sources, claims, edges, and theses, plus the
+queue. The question layer (`data/questions.jsonl`) defers to the spine repo —
+`../foundational_frontier_question_engine_v0/spine/SCHEMA.md` — as
+`SCHEMA.md`'s own `data/questions.jsonl` section already states.
