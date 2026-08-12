@@ -46826,26 +46826,26 @@
 {"id": "task_046826", "kind": "refine", "payload": {"claim_id": "clm_038955"}, "created_run": "31562776747", "status": "pending"}
 {"id": "task_046827", "kind": "refine", "payload": {"claim_id": "clm_038957"}, "created_run": "31562776747", "status": "pending"}
 {"id": "task_046828", "kind": "refine", "payload": {"claim_id": "clm_038959"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046829", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10182v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046830", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10209v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046831", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10224v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046832", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10300v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046833", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10315v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046834", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10323v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046835", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10327v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046836", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10403v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046837", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10405v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046838", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10448v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046839", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10484v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046840", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10492v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046841", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10513v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046842", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10635v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046843", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10679v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046844", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10714v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046845", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10720v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046846", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10730v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046847", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10929v1"}, "created_run": "31562776747", "status": "pending"}
-{"id": "task_046848", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10954v1"}, "created_run": "31562776747", "status": "pending"}
+{"id": "task_046829", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10182v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046830", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10209v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046831", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10224v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046832", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10300v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046833", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10315v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046834", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10323v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046835", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10327v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046836", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10403v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046837", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10405v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046838", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10448v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046839", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10484v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046840", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10492v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046841", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10513v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046842", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10635v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046843", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10679v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046844", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10714v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046845", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10720v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046846", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10730v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046847", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10929v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_046848", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.10954v1"}, "created_run": "31562776747", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
 {"id": "task_046849", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.11006v1"}, "created_run": "31562776747", "status": "pending"}
 {"id": "task_046850", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.11017v1"}, "created_run": "31562776747", "status": "pending"}
 {"id": "task_046851", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.11171v1"}, "created_run": "31562776747", "status": "pending"}
