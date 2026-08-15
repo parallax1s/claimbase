@@ -49646,7 +49646,7 @@
 {"id": "task_049646", "kind": "refine", "payload": {"claim_id": "clm_040471"}, "created_run": "31860854323", "status": "pending"}
 {"id": "task_049647", "kind": "refine", "payload": {"claim_id": "clm_040475"}, "created_run": "31860854323", "status": "pending"}
 {"id": "task_049648", "kind": "refine", "payload": {"claim_id": "clm_040485"}, "created_run": "31860854323", "status": "pending"}
-{"id": "task_049649", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc"}, "created_run": "31860854323", "status": "pending"}
+{"id": "task_049649", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc"}, "created_run": "31860854323", "status": "skipped", "note": "fable failed: GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retireme"}
 {"id": "task_049650", "kind": "edge", "payload": {"a": "clm_000181", "b": "clm_040440", "sim": 0.4333}, "created_run": "31860854323", "status": "pending"}
 {"id": "task_049651", "kind": "edge", "payload": {"a": "clm_000186", "b": "clm_040342", "sim": 0.4434}, "created_run": "31860854323", "status": "pending"}
 {"id": "task_049652", "kind": "edge", "payload": {"a": "clm_000194", "b": "clm_040450", "sim": 0.4739}, "created_run": "31860854323", "status": "pending"}
