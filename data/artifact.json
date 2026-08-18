@@ -1,15 +1,15 @@
 {
-  "generated_run": "31990409628",
+  "generated_run": "32094373539",
   "counts": {
-    "sources": 1143,
-    "claims": 26318,
+    "sources": 1169,
+    "claims": 26517,
     "edges": 761,
     "pending_tasks": {
-      "identity": 3181,
-      "edge": 20959,
-      "refine": 8476,
-      "attach": 8675,
-      "extract": 24
+      "identity": 3189,
+      "edge": 21257,
+      "refine": 8540,
+      "attach": 8715,
+      "extract": 26
     }
   },
   "claims": [
@@ -363597,6 +363597,1996 @@
       "support_in_text": 0.35,
       "quote": "We considered three tasks: GPQA, which involves logic-style problems and therefore should require left-to-right generation, poem writing, which has no clear left-to-right bias but only needs to satisfy a global structure, and reverse_chain, which requires the model to reverse its reasoning order.",
       "run_id": "31990409628",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040965",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "Decorrelation Is Not Complementarity: Skill, Not Lineage, Governs Trusted-Monitor Ensembles",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Decorrelation Is Not Complementarity: Skill, Not Lineage, Governs Trusted-Monitor Ensembles",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040966",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "Trusted monitoring has a cheap, trusted model score a stronger untrusted model's actions, and a diverse ensemble of them beats a single stronger monitor at matched cost.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Trusted monitoring has a cheap, trusted model score a stronger untrusted model's actions, and a diverse ensemble of them beats a single stronger monitor at matched cost.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040967",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "They are built by minimising average pairwise correlation, and that paper's twelve monitors shared one base model, leaving open what supplies the diversity.",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "…trusted model score a stronger untrusted model's actions, and a diverse ensemble of them beats a single stronger monitor at matched cost. They are built by minimising average pairwise correlation, and that paper's twelve monitors shared one base model, leaving open what supplies the diversity.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040968",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "We study 24 open-weight monitors spanning nine pretraining lineages",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…average pairwise correlation, and that paper's twelve monitors shared one base model, leaving open what supplies the diversity. We study 24 open-weight monitors spanning nine pretraining lineages and a 29x range of detection skill (pAUC at 10 percent FPR, 0.028 to 0.803) on backdoored code.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040969",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "a 29x range of detection skill (pAUC at 10 percent FPR, 0.028 to 0.803) on backdoored code.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…average pairwise correlation, and that paper's twelve monitors shared one base model, leaving open what supplies the diversity. We study 24 open-weight monitors spanning nine pretraining lineages and a 29x range of detection skill (pAUC at 10 percent FPR, 0.028 to 0.803) on backdoored code.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040970",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "The metric used to build panels does not predict what a panel is for",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "We study 24 open-weight monitors spanning nine pretraining lineages and a 29x range of detection skill (pAUC at 10 percent FPR, 0.028 to 0.803) on backdoored code. The metric used to build panels does not predict what a panel is for, and we can say why.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040971",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "we can say why.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We study 24 open-weight monitors spanning nine pretraining lineages and a 29x range of detection skill (pAUC at 10 percent FPR, 0.028 to 0.803) on backdoored code. The metric used to build panels does not predict what a panel is for, and we can say why.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040972",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "an idiosyncratic error component, which predict ensemble gain with opposite sign (Spearman -0.25",
+      "type": "predictive",
+      "support_in_text": 0.35,
+      "quote": "Agreement on attack items splits into a shared-detectability signal component and an idiosyncratic error component, which predict ensemble gain with opposite sign (Spearman -0.25 and +0.26), so their sum, the metric actually used, predicts it barely at all (+0.05); the cancellation holds in 7 of 8 e",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040973",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "+0.26), so their sum, the metric actually used, predicts it barely at all (+0.05)",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "Agreement on attack items splits into a shared-detectability signal component and an idiosyncratic error component, which predict ensemble gain with opposite sign (Spearman -0.25 and +0.26), so their sum, the metric actually used, predicts it barely at all (+0.05); the cancellation holds in 7 of 8 e",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040974",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "the cancellation holds in 7 of 8 evaluations.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Agreement on attack items splits into a shared-detectability signal component and an idiosyncratic error component, which predict ensemble gain with opposite sign (Spearman -0.25 and +0.26), so their sum, the metric actually used, predicts it barely at all (+0.05); the cancellation holds in 7 of 8 e",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040975",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "Skill acts on signal (+0.53) while error stays flat (-0.01), which is why a monitor's own skill predicts its agreement with the pool (Spearman 0.84, n = 24, permutation p below 0.0001).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…sum, the metric actually used, predicts it barely at all (+0.05); the cancellation holds in 7 of 8 evaluations. Skill acts on signal (+0.53) while error stays flat (-0.01), which is why a monitor's own skill predicts its agreement with the pool (Spearman 0.84, n = 24, permutation p below 0.0001).",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040976",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "Pretraining lineage is the obvious way to buy decorrelation, and it does not pay.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Skill acts on signal (+0.53) while error stays flat (-0.01), which is why a monitor's own skill predicts its agreement with the pool (Spearman 0.84, n = 24, permutation p below 0.0001). Pretraining lineage is the obvious way to buy decorrelation, and it does not pay.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040977",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "At matched member capability, cross-lineage panels detect no better (permutation p = 0.13)",
+      "type": "normative",
+      "support_in_text": 0.35,
+      "quote": "Pretraining lineage is the obvious way to buy decorrelation, and it does not pay. At matched member capability, cross-lineage panels detect no better (permutation p = 0.13), and lineage barely moves the metric either (+0.064, p = 0.18).",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040978",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "lineage barely moves the metric either (+0.064, p = 0.18).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Pretraining lineage is the obvious way to buy decorrelation, and it does not pay. At matched member capability, cross-lineage panels detect no better (permutation p = 0.13), and lineage barely moves the metric either (+0.064, p = 0.18).",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040979",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "We report that against ourselves: on our own 22-monitor pool the same test read +0.104 at p = 0.037 until two monitors were added.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "At matched member capability, cross-lineage panels detect no better (permutation p = 0.13), and lineage barely moves the metric either (+0.064, p = 0.18). We report that against ourselves: on our own 22-monitor pool the same test read +0.104 at p = 0.037 until two monitors were added.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040980",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "An earlier pool topping out at pAUC 0.23 had already invalidated another analysis.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "We report that against ourselves: on our own 22-monitor pool the same test read +0.104 at p = 0.037 until two monitors were added. An earlier pool topping out at pAUC 0.23 had already invalidated another analysis.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040981",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "Such a quantity is a property of the pool assembled.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "An earlier pool topping out at pAUC 0.23 had already invalidated another analysis. Such a quantity is a property of the pool assembled.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040982",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "Panel gain over the best member falls monotonically with panel skill (-0.66 at k = 2, -0.70 at k = 3), and no correlation-weighted selection beats picking the single best monitor out of sample.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Such a quantity is a property of the pool assembled. Panel gain over the best member falls monotonically with panel skill (-0.66 at k = 2, -0.70 at k = 3), and no correlation-weighted selection beats picking the single best monitor out of sample.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040983",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "Across six attacker models the gain result holds in all six, the agreement",
+      "type": "other",
+      "support_in_text": 0.23,
+      "quote": "…over the best member falls monotonically with panel skill (-0.66 at k = 2, -0.70 at k = 3), and no correlation-weighted selection beats picking the single best monitor out of sample. Across six attacker models the gain result holds in all six, the agreement and cancellation results in five of six.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040984",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2608.16190v1",
+      "text": "cancellation results in five of six.",
+      "type": "causal",
+      "support_in_text": 0.35,
+      "quote": "…over the best member falls monotonically with panel skill (-0.66 at k = 2, -0.70 at k = 3), and no correlation-weighted selection beats picking the single best monitor out of sample. Across six attacker models the gain result holds in all six, the agreement and cancellation results in five of six.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040985",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16016v1",
+      "text": "Generative Artificial Intelligence (GenAI) can produce high-quality essays, code, and design artefacts, challenging the validity of conventional assessments that rely on single-point submissions and product-only grading.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Generative Artificial Intelligence (GenAI) can produce high-quality essays, code, and design artefacts, challenging the validity of conventional assessments that rely on single-point submissions and product-only grading.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040986",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16016v1",
+      "text": "The approach is grounded in recent assessment-redesign scholarship in AI-rich contexts and aligned with contemporary views of authenticity in assessment.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…rounds, self-reflection, and peer collaboration, supported by an AI-enabled layer for learning analytics, formative feedback, and transparency. The approach is grounded in recent assessment-redesign scholarship in AI-rich contexts and aligned with contemporary views of authenticity in assessment.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040987",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16016v1",
+      "text": "This paper builds on the hypothesis that academic integrity is strengthened when it is treated as an assessment design rather than as an AI detection problem.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…is grounded in recent assessment-redesign scholarship in AI-rich contexts and aligned with contemporary views of authenticity in assessment. This paper builds on the hypothesis that academic integrity is strengthened when it is treated as an assessment design rather than as an AI detection problem.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040988",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16016v1",
+      "text": "The tools have limitations and risks of use that carry academic penalties.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "This paper builds on the hypothesis that academic integrity is strengthened when it is treated as an assessment design rather than as an AI detection problem. The tools have limitations and risks of use that carry academic penalties.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040989",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16094v1",
+      "text": "Accurate protein structure prediction is fundamental to structural biology because protein structure underlies molecular function and provides a basis for mechanistic interpretation.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Accurate protein structure prediction is fundamental to structural biology because protein structure underlies molecular function and provides a basis for mechanistic interpretation.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040990",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16094v1",
+      "text": "Recent advances in deep learning have transformed the field from multiple sequence alignment (MSA)-driven monomer folding into broader frameworks capable of modeling protein complexes and increasingly heterogeneous molecular systems.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…function and provides a basis for mechanistic interpretation. Recent advances in deep learning have transformed the field from multiple sequence alignment (MSA)-driven monomer folding into broader frameworks capable of modeling protein complexes and increasingly heterogeneous molecular systems.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040991",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16094v1",
+      "text": "Existing reviews have summarized this progress from the perspectives of representative models, application domains, and protein design.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…sequence alignment (MSA)-driven monomer folding into broader frameworks capable of modeling protein complexes and increasingly heterogeneous molecular systems. Existing reviews have summarized this progress from the perspectives of representative models, application domains, and protein design.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040992",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16094v1",
+      "text": "It examines recent developments through three closely related dimensions: representations and data, architectures and learning strategies, and confidence and evaluation.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Building on these efforts, this review focuses on the methodological evolution of the field itself. It examines recent developments through three closely related dimensions: representations and data, architectures and learning strategies, and confidence and evaluation.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040993",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16094v1",
+      "text": "Within this perspective, the field is organized into four methodological phases",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Within this perspective, the field is organized into four methodological phases and three cross-cutting transitions: from explicit evolutionary coupling features and early contact prediction to learned sequence representations in AlphaFold2, RoseTTAFold, and ESMFold; from protein-only monomer foldin",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040994",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16094v1",
+      "text": "three cross-cutting transitions: from explicit evolutionary coupling features",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Within this perspective, the field is organized into four methodological phases and three cross-cutting transitions: from explicit evolutionary coupling features and early contact prediction to learned sequence representations in AlphaFold2, RoseTTAFold, and ESMFold; from protein-only monomer foldin",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040995",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16094v1",
+      "text": "early contact prediction to learned sequence representations in AlphaFold2, RoseTTAFold, and ESMFold; from protein-only monomer folding to increasingly integrated modeling of heterogeneous molecular systems in AlphaFold-Multimer, RoseTTAFoldNA, and AlphaFold3; and, more recently, from prediction-oriented structure inference to design-oriented generative modeling in RFdiffusion and related frameworks.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Within this perspective, the field is organized into four methodological phases and three cross-cutting transitions: from explicit evolutionary coupling features and early contact prediction to learned sequence representations in AlphaFold2, RoseTTAFold, and ESMFold; from protein-only monomer foldin",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040996",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16094v1",
+      "text": "This framework provides a clearer understanding of how methodological shifts have shaped the capabilities, limitations, and practical roles of recent models.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…more recently, from prediction-oriented structure inference to design-oriented generative modeling in RFdiffusion and related frameworks. This framework provides a clearer understanding of how methodological shifts have shaped the capabilities, limitations, and practical roles of recent models.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040997",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16259v1",
+      "text": "Defake-o3: From Speculative Rationales to Verifiable Evidence for Explainable AIGI Detection",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "Defake-o3: From Speculative Rationales to Verifiable Evidence for Explainable AIGI Detection",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040998",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16259v1",
+      "text": "The rapid progress of image generation models calls for AI-generated image (AIGI) detectors that are not only accurate but also explainable and reliable.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "The rapid progress of image generation models calls for AI-generated image (AIGI) detectors that are not only accurate but also explainable and reliable.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_040999",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16259v1",
+      "text": "While MLLM-based detectors can provide natural language explanations, existing methods often generate speculative rationales: they rely on vague or hallucinated artifacts, miss subtle localized flaws from the latest generators",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…reliable. While MLLM-based detectors can provide natural language explanations, existing methods often generate speculative rationales: they rely on vague or hallucinated artifacts, miss subtle localized flaws from the latest generators, and fail to provide evidence that can be visually verified.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041000",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16259v1",
+      "text": "fail to provide evidence that can be visually verified.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…reliable. While MLLM-based detectors can provide natural language explanations, existing methods often generate speculative rationales: they rely on vague or hallucinated artifacts, miss subtle localized flaws from the latest generators, and fail to provide evidence that can be visually verified.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041001",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16259v1",
+      "text": "We present Defake-o3, an explainable AIGI detector that moves from speculative rationales to verifiable evidence.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…speculative rationales: they rely on vague or hallucinated artifacts, miss subtle localized flaws from the latest generators, and fail to provide evidence that can be visually verified. We present Defake-o3, an explainable AIGI detector that moves from speculative rationales to verifiable evidence.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041002",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16259v1",
+      "text": "outputs of 10 recent generators, together with an MLLM-based protocol for evaluating evidence quality and persuasiveness.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…corrected reasoning trajectories, and valid/invalid evidence supervision. We further introduce FakeFrontier, an out-of-distribution benchmark built from real images and outputs of 10 recent generators, together with an MLLM-based protocol for evaluating evidence quality and persuasiveness.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041003",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16259v1",
+      "text": "additional out-of-distribution benchmarks show that Defake-o3 improves both detection accuracy and explanation quality, producing more localized, verifiable, and persuasive evidence.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…MLLM-based protocol for evaluating evidence quality and persuasiveness. Experiments on GroundFake, FakeFrontier, and additional out-of-distribution benchmarks show that Defake-o3 improves both detection accuracy and explanation quality, producing more localized, verifiable, and persuasive evidence.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041004",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16285v1",
+      "text": "Audio-Visual Segmentation (AVS) is a fundamental task in multimodal perception that performs pixel-level segmentation of sounding objects in videos by leveraging both visual and audio cues.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Audio-Visual Segmentation (AVS) is a fundamental task in multimodal perception that performs pixel-level segmentation of sounding objects in videos by leveraging both visual and audio cues.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041005",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16285v1",
+      "text": "It has broad applications in video understanding, human-computer interaction, and autonomous driving.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Audio-Visual Segmentation (AVS) is a fundamental task in multimodal perception that performs pixel-level segmentation of sounding objects in videos by leveraging both visual and audio cues. It has broad applications in video understanding, human-computer interaction, and autonomous driving.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041006",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16285v1",
+      "text": "However, most existing AVS methods do not explicitly model geometric cues such as relative distance and occlusion, thereby limiting the robustness of cross-modal alignment.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "It has broad applications in video understanding, human-computer interaction, and autonomous driving. However, most existing AVS methods do not explicitly model geometric cues such as relative distance and occlusion, thereby limiting the robustness of cross-modal alignment.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041007",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16285v1",
+      "text": "In human perception, spatial structure is naturally integrated with audio-visual evidence to accurately localize sounding objects.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…most existing AVS methods do not explicitly model geometric cues such as relative distance and occlusion, thereby limiting the robustness of cross-modal alignment. In human perception, spatial structure is naturally integrated with audio-visual evidence to accurately localize sounding objects.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041008",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16285v1",
+      "text": "Specifically, we design a Depth-Aware Dynamic Modulator to improve the separation of adjacent objects while preserving intra-object feature consistency.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…depth as a spatial structural cue for AVS and propose DGCM-AVS, a tri-modal framework that jointly models audio, visual, and depth information. Specifically, we design a Depth-Aware Dynamic Modulator to improve the separation of adjacent objects while preserving intra-object feature consistency.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041009",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16285v1",
+      "text": "Compared to state-of-the-art methods, DGCM-AVS achieves relative improvements of 10.2 percent in M_J",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "Furthermore, we propose Depth-Guided Progressive Fusion, which uses depth as an intermediate bridge to progressively align audio cues with visual features. Compared to state-of-the-art methods, DGCM-AVS achieves relative improvements of 10.2 percent in M_J and 8.7 percent in M_F on the AVSS dataset.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041010",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16285v1",
+      "text": "8.7 percent in M_F on the AVSS dataset.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "Furthermore, we propose Depth-Guided Progressive Fusion, which uses depth as an intermediate bridge to progressively align audio cues with visual features. Compared to state-of-the-art methods, DGCM-AVS achieves relative improvements of 10.2 percent in M_J and 8.7 percent in M_F on the AVSS dataset.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041011",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16316v1",
+      "text": "Large Multimodal Models (LMMs) for video reasoning have long been hindered by the high computational cost of processing vast amounts of visual information.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Large Multimodal Models (LMMs) for video reasoning have long been hindered by the high computational cost of processing vast amounts of visual information.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041012",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16316v1",
+      "text": "does not directly constrain the latent representations formed during reasoning.",
+      "type": "historical",
+      "support_in_text": 0.25,
+      "quote": "However, video reasoning often depends on evidence accumulated across multiple frames. In this context, output-level supervision only captures information expressed through token predictions and does not directly constrain the latent representations formed during reasoning.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041013",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16316v1",
+      "text": "Specifically, our method focuses on the position at the end of each trajectory, where hidden states effectively summarize the accumulated visual evidence and reasoning context.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "To address this limitation, we propose Latent-OPD, which augments OPD with trajectory-level latent distillation. Specifically, our method focuses on the position at the end of each trajectory, where hidden states effectively summarize the accumulated visual evidence and reasoning context.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041014",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16316v1",
+      "text": "Experiments on six video reasoning benchmarks show that Latent-OPD consistently outperforms output-only OPD.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Furthermore, we introduce a progressive teacher-lookahead strategy, which aligns middle-to-late student layers with increasingly deeper teacher layers. Experiments on six video reasoning benchmarks show that Latent-OPD consistently outperforms output-only OPD.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041015",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16316v1",
+      "text": "Notably, the improvements are particularly pronounced in scenarios with limited frames, long videos, or tasks requiring complex evidence aggregation.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Experiments on six video reasoning benchmarks show that Latent-OPD consistently outperforms output-only OPD. Notably, the improvements are particularly pronounced in scenarios with limited frames, long videos, or tasks requiring complex evidence aggregation.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041016",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16333v1",
+      "text": "This approach has achieved strong empirical gains",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "On-policy distillation (OPD) aligns a student model with a teacher's logit distribution on student-generated trajectories. This approach has achieved strong empirical gains and can often surpass conventional off-policy distillation with substantially less data.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041017",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16333v1",
+      "text": "can often surpass conventional off-policy distillation with substantially less data.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "On-policy distillation (OPD) aligns a student model with a teacher's logit distribution on student-generated trajectories. This approach has achieved strong empirical gains and can often surpass conventional off-policy distillation with substantially less data.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041018",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16333v1",
+      "text": "However, standard token-level OPD can provide only fragmented corrections along an erroneous student trajectory and cannot unfold a complete and correct repair path.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…approach has achieved strong empirical gains and can often surpass conventional off-policy distillation with substantially less data. However, standard token-level OPD can provide only fragmented corrections along an erroneous student trajectory and cannot unfold a complete and correct repair path.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041019",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16333v1",
+      "text": "We show that, at different limits of step length, SOPD reduces to SFT or approximates OPD.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…(SOPD), which combines the long-horizon correction of supervised fine-tuning (SFT) with the on-policy advantage of OPD to provide step-level supervision over complete student-generated trajectories. We show that, at different limits of step length, SOPD reduces to SFT or approximates OPD.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041020",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16333v1",
+      "text": "Compared with SFT, the teacher responses in SOPD are conditioned on student trajectories",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…SOPD reduces to SFT or approximates OPD. Compared with SFT, the teacher responses in SOPD are conditioned on student trajectories and therefore align more closely with student-visited states; compared with OPD, SOPD provides longer-horizon corrections rather than fragmented token-level guidance.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041021",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16333v1",
+      "text": "therefore align more closely with student-visited states; compared with OPD, SOPD provides longer-horizon corrections rather than fragmented token-level guidance.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…SOPD reduces to SFT or approximates OPD. Compared with SFT, the teacher responses in SOPD are conditioned on student trajectories and therefore align more closely with student-visited states; compared with OPD, SOPD provides longer-horizon corrections rather than fragmented token-level guidance.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041022",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16333v1",
+      "text": "For example, on ALFWorld, SOPD improves the average success rate by 13.4 points over Vanilla OPD.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Across both reasoning and agent tasks, SOPD substantially outperforms conventional SFT and OPD. For example, on ALFWorld, SOPD improves the average success rate by 13.4 points over Vanilla OPD.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041023",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16333v1",
+      "text": "We hope this work offers a new perspective for future research on distillation methods.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "For example, on ALFWorld, SOPD improves the average success rate by 13.4 points over Vanilla OPD. We hope this work offers a new perspective for future research on distillation methods.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041024",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16338v1",
+      "text": "Video lane detection requires predictions that remain stable across frames, yet severe vehicle occlusions can break temporal cues.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Video lane detection requires predictions that remain stable across frames, yet severe vehicle occlusions can break temporal cues.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041025",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16338v1",
+      "text": "In streaming recurrent models, corrupted observations may enter the hidden state and produce errors that persist into later frames.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "Video lane detection requires predictions that remain stable across frames, yet severe vehicle occlusions can break temporal cues. In streaming recurrent models, corrupted observations may enter the hidden state and produce errors that persist into later frames.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041026",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16338v1",
+      "text": "Existing occlusion-aware refinements usually provide obstacle masks as auxiliary inputs, so the state-update path is only indirectly protected.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "In streaming recurrent models, corrupted observations may enter the hidden state and produce errors that persist into later frames. Existing occlusion-aware refinements usually provide obstacle masks as auxiliary inputs, so the state-update path is only indirectly protected.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041027",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16338v1",
+      "text": "We propose SIGMA-Lane, which treats this failure mode as state contamination in State Space Model (SSM)-based temporal modeling.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Existing occlusion-aware refinements usually provide obstacle masks as auxiliary inputs, so the state-update path is only indirectly protected. We propose SIGMA-Lane, which treats this failure mode as state contamination in State Space Model (SSM)-based temporal modeling.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041028",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16338v1",
+      "text": "are fused back after temporal propagation.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…which treats this failure mode as state contamination in State Space Model (SSM)-based temporal modeling. SIGMA-Lane places occlusion-aware gates on the SSM write and residual-fusion paths, controlling how current observations enter temporal memory and are fused back after temporal propagation.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041029",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16338v1",
+      "text": "After coordinate-consistent affine alignment, the model combines two complementary paths: SSM-consistent dual-gating for temporal filtering and Structural Spatial Retrieval (SSR) for recovering missing lane structure from aligned historical priors.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…and are fused back after temporal propagation. After coordinate-consistent affine alignment, the model combines two complementary paths: SSM-consistent dual-gating for temporal filtering and Structural Spatial Retrieval (SSR) for recovering missing lane structure from aligned historical priors.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041030",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16338v1",
+      "text": "OpenLane-V show improved temporal stability under heavy occlusion, with competitive F1 and mIoU scores.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…paths: SSM-consistent dual-gating for temporal filtering and Structural Spatial Retrieval (SSR) for recovering missing lane structure from aligned historical priors. Experiments on VIL-100 and OpenLane-V show improved temporal stability under heavy occlusion, with competitive F1 and mIoU scores.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041031",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16353v1",
+      "text": "aggregates truthfulness evidence across every layer of the forward pass before the model emits any answer token.",
+      "type": "other",
+      "support_in_text": 0.5,
+      "quote": "…to isolated components or a single depth, discarding discriminative information distributed across the full forward pass. We introduce HalluTracer, a detection framework that reads and aggregates truthfulness evidence across every layer of the forward pass before the model emits any answer token.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041032",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16353v1",
+      "text": "A geometric analysis reveals that the per-layer signals are weakly correlated, so that simple depth averaging suppresses layer-specific noise",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…evidence across every layer of the forward pass before the model emits any answer token. A geometric analysis reveals that the per-layer signals are weakly correlated, so that simple depth averaging suppresses layer-specific noise and captures nearly all linearly accessible information.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041033",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16353v1",
+      "text": "captures nearly all linearly accessible information.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "…evidence across every layer of the forward pass before the model emits any answer token. A geometric analysis reveals that the per-layer signals are weakly correlated, so that simple depth averaging suppresses layer-specific noise and captures nearly all linearly accessible information.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041034",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16353v1",
+      "text": "five hallucination benchmarks, HalluTracer consistently outperforms matched white-box baselines, with gains ranging from one to fourteen points.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "…simple depth averaging suppresses layer-specific noise and captures nearly all linearly accessible information. Across six open-source language models and five hallucination benchmarks, HalluTracer consistently outperforms matched white-box baselines, with gains ranging from one to fourteen points.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041035",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16353v1",
+      "text": "Collectively, our work recasts hallucination detection from a layer-selection problem into a depth-aggregation problem governed by the geometric sparsity of the truthfulness signal.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…HalluTracer consistently outperforms matched white-box baselines, with gains ranging from one to fourteen points. Collectively, our work recasts hallucination detection from a layer-selection problem into a depth-aggregation problem governed by the geometric sparsity of the truthfulness signal.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041036",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16513v1",
+      "text": "Transformer architectures have led to significant progress in text-to-video generation.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Recent advances in diffusion models and Transformer architectures have led to significant progress in text-to-video generation.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041037",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16513v1",
+      "text": "We propose two key modules: a Semantic Assessment Supervisor that generates intermediate preview frames for semantic evaluations and deviation diagnostics, and a Semantic Modification Assistant that corrects semantic drift during inference via a controllable latent trajectory intervention.",
+      "type": "historical",
+      "support_in_text": 0.35,
+      "quote": "We propose two key modules: a Semantic Assessment Supervisor that generates intermediate preview frames for semantic evaluations and deviation diagnostics, and a Semantic Modification Assistant that corrects semantic drift during inference via a controllable latent trajectory intervention.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041038",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16513v1",
+      "text": "Our method improves semantic alignment, visual fidelity, and temporal consistency without modifying model parameters.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…evaluations and deviation diagnostics, and a Semantic Modification Assistant that corrects semantic drift during inference via a controllable latent trajectory intervention. Our method improves semantic alignment, visual fidelity, and temporal consistency without modifying model parameters.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041039",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16514v1",
+      "text": "Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041040",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16514v1",
+      "text": "Whether multimodal large language models (MLLMs), given the same foveated input, search as humans do bears on their use as models of human vision and on attention-alignment scores.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Human visual search is serial: the fovea must land on a candidate to confirm it, and those landings form a scanpath. Whether multimodal large language models (MLLMs), given the same foveated input, search as humans do bears on their use as models of human vision and on attention-alignment scores.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041041",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16514v1",
+      "text": "We compare three general-purpose MLLMs with human eye-movement scanpaths on goal-directed search (COCO-Search18), driving each model fixation by fixation through an identical, human-matched foveated view",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "We compare three general-purpose MLLMs with human eye-movement scanpaths on goal-directed search (COCO-Search18), driving each model fixation by fixation through an identical, human-matched foveated view and assessing it along three axes: the decision of target presence, the efficiency of reaching t",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041042",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16514v1",
+      "text": "assessing it along three axes: the decision of target presence, the efficiency of reaching the target, and the gaze process itself.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "We compare three general-purpose MLLMs with human eye-movement scanpaths on goal-directed search (COCO-Search18), driving each model fixation by fixation through an identical, human-matched foveated view and assessing it along three axes: the decision of target presence, the efficiency of reaching t",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041043",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16514v1",
+      "text": "reaching them on the first saccade more often than people do.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "The axes dissociate. On the decision and on target acquisition the models match or exceed humans, detecting present targets near ceiling and reaching them on the first saccade more often than people do.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041044",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16514v1",
+      "text": "The gaze process is not human.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "On the decision and on target acquisition the models match or exceed humans, detecting present targets near ceiling and reaching them on the first saccade more often than people do. The gaze process is not human.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041045",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16514v1",
+      "text": "Under the human-matched condition, all three share one signature: low-entropy, large-amplitude, self-consistent scanpaths that agree with themselves far more closely than two humans agree with each other.",
+      "type": "other",
+      "support_in_text": 0.23,
+      "quote": "The gaze process is not human. Under the human-matched condition, all three share one signature: low-entropy, large-amplitude, self-consistent scanpaths that agree with themselves far more closely than two humans agree with each other.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041046",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16514v1",
+      "text": "That is consistent with a single-pass, non-serial architecture rather than a limit of acuity.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Under the human-matched condition, all three share one signature: low-entropy, large-amplitude, self-consistent scanpaths that agree with themselves far more closely than two humans agree with each other. That is consistent with a single-pass, non-serial architecture rather than a limit of acuity.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041047",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16514v1",
+      "text": "saliency metrics do not measure.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Matched retinal input reproduces where humans look but not how the looking unfolds in time, and no degradation regime recovers human-like search at human-like success. The gap sits on a process axis that answer-alignment and saliency metrics do not measure.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041048",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16514v1",
+      "text": "Because they miss it, such metrics cannot certify human-like vision, and zero-shot models suit outcome and spatial questions but not temporal, process-level ones.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "The gap sits on a process axis that answer-alignment and saliency metrics do not measure. Because they miss it, such metrics cannot certify human-like vision, and zero-shot models suit outcome and spatial questions but not temporal, process-level ones.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041049",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16539v1",
+      "text": "Large Audio Language Models (LALMs) have made rapid progress on standardized benchmarks, yet their deployment in practical media workflows, curation, archival indexing, and content distribution remains largely unrealized.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Large Audio Language Models (LALMs) have made rapid progress on standardized benchmarks, yet their deployment in practical media workflows, curation, archival indexing, and content distribution remains largely unrealized.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041050",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16539v1",
+      "text": "Chapterization is challenging because boundaries are defined less by objective acoustic events than by subjective editorial judgment, requiring models to reason sequentially over long acoustic contexts and approximate creator-authored boundary decisions.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…consequential setting that exposes this gap. Chapterization is challenging because boundaries are defined less by objective acoustic events than by subjective editorial judgment, requiring models to reason sequentially over long acoustic contexts and approximate creator-authored boundary decisions.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041051",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16539v1",
+      "text": "We present AudioChaps, a post-training framework for aligning end-to-end LALMs for this task via Group Relative Policy Optimization (GRPO) guided by Chain-of-Thought (CoT) reasoning.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…models to reason sequentially over long acoustic contexts and approximate creator-authored boundary decisions. We present AudioChaps, a post-training framework for aligning end-to-end LALMs for this task via Group Relative Policy Optimization (GRPO) guided by Chain-of-Thought (CoT) reasoning.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041052",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16539v1",
+      "text": "evaluation, we curate three datasets: AudioChaps-Alignment, derived from creator-annotated chapter boundaries on YouTube; AudioChaps-CoT, which provides structured supervision for well-formatted, high-quality, and evidence-grounded boundary reasoning; and AudioChaps-Eval, a held-out benchmark for audio chapterization.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "To support training and evaluation, we curate three datasets: AudioChaps-Alignment, derived from creator-annotated chapter boundaries on YouTube; AudioChaps-CoT, which provides structured supervision for well-formatted, high-quality, and evidence-grounded boundary reasoning; and AudioChaps-Eval, a h",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041053",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16539v1",
+      "text": "Applying GRPO directly without a Supervised Fine-Tuning (SFT) cold start, AudioChaps-R1-Zero already improves average F1 by 33 points over the state-of-the-art LALM Audio-Flamingo-3-Think.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…and evidence-grounded boundary reasoning; and AudioChaps-Eval, a held-out benchmark for audio chapterization. Applying GRPO directly without a Supervised Fine-Tuning (SFT) cold start, AudioChaps-R1-Zero already improves average F1 by 33 points over the state-of-the-art LALM Audio-Flamingo-3-Think.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041054",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16539v1",
+      "text": "The AudioChaps framework produces our final aligned LALM, AudioChaps-R1, which improves average F1 by 49 points.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…GRPO directly without a Supervised Fine-Tuning (SFT) cold start, AudioChaps-R1-Zero already improves average F1 by 33 points over the state-of-the-art LALM Audio-Flamingo-3-Think. The AudioChaps framework produces our final aligned LALM, AudioChaps-R1, which improves average F1 by 49 points.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041055",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16539v1",
+      "text": "These results demonstrate that GRPO-trained LALMs can reliably transform unstructured auditory streams into navigable, structured media.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "The AudioChaps framework produces our final aligned LALM, AudioChaps-R1, which improves average F1 by 49 points. These results demonstrate that GRPO-trained LALMs can reliably transform unstructured auditory streams into navigable, structured media.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041056",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16539v1",
+      "text": "dataset resources will be released upon acceptance at https://github.com/ta012/AudioChaps.",
+      "type": "predictive",
+      "support_in_text": 0.9,
+      "quote": "These results demonstrate that GRPO-trained LALMs can reliably transform unstructured auditory streams into navigable, structured media. Our code, models, and dataset resources will be released upon acceptance at https://github.com/ta012/AudioChaps.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041057",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16556v1",
+      "text": "DeepInsight II: One Trace from Benchmark to Robot",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "DeepInsight II: One Trace from Benchmark to Robot",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041058",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16556v1",
+      "text": "Across a Physical AI stack, evaluation maturity is inversely aligned with deployment risk: foundation models enjoy mature, standardized harnesses, while the embodied layers on which deployment actually turns remain fragmented across benchmark-specific simulators, embodiments, and interfaces.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Across a Physical AI stack, evaluation maturity is inversely aligned with deployment risk: foundation models enjoy mature, standardized harnesses, while the embodied layers on which deployment actually turns remain fragmented across benchmark-specific simulators, embodiments, and interfaces.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041059",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16556v1",
+      "text": "The first DeepInsight report (v1) unified evaluation across this stack behind three abstractions---task, resource, and result---but its quantitative evidence centered on the foundation-model layer; navigation and manipulation (System 1)",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "The first DeepInsight report (v1) unified evaluation across this stack behind three abstractions---task, resource, and result---but its quantitative evidence centered on the foundation-model layer; navigation and manipulation (System 1) and whole-body control (System 0) remained simulation case stud",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041060",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16556v1",
+      "text": "whole-body control (System 0) remained simulation case studies",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "The first DeepInsight report (v1) unified evaluation across this stack behind three abstractions---task, resource, and result---but its quantitative evidence centered on the foundation-model layer; navigation and manipulation (System 1) and whole-body control (System 0) remained simulation case stud",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041061",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16556v1",
+      "text": "physical execution was outside its empirical scope.",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "The first DeepInsight report (v1) unified evaluation across this stack behind three abstractions---task, resource, and result---but its quantitative evidence centered on the foundation-model layer; navigation and manipulation (System 1) and whole-body control (System 0) remained simulation case stud",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041062",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16556v1",
+      "text": "First, it reproduces released-checkpoint references across two navigation",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "DeepInsight II keeps that substrate fixed and quantifies the embodied half. First, it reproduces released-checkpoint references across two navigation and four manipulation benchmarks under their native protocols.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041063",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16556v1",
+      "text": "four manipulation benchmarks under their native protocols.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "DeepInsight II keeps that substrate fixed and quantifies the embodied half. First, it reproduces released-checkpoint references across two navigation and four manipulation benchmarks under their native protocols.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041064",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16556v1",
+      "text": "Second, MotionBench places four released whole-body controllers under one workload and metric contract, then carries a qualified within-family cohort from parallel simulation to matched real-robot trials in which simulated and physical rollouts share a parent trace identity while retaining execution-domain-specific records, making the sim-to-real gap a native reduction rather than a reconciliation across toolchains.",
+      "type": "legal",
+      "support_in_text": 0.35,
+      "quote": "Second, MotionBench places four released whole-body controllers under one workload and metric contract, then carries a qualified within-family cohort from parallel simulation to matched real-robot trials in which simulated and physical rollouts share a parent trace identity while retaining execution",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041065",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16556v1",
+      "text": "Third, a composed System 2--1--0 study extends trace localization into five evidence-grounded handoff labels, each mapped to a concrete repair action, with a measured repairability criterion",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…across toolchains. Third, a composed System 2--1--0 study extends trace localization into five evidence-grounded handoff labels, each mapped to a concrete repair action, with a measured repairability criterion and physical episodes testing the same attribution under hardware-observable state.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041066",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16556v1",
+      "text": "physical episodes testing the same attribution under hardware-observable state.",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "…across toolchains. Third, a composed System 2--1--0 study extends trace localization into five evidence-grounded handoff labels, each mapped to a concrete repair action, with a measured repairability criterion and physical episodes testing the same attribution under hardware-observable state.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041067",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16556v1",
+      "text": "The contribution is therefore not a new evaluation architecture, but empirical continuity from benchmark execution to matched robot evidence and repair-oriented diagnosis.",
+      "type": "causal",
+      "support_in_text": 0.5,
+      "quote": "…with a measured repairability criterion and physical episodes testing the same attribution under hardware-observable state. The contribution is therefore not a new evaluation architecture, but empirical continuity from benchmark execution to matched robot evidence and repair-oriented diagnosis.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041068",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16578v1",
+      "text": "jointly make decisions, their interactions can improve collective reasoning but may also produce herding, polarization, or amplify shared biases.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "AI agents increasingly operate as part of interacting systems rather than in isolation. As agents exchange information and jointly make decisions, their interactions can improve collective reasoning but may also produce herding, polarization, or amplify shared biases.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041069",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16578v1",
+      "text": "predicting these collective dynamics is therefore important for designing effective and aligned multi-agent systems.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…information and jointly make decisions, their interactions can improve collective reasoning but may also produce herding, polarization, or amplify shared biases. Understanding and predicting these collective dynamics is therefore important for designing effective and aligned multi-agent systems.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041070",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16578v1",
+      "text": "Here, we study over 10,000 communities of language-model agents that repeatedly exchange messages and revise their opinions across objective mathematics questions and subjective political statements.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…collective dynamics is therefore important for designing effective and aligned multi-agent systems. Here, we study over 10,000 communities of language-model agents that repeatedly exchange messages and revise their opinions across objective mathematics questions and subjective political statements.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041071",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16578v1",
+      "text": "group dynamics can be represented by three characteristic regimes: indifference, polarization, and consensus.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…messages and revise their opinions across objective mathematics questions and subjective political statements. Despite substantial diversity in possible behavior, the individual and group dynamics can be represented by three characteristic regimes: indifference, polarization, and consensus.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041072",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16578v1",
+      "text": "On objective questions, communication improves collective accuracy, while on subjective questions it often drifts group opinions toward the right in the political spectrum.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "AI agents start indifferent and build conviction as they interact. On objective questions, communication improves collective accuracy, while on subjective questions it often drifts group opinions toward the right in the political spectrum.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041073",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16578v1",
+      "text": "Given only initial opinions, our model predicts individual trajectories, outperforms all standard baselines, generalizes to unseen community graphs, and reproduces the observed group archetype distributions.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "…statistical-mechanics formalism in which agents stochastically favor lower social pressure. Given only initial opinions, our model predicts individual trajectories, outperforms all standard baselines, generalizes to unseen community graphs, and reproduces the observed group archetype distributions.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041074",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16578v1",
+      "text": "and iii) agents holding the correct answer exert the strongest pull, which drives truth-seeking.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Our fitted model parameters reveal the mechanics underlying our key observations: i) communities operate below the critical social temperature, which explains conviction buildup; ii) attractive ties outweigh repulsive ones, which favors consensus; and iii) agents holding the correct answer exert the",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041075",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16594v1",
+      "text": "Existing methods use structured clinical variables, whole-slide images, genomic profiles, or multimodal inputs, while patient reports remain underexplored.",
+      "type": "medical",
+      "support_in_text": 0.25,
+      "quote": "Cancer survival prediction supports treatment planning, risk stratification, and follow-up management. Existing methods use structured clinical variables, whole-slide images, genomic profiles, or multimodal inputs, while patient reports remain underexplored.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041076",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16594v1",
+      "text": "We study report-centric survival prediction using reports that organize pathological, clinical, and molecular evidence.",
+      "type": "medical",
+      "support_in_text": 0.5,
+      "quote": "Existing methods use structured clinical variables, whole-slide images, genomic profiles, or multimodal inputs, while patient reports remain underexplored. We study report-centric survival prediction using reports that organize pathological, clinical, and molecular evidence.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041077",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16594v1",
+      "text": "Large language models (LLMs) can reason over such reports",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "We study report-centric survival prediction using reports that organize pathological, clinical, and molecular evidence. Large language models (LLMs) can reason over such reports, but case-wise time regression introduces two mismatches.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041078",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16594v1",
+      "text": "case-wise time regression introduces two mismatches.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "We study report-centric survival prediction using reports that organize pathological, clinical, and molecular evidence. Large language models (LLMs) can reason over such reports, but case-wise time regression introduces two mismatches.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041079",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16594v1",
+      "text": "First, a formulation mismatch arises because survival evaluation depends on ordering comparable patients, whereas independent time predictions do not enforce ranking consistency.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Large language models (LLMs) can reason over such reports, but case-wise time regression introduces two mismatches. First, a formulation mismatch arises because survival evaluation depends on ordering comparable patients, whereas independent time predictions do not enforce ranking consistency.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041080",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16594v1",
+      "text": "Second, a supervision mismatch arises because a censored patient's observed time indicates survival beyond that point and cannot serve as an exact regression target, although it still implies orderings relative to patients who died earlier.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…time predictions do not enforce ranking consistency. Second, a supervision mismatch arises because a censored patient's observed time indicates survival beyond that point and cannot serve as an exact regression target, although it still implies orderings relative to patients who died earlier.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041081",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16594v1",
+      "text": "To address these mismatches, we propose CACSurv, a Concordance-Aligned Comparative framework for report-centric survival prediction.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…time indicates survival beyond that point and cannot serve as an exact regression target, although it still implies orderings relative to patients who died earlier. To address these mismatches, we propose CACSurv, a Concordance-Aligned Comparative framework for report-centric survival prediction.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041082",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16594v1",
+      "text": "CACSurv achieves the highest C-index on all six cohorts",
+      "type": "other",
+      "support_in_text": 0.23,
+      "quote": "…a benchmark covering six TCGA cancer cohorts. CACSurv achieves the highest C-index on all six cohorts and an average C-index of 0.722, outperforming the strongest published survival model by 6.5 percentage points and the strongest LLM time-regression baseline by 4.2 percentage points.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041083",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16594v1",
+      "text": "an average C-index of 0.722, outperforming the strongest published survival model by 6.5 percentage points",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…a benchmark covering six TCGA cancer cohorts. CACSurv achieves the highest C-index on all six cohorts and an average C-index of 0.722, outperforming the strongest published survival model by 6.5 percentage points and the strongest LLM time-regression baseline by 4.2 percentage points.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041084",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16594v1",
+      "text": "the strongest LLM time-regression baseline by 4.2 percentage points.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…a benchmark covering six TCGA cancer cohorts. CACSurv achieves the highest C-index on all six cohorts and an average C-index of 0.722, outperforming the strongest published survival model by 6.5 percentage points and the strongest LLM time-regression baseline by 4.2 percentage points.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041085",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16594v1",
+      "text": "dataset will be available at https://github.com/xmed-lab/CACSurv.",
+      "type": "predictive",
+      "support_in_text": 0.8,
+      "quote": "…C-index on all six cohorts and an average C-index of 0.722, outperforming the strongest published survival model by 6.5 percentage points and the strongest LLM time-regression baseline by 4.2 percentage points. Our code, models, and dataset will be available at https://github.com/xmed-lab/CACSurv.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041086",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16612v1",
+      "text": "Degradation-Aligned Self-Supervised Learning for State of Health Estimation of Lithium-Ion Batteries under Label Sparsity",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Degradation-Aligned Self-Supervised Learning for State of Health Estimation of Lithium-Ion Batteries under Label Sparsity",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041087",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16612v1",
+      "text": "An accurate estimation of the state of health (SOH) underpins a safe and optimized use of the battery system.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "An accurate estimation of the state of health (SOH) underpins a safe and optimized use of the battery system.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041088",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16612v1",
+      "text": "Although compelling, data-driven SOH estimation models typically require large amounts of high-quality labeled cycling data, while in practice such labels are often sparse in both quantity and coverage.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…of the state of health (SOH) underpins a safe and optimized use of the battery system. Although compelling, data-driven SOH estimation models typically require large amounts of high-quality labeled cycling data, while in practice such labels are often sparse in both quantity and coverage.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041089",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16612v1",
+      "text": "Therefore, in this work, we propose a degradation-aligned self-supervised learning (SSL) framework based on a convolutional neural network-gated recurrent unit (CNN-GRU) model, which learns aging-consistent representations from unlabeled data through a cycle-order ranking objective as the pretext task for pretraining, thereby enabling robust SOH estimation after fine-tuning on sparsely labeled data.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Therefore, in this work, we propose a degradation-aligned self-supervised learning (SSL) framework based on a convolutional neural network-gated recurrent unit (CNN-GRU) model, which learns aging-consistent representations from unlabeled data through a cycle-order ranking objective as the pretext ta",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041090",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16612v1",
+      "text": "Test results showcase that the proposed ranking-based SSL approach proves to endow the pretrained model with degradation-aligned information from unlabeled data",
+      "type": "descriptive",
+      "support_in_text": 0.23,
+      "quote": "Test results showcase that the proposed ranking-based SSL approach proves to endow the pretrained model with degradation-aligned information from unlabeled data, and after fine-tuning the model can carry out accurate, robust SOH estimation, even when only an extremely limited amount of 1% of unevenl",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041091",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16612v1",
+      "text": "after fine-tuning the model can carry out accurate, robust SOH estimation, even when only an extremely limited amount of 1% of unevenly distributed labeled training data is available, where the MAE of 1.718%",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Test results showcase that the proposed ranking-based SSL approach proves to endow the pretrained model with degradation-aligned information from unlabeled data, and after fine-tuning the model can carry out accurate, robust SOH estimation, even when only an extremely limited amount of 1% of unevenl",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041092",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16612v1",
+      "text": "RMSE of 2.329% can be achieved on the test cell.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Test results showcase that the proposed ranking-based SSL approach proves to endow the pretrained model with degradation-aligned information from unlabeled data, and after fine-tuning the model can carry out accurate, robust SOH estimation, even when only an extremely limited amount of 1% of unevenl",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041093",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16612v1",
+      "text": "In addition, in-depth analyses are presented regarding the influences of label distribution of battery degradation data.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…only an extremely limited amount of 1% of unevenly distributed labeled training data is available, where the MAE of 1.718% and RMSE of 2.329% can be achieved on the test cell. In addition, in-depth analyses are presented regarding the influences of label distribution of battery degradation data.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041094",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16612v1",
+      "text": "We believe this work could shed new light on SOH estimation of lithium-ion batteries under label sparsity in real-world applications.",
+      "type": "empirical",
+      "support_in_text": 0.32,
+      "quote": "In addition, in-depth analyses are presented regarding the influences of label distribution of battery degradation data. We believe this work could shed new light on SOH estimation of lithium-ion batteries under label sparsity in real-world applications.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041095",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16627v1",
+      "text": "Natural language explanations (NLEs) are increasingly used as inputs, for example, as few-shot rationales that influence model behavior in in-context learning (ICL).",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Natural language explanations (NLEs) are increasingly used as inputs, for example, as few-shot rationales that influence model behavior in in-context learning (ICL).",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041096",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16627v1",
+      "text": "Therefore, we provide a comparative evaluation across six benchmarks",
+      "type": "causal",
+      "support_in_text": 0.6,
+      "quote": "Therefore, we provide a comparative evaluation across six benchmarks and four instruction-tuned models, studying how NLE source (human-written when available, self-generated explanations, generated by an external LLM) and NLE selection (random vs faithfulness-based filtering) affect downstream utili",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041097",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16627v1",
+      "text": "four instruction-tuned models, studying how NLE source (human-written when available, self-generated explanations, generated by an external LLM) and NLE selection (random vs faithfulness-based filtering) affect downstream utility of NLEs when used in ICL settings.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "Therefore, we provide a comparative evaluation across six benchmarks and four instruction-tuned models, studying how NLE source (human-written when available, self-generated explanations, generated by an external LLM) and NLE selection (random vs faithfulness-based filtering) affect downstream utili",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041098",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16627v1",
+      "text": "Our extensive evaluation shows that, on classification-style benchmarks, adding NLEs to few-shot prompts often improves accuracy over few-shot prompting without explanations; among NLE sources, externally generated LLM-NLEs often provide strong downstream utility",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Our extensive evaluation shows that, on classification-style benchmarks, adding NLEs to few-shot prompts often improves accuracy over few-shot prompting without explanations; among NLE sources, externally generated LLM-NLEs often provide strong downstream utility and remain competitive with human ra",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041099",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16627v1",
+      "text": "remain competitive with human rationales where both are available, whereas self-NLEs are more sensitive to the selection strategy.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Our extensive evaluation shows that, on classification-style benchmarks, adding NLEs to few-shot prompts often improves accuracy over few-shot prompting without explanations; among NLE sources, externally generated LLM-NLEs often provide strong downstream utility and remain competitive with human ra",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041100",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16627v1",
+      "text": "On math reasoning, the effects are more model- and source-dependent.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…among NLE sources, externally generated LLM-NLEs often provide strong downstream utility and remain competitive with human rationales where both are available, whereas self-NLEs are more sensitive to the selection strategy. On math reasoning, the effects are more model- and source-dependent.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041101",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16627v1",
+      "text": "We further show that faithfulness-based selection of self-NLEs yields small average gains overall",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "On math reasoning, the effects are more model- and source-dependent. We further show that faithfulness-based selection of self-NLEs yields small average gains overall, but can improve or reduce performance depending on the metric, task, and model.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041102",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16627v1",
+      "text": "can improve or reduce performance depending on the metric, task, and model.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "On math reasoning, the effects are more model- and source-dependent. We further show that faithfulness-based selection of self-NLEs yields small average gains overall, but can improve or reduce performance depending on the metric, task, and model.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041103",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16627v1",
+      "text": "Different faithfulness metrics can disagree substantially, affecting which self-NLE examples are selected and their downstream predictive utility.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…selection of self-NLEs yields small average gains overall, but can improve or reduce performance depending on the metric, task, and model. Different faithfulness metrics can disagree substantially, affecting which self-NLE examples are selected and their downstream predictive utility.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041104",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16627v1",
+      "text": "out-of-distribution rationales indicate partial robustness, suggesting that semantic alignment contributes to performance gains.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…metrics can disagree substantially, affecting which self-NLE examples are selected and their downstream predictive utility. Robustness tests with randomly swapped and out-of-distribution rationales indicate partial robustness, suggesting that semantic alignment contributes to performance gains.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041105",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16628v1",
+      "text": "Modern Multimodal Retrieval-Augmented Generation (M-RAG) systems are fundamentally limited by the binary connectivity paradigm of traditional simple graphs, which fails to capture the intricate, high-order correlations among heterogeneous entities, such as the N-ary relationships between a visual chart, its scattered textual descriptions, and underlying numerical data.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Modern Multimodal Retrieval-Augmented Generation (M-RAG) systems are fundamentally limited by the binary connectivity paradigm of traditional simple graphs, which fails to capture the intricate, high-order correlations among heterogeneous entities, such as the N-ary relationships between a visual ch",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041106",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16628v1",
+      "text": "In this paper, we propose Hyper-M2RAG, a novel framework that redefines multimodal document retrieval through High-order Hypergraph Representation Learning.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…information, leading to prohibitive computational redundancy and the introduction of contextual noise in long-form document processing. In this paper, we propose Hyper-M2RAG, a novel framework that redefines multimodal document retrieval through High-order Hypergraph Representation Learning.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041107",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16628v1",
+      "text": "To mitigate semantic fragmentation caused by physical pagination, we introduce an Anchor-driven Incremental Refinement mechanism.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…utilizing hyperedges as unified semantic containers to encapsulate multi-way associations across text, images, and tables, thereby transcending point-to-point modeling. To mitigate semantic fragmentation caused by physical pagination, we introduce an Anchor-driven Incremental Refinement mechanism.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041108",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16628v1",
+      "text": "reconstructs their local hyper-topology using one-hop neighborhood contexts.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…semantic fragmentation caused by physical pagination, we introduce an Anchor-driven Incremental Refinement mechanism. Rather than performing a global sweep, our approach identifies boundary-crossing anchor nodes and reconstructs their local hyper-topology using one-hop neighborhood contexts.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041109",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16628v1",
+      "text": "Extensive evaluations on multimodal benchmarking datasets demonstrate that Hyper-M2RAG significantly outperforms state-of-the-art methods in both retrieval precision and generation coherence.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…targeted refinement effectively bridges cross-page knowledge gaps with minimal computational footprints. Extensive evaluations on multimodal benchmarking datasets demonstrate that Hyper-M2RAG significantly outperforms state-of-the-art methods in both retrieval precision and generation coherence.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041110",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16628v1",
+      "text": "Our code is available at https://github.com/ShenAoChen2001/MMHRAG.",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "Extensive evaluations on multimodal benchmarking datasets demonstrate that Hyper-M2RAG significantly outperforms state-of-the-art methods in both retrieval precision and generation coherence. Our code is available at https://github.com/ShenAoChen2001/MMHRAG.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041111",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16645v1",
+      "text": "all contemporaneous or future literature, and asks models to propose hypotheses that an independent large language model judge matches against the held-out ground-truth idea.",
+      "type": "predictive",
+      "support_in_text": 0.5,
+      "quote": "…pre-publication bibliography? We introduce Reconstruction, a blind idea-recovery benchmark that withholds the seed paper and all contemporaneous or future literature, and asks models to propose hypotheses that an independent large language model judge matches against the held-out ground-truth idea.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041112",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16645v1",
+      "text": "frozen per-paper bibliographies, which prevents prompt-time leakage of the seed idea.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…models to propose hypotheses that an independent large language model judge matches against the held-out ground-truth idea. A strict anti-leakage protocol-temporal citation cutoff, anonymous reference IDs, and frozen per-paper bibliographies, which prevents prompt-time leakage of the seed idea.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041113",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16645v1",
+      "text": "643 evaluated papers, seven frontier models achieve only modest Match rates (approx.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "A strict anti-leakage protocol-temporal citation cutoff, anonymous reference IDs, and frozen per-paper bibliographies, which prevents prompt-time leakage of the seed idea. Across six scientific domains and 643 evaluated papers, seven frontier models achieve only modest Match rates (approx.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041114",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16645v1",
+      "text": "We then evaluate a reference-only multi-agent (top 4) pipeline that combines cross-model review with a Swiss tournament over aligned hypothesis slots, without external web search.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "3-15%). We then evaluate a reference-only multi-agent (top 4) pipeline that combines cross-model review with a Swiss tournament over aligned hypothesis slots, without external web search.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041115",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16645v1",
+      "text": "Cross-model review plus tournament selection raises Match rates to approx.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We then evaluate a reference-only multi-agent (top 4) pipeline that combines cross-model review with a Swiss tournament over aligned hypothesis slots, without external web search. Cross-model review plus tournament selection raises Match rates to approx.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041116",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16645v1",
+      "text": "23-42% across all six domains, which is an observed approx.",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "Cross-model review plus tournament selection raises Match rates to approx. 23-42% across all six domains, which is an observed approx.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041117",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16645v1",
+      "text": "2.4x lift over the best single-model baseline.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "23-42% across all six domains, which is an observed approx. 2.4x lift over the best single-model baseline.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041118",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16645v1",
+      "text": "This draft reports the protocol, anti-leakage design, and current results as an arXiv timestamp.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "2.4x lift over the best single-model baseline. This draft reports the protocol, anti-leakage design, and current results as an arXiv timestamp.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041119",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16658v1",
+      "text": "X$^2$Localizer: Cross-grained Alignment for Progressive Cross-view Video Geo-localization",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "X$^2$Localizer: Cross-grained Alignment for Progressive Cross-view Video Geo-localization",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041120",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16658v1",
+      "text": "In this work, we formulate Progressive Cross-view Video Geo-localization (PCVG) as a deployment-oriented extension and evaluation protocol of CVG, enabling localization under varying temporal budgets, prefix-based inference, random-start evaluation, and long-range localization with interruptions.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "In this work, we formulate Progressive Cross-view Video Geo-localization (PCVG) as a deployment-oriented extension and evaluation protocol of CVG, enabling localization under varying temporal budgets, prefix-based inference, random-start evaluation, and long-range localization with interruptions.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041121",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16658v1",
+      "text": "To explore PCVG, we introduce X$^2$Localizer, a cross-grained alignment framework that jointly supervises global prefix-to-aerial retrieval and token-aggregated frame--aerial-tile matching with a budget-dependent asymmetric objective.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…evaluation, and long-range localization with interruptions. To explore PCVG, we introduce X$^2$Localizer, a cross-grained alignment framework that jointly supervises global prefix-to-aerial retrieval and token-aggregated frame--aerial-tile matching with a budget-dependent asymmetric objective.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041122",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16658v1",
+      "text": "Extensive experiments show that X$^2$Localizer preserves conventional full-video performance, with marginal gains of +0.1 Recall@1",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…regions for failure recovery and long-range deployment without full-sequence reprocessing. Extensive experiments show that X$^2$Localizer preserves conventional full-video performance, with marginal gains of +0.1 Recall@1 and +0.3 Recall@10, while substantially improving early localization.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041123",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16658v1",
+      "text": "+0.3 Recall@10, while substantially improving early localization.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…regions for failure recovery and long-range deployment without full-sequence reprocessing. Extensive experiments show that X$^2$Localizer preserves conventional full-video performance, with marginal gains of +0.1 Recall@1 and +0.3 Recall@10, while substantially improving early localization.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041124",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16658v1",
+      "text": "In the challenging single-frame setting, X$^2$Localizer improves coarse retrieval by +4.7 Recall@1",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…full-video performance, with marginal gains of +0.1 Recall@1 and +0.3 Recall@10, while substantially improving early localization. In the challenging single-frame setting, X$^2$Localizer improves coarse retrieval by +4.7 Recall@1 and +11.5 Recall@10 over the previous state-of-the-art method.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041125",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16658v1",
+      "text": "+11.5 Recall@10 over the previous state-of-the-art method.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…full-video performance, with marginal gains of +0.1 Recall@1 and +0.3 Recall@10, while substantially improving early localization. In the challenging single-frame setting, X$^2$Localizer improves coarse retrieval by +4.7 Recall@1 and +11.5 Recall@10 over the previous state-of-the-art method.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041126",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16681v1",
+      "text": "Although semi-supervised semantic segmentation ($\\text{S}^4$) utilizes abundant unlabeled data to reduce manual labeling burdens, independent training of labeled",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Although semi-supervised semantic segmentation ($\\text{S}^4$) utilizes abundant unlabeled data to reduce manual labeling burdens, independent training of labeled and unlabeled data causes the former to dominate, which severely degrades pseudo-label quality.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041127",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16681v1",
+      "text": "unlabeled data causes the former to dominate, which severely degrades pseudo-label quality.",
+      "type": "causal",
+      "support_in_text": 0.35,
+      "quote": "Although semi-supervised semantic segmentation ($\\text{S}^4$) utilizes abundant unlabeled data to reduce manual labeling burdens, independent training of labeled and unlabeled data causes the former to dominate, which severely degrades pseudo-label quality.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041128",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16681v1",
+      "text": "To address this challenges, we propose a novel remote sensing (RS) $\\text{S}^4$ method via unified flow with feature memory bank (UFFM).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…to reduce manual labeling burdens, independent training of labeled and unlabeled data causes the former to dominate, which severely degrades pseudo-label quality. To address this challenges, we propose a novel remote sensing (RS) $\\text{S}^4$ method via unified flow with feature memory bank (UFFM).",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041129",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16681v1",
+      "text": "Specifically, UFFM comprises two key innovations: unified flow (UF) and feature memory bank (FMB).",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "To address this challenges, we propose a novel remote sensing (RS) $\\text{S}^4$ method via unified flow with feature memory bank (UFFM). Specifically, UFFM comprises two key innovations: unified flow (UF) and feature memory bank (FMB).",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041130",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16681v1",
+      "text": "The UF is a new training flow that generates less biased pseudo-labels by combining an external visual foundation model (VFM) with an RS domain teacher, and jointly optimizes labeled and pseudo-labeled data under a unified training objective.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…unified flow (UF) and feature memory bank (FMB). The UF is a new training flow that generates less biased pseudo-labels by combining an external visual foundation model (VFM) with an RS domain teacher, and jointly optimizes labeled and pseudo-labeled data under a unified training objective.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041131",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16681v1",
+      "text": "The FMB is a novel memory module for $\\text{S}^4$ that dynamically updates class-specific features during training",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…optimizes labeled and pseudo-labeled data under a unified training objective. The FMB is a novel memory module for $\\text{S}^4$ that dynamically updates class-specific features during training and reduces the feature discrepancy between labeled and unlabeled data through class-feature alignment.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041132",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16681v1",
+      "text": "reduces the feature discrepancy between labeled and unlabeled data through class-feature alignment.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…optimizes labeled and pseudo-labeled data under a unified training objective. The FMB is a novel memory module for $\\text{S}^4$ that dynamically updates class-specific features during training and reduces the feature discrepancy between labeled and unlabeled data through class-feature alignment.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041133",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16681v1",
+      "text": "The experimental results show the superiority of our method over SOTA $\\text{S}^4$ methods.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "To verify the effectiveness of our model, we conduct extensive experiments on RS datasets. The experimental results show the superiority of our method over SOTA $\\text{S}^4$ methods.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041134",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16681v1",
+      "text": "Our code is released at \\href{https://github.com/wangshanwen001/RS-UFFM}{https://github.com/wangshanwen001/RS-UFFM}.",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "Moreover, the results demonstrate the effectiveness of our contributions in bridging the optimization and feature representation gap between labeled and unlabeled data. Our code is released at \\href{https://github.com/wangshanwen001/RS-UFFM}{https://github.com/wangshanwen001/RS-UFFM}.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041135",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16707v1",
+      "text": "Semantic Bandits: In-Context Exploration-Exploitation is Biased by Semantic Priors",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Semantic Bandits: In-Context Exploration-Exploitation is Biased by Semantic Priors",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041136",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16707v1",
+      "text": "Large language models (LLMs) are increasingly deployed as decision-making agents in settings that require sophisticated environmental exploration.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Large language models (LLMs) are increasingly deployed as decision-making agents in settings that require sophisticated environmental exploration.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041137",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16707v1",
+      "text": "However, existing work has raised questions about how LLMs actually balance exploration and exploitation.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Large language models (LLMs) are increasingly deployed as decision-making agents in settings that require sophisticated environmental exploration. However, existing work has raised questions about how LLMs actually balance exploration and exploitation.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041138",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16707v1",
+      "text": "We find that semantically informative action labels reduce exploration in favour of exploitation, improving performance when aligned with the reward structure and severely degrading it when misaligned.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…language and expected reward learned during pre-training, shape LLM exploration behaviour. We find that semantically informative action labels reduce exploration in favour of exploitation, improving performance when aligned with the reward structure and severely degrading it when misaligned.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041139",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16707v1",
+      "text": "rewards introduces unavoidable biases derived from the fact that the model is trained on word co-occurence, with implications for the reliability and robustness of LLM agents in real-world decision-making settings.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…data. Overall, we argue that the use of language to define the environment and rewards introduces unavoidable biases derived from the fact that the model is trained on word co-occurence, with implications for the reliability and robustness of LLM agents in real-world decision-making settings.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041140",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16765v1",
+      "text": "Despite recent advances in unified multimodal models for multi-reference image generation, existing benchmarks remain organized around predefined task types (e.g., \"subject composition\"), which are ill-suited to this combinatorial setting and lead to fragmented coverage, uncontrolled complexity, and little diagnostic value.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Despite recent advances in unified multimodal models for multi-reference image generation, existing benchmarks remain organized around predefined task types (e.g., \"subject composition\"), which are ill-suited to this combinatorial setting and lead to fragmented coverage, uncontrolled complexity, and",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041141",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16765v1",
+      "text": "formalize four operators: Anchor ($f$), Disentangle ($g$), Apply ($\\oplus$), and Compose ($C$).",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…coverage, uncontrolled complexity, and little diagnostic value. Recognizing that diverse multi-reference tasks share a common set of atomic operations, we adopt a capability-oriented perspective and formalize four operators: Anchor ($f$), Disentangle ($g$), Apply ($\\oplus$), and Compose ($C$).",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041142",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16765v1",
+      "text": "Any multi-reference prompt can then be represented as a compositional formula over these operators, whose structural complexity is quantified by the number of operator slots.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…perspective and formalize four operators: Anchor ($f$), Disentangle ($g$), Apply ($\\oplus$), and Compose ($C$). Any multi-reference prompt can then be represented as a compositional formula over these operators, whose structural complexity is quantified by the number of operator slots.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041143",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16765v1",
+      "text": "Building on this formulation, we construct TRACE-Bench, comprising approximately 1,600 evaluation cases across slot counts 1--8, built from 631 formula templates",
+      "type": "statistical",
+      "support_in_text": 0.42,
+      "quote": "…quantified by the number of operator slots. Building on this formulation, we construct TRACE-Bench, comprising approximately 1,600 evaluation cases across slot counts 1--8, built from 631 formula templates and around 4,000 reference images spanning diverse artistic styles and real-world subjects.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041144",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16765v1",
+      "text": "around 4,000 reference images spanning diverse artistic styles and real-world subjects.",
+      "type": "statistical",
+      "support_in_text": 0.42,
+      "quote": "…quantified by the number of operator slots. Building on this formulation, we construct TRACE-Bench, comprising approximately 1,600 evaluation cases across slot counts 1--8, built from 631 formula templates and around 4,000 reference images spanning diverse artistic styles and real-world subjects.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041145",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16765v1",
+      "text": "The formula structure directly drives an operator-aligned evaluation protocol for per-capability scoring and a diagnostic tree analysis for recursive failure localization.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…built from 631 formula templates and around 4,000 reference images spanning diverse artistic styles and real-world subjects. The formula structure directly drives an operator-aligned evaluation protocol for per-capability scoring and a diagnostic tree analysis for recursive failure localization.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041146",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16765v1",
+      "text": "Evaluating 9 leading models reveals insights invisible to holistic scoring: the primary bottleneck lies in disentanglement ($g$)",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…failure localization. Evaluating 9 leading models reveals insights invisible to holistic scoring: the primary bottleneck lies in disentanglement ($g$) and attribute binding ($\\oplus$) rather than scene-level composition ($C$), with even the best model scoring only 0.74 on attribute fidelity.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041147",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16765v1",
+      "text": "attribute binding ($\\oplus$) rather than scene-level composition ($C$), with even the best model scoring only 0.74 on attribute fidelity.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…failure localization. Evaluating 9 leading models reveals insights invisible to holistic scoring: the primary bottleneck lies in disentanglement ($g$) and attribute binding ($\\oplus$) rather than scene-level composition ($C$), with even the best model scoring only 0.74 on attribute fidelity.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041148",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16776v1",
+      "text": "High-capacity encoders in retrieval-augmented generation (RAG) can let the query dominate the latent state, leaving retrieved evidence functionally irrelevant.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "High-capacity encoders in retrieval-augmented generation (RAG) can let the query dominate the latent state, leaving retrieved evidence functionally irrelevant.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041149",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16776v1",
+      "text": "To address it, we introduce \\textbf{GRIP} (Grounded Reasoning via Information-Restricted Premises), which imposes capacity asymmetry: the decoder keeps full-dimensional access to the query, while retrieved evidence passes through a severe stochastic bottleneck.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…this failure mode query dominance. To address it, we introduce \\textbf{GRIP} (Grounded Reasoning via Information-Restricted Premises), which imposes capacity asymmetry: the decoder keeps full-dimensional access to the query, while retrieved evidence passes through a severe stochastic bottleneck.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041150",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16776v1",
+      "text": "This forces the evidence channel to encode only the residual information unavailable from the query.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…Information-Restricted Premises), which imposes capacity asymmetry: the decoder keeps full-dimensional access to the query, while retrieved evidence passes through a severe stochastic bottleneck. This forces the evidence channel to encode only the residual information unavailable from the query.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041151",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16776v1",
+      "text": "Across five reasoning benchmarks, GRIP outperforms strong iterative baselines, cuts a query--latent mutual-information diagnostic by roughly 30$\\times$ (14.8 $\\to$ 0.47 bits)",
+      "type": "statistical",
+      "support_in_text": 0.42,
+      "quote": "…the evidence channel to encode only the residual information unavailable from the query. Across five reasoning benchmarks, GRIP outperforms strong iterative baselines, cuts a query--latent mutual-information diagnostic by roughly 30$\\times$ (14.8 $\\to$ 0.47 bits), and reduces hallucination by 73\\%.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041152",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16776v1",
+      "text": "reduces hallucination by 73\\%.",
+      "type": "statistical",
+      "support_in_text": 0.42,
+      "quote": "…the evidence channel to encode only the residual information unavailable from the query. Across five reasoning benchmarks, GRIP outperforms strong iterative baselines, cuts a query--latent mutual-information diagnostic by roughly 30$\\times$ (14.8 $\\to$ 0.47 bits), and reduces hallucination by 73\\%.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041153",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16776v1",
+      "text": "Residual-alignment analysis further shows that the bottleneck output occupies subspaces less aligned with the query than baseline representations.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…iterative baselines, cuts a query--latent mutual-information diagnostic by roughly 30$\\times$ (14.8 $\\to$ 0.47 bits), and reduces hallucination by 73\\%. Residual-alignment analysis further shows that the bottleneck output occupies subspaces less aligned with the query than baseline representations.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041154",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16804v1",
+      "text": "Sign language serves as a vital means of communication for individuals with hearing impairments, yet recognition resources for the over 100 distinct sign languages are severely lacking.",
+      "type": "definitional",
+      "support_in_text": 0.35,
+      "quote": "Sign language serves as a vital means of communication for individuals with hearing impairments, yet recognition resources for the over 100 distinct sign languages are severely lacking.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041155",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16804v1",
+      "text": "In response, we present our work on sign language recognition using transfer learning",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…for the over 100 distinct sign languages are severely lacking. In response, we present our work on sign language recognition using transfer learning and the domain adaptation method TA3N, which utilizes the Temporal Relational Network (TRN) module for aligning multi-scale temporal relations.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041156",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16804v1",
+      "text": "the domain adaptation method TA3N, which utilizes the Temporal Relational Network (TRN) module for aligning multi-scale temporal relations.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…for the over 100 distinct sign languages are severely lacking. In response, we present our work on sign language recognition using transfer learning and the domain adaptation method TA3N, which utilizes the Temporal Relational Network (TRN) module for aligning multi-scale temporal relations.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041157",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16804v1",
+      "text": "Our work aims to improve accessibility and communication for individuals who rely on sign language as their primary mode of communication.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…conducted experiments using Optical Flow mode for the sign language samples, ultimately determining that RGB outperforms Optical Flow in the majority of cases. Our work aims to improve accessibility and communication for individuals who rely on sign language as their primary mode of communication.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041158",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16834v1",
+      "text": "We demonstrate that AI models are broadly susceptible to a phenomenon we call model hypnosis, in which individually weak",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We demonstrate that AI models are broadly susceptible to a phenomenon we call model hypnosis, in which individually weak and seemingly irrelevant cues in the prompt can be systematically combined to strongly control model behavior.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041159",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16834v1",
+      "text": "seemingly irrelevant cues in the prompt can be systematically combined to strongly control model behavior.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We demonstrate that AI models are broadly susceptible to a phenomenon we call model hypnosis, in which individually weak and seemingly irrelevant cues in the prompt can be systematically combined to strongly control model behavior.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041160",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16834v1",
+      "text": "Model hypnosis occurs across model families and scales, including in frontier reasoning models",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…model hypnosis, in which individually weak and seemingly irrelevant cues in the prompt can be systematically combined to strongly control model behavior. Model hypnosis occurs across model families and scales, including in frontier reasoning models, and hypnotic prompts can transfer between models.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041161",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16834v1",
+      "text": "hypnotic prompts can transfer between models.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…model hypnosis, in which individually weak and seemingly irrelevant cues in the prompt can be systematically combined to strongly control model behavior. Model hypnosis occurs across model families and scales, including in frontier reasoning models, and hypnotic prompts can transfer between models.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041162",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16834v1",
+      "text": "Because the model is controlled by inconspicuous textual choices, such as paraphrases and typos, model hypnosis presents new challenges and avenues for AI safety",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…including in frontier reasoning models, and hypnotic prompts can transfer between models. Because the model is controlled by inconspicuous textual choices, such as paraphrases and typos, model hypnosis presents new challenges and avenues for AI safety, and is a major hurdle for AI interpretability.",
+      "run_id": "32094373539",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_041163",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.16834v1",
+      "text": "is a major hurdle for AI interpretability.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…including in frontier reasoning models, and hypnotic prompts can transfer between models. Because the model is controlled by inconspicuous textual choices, such as paraphrases and typos, model hypnosis presents new challenges and avenues for AI safety, and is a major hurdle for AI interpretability.",
+      "run_id": "32094373539",
       "status": "extracted"
     }
   ],
