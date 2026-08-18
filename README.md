@@ -79,3 +79,11 @@ This repo's `SCHEMA.md` governs sources, claims, edges, and theses, plus the
 queue. The question layer (`data/questions.jsonl`) defers to the spine repo —
 `../foundational_frontier_question_engine_v0/spine/SCHEMA.md` — as
 `SCHEMA.md`'s own `data/questions.jsonl` section already states.
+
+## Downstream: corpuscle
+
+[Corpuscle](../corpuscle) tests the claim graph as a training-data substrate —
+claims compressed here, re-expanded into varied text per epoch, pretrained on.
+It reads this repo's sources and claims and may later contribute a generative
+truth gate for the queue and a propagated-credence layer over edges. See
+`CORPUSCLE.md`.
