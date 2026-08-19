@@ -28,3 +28,7 @@ What corpuscle may feed back:
 For workers: nothing in `WORKER.md` changes. Corpuscle is read-only toward
 this repo's data; any future write path will arrive as ordinary queue tasks
 under the existing rubric.
+
+**Status 2026-08-20:** Phase 1 concluded — claim-formatted text is ~2.5x more
+valuable per token for extractable knowledge (B 25.8% vs raw 0.9%, 7-condition
+matrix, 2-3 seeds each). Full results and agent handoff: `../corpuscle/HANDOFF.md`.
