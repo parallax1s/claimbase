@@ -52920,7 +52920,7 @@
 {"id": "task_052920", "kind": "refine", "payload": {"claim_id": "clm_042090"}, "created_run": "32614879207", "status": "pending"}
 {"id": "task_052921", "kind": "refine", "payload": {"claim_id": "clm_042093"}, "created_run": "32614879207", "status": "pending"}
 {"id": "task_052922", "kind": "refine", "payload": {"claim_id": "clm_042099"}, "created_run": "32614879207", "status": "pending"}
-{"id": "task_052923", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/MgYCraoxMwfWwgWa5/an-anytime-algorithm-for-mixing-the-computable-measures"}, "created_run": "32614879207", "status": "pending"}
+{"id": "task_052923", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/MgYCraoxMwfWwgWa5/an-anytime-algorithm-for-mixing-the-computable-measures"}, "created_run": "32614879207", "status": "skipped", "note": "fable failed: GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retireme"}
 {"id": "task_052924", "kind": "edge", "payload": {"a": "clm_000339", "b": "clm_042044", "sim": 0.473}, "created_run": "32614879207", "status": "pending"}
 {"id": "task_052925", "kind": "identity", "payload": {"a": "clm_000923", "b": "clm_042086", "sim": 0.6733}, "created_run": "32614879207", "status": "pending"}
 {"id": "task_052926", "kind": "edge", "payload": {"a": "clm_001306", "b": "clm_042086", "sim": 0.4308}, "created_run": "32614879207", "status": "pending"}
