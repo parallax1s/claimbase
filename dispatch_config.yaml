@@ -1,0 +1,42 @@
+# Config for mole/dispatch.py -- the scale-up extraction dispatcher.
+# See DISPATCH.md for how this composes with the existing mole/queue.
+#
+# This file is read by `python -m mole.dispatch` (auto-discovered at the
+# repo root; override with --config). Every key has a built-in default in
+# mole/dispatch.py's DEFAULT_CONFIG -- you only need to override what you
+# want to change.
+
+query:
+  # OpenAlex candidate filter(s). All non-empty fields are ANDed together.
+  search: "AI alignment"          # free-text search term
+  concepts: []                     # OpenAlex concept IDs, e.g. ["C154945302"]
+  venues: []                       # OpenAlex source/venue IDs
+  from_publication_date: null      # e.g. "2020-01-01"
+  max_works: 50                    # cap on candidates `plan` fetches/keeps
+
+openalex:
+  # OpenAlex's "polite pool" wants a real contact email for faster, more
+  # reliable responses. Fill this in before doing large `plan` runs -- left
+  # as a placeholder deliberately (dispatch.py warns if you don't change it).
+  mailto: "you@example.com"
+  per_page: 100                    # OpenAlex page size (max 200)
+
+providers:
+  claude-cli:
+    model: haiku                   # cheap default; "sonnet"/"fable" for quality
+    timeout_s: 120
+    bare: false                    # true requires ANTHROPIC_API_KEY (see DISPATCH.md)
+    requests_per_min: 20
+    tokens_per_min: 40000
+  openrouter:
+    model: "meta-llama/llama-3.1-8b-instruct"
+    api_key_env: OPENROUTER_API_KEY
+    base_url: "https://openrouter.ai/api/v1/chat/completions"
+    timeout_s: 60
+    requests_per_min: 20
+    tokens_per_min: 60000
+
+run:
+  default_provider: claude-cli
+  default_workers: 4
+  default_limit: 20
