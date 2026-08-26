@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 32804292187 · sources 1283 · claims 27537 · edges 1279 · verified 73
+run 32925911037 · sources 1309 · claims 27717 · edges 1279 · verified 73
 
 ## Districts
 
@@ -13,27 +13,27 @@ mjx · padding · content                ░░░░░░░░░░    501 c
 mjx · padding · content                ░░░░░░░░░░    234 claims  ⚡0
 Multi-Agent LLM Systems                ░░░░░░░░░░    194 claims  ⚡0
 Anthropic Company Moves                ▓▓▓░░░░░░░    188 claims  ⚡0
-Cross-Modal Knowledge Distillation     ░░░░░░░░░░    181 claims  ⚡0
+Cross-Modal Knowledge Distillation     ░░░░░░░░░░    182 claims  ⚡0
 Latent Variable and Neural Models      ░░░░░░░░░░    130 claims  ⚡0
+LLM Architecture Research              ░░░░░░░░░░    128 claims  ⚡0
 Model Arena Leaderboard Churn          ▓▓▓▓▓▓░░░░    128 claims  ⚡0
-LLM Architecture Research              ░░░░░░░░░░    125 claims  ⚡0
 Temporal Image Consistency             ░░░░░░░░░░    110 claims  ⚡0
-training · models · ground             ░░░░░░░░░░    104 claims  ⚡0
+training · models · ground             ░░░░░░░░░░    107 claims  ⚡0
 AI Existential Risk Discourse          ▓▓░░░░░░░░     87 claims  ⚡0
+Benchmark Baselines and Agent Scaling  ░░░░░░░░░░     85 claims  ⚡0
 Neural Decoding and Brain-AI           ░░░░░░░░░░     84 claims  ⚡0
-Benchmark Baselines and Agent Scaling  ░░░░░░░░░░     84 claims  ⚡0
 prediction · accuracy · predictor      ░░░░░░░░░░     83 claims  ⚡0
 Epistemic Uncertainty Hedges           ▓░░░░░░░░░     80 claims  ⚡0
 mjx · right · rspace                   ░░░░░░░░░░     80 claims  ⚡0
-Alignment Faking Detection Thresholds  ░░░░░░░░░░     74 claims  ⚡0
-bias · models · preference             ░░░░░░░░░░     74 claims  ⚡0
-Federal AI Security Mandates           ▓░░░░░░░░░     68 claims  ⚡0
+Alignment Faking Detection Thresholds  ░░░░░░░░░░     77 claims  ⚡0
+bias · models · preference             ░░░░░░░░░░     75 claims  ⚡0
+Federal AI Security Mandates           ▓░░░░░░░░░     69 claims  ⚡0
 layers · layer · spatial               ░░░░░░░░░░     66 claims  ⚡0
 Control Monitor Benchmarks             ░░░░░░░░░░     63 claims  ⚡0
-Weak-to-Strong Generalization          ░░░░░░░░░░     62 claims  ⚡0
+Weak-to-Strong Generalization          ░░░░░░░░░░     63 claims  ⚡0
 US AI Policy and Classrooms            ▓▓░░░░░░░░     61 claims  ⚡0
-Agent Monitoring Benchmarks            ░░░░░░░░░░     57 claims  ⚡0
-… and 3510 smaller districts (22599 claims)
+Agent Monitoring Benchmarks            ░░░░░░░░░░     58 claims  ⚡0
+… and 3524 smaller districts (22749 claims)
 ```
 
 ## Sharpest fault
