@@ -29,6 +29,12 @@ For workers: nothing in `WORKER.md` changes. Corpuscle is read-only toward
 this repo's data; any future write path will arrive as ordinary queue tasks
 under the existing rubric.
 
-**Status 2026-08-20:** Phase 1 concluded — claim-formatted text is ~2.5x more
-valuable per token for extractable knowledge (B 25.8% vs raw 0.9%, 7-condition
-matrix, 2-3 seeds each). Full results and agent handoff: `../corpuscle/HANDOFF.md`.
+**Status 2026-08-26:** Phase 1 CLOSED with a *revised* verdict — the earlier
+"claim-formatted text ~2.5x more valuable" headline was RETRACTED (it was
+question-format proximity). What survived three rounds of self-attack:
+mixing ~25-75% canonical claims with fresh claim-derived expansions doubles
+format-robust knowledge extractability over any pure format (free-form
+questions: m50 11.05% vs best pure 5.67%), while pure claim lists collapse
+prose ability (ppl 27,636). Phase 2 (real corpus, this repo's sources) is
+running. `mole/dispatch.py` (this repo) is the scale-up extractor. Full
+handoff: `../corpuscle/HANDOFF.md`.
