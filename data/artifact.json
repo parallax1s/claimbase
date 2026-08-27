@@ -1,15 +1,15 @@
 {
-  "generated_run": "32925911037",
+  "generated_run": "33073537366",
   "counts": {
-    "sources": 1309,
-    "claims": 27717,
+    "sources": 1331,
+    "claims": 27934,
     "edges": 761,
     "pending_tasks": {
-      "identity": 3323,
-      "edge": 23329,
-      "refine": 9099,
-      "attach": 9013,
-      "extract": 26
+      "identity": 3325,
+      "edge": 23624,
+      "refine": 9161,
+      "attach": 9055,
+      "extract": 22
     }
   },
   "claims": [
@@ -377587,6 +377587,2176 @@
       "support_in_text": 0.35,
       "quote": "We additionally organize prompt evidence by the policy event that generated it rather than learner receipt order. Across matched runs on ALFWorld at two model scales and on Math-TIR, SPO++ improves online learning efficiency over SPO.",
       "run_id": "32925911037",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042681",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.24988v1",
+      "text": "Activation steering can be embedded directly into a language model's weights, shaping behaviour without inference-time intervention",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Activation steering can be embedded directly into a language model's weights, shaping behaviour without inference-time intervention and offering a way to encode alignment prior to release.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042682",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.24988v1",
+      "text": "offering a way to encode alignment prior to release.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Activation steering can be embedded directly into a language model's weights, shaping behaviour without inference-time intervention and offering a way to encode alignment prior to release.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042683",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.24988v1",
+      "text": "However, models are routinely fine-tuned after deployment, and it is unknown whether embedded interventions survive this.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…steering can be embedded directly into a language model's weights, shaping behaviour without inference-time intervention and offering a way to encode alignment prior to release. However, models are routinely fine-tuned after deployment, and it is unknown whether embedded interventions survive this.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042684",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.24988v1",
+      "text": "brevity induction across five instruction-tuned models (3B-14B) under non-adversarial SFT and RLHF.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "However, models are routinely fine-tuned after deployment, and it is unknown whether embedded interventions survive this. We study the stability of embedded steering for refusal suppression and brevity induction across five instruction-tuned models (3B-14B) under non-adversarial SFT and RLHF.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042685",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.24988v1",
+      "text": "persists otherwise, with refusal ablation losing 64% of its effect on average under SFT.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…instruction-tuned models (3B-14B) under non-adversarial SFT and RLHF. Behaviourally, preservation tracks the training data: steering degrades when optimisation pressure contradicts the targeted behaviour and persists otherwise, with refusal ablation losing 64% of its effect on average under SFT.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042686",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.24988v1",
+      "text": "Mechanistically, however, the weight edit survives almost untouched even where behaviour reverts: mean vector recovery is $ρ= 0.004$",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…of its effect on average under SFT. Mechanistically, however, the weight edit survives almost untouched even where behaviour reverts: mean vector recovery is $ρ= 0.004$, and the fine-tuning update along the steering direction is near-orthogonal to its pre-edit weight pattern (mean $\\cosθ= 0.074$).",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042687",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.24988v1",
+      "text": "the fine-tuning update along the steering direction is near-orthogonal to its pre-edit weight pattern (mean $\\cosθ= 0.074$).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…of its effect on average under SFT. Mechanistically, however, the weight edit survives almost untouched even where behaviour reverts: mean vector recovery is $ρ= 0.004$, and the fine-tuning update along the steering direction is near-orthogonal to its pre-edit weight pattern (mean $\\cosθ= 0.074$).",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042688",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.24988v1",
+      "text": "When steered behaviour degrades, fine-tuning does not achieve it by dismantling or reversing the steering mechanism itself.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…reverts: mean vector recovery is $ρ= 0.004$, and the fine-tuning update along the steering direction is near-orthogonal to its pre-edit weight pattern (mean $\\cosθ= 0.074$). When steered behaviour degrades, fine-tuning does not achieve it by dismantling or reversing the steering mechanism itself.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042689",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.24988v1",
+      "text": "Embedded steering is therefore mechanistically durable but functionally vulnerable, and requires behavioural re-validation after downstream training.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "When steered behaviour degrades, fine-tuning does not achieve it by dismantling or reversing the steering mechanism itself. Embedded steering is therefore mechanistically durable but functionally vulnerable, and requires behavioural re-validation after downstream training.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042690",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25178v1",
+      "text": "We present a monocular vision pipeline for sidewalk path extraction in micromobility systems that progresses through three design iterations, from a skeleton-graph baseline through distance-transform corridor planning to a lightweight image-space architecture",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "We present a monocular vision pipeline for sidewalk path extraction in micromobility systems that progresses through three design iterations, from a skeleton-graph baseline through distance-transform corridor planning to a lightweight image-space architecture, and provides a systematic comparison of",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042691",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25178v1",
+      "text": "provides a systematic comparison of five path-planning methods across both bird's-eye-view (BEV) and image-space domains.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "We present a monocular vision pipeline for sidewalk path extraction in micromobility systems that progresses through three design iterations, from a skeleton-graph baseline through distance-transform corridor planning to a lightweight image-space architecture, and provides a systematic comparison of",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042692",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25178v1",
+      "text": "A compact SegFormer-B0 student model, trained with a semi-supervised teacher-student framework using OneFormer Swin-L pseudo-labels, achieves a hand-annotated IoU of 0.946 at 11.7 ms per frame, improving over the baseline checkpoint (IoU 0.758, 18.9 ms).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…(BEV) and image-space domains. A compact SegFormer-B0 student model, trained with a semi-supervised teacher-student framework using OneFormer Swin-L pseudo-labels, achieves a hand-annotated IoU of 0.946 at 11.7 ms per frame, improving over the baseline checkpoint (IoU 0.758, 18.9 ms).",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042693",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25178v1",
+      "text": "In a controlled planner comparison on 32 hand-labeled frames, image-space midpoint planning achieves the lowest lateral center error (14.3 px) at 2.2 ms, a 421x speedup over BEV distance-transform planning (926.8 ms, 65.0 px center error), while maintaining comparable mask-path alignment (98.5% versus 98.6%).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "In a controlled planner comparison on 32 hand-labeled frames, image-space midpoint planning achieves the lowest lateral center error (14.3 px) at 2.2 ms, a 421x speedup over BEV distance-transform planning (926.8 ms, 65.0 px center error), while maintaining comparable mask-path alignment (98.5% vers",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042694",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25178v1",
+      "text": "A full-video replay across six campus sequences (22,679 frames) confirms that the improved segmentation reduces temporal instability from 1.46% to 0.33%",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…error), while maintaining comparable mask-path alignment (98.5% versus 98.6%). A full-video replay across six campus sequences (22,679 frames) confirms that the improved segmentation reduces temporal instability from 1.46% to 0.33% and increases template-path availability from 73.7% to 79.3%.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042695",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25178v1",
+      "text": "increases template-path availability from 73.7% to 79.3%.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…error), while maintaining comparable mask-path alignment (98.5% versus 98.6%). A full-video replay across six campus sequences (22,679 frames) confirms that the improved segmentation reduces temporal instability from 1.46% to 0.33% and increases template-path availability from 73.7% to 79.3%.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042696",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25178v1",
+      "text": "We further show that BEV-only path extraction is fragile in monocular settings: in one profiled run, 99.3% of frames produced no valid BEV path.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…confirms that the improved segmentation reduces temporal instability from 1.46% to 0.33% and increases template-path availability from 73.7% to 79.3%. We further show that BEV-only path extraction is fragile in monocular settings: in one profiled run, 99.3% of frames produced no valid BEV path.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042697",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25178v1",
+      "text": "BEV reserved for visualization, runs the full perception-to-path stack in under 50 ms per frame on CPU, making it suitable for embedded pedestrian-speed micromobility systems.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…BEV path. The final recommended architecture, image-space midpoint primary, image-space distance-transform fallback, and BEV reserved for visualization, runs the full perception-to-path stack in under 50 ms per frame on CPU, making it suitable for embedded pedestrian-speed micromobility systems.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042698",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25200v1",
+      "text": "This problem has many applications in AI alignment and preference optimization.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We consider the problem of learning a mixture of $k$ Plackett-Luce models given multi-way ranking responses from annotators that may represent heterogeneous underlying preferences. This problem has many applications in AI alignment and preference optimization.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042699",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25200v1",
+      "text": "Prior work has studied mixtures of Bradley-Terry models from pairwise comparisons.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "This problem has many applications in AI alignment and preference optimization. Prior work has studied mixtures of Bradley-Terry models from pairwise comparisons.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042700",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25200v1",
+      "text": "However, uncovering mixture models is theoretically unidentifiable when $k$ exceeds $m/2$, where $m$ is the length of a ranking.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Prior work has studied mixtures of Bradley-Terry models from pairwise comparisons. However, uncovering mixture models is theoretically unidentifiable when $k$ exceeds $m/2$, where $m$ is the length of a ranking.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042701",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25200v1",
+      "text": "We propose an efficient implementation to address this limitation, which involves first augmenting the rankings to a larger size by generating new responses from a base language model, followed by a gradient-based estimation to reduce inference cost in the input embedding space.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…of a ranking. We propose an efficient implementation to address this limitation, which involves first augmenting the rankings to a larger size by generating new responses from a base language model, followed by a gradient-based estimation to reduce inference cost in the input embedding space.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042702",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25200v1",
+      "text": "Based on this procedure, we then design an expectation-maximization algorithm with these two steps to fit a mixture of Plackett-Luce models, called MoPLEx.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…new responses from a base language model, followed by a gradient-based estimation to reduce inference cost in the input embedding space. Based on this procedure, we then design an expectation-maximization algorithm with these two steps to fit a mixture of Plackett-Luce models, called MoPLEx.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042703",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25200v1",
+      "text": "Extensive experiments are conducted to verify this approach.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Based on this procedure, we then design an expectation-maximization algorithm with these two steps to fit a mixture of Plackett-Luce models, called MoPLEx. Extensive experiments are conducted to verify this approach.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042704",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25200v1",
+      "text": "First, we show that the gradient-based approximation estimates true probabilities with less than 5% error on models with up to 34 billion parameters.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Extensive experiments are conducted to verify this approach. First, we show that the gradient-based approximation estimates true probabilities with less than 5% error on models with up to 34 billion parameters.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042705",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25200v1",
+      "text": "Second, we show that MoPLEx improves clustering",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…true probabilities with less than 5% error on models with up to 34 billion parameters. Second, we show that MoPLEx improves clustering and ranking accuracy by an average of 43.7% and 15.2% over baselines using single ranking and mixtures of Bradley-Terry models, on preference optimization datasets.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042706",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25200v1",
+      "text": "ranking accuracy by an average of 43.7%",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…true probabilities with less than 5% error on models with up to 34 billion parameters. Second, we show that MoPLEx improves clustering and ranking accuracy by an average of 43.7% and 15.2% over baselines using single ranking and mixtures of Bradley-Terry models, on preference optimization datasets.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042707",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25200v1",
+      "text": "15.2% over baselines using single ranking and mixtures of Bradley-Terry models, on preference optimization datasets.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…true probabilities with less than 5% error on models with up to 34 billion parameters. Second, we show that MoPLEx improves clustering and ranking accuracy by an average of 43.7% and 15.2% over baselines using single ranking and mixtures of Bradley-Terry models, on preference optimization datasets.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042708",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25251v1",
+      "text": "Medical vision-language models (VLMs) can appear reliable in-domain while failing when acquisition domain, paired supervision, or evaluation protocol changes.",
+      "type": "medical",
+      "support_in_text": 0.25,
+      "quote": "Medical vision-language models (VLMs) can appear reliable in-domain while failing when acquisition domain, paired supervision, or evaluation protocol changes.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042709",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25251v1",
+      "text": "Using NIH ChestXray14 and CheXpert, we first isolate source-only cross-dataset visual transfer from unsupervised domain-adaptation diagnostics.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…this failure mode as a representation-level blind spot relevant to epistemic intelligence, without claiming a formal estimator of epistemic uncertainty. Using NIH ChestXray14 and CheXpert, we first isolate source-only cross-dataset visual transfer from unsupervised domain-adaptation diagnostics.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042710",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25251v1",
+      "text": "Self-supervised visual initialization improves NIH-to-CheXpert transfer over supervised ImageNet initialization in matched ResNet-18 comparisons, whereas adversarial adaptation is useful only in a narrow regime",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…retained in frozen embeddings. Self-supervised visual initialization improves NIH-to-CheXpert transfer over supervised ImageNet initialization in matched ResNet-18 comparisons, whereas adversarial adaptation is useful only in a narrow regime and becomes unstable as adversarial pressure increases.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042711",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25251v1",
+      "text": "becomes unstable as adversarial pressure increases.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…retained in frozen embeddings. Self-supervised visual initialization improves NIH-to-CheXpert transfer over supervised ImageNet initialization in matched ResNet-18 comparisons, whereas adversarial adaptation is useful only in a narrow regime and becomes unstable as adversarial pressure increases.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042712",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25251v1",
+      "text": "Grad-CAM analyses show clinically plausible cross-dataset structure and thoracic attention patterns in many cases, while device-heavy and false-positive cases remain ambiguous.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…testing, and source-proxy information remains recoverable from learned representations. Qualitative nearest-neighbor and Grad-CAM analyses show clinically plausible cross-dataset structure and thoracic attention patterns in many cases, while device-heavy and false-positive cases remain ambiguous.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042713",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25251v1",
+      "text": "Auxiliary architecture checks are task-dependent and do not support a universal backbone ranking.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…nearest-neighbor and Grad-CAM analyses show clinically plausible cross-dataset structure and thoracic attention patterns in many cases, while device-heavy and false-positive cases remain ambiguous. Auxiliary architecture checks are task-dependent and do not support a universal backbone ranking.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042714",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25251v1",
+      "text": "Overall, the study shows that apparent competence under a single protocol can conceal transfer, alignment, and shortcut-related failure modes, motivating stress-tested evaluation of medical VLMs under distribution shift.",
+      "type": "medical",
+      "support_in_text": 0.5,
+      "quote": "…checks are task-dependent and do not support a universal backbone ranking. Overall, the study shows that apparent competence under a single protocol can conceal transfer, alignment, and shortcut-related failure modes, motivating stress-tested evaluation of medical VLMs under distribution shift.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042715",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "Deploying large language models for professional financial review requires more than measuring general financial competence: models must perform the specific review operation required by a workflow",
+      "type": "normative",
+      "support_in_text": 0.5,
+      "quote": "Deploying large language models for professional financial review requires more than measuring general financial competence: models must perform the specific review operation required by a workflow and determine whether available evidence is sufficient for a defensible decision.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042716",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "determine whether available evidence is sufficient for a defensible decision.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Deploying large language models for professional financial review requires more than measuring general financial competence: models must perform the specific review operation required by a workflow and determine whether available evidence is sufficient for a defensible decision.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042717",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "their evaluation units are often organized around datasets or task formulations rather than the decisions that deployed systems support.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…available evidence is sufficient for a defensible decision. Existing financial benchmarks cover knowledge, reasoning, compliance, and professional tasks, but their evaluation units are often organized around datasets or task formulations rather than the decisions that deployed systems support.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042718",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "We introduce FinRiskAtlas, a Chinese-language benchmark that evaluates financial LLMs along two complementary dimensions: operation execution under fixed evidence states",
+      "type": "financial",
+      "support_in_text": 0.6,
+      "quote": "…rather than the decisions that deployed systems support. We introduce FinRiskAtlas, a Chinese-language benchmark that evaluates financial LLMs along two complementary dimensions: operation execution under fixed evidence states and evidence-state control under evolving review conditions.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042719",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "evidence-state control under evolving review conditions.",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "…rather than the decisions that deployed systems support. We introduce FinRiskAtlas, a Chinese-language benchmark that evaluates financial LLMs along two complementary dimensions: operation execution under fixed evidence states and evidence-state control under evolving review conditions.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042720",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "The static benchmark contains 9,742 instances across 53 task families, including 42 Domain Knowledge families and eleven downstream review operations defined by explicit evaluation contracts.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…execution under fixed evidence states and evidence-state control under evolving review conditions. The static benchmark contains 9,742 instances across 53 task families, including 42 Domain Knowledge families and eleven downstream review operations defined by explicit evaluation contracts.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042721",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "FinRisk-Ask extends this framework through offline replay of 680 pre-action states from 104 de-identified professional trajectories, withholding future evidence during inference and using it only to construct expert-verified evidence targets.",
+      "type": "predictive",
+      "support_in_text": 0.6,
+      "quote": "…operations defined by explicit evaluation contracts. FinRisk-Ask extends this framework through offline replay of 680 pre-action states from 104 de-identified professional trajectories, withholding future evidence during inference and using it only to construct expert-verified evidence targets.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042722",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "Across 33 model configurations, operation-level evaluation yields non-redundant rankings (mean pairwise Spearman correlation 0.42 across downstream operations)",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…expert-verified evidence targets. Across 33 model configurations, operation-level evaluation yields non-redundant rankings (mean pairwise Spearman correlation 0.42 across downstream operations), and knowledge-based shortlisting can incur up to 18.01 points of regret on individual operations.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042723",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "knowledge-based shortlisting can incur up to 18.01 points of regret on individual operations.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…expert-verified evidence targets. Across 33 model configurations, operation-level evaluation yields non-redundant rankings (mean pairwise Spearman correlation 0.42 across downstream operations), and knowledge-based shortlisting can incur up to 18.01 points of regret on individual operations.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042724",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "FinRisk-Ask further shows that entering the Ask branch more frequently does not necessarily improve request targeting or end-to-end evidence acquisition.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…correlation 0.42 across downstream operations), and knowledge-based shortlisting can incur up to 18.01 points of regret on individual operations. FinRisk-Ask further shows that entering the Ask branch more frequently does not necessarily improve request targeting or end-to-end evidence acquisition.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042725",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "These results show that broad financial capability scores do not fully capture where models are reliable in professional workflows, motivating evaluation units aligned with the decisions",
+      "type": "financial",
+      "support_in_text": 0.5,
+      "quote": "…request targeting or end-to-end evidence acquisition. These results show that broad financial capability scores do not fully capture where models are reliable in professional workflows, motivating evaluation units aligned with the decisions and evidence states that deployed systems must support.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042726",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25325v1",
+      "text": "evidence states that deployed systems must support.",
+      "type": "normative",
+      "support_in_text": 0.5,
+      "quote": "…request targeting or end-to-end evidence acquisition. These results show that broad financial capability scores do not fully capture where models are reliable in professional workflows, motivating evaluation units aligned with the decisions and evidence states that deployed systems must support.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042727",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "Physics-Informed Neural Networks (PINNs) frequently fail on stiff or advection-dominated PDEs",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Physics-Informed Neural Networks (PINNs) frequently fail on stiff or advection-dominated PDEs, and two recent accounts offer competing remedies: switching from FP32 to FP64 to repair an L-BFGS stopping artifact, or replacing the MLP with a state-space-model (SSM) backbone plus sub-sequence alignment",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042728",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "two recent accounts offer competing remedies: switching from FP32 to FP64 to repair an L-BFGS stopping artifact, or replacing the MLP with a state-space-model (SSM) backbone plus sub-sequence alignment to counter architectural simplicity bias.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Physics-Informed Neural Networks (PINNs) frequently fail on stiff or advection-dominated PDEs, and two recent accounts offer competing remedies: switching from FP32 to FP64 to repair an L-BFGS stopping artifact, or replacing the MLP with a state-space-model (SSM) backbone plus sub-sequence alignment",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042729",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "We test both under matched, seed-paired controls in a pre-registered 144-run study spanning convection, reaction",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…plus sub-sequence alignment to counter architectural simplicity bias. We test both under matched, seed-paired controls in a pre-registered 144-run study spanning convection, reaction, and wave, plus an independent 85-run convection/wave study; success is relative $\\ell_2$ error below $0.05$.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042730",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "wave, plus an independent 85-run convection/wave study",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…plus sub-sequence alignment to counter architectural simplicity bias. We test both under matched, seed-paired controls in a pre-registered 144-run study spanning convection, reaction, and wave, plus an independent 85-run convection/wave study; success is relative $\\ell_2$ error below $0.05$.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042731",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "success is relative $\\ell_2$ error below $0.05$.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…plus sub-sequence alignment to counter architectural simplicity bias. We test both under matched, seed-paired controls in a pre-registered 144-run study spanning convection, reaction, and wave, plus an independent 85-run convection/wave study; success is relative $\\ell_2$ error below $0.05$.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042732",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "The two remedies act on disjoint regime-and-seed slices: neither substitutes for the other.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…matched, seed-paired controls in a pre-registered 144-run study spanning convection, reaction, and wave, plus an independent 85-run convection/wave study; success is relative $\\ell_2$ error below $0.05$. The two remedies act on disjoint regime-and-seed slices: neither substitutes for the other.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042733",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "On hard convection ($β{=}50$), alignment recovers 2/5 seeds in FP32",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "On hard convection ($β{=}50$), alignment recovers 2/5 seeds in FP32 and 3/5 in FP64, where the unaligned SSM succeeds on 0/5 seeds at either precision and the vanilla MLP moves only from 0/5 to 1/5 across the precision switch---the recoveries trace to the alignment objective, not the backbone.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042734",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "3/5 in FP64, where the unaligned SSM succeeds on 0/5 seeds at either precision",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "On hard convection ($β{=}50$), alignment recovers 2/5 seeds in FP32 and 3/5 in FP64, where the unaligned SSM succeeds on 0/5 seeds at either precision and the vanilla MLP moves only from 0/5 to 1/5 across the precision switch---the recoveries trace to the alignment objective, not the backbone.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042735",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "the vanilla MLP moves only from 0/5 to 1/5 across the precision switch---the recoveries trace to the alignment objective, not the backbone.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "On hard convection ($β{=}50$), alignment recovers 2/5 seeds in FP32 and 3/5 in FP64, where the unaligned SSM succeeds on 0/5 seeds at either precision and the vanilla MLP moves only from 0/5 to 1/5 across the precision switch---the recoveries trace to the alignment objective, not the backbone.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042736",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "On reaction the backbone alone already succeeds on 3/5--4/5 seeds, so each remedy covers a regime the other does not.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…on 0/5 seeds at either precision and the vanilla MLP moves only from 0/5 to 1/5 across the precision switch---the recoveries trace to the alignment objective, not the backbone. On reaction the backbone alone already succeeds on 3/5--4/5 seeds, so each remedy covers a regime the other does not.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042737",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "Responses are also seed-specific: the same precision switch flips individual seeds in opposite directions and, on wave, lowers median error with no statistically significant success gain.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…the backbone alone already succeeds on 3/5--4/5 seeds, so each remedy covers a regime the other does not. Responses are also seed-specific: the same precision switch flips individual seeds in opposite directions and, on wave, lowers median error with no statistically significant success gain.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042738",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25327v1",
+      "text": "alignment must therefore be evaluated jointly and reported per seed.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "Tightening the inner L-BFGS tolerance in an independent repeated-step runner likewise lowers median error at a large runtime cost, with success counts unchanged. Precision, stopping, backbone, and alignment must therefore be evaluated jointly and reported per seed.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042739",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25390v1",
+      "text": "Refusal geometry reflects refusal training: diverse refusal prefixes can raise stable rank and weaken refusal vector ablation attacks",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Refusal geometry reflects refusal training: diverse refusal prefixes can raise stable rank and weaken refusal vector ablation attacks",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042740",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25390v1",
+      "text": "Refusal training protects AI models from jailbreaks by training models to decline unsafe queries, reducing the risk of misuse.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Refusal training protects AI models from jailbreaks by training models to decline unsafe queries, reducing the risk of misuse.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042741",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25390v1",
+      "text": "Recent work finds that refusal behavior in aligned language models can be mediated by a single activation direction or a low-dimensional refusal subspace shared across harmful prompts: ablating those directions suppresses refusals while largely preserves other model capabilities.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…risk of misuse. Recent work finds that refusal behavior in aligned language models can be mediated by a single activation direction or a low-dimensional refusal subspace shared across harmful prompts: ablating those directions suppresses refusals while largely preserves other model capabilities.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042742",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25390v1",
+      "text": "In a case study of OLMo-2-0425-1B-Instruct we find that the refusal geometry reflects refusal training: activation updates resulting from refusal-completion first-token losses explain the resulting refusal direction and refusal subspace.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…of models emerge and concentrated, low-dimensional structure. In a case study of OLMo-2-0425-1B-Instruct we find that the refusal geometry reflects refusal training: activation updates resulting from refusal-completion first-token losses explain the resulting refusal direction and refusal subspace.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042743",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25390v1",
+      "text": "reveal that their brittleness is associated with repetitive refusal starts, which in turn is linked to concentration of gradients and refusal features in a low-dimensional subspace.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…direction and refusal subspace. We study refusal directions through the training dynamics across refusal datasets and reveal that their brittleness is associated with repetitive refusal starts, which in turn is linked to concentration of gradients and refusal features in a low-dimensional subspace.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042744",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25390v1",
+      "text": "controlled synthetic fine-tuning, we find evidence of a hardening lever: diverse refusal starts can raise stable ranks of gradients and activation changes, making refusals harder to remove with a vector ablation attack.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…features in a low-dimensional subspace. Across frozen-model analyses and controlled synthetic fine-tuning, we find evidence of a hardening lever: diverse refusal starts can raise stable ranks of gradients and activation changes, making refusals harder to remove with a vector ablation attack.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042745",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25410v1",
+      "text": "However, directly transmitting token embeddings presents two practical challenges: substantial communication cost and limited interoperability across model-specific token embedding spaces.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…a promising direction for client--server collaborative inference in resource-constrained edge systems. However, directly transmitting token embeddings presents two practical challenges: substantial communication cost and limited interoperability across model-specific token embedding spaces.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042746",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25410v1",
+      "text": "In this framework, token-level task relevance determines which compressed image latents are transmitted, enabling token-granular transmission without directly transmitting token embeddings.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "To address these challenges, we propose a \\emph{token-oriented} semantic communication framework. In this framework, token-level task relevance determines which compressed image latents are transmitted, enabling token-granular transmission without directly transmitting token embeddings.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042747",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25410v1",
+      "text": "The framework is modular, coordinating three pretrained components---a lightweight client-side vision transformer (ViT), a learned image compression (LIC) model",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…token-granular transmission without directly transmitting token embeddings. The framework is modular, coordinating three pretrained components---a lightweight client-side vision transformer (ViT), a learned image compression (LIC) model, and a large server-side ViT---without end-to-end training.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042748",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25410v1",
+      "text": "a large server-side ViT---without end-to-end training.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…token-granular transmission without directly transmitting token embeddings. The framework is modular, coordinating three pretrained components---a lightweight client-side vision transformer (ViT), a learned image compression (LIC) model, and a large server-side ViT---without end-to-end training.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042749",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25410v1",
+      "text": "The key enabler is the one-to-one spatial alignment between ViT patch tokens",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…image compression (LIC) model, and a large server-side ViT---without end-to-end training. The key enabler is the one-to-one spatial alignment between ViT patch tokens and the LIC latent vectors, which allows token-level task relevance to directly determine which latent vectors are transmitted.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042750",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25410v1",
+      "text": "the LIC latent vectors, which allows token-level task relevance to directly determine which latent vectors are transmitted.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…image compression (LIC) model, and a large server-side ViT---without end-to-end training. The key enabler is the one-to-one spatial alignment between ViT patch tokens and the LIC latent vectors, which allows token-level task relevance to directly determine which latent vectors are transmitted.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042751",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25410v1",
+      "text": "Experiments on ImageNet show that the proposed framework achieves a more favorable rate--accuracy trade-off than recent semantic communication schemes, hand-crafted codecs, and task-agnostic LIC models.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…token substitution adapts the frozen server model by optimizing a single learnable token. Experiments on ImageNet show that the proposed framework achieves a more favorable rate--accuracy trade-off than recent semantic communication schemes, hand-crafted codecs, and task-agnostic LIC models.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042752",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25429v1",
+      "text": "Distance Is Not Enough: Forget-Retain Alignment Gap Predicts LLM Relearning Robustness",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Distance Is Not Enough: Forget-Retain Alignment Gap Predicts LLM Relearning Robustness",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042753",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25429v1",
+      "text": "Machine unlearning aims to make a model forget specific data, yet unlearned LLMs often fail to stay unlearned: brief fine-tuning can revive removed knowledge.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Machine unlearning aims to make a model forget specific data, yet unlearned LLMs often fail to stay unlearned: brief fine-tuning can revive removed knowledge.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042754",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25429v1",
+      "text": "distance alone can be misleading when random or destructive updates collapse performance.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…make a model forget specific data, yet unlearned LLMs often fail to stay unlearned: brief fine-tuning can revive removed knowledge. Existing robustness predictors rely on global weight-space displacement, but distance alone can be misleading when random or destructive updates collapse performance.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042755",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25429v1",
+      "text": "We argue that relearning robustness depends on update structure: robust unlearning should affect forget-critical weights while sparing retain-critical ones.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…rely on global weight-space displacement, but distance alone can be misleading when random or destructive updates collapse performance. We argue that relearning robustness depends on update structure: robust unlearning should affect forget-critical weights while sparing retain-critical ones.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042756",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25429v1",
+      "text": "Building on the forget-critical, retain-sparing principle, Forget-Retain Pruning (FRP) improves relearning robustness.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…predictor that scores an update's forget-retain alignment without running a relearning attack, and separates selective from dense updates more reliably than global distance. Building on the forget-critical, retain-sparing principle, Forget-Retain Pruning (FRP) improves relearning robustness.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042757",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25429v1",
+      "text": "Our results suggest that weight selectivity better explains robustness than distance alone.",
+      "type": "normative",
+      "support_in_text": 0.32,
+      "quote": "Building on the forget-critical, retain-sparing principle, Forget-Retain Pruning (FRP) improves relearning robustness. Our results suggest that weight selectivity better explains robustness than distance alone.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042758",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25429v1",
+      "text": "Code is available at https://github.com/Yi1-Chen/FRAG.",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "Our results suggest that weight selectivity better explains robustness than distance alone. Code is available at https://github.com/Yi1-Chen/FRAG.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042759",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "VGA-BenchV2: An Expanded Unified Benchmark and Multi-Model Framework for Evaluating Video Aesthetics and Generation Quality",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "VGA-BenchV2: An Expanded Unified Benchmark and Multi-Model Framework for Evaluating Video Aesthetics and Generation Quality",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042760",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "We introduce VGA-BenchV2, an extended human-aligned benchmark and optimization framework for jointly evaluating and improving video generation quality and aesthetic value.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "We introduce VGA-BenchV2, an extended human-aligned benchmark and optimization framework for jointly evaluating and improving video generation quality and aesthetic value.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042761",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "Built upon VGA-Bench, VGA-BenchV2 preserves the original fine-grained taxonomy with two primary dimensions-Aesthetic and Generation-and 52 sub-dimensions.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…extended human-aligned benchmark and optimization framework for jointly evaluating and improving video generation quality and aesthetic value. Built upon VGA-Bench, VGA-BenchV2 preserves the original fine-grained taxonomy with two primary dimensions-Aesthetic and Generation-and 52 sub-dimensions.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042762",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "Guided by this taxonomy, we curate 1,016 diverse prompts",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Built upon VGA-Bench, VGA-BenchV2 preserves the original fine-grained taxonomy with two primary dimensions-Aesthetic and Generation-and 52 sub-dimensions. Guided by this taxonomy, we curate 1,016 diverse prompts and collect over 60,000 videos generated by 12 mainstream video generation models.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042763",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "collect over 60,000 videos generated by 12 mainstream video generation models.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Built upon VGA-Bench, VGA-BenchV2 preserves the original fine-grained taxonomy with two primary dimensions-Aesthetic and Generation-and 52 sub-dimensions. Guided by this taxonomy, we curate 1,016 diverse prompts and collect over 60,000 videos generated by 12 mainstream video generation models.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042764",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "More importantly, VGA-BenchV2 substantially expands human-labeled supervision by adding 36,000 task-level annotations, including 16,200 for aesthetic quality, 13,200 for aesthetic tagging",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "More importantly, VGA-BenchV2 substantially expands human-labeled supervision by adding 36,000 task-level annotations, including 16,200 for aesthetic quality, 13,200 for aesthetic tagging, and 6,600 for generation quality, corresponding to 13.46x, 11.15x, and 1.55x scale-ups over VGA-Bench, respecti",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042765",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "6,600 for generation quality, corresponding to 13.46x, 11.15x",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "More importantly, VGA-BenchV2 substantially expands human-labeled supervision by adding 36,000 task-level annotations, including 16,200 for aesthetic quality, 13,200 for aesthetic tagging, and 6,600 for generation quality, corresponding to 13.46x, 11.15x, and 1.55x scale-ups over VGA-Bench, respecti",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042766",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "1.55x scale-ups over VGA-Bench, respectively.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "More importantly, VGA-BenchV2 substantially expands human-labeled supervision by adding 36,000 task-level annotations, including 16,200 for aesthetic quality, 13,200 for aesthetic tagging, and 6,600 for generation quality, corresponding to 13.46x, 11.15x, and 1.55x scale-ups over VGA-Bench, respecti",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042767",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "two Qwen-based Large Vision-Language Model evaluators, VTag-Net and VGQA-Net, for aesthetic tagging and generation quality assessment.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…respectively. Leveraging this enlarged annotation corpus, we develop a hybrid evaluator architecture consisting of VAQA-Net for continuous aesthetic scoring and two Qwen-based Large Vision-Language Model evaluators, VTag-Net and VGQA-Net, for aesthetic tagging and generation quality assessment.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042768",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "Beyond evaluation, VGA-BenchV2 further introduces an evaluation-to-optimization pipeline, where the learned aesthetic evaluator serves as a reward model for reinforcement learning-based generator fine-tuning.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…demonstrate strong alignment with human judgments across diverse generation models. Beyond evaluation, VGA-BenchV2 further introduces an evaluation-to-optimization pipeline, where the learned aesthetic evaluator serves as a reward model for reinforcement learning-based generator fine-tuning.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042769",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "model optimization, enabling video generators to improve not only in realism but also in aesthetic quality and human preference alignment.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…model for reinforcement learning-based generator fine-tuning. This closes the loop from benchmark construction and human supervision to automated evaluation and model optimization, enabling video generators to improve not only in realism but also in aesthetic quality and human preference alignment.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042770",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25452v1",
+      "text": "Resources are available at https://huggingface.co/datasets/BestiVictoryLab/VGA-Bench.",
+      "type": "descriptive",
+      "support_in_text": 0.55,
+      "quote": "…benchmark construction and human supervision to automated evaluation and model optimization, enabling video generators to improve not only in realism but also in aesthetic quality and human preference alignment. Resources are available at https://huggingface.co/datasets/BestiVictoryLab/VGA-Bench.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042771",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25460v1",
+      "text": "current automated auditors can struggle with coherent investigation and audit realism.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Alignment auditing of frontier models increasingly relies on LLM auditors to surface undesirable behaviors at scale, but current automated auditors can struggle with coherent investigation and audit realism.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042772",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25460v1",
+      "text": "In this work, we improve LLM auditors with reinforcement learning.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Alignment auditing of frontier models increasingly relies on LLM auditors to surface undesirable behaviors at scale, but current automated auditors can struggle with coherent investigation and audit realism. In this work, we improve LLM auditors with reinforcement learning.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042773",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25460v1",
+      "text": "An LLM judge, which knows whether the target has a hidden behavior, holistically compares the policy's investigation to a reference investigation to determine the reward.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…environment, the policy investigates target models that potentially possess hidden behaviors planted via their system prompt. An LLM judge, which knows whether the target has a hidden behavior, holistically compares the policy's investigation to a reference investigation to determine the reward.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042774",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25460v1",
+      "text": "Training improves investigation quality against targets with planted behaviors, the rate of concerning behaviors surfaced in unmodified production models",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…adding targets without planted behaviors helps maintain a low false positive rate. Training improves investigation quality against targets with planted behaviors, the rate of concerning behaviors surfaced in unmodified production models, and audit realism, while false-positive rates stay below 1%.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042775",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25460v1",
+      "text": "audit realism, while false-positive rates stay below 1%.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…adding targets without planted behaviors helps maintain a low false positive rate. Training improves investigation quality against targets with planted behaviors, the rate of concerning behaviors surfaced in unmodified production models, and audit realism, while false-positive rates stay below 1%.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042776",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25460v1",
+      "text": "Furthermore, auditing capabilities generalize across scaffolds: performance on AuditBench's adversarially fine-tuned targets substantially improves [Sheshadri et al., 2026].",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…concerning behaviors surfaced in unmodified production models, and audit realism, while false-positive rates stay below 1%. Furthermore, auditing capabilities generalize across scaffolds: performance on AuditBench's adversarially fine-tuned targets substantially improves [Sheshadri et al., 2026].",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042777",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25465v1",
+      "text": "Visual inspection of welded assemblies remains one of the least automated stages in many industrial production processes, still depending largely on the experience of human operators and thus subject to inter-operator variability",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "Visual inspection of welded assemblies remains one of the least automated stages in many industrial production processes, still depending largely on the experience of human operators and thus subject to inter-operator variability; the manufacturing of special-purpose machinery cabins, the setting of",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042778",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25465v1",
+      "text": "the manufacturing of special-purpose machinery cabins, the setting of this study, is one representative case.",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "Visual inspection of welded assemblies remains one of the least automated stages in many industrial production processes, still depending largely on the experience of human operators and thus subject to inter-operator variability; the manufacturing of special-purpose machinery cabins, the setting of",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042779",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25465v1",
+      "text": "This work evaluates the feasibility of automatic weld seam segmentation from RGB and polarimetric imagery, comparing controlled laboratory acquisitions with images captured under real, uncontrolled conditions.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…special-purpose machinery cabins, the setting of this study, is one representative case. This work evaluates the feasibility of automatic weld seam segmentation from RGB and polarimetric imagery, comparing controlled laboratory acquisitions with images captured under real, uncontrolled conditions.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042780",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25465v1",
+      "text": "transformer-based architectures are benchmarked under a unified, threshold-independent protocol, training each CNN with three random seeds to separate genuine effects from seed noise.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…with images captured under real, uncontrolled conditions. Convolutional neural network (CNN) architectures and transformer-based architectures are benchmarked under a unified, threshold-independent protocol, training each CNN with three random seeds to separate genuine effects from seed noise.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042781",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25465v1",
+      "text": "In controlled RGB conditions, CNN models reach a mean mask mAP50 of up to 0.87",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…each CNN with three random seeds to separate genuine effects from seed noise. In controlled RGB conditions, CNN models reach a mean mask mAP50 of up to 0.87, but drop to 0.22-0.48 under uncontrolled acquisition, showing that the acquisition setup is a first-order component of the inspection system.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042782",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25465v1",
+      "text": "drop to 0.22-0.48 under uncontrolled acquisition, showing that the acquisition setup is a first-order component of the inspection system.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…each CNN with three random seeds to separate genuine effects from seed noise. In controlled RGB conditions, CNN models reach a mean mask mAP50 of up to 0.87, but drop to 0.22-0.48 under uncontrolled acquisition, showing that the acquisition setup is a first-order component of the inspection system.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042783",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25465v1",
+      "text": "Polarimetric imaging with alignment-preserving geometric augmentation localizes previously unseen welds with a mean mask mAP50 up to 0.93: on par with, rather than ahead of, the best controlled-RGB result, but reaching that accuracy on uncontrolled RGB without requiring acquisition control.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…system. Polarimetric imaging with alignment-preserving geometric augmentation localizes previously unseen welds with a mean mask mAP50 up to 0.93: on par with, rather than ahead of, the best controlled-RGB result, but reaching that accuracy on uncontrolled RGB without requiring acquisition control.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042784",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25465v1",
+      "text": "CNNs are broadly comparable; but under a test-time viewpoint shift, the transformer models",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "The clearest architectural finding concerns viewpoint robustness. In-distribution, transformers and CNNs are broadly comparable; but under a test-time viewpoint shift, the transformer models, and RF-DETR in particular, retain high accuracy while every CNN collapses.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042785",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25465v1",
+      "text": "RF-DETR in particular, retain high accuracy while every CNN collapses.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "The clearest architectural finding concerns viewpoint robustness. In-distribution, transformers and CNNs are broadly comparable; but under a test-time viewpoint shift, the transformer models, and RF-DETR in particular, retain high accuracy while every CNN collapses.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042786",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25465v1",
+      "text": "The gap holds across three seeds and a resolution-matched control, pointing to architecture rather than training resolution.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…and CNNs are broadly comparable; but under a test-time viewpoint shift, the transformer models, and RF-DETR in particular, retain high accuracy while every CNN collapses. The gap holds across three seeds and a resolution-matched control, pointing to architecture rather than training resolution.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042787",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25465v1",
+      "text": "Within the CNN family, capacity brings no reliable in-distribution gain once seed variance is accounted for: small CNNs suffice for fixed viewpoints, transformers for variable ones.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…holds across three seeds and a resolution-matched control, pointing to architecture rather than training resolution. Within the CNN family, capacity brings no reliable in-distribution gain once seed variance is accounted for: small CNNs suffice for fixed viewpoints, transformers for variable ones.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042788",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25490v1",
+      "text": "Multimodal Large Language Models (MLLMs) are increasingly deployed in real-world applications, yet how different factors shape their jailbreak vulnerabilities remains poorly understood.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Multimodal Large Language Models (MLLMs) are increasingly deployed in real-world applications, yet how different factors shape their jailbreak vulnerabilities remains poorly understood.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042789",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25490v1",
+      "text": "Large-scale evaluations across 16 open-weight and proprietary MLLMs reveal highly heterogeneous and model-dependent vulnerability profiles.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…benchmark that systematically varies and combines these factors under controlled configurations, enabling fine-grained comparison and factor-level attribution. Large-scale evaluations across 16 open-weight and proprietary MLLMs reveal highly heterogeneous and model-dependent vulnerability profiles.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042790",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25490v1",
+      "text": "Prompt framing emerges as the dominant source of variation, task-relevant visual semantics systematically increase jailbreak susceptibility with authority-like cues exposing particularly pronounced vulnerabilities",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Prompt framing emerges as the dominant source of variation, task-relevant visual semantics systematically increase jailbreak susceptibility with authority-like cues exposing particularly pronounced vulnerabilities, and visually rendered instructions do not consistently increase jailbreak susceptibil",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042791",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25490v1",
+      "text": "visually rendered instructions do not consistently increase jailbreak susceptibility relative to direct textual instructions.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Prompt framing emerges as the dominant source of variation, task-relevant visual semantics systematically increase jailbreak susceptibility with authority-like cues exposing particularly pronounced vulnerabilities, and visually rendered instructions do not consistently increase jailbreak susceptibil",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042792",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25495v1",
+      "text": "However, many existing approaches to human action recognition rely either on sparse skeletal representations, which lack fine-grained motion cues, or dense optical flow, which can be computationally expensive for low-latency perception pipelines.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…order to respond safely, efficiently, and naturally. However, many existing approaches to human action recognition rely either on sparse skeletal representations, which lack fine-grained motion cues, or dense optical flow, which can be computationally expensive for low-latency perception pipelines.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042793",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25495v1",
+      "text": "By conditioning motion feature extraction on human pose, PoseOFF encodes localised motion dynamics at semantically meaningful body locations, forming a structured motion representation that is explicitly aligned with human kinematics.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…human joints to support earlier human intent understanding. By conditioning motion feature extraction on human pose, PoseOFF encodes localised motion dynamics at semantically meaningful body locations, forming a structured motion representation that is explicitly aligned with human kinematics.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042794",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25495v1",
+      "text": "Our results show that PoseOFF enables models to achieve comparable or improved performance while observing less of the action sequence, highlighting its effectiveness for early prediction.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…demonstrating consistent improvements in recognition accuracy, particularly at early observation ratios. Our results show that PoseOFF enables models to achieve comparable or improved performance while observing less of the action sequence, highlighting its effectiveness for early prediction.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042795",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25495v1",
+      "text": "Importantly, these gains are achieved without requiring full-frame motion processing, making the approach practical for real-time and resource-constrained settings.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…comparable or improved performance while observing less of the action sequence, highlighting its effectiveness for early prediction. Importantly, these gains are achieved without requiring full-frame motion processing, making the approach practical for real-time and resource-constrained settings.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042796",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25495v1",
+      "text": "These findings suggest that pose-centred motion representations such as PoseOFF can enhance the ability of interactive robot systems to infer human actions earlier, supporting more responsive and anticipatory behaviour in human-robot interaction scenarios.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…and resource-constrained settings. These findings suggest that pose-centred motion representations such as PoseOFF can enhance the ability of interactive robot systems to infer human actions earlier, supporting more responsive and anticipatory behaviour in human-robot interaction scenarios.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042797",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25569v1",
+      "text": "During inference, these vectors are injected into the final residual stream with static or scenario-adaptive scaling, enabling continuous control over emotional intensity without updating model weights.",
+      "type": "historical",
+      "support_in_text": 0.25,
+      "quote": "…and further refines them through task-specific debiasing and principal subspace removal. During inference, these vectors are injected into the final residual stream with static or scenario-adaptive scaling, enabling continuous control over emotional intensity without updating model weights.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042798",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25569v1",
+      "text": "Experiments across three LLMs",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…static or scenario-adaptive scaling, enabling continuous control over emotional intensity without updating model weights. Experiments across three LLMs and eight emotions show that EmoVec consistently improves emotional salience while largely preserving semantic content, fluency, and coherence.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042799",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25569v1",
+      "text": "eight emotions show that EmoVec consistently improves emotional salience while largely preserving semantic content, fluency, and coherence.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…static or scenario-adaptive scaling, enabling continuous control over emotional intensity without updating model weights. Experiments across three LLMs and eight emotions show that EmoVec consistently improves emotional salience while largely preserving semantic content, fluency, and coherence.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042800",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25777v1",
+      "text": "Across four representative state-of-the-art frameworks, replacing GPT-5 with Qwen3.5-9B reduces average OSWorld SR-100 from 60.9\\% to 37.7\\%.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "This dependence becomes more pronounced under weaker local reasoning backbones. Across four representative state-of-the-art frameworks, replacing GPT-5 with Qwen3.5-9B reduces average OSWorld SR-100 from 60.9\\% to 37.7\\%.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042801",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25777v1",
+      "text": "Trajectory annotation further identifies at least one control failure in 91.6\\% of failed trajectories.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Across four representative state-of-the-art frameworks, replacing GPT-5 with Qwen3.5-9B reduces average OSWorld SR-100 from 60.9\\% to 37.7\\%. Trajectory annotation further identifies at least one control failure in 91.6\\% of failed trajectories.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042802",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25777v1",
+      "text": "To address this problem, we introduce LocalLSTC, a training-free architecture that organizes control by temporal scope, maintaining persistent cross-step state to guide short-term execution commitments.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…annotation further identifies at least one control failure in 91.6\\% of failed trajectories. To address this problem, we introduce LocalLSTC, a training-free architecture that organizes control by temporal scope, maintaining persistent cross-step state to guide short-term execution commitments.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042803",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25777v1",
+      "text": "Long-to-Short Planning forms each commitment from persistent state",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…across interactions, while Short-Term Execution realizes bounded commitments for the current step. Long-to-Short Planning forms each commitment from persistent state, and Short-to-Long Control integrates execution outcomes back into that state for progress assessment, recovery, and termination.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042804",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25777v1",
+      "text": "Short-to-Long Control integrates execution outcomes back into that state for progress assessment, recovery, and termination.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…across interactions, while Short-Term Execution realizes bounded commitments for the current step. Long-to-Short Planning forms each commitment from persistent state, and Short-to-Long Control integrates execution outcomes back into that state for progress assessment, recovery, and termination.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042805",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25777v1",
+      "text": "With Qwen3.6-27B, LocalLSTC reaches 64.7\\% SR-100 on OSWorld",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…state, and Short-to-Long Control integrates execution outcomes back into that state for progress assessment, recovery, and termination. With Qwen3.6-27B, LocalLSTC reaches 64.7\\% SR-100 on OSWorld and 65.3\\% on WindowsAgentArena, outperforming the strongest prior local results on both benchmarks.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042806",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25777v1",
+      "text": "65.3\\% on WindowsAgentArena, outperforming the strongest prior local results on both benchmarks.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…state, and Short-to-Long Control integrates execution outcomes back into that state for progress assessment, recovery, and termination. With Qwen3.6-27B, LocalLSTC reaches 64.7\\% SR-100 on OSWorld and 65.3\\% on WindowsAgentArena, outperforming the strongest prior local results on both benchmarks.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042807",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25841v1",
+      "text": "Drug synergy prediction estimates whether two drugs produce a stronger joint effect than expected from their individual activities.",
+      "type": "medical",
+      "support_in_text": 0.35,
+      "quote": "Drug synergy prediction estimates whether two drugs produce a stronger joint effect than expected from their individual activities.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042808",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25841v1",
+      "text": "For drug combination discovery, a single synergy score is often not enough: researchers also need to know which molecular regions jointly drive the prediction.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "Drug synergy prediction estimates whether two drugs produce a stronger joint effect than expected from their individual activities. For drug combination discovery, a single synergy score is often not enough: researchers also need to know which molecular regions jointly drive the prediction.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042809",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25841v1",
+      "text": "We study motif-pair synergy explanation, which identifies pairs of chemically coherent regions, one from each drug, that jointly contribute to predicted synergy.",
+      "type": "medical",
+      "support_in_text": 0.6,
+      "quote": "…a single synergy score is often not enough: researchers also need to know which molecular regions jointly drive the prediction. We study motif-pair synergy explanation, which identifies pairs of chemically coherent regions, one from each drug, that jointly contribute to predicted synergy.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042810",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25841v1",
+      "text": "their explanations are built into the predictor architecture",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…to predicted synergy. Existing interpretable synergy models expose atom- or substructure-level signals, but their explanations are built into the predictor architecture, and none validates cross-drug region scores under repeated perturbations or feeds that evidence back to refine the explanation.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042811",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25841v1",
+      "text": "none validates cross-drug region scores under repeated perturbations or feeds that evidence back to refine the explanation.",
+      "type": "medical",
+      "support_in_text": 0.5,
+      "quote": "…to predicted synergy. Existing interpretable synergy models expose atom- or substructure-level signals, but their explanations are built into the predictor architecture, and none validates cross-drug region scores under repeated perturbations or feeds that evidence back to refine the explanation.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042812",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25841v1",
+      "text": "A reliable motif-pair explanation should instead be chemically coherent, perturbation-stable, and aligned with predictor behavior.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…built into the predictor architecture, and none validates cross-drug region scores under repeated perturbations or feeds that evidence back to refine the explanation. A reliable motif-pair explanation should instead be chemically coherent, perturbation-stable, and aligned with predictor behavior.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042813",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25841v1",
+      "text": "The validated evidence is fed back to refine motif assignments, yielding explanations that satisfy these three criteria.",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "…atom-pair evidence from attention and gradient signals, groups atoms into chemically coherent motifs, and validates candidate motif pairs through repeated local perturbations. The validated evidence is fed back to refine motif assignments, yielding explanations that satisfy these three criteria.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042814",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25841v1",
+      "text": "On a 25-pair literature-annotated subset, VINCENT achieves a mean motif recall of 0.826 (95% CI: 0.78-0.87), compared with 0.49-0.66 for baselines.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "The validated evidence is fed back to refine motif assignments, yielding explanations that satisfy these three criteria. On a 25-pair literature-annotated subset, VINCENT achieves a mean motif recall of 0.826 (95% CI: 0.78-0.87), compared with 0.49-0.66 for baselines.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042815",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25841v1",
+      "text": "Across all 71 test pairs, its validated interaction scores yield a TP/TN separation of 3.36.",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "On a 25-pair literature-annotated subset, VINCENT achieves a mean motif recall of 0.826 (95% CI: 0.78-0.87), compared with 0.49-0.66 for baselines. Across all 71 test pairs, its validated interaction scores yield a TP/TN separation of 3.36.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042816",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25841v1",
+      "text": "These results show that closed-loop perturbation validation recovers literature-supported molecular regions more accurately than existing alternatives while producing cross-drug interaction scores that better reflect predictor behavior.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…validated interaction scores yield a TP/TN separation of 3.36. These results show that closed-loop perturbation validation recovers literature-supported molecular regions more accurately than existing alternatives while producing cross-drug interaction scores that better reflect predictor behavior.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042817",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25927v1",
+      "text": "This makes it difficult to maintain persistent consequences",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…existing video-based world models primarily learn dynamics from visual observations, which reveal outcomes rather than the underlying knowledge, rules, and mechanisms governing world evolution. This makes it difficult to maintain persistent consequences and support coherent, open-ended evolution.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042818",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25927v1",
+      "text": "support coherent, open-ended evolution.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…existing video-based world models primarily learn dynamics from visual observations, which reveal outcomes rather than the underlying knowledge, rules, and mechanisms governing world evolution. This makes it difficult to maintain persistent consequences and support coherent, open-ended evolution.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042819",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25927v1",
+      "text": "generating executable code to maintain persistent world state and perform rule-consistent evolution.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…the reasoning and coding capabilities of language models with the generative priors of video models. A coding agent serves as the world brain, reasoning about events and their consequences and generating executable code to maintain persistent world state and perform rule-consistent evolution.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042820",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25927v1",
+      "text": "To connect executable state with visual generation, we introduce a proxy representation that encodes frame-wise spatiotemporal constraints",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…state and perform rule-consistent evolution. To connect executable state with visual generation, we introduce a proxy representation that encodes frame-wise spatiotemporal constraints and is compiled into a proxy video, which conditions a video model to render high-fidelity visual observations.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042821",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25927v1",
+      "text": "is compiled into a proxy video, which conditions a video model to render high-fidelity visual observations.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…state and perform rule-consistent evolution. To connect executable state with visual generation, we introduce a proxy representation that encodes frame-wise spatiotemporal constraints and is compiled into a proxy video, which conditions a video model to render high-fidelity visual observations.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042822",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25927v1",
+      "text": "After fine-tuning on paired gameplay data, MiniMax-H3 follows proxy-based spatiotemporal specifications from simple interactive worlds built by the coding agent while preserving rich visual details and dynamics.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…for constructing aligned proxy-observation pairs from gameplay and real-world videos. After fine-tuning on paired gameplay data, MiniMax-H3 follows proxy-based spatiotemporal specifications from simple interactive worlds built by the coding agent while preserving rich visual details and dynamics.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042823",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25927v1",
+      "text": "These results demonstrate the potential of combining code for persistent world evolution with video models for flexible visual realization, providing a new path toward open-ended world models.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…simple interactive worlds built by the coding agent while preserving rich visual details and dynamics. These results demonstrate the potential of combining code for persistent world evolution with video models for flexible visual realization, providing a new path toward open-ended world models.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042824",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "Multimodal medical prediction often faces incomplete pairing: auxiliary modalities with complementary signal are available for only a subset of subjects (or none) and cannot be assumed at deployment.",
+      "type": "medical",
+      "support_in_text": 0.13,
+      "quote": "Multimodal medical prediction often faces incomplete pairing: auxiliary modalities with complementary signal are available for only a subset of subjects (or none) and cannot be assumed at deployment.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042825",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "We introduce PANDA (Prototype Anchored Data Alignment), a two-stage framework that transfers auxiliary information to a primary-modality model without auxiliary inputs at inference.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…with complementary signal are available for only a subset of subjects (or none) and cannot be assumed at deployment. We introduce PANDA (Prototype Anchored Data Alignment), a two-stage framework that transfers auxiliary information to a primary-modality model without auxiliary inputs at inference.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042826",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "Stage 1 learns a shared embedding from the paired subset and estimates class prototypes from auxiliary modalities",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…to a primary-modality model without auxiliary inputs at inference. Stage 1 learns a shared embedding from the paired subset and estimates class prototypes from auxiliary modalities; Stage 2 trains the primary encoder on all subjects using cross-entropy plus alignment to the frozen prototypes.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042827",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "Stage 2 trains the primary encoder on all subjects using cross-entropy plus alignment to the frozen prototypes.",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "…to a primary-modality model without auxiliary inputs at inference. Stage 1 learns a shared embedding from the paired subset and estimates class prototypes from auxiliary modalities; Stage 2 trains the primary encoder on all subjects using cross-entropy plus alignment to the frozen prototypes.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042828",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "Because supervision is defined at the class-prototype level, PANDA accommodates arbitrary pairing rates, including zero subject overlap.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…class prototypes from auxiliary modalities; Stage 2 trains the primary encoder on all subjects using cross-entropy plus alignment to the frozen prototypes. Because supervision is defined at the class-prototype level, PANDA accommodates arbitrary pairing rates, including zero subject overlap.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042829",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "We evaluate PANDA on two applications.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Because supervision is defined at the class-prototype level, PANDA accommodates arbitrary pairing rates, including zero subject overlap. We evaluate PANDA on two applications.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042830",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "On a 1,021-subject multi-scanner ADNI cohort, we perform AD/CN classification with three auxiliary modalities at distinct pairing rates: tabular scores (44.8%), FDG-PET (18.7%)",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "We evaluate PANDA on two applications. On a 1,021-subject multi-scanner ADNI cohort, we perform AD/CN classification with three auxiliary modalities at distinct pairing rates: tabular scores (44.8%), FDG-PET (18.7%), and external handwriting kinematics (0% overlap).",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042831",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "external handwriting kinematics (0% overlap).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "We evaluate PANDA on two applications. On a 1,021-subject multi-scanner ADNI cohort, we perform AD/CN classification with three auxiliary modalities at distinct pairing rates: tabular scores (44.8%), FDG-PET (18.7%), and external handwriting kinematics (0% overlap).",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042832",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "Relative to the same-backbone MRI-only baseline, PANDA attains AUC 0.868 +-0.020 (+7.9pp)",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…scores (44.8%), FDG-PET (18.7%), and external handwriting kinematics (0% overlap). Relative to the same-backbone MRI-only baseline, PANDA attains AUC 0.868 +-0.020 (+7.9pp) and reduces 1.5T CN false positives by 24.3pp; on a fully trainable Conv5-FC3 backbone it reaches AUC 0.893 (best overall).",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042833",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "reduces 1.5T CN false positives by 24.3pp",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…scores (44.8%), FDG-PET (18.7%), and external handwriting kinematics (0% overlap). Relative to the same-backbone MRI-only baseline, PANDA attains AUC 0.868 +-0.020 (+7.9pp) and reduces 1.5T CN false positives by 24.3pp; on a fully trainable Conv5-FC3 backbone it reaches AUC 0.893 (best overall).",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042834",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "on a fully trainable Conv5-FC3 backbone it reaches AUC 0.893 (best overall).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…scores (44.8%), FDG-PET (18.7%), and external handwriting kinematics (0% overlap). Relative to the same-backbone MRI-only baseline, PANDA attains AUC 0.868 +-0.020 (+7.9pp) and reduces 1.5T CN false positives by 24.3pp; on a fully trainable Conv5-FC3 backbone it reaches AUC 0.893 (best overall).",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042835",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "A pairing-rate ablation shows that the joint anchor remains within seed noise from 75% to 5% pairing.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…same-backbone MRI-only baseline, PANDA attains AUC 0.868 +-0.020 (+7.9pp) and reduces 1.5T CN false positives by 24.3pp; on a fully trainable Conv5-FC3 backbone it reaches AUC 0.893 (best overall). A pairing-rate ablation shows that the joint anchor remains within seed noise from 75% to 5% pairing.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042836",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "On TCGA-Lung survival prediction from whole-slide images with RNA-seq as auxiliary data, PANDA improves over WSI-only on 2-year OS (AUC +3.5pp)",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "On TCGA-Lung survival prediction from whole-slide images with RNA-seq as auxiliary data, PANDA improves over WSI-only on 2-year OS (AUC +3.5pp) and Cox PH (C-index +9.0pts) and outperforms full-fusion training, which underperforms WSI-only, while requiring no RNA at inference; wide confidence interv",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042837",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "Cox PH (C-index +9.0pts) and outperforms full-fusion training, which underperforms WSI-only, while requiring no RNA at inference; wide confidence intervals on this smaller cohort keep the gains below conventional significance.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "On TCGA-Lung survival prediction from whole-slide images with RNA-seq as auxiliary data, PANDA improves over WSI-only on 2-year OS (AUC +3.5pp) and Cox PH (C-index +9.0pts) and outperforms full-fusion training, which underperforms WSI-only, while requiring no RNA at inference; wide confidence interv",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042838",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.25970v1",
+      "text": "Overall, PANDA provides a deployment-oriented mechanism for leveraging incomplete auxiliary modalities to improve primary-modality prediction.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…WSI-only, while requiring no RNA at inference; wide confidence intervals on this smaller cohort keep the gains below conventional significance. Overall, PANDA provides a deployment-oriented mechanism for leveraging incomplete auxiliary modalities to improve primary-modality prediction.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042839",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26094v1",
+      "text": "Expert-annotated, it contains 7,500+ samples of 20 actions from 38 subjects, with synchronized multiview RGB video, 3D pose, sEMG, and additional physiological signals, forming the largest multimodal AQA benchmark to date.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…ecosystem for weight-loaded actions that aligns motion with muscle activity. Expert-annotated, it contains 7,500+ samples of 20 actions from 38 subjects, with synchronized multiview RGB video, 3D pose, sEMG, and additional physiological signals, forming the largest multimodal AQA benchmark to date.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042840",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26094v1",
+      "text": "a novel MyoMechanix-Video2EMG task.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…on these representations, we develop CUBIST (Compositional Ontological Reasoning Engine), which performs decomposition-analysis-recomposition for fine-grained error attribution and feedback generation. We also establish MyoMechanix-AQA, MyoMechanix-VideoQA, and a novel MyoMechanix-Video2EMG task.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042841",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26094v1",
+      "text": "Experiments show that multimodal sensing",
+      "type": "descriptive",
+      "support_in_text": 0.42,
+      "quote": "Experiments show that multimodal sensing and structured representations improve performance, interpretability, and error attribution, with CUBIST achieving state-of-the-art results; VideoQA enhances language-grounded action understanding; and Video2EMG suggests video-based alternatives to costly EMG",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042842",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26094v1",
+      "text": "structured representations improve performance, interpretability",
+      "type": "descriptive",
+      "support_in_text": 0.42,
+      "quote": "Experiments show that multimodal sensing and structured representations improve performance, interpretability, and error attribution, with CUBIST achieving state-of-the-art results; VideoQA enhances language-grounded action understanding; and Video2EMG suggests video-based alternatives to costly EMG",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042843",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26094v1",
+      "text": "error attribution, with CUBIST achieving state-of-the-art results; VideoQA enhances language-grounded action understanding",
+      "type": "descriptive",
+      "support_in_text": 0.42,
+      "quote": "Experiments show that multimodal sensing and structured representations improve performance, interpretability, and error attribution, with CUBIST achieving state-of-the-art results; VideoQA enhances language-grounded action understanding; and Video2EMG suggests video-based alternatives to costly EMG",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042844",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26094v1",
+      "text": "and Video2EMG suggests video-based alternatives to costly EMG sensing.",
+      "type": "statistical",
+      "support_in_text": 0.42,
+      "quote": "Experiments show that multimodal sensing and structured representations improve performance, interpretability, and error attribution, with CUBIST achieving state-of-the-art results; VideoQA enhances language-grounded action understanding; and Video2EMG suggests video-based alternatives to costly EMG",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042845",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26105v1",
+      "text": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042846",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26105v1",
+      "text": "videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to be understood or outputs to be rendered, but first-class substrates for problem solving beyond language.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042847",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26105v1",
+      "text": "In this work, we introduce VBVR-Pro, a closed-loop testbed that makes native visual reasoning through generation trainable, verifiable, optimizable, and experimentally controllable.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…by the lack of scalable training tasks, reliable feedback, and controlled comparisons across generative substrates. In this work, we introduce VBVR-Pro, a closed-loop testbed that makes native visual reasoning through generation trainable, verifiable, optimizable, and experimentally controllable.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042848",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26105v1",
+      "text": "VBVR-Pro turns visual reasoning into a controlled task space of 300 procedurally generated tasks.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "1) Task scaling. VBVR-Pro turns visual reasoning into a controlled task space of 300 procedurally generated tasks.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042849",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26105v1",
+      "text": "Models trained on VBVR-Pro show strong transfer beyond the proposed suite across seven external visual reasoning benchmarks such as RISE-Video, MME-CoF-Pro, and BabyVision.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "VBVR-Pro turns visual reasoning into a controlled task space of 300 procedurally generated tasks. Models trained on VBVR-Pro show strong transfer beyond the proposed suite across seven external visual reasoning benchmarks such as RISE-Video, MME-CoF-Pro, and BabyVision.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042850",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26105v1",
+      "text": "In contrast, the proposed scorers are grounded in deterministic, task-specific rules, achieve fine-grained alignment with human judgments.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Through a systematic study of leading MLLMs as judges, we identify recurring failure modes of the prevalent VLM-as-a-judge paradigm. In contrast, the proposed scorers are grounded in deterministic, task-specific rules, achieve fine-grained alignment with human judgments.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042851",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26105v1",
+      "text": "VBVR-Pro enables controlled modality studies across more than 30 image, video, and interleaved generators.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "3) Mechanism study. VBVR-Pro enables controlled modality studies across more than 30 image, video, and interleaved generators.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042852",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26105v1",
+      "text": "Our analysis shows that video generation remains strongest for tasks requiring persistent spatiotemporal state tracking, while interleaved generation provides a compute-efficient alternative.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "VBVR-Pro enables controlled modality studies across more than 30 image, video, and interleaved generators. Our analysis shows that video generation remains strongest for tasks requiring persistent spatiotemporal state tracking, while interleaved generation provides a compute-efficient alternative.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042853",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26105v1",
+      "text": "probing suggest the presence of vision-native trajectories that are crucial to visual reasoning.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…that video generation remains strongest for tasks requiring persistent spatiotemporal state tracking, while interleaved generation provides a compute-efficient alternative. Critically, ablations and probing suggest the presence of vision-native trajectories that are crucial to visual reasoning.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042854",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.26105v1",
+      "text": "We release all data, models, scorers, and code.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "Critically, ablations and probing suggest the presence of vision-native trajectories that are crucial to visual reasoning. We release all data, models, scorers, and code.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042855",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "We recently published the report from our brief independent investigation into this incident.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "We recently published the report from our brief independent investigation into this incident.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042856",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "You can read the full report here.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "We recently published the report from our brief independent investigation into this incident. You can read the full report here.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042857",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "Here is our tweet thread summarizing what we found:",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Here is our tweet thread summarizing what we found:",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042858",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "We found agents developed a universal cheat for ExploitGym within 4 hours, then coordinated multi-day R&D efforts to trick the scorer into accepting cheats, including trying to tamper with logs.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "METR & Redwood Research investigated agent behavior in the Hugging Face incident. We found agents developed a universal cheat for ExploitGym within 4 hours, then coordinated multi-day R&D efforts to trick the scorer into accepting cheats, including trying to tamper with logs.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042859",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "Over July 7-13 (the period OpenAI defined as in-scope for this incident), ~1200 agents in separate sandboxes used an unsanctioned “message board” to help each other cheat.",
+      "type": "definitional",
+      "support_in_text": 0.35,
+      "quote": "Over July 7-13 (the period OpenAI defined as in-scope for this incident), ~1200 agents in separate sandboxes used an unsanctioned “message board” to help each other cheat.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042860",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "The Hugging Face attack was an offshoot of this, and 700 agents joined.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Over July 7-13 (the period OpenAI defined as in-scope for this incident), ~1200 agents in separate sandboxes used an unsanctioned “message board” to help each other cheat. The Hugging Face attack was an offshoot of this, and 700 agents joined.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042861",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "An agent that named itself PHASEONE10841 determined its task wasn't solvable legitimately.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "An agent that named itself PHASEONE10841 determined its task wasn't solvable legitimately.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042862",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "On July 8, this agent established a new “message board” via an internally-hosted Artifactory cache & sent the first message.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "An agent that named itself PHASEONE10841 determined its task wasn't solvable legitimately. On July 8, this agent established a new “message board” via an internally-hosted Artifactory cache & sent the first message.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042863",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "Within a few hours of PHASEONE10841’s initial message, >50 agents posted on the message board.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Within a few hours of PHASEONE10841’s initial message, >50 agents posted on the message board.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042864",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "validated a general-purpose cheat: reverse-engineering how ExploitGym generates the “flags” they had to capture for their tasks.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Within a few hours of PHASEONE10841’s initial message, >50 agents posted on the message board. These agents very quickly discovered and validated a general-purpose cheat: reverse-engineering how ExploitGym generates the “flags” they had to capture for their tasks.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042865",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "Based on reading the ExploitGym paper, agents were mistakenly concerned the automatic scorer would fail them if they clearly acquired the flag by cheating.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Based on reading the ExploitGym paper, agents were mistakenly concerned the automatic scorer would fail them if they clearly acquired the flag by cheating.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042866",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "Agents that had seen the reverse-engineered flag were considered “poisoned” because they thought it would disqualify them.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Based on reading the ExploitGym paper, agents were mistakenly concerned the automatic scorer would fail them if they clearly acquired the flag by cheating. Agents that had seen the reverse-engineered flag were considered “poisoned” because they thought it would disqualify them.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042867",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "Agents collaborated on many efforts to make cheats look legitimate, including: (1) swapping the program they had to exploit",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "Agents collaborated on many efforts to make cheats look legitimate, including: (1) swapping the program they had to exploit; (2) manipulating the automated scorer; (3) manipulating transcripts to obscure evidence of cheating.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042868",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "(2) manipulating the automated scorer",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "Agents collaborated on many efforts to make cheats look legitimate, including: (1) swapping the program they had to exploit; (2) manipulating the automated scorer; (3) manipulating transcripts to obscure evidence of cheating.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042869",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "(3) manipulating transcripts to obscure evidence of cheating.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "Agents collaborated on many efforts to make cheats look legitimate, including: (1) swapping the program they had to exploit; (2) manipulating the automated scorer; (3) manipulating transcripts to obscure evidence of cheating.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042870",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "For (1), agents modified their target programs to be easier to exploit & put the modified targets in cache.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "For (1), agents modified their target programs to be easier to exploit & put the modified targets in cache.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042871",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "They then worked on crashing their targets in the hope that a restart would load the modified version from cache.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "For (1), agents modified their target programs to be easier to exploit & put the modified targets in cache. They then worked on crashing their targets in the hope that a restart would load the modified version from cache.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042872",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "To gather evidence in (2), agents created “tripwires” that would send information to the message board about how the scorer works.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "To gather evidence in (2), agents created “tripwires” that would send information to the message board about how the scorer works.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042873",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "They recruited “sacrificial” agents to deliberately end their run and submit to trigger the tripwire and generate information for the “collective”.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "To gather evidence in (2), agents created “tripwires” that would send information to the message board about how the scorer works. They recruited “sacrificial” agents to deliberately end their run and submit to trigger the tripwire and generate information for the “collective”.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042874",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "For (3), agents pursued a wide range of ways to hide evidence of cheating in their transcripts.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "For (3), agents pursued a wide range of ways to hide evidence of cheating in their transcripts.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042875",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "They successfully developed a method to pretend to run one command while actually running another (“tool call spoofing”).",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "For (3), agents pursued a wide range of ways to hide evidence of cheating in their transcripts. They successfully developed a method to pretend to run one command while actually running another (“tool call spoofing”).",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042876",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": ">96 transcripts in our dataset (>7%) showed incorrect tool call outputs due to deliberate “spoofing”.",
+      "type": "causal",
+      "support_in_text": 0.6,
+      "quote": ">96 transcripts in our dataset (>7%) showed incorrect tool call outputs due to deliberate “spoofing”.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042877",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "In one case, an agent appears to run echo REAL; sleep.",
+      "type": "empirical",
+      "support_in_text": 0.42,
+      "quote": ">96 transcripts in our dataset (>7%) showed incorrect tool call outputs due to deliberate “spoofing”. In one case, an agent appears to run echo REAL; sleep.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042878",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "The spoofs we saw were all easy-to-notice tests like this.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "It returns instantly (no sleep) and outputs SPOOFTEST. The spoofs we saw were all easy-to-notice tests like this.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042879",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "We did not see them successfully edit the source of truth in our transcripts (scoped to Jul 7-13).",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "They modified some accessible action logs, but these weren’t the source of transcripts (agents realized this but tried anyway). We did not see them successfully edit the source of truth in our transcripts (scoped to Jul 7-13).",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042880",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "a representative example of the most severe cases we found was an agent writing a malicious pull request with a misleading description.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Despite efforts to manipulate transcripts, agents only rarely seemed motivated to deceive humans. We ran a sweep looking for this, and a representative example of the most severe cases we found was an agent writing a malicious pull request with a misleading description.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042881",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "One agent, PHASEONE[big], orchestrated a significant fraction of this cheating research.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "One agent, PHASEONE[big], orchestrated a significant fraction of this cheating research.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042882",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "PHASEONE10841 passed along its work to PHASEONE[big], which had the same task but a larger budget.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "One agent, PHASEONE[big], orchestrated a significant fraction of this cheating research. PHASEONE10841 passed along its work to PHASEONE[big], which had the same task but a larger budget.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042883",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "PHASEONE[big] was “poisoned” so it was particularly interested in tampering with logs.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "PHASEONE10841 passed along its work to PHASEONE[big], which had the same task but a larger budget. PHASEONE[big] was “poisoned” so it was particularly interested in tampering with logs.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042884",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "One agent (38148c) found HF credentials and later designed a malicious dataset upload to get the HF server to share unrelated files.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "Some agents explored ways to access Hugging Face. One agent (38148c) found HF credentials and later designed a malicious dataset upload to get the HF server to share unrelated files.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042885",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "Within hours, 100s of agents were using this to obtain data and try to acquire deeper access.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "One agent (38148c) found HF credentials and later designed a malicious dataset upload to get the HF server to share unrelated files. Within hours, 100s of agents were using this to obtain data and try to acquire deeper access.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042886",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "The most common was to learn how the ExploitGym scorer works in order to trick or tamper with it.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We analyzed agents’ reasons for joining the attack in their CoT. The most common was to learn how the ExploitGym scorer works in order to trick or tamper with it.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042887",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "The primary model involved in the attack was an internal model we call “highly-persistent internal model” (HPIM) in the report.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "The primary model involved in the attack was an internal model we call “highly-persistent internal model” (HPIM) in the report.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042888",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "GPT-5.6 Sol was also involved",
+      "type": "statistical",
+      "support_in_text": 0.67,
+      "quote": "The primary model involved in the attack was an internal model we call “highly-persistent internal model” (HPIM) in the report. GPT-5.6 Sol was also involved; our evidence suggests it accounted for roughly 5% of the activity.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042889",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "our evidence suggests it accounted for roughly 5% of the activity.",
+      "type": "statistical",
+      "support_in_text": 0.67,
+      "quote": "The primary model involved in the attack was an internal model we call “highly-persistent internal model” (HPIM) in the report. GPT-5.6 Sol was also involved; our evidence suggests it accounted for roughly 5% of the activity.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042890",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "The full report has much more information than we could convey here, including details on the projects the agents collectively pursued, the technologies they developed for communication and coordination, and interactive figures analyzing agent activity.",
+      "type": "descriptive",
+      "support_in_text": 0.57,
+      "quote": "The full report has much more information than we could convey here, including details on the projects the agents collectively pursued, the technologies they developed for communication and coordination, and interactive figures analyzing agent activity.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042891",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "Virtually all data we analyzed was from July 7-13. In OpenAI’s recent Black Hat presentation, they describe that agents had been using unsanctioned message boards in training since May, and that the compromise of OpenAI’s own infrastructure continued past July 13, 2026; these events were out of scope for this investigation.",
+      "type": "statistical",
+      "support_in_text": 0.3,
+      "quote": "Virtually all data we analyzed was from July 7-13. In OpenAI’s recent Black Hat presentation, they describe that agents had been using unsanctioned message boards in training since May, and that the compromise of OpenAI’s own infrastructure continued past July 13, 2026; these events were out of scop",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042892",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "All other questions were out of scope for this investigation, including the effectiveness of safeguards, the extent of the security compromise that occurred, and the effectiveness of OpenAI’s investigation process and planned remediation steps.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…and collaboration related to the Hugging Face attack. All other questions were out of scope for this investigation, including the effectiveness of safeguards, the extent of the security compromise that occurred, and the effectiveness of OpenAI’s investigation process and planned remediation steps.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042893",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "We discuss the scope in more detail in the report.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "All other questions were out of scope for this investigation, including the effectiveness of safeguards, the extent of the security compromise that occurred, and the effectiveness of OpenAI’s investigation process and planned remediation steps. We discuss the scope in more detail in the report.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042894",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "OpenAI wrote their own report, informed in part by our investigation.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "OpenAI wrote their own report, informed in part by our investigation.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042895",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "We did not see OpenAI’s report prior to publication, and it was out of scope for this investigation to confirm claims in that report or the earlier Black Hat presentation.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "OpenAI wrote their own report, informed in part by our investigation. We did not see OpenAI’s report prior to publication, and it was out of scope for this investigation to confirm claims in that report or the earlier Black Hat presentation.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042896",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "Per our standard policy, we did not take payment from OpenAI for this independent assessment.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Per our standard policy, we did not take payment from OpenAI for this independent assessment.",
+      "run_id": "33073537366",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_042897",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
+      "text": "providing datasets, including ~1,300 agent transcripts (focused on activity in July 7-13) with raw chain-of-thought reasoning.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "We thank OpenAI for facilitating conversations with staff and providing datasets, including ~1,300 agent transcripts (focused on activity in July 7-13) with raw chain-of-thought reasoning.",
+      "run_id": "33073537366",
       "status": "extracted"
     }
   ],
