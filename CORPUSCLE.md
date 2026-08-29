@@ -29,12 +29,12 @@ For workers: nothing in `WORKER.md` changes. Corpuscle is read-only toward
 this repo's data; any future write path will arrive as ordinary queue tasks
 under the existing rubric.
 
-**Status 2026-08-26:** Phase 1 CLOSED with a *revised* verdict — the earlier
-"claim-formatted text ~2.5x more valuable" headline was RETRACTED (it was
-question-format proximity). What survived three rounds of self-attack:
-mixing ~25-75% canonical claims with fresh claim-derived expansions doubles
-format-robust knowledge extractability over any pure format (free-form
-questions: m50 11.05% vs best pure 5.67%), while pure claim lists collapse
-prose ability (ppl 27,636). Phase 2 (real corpus, this repo's sources) is
-running. `mole/dispatch.py` (this repo) is the scale-up extractor. Full
-handoff: `../corpuscle/HANDOFF.md`.
+**Status 2026-08-29:** Phase 1's mix result was itself explained away by
+confound runs: naming the entity in every sentence of plain expansions
+(no claim lines) matches the best mix (14.7% vs 13.9% free-form), and a
+pure claim list at matched epochs extracts nothing (0.1%). The mechanism
+is name–fact co-occurrence inside the training window + per-epoch
+freshness. The training-format thesis is retired; the claim layer's value
+is operational — it makes name-carrying, deduplicated, verifier-gated
+fresh re-rendering cheap. Phase 2 (this repo's sources) is redesigned
+around that (R vs N vs W). Handoff: `../corpuscle/HANDOFF.md` §11.
