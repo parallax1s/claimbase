@@ -56151,26 +56151,26 @@
 {"id": "task_056151", "kind": "refine", "payload": {"claim_id": "clm_043865"}, "created_run": "33483958631", "status": "pending"}
 {"id": "task_056152", "kind": "refine", "payload": {"claim_id": "clm_043867"}, "created_run": "33483958631", "status": "pending"}
 {"id": "task_056153", "kind": "refine", "payload": {"claim_id": "clm_043868"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056154", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30258v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056155", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30310v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056156", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30311v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056157", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30319v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056158", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30352v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056159", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30378v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056160", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30391v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056161", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30399v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056162", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30420v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056163", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30428v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056164", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30466v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056165", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30532v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056166", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30553v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056167", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30619v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056168", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30646v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056169", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30685v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056170", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30709v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056171", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30821v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056172", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30857v1"}, "created_run": "33483958631", "status": "pending"}
-{"id": "task_056173", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30912v1"}, "created_run": "33483958631", "status": "pending"}
+{"id": "task_056154", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30258v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056155", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30310v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056156", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30311v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056157", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30319v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056158", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30352v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056159", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30378v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056160", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30391v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056161", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30399v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056162", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30420v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056163", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30428v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056164", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30466v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056165", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30532v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056166", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30553v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056167", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30619v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056168", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30646v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056169", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30685v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056170", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30709v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056171", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30821v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056172", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30857v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
+{"id": "task_056173", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30912v1"}, "created_run": "33483958631", "status": "skipped", "note": "fable failed: HTTP Error 406: Not Acceptable"}
 {"id": "task_056174", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30922v1"}, "created_run": "33483958631", "status": "pending"}
 {"id": "task_056175", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30935v1"}, "created_run": "33483958631", "status": "pending"}
 {"id": "task_056176", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2608.30987v1"}, "created_run": "33483958631", "status": "pending"}
