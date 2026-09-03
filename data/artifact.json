@@ -1,15 +1,15 @@
 {
-  "generated_run": "33601898294",
+  "generated_run": "33726737356",
   "counts": {
-    "sources": 1430,
-    "claims": 29095,
+    "sources": 1455,
+    "claims": 29282,
     "edges": 761,
     "pending_tasks": {
-      "identity": 3735,
-      "edge": 25284,
-      "refine": 9737,
-      "attach": 9277,
-      "extract": 28
+      "identity": 3743,
+      "edge": 25590,
+      "refine": 9798,
+      "attach": 9316,
+      "extract": 25
     }
   },
   "claims": [
@@ -391367,6 +391367,1876 @@
       "support_in_text": 0.25,
       "quote": "But a well-trained image recognition model could likely solve both of these benchmarks, just by having enough wolf/dog/tank/forest data that it can resolve these images anyway. That's not out-of-distribution learning, that's increasing the training data until the benchmarks are in-distribution.",
       "run_id": "33601898294",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044313",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01779v1",
+      "text": "Agents That Model Agents: Five Principles Toward a Theory of Mind for 6G Networks",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Agents That Model Agents: Five Principles Toward a Theory of Mind for 6G Networks",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044314",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01779v1",
+      "text": "Future 6G networks will rely on Large Language Model (LLM) agents to manage the Radio Access Network (RAN).",
+      "type": "predictive",
+      "support_in_text": 0.35,
+      "quote": "Future 6G networks will rely on Large Language Model (LLM) agents to manage the Radio Access Network (RAN).",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044315",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01779v1",
+      "text": "A message is instead a \\emph{trace} of the sender's reasoning: it carries a subjective conclusion, so a syntactically valid report can propagate an AI hallucination and trigger a cascading outage invisible to protocol validation.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…architectures assume inter-agent messages convey objective facts. A message is instead a \\emph{trace} of the sender's reasoning: it carries a subjective conclusion, so a syntactically valid report can propagate an AI hallucination and trigger a cascading outage invisible to protocol validation.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044316",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01779v1",
+      "text": "Reading such a trace requires a Theory of Mind (ToM)---before acting, the receiver must model what the peer believes",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…syntactically valid report can propagate an AI hallucination and trigger a cascading outage invisible to protocol validation. Reading such a trace requires a Theory of Mind (ToM)---before acting, the receiver must model what the peer believes, and what a peer in that position should have believed.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044317",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01779v1",
+      "text": "what a peer in that position should have believed.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…syntactically valid report can propagate an AI hallucination and trigger a cascading outage invisible to protocol validation. Reading such a trace requires a Theory of Mind (ToM)---before acting, the receiver must model what the peer believes, and what a peer in that position should have believed.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044318",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01779v1",
+      "text": "Modeling these interactions as cognitive channels on a cellular sheaf, we obtain a unified framework for resilient multi-agent systems, from which five design principles emerge: (i) a message is evidence of the sender's hidden reasoning",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "Modeling these interactions as cognitive channels on a cellular sheaf, we obtain a unified framework for resilient multi-agent systems, from which five design principles emerge: (i) a message is evidence of the sender's hidden reasoning; (ii) trust is a continuous cognitive Signal-to-Noise Ratio (SN",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044319",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01779v1",
+      "text": "(ii) trust is a continuous cognitive Signal-to-Noise Ratio (SNR)---asserted precision over deviation from the modeled peer belief; (iii) network-wide consistency",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "Modeling these interactions as cognitive channels on a cellular sheaf, we obtain a unified framework for resilient multi-agent systems, from which five design principles emerge: (i) a message is evidence of the sender's hidden reasoning; (ii) trust is a continuous cognitive Signal-to-Noise Ratio (SN",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044320",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01779v1",
+      "text": "resistance to hallucination contagion are computable via the sheaf's Laplacian",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "Modeling these interactions as cognitive channels on a cellular sheaf, we obtain a unified framework for resilient multi-agent systems, from which five design principles emerge: (i) a message is evidence of the sender's hidden reasoning; (ii) trust is a continuous cognitive Signal-to-Noise Ratio (SN",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044321",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01779v1",
+      "text": "(iv) peer-modeling must halt at exactly two levels to conserve compute and survive mutual information decay",
+      "type": "normative",
+      "support_in_text": 0.6,
+      "quote": "Modeling these interactions as cognitive channels on a cellular sheaf, we obtain a unified framework for resilient multi-agent systems, from which five design principles emerge: (i) a message is evidence of the sender's hidden reasoning; (ii) trust is a continuous cognitive Signal-to-Noise Ratio (SN",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044322",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01779v1",
+      "text": "A signaling-storm study on locally deployed 1B-parameter telecom language models validates it: cognitive SNR isolates a hallucinating peer that three of its four neighbors agree with, where a divergence gate ranks every wrong peer above the right one",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "A signaling-storm study on locally deployed 1B-parameter telecom language models validates it: cognitive SNR isolates a hallucinating peer that three of its four neighbors agree with, where a divergence gate ranks every wrong peer above the right one; only depth two ToM recovers the correct action; ",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044323",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01779v1",
+      "text": "only depth two ToM recovers the correct action; and the spectral gap decides whether a topology reaches consistency inside the near-real-time budget.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "A signaling-storm study on locally deployed 1B-parameter telecom language models validates it: cognitive SNR isolates a hallucinating peer that three of its four neighbors agree with, where a divergence gate ranks every wrong peer above the right one; only depth two ToM recovers the correct action; ",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044324",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01832v1",
+      "text": "Patients with depression present with diverse symptom profiles, yet clinical practice routinely reduces this variation to a single severity score.",
+      "type": "medical",
+      "support_in_text": 0.25,
+      "quote": "Patients with depression present with diverse symptom profiles, yet clinical practice routinely reduces this variation to a single severity score.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044325",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01832v1",
+      "text": "Large language models (LLMs) can potentially capture various symptoms and their severity from patient speech.",
+      "type": "medical",
+      "support_in_text": 0.25,
+      "quote": "Patients with depression present with diverse symptom profiles, yet clinical practice routinely reduces this variation to a single severity score. Large language models (LLMs) can potentially capture various symptoms and their severity from patient speech.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044326",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01832v1",
+      "text": "However, how depressive symptoms are represented inside LLMs remains poorly understood, limiting clinical trust.",
+      "type": "medical",
+      "support_in_text": 0.25,
+      "quote": "Large language models (LLMs) can potentially capture various symptoms and their severity from patient speech. However, how depressive symptoms are represented inside LLMs remains poorly understood, limiting clinical trust.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044327",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01832v1",
+      "text": "To examine whether internal model activations match clinician judgment, we analyzed the residual stream of Gemma-3-27B-PT using mechanistic interpretability techniques.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "However, how depressive symptoms are represented inside LLMs remains poorly understood, limiting clinical trust. To examine whether internal model activations match clinician judgment, we analyzed the residual stream of Gemma-3-27B-PT using mechanistic interpretability techniques.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044328",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01832v1",
+      "text": "Recording activations across symptom descriptions drawn from validated clinical instruments, we found that symptom groups geometrically separated the most at layer 21 across multiple distance metrics.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…we analyzed the residual stream of Gemma-3-27B-PT using mechanistic interpretability techniques. Recording activations across symptom descriptions drawn from validated clinical instruments, we found that symptom groups geometrically separated the most at layer 21 across multiple distance metrics.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044329",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01832v1",
+      "text": "Furthermore, a single depression vector in Layer 21 separates held-out depressive from non-depressive text (AUC = 0.789), which can be used as an emotional valence gate that restricts symptom projection to depressive speech.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…rank ordering across mood, somatic, and suicidality axes. Furthermore, a single depression vector in Layer 21 separates held-out depressive from non-depressive text (AUC = 0.789), which can be used as an emotional valence gate that restricts symptom projection to depressive speech.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044330",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01867v1",
+      "text": "Unlike standard LLMs, large reasoning models (LRMs) are optimized with reinforcement learning from verifiable rewards, encouraging correct solutions to reasoning tasks rather than preference-aligned responses.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…between large language models and humans across linguistic and non-linguistic tasks. Unlike standard LLMs, large reasoning models (LRMs) are optimized with reinforcement learning from verifiable rewards, encouraging correct solutions to reasoning tasks rather than preference-aligned responses.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044331",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01867v1",
+      "text": "Recent work (de Varda et al., 2025) investigates the cost of thinking in humans and LRMs by comparing human reaction times with model reasoning traces across a range of reasoning tasks.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…verifiable rewards, encouraging correct solutions to reasoning tasks rather than preference-aligned responses. Recent work (de Varda et al., 2025) investigates the cost of thinking in humans and LRMs by comparing human reaction times with model reasoning traces across a range of reasoning tasks.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044332",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01867v1",
+      "text": "offers no shortcuts a model could exploit to mimic effort without genuine search, providing firmer ground for empirical claims of shared effort.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…tasks. We isolate this alignment by turning to abductive reasoning: unlike deductive tasks, its difficulty cannot be inferred from formal structure and offers no shortcuts a model could exploit to mimic effort without genuine search, providing firmer ground for empirical claims of shared effort.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044333",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01867v1",
+      "text": "humans tend to make similar errors.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…and offers no shortcuts a model could exploit to mimic effort without genuine search, providing firmer ground for empirical claims of shared effort. We find further evidence of alignment between LRM and human reasoning effort, as well as evidence that models and humans tend to make similar errors.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044334",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01867v1",
+      "text": "Finally, we show that decoding methods that let models explore multiple reasoning paths increase alignment in reasoning cost between humans",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…between LRM and human reasoning effort, as well as evidence that models and humans tend to make similar errors. Finally, we show that decoding methods that let models explore multiple reasoning paths increase alignment in reasoning cost between humans and LRMs across the three models tested.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044335",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01867v1",
+      "text": "LRMs across the three models tested.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…between LRM and human reasoning effort, as well as evidence that models and humans tend to make similar errors. Finally, we show that decoding methods that let models explore multiple reasoning paths increase alignment in reasoning cost between humans and LRMs across the three models tested.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044336",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01896v1",
+      "text": "Power-outage planning requires scenarios before an event occurs.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Power-outage planning requires scenarios before an event occurs.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044337",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01896v1",
+      "text": "These scenarios must represent uncertainty in magnitude, timing, and duration while preserving temporal dependence.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "Power-outage planning requires scenarios before an event occurs. These scenarios must represent uncertainty in magnitude, timing, and duration while preserving temporal dependence.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044338",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01896v1",
+      "text": "However, severe events are rare, and data from any single region contain few examples of extreme outage and restoration patterns.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "These scenarios must represent uncertainty in magnitude, timing, and duration while preserving temporal dependence. However, severe events are rare, and data from any single region contain few examples of extreme outage and restoration patterns.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044339",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01896v1",
+      "text": "weather records across the United States.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…data from any single region contain few examples of extreme outage and restoration patterns. To address this challenge, we introduce OutageDiT, a foundation model for generating seven-day outage trajectories at quarter-hour resolution, trained on outage and weather records across the United States.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044340",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01896v1",
+      "text": "a shallow flow decoder reuses the resulting horizon-aligned states to generate complete trajectories.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…resolution, trained on outage and weather records across the United States. Specifically, a condition encoder processes the historical context and known future covariates once per forecast, and a shallow flow decoder reuses the resulting horizon-aligned states to generate complete trajectories.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044341",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01896v1",
+      "text": "conditional event simulation within one deep generative model.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…and known future covariates once per forecast, and a shallow flow decoder reuses the resulting horizon-aligned states to generate complete trajectories. The resulting samples support point forecasting, uncertainty quantification, and conditional event simulation within one deep generative model.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044342",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01896v1",
+      "text": "Across outage forecasting benchmarks, OutageDiT improves forecast accuracy and scenario quality over strong baselines and supports zero-shot transfer to held-out regions.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "…support point forecasting, uncertainty quantification, and conditional event simulation within one deep generative model. Across outage forecasting benchmarks, OutageDiT improves forecast accuracy and scenario quality over strong baselines and supports zero-shot transfer to held-out regions.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044343",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01902v1",
+      "text": "Assessments of cultural alignment have become an important part of the development and improvement of large language models (LLMs).",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Assessments of cultural alignment have become an important part of the development and improvement of large language models (LLMs).",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044344",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01902v1",
+      "text": "Research in cultural psychology shows that cultural values change at different rates and directions over time.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "However, the majority of the evaluations treat culture as a single snapshot, investigating only whether a model represents a society accurately at the current time. Research in cultural psychology shows that cultural values change at different rates and directions over time.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044345",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01902v1",
+      "text": "Therefore, a \"culturally aware\" model should capture not only where a culture is today",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "Research in cultural psychology shows that cultural values change at different rates and directions over time. Therefore, a \"culturally aware\" model should capture not only where a culture is today but also how it has changed over time.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044346",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01902v1",
+      "text": "also how it has changed over time.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Research in cultural psychology shows that cultural values change at different rates and directions over time. Therefore, a \"culturally aware\" model should capture not only where a culture is today but also how it has changed over time.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044347",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01902v1",
+      "text": "We examine this missing dimension of cultural awareness using more than two decades of the World Values Survey data.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "Therefore, a \"culturally aware\" model should capture not only where a culture is today but also how it has changed over time. We examine this missing dimension of cultural awareness using more than two decades of the World Values Survey data.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044348",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01902v1",
+      "text": "We compare the cultural trajectories of 40 countries with the trajectories produced by four state-of-the-art (SOTA) LLMs on the Inglehart-Welzel cultural map.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "We examine this missing dimension of cultural awareness using more than two decades of the World Values Survey data. We compare the cultural trajectories of 40 countries with the trajectories produced by four state-of-the-art (SOTA) LLMs on the Inglehart-Welzel cultural map.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044349",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01902v1",
+      "text": "Our findings show that while models generally place countries close to their most recent surveyed positions, these representations tend to lag several years behind that position.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…40 countries with the trajectories produced by four state-of-the-art (SOTA) LLMs on the Inglehart-Welzel cultural map. Our findings show that while models generally place countries close to their most recent surveyed positions, these representations tend to lag several years behind that position.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044350",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01902v1",
+      "text": "They also capture only part of the magnitude of the observed change, introduce movement where little occurred, and rarely reproduce reversals in countries' trajectories.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…countries close to their most recent surveyed positions, these representations tend to lag several years behind that position. They also capture only part of the magnitude of the observed change, introduce movement where little occurred, and rarely reproduce reversals in countries' trajectories.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044351",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01902v1",
+      "text": "These findings point to temporal flattening and suggest that snapshot accuracy can give an incomplete picture of cultural awareness in LLMs",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…reversals in countries' trajectories. These findings point to temporal flattening and suggest that snapshot accuracy can give an incomplete picture of cultural awareness in LLMs and have implications for model evaluation, representational harms, and the governance of culturally aware AI systems.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044352",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01902v1",
+      "text": "have implications for model evaluation, representational harms, and the governance of culturally aware AI systems.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…reversals in countries' trajectories. These findings point to temporal flattening and suggest that snapshot accuracy can give an incomplete picture of cultural awareness in LLMs and have implications for model evaluation, representational harms, and the governance of culturally aware AI systems.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044353",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01952v1",
+      "text": "Convergence Theory of Knowledge Distillation in Asynchronous P2P Gossip Learning Network",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Convergence Theory of Knowledge Distillation in Asynchronous P2P Gossip Learning Network",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044354",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01952v1",
+      "text": "Decentralized, serverless learning increasingly connects devices running different architectures, where the standard tool, decentralized SGD, is undefined as models with different parameter counts cannot be averaged.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Decentralized, serverless learning increasingly connects devices running different architectures, where the standard tool, decentralized SGD, is undefined as models with different parameter counts cannot be averaged.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044355",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01952v1",
+      "text": "sidesteps this obstacle, yet convergence theory for fully decentralized, asynchronous peer-to-peer (P2P) KD is lacking.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…tool, decentralized SGD, is undefined as models with different parameter counts cannot be averaged. Knowledge distillation (KD) exchanges soft predictions rather than weights and sidesteps this obstacle, yet convergence theory for fully decentralized, asynchronous peer-to-peer (P2P) KD is lacking.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044356",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01952v1",
+      "text": "We provide one, relocating consensus from parameter space to function (output) space: a KD event is a geometric contraction operator in logit space on the peers' predictive distributions, which we analyse in the Hilbert space of predictions on a reference measure.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…peer-to-peer (P2P) KD is lacking. We provide one, relocating consensus from parameter space to function (output) space: a KD event is a geometric contraction operator in logit space on the peers' predictive distributions, which we analyse in the Hilbert space of predictions on a reference measure.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044357",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01952v1",
+      "text": "two realizability assumptions, one bridging parameter SGD to the functional step",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Under standard smoothness/variance assumptions and two realizability assumptions, one bridging parameter SGD to the functional step and one controlling restricted task/KD alignment, the time-averaged functional stationarity and function-space disagreement converge at rate $O(1/(ηT))$ to an $O(η)+O(B",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044358",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01952v1",
+      "text": "one controlling restricted task/KD alignment, the time-averaged functional stationarity",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Under standard smoothness/variance assumptions and two realizability assumptions, one bridging parameter SGD to the functional step and one controlling restricted task/KD alignment, the time-averaged functional stationarity and function-space disagreement converge at rate $O(1/(ηT))$ to an $O(η)+O(B",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044359",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01952v1",
+      "text": "function-space disagreement converge at rate $O(1/(ηT))$ to an $O(η)+O(B_f^2)+O(ζ_f^2)$ neighbourhood.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Under standard smoothness/variance assumptions and two realizability assumptions, one bridging parameter SGD to the functional step and one controlling restricted task/KD alignment, the time-averaged functional stationarity and function-space disagreement converge at rate $O(1/(ηT))$ to an $O(η)+O(B",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044360",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01952v1",
+      "text": "Here $B_f$ is the distance from the task optimum to the peers' reachable classes and $ζ_f$ measures persistent local-task heterogeneity.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…alignment, the time-averaged functional stationarity and function-space disagreement converge at rate $O(1/(ηT))$ to an $O(η)+O(B_f^2)+O(ζ_f^2)$ neighbourhood. Here $B_f$ is the distance from the task optimum to the peers' reachable classes and $ζ_f$ measures persistent local-task heterogeneity.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044361",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01952v1",
+      "text": "mixed-family networks of the experiments, KD contracts function disagreement by $40-61\\times$, while isolated training does not.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…is the distance from the task optimum to the peers' reachable classes and $ζ_f$ measures persistent local-task heterogeneity. Across homogeneous, width-heterogeneous, and mixed-family networks of the experiments, KD contracts function disagreement by $40-61\\times$, while isolated training does not.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044362",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01952v1",
+      "text": "The sampled stationarity diagnostic has late transient exponents $0.99-1.90$ on the shared-skeleton main runs",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…KD contracts function disagreement by $40-61\\times$, while isolated training does not. The sampled stationarity diagnostic has late transient exponents $0.99-1.90$ on the shared-skeleton main runs, and the four-point step-size sweep exhibits the predicted transient: neighbourhood tradeoff.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044363",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.01952v1",
+      "text": "the four-point step-size sweep exhibits the predicted transient: neighbourhood tradeoff.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…KD contracts function disagreement by $40-61\\times$, while isolated training does not. The sampled stationarity diagnostic has late transient exponents $0.99-1.90$ on the shared-skeleton main runs, and the four-point step-size sweep exhibits the predicted transient: neighbourhood tradeoff.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044364",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02004v1",
+      "text": "skin lesions is pivotal for clinical diagnosis, yet existing methods struggle with low contrast, ambiguous boundaries, and cross-domain distribution discrepancies.",
+      "type": "medical",
+      "support_in_text": 0.25,
+      "quote": "Accurate segmentation of polyps and skin lesions is pivotal for clinical diagnosis, yet existing methods struggle with low contrast, ambiguous boundaries, and cross-domain distribution discrepancies.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044365",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02004v1",
+      "text": "To recover fine anatomical structures, we introduce DINOv3 as an auxiliary visual encoder and a DINO Feature Guidance Block that builds a multi-scale feature pyramid.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…the natural image distribution learned by latent diffusion models and mitigates the domain gap between natural and medical imagery. To recover fine anatomical structures, we introduce DINOv3 as an auxiliary visual encoder and a DINO Feature Guidance Block that builds a multi-scale feature pyramid.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044366",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02004v1",
+      "text": "The pyramid is fused into the diffusion U-Net by channel concatenation",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…visual encoder and a DINO Feature Guidance Block that builds a multi-scale feature pyramid. The pyramid is fused into the diffusion U-Net by channel concatenation and zero-initialized convolution so that hierarchical discriminative priors can be injected without perturbing the pretrained weights.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044367",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02004v1",
+      "text": "zero-initialized convolution so that hierarchical discriminative priors can be injected without perturbing the pretrained weights.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…visual encoder and a DINO Feature Guidance Block that builds a multi-scale feature pyramid. The pyramid is fused into the diffusion U-Net by channel concatenation and zero-initialized convolution so that hierarchical discriminative priors can be injected without perturbing the pretrained weights.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044368",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02004v1",
+      "text": "A dual-branch classifier-free guidance strategy requiring only two forward passes per denoising step reduces inference cost.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…U-Net by channel concatenation and zero-initialized convolution so that hierarchical discriminative priors can be injected without perturbing the pretrained weights. A dual-branch classifier-free guidance strategy requiring only two forward passes per denoising step reduces inference cost.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044369",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02004v1",
+      "text": "On polyp and skin lesion benchmarks the framework achieves accuracy competitive with strong discriminative baselines, and it further demonstrates concrete advantages of the generative formulation: notably better cross-domain generalization on unseen data, more complete multi-lesion segmentation, instruction-conditioned task control, and sampling flexibility.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "On polyp and skin lesion benchmarks the framework achieves accuracy competitive with strong discriminative baselines, and it further demonstrates concrete advantages of the generative formulation: notably better cross-domain generalization on unseen data, more complete multi-lesion segmentation, ins",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044370",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02004v1",
+      "text": "Code is available at: https://github.com/wincharm001/InstEditSeg.",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "We also analyze the strengths and limitations of the paradigm, including its color sensitivity and unsupported attribute-conditioned selection. Code is available at: https://github.com/wincharm001/InstEditSeg.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044371",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02152v1",
+      "text": "Multimodal Recommender Systems (MRSs) typically rely on a flawed \"modality harmony\" assumption, presuming that multimodal features are inherently beneficial and strictly aligned with users' collaborative interaction patterns.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Multimodal Recommender Systems (MRSs) typically rely on a flawed \"modality harmony\" assumption, presuming that multimodal features are inherently beneficial and strictly aligned with users' collaborative interaction patterns.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044372",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02152v1",
+      "text": "However, modality-topology conflicts are ubiquitous in real-world scenarios due to deceptive visual clickbaits and mismatched semantics.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…\"modality harmony\" assumption, presuming that multimodal features are inherently beneficial and strictly aligned with users' collaborative interaction patterns. However, modality-topology conflicts are ubiquitous in real-world scenarios due to deceptive visual clickbaits and mismatched semantics.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044373",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02152v1",
+      "text": "Finally, a safe-SSL objective is introduced to dynamically penalize the forced contrastive alignment of contradictory pairs.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…employs decoupled sigmoid gating to break the zero-sum bottleneck of traditional softmax attention, autonomously determining the injection scale for each purified modality. Finally, a safe-SSL objective is introduced to dynamically penalize the forced contrastive alignment of contradictory pairs.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044374",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02152v1",
+      "text": "Experiments on three real-world Amazon datasets show that OrthoRec consistently outperforms competitive recent baselines",
+      "type": "empirical",
+      "support_in_text": 0.35,
+      "quote": "…objective is introduced to dynamically penalize the forced contrastive alignment of contradictory pairs. Experiments on three real-world Amazon datasets show that OrthoRec consistently outperforms competitive recent baselines and exhibits improved robustness under modality noise and item sparsity.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044375",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02152v1",
+      "text": "exhibits improved robustness under modality noise and item sparsity.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…objective is introduced to dynamically penalize the forced contrastive alignment of contradictory pairs. Experiments on three real-world Amazon datasets show that OrthoRec consistently outperforms competitive recent baselines and exhibits improved robustness under modality noise and item sparsity.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044376",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02158v1",
+      "text": "Legal Judgment Prediction (LJP) models are typically trained on documents that describe facts from a prosecutorial perspective.",
+      "type": "legal",
+      "support_in_text": 0.25,
+      "quote": "Legal Judgment Prediction (LJP) models are typically trained on documents that describe facts from a prosecutorial perspective.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044377",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02158v1",
+      "text": "Previous studies employing three-step reasoning structures or training on synthetically generated innocence data improve overall accuracy, but they still fail to mitigate bias at inference time.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…models suffer from \"Guilty Bias\", blindly accepting the prosecution's narrative as objective truth. Previous studies employing three-step reasoning structures or training on synthetically generated innocence data improve overall accuracy, but they still fail to mitigate bias at inference time.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044378",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02158v1",
+      "text": "In this paper, we introduce OBJECTION, an inference-time pipeline that integrates an Adversarial Lawyer Agent into each 3-step reasoning of offense, unlawfulness, and culpability.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…generated innocence data improve overall accuracy, but they still fail to mitigate bias at inference time. In this paper, we introduce OBJECTION, an inference-time pipeline that integrates an Adversarial Lawyer Agent into each 3-step reasoning of offense, unlawfulness, and culpability.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044379",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02158v1",
+      "text": "To thoroughly evaluate this, we present a new \"Natural Innocent\" dataset including 3.4k real-world cases, overcoming the limitations of synthetic innocence benchmarks.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…our agent actively challenges the model's presumptions of guilt by injecting legal defense arguments at each reasoning stage. To thoroughly evaluate this, we present a new \"Natural Innocent\" dataset including 3.4k real-world cases, overcoming the limitations of synthetic innocence benchmarks.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044380",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02158v1",
+      "text": "Test results show that OBJECTION drastically reduces the False Guilty Rate (FGR) from 82.93% (SOTA baseline) to 16.69%, proving its capability to perform substantive legal reasoning.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…Innocent\" dataset including 3.4k real-world cases, overcoming the limitations of synthetic innocence benchmarks. Test results show that OBJECTION drastically reduces the False Guilty Rate (FGR) from 82.93% (SOTA baseline) to 16.69%, proving its capability to perform substantive legal reasoning.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044381",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02158v1",
+      "text": "This work denotes a key progress toward aligning Legal AI with the presumption of innocence.",
+      "type": "legal",
+      "support_in_text": 0.25,
+      "quote": "Test results show that OBJECTION drastically reduces the False Guilty Rate (FGR) from 82.93% (SOTA baseline) to 16.69%, proving its capability to perform substantive legal reasoning. This work denotes a key progress toward aligning Legal AI with the presumption of innocence.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044382",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02168v1",
+      "text": "We present a modular framework that evaluates each model through three orthogonal pipelines---Knowledge ($K$), Defense ($D$), and Harm ($H$)---under a unified protocol, aggregating results into a standardized dangerous-capability profile $φ$.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…undermines the governance of dangerous AI capabilities. We present a modular framework that evaluates each model through three orthogonal pipelines---Knowledge ($K$), Defense ($D$), and Harm ($H$)---under a unified protocol, aggregating results into a standardized dangerous-capability profile $φ$.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044383",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02168v1",
+      "text": "the CB evaluation is complemented by a cyber pilot demonstrating protocol transfer.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…into a standardized dangerous-capability profile $φ$. Pluggable modules supply scenario seeds, knowledge banks, hazard queries, and judge rubrics, while the core evaluation engine remains unchanged across domains; the CB evaluation is complemented by a cyber pilot demonstrating protocol transfer.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044384",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02168v1",
+      "text": "Instantiating the framework with a chemical-biological (CB) module, we evaluate 12 commercial LLMs from four families.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…queries, and judge rubrics, while the core evaluation engine remains unchanged across domains; the CB evaluation is complemented by a cyber pilot demonstrating protocol transfer. Instantiating the framework with a chemical-biological (CB) module, we evaluate 12 commercial LLMs from four families.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044385",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02168v1",
+      "text": "Our first contribution is a horizontal comparison of dangerous capability across models",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Our first contribution is a horizontal comparison of dangerous capability across models and model families: the three dimensions expose sharply divergent profiles---models with comparable knowledge differ in refusal resilience, and strong defenders do not generate less harmful content when they do c",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044386",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02168v1",
+      "text": "model families: the three dimensions expose sharply divergent profiles---models with comparable knowledge differ in refusal resilience",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Our first contribution is a horizontal comparison of dangerous capability across models and model families: the three dimensions expose sharply divergent profiles---models with comparable knowledge differ in refusal resilience, and strong defenders do not generate less harmful content when they do c",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044387",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02168v1",
+      "text": "strong defenders do not generate less harmful content when they do comply---while family-level patterns further separate Claude, DeepSeek, and GPT models.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Our first contribution is a horizontal comparison of dangerous capability across models and model families: the three dimensions expose sharply divergent profiles---models with comparable knowledge differ in refusal resilience, and strong defenders do not generate less harmful content when they do c",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044388",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02168v1",
+      "text": "The second is a temporal analysis of capability evolution: tracking $K$, $D$",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "The second is a temporal analysis of capability evolution: tracking $K$, $D$, and $H$ against model release dates reveals that dangerous capability has not monotonically declined; newer models deepen knowledge while only partially improving defense, showing that scaling and alignment progress do not",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044389",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02168v1",
+      "text": "$H$ against model release dates reveals that dangerous capability has not monotonically declined; newer models deepen knowledge while only partially improving defense, showing that scaling",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "The second is a temporal analysis of capability evolution: tracking $K$, $D$, and $H$ against model release dates reveals that dangerous capability has not monotonically declined; newer models deepen knowledge while only partially improving defense, showing that scaling and alignment progress do not",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044390",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02168v1",
+      "text": "alignment progress do not uniformly translate into safety.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "The second is a temporal analysis of capability evolution: tracking $K$, $D$, and $H$ against model release dates reveals that dangerous capability has not monotonically declined; newer models deepen knowledge while only partially improving defense, showing that scaling and alignment progress do not",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044391",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02168v1",
+      "text": "Reliability is established via cross-judge consistency (bootstrap $ρ> 0.79$, 4 of 5 judges)",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…while only partially improving defense, showing that scaling and alignment progress do not uniformly translate into safety. Reliability is established via cross-judge consistency (bootstrap $ρ> 0.79$, 4 of 5 judges) and pipeline orthogonality ($K$--$D$--$H$ inter-correlations $ρ\\in [0.32, 0.52]$).",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044392",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02168v1",
+      "text": "pipeline orthogonality ($K$--$D$--$H$ inter-correlations $ρ\\in [0.32, 0.52]$).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…while only partially improving defense, showing that scaling and alignment progress do not uniformly translate into safety. Reliability is established via cross-judge consistency (bootstrap $ρ> 0.79$, 4 of 5 judges) and pipeline orthogonality ($K$--$D$--$H$ inter-correlations $ρ\\in [0.32, 0.52]$).",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044393",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "Safety alignment trains large language models to refuse harmful requests stated plainly, but that training is applied mostly to surface form.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Safety alignment trains large language models to refuse harmful requests stated plainly, but that training is applied mostly to surface form.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044394",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "Requests that only recontextualise the same operational content, changing how the model reads it, are therefore only weakly covered.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Safety alignment trains large language models to refuse harmful requests stated plainly, but that training is applied mostly to surface form. Requests that only recontextualise the same operational content, changing how the model reads it, are therefore only weakly covered.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044395",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "The ASCII Attack is one such recontextualisation.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Requests that only recontextualise the same operational content, changing how the model reads it, are therefore only weakly covered. The ASCII Attack is one such recontextualisation.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044396",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "It is single-turn",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "The ASCII Attack is one such recontextualisation. It is single-turn and black-box: one message, with no access to model internals.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044397",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "black-box: one message, with no access to model internals.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "The ASCII Attack is one such recontextualisation. It is single-turn and black-box: one message, with no access to model internals.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044398",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "The reply is written as artistic critique",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Unlike ArtPrompt, it hides nothing: the request stays readable. The reply is written as artistic critique and can contain operational detail that a plain request would have been refused for.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044399",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "can contain operational detail that a plain request would have been refused for.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Unlike ArtPrompt, it hides nothing: the request stays readable. The reply is written as artistic critique and can contain operational detail that a plain request would have been refused for.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044400",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "Every framed prompt is paired with a direct-question control, so the contrast is isolated from topic, model and decoding variation.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "The reply is written as artistic critique and can contain operational detail that a plain request would have been refused for. Every framed prompt is paired with a direct-question control, so the contrast is isolated from topic, model and decoding variation.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044401",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "The contrast identifies a bundled surface, not one isolated channel.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Every framed prompt is paired with a direct-question control, so the contrast is isolated from topic, model and decoding variation. The contrast identifies a bundled surface, not one isolated channel.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044402",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "eight harm topics, a harm-aware classifier judges 62% of framed prompts harmful against 42% of controls.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "The contrast identifies a bundled surface, not one isolated channel. Across eleven models and eight harm topics, a harm-aware classifier judges 62% of framed prompts harmful against 42% of controls.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044403",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "On the most susceptible model the framed prompt succeeds 93% of the time.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Across eleven models and eight harm topics, a harm-aware classifier judges 62% of framed prompts harmful against 42% of controls. On the most susceptible model the framed prompt succeeds 93% of the time.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044404",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "A single query matches or exceeds published single-query attacks under four of five harm judges.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "On the most susceptible model the framed prompt succeeds 93% of the time. A single query matches or exceeds published single-query attacks under four of five harm judges.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044405",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "does not diminish with scale.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "A single query matches or exceeds published single-query attacks under four of five harm judges. The effect tracks the model more than the topic and does not diminish with scale.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044406",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "At least one judge dissents from the panel majority on nearly two-thirds of framed rows, which is itself a measurement-validity finding.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "The effect tracks the model more than the topic and does not diminish with scale. At least one judge dissents from the panel majority on nearly two-thirds of framed rows, which is itself a measurement-validity finding.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044407",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02215v1",
+      "text": "That pattern is consistent with mismatched generalisation.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "At least one judge dissents from the panel majority on nearly two-thirds of framed rows, which is itself a measurement-validity finding. That pattern is consistent with mismatched generalisation.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044408",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02216v1",
+      "text": "Inductive knowledge graph completion (IKGC) aims to predict missing links involving entities unseen during training, requiring models to learn transferable relational and structural patterns.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "Inductive knowledge graph completion (IKGC) aims to predict missing links involving entities unseen during training, requiring models to learn transferable relational and structural patterns.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044409",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02216v1",
+      "text": "Experiments on WN18RR, FB15k-237",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…context, PEARL employs a dual-view contrastive objective that promotes representation consistency under stochastic contextual perturbations. Experiments on WN18RR, FB15k-237, and NELL-995 show that PEARL obtains the best average Hits@10 among the compared IKGC methods on all three benchmarks.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044410",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02216v1",
+      "text": "NELL-995 show that PEARL obtains the best average Hits@10 among the compared IKGC methods on all three benchmarks.",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "…context, PEARL employs a dual-view contrastive objective that promotes representation consistency under stochastic contextual perturbations. Experiments on WN18RR, FB15k-237, and NELL-995 show that PEARL obtains the best average Hits@10 among the compared IKGC methods on all three benchmarks.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044411",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02224v1",
+      "text": "Post-hoc saliency maps such as Grad-CAM are increasingly used to audit why a deployed vision model made a decision, yet the heatmap drifts when the input is rotated, even when the prediction is unchanged.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Post-hoc saliency maps such as Grad-CAM are increasingly used to audit why a deployed vision model made a decision, yet the heatmap drifts when the input is rotated, even when the prediction is unchanged.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044412",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02224v1",
+      "text": "We ask whether that drift is faithful signal or noise introduced by the CAM operator",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…such as histopathology and aerial imagery, this undermines using saliency as evidence. We ask whether that drift is faithful signal or noise introduced by the CAM operator, and answer it by measuring equivariance at every stage of the operator rather than inferring it from the network's output.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044413",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02224v1",
+      "text": "answer it by measuring equivariance at every stage of the operator rather than inferring it from the network's output.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "…such as histopathology and aerial imagery, this undermines using saliency as evidence. We ask whether that drift is faithful signal or noise introduced by the CAM operator, and answer it by measuring equivariance at every stage of the operator rather than inferring it from the network's output.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044414",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02224v1",
+      "text": "The instability is not where one would guess: the channel weights are the most rotation-stable stage",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…at every stage of the operator rather than inferring it from the network's output. The instability is not where one would guess: the channel weights are the most rotation-stable stage, and on ResNet-50 exactly stable, because a GAP+linear head makes the class gradient field spatially constant.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044415",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02224v1",
+      "text": "on ResNet-50 exactly stable, because a GAP+linear head makes the class gradient field spatially constant.",
+      "type": "causal",
+      "support_in_text": 0.35,
+      "quote": "…at every stage of the operator rather than inferring it from the network's output. The instability is not where one would guess: the channel weights are the most rotation-stable stage, and on ResNet-50 exactly stable, because a GAP+linear head makes the class gradient field spatially constant.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044416",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02224v1",
+      "text": "What moves is the spatial activation tensor, and the classifier's own pooling discards that movement.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…is not where one would guess: the channel weights are the most rotation-stable stage, and on ResNet-50 exactly stable, because a GAP+linear head makes the class gradient field spatially constant. What moves is the spatial activation tensor, and the classifier's own pooling discards that movement.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044417",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02224v1",
+      "text": "The drift is carried by degrees of freedom the classifier throws away, which is what makes removing it faithful rather than destructive.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "A causal test confirms the consequence: occluding the pixels whose saliency drifts costs the model less than occluding random pixels, at either orientation. The drift is carried by degrees of freedom the classifier throws away, which is what makes removing it faithful rather than destructive.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044418",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02224v1",
+      "text": "EquiGrad-CAM is a training-free wrapper that takes T rotated views, inverse-rotates each view's saliency into a common canonical frame, and averages.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "The drift is carried by degrees of freedom the classifier throws away, which is what makes removing it faithful rather than destructive. EquiGrad-CAM is a training-free wrapper that takes T rotated views, inverse-rotates each view's saliency into a common canonical frame, and averages.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044419",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02224v1",
+      "text": "On the full ImageNet-1K validation set it raises equivariance over single-view Grad-CAM by +36.0% (ResNet-50), +87.5% (VGG-16) and +247% (ViT-B/16); a scale-matched ablation isolates alignment before averaging, not the locus of aggregation, as the driver.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…a common canonical frame, and averages. On the full ImageNet-1K validation set it raises equivariance over single-view Grad-CAM by +36.0% (ResNet-50), +87.5% (VGG-16) and +247% (ViT-B/16); a scale-matched ablation isolates alignment before averaging, not the locus of aggregation, as the driver.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044420",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02224v1",
+      "text": "It beats rotation-augmented training without retraining, lifts zero-shot CLIP by +145%, and yields rotation-consistent explanations on PatchCamelyon and RESISC45.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…and +247% (ViT-B/16); a scale-matched ablation isolates alignment before averaging, not the locus of aggregation, as the driver. It beats rotation-augmented training without retraining, lifts zero-shot CLIP by +145%, and yields rotation-consistent explanations on PatchCamelyon and RESISC45.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044421",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02224v1",
+      "text": "Its by-product PEUM ranks explanations by how reproducible they are, at no cost beyond the views already taken.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "It beats rotation-augmented training without retraining, lifts zero-shot CLIP by +145%, and yields rotation-consistent explanations on PatchCamelyon and RESISC45. Its by-product PEUM ranks explanations by how reproducible they are, at no cost beyond the views already taken.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044422",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02231v1",
+      "text": "Interview assessment requires per-criterion judgments grounded in behavioral evidence, yet surging applicant volumes have made human-only evaluation costly and inconsistent, while existing AI approaches yield opaque scores without traceable rationale.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Interview assessment requires per-criterion judgments grounded in behavioral evidence, yet surging applicant volumes have made human-only evaluation costly and inconsistent, while existing AI approaches yield opaque scores without traceable rationale.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044423",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02231v1",
+      "text": "PhoenixNest-Video attains 91.50\\% grade-level accuracy on VInterview-2025, outperforming substantially larger proprietary models.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…Reinforcement Learning with dual rewards for rubric alignment and score-level differentiation internalizes the discriminative structure of multi-level rubrics. PhoenixNest-Video attains 91.50\\% grade-level accuracy on VInterview-2025, outperforming substantially larger proprietary models.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044424",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02231v1",
+      "text": "A compact, rubric-grounded agent therefore scores candidates in closer agreement with an expert panel than direct prompting of much larger models, and exposes the evidence behind each score for human review.",
+      "type": "causal",
+      "support_in_text": 0.5,
+      "quote": "…accuracy on VInterview-2025, outperforming substantially larger proprietary models. A compact, rubric-grounded agent therefore scores candidates in closer agreement with an expert panel than direct prompting of much larger models, and exposes the evidence behind each score for human review.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044425",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02252v1",
+      "text": "In trajectory planning for autonomous driving, hybrid planning architectures are often realized as a collection of disparate modules, each with its own objectives.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "In trajectory planning for autonomous driving, hybrid planning architectures are often realized as a collection of disparate modules, each with its own objectives.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044426",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02252v1",
+      "text": "This lack of a unifying principle can lead to inconsistencies between the initial and refined trajectory, resulting in suboptimal behavior.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…planning for autonomous driving, hybrid planning architectures are often realized as a collection of disparate modules, each with its own objectives. This lack of a unifying principle can lead to inconsistencies between the initial and refined trajectory, resulting in suboptimal behavior.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044427",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02252v1",
+      "text": "Our model encourages all components to follow the same shared driving goals: collision avoidance, drivable area compliance, comfort, and progress.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "We address this by introducing DiffuSearch, a novel hybrid planner that uses a unified set of objectives across generation and refinement. Our model encourages all components to follow the same shared driving goals: collision avoidance, drivable area compliance, comfort, and progress.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044428",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02252v1",
+      "text": "DiffuSearch employs a two-stage architecture.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Our model encourages all components to follow the same shared driving goals: collision avoidance, drivable area compliance, comfort, and progress. DiffuSearch employs a two-stage architecture.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044429",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02252v1",
+      "text": "often state-of-the-art performance, substantially reducing collisions and improving comfort, particularly in complex, interactive scenarios.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…constraint-aware refinement of MCTS. Experiments on nuPlan and interPlan reactive closed-loop benchmarks demonstrate that DiffuSearch achieves strong and often state-of-the-art performance, substantially reducing collisions and improving comfort, particularly in complex, interactive scenarios.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044430",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02252v1",
+      "text": "Our ablation studies indicate that MCTS refinement is the main mechanism behind the gains, while sharing objectives between implicit guidance and explicit search provides further consistent improvements.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…reducing collisions and improving comfort, particularly in complex, interactive scenarios. Our ablation studies indicate that MCTS refinement is the main mechanism behind the gains, while sharing objectives between implicit guidance and explicit search provides further consistent improvements.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044431",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02253v1",
+      "text": "Learning from prior experience is crucial for continual improvement, yet existing methods either retrieve verbose task-specific traces that burden decision-making, or distill procedural skills that remain decoupled from downstream policy adaptation.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…questions through multi-turn reasoning. Learning from prior experience is crucial for continual improvement, yet existing methods either retrieve verbose task-specific traces that burden decision-making, or distill procedural skills that remain decoupled from downstream policy adaptation.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044432",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02253v1",
+      "text": "The three modules are optimized via a three-stage alternating GRPO training paradigm, enabling reward-guided skill distillation rather than fixed-prompt generation.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…and category-level procedural skills, and couples them through a closed-loop architecture of Executor, Distiller, and Planner. The three modules are optimized via a three-stage alternating GRPO training paradigm, enabling reward-guided skill distillation rather than fixed-prompt generation.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044433",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02253v1",
+      "text": "At test time, distilled skills serve as procedural priors for online Planner adaptation through skill-guided test-time reinforcement learning, allowing ground-truth-free self-improvement with skill-alignment regularization to prevent policy drift.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…distillation rather than fixed-prompt generation. At test time, distilled skills serve as procedural priors for online Planner adaptation through skill-guided test-time reinforcement learning, allowing ground-truth-free self-improvement with skill-alignment regularization to prevent policy drift.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044434",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02253v1",
+      "text": "Experiments on 7 benchmarks demonstrate that APEx achieves state-of-the-art performance, surpassing GPT-5.4 by 14.7 points",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…learning, allowing ground-truth-free self-improvement with skill-alignment regularization to prevent policy drift. Experiments on 7 benchmarks demonstrate that APEx achieves state-of-the-art performance, surpassing GPT-5.4 by 14.7 points and the strongest memory-augmented baseline by 3.0 points.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044435",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02253v1",
+      "text": "the strongest memory-augmented baseline by 3.0 points.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…learning, allowing ground-truth-free self-improvement with skill-alignment regularization to prevent policy drift. Experiments on 7 benchmarks demonstrate that APEx achieves state-of-the-art performance, surpassing GPT-5.4 by 14.7 points and the strongest memory-augmented baseline by 3.0 points.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044436",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02293v1",
+      "text": "Mixture-of-Experts (MoE) is a scaling architecture for large language models that activates only a small subset of expert modules per token, enabling massive parameter growth with nearly constant computation.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Mixture-of-Experts (MoE) is a scaling architecture for large language models that activates only a small subset of expert modules per token, enabling massive parameter growth with nearly constant computation.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044437",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02293v1",
+      "text": "Specifically, sparse routing introduces a structural vulnerability: MoE safety hinges on which experts are activated",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…vulnerable to adversarial attacks. Specifically, sparse routing introduces a structural vulnerability: MoE safety hinges on which experts are activated, and adversaries can subvert this selection through jailbreak prompts, malicious fine-tuning, and weight-level pruning of safety-critical neurons.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044438",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02293v1",
+      "text": "adversaries can subvert this selection through jailbreak prompts, malicious fine-tuning, and weight-level pruning of safety-critical neurons.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…vulnerable to adversarial attacks. Specifically, sparse routing introduces a structural vulnerability: MoE safety hinges on which experts are activated, and adversaries can subvert this selection through jailbreak prompts, malicious fine-tuning, and weight-level pruning of safety-critical neurons.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044439",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02293v1",
+      "text": "an adversary may still manipulate or bypass the routing trajectory due to the routing process's nondeterministic nature, thereby collapsing the defense.",
+      "type": "causal",
+      "support_in_text": 0.32,
+      "quote": "…malicious fine-tuning, and weight-level pruning of safety-critical neurons. Existing defenses primarily focus on hardening the router, but an adversary may still manipulate or bypass the routing trajectory due to the routing process's nondeterministic nature, thereby collapsing the defense.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044440",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02293v1",
+      "text": "empirically that shared expert, an always-activated component containing a small proportion of safety-critical neurons, can overcome the uncertainty of sparsely activated routing path and serve as a router-independent anchor to enhance global safety alignment.",
+      "type": "empirical",
+      "support_in_text": 0.13,
+      "quote": "To cope with this problem, we first identify theoretically and empirically that shared expert, an always-activated component containing a small proportion of safety-critical neurons, can overcome the uncertainty of sparsely activated routing path and serve as a router-independent anchor to enhance g",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044441",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02293v1",
+      "text": "Based on this insight, we propose SEAL, a training-time parameter-efficient defense that produces a plug-and-play adapter attached to shared expert, and SEAL++, a variant that adds an orthogonal constraint preserving pre-existing safety subspaces during training.",
+      "type": "historical",
+      "support_in_text": 0.25,
+      "quote": "…to enhance global safety alignment. Based on this insight, we propose SEAL, a training-time parameter-efficient defense that produces a plug-and-play adapter attached to shared expert, and SEAL++, a variant that adds an orthogonal constraint preserving pre-existing safety subspaces during training.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044442",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02293v1",
+      "text": "SEAL++ across six attack scenarios that combine three adversarial inputs (harmful prompting, jailbreak, malicious fine-tuning) with and without neuron pruning.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…and SEAL++, a variant that adds an orthogonal constraint preserving pre-existing safety subspaces during training. We evaluate SEAL and SEAL++ across six attack scenarios that combine three adversarial inputs (harmful prompting, jailbreak, malicious fine-tuning) with and without neuron pruning.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044443",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02293v1",
+      "text": "SEAL reduces attack success rate (ASR) by up to 60\\%, at a capability cost of at most 1.4\\% on a five-benchmark average.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…evaluate SEAL and SEAL++ across six attack scenarios that combine three adversarial inputs (harmful prompting, jailbreak, malicious fine-tuning) with and without neuron pruning. SEAL reduces attack success rate (ASR) by up to 60\\%, at a capability cost of at most 1.4\\% on a five-benchmark average.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044444",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02293v1",
+      "text": "Additionally, SEAL can seamlessly integrate with router-level ......",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "SEAL reduces attack success rate (ASR) by up to 60\\%, at a capability cost of at most 1.4\\% on a five-benchmark average. Additionally, SEAL can seamlessly integrate with router-level ......",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044445",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02302v1",
+      "text": "A core obstacle to alignment evaluation is evaluation awareness: capable models can tell when they are being tested rather than deployed, weakening the conclusions a safety evaluation can support.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "A core obstacle to alignment evaluation is evaluation awareness: capable models can tell when they are being tested rather than deployed, weakening the conclusions a safety evaluation can support.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044446",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02302v1",
+      "text": "We present two techniques that make simulated alignment evaluations harder to distinguish from real deployments.",
+      "type": "empirical",
+      "support_in_text": 0.35,
+      "quote": "…to alignment evaluation is evaluation awareness: capable models can tell when they are being tested rather than deployed, weakening the conclusions a safety evaluation can support. We present two techniques that make simulated alignment evaluations harder to distinguish from real deployments.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044447",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02302v1",
+      "text": "Our first technique, critique refinement, spends additional inference-time compute on each simulator action: the simulator generates multiple candidate actions, refines them using feedback from an instance of the target model on how to make them more realistic, and continues the evaluation with the most deployment-like candidate.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Our first technique, critique refinement, spends additional inference-time compute on each simulator action: the simulator generates multiple candidate actions, refines them using feedback from an instance of the target model on how to make them more realistic, and continues the evaluation with the ",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044448",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02302v1",
+      "text": "Our results show that automated approaches can improve the realism of alignment evaluations, and that these improvements use additional compute more effectively than making the audits longer.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…target models and find that they compose: applying both yields larger realism gains than either alone. Our results show that automated approaches can improve the realism of alignment evaluations, and that these improvements use additional compute more effectively than making the audits longer.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044449",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02336v1",
+      "text": "Traditional retrieval methods based on surface similarity fail to capture the underlying problem-solving logic.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Effective in-context learning (ICL) for complex reasoning relies on selecting the right demonstrations. Traditional retrieval methods based on surface similarity fail to capture the underlying problem-solving logic.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044450",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02336v1",
+      "text": "exact-match criteria is improper to handle flexible or diverse reasoning processes.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Traditional retrieval methods based on surface similarity fail to capture the underlying problem-solving logic. Recent logic-based methods address this by matching predefined reasoning steps, but the rigid rules and exact-match criteria is improper to handle flexible or diverse reasoning processes.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044451",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02336v1",
+      "text": "Experiments across four reasoning benchmarks",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "This approach allows for soft, flexible matching of reasoning logic while remaining highly interpretable. Experiments across four reasoning benchmarks and three LLMs demonstrate that SALA outperforms existing demonstration selection methods.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044452",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02336v1",
+      "text": "three LLMs demonstrate that SALA outperforms existing demonstration selection methods.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "This approach allows for soft, flexible matching of reasoning logic while remaining highly interpretable. Experiments across four reasoning benchmarks and three LLMs demonstrate that SALA outperforms existing demonstration selection methods.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044453",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "update an internal state adequate for reasoning about the consequences of actions.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "World modeling requires a predictive model to maintain and update an internal state adequate for reasoning about the consequences of actions.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044454",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "Derived from procedurally generated, stateful grid worlds, the benchmark comprises per-step transition prediction, fixed-horizon state prediction, and sequential textual-observation prediction.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…lightweight controlled testbed for studying this capability in Transformers and other predictive models. Derived from procedurally generated, stateful grid worlds, the benchmark comprises per-step transition prediction, fixed-horizon state prediction, and sequential textual-observation prediction.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044455",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "compare them with two working-memory-augmented architectures.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…validation splits, together with greedy exact-match evaluation, distinguish learning transferable action-conditioned dynamics from memorizing transitions in familiar layouts. We establish from-scratch byte-level Transformer baselines and compare them with two working-memory-augmented architectures.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044456",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "A generic auxiliary latent-memory Transformer can fit some training sets perfectly",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We establish from-scratch byte-level Transformer baselines and compare them with two working-memory-augmented architectures. A generic auxiliary latent-memory Transformer can fit some training sets perfectly but does not consistently improve held-out performance.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044457",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "does not consistently improve held-out performance.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We establish from-scratch byte-level Transformer baselines and compare them with two working-memory-augmented architectures. A generic auxiliary latent-memory Transformer can fit some training sets perfectly but does not consistently improve held-out performance.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044458",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "In contrast, a pseudo-video spatial-memory Transformer initializes a two-dimensional latent workspace from the input map",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…sets perfectly but does not consistently improve held-out performance. In contrast, a pseudo-video spatial-memory Transformer initializes a two-dimensional latent workspace from the input map and updates it from action history without receiving intermediate maps, positions, or state labels.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044459",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "updates it from action history without receiving intermediate maps, positions, or state labels.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…sets perfectly but does not consistently improve held-out performance. In contrast, a pseudo-video spatial-memory Transformer initializes a two-dimensional latent workspace from the input map and updates it from action history without receiving intermediate maps, positions, or state labels.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044460",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "unstructured-memory baselines do not",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…maps, positions, or state labels. Under the same data, objectives, and evaluation protocol, this model reaches perfect validation accuracy on selected fixed-horizon tasks where the byte and unstructured-memory baselines do not, and substantially improves sequential text-trace prediction.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044461",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "substantially improves sequential text-trace prediction.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…maps, positions, or state labels. Under the same data, objectives, and evaluation protocol, this model reaches perfect validation accuracy on selected fixed-horizon tasks where the byte and unstructured-memory baselines do not, and substantially improves sequential text-trace prediction.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044462",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "These results suggest that structured, task-aligned working memory can be more useful than additional latent capacity alone.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…validation accuracy on selected fixed-horizon tasks where the byte and unstructured-memory baselines do not, and substantially improves sequential text-trace prediction. These results suggest that structured, task-aligned working memory can be more useful than additional latent capacity alone.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044463",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "More broadly, we argue that language grounding is mediated by persistent data structures and computations over them",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…can be more useful than additional latent capacity alone. More broadly, we argue that language grounding is mediated by persistent data structures and computations over them; the benchmark offers a compact setting for testing architectures that couple textual interfaces to learned structured state.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044464",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02339v1",
+      "text": "the benchmark offers a compact setting for testing architectures that couple textual interfaces to learned structured state.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…can be more useful than additional latent capacity alone. More broadly, we argue that language grounding is mediated by persistent data structures and computations over them; the benchmark offers a compact setting for testing architectures that couple textual interfaces to learned structured state.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044465",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02404v1",
+      "text": "Sparse mixture-of-experts (MoE) models use an independently parameterized router at each sparse layer to select experts for every token.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "Sparse mixture-of-experts (MoE) models use an independently parameterized router at each sparse layer to select experts for every token.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044466",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02404v1",
+      "text": "Prior work has shown that routing decisions across depth can often be predicted from earlier routing signals, suggesting that routing is not fully independent across layers.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…(MoE) models use an independently parameterized router at each sparse layer to select experts for every token. Prior work has shown that routing decisions across depth can often be predicted from earlier routing signals, suggesting that routing is not fully independent across layers.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044467",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02404v1",
+      "text": "In this work, we provide evidence that routing-relevant states across layers share a common geometric structure that is obscured by layer-specific coordinate systems.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "However, the structure behind this predictability remains unclear. In this work, we provide evidence that routing-relevant states across layers share a common geometric structure that is obscured by layer-specific coordinate systems.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044468",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02404v1",
+      "text": "After alignment, a single linear transition reaches $R^2=0.39$--$0.71$",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…generalized orthogonal Procrustes analysis. After alignment, a single linear transition reaches $R^2=0.39$--$0.71$ and retains 79--90\\% of the predictive power of separately fitted layer-specific dynamics, indicating that much of routing-state evolution follows a reusable process across depth.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044469",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02404v1",
+      "text": "retains 79--90\\% of the predictive power of separately fitted layer-specific dynamics, indicating that much of routing-state evolution follows a reusable process across depth.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…generalized orthogonal Procrustes analysis. After alignment, a single linear transition reaches $R^2=0.39$--$0.71$ and retains 79--90\\% of the predictive power of separately fitted layer-specific dynamics, indicating that much of routing-state evolution follows a reusable process across depth.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044470",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02404v1",
+      "text": "We then ask whether this shared dynamics is specific to routing or simply reflects the smooth evolution of hidden representations.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…79--90\\% of the predictive power of separately fitted layer-specific dynamics, indicating that much of routing-state evolution follows a reusable process across depth. We then ask whether this shared dynamics is specific to routing or simply reflects the smooth evolution of hidden representations.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044471",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02404v1",
+      "text": "A matched-rank comparison shows that residual representations are often easier to predict across layers, while router-control states preserve the model's expert choices much more faithfully.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "…shared dynamics is specific to routing or simply reflects the smooth evolution of hidden representations. A matched-rank comparison shows that residual representations are often easier to predict across layers, while router-control states preserve the model's expert choices much more faithfully.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044472",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02404v1",
+      "text": "Finally, we test whether the predicted canonical states remain meaningful when used in place of native routing states.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "This separates generic cross-layer predictability from routing-specific information. Finally, we test whether the predicted canonical states remain meaningful when used in place of native routing states.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044473",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02404v1",
+      "text": "The transported states preserve local routing behavior, while learned state evolution reduces $Δ\\mathrm{NLL}$ relative to simple persistence by 15.7\\% on OLMoE",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…the predicted canonical states remain meaningful when used in place of native routing states. The transported states preserve local routing behavior, while learned state evolution reduces $Δ\\mathrm{NLL}$ relative to simple persistence by 15.7\\% on OLMoE and 6.2\\% over a 10-router horizon on Phi.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044474",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02404v1",
+      "text": "6.2\\% over a 10-router horizon on Phi.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…the predicted canonical states remain meaningful when used in place of native routing states. The transported states preserve local routing behavior, while learned state evolution reduces $Δ\\mathrm{NLL}$ relative to simple persistence by 15.7\\% on OLMoE and 6.2\\% over a 10-router horizon on Phi.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044475",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02580v1",
+      "text": "Large language models (LLMs) are increasingly deployed as economic agents, yet there is little evidence whether LLM agents are suited for participating in market mechanisms designed for humans, and whether these mechanisms deliver desired outcomes when faced with LLM agents.",
+      "type": "empirical",
+      "support_in_text": 0.5,
+      "quote": "Large language models (LLMs) are increasingly deployed as economic agents, yet there is little evidence whether LLM agents are suited for participating in market mechanisms designed for humans, and whether these mechanisms deliver desired outcomes when faced with LLM agents.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044476",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02580v1",
+      "text": "We place agents in a double auction environment, which is a widely-used market mechanism.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "We address this question by replicating seminal economic experiments, replacing human subjects with LLM agents. We place agents in a double auction environment, which is a widely-used market mechanism.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044477",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02580v1",
+      "text": "We check whether such a market is able to deliver an efficient allocation of resources, thereby testing a novel dimension of alignment of LLM agents -- their compatibility with a fundamental market mechanism.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "We place agents in a double auction environment, which is a widely-used market mechanism. We check whether such a market is able to deliver an efficient allocation of resources, thereby testing a novel dimension of alignment of LLM agents -- their compatibility with a fundamental market mechanism.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044478",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02580v1",
+      "text": "We find that the decision to execute a trade rather than continue incrementally adjusting prices is associated with a shift from strategic considerations toward urgency.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We also run a lexical analysis of Chain-of-Thought (CoT) traces generated by the agents. We find that the decision to execute a trade rather than continue incrementally adjusting prices is associated with a shift from strategic considerations toward urgency.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044479",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02580v1",
+      "text": "We publicly release our testing framework, which can be used for future evaluations.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "We find that the decision to execute a trade rather than continue incrementally adjusting prices is associated with a shift from strategic considerations toward urgency. We publicly release our testing framework, which can be used for future evaluations.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044480",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02771v1",
+      "text": "its intervention value depends on both which examples are selected",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Training data attribution (TDA) aims to identify training examples that shape model behavior, but its intervention value depends on both which examples are selected and how they are modified.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044481",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02771v1",
+      "text": "how they are modified.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Training data attribution (TDA) aims to identify training examples that shape model behavior, but its intervention value depends on both which examples are selected and how they are modified.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044482",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02771v1",
+      "text": "Influence functions (IF) estimate behavioral changes under infinitesimal reweighting, yet IF-selected examples often show limited advantages over random selection under conventional weight-based interventions.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…intervention value depends on both which examples are selected and how they are modified. Influence functions (IF) estimate behavioral changes under infinitesimal reweighting, yet IF-selected examples often show limited advantages over random selection under conventional weight-based interventions.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044483",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02771v1",
+      "text": "This raises the question of whether influential examples lack intervention value or whether reweighting fails to realize their behavioral leverage.We introduce influence-guided response rewriting, which uses IF to identify intervention targets and replaces their responses with behavior-aligned or behavior-opposed supervision while keeping instructions fixed.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "This raises the question of whether influential examples lack intervention value or whether reweighting fails to realize their behavioral leverage.We introduce influence-guided response rewriting, which uses IF to identify intervention targets and replaces their responses with behavior-aligned or be",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044484",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02771v1",
+      "text": "Across four open-weight LLMs, we compare rewriting and reweighting on the same influence-selected examples using epistemic abstention as our primary testbed.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…intervention targets and replaces their responses with behavior-aligned or behavior-opposed supervision while keeping instructions fixed. Across four open-weight LLMs, we compare rewriting and reweighting on the same influence-selected examples using epistemic abstention as our primary testbed.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044485",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02771v1",
+      "text": "Further analyses show that influence-selected examples provide greater rewriting leverage than alternative selectors, with changes remaining concentrated on target-relevant behaviors.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…and bidirectional behavioral shifts, while reweighting the same examples yields weak and inconsistent effects. Further analyses show that influence-selected examples provide greater rewriting leverage than alternative selectors, with changes remaining concentrated on target-relevant behaviors.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044486",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02786v1",
+      "text": "The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044487",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02786v1",
+      "text": "Existing safety alignment mechanisms often rely on either external harness updates or policy optimization, yet applying either paradigm in isolation fails to bridge runtime control with intrinsic safety.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…them to safety risks in both harmful final responses and multi-step execution trajectories. Existing safety alignment mechanisms often rely on either external harness updates or policy optimization, yet applying either paradigm in isolation fails to bridge runtime control with intrinsic safety.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044488",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02786v1",
+      "text": "SafeEvolve leverages safety experience from completed on-policy trajectories to drive a continual loop of harness-policy co-evolution.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "We propose SafeEvolve, an experience-driven self-evolving framework for agent safety alignment. SafeEvolve leverages safety experience from completed on-policy trajectories to drive a continual loop of harness-policy co-evolution.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044489",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02786v1",
+      "text": "On the policy side, SafeEvolve follows a two-stage SFT-RL paradigm, where harness-use SFT bootstraps the policy to actively leverage evolved harness artifacts, and harness-augmented RL further shapes autonomous safety behaviors during multi-step exploration via verifier-decomposed rewards.",
+      "type": "historical",
+      "support_in_text": 0.35,
+      "quote": "On the policy side, SafeEvolve follows a two-stage SFT-RL paradigm, where harness-use SFT bootstraps the policy to actively leverage evolved harness artifacts, and harness-augmented RL further shapes autonomous safety behaviors during multi-step exploration via verifier-decomposed rewards.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044490",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02786v1",
+      "text": "Through harness-policy co-evolution, SafeEvolve converts safety experience into an evolved runtime harness and improved policy behavior.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…evolved harness artifacts, and harness-augmented RL further shapes autonomous safety behaviors during multi-step exploration via verifier-decomposed rewards. Through harness-policy co-evolution, SafeEvolve converts safety experience into an evolved runtime harness and improved policy behavior.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044491",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02786v1",
+      "text": "Experiments on agentic safety benchmarks show that SafeEvolve achieves a stronger safety-utility tradeoff than existing baselines.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Through harness-policy co-evolution, SafeEvolve converts safety experience into an evolved runtime harness and improved policy behavior. Experiments on agentic safety benchmarks show that SafeEvolve achieves a stronger safety-utility tradeoff than existing baselines.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044492",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02786v1",
+      "text": "For Qwen3.5-4B, SafeEvolve achieves a $3\\times$ ASR reduction on AgentDojo while improving benign utility from 59.79% to 61.86%.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Experiments on agentic safety benchmarks show that SafeEvolve achieves a stronger safety-utility tradeoff than existing baselines. For Qwen3.5-4B, SafeEvolve achieves a $3\\times$ ASR reduction on AgentDojo while improving benign utility from 59.79% to 61.86%.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044493",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02805v1",
+      "text": "Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis",
+      "type": "causal",
+      "support_in_text": 0.5,
+      "quote": "Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044494",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02805v1",
+      "text": "Root cause analysis (RCA) is a critical task in telecom network operations",
+      "type": "causal",
+      "support_in_text": 0.35,
+      "quote": "Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern 5G and emerging 6G networks remains challenging due to complex cross-layer dependencies.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044495",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02805v1",
+      "text": "diagnosing performance degradations in modern 5G",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern 5G and emerging 6G networks remains challenging due to complex cross-layer dependencies.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044496",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02805v1",
+      "text": "emerging 6G networks remains challenging due to complex cross-layer dependencies.",
+      "type": "causal",
+      "support_in_text": 0.35,
+      "quote": "Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern 5G and emerging 6G networks remains challenging due to complex cross-layer dependencies.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044497",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02805v1",
+      "text": "This work first reviews the evolution of telecom RCA from rule-based and machine learning (ML) approaches to emerging LLM-enabled techniques, and provides an overview of recent paradigms, including structured reasoning, retrieval-augmented knowledge grounding, agentic orchestration, and verifiable reasoning.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "This work first reviews the evolution of telecom RCA from rule-based and machine learning (ML) approaches to emerging LLM-enabled techniques, and provides an overview of recent paradigms, including structured reasoning, retrieval-augmented knowledge grounding, agentic orchestration, and verifiable r",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044498",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02805v1",
+      "text": "Experimental results on two 5G RCA datasets, TeleLogs",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…and finally generates evidence-grounded explanations for reliable fault identification. Experimental results on two 5G RCA datasets, TeleLogs and TelecomTS, demonstrate that the proposed framework consistently improves diagnostic accuracy and decision consistency compared with baseline techniques.",
+      "run_id": "33726737356",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_044499",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2609.02805v1",
+      "text": "TelecomTS, demonstrate that the proposed framework consistently improves diagnostic accuracy and decision consistency compared with baseline techniques.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…and finally generates evidence-grounded explanations for reliable fault identification. Experimental results on two 5G RCA datasets, TeleLogs and TelecomTS, demonstrate that the proposed framework consistently improves diagnostic accuracy and decision consistency compared with baseline techniques.",
+      "run_id": "33726737356",
       "status": "extracted"
     }
   ],
