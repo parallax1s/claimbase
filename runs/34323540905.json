@@ -1,0 +1,22 @@
+{
+  "run_id": "34323540905",
+  "since": "2026-08-26",
+  "feeds_polled": 6,
+  "items_seen": 32,
+  "items_new": 29,
+  "items_changed": 0,
+  "items_skipped": 3,
+  "claims_retired": 0,
+  "orphan_claims_pruned": 0,
+  "claims_extracted": 217,
+  "tasks_enqueued": {
+    "refine": 73,
+    "extract": 29,
+    "identity_edge": 385,
+    "attach": 53
+  },
+  "warnings": [
+    "lesswrong-af: HTTP Error 429: Too Many Requests",
+    "blog-rss: HTTP Error 403: Forbidden"
+  ]
+}
