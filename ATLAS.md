@@ -3,37 +3,37 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 34323540905 · sources 1535 · claims 30017 · edges 1279 · verified 73
+run 34449283989 · sources 1557 · claims 30908 · edges 1279 · verified 73
 
 ## Districts
 
 ```text
-woff · font · mjx                      ░░░░░░░░░░    785 claims  ⚡0
-mjx · padding · content                ░░░░░░░░░░    550 claims  ⚡0
-mjx · padding · content                ░░░░░░░░░░    252 claims  ⚡0
+woff · font · mathjax                  ░░░░░░░░░░    895 claims  ⚡0
+mjx · padding · content                ░░░░░░░░░░    583 claims  ⚡0
+mjx · padding · content                ░░░░░░░░░░    276 claims  ⚡0
 Multi-Agent LLM Systems                ░░░░░░░░░░    221 claims  ⚡0
-Cross-Modal Knowledge Distillation     ░░░░░░░░░░    195 claims  ⚡0
-Anthropic Company Moves                ▓▓▓░░░░░░░    188 claims  ⚡0
-LLM Architecture Research              ░░░░░░░░░░    156 claims  ⚡0
-Latent Variable and Neural Models      ░░░░░░░░░░    143 claims  ⚡0
-Model Arena Leaderboard Churn          ▓▓▓▓▓▓░░░░    129 claims  ⚡0
+Cross-Modal Knowledge Distillation     ░░░░░░░░░░    198 claims  ⚡0
+Anthropic Company Moves                ▓▓▓░░░░░░░    191 claims  ⚡0
+LLM Architecture Research              ░░░░░░░░░░    157 claims  ⚡0
+Latent Variable and Neural Models      ░░░░░░░░░░    145 claims  ⚡0
+Model Arena Leaderboard Churn          ▓▓▓▓▓▓░░░░    133 claims  ⚡0
 Temporal Image Consistency             ░░░░░░░░░░    122 claims  ⚡0
-training · models · ground             ░░░░░░░░░░    114 claims  ⚡0
+training · models · ground             ░░░░░░░░░░    115 claims  ⚡0
 Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    100 claims  ⚡0
+right · mjx · rspace                   ░░░░░░░░░░    100 claims  ⚡0
 prediction · accuracy · predictor      ░░░░░░░░░░     95 claims  ⚡0
 AI Existential Risk Discourse          ▓▓░░░░░░░░     93 claims  ⚡0
-right · mjx · rspace                   ░░░░░░░░░░     90 claims  ⚡0
-Neural Decoding and Brain-AI           ░░░░░░░░░░     88 claims  ⚡0
+Neural Decoding and Brain-AI           ░░░░░░░░░░     89 claims  ⚡0
+Epistemic Uncertainty Hedges           ▓░░░░░░░░░     84 claims  ⚡0
 Alignment Faking Detection Thresholds  ░░░░░░░░░░     83 claims  ⚡0
-Epistemic Uncertainty Hedges           ▓░░░░░░░░░     81 claims  ⚡0
+layers · layer · spatial               ░░░░░░░░░░     79 claims  ⚡0
 bias · preference · models             ░░░░░░░░░░     78 claims  ⚡0
-layers · layer · spatial               ░░░░░░░░░░     75 claims  ⚡0
 Federal AI Security Mandates           ▓░░░░░░░░░     73 claims  ⚡0
-Control Monitor Benchmarks             ░░░░░░░░░░     65 claims  ⚡0
+Control Monitor Benchmarks             ░░░░░░░░░░     69 claims  ⚡0
 Weak-to-Strong Generalization          ░░░░░░░░░░     65 claims  ⚡0
 US AI Policy and Classrooms            ▓▓░░░░░░░░     63 claims  ⚡0
-AI Safety Institute Collaboration      ░░░░░░░░░░     61 claims  ⚡0
-… and 3728 smaller districts (24645 claims)
+AI Safety Institute Collaboration      ░░░░░░░░░░     62 claims  ⚡0
+… and 3790 smaller districts (25312 claims)
 ```
 
 ## Sharpest fault
