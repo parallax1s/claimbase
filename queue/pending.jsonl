@@ -63203,7 +63203,7 @@
 {"id": "task_063203", "kind": "refine", "payload": {"claim_id": "clm_047308"}, "created_run": "34679974864", "status": "pending"}
 {"id": "task_063204", "kind": "refine", "payload": {"claim_id": "clm_047313"}, "created_run": "34679974864", "status": "pending"}
 {"id": "task_063205", "kind": "refine", "payload": {"claim_id": "clm_047316"}, "created_run": "34679974864", "status": "pending"}
-{"id": "task_063206", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited"}, "created_run": "34679974864", "status": "pending"}
+{"id": "task_063206", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited"}, "created_run": "34679974864", "status": "skipped", "note": "fable failed: HTTP Error 429: Too Many Requests"}
 {"id": "task_063207", "kind": "edge", "payload": {"a": "clm_002087", "b": "clm_047234", "sim": 0.5593}, "created_run": "34679974864", "status": "pending"}
 {"id": "task_063208", "kind": "edge", "payload": {"a": "clm_002248", "b": "clm_047226", "sim": 0.535}, "created_run": "34679974864", "status": "pending"}
 {"id": "task_063209", "kind": "edge", "payload": {"a": "clm_002348", "b": "clm_047315", "sim": 0.4057}, "created_run": "34679974864", "status": "pending"}
