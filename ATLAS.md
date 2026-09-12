@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 34573660459 · sources 1580 · claims 31756 · edges 1279 · verified 73
+run 34679974864 · sources 1581 · claims 31850 · edges 1279 · verified 73
 
 ## Districts
 
@@ -19,21 +19,21 @@ LLM Architecture Research              ░░░░░░░░░░    158 cla
 Model Arena Leaderboard Churn          ▓▓▓▓▓▓░░░░    132 claims  ⚡0
 Temporal Image Consistency             ░░░░░░░░░░    123 claims  ⚡0
 training · models · ground             ░░░░░░░░░░    118 claims  ⚡0
-Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    100 claims  ⚡0
+Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    101 claims  ⚡0
 right · mjx · rspace                   ░░░░░░░░░░    100 claims  ⚡0
+Control Monitor Benchmarks             ░░░░░░░░░░     98 claims  ⚡0
 prediction · accuracy · predictor      ░░░░░░░░░░     95 claims  ⚡0
-Control Monitor Benchmarks             ░░░░░░░░░░     95 claims  ⚡0
 AI Existential Risk Discourse          ▓▓░░░░░░░░     94 claims  ⚡0
 Neural Decoding and Brain-AI           ░░░░░░░░░░     90 claims  ⚡0
 layers · layer · spatial               ░░░░░░░░░░     87 claims  ⚡0
 Alignment Faking Detection Thresholds  ░░░░░░░░░░     84 claims  ⚡0
 Epistemic Uncertainty Hedges           ▓░░░░░░░░░     84 claims  ⚡0
-bias · preference · models             ░░░░░░░░░░     78 claims  ⚡0
+bias · preference · models             ░░░░░░░░░░     79 claims  ⚡0
 Federal AI Security Mandates           ▓░░░░░░░░░     73 claims  ⚡0
 Behavior Cue Token Signaling           ░░░░░░░░░░     68 claims  ⚡0
 Weak-to-Strong Generalization          ░░░░░░░░░░     67 claims  ⚡0
-Multi-Turn Reasoning Failure Modes     ░░░░░░░░░░     64 claims  ⚡0
-… and 3855 smaller districts (26090 claims)
+Multi-Turn Reasoning Failure Modes     ░░░░░░░░░░     65 claims  ⚡0
+… and 3866 smaller districts (26177 claims)
 ```
 
 ## Sharpest fault

@@ -1,0 +1,23 @@
+{
+  "run_id": "34679974864",
+  "since": "2026-08-29",
+  "feeds_polled": 6,
+  "items_seen": 10,
+  "items_new": 1,
+  "items_changed": 0,
+  "items_skipped": 9,
+  "claims_retired": 0,
+  "orphan_claims_pruned": 0,
+  "claims_extracted": 94,
+  "tasks_enqueued": {
+    "refine": 34,
+    "extract": 1,
+    "identity_edge": 136,
+    "attach": 23
+  },
+  "warnings": [
+    "arxiv-csai: HTTP Error 429: Unknown Error",
+    "blog-rss: HTTP Error 403: Forbidden",
+    "arxiv-aligncs: HTTP Error 429: Unknown Error"
+  ]
+}
