@@ -1,0 +1,23 @@
+{
+  "run_id": "34819978851",
+  "since": "2026-08-31",
+  "feeds_polled": 6,
+  "items_seen": 10,
+  "items_new": 0,
+  "items_changed": 0,
+  "items_skipped": 10,
+  "claims_retired": 0,
+  "orphan_claims_pruned": 0,
+  "claims_extracted": 0,
+  "tasks_enqueued": {
+    "refine": 0,
+    "extract": 0,
+    "identity_edge": 0,
+    "attach": 0
+  },
+  "warnings": [
+    "arxiv-csai: The read operation timed out",
+    "blog-rss: HTTP Error 403: Forbidden",
+    "arxiv-aligncs: The read operation timed out"
+  ]
+}
