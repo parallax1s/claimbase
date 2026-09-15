@@ -63370,7 +63370,7 @@
 {"id": "task_063370", "kind": "refine", "payload": {"claim_id": "clm_047326"}, "created_run": "34943232265", "status": "pending"}
 {"id": "task_063371", "kind": "refine", "payload": {"claim_id": "clm_047338"}, "created_run": "34943232265", "status": "pending"}
 {"id": "task_063372", "kind": "refine", "payload": {"claim_id": "clm_047350"}, "created_run": "34943232265", "status": "pending"}
-{"id": "task_063373", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the"}, "created_run": "34943232265", "status": "pending"}
+{"id": "task_063373", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the"}, "created_run": "34943232265", "status": "skipped", "note": "fable failed: HTTP Error 429: Too Many Requests"}
 {"id": "task_063374", "kind": "edge", "payload": {"a": "clm_000263", "b": "clm_047349", "sim": 0.5328}, "created_run": "34943232265", "status": "pending"}
 {"id": "task_063375", "kind": "edge", "payload": {"a": "clm_000337", "b": "clm_047331", "sim": 0.5939}, "created_run": "34943232265", "status": "pending"}
 {"id": "task_063376", "kind": "edge", "payload": {"a": "clm_000762", "b": "clm_047335", "sim": 0.432}, "created_run": "34943232265", "status": "pending"}
