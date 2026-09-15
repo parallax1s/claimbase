@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 34819978851 · sources 1581 · claims 31850 · edges 1279 · verified 73
+run 34943232265 · sources 1582 · claims 31890 · edges 1279 · verified 73
 
 ## Districts
 
@@ -33,7 +33,7 @@ Federal AI Security Mandates           ▓░░░░░░░░░     73 cla
 Behavior Cue Token Signaling           ░░░░░░░░░░     68 claims  ⚡0
 Weak-to-Strong Generalization          ░░░░░░░░░░     67 claims  ⚡0
 Multi-Turn Reasoning Failure Modes     ░░░░░░░░░░     65 claims  ⚡0
-… and 3866 smaller districts (26177 claims)
+… and 3867 smaller districts (26217 claims)
 ```
 
 ## Sharpest fault

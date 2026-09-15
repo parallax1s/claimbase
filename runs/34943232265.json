@@ -1,0 +1,23 @@
+{
+  "run_id": "34943232265",
+  "since": "2026-09-01",
+  "feeds_polled": 6,
+  "items_seen": 10,
+  "items_new": 1,
+  "items_changed": 0,
+  "items_skipped": 9,
+  "claims_retired": 0,
+  "orphan_claims_pruned": 0,
+  "claims_extracted": 40,
+  "tasks_enqueued": {
+    "refine": 7,
+    "extract": 1,
+    "identity_edge": 95,
+    "attach": 15
+  },
+  "warnings": [
+    "arxiv-csai: The read operation timed out",
+    "blog-rss: HTTP Error 403: Forbidden",
+    "arxiv-aligncs: HTTP Error 429: Unknown Error"
+  ]
+}
