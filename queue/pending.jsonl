@@ -64900,3 +64900,170 @@
 {"id": "task_064900", "kind": "attach", "payload": {"question_id": "q_000004", "claim_id": "clm_048034", "sim": 0.6631}, "created_run": "35195635146", "status": "pending"}
 {"id": "task_064901", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_048037", "sim": 0.3954}, "created_run": "35195635146", "status": "pending"}
 {"id": "task_064902", "kind": "attach", "payload": {"question_id": "q_000004", "claim_id": "clm_048038", "sim": 0.6548}, "created_run": "35195635146", "status": "pending"}
+{"id": "task_064903", "kind": "refine", "payload": {"claim_id": "clm_048043"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064904", "kind": "refine", "payload": {"claim_id": "clm_048047"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064905", "kind": "refine", "payload": {"claim_id": "clm_048053"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064906", "kind": "refine", "payload": {"claim_id": "clm_048055"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064907", "kind": "refine", "payload": {"claim_id": "clm_048059"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064908", "kind": "refine", "payload": {"claim_id": "clm_048060"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064909", "kind": "refine", "payload": {"claim_id": "clm_048067"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064910", "kind": "refine", "payload": {"claim_id": "clm_048069"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064911", "kind": "refine", "payload": {"claim_id": "clm_048071"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064912", "kind": "refine", "payload": {"claim_id": "clm_048073"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064913", "kind": "refine", "payload": {"claim_id": "clm_048075"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064914", "kind": "refine", "payload": {"claim_id": "clm_048076"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064915", "kind": "refine", "payload": {"claim_id": "clm_048079"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064916", "kind": "refine", "payload": {"claim_id": "clm_048085"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064917", "kind": "refine", "payload": {"claim_id": "clm_048089"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064918", "kind": "refine", "payload": {"claim_id": "clm_048090"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064919", "kind": "refine", "payload": {"claim_id": "clm_048099"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064920", "kind": "refine", "payload": {"claim_id": "clm_048101"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064921", "kind": "refine", "payload": {"claim_id": "clm_048103"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064922", "kind": "refine", "payload": {"claim_id": "clm_048104"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064923", "kind": "refine", "payload": {"claim_id": "clm_048105"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064924", "kind": "refine", "payload": {"claim_id": "clm_048110"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064925", "kind": "refine", "payload": {"claim_id": "clm_048111"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064926", "kind": "refine", "payload": {"claim_id": "clm_048118"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064927", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064928", "kind": "edge", "payload": {"a": "clm_000251", "b": "clm_048112", "sim": 0.5626}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064929", "kind": "edge", "payload": {"a": "clm_000387", "b": "clm_048087", "sim": 0.4077}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064930", "kind": "edge", "payload": {"a": "clm_000391", "b": "clm_048098", "sim": 0.4824}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064931", "kind": "edge", "payload": {"a": "clm_000528", "b": "clm_048045", "sim": 0.5199}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064932", "kind": "edge", "payload": {"a": "clm_000827", "b": "clm_048044", "sim": 0.5694}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064933", "kind": "edge", "payload": {"a": "clm_000827", "b": "clm_048115", "sim": 0.5165}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064934", "kind": "edge", "payload": {"a": "clm_000832", "b": "clm_048046", "sim": 0.4346}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064935", "kind": "edge", "payload": {"a": "clm_000868", "b": "clm_048046", "sim": 0.442}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064936", "kind": "edge", "payload": {"a": "clm_000874", "b": "clm_048058", "sim": 0.5756}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064937", "kind": "edge", "payload": {"a": "clm_000875", "b": "clm_048061", "sim": 0.4938}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064938", "kind": "edge", "payload": {"a": "clm_000875", "b": "clm_048070", "sim": 0.4976}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064939", "kind": "identity", "payload": {"a": "clm_000875", "b": "clm_048112", "sim": 0.6603}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064940", "kind": "edge", "payload": {"a": "clm_001111", "b": "clm_048045", "sim": 0.5227}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064941", "kind": "edge", "payload": {"a": "clm_001465", "b": "clm_048057", "sim": 0.4662}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064942", "kind": "edge", "payload": {"a": "clm_001474", "b": "clm_048092", "sim": 0.4893}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064943", "kind": "edge", "payload": {"a": "clm_001480", "b": "clm_048115", "sim": 0.5199}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064944", "kind": "edge", "payload": {"a": "clm_001494", "b": "clm_048039", "sim": 0.4214}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064945", "kind": "edge", "payload": {"a": "clm_001523", "b": "clm_048054", "sim": 0.4279}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064946", "kind": "edge", "payload": {"a": "clm_001536", "b": "clm_048092", "sim": 0.454}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064947", "kind": "edge", "payload": {"a": "clm_001755", "b": "clm_048081", "sim": 0.4544}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064948", "kind": "edge", "payload": {"a": "clm_001986", "b": "clm_048098", "sim": 0.4545}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064949", "kind": "edge", "payload": {"a": "clm_002213", "b": "clm_048068", "sim": 0.4658}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064950", "kind": "edge", "payload": {"a": "clm_002560", "b": "clm_048057", "sim": 0.5266}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064951", "kind": "edge", "payload": {"a": "clm_002800", "b": "clm_048065", "sim": 0.4181}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064952", "kind": "edge", "payload": {"a": "clm_002998", "b": "clm_048048", "sim": 0.4735}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064953", "kind": "edge", "payload": {"a": "clm_003031", "b": "clm_048046", "sim": 0.4341}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064954", "kind": "edge", "payload": {"a": "clm_003450", "b": "clm_048109", "sim": 0.434}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064955", "kind": "edge", "payload": {"a": "clm_003564", "b": "clm_048109", "sim": 0.522}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064956", "kind": "edge", "payload": {"a": "clm_003808", "b": "clm_048122", "sim": 0.5053}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064957", "kind": "edge", "payload": {"a": "clm_003952", "b": "clm_048113", "sim": 0.4926}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064958", "kind": "edge", "payload": {"a": "clm_003954", "b": "clm_048122", "sim": 0.5367}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064959", "kind": "edge", "payload": {"a": "clm_004109", "b": "clm_048042", "sim": 0.4121}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064960", "kind": "edge", "payload": {"a": "clm_004117", "b": "clm_048042", "sim": 0.4123}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064961", "kind": "edge", "payload": {"a": "clm_004117", "b": "clm_048081", "sim": 0.4628}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064962", "kind": "edge", "payload": {"a": "clm_004119", "b": "clm_048042", "sim": 0.5541}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064963", "kind": "edge", "payload": {"a": "clm_004130", "b": "clm_048074", "sim": 0.4846}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064964", "kind": "edge", "payload": {"a": "clm_004152", "b": "clm_048072", "sim": 0.4332}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064965", "kind": "edge", "payload": {"a": "clm_004182", "b": "clm_048064", "sim": 0.4869}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064966", "kind": "edge", "payload": {"a": "clm_004194", "b": "clm_048044", "sim": 0.5682}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064967", "kind": "edge", "payload": {"a": "clm_004194", "b": "clm_048061", "sim": 0.5102}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064968", "kind": "edge", "payload": {"a": "clm_004194", "b": "clm_048062", "sim": 0.4542}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064969", "kind": "edge", "payload": {"a": "clm_004194", "b": "clm_048070", "sim": 0.5272}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064970", "kind": "edge", "payload": {"a": "clm_004194", "b": "clm_048112", "sim": 0.6271}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064971", "kind": "edge", "payload": {"a": "clm_004194", "b": "clm_048114", "sim": 0.5267}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064972", "kind": "edge", "payload": {"a": "clm_004194", "b": "clm_048115", "sim": 0.5439}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064973", "kind": "edge", "payload": {"a": "clm_004294", "b": "clm_048054", "sim": 0.4104}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064974", "kind": "edge", "payload": {"a": "clm_005012", "b": "clm_048057", "sim": 0.4723}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064975", "kind": "edge", "payload": {"a": "clm_005179", "b": "clm_048046", "sim": 0.4608}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064976", "kind": "edge", "payload": {"a": "clm_007283", "b": "clm_048086", "sim": 0.4199}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064977", "kind": "edge", "payload": {"a": "clm_007447", "b": "clm_048109", "sim": 0.491}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064978", "kind": "edge", "payload": {"a": "clm_007733", "b": "clm_048122", "sim": 0.5047}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064979", "kind": "edge", "payload": {"a": "clm_010688", "b": "clm_048040", "sim": 0.4496}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064980", "kind": "edge", "payload": {"a": "clm_010696", "b": "clm_048048", "sim": 0.5287}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064981", "kind": "edge", "payload": {"a": "clm_011014", "b": "clm_048048", "sim": 0.4697}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064982", "kind": "identity", "payload": {"a": "clm_011044", "b": "clm_048045", "sim": 0.718}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064983", "kind": "edge", "payload": {"a": "clm_011210", "b": "clm_048048", "sim": 0.5026}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064984", "kind": "edge", "payload": {"a": "clm_012380", "b": "clm_048050", "sim": 0.4451}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064985", "kind": "edge", "payload": {"a": "clm_012491", "b": "clm_048088", "sim": 0.4271}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064986", "kind": "edge", "payload": {"a": "clm_012566", "b": "clm_048107", "sim": 0.4594}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064987", "kind": "edge", "payload": {"a": "clm_012675", "b": "clm_048095", "sim": 0.5196}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064988", "kind": "edge", "payload": {"a": "clm_012863", "b": "clm_048113", "sim": 0.5011}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064989", "kind": "edge", "payload": {"a": "clm_012957", "b": "clm_048095", "sim": 0.5656}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064990", "kind": "edge", "payload": {"a": "clm_013640", "b": "clm_048088", "sim": 0.4168}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064991", "kind": "edge", "payload": {"a": "clm_013942", "b": "clm_048064", "sim": 0.4781}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064992", "kind": "edge", "payload": {"a": "clm_014014", "b": "clm_048091", "sim": 0.4225}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064993", "kind": "edge", "payload": {"a": "clm_014048", "b": "clm_048052", "sim": 0.4319}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064994", "kind": "edge", "payload": {"a": "clm_014050", "b": "clm_048052", "sim": 0.5256}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064995", "kind": "edge", "payload": {"a": "clm_015196", "b": "clm_048092", "sim": 0.4577}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064996", "kind": "edge", "payload": {"a": "clm_016391", "b": "clm_048052", "sim": 0.4295}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064997", "kind": "edge", "payload": {"a": "clm_017374", "b": "clm_048041", "sim": 0.4123}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064998", "kind": "edge", "payload": {"a": "clm_019045", "b": "clm_048082", "sim": 0.4372}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064999", "kind": "edge", "payload": {"a": "clm_019045", "b": "clm_048113", "sim": 0.4935}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065000", "kind": "edge", "payload": {"a": "clm_019047", "b": "clm_048082", "sim": 0.4323}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065001", "kind": "edge", "payload": {"a": "clm_020762", "b": "clm_048040", "sim": 0.452}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065002", "kind": "identity", "payload": {"a": "clm_020795", "b": "clm_048045", "sim": 0.7201}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065003", "kind": "edge", "payload": {"a": "clm_020824", "b": "clm_048077", "sim": 0.5531}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065004", "kind": "edge", "payload": {"a": "clm_020854", "b": "clm_048077", "sim": 0.4425}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065005", "kind": "edge", "payload": {"a": "clm_021009", "b": "clm_048081", "sim": 0.498}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065006", "kind": "edge", "payload": {"a": "clm_021092", "b": "clm_048042", "sim": 0.423}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065007", "kind": "edge", "payload": {"a": "clm_021199", "b": "clm_048098", "sim": 0.4316}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065008", "kind": "edge", "payload": {"a": "clm_021645", "b": "clm_048074", "sim": 0.4621}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065009", "kind": "edge", "payload": {"a": "clm_022172", "b": "clm_048068", "sim": 0.534}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065010", "kind": "edge", "payload": {"a": "clm_022193", "b": "clm_048050", "sim": 0.4426}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065011", "kind": "edge", "payload": {"a": "clm_022859", "b": "clm_048074", "sim": 0.4621}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065012", "kind": "edge", "payload": {"a": "clm_024562", "b": "clm_048095", "sim": 0.5357}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065013", "kind": "edge", "payload": {"a": "clm_024807", "b": "clm_048074", "sim": 0.4648}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065014", "kind": "edge", "payload": {"a": "clm_026071", "b": "clm_048120", "sim": 0.4645}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065015", "kind": "edge", "payload": {"a": "clm_027674", "b": "clm_048098", "sim": 0.448}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065016", "kind": "edge", "payload": {"a": "clm_029504", "b": "clm_048095", "sim": 0.524}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065017", "kind": "edge", "payload": {"a": "clm_030950", "b": "clm_048057", "sim": 0.4725}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065018", "kind": "edge", "payload": {"a": "clm_031412", "b": "clm_048088", "sim": 0.4582}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065019", "kind": "edge", "payload": {"a": "clm_031664", "b": "clm_048082", "sim": 0.4493}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065020", "kind": "edge", "payload": {"a": "clm_031694", "b": "clm_048081", "sim": 0.4914}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065021", "kind": "edge", "payload": {"a": "clm_031815", "b": "clm_048072", "sim": 0.4393}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065022", "kind": "edge", "payload": {"a": "clm_031816", "b": "clm_048072", "sim": 0.5036}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065023", "kind": "edge", "payload": {"a": "clm_031816", "b": "clm_048092", "sim": 0.4708}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065024", "kind": "edge", "payload": {"a": "clm_032176", "b": "clm_048122", "sim": 0.5495}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065025", "kind": "edge", "payload": {"a": "clm_032307", "b": "clm_048068", "sim": 0.4349}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065026", "kind": "edge", "payload": {"a": "clm_033145", "b": "clm_048109", "sim": 0.4617}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065027", "kind": "edge", "payload": {"a": "clm_033270", "b": "clm_048064", "sim": 0.4797}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065028", "kind": "edge", "payload": {"a": "clm_034067", "b": "clm_048064", "sim": 0.485}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065029", "kind": "edge", "payload": {"a": "clm_035988", "b": "clm_048041", "sim": 0.4246}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065030", "kind": "edge", "payload": {"a": "clm_035988", "b": "clm_048113", "sim": 0.4981}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065031", "kind": "edge", "payload": {"a": "clm_040342", "b": "clm_048050", "sim": 0.4564}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065032", "kind": "edge", "payload": {"a": "clm_040343", "b": "clm_048044", "sim": 0.5014}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065033", "kind": "edge", "payload": {"a": "clm_042423", "b": "clm_048056", "sim": 0.4089}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065034", "kind": "edge", "payload": {"a": "clm_042423", "b": "clm_048072", "sim": 0.4619}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065035", "kind": "edge", "payload": {"a": "clm_043194", "b": "clm_048077", "sim": 0.4717}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065036", "kind": "edge", "payload": {"a": "clm_043223", "b": "clm_048097", "sim": 0.4007}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065037", "kind": "edge", "payload": {"a": "clm_046033", "b": "clm_048058", "sim": 0.5649}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065038", "kind": "edge", "payload": {"a": "clm_046706", "b": "clm_048058", "sim": 0.5846}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065039", "kind": "edge", "payload": {"a": "clm_046989", "b": "clm_048050", "sim": 0.4446}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065040", "kind": "edge", "payload": {"a": "clm_047351", "b": "clm_048040", "sim": 0.4738}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065041", "kind": "edge", "payload": {"a": "clm_047351", "b": "clm_048087", "sim": 0.4033}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065042", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048040", "sim": 1.5898}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065043", "kind": "attach", "payload": {"question_id": "q_000025", "claim_id": "clm_048041", "sim": 0.7374}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065044", "kind": "attach", "payload": {"question_id": "q_000013", "claim_id": "clm_048042", "sim": 0.4426}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065045", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048044", "sim": 1.4825}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065046", "kind": "attach", "payload": {"question_id": "q_000008", "claim_id": "clm_048049", "sim": 0.9778}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065047", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048051", "sim": 1.4588}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065048", "kind": "attach", "payload": {"question_id": "q_000015", "claim_id": "clm_048054", "sim": 0.601}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065049", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048058", "sim": 0.7514}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065050", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048061", "sim": 0.7611}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065051", "kind": "attach", "payload": {"question_id": "q_000008", "claim_id": "clm_048063", "sim": 1.1316}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065052", "kind": "attach", "payload": {"question_id": "q_000021", "claim_id": "clm_048064", "sim": 0.6872}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065053", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048066", "sim": 0.7568}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065054", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048070", "sim": 0.7633}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065055", "kind": "attach", "payload": {"question_id": "q_000012", "claim_id": "clm_048074", "sim": 0.9354}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065056", "kind": "attach", "payload": {"question_id": "q_000015", "claim_id": "clm_048078", "sim": 0.7283}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065057", "kind": "attach", "payload": {"question_id": "q_000025", "claim_id": "clm_048082", "sim": 0.7648}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065058", "kind": "attach", "payload": {"question_id": "q_000025", "claim_id": "clm_048084", "sim": 0.7768}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065059", "kind": "attach", "payload": {"question_id": "q_000014", "claim_id": "clm_048086", "sim": 0.7922}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065060", "kind": "attach", "payload": {"question_id": "q_000015", "claim_id": "clm_048097", "sim": 0.5827}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065061", "kind": "attach", "payload": {"question_id": "q_000025", "claim_id": "clm_048102", "sim": 0.8647}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065062", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048108", "sim": 1.5132}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065063", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048112", "sim": 1.5479}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065064", "kind": "attach", "payload": {"question_id": "q_000021", "claim_id": "clm_048113", "sim": 0.7066}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065065", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048114", "sim": 1.481}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065066", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048115", "sim": 1.4162}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065067", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048116", "sim": 1.471}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065068", "kind": "attach", "payload": {"question_id": "q_000025", "claim_id": "clm_048117", "sim": 0.7838}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065069", "kind": "attach", "payload": {"question_id": "q_000021", "claim_id": "clm_048121", "sim": 0.6837}, "created_run": "35319238095", "status": "pending"}

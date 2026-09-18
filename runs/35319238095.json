@@ -1,0 +1,23 @@
+{
+  "run_id": "35319238095",
+  "since": "2026-09-04",
+  "feeds_polled": 6,
+  "items_seen": 12,
+  "items_new": 1,
+  "items_changed": 0,
+  "items_skipped": 11,
+  "claims_retired": 0,
+  "orphan_claims_pruned": 0,
+  "claims_extracted": 84,
+  "tasks_enqueued": {
+    "refine": 24,
+    "extract": 1,
+    "identity_edge": 114,
+    "attach": 28
+  },
+  "warnings": [
+    "arxiv-csai: HTTP Error 406: Not Acceptable",
+    "blog-rss: HTTP Error 403: Forbidden",
+    "arxiv-aligncs: HTTP Error 406: Not Acceptable"
+  ]
+}
