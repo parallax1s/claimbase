@@ -64924,7 +64924,7 @@
 {"id": "task_064924", "kind": "refine", "payload": {"claim_id": "clm_048110"}, "created_run": "35319238095", "status": "pending"}
 {"id": "task_064925", "kind": "refine", "payload": {"claim_id": "clm_048111"}, "created_run": "35319238095", "status": "pending"}
 {"id": "task_064926", "kind": "refine", "payload": {"claim_id": "clm_048118"}, "created_run": "35319238095", "status": "pending"}
-{"id": "task_064927", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment"}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_064927", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment"}, "created_run": "35319238095", "status": "skipped", "note": "fable failed: GitHub Models HTTP 410: {\"error\":{\"code\":\"github_models_retirement_brownout\",\"message\":\"GitHub Models is temporarily unavailable as part of a scheduled retireme"}
 {"id": "task_064928", "kind": "edge", "payload": {"a": "clm_000251", "b": "clm_048112", "sim": 0.5626}, "created_run": "35319238095", "status": "pending"}
 {"id": "task_064929", "kind": "edge", "payload": {"a": "clm_000387", "b": "clm_048087", "sim": 0.4077}, "created_run": "35319238095", "status": "pending"}
 {"id": "task_064930", "kind": "edge", "payload": {"a": "clm_000391", "b": "clm_048098", "sim": 0.4824}, "created_run": "35319238095", "status": "pending"}
