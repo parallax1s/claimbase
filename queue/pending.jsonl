@@ -65067,3 +65067,11 @@
 {"id": "task_065067", "kind": "attach", "payload": {"question_id": "q_000022", "claim_id": "clm_048116", "sim": 1.471}, "created_run": "35319238095", "status": "pending"}
 {"id": "task_065068", "kind": "attach", "payload": {"question_id": "q_000025", "claim_id": "clm_048117", "sim": 0.7838}, "created_run": "35319238095", "status": "pending"}
 {"id": "task_065069", "kind": "attach", "payload": {"question_id": "q_000021", "claim_id": "clm_048121", "sim": 0.6837}, "created_run": "35319238095", "status": "pending"}
+{"id": "task_065070", "kind": "refine", "payload": {"claim_id": "clm_048126"}, "created_run": "35429031093", "status": "pending"}
+{"id": "task_065071", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/virawHQekJsozwotz/paper-stringological-sequence-prediction-iii"}, "created_run": "35429031093", "status": "pending"}
+{"id": "task_065072", "kind": "edge", "payload": {"a": "clm_008000", "b": "clm_048124", "sim": 0.4574}, "created_run": "35429031093", "status": "pending"}
+{"id": "task_065073", "kind": "edge", "payload": {"a": "clm_019418", "b": "clm_048123", "sim": 0.4001}, "created_run": "35429031093", "status": "pending"}
+{"id": "task_065074", "kind": "edge", "payload": {"a": "clm_029184", "b": "clm_048124", "sim": 0.4192}, "created_run": "35429031093", "status": "pending"}
+{"id": "task_065075", "kind": "edge", "payload": {"a": "clm_037792", "b": "clm_048124", "sim": 0.5271}, "created_run": "35429031093", "status": "pending"}
+{"id": "task_065076", "kind": "edge", "payload": {"a": "clm_037838", "b": "clm_048124", "sim": 0.4104}, "created_run": "35429031093", "status": "pending"}
+{"id": "task_065077", "kind": "edge", "payload": {"a": "clm_042051", "b": "clm_048123", "sim": 0.435}, "created_run": "35429031093", "status": "pending"}

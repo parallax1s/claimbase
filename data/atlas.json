@@ -1,5 +1,5 @@
 {
-  "generated_run": "35319238095",
+  "generated_run": "35429031093",
   "extent": {
     "w": 1000,
     "h": 1000
@@ -1754,10 +1754,10 @@
       "label": "Platform Algorithm Regulation Race",
       "x": -719.84,
       "y": -3470.26,
-      "r": 90.48,
-      "claims": 13,
+      "r": 92.38,
+      "claims": 14,
       "lit": 0,
-      "dim": 13,
+      "dim": 14,
       "tensions": 0
     },
     {
@@ -1971,13 +1971,13 @@
     },
     {
       "id": "d_111",
-      "label": "discrete · algorithms · continuous",
+      "label": "discrete · algorithm · algorithms",
       "x": 10.14,
       "y": -850.04,
-      "r": 82.0,
-      "claims": 9,
+      "r": 84.27,
+      "claims": 10,
       "lit": 0,
-      "dim": 9,
+      "dim": 10,
       "tensions": 0
     },
     {
@@ -31033,13 +31033,13 @@
     },
     {
       "id": "d_4100",
-      "label": "appel · kosoy · definition",
+      "label": "kosoy · appel · programs",
       "x": -887.91,
       "y": 6788.04,
-      "r": 64.25,
-      "claims": 3,
+      "r": 68.0,
+      "claims": 4,
       "lit": 0,
-      "dim": 3,
+      "dim": 4,
       "tensions": 0
     },
     {
@@ -370231,6 +370231,46 @@
       "type": "descriptive",
       "text": "^\n\nInsofar as it makes sense to see existing AI systems as moral patients.",
       "src": "A Defense of Gradual Disempowerment"
+    },
+    {
+      "id": "clm_048123",
+      "x": -659.39,
+      "y": -3413.96,
+      "s": "dim",
+      "d": "d_1087",
+      "type": "statistical",
+      "text": "Abstract: In previous papers (Kosoy 2026a,b), we began the study of sequence prediction algorithms adapted to stringological word complexity",
+      "src": "[Paper] Stringological sequence predicti"
+    },
+    {
+      "id": "clm_048124",
+      "x": 0.73,
+      "y": -852.65,
+      "s": "dim",
+      "d": "d_111",
+      "type": "descriptive",
+      "text": "Here, we show a weaker complexity measure related to ARC that admits an especially efficient prediction algorithm: an algorithm that runs in",
+      "src": "[Paper] Stringological sequence predicti"
+    },
+    {
+      "id": "clm_048125",
+      "x": -865.66,
+      "y": 6806.76,
+      "s": "dim",
+      "d": "d_4100",
+      "type": "statistical",
+      "text": "The complexity measure is defined via a restricted class of “zipline programs” (a variant of straight-line programs we defined in Kosoy 2026",
+      "src": "[Paper] Stringological sequence predicti"
+    },
+    {
+      "id": "clm_048126",
+      "x": -6563.95,
+      "y": -3336.67,
+      "s": "dim",
+      "d": "d_5403",
+      "type": "descriptive",
+      "text": "whether this tradeoff is necessary or just a limitation of my techniques remains an interesting open problem.",
+      "src": "[Paper] Stringological sequence predicti"
     }
   ],
   "tensions": [
