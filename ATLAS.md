@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 35833381262 · sources 1616 · claims 32660 · edges 1279 · verified 73
+run 35970467212 · sources 1618 · claims 32998 · edges 1279 · verified 73
 
 ## Districts
 
@@ -11,29 +11,29 @@ run 35833381262 · sources 1616 · claims 32660 · edges 1279 · verified 73
 woff · font · mjx                      ░░░░░░░░░░    895 claims  ⚡0
 mjx · padding · content                ░░░░░░░░░░    583 claims  ⚡0
 mjx · padding · content                ░░░░░░░░░░    276 claims  ⚡0
-Multi-Agent LLM Systems                ░░░░░░░░░░    240 claims  ⚡0
-Cross-Modal Knowledge Distillation     ░░░░░░░░░░    206 claims  ⚡0
+Multi-Agent LLM Systems                ░░░░░░░░░░    243 claims  ⚡0
+Cross-Modal Knowledge Distillation     ░░░░░░░░░░    207 claims  ⚡0
 Anthropic Company Moves                ▓▓▓░░░░░░░    191 claims  ⚡0
 Latent Variable and Neural Models      ░░░░░░░░░░    163 claims  ⚡0
 LLM Architecture Research              ░░░░░░░░░░    160 claims  ⚡0
-Model Arena Leaderboard Churn          ▓▓▓▓▓▓░░░░    132 claims  ⚡0
+Model Arena Leaderboard Churn          ▓▓▓▓▓▓░░░░    134 claims  ⚡0
 Temporal Image Consistency             ░░░░░░░░░░    123 claims  ⚡0
-training · models · ground             ░░░░░░░░░░    120 claims  ⚡0
+training · models · ground             ░░░░░░░░░░    121 claims  ⚡0
 Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    104 claims  ⚡0
-Control Monitor Benchmarks             ░░░░░░░░░░    101 claims  ⚡0
+Control Monitor Benchmarks             ░░░░░░░░░░    102 claims  ⚡0
 right · mjx · rspace                   ░░░░░░░░░░    100 claims  ⚡0
 prediction · accuracy · predictor      ░░░░░░░░░░     98 claims  ⚡0
-AI Existential Risk Discourse          ▓▓░░░░░░░░     97 claims  ⚡0
+AI Existential Risk Discourse          ▓▓░░░░░░░░     98 claims  ⚡0
 Neural Decoding and Brain-AI           ░░░░░░░░░░     91 claims  ⚡0
-layers · layer · spatial               ░░░░░░░░░░     90 claims  ⚡0
+layers · layer · spatial               ░░░░░░░░░░     91 claims  ⚡0
+Epistemic Uncertainty Hedges           ▓░░░░░░░░░     87 claims  ⚡0
 Alignment Faking Detection Thresholds  ░░░░░░░░░░     86 claims  ⚡0
-Epistemic Uncertainty Hedges           ▓░░░░░░░░░     85 claims  ⚡0
 bias · preference · models             ░░░░░░░░░░     79 claims  ⚡0
 Federal AI Security Mandates           ▓░░░░░░░░░     74 claims  ⚡0
 Weak-to-Strong Generalization          ░░░░░░░░░░     73 claims  ⚡0
 Behavior Cue Token Signaling           ░░░░░░░░░░     70 claims  ⚡0
 Multi-Turn Reasoning Failure Modes     ░░░░░░░░░░     67 claims  ⚡0
-… and 3944 smaller districts (26922 claims)
+… and 3973 smaller districts (27229 claims)
 ```
 
 ## Sharpest fault
