@@ -65166,8 +65166,8 @@
 {"id": "task_065166", "kind": "refine", "payload": {"claim_id": "clm_048454"}, "created_run": "35970467212", "status": "pending"}
 {"id": "task_065167", "kind": "refine", "payload": {"claim_id": "clm_048457"}, "created_run": "35970467212", "status": "pending"}
 {"id": "task_065168", "kind": "refine", "payload": {"claim_id": "clm_048464"}, "created_run": "35970467212", "status": "pending"}
-{"id": "task_065169", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl"}, "created_run": "35970467212", "status": "pending"}
-{"id": "task_065170", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the"}, "created_run": "35970467212", "status": "pending"}
+{"id": "task_065169", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl"}, "created_run": "35970467212", "status": "skipped", "note": "fable failed: GitHub Models failed after retries: Expecting value: line 1 column 1 (char 0)"}
+{"id": "task_065170", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the"}, "created_run": "35970467212", "status": "skipped", "note": "fable failed: GitHub Models failed after retries: Expecting value: line 1 column 1 (char 0)"}
 {"id": "task_065171", "kind": "edge", "payload": {"a": "clm_000297", "b": "clm_048282", "sim": 0.4034}, "created_run": "35970467212", "status": "pending"}
 {"id": "task_065172", "kind": "edge", "payload": {"a": "clm_000337", "b": "clm_048229", "sim": 0.5225}, "created_run": "35970467212", "status": "pending"}
 {"id": "task_065173", "kind": "edge", "payload": {"a": "clm_000344", "b": "clm_048151", "sim": 0.5105}, "created_run": "35970467212", "status": "pending"}
