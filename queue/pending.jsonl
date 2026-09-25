@@ -65868,8 +65868,8 @@
 {"id": "task_065868", "kind": "refine", "payload": {"claim_id": "clm_048945"}, "created_run": "36109542662", "status": "pending"}
 {"id": "task_065869", "kind": "refine", "payload": {"claim_id": "clm_048946"}, "created_run": "36109542662", "status": "pending"}
 {"id": "task_065870", "kind": "refine", "payload": {"claim_id": "clm_048947"}, "created_run": "36109542662", "status": "pending"}
-{"id": "task_065871", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-undermine-cot-our"}, "created_run": "36109542662", "status": "pending"}
-{"id": "task_065872", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly"}, "created_run": "36109542662", "status": "pending"}
+{"id": "task_065871", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-undermine-cot-our"}, "created_run": "36109542662", "status": "skipped", "note": "fable failed: GitHub Models failed after retries: Expecting value: line 1 column 1 (char 0)"}
+{"id": "task_065872", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly"}, "created_run": "36109542662", "status": "skipped", "note": "fable failed: GitHub Models failed after retries: Expecting value: line 1 column 1 (char 0)"}
 {"id": "task_065873", "kind": "edge", "payload": {"a": "clm_000300", "b": "clm_048470", "sim": 0.6226}, "created_run": "36109542662", "status": "pending"}
 {"id": "task_065874", "kind": "edge", "payload": {"a": "clm_000337", "b": "clm_048931", "sim": 0.4705}, "created_run": "36109542662", "status": "pending"}
 {"id": "task_065875", "kind": "edge", "payload": {"a": "clm_000344", "b": "clm_048479", "sim": 0.5853}, "created_run": "36109542662", "status": "pending"}
