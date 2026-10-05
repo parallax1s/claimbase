@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 37188942395 · sources 1734 · claims 34752 · edges 1279 · verified 73
+run 37287630671 · sources 1754 · claims 34894 · edges 1279 · verified 73
 
 ## Districts
 
@@ -11,29 +11,29 @@ run 37188942395 · sources 1734 · claims 34752 · edges 1279 · verified 73
 woff · font · mathjax                  ░░░░░░░░░░    937 claims  ⚡0
 mjx · padding · content                ░░░░░░░░░░    589 claims  ⚡0
 mjx · padding · content                ░░░░░░░░░░    278 claims  ⚡0
-Multi-Agent LLM Systems                ░░░░░░░░░░    255 claims  ⚡0
+Multi-Agent LLM Systems                ░░░░░░░░░░    256 claims  ⚡0
 Cross-Modal Knowledge Distillation     ░░░░░░░░░░    215 claims  ⚡0
 Anthropic Company Moves                ▓▓▓░░░░░░░    191 claims  ⚡0
 Latent Variable and Neural Models      ░░░░░░░░░░    190 claims  ⚡0
 Control Monitor Benchmarks             ░░░░░░░░░░    189 claims  ⚡0
-LLM Architecture Research              ░░░░░░░░░░    167 claims  ⚡0
+LLM Architecture Research              ░░░░░░░░░░    168 claims  ⚡0
 Model Arena Leaderboard Churn          ▓▓▓▓▓▓░░░░    134 claims  ⚡0
 training · models · ground             ░░░░░░░░░░    124 claims  ⚡0
 Temporal Image Consistency             ░░░░░░░░░░    123 claims  ⚡0
-Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    107 claims  ⚡0
+Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    108 claims  ⚡0
 right · mjx · rspace                   ░░░░░░░░░░    105 claims  ⚡0
-prediction · accuracy · predictor      ░░░░░░░░░░    101 claims  ⚡0
+prediction · accuracy · predictor      ░░░░░░░░░░    102 claims  ⚡0
 layers · layer · spatial               ░░░░░░░░░░    100 claims  ⚡0
 AI Existential Risk Discourse          ▓▓░░░░░░░░     99 claims  ⚡0
-Neural Decoding and Brain-AI           ░░░░░░░░░░     94 claims  ⚡0
+Neural Decoding and Brain-AI           ░░░░░░░░░░     96 claims  ⚡0
 Epistemic Uncertainty Hedges           ▓░░░░░░░░░     92 claims  ⚡0
 Alignment Faking Detection Thresholds  ░░░░░░░░░░     91 claims  ⚡0
-bias · preference · models             ░░░░░░░░░░     83 claims  ⚡0
+bias · preference · analysis           ░░░░░░░░░░     84 claims  ⚡0
 Behavior Cue Token Signaling           ░░░░░░░░░░     79 claims  ⚡0
 Federal AI Security Mandates           ▓░░░░░░░░░     76 claims  ⚡0
 Weak-to-Strong Generalization          ░░░░░░░░░░     75 claims  ⚡0
-AI Safety Institute Collaboration      ░░░░░░░░░░     72 claims  ⚡0
-… and 4110 smaller districts (28730 claims)
+AI Safety Institute Collaboration      ░░░░░░░░░░     74 claims  ⚡0
+… and 4123 smaller districts (28865 claims)
 ```
 
 ## Sharpest fault
