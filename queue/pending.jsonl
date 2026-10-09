@@ -71543,26 +71543,26 @@
 {"id": "task_071543", "kind": "refine", "payload": {"claim_id": "clm_051097"}, "created_run": "37908892014", "status": "pending"}
 {"id": "task_071544", "kind": "refine", "payload": {"claim_id": "clm_051099"}, "created_run": "37908892014", "status": "pending"}
 {"id": "task_071545", "kind": "refine", "payload": {"claim_id": "clm_051108"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071546", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11213v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071547", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11268v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071548", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11309v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071549", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11316v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071550", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11374v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071551", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11387v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071552", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11460v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071553", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11526v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071554", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11542v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071555", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11610v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071556", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11685v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071557", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11723v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071558", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11792v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071559", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11826v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071560", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11833v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071561", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11918v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071562", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.12004v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071563", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.12010v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071564", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.12142v1"}, "created_run": "37908892014", "status": "pending"}
-{"id": "task_071565", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.12233v1"}, "created_run": "37908892014", "status": "pending"}
+{"id": "task_071546", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11213v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071547", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11268v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_071548", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11309v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_071549", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11316v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071550", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11374v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071551", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11387v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_071552", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11460v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_071553", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11526v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071554", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11542v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071555", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11610v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071556", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11685v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_071557", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11723v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071558", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11792v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071559", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11826v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071560", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11833v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071561", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.11918v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071562", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.12004v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071563", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.12010v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: HTTP Error 429: Too Many Requests"}
+{"id": "task_071564", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.12142v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_071565", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.12233v1"}, "created_run": "37908892014", "status": "skipped", "note": "fable failed: HTTP Error 429: Too Many Requests"}
 {"id": "task_071566", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.12337v1"}, "created_run": "37908892014", "status": "pending"}
 {"id": "task_071567", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.12407v1"}, "created_run": "37908892014", "status": "pending"}
 {"id": "task_071568", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.12409v1"}, "created_run": "37908892014", "status": "pending"}
