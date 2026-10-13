@@ -3,14 +3,14 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 38228407641 · sources 1881 · claims 35858 · edges 1279 · verified 73
+run 38376179508 · sources 1883 · claims 36515 · edges 1279 · verified 73
 
 ## Districts
 
 ```text
-woff · font · mathjax                  ░░░░░░░░░░    937 claims  ⚡0
-mjx · padding · content                ░░░░░░░░░░    589 claims  ⚡0
-mjx · padding · content                ░░░░░░░░░░    278 claims  ⚡0
+woff · font · mathjax                  ░░░░░░░░░░    992 claims  ⚡0
+mjx · padding · content                ░░░░░░░░░░    607 claims  ⚡0
+mjx · padding · content                ░░░░░░░░░░    286 claims  ⚡0
 Multi-Agent LLM Systems                ░░░░░░░░░░    262 claims  ⚡0
 Cross-Modal Knowledge Distillation     ░░░░░░░░░░    221 claims  ⚡0
 Latent Variable and Neural Models      ░░░░░░░░░░    195 claims  ⚡0
@@ -21,19 +21,19 @@ Model Arena Leaderboard Churn          ▓▓▓▓▓▓░░░░    135 cla
 Temporal Image Consistency             ░░░░░░░░░░    133 claims  ⚡0
 training · models · ground             ░░░░░░░░░░    131 claims  ⚡0
 Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    113 claims  ⚡0
+right · mjx · rspace                   ░░░░░░░░░░    110 claims  ⚡0
+prediction · accuracy · time           ░░░░░░░░░░    105 claims  ⚡0
 layers · layer · spatial               ░░░░░░░░░░    105 claims  ⚡0
-right · mjx · rspace                   ░░░░░░░░░░    105 claims  ⚡0
-prediction · accuracy · time           ░░░░░░░░░░    104 claims  ⚡0
 Neural Decoding and Brain-AI           ░░░░░░░░░░    100 claims  ⚡0
 AI Existential Risk Discourse          ▓▓░░░░░░░░     99 claims  ⚡0
 Alignment Faking Detection Thresholds  ░░░░░░░░░░     94 claims  ⚡0
-Epistemic Uncertainty Hedges           ▓░░░░░░░░░     92 claims  ⚡0
+Epistemic Uncertainty Hedges           ▓░░░░░░░░░     93 claims  ⚡0
 bias · preference · analysis           ░░░░░░░░░░     87 claims  ⚡0
 AI Safety Institute Collaboration      ░░░░░░░░░░     79 claims  ⚡0
 Behavior Cue Token Signaling           ░░░░░░░░░░     79 claims  ⚡0
 Weak-to-Strong Generalization          ░░░░░░░░░░     77 claims  ⚡0
 Federal AI Security Mandates           ▓░░░░░░░░░     76 claims  ⚡0
-… and 4228 smaller districts (29752 claims)
+… and 4305 smaller districts (30215 claims)
 ```
 
 ## Sharpest fault
