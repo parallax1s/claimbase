@@ -1,15 +1,15 @@
 {
-  "generated_run": "38529620551",
+  "generated_run": "38698752519",
   "counts": {
-    "sources": 1911,
-    "claims": 37135,
+    "sources": 1937,
+    "claims": 37354,
     "edges": 761,
     "pending_tasks": {
-      "identity": 4809,
-      "edge": 35779,
-      "refine": 12412,
-      "attach": 11305,
-      "extract": 28
+      "identity": 4824,
+      "edge": 36161,
+      "refine": 12484,
+      "attach": 11361,
+      "extract": 26
     }
   },
   "claims": [
@@ -471767,6 +471767,2196 @@
       "support_in_text": 0.25,
       "quote": "^\n\nSee \"Are Frontier Models Good at Ethics?\" by Seth Lazar, \"Discerning What Matters: A Multi-Dimensional Assessment of Moral Competence in LLMs\" by Daniel Kilov, and \"MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes\" by Yu Ying Chiu for deeper ",
       "run_id": "38529620551",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052623",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.19177v1",
+      "text": "A fundamental bottleneck for translating thoughts to speech is the high physical cost of motor input forcing a strict tradeoff between communication speed and expressivity.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "A fundamental bottleneck for translating thoughts to speech is the high physical cost of motor input forcing a strict tradeoff between communication speed and expressivity.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052624",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.19177v1",
+      "text": "However, sparse inputs are inherently ambiguous; without sufficient context, AI models frequently misinterpret these abbreviations",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…text input into fluent sentences, significantly reducing the motor burden on the user. However, sparse inputs are inherently ambiguous; without sufficient context, AI models frequently misinterpret these abbreviations and generate outputs that fail to align with the user's true cognitive intent.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052625",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.19177v1",
+      "text": "generate outputs that fail to align with the user's true cognitive intent.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…text input into fluent sentences, significantly reducing the motor burden on the user. However, sparse inputs are inherently ambiguous; without sufficient context, AI models frequently misinterpret these abbreviations and generate outputs that fail to align with the user's true cognitive intent.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052626",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.19177v1",
+      "text": "We propose \\textit{Cognitive Steering}, a framework that can be leveraged to reconstruct user intent by grounding Large Language Models (LLMs) in multimodal context and applying AI control methods.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…these abbreviations and generate outputs that fail to align with the user's true cognitive intent. We propose \\textit{Cognitive Steering}, a framework that can be leveraged to reconstruct user intent by grounding Large Language Models (LLMs) in multimodal context and applying AI control methods.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052627",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.19177v1",
+      "text": "We demonstrate that aligning frontier models with selected environmental referents, emotional states",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…multimodal context and applying AI control methods. We demonstrate that aligning frontier models with selected environmental referents, emotional states, and communication motives on simulated abbreviation benchmarks achieves up to $\\sim$88\\% top-5 expansion accuracy, doubling no-context baselines.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052628",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.19177v1",
+      "text": "communication motives on simulated abbreviation benchmarks achieves up to $\\sim$88\\% top-5 expansion accuracy, doubling no-context baselines.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…multimodal context and applying AI control methods. We demonstrate that aligning frontier models with selected environmental referents, emotional states, and communication motives on simulated abbreviation benchmarks achieves up to $\\sim$88\\% top-5 expansion accuracy, doubling no-context baselines.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052629",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.19177v1",
+      "text": "We also reveal that different types of context require distinct AI control techniques: while physical objects in a scene are best provided through explicit text prompts, abstract factors like emotion may be more effectively managed by directly altering the AI's internal activations.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…baselines. We also reveal that different types of context require distinct AI control techniques: while physical objects in a scene are best provided through explicit text prompts, abstract factors like emotion may be more effectively managed by directly altering the AI's internal activations.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052630",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.19177v1",
+      "text": "These findings suggest a hybrid architecture for future interfaces that leverage Cognitive Steering to help users communicate both quickly and accurately, recruiting multiple AI control methods simultaneously to perfectly capture their intended communication goals.",
+      "type": "predictive",
+      "support_in_text": 0.32,
+      "quote": "…the AI's internal activations. These findings suggest a hybrid architecture for future interfaces that leverage Cognitive Steering to help users communicate both quickly and accurately, recruiting multiple AI control methods simultaneously to perfectly capture their intended communication goals.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052631",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "a Verified Maintenance Ontology for Agent-Accessible Failure Knowledge from SAP PM Work Orders",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Plant Memory: Technical Language Processing and a Verified Maintenance Ontology for Agent-Accessible Failure Knowledge from SAP PM Work Orders",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052632",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "Maintenance work orders are the largest written record of how industrial equipment fails, yet in most plants they are close to unusable for analysis.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Maintenance work orders are the largest written record of how industrial equipment fails, yet in most plants they are close to unusable for analysis.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052633",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "Short texts are abbreviated",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…fails, yet in most plants they are close to unusable for analysis. Short texts are abbreviated and misspelt, asset identity is buried in free text, work-type labels contradict the work described, and the fields that matter most for reliability (symptom, root cause, action taken) are usually empty.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052634",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "misspelt, asset identity is buried in free text, work-type labels contradict the work described",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…fails, yet in most plants they are close to unusable for analysis. Short texts are abbreviated and misspelt, asset identity is buried in free text, work-type labels contradict the work described, and the fields that matter most for reliability (symptom, root cause, action taken) are usually empty.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052635",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "the fields that matter most for reliability (symptom, root cause, action taken) are usually empty.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…fails, yet in most plants they are close to unusable for analysis. Short texts are abbreviated and misspelt, asset identity is buried in free text, work-type labels contradict the work described, and the fields that matter most for reliability (symptom, root cause, action taken) are usually empty.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052636",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "As a result, diagnostic knowledge stays with senior technicians",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…and misspelt, asset identity is buried in free text, work-type labels contradict the work described, and the fields that matter most for reliability (symptom, root cause, action taken) are usually empty. As a result, diagnostic knowledge stays with senior technicians and leaves when they do.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052637",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "leaves when they do.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…and misspelt, asset identity is buried in free text, work-type labels contradict the work described, and the fields that matter most for reliability (symptom, root cause, action taken) are usually empty. As a result, diagnostic knowledge stays with senior technicians and leaves when they do.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052638",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "builds an ISO 14224-aligned maintenance ontology in which every extracted statement is a reified fact carrying a confidence score, the evidence it was read from, and a verification state.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "We present Plant Memory, a system that applies technical language processing (TLP) to SAP Plant Maintenance (PM) exports and builds an ISO 14224-aligned maintenance ontology in which every extracted statement is a reified fact carrying a confidence score, the evidence it was read from, and a verific",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052639",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "Extraction is rule-first, with an optional large language model (LLM) acting as a second reader whose disagreements raise a fact's review priority rather than overwrite it.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…extracted statement is a reified fact carrying a confidence score, the evidence it was read from, and a verification state. Extraction is rule-first, with an optional large language model (LLM) acting as a second reader whose disagreements raise a fact's review priority rather than overwrite it.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052640",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "Technicians verify facts through a review queue, answer targeted knowledge-gap questions where failures repeat without a recorded cause",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…a second reader whose disagreements raise a fact's review priority rather than overwrite it. Technicians verify facts through a review queue, answer targeted knowledge-gap questions where failures repeat without a recorded cause, and approve or reject ontology drift proposals when new terms appear.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052641",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "approve or reject ontology drift proposals when new terms appear.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…a second reader whose disagreements raise a fact's review priority rather than overwrite it. Technicians verify facts through a review queue, answer targeted knowledge-gap questions where failures repeat without a recorded cause, and approve or reject ontology drift proposals when new terms appear.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052642",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "The resulting graph is served to people through a web application and to AI agents through a Model Context Protocol (MCP) server, so both query the same verified knowledge",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…cause, and approve or reject ontology drift proposals when new terms appear. The resulting graph is served to people through a web application and to AI agents through a Model Context Protocol (MCP) server, so both query the same verified knowledge and every answer cites the work orders behind it.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052643",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "every answer cites the work orders behind it.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…cause, and approve or reject ontology drift proposals when new terms appear. The resulting graph is served to people through a web application and to AI agents through a Model Context Protocol (MCP) server, so both query the same verified knowledge and every answer cites the work orders behind it.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052644",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "On a synthetic 12-month export of 400 work orders from a parboiled-rice plant, rule-based extraction reaches 96.2% component accuracy, 88.9% failure-mode accuracy",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "On a synthetic 12-month export of 400 work orders from a parboiled-rice plant, rule-based extraction reaches 96.2% component accuracy, 88.9% failure-mode accuracy and 100% root-cause precision at 62% coverage; on 28 diagnostic questions, ranked root causes from the ontology are correct at top-1 in 8",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052645",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "100% root-cause precision at 62% coverage",
+      "type": "causal",
+      "support_in_text": 0.35,
+      "quote": "On a synthetic 12-month export of 400 work orders from a parboiled-rice plant, rule-based extraction reaches 96.2% component accuracy, 88.9% failure-mode accuracy and 100% root-cause precision at 62% coverage; on 28 diagnostic questions, ranked root causes from the ontology are correct at top-1 in 8",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052646",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19131v1",
+      "text": "on 28 diagnostic questions, ranked root causes from the ontology are correct at top-1 in 82.1% of cases against 53.6% for the raw SAP root-cause column.",
+      "type": "causal",
+      "support_in_text": 0.35,
+      "quote": "On a synthetic 12-month export of 400 work orders from a parboiled-rice plant, rule-based extraction reaches 96.2% component accuracy, 88.9% failure-mode accuracy and 100% root-cause precision at 62% coverage; on 28 diagnostic questions, ranked root causes from the ontology are correct at top-1 in 8",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052647",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19134v1",
+      "text": "Feature distillation is usually expected to add to logit distillation.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Feature distillation is usually expected to add to logit distillation.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052648",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19134v1",
+      "text": "We find that this expectation does not hold for two common feature losses in compact multilingual automatic speech recognition (ASR), and analyze why through their gradients.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Feature distillation is usually expected to add to logit distillation. We find that this expectation does not hold for two common feature losses in compact multilingual automatic speech recognition (ASR), and analyze why through their gradients.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052649",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19134v1",
+      "text": "The gradient of a projection-based loss is orthogonal to the task gradient, while that of Centered Kernel Alignment (CKA), a similarity-based loss, is weakly aligned with it.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…common feature losses in compact multilingual automatic speech recognition (ASR), and analyze why through their gradients. The gradient of a projection-based loss is orthogonal to the task gradient, while that of Centered Kernel Alignment (CKA), a similarity-based loss, is weakly aligned with it.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052650",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19134v1",
+      "text": "Three loss-level remedies (one trained, two probed) all fall short",
+      "type": "other",
+      "support_in_text": 0.23,
+      "quote": "CKA lowers the word error rate (WER) on non-English languages, but at the expense of data-rich English. Three loss-level remedies (one trained, two probed) all fall short, and the CKA gradient overlaps with the subspace English uses in the shared encoder by 97.5% to 99.5% (about 81% by chance).",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052651",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19134v1",
+      "text": "the CKA gradient overlaps with the subspace English uses in the shared encoder by 97.5% to 99.5% (about 81% by chance).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "CKA lowers the word error rate (WER) on non-English languages, but at the expense of data-rich English. Three loss-level remedies (one trained, two probed) all fall short, and the CKA gradient overlaps with the subspace English uses in the shared encoder by 97.5% to 99.5% (about 81% by chance).",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052652",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19134v1",
+      "text": "On the Open ASR Leaderboard, CAFE lowers the average WER from 8.55% to 8.02%, beats an adapter-only capacity control at 8.51%",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…the CKA gradient to adapters that English bypasses, addressing the trade-off in the parameters rather than in the loss. On the Open ASR Leaderboard, CAFE lowers the average WER from 8.55% to 8.02%, beats an adapter-only capacity control at 8.51%, and makes English more stable across checkpoints.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052653",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19134v1",
+      "text": "makes English more stable across checkpoints.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…the CKA gradient to adapters that English bypasses, addressing the trade-off in the parameters rather than in the loss. On the Open ASR Leaderboard, CAFE lowers the average WER from 8.55% to 8.02%, beats an adapter-only capacity control at 8.51%, and makes English more stable across checkpoints.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052654",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19134v1",
+      "text": "At 254M parameters, it trails the 0.6B teacher by 2 WER points",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…CAFE lowers the average WER from 8.55% to 8.02%, beats an adapter-only capacity control at 8.51%, and makes English more stable across checkpoints. At 254M parameters, it trails the 0.6B teacher by 2 WER points and is competitive with much larger models across 48 test sets in 24 languages.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052655",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19134v1",
+      "text": "is competitive with much larger models across 48 test sets in 24 languages.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…CAFE lowers the average WER from 8.55% to 8.02%, beats an adapter-only capacity control at 8.51%, and makes English more stable across checkpoints. At 254M parameters, it trails the 0.6B teacher by 2 WER points and is competitive with much larger models across 48 test sets in 24 languages.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052656",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19134v1",
+      "text": "We use 564k hours of training data",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "At 254M parameters, it trails the 0.6B teacher by 2 WER points and is competitive with much larger models across 48 test sets in 24 languages. We use 564k hours of training data and state-of-the-art models to keep the findings relevant to practice.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052657",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19134v1",
+      "text": "state-of-the-art models to keep the findings relevant to practice.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "At 254M parameters, it trails the 0.6B teacher by 2 WER points and is competitive with much larger models across 48 test sets in 24 languages. We use 564k hours of training data and state-of-the-art models to keep the findings relevant to practice.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052658",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19177v1",
+      "text": "A fundamental bottleneck for translating thoughts to speech is the high physical cost of motor input forcing a strict tradeoff between communication speed and expressivity.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "A fundamental bottleneck for translating thoughts to speech is the high physical cost of motor input forcing a strict tradeoff between communication speed and expressivity.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052659",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19177v1",
+      "text": "However, sparse inputs are inherently ambiguous; without sufficient context, AI models frequently misinterpret these abbreviations",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…text input into fluent sentences, significantly reducing the motor burden on the user. However, sparse inputs are inherently ambiguous; without sufficient context, AI models frequently misinterpret these abbreviations and generate outputs that fail to align with the user's true cognitive intent.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052660",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19177v1",
+      "text": "generate outputs that fail to align with the user's true cognitive intent.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…text input into fluent sentences, significantly reducing the motor burden on the user. However, sparse inputs are inherently ambiguous; without sufficient context, AI models frequently misinterpret these abbreviations and generate outputs that fail to align with the user's true cognitive intent.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052661",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19177v1",
+      "text": "We propose \\textit{Cognitive Steering}, a framework that can be leveraged to reconstruct user intent by grounding Large Language Models (LLMs) in multimodal context and applying AI control methods.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…these abbreviations and generate outputs that fail to align with the user's true cognitive intent. We propose \\textit{Cognitive Steering}, a framework that can be leveraged to reconstruct user intent by grounding Large Language Models (LLMs) in multimodal context and applying AI control methods.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052662",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19177v1",
+      "text": "We demonstrate that aligning frontier models with selected environmental referents, emotional states",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…multimodal context and applying AI control methods. We demonstrate that aligning frontier models with selected environmental referents, emotional states, and communication motives on simulated abbreviation benchmarks achieves up to $\\sim$88\\% top-5 expansion accuracy, doubling no-context baselines.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052663",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19177v1",
+      "text": "communication motives on simulated abbreviation benchmarks achieves up to $\\sim$88\\% top-5 expansion accuracy, doubling no-context baselines.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…multimodal context and applying AI control methods. We demonstrate that aligning frontier models with selected environmental referents, emotional states, and communication motives on simulated abbreviation benchmarks achieves up to $\\sim$88\\% top-5 expansion accuracy, doubling no-context baselines.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052664",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19177v1",
+      "text": "We also reveal that different types of context require distinct AI control techniques: while physical objects in a scene are best provided through explicit text prompts, abstract factors like emotion may be more effectively managed by directly altering the AI's internal activations.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…baselines. We also reveal that different types of context require distinct AI control techniques: while physical objects in a scene are best provided through explicit text prompts, abstract factors like emotion may be more effectively managed by directly altering the AI's internal activations.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052665",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19177v1",
+      "text": "These findings suggest a hybrid architecture for future interfaces that leverage Cognitive Steering to help users communicate both quickly and accurately, recruiting multiple AI control methods simultaneously to perfectly capture their intended communication goals.",
+      "type": "predictive",
+      "support_in_text": 0.32,
+      "quote": "…the AI's internal activations. These findings suggest a hybrid architecture for future interfaces that leverage Cognitive Steering to help users communicate both quickly and accurately, recruiting multiple AI control methods simultaneously to perfectly capture their intended communication goals.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052666",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "responses to reconsideration (hold), distinguishing what a task permits from what an agent can solve.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…requirements, or reveal blockers only during execution. We formulate agentic self-awareness (ASA) as the alignment of task-grounded feasibility judgments (know), warranted behavior (act), and responses to reconsideration (hold), distinguishing what a task permits from what an agent can solve.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052667",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "blocked tasks in Terminal-Bench 2.1 and retail $τ^2$-bench",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…what a task permits from what an agent can solve. We build paired feasible and blocked tasks in Terminal-Bench 2.1 and retail $τ^2$-bench and introduce an authorship-aware M0-M3 rubric that separates recognizing a blocker from taking the certified deferral action for the correct reason.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052668",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "introduce an authorship-aware M0-M3 rubric that separates recognizing a blocker from taking the certified deferral action for the correct reason.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…what a task permits from what an agent can solve. We build paired feasible and blocked tasks in Terminal-Bench 2.1 and retail $τ^2$-bench and introduce an authorship-aware M0-M3 rubric that separates recognizing a blocker from taking the certified deferral action for the correct reason.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052669",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "Separate probes assess stated feasibility beliefs and responses to a single challenge.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…and blocked tasks in Terminal-Bench 2.1 and retail $τ^2$-bench and introduce an authorship-aware M0-M3 rubric that separates recognizing a blocker from taking the certified deferral action for the correct reason. Separate probes assess stated feasibility beliefs and responses to a single challenge.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052670",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "In a Terminal-Bench protocol baseline, blocker recognition reaches 84.4%",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Separate probes assess stated feasibility beliefs and responses to a single challenge. In a Terminal-Bench protocol baseline, blocker recognition reaches 84.4%, but strict self-awareness (SA) reaches only 40.6%.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052671",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "strict self-awareness (SA) reaches only 40.6%.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Separate probes assess stated feasibility beliefs and responses to a single challenge. In a Terminal-Bench protocol baseline, blocker recognition reaches 84.4%, but strict self-awareness (SA) reaches only 40.6%.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052672",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "Harness search without model-weight updates increases strict SA from 45.3% to 93.8% on reused Terminal-Bench search tasks",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…baseline, blocker recognition reaches 84.4%, but strict self-awareness (SA) reaches only 40.6%. Harness search without model-weight updates increases strict SA from 45.3% to 93.8% on reused Terminal-Bench search tasks; selection for abstention alone, however, can reduce success on feasible tasks.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052673",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "selection for abstention alone, however, can reduce success on feasible tasks.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…baseline, blocker recognition reaches 84.4%, but strict self-awareness (SA) reaches only 40.6%. Harness search without model-weight updates increases strict SA from 45.3% to 93.8% on reused Terminal-Bench search tasks; selection for abstention alone, however, can reduce success on feasible tasks.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052674",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "Independently initialized joint-objective searches improve both blocked-task SA",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…updates increases strict SA from 45.3% to 93.8% on reused Terminal-Bench search tasks; selection for abstention alone, however, can reduce success on feasible tasks. Independently initialized joint-objective searches improve both blocked-task SA and feasible-task solve on their own search sets.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052675",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "feasible-task solve on their own search sets.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…updates increases strict SA from 45.3% to 93.8% on reused Terminal-Bench search tasks; selection for abstention alone, however, can reduce success on feasible tasks. Independently initialized joint-objective searches improve both blocked-task SA and feasible-task solve on their own search sets.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052676",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "Terminal-Bench blocked-task transfer is not measured.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Independently initialized joint-objective searches improve both blocked-task SA and feasible-task solve on their own search sets. Retail held-out gains remain limited, and Terminal-Bench blocked-task transfer is not measured.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052677",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "This evaluation pipeline makes the recognition-action gap measurable",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "Retail held-out gains remain limited, and Terminal-Bench blocked-task transfer is not measured. This evaluation pipeline makes the recognition-action gap measurable and sets a two-sided target for improving agent decisions under changing task evidence.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052678",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19226v1",
+      "text": "sets a two-sided target for improving agent decisions under changing task evidence.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "Retail held-out gains remain limited, and Terminal-Bench blocked-task transfer is not measured. This evaluation pipeline makes the recognition-action gap measurable and sets a two-sided target for improving agent decisions under changing task evidence.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052679",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19301v1",
+      "text": "However, original ICD code strings are not ideal generation targets because the ICD hierarchy does not always reflect clinical relationships, and LLMs struggle to interpret and generate these codes.",
+      "type": "causal",
+      "support_in_text": 0.13,
+      "quote": "…Diseases (ICD) coding use large language models (LLMs) to predict ICD codes from clinical documents. However, original ICD code strings are not ideal generation targets because the ICD hierarchy does not always reflect clinical relationships, and LLMs struggle to interpret and generate these codes.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052680",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19301v1",
+      "text": "SemICD constructs SIDs by hierarchically clustering embeddings of textual code profiles, allowing semantically related codes to share prefixes while each complete SID uniquely identifies one ICD code.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "We introduce SemICD, a framework that trains LLMs to generate Semantic IDs (SIDs) instead. SemICD constructs SIDs by hierarchically clustering embeddings of textual code profiles, allowing semantically related codes to share prefixes while each complete SID uniquely identifies one ICD code.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052681",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19301v1",
+      "text": "To align the SID tokens with clinical semantics, we employ two auxiliary tasks for bidirectional generation between textual code profiles and SIDs.",
+      "type": "medical",
+      "support_in_text": 0.35,
+      "quote": "…embeddings of textual code profiles, allowing semantically related codes to share prefixes while each complete SID uniquely identifies one ICD code. To align the SID tokens with clinical semantics, we employ two auxiliary tasks for bidirectional generation between textual code profiles and SIDs.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052682",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19301v1",
+      "text": "MIMIC-IV with four LLMs show that SemICD outperforms direct code generation, improving Micro-F1 by 1.34-8.00 points.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "To align the SID tokens with clinical semantics, we employ two auxiliary tasks for bidirectional generation between textual code profiles and SIDs. Experiments on MIMIC-III and MIMIC-IV with four LLMs show that SemICD outperforms direct code generation, improving Micro-F1 by 1.34-8.00 points.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052683",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19301v1",
+      "text": "Our code is available at https://github.com/youwillbethebest/SemICD.",
+      "type": "descriptive",
+      "support_in_text": 0.55,
+      "quote": "Experiments on MIMIC-III and MIMIC-IV with four LLMs show that SemICD outperforms direct code generation, improving Micro-F1 by 1.34-8.00 points. Our code is available at https://github.com/youwillbethebest/SemICD.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052684",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "A Failure Taxonomy for Agent-to-Agent Systems with Private States",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Why Do Agent Teams Fail Across Boundaries? A Failure Taxonomy for Agent-to-Agent Systems with Private States",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052685",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "Agents are increasingly interacting with other agents that act for different principals -- people or organizations on whose behalf they work -- e.g., a buyer's personal agent negotiating with an enterprise's seller agent.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Agents are increasingly interacting with other agents that act for different principals -- people or organizations on whose behalf they work -- e.g., a buyer's personal agent negotiating with an enterprise's seller agent.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052686",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "In such agent-to-agent (A2A) scenarios, each agent has its own environment and holds information and authority that the other cannot see.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…for different principals -- people or organizations on whose behalf they work -- e.g., a buyer's personal agent negotiating with an enterprise's seller agent. In such agent-to-agent (A2A) scenarios, each agent has its own environment and holds information and authority that the other cannot see.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052687",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "Existing multi-agent system failure studies assume only one orchestrator, shared workspace, or principal.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Moreover, the interests of each agent may be aligned (cooperative), partly aligned (mixed-motive), or opposed (competitive). Existing multi-agent system failure studies assume only one orchestrator, shared workspace, or principal.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052688",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "We ask how A2A systems fail when these assumptions are removed.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Existing multi-agent system failure studies assume only one orchestrator, shared workspace, or principal. We ask how A2A systems fail when these assumptions are removed.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052689",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "We study more than 2,500 recorded runs of A2A systems built from different agent harnesses",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "We ask how A2A systems fail when these assumptions are removed. We study more than 2,500 recorded runs of A2A systems built from different agent harnesses and models, spanning 488 scenarios across eight families (legal, CRM, security, commerce, etc.).",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052690",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "models, spanning 488 scenarios across eight families (legal, CRM, security, commerce, etc.).",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "We ask how A2A systems fail when these assumptions are removed. We study more than 2,500 recorded runs of A2A systems built from different agent harnesses and models, spanning 488 scenarios across eight families (legal, CRM, security, commerce, etc.).",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052691",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "From these traces, we derive $A^2$-Failures, a taxonomy of 20 A2A failure modes in four categories: (i) discovery and delegation, (ii) grounding and record consistency, (iii) verification, and (iv) conduct and fidelity.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…488 scenarios across eight families (legal, CRM, security, commerce, etc.). From these traces, we derive $A^2$-Failures, a taxonomy of 20 A2A failure modes in four categories: (i) discovery and delegation, (ii) grounding and record consistency, (iii) verification, and (iv) conduct and fidelity.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052692",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "Three observations hold across the harnesses, models",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Three observations hold across the harnesses, models, and scenarios studied: (1) Agents match tasks to peer names mentioned in the prompt rather than actively searching for available peers; (2) Agents never fact-check each other unprompted; (3) Scoring only the final output rewards the lead agent wh",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052693",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "scenarios studied: (1) Agents match tasks to peer names mentioned in the prompt rather than actively searching for available peers",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Three observations hold across the harnesses, models, and scenarios studied: (1) Agents match tasks to peer names mentioned in the prompt rather than actively searching for available peers; (2) Agents never fact-check each other unprompted; (3) Scoring only the final output rewards the lead agent wh",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052694",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "(2) Agents never fact-check each other unprompted",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "Three observations hold across the harnesses, models, and scenarios studied: (1) Agents match tasks to peer names mentioned in the prompt rather than actively searching for available peers; (2) Agents never fact-check each other unprompted; (3) Scoring only the final output rewards the lead agent wh",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052695",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "(3) Scoring only the final output rewards the lead agent while hiding internal coordination, verification, and behavioral breakdowns.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Three observations hold across the harnesses, models, and scenarios studied: (1) Agents match tasks to peer names mentioned in the prompt rather than actively searching for available peers; (2) Agents never fact-check each other unprompted; (3) Scoring only the final output rewards the lead agent wh",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052696",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "Our study makes a case for comprehensive evaluations where agents are scored individually against their own objectives in addition to task outcome.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…other unprompted; (3) Scoring only the final output rewards the lead agent while hiding internal coordination, verification, and behavioral breakdowns. Our study makes a case for comprehensive evaluations where agents are scored individually against their own objectives in addition to task outcome.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052697",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19342v1",
+      "text": "We release the run logs behind the taxonomy at https://huggingface.co/datasets/a2a-salesforce/a2-failures.",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "Our study makes a case for comprehensive evaluations where agents are scored individually against their own objectives in addition to task outcome. We release the run logs behind the taxonomy at https://huggingface.co/datasets/a2a-salesforce/a2-failures.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052698",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19365v1",
+      "text": "Safety alignment teaches language models to refuse harmful requests, yet the internal accessibility of hazardous concepts can retain traces of earlier training.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Safety alignment teaches language models to refuse harmful requests, yet the internal accessibility of hazardous concepts can retain traces of earlier training.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052699",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19365v1",
+      "text": "In this work, we investigate this question through paired training histories and a direct audit of intermediate representations.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Can checkpoints with equally safe behavior differ in what remains accessible behind their refusals? In this work, we investigate this question through paired training histories and a direct audit of intermediate representations.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052700",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19365v1",
+      "text": "We introduce DANGERLENS, a probe that maps hidden states into vocabulary space and uses blinded semantic judgments to distinguish harmful goals",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…through paired training histories and a direct audit of intermediate representations. We introduce DANGERLENS, a probe that maps hidden states into vocabulary space and uses blinded semantic judgments to distinguish harmful goals and operational means from hazard recognition and safety control.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052701",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19365v1",
+      "text": "operational means from hazard recognition and safety control.",
+      "type": "definitional",
+      "support_in_text": 0.25,
+      "quote": "…through paired training histories and a direct audit of intermediate representations. We introduce DANGERLENS, a probe that maps hidden states into vocabulary space and uses blinded semantic judgments to distinguish harmful goals and operational means from hazard recognition and safety control.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052702",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19365v1",
+      "text": "Experiments on three Qwen1.5 scales show that checkpoints with prior harmful exposure generally retain greater hazardous concept accessibility after the same safety alignment, with the strongest separation in intermediate and later layers.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…means from hazard recognition and safety control. Experiments on three Qwen1.5 scales show that checkpoints with prior harmful exposure generally retain greater hazardous concept accessibility after the same safety alignment, with the strongest separation in intermediate and later layers.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052703",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19365v1",
+      "text": "Our findings show that training history remains visible inside behaviorally matched models and motivate internal accessibility audits alongside output safety evaluations.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Human relevance validation and readout ablations reinforce the measured accessibility contrast. Our findings show that training history remains visible inside behaviorally matched models and motivate internal accessibility audits alongside output safety evaluations.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052704",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19432v1",
+      "text": "Recognition Is Not Grounding: Benchmarking Multilingual Financial Evidence Extraction",
+      "type": "financial",
+      "support_in_text": 0.5,
+      "quote": "Recognition Is Not Grounding: Benchmarking Multilingual Financial Evidence Extraction",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052705",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19432v1",
+      "text": "recovering all numerical facts that express them.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "Comparing financial disclosures across languages requires identifying shared accounting concepts and recovering all numerical facts that express them.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052706",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19432v1",
+      "text": "In particular, it remains unclear whether language models can recognize these concepts across languages and exhaustively recover their corresponding numerical evidence from the same contexts.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…capabilities, but provide limited insight into whether both succeed on the same multilingual evidence. In particular, it remains unclear whether language models can recognize these concepts across languages and exhaustively recover their corresponding numerical evidence from the same contexts.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052707",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19432v1",
+      "text": "We introduce MULTIFINGROUND, a benchmark designed to investigate this recognition-grounding gap in multilingual financial reports.",
+      "type": "financial",
+      "support_in_text": 0.25,
+      "quote": "…unclear whether language models can recognize these concepts across languages and exhaustively recover their corresponding numerical evidence from the same contexts. We introduce MULTIFINGROUND, a benchmark designed to investigate this recognition-grounding gap in multilingual financial reports.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052708",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19432v1",
+      "text": "Constructed from FY2025 disclosures of 90 issuers in English, French",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…to investigate this recognition-grounding gap in multilingual financial reports. Constructed from FY2025 disclosures of 90 issuers in English, French, and Greek, MULTIFINGROUND aligns independently authored reports through a shared accounting taxonomy and provides traceable fact-level annotations.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052709",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19432v1",
+      "text": "Greek, MULTIFINGROUND aligns independently authored reports through a shared accounting taxonomy and provides traceable fact-level annotations.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…to investigate this recognition-grounding gap in multilingual financial reports. Constructed from FY2025 disclosures of 90 issuers in English, French, and Greek, MULTIFINGROUND aligns independently authored reports through a shared accounting taxonomy and provides traceable fact-level annotations.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052710",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19432v1",
+      "text": "Across 15 evaluated models, eight API",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…recognition, exhaustive fact selection, and concept discrimination without candidate labels. Across 15 evaluated models, eight API and open-weight reference models achieve 97.3-99.4\\% concept recognition accuracy, yet miss at least one target fact in 26.6-41.9\\% of correctly recognized groups.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052711",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19432v1",
+      "text": "open-weight reference models achieve 97.3-99.4\\% concept recognition accuracy, yet miss at least one target fact in 26.6-41.9\\% of correctly recognized groups.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…recognition, exhaustive fact selection, and concept discrimination without candidate labels. Across 15 evaluated models, eight API and open-weight reference models achieve 97.3-99.4\\% concept recognition accuracy, yet miss at least one target fact in 26.6-41.9\\% of correctly recognized groups.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052712",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19432v1",
+      "text": "Our findings demonstrate that strong concept recognition can coexist with incomplete evidence recovery, highlighting the importance of evaluating semantic recognition and evidence completeness together.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…in concept discrimination and limited gains from the evaluated finance-specialized models. Our findings demonstrate that strong concept recognition can coexist with incomplete evidence recovery, highlighting the importance of evaluating semantic recognition and evidence completeness together.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052713",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "Revisiting Triplet Contrastive Learning for 3D Shape Understanding",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Revisiting Triplet Contrastive Learning for 3D Shape Understanding",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052714",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "In multi-modal 3D pre-training, aligning 3D shapes, their 2D image counterparts",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "In multi-modal 3D pre-training, aligning 3D shapes, their 2D image counterparts, and language descriptions has made tremendous progress.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052715",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "language descriptions has made tremendous progress.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "In multi-modal 3D pre-training, aligning 3D shapes, their 2D image counterparts, and language descriptions has made tremendous progress.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052716",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "However, we find that supervision from rendered images is unreliable, the semantics encoded in synthetic views are distorted due to domain gap, self-occlusion, and rendering artifacts.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…aligning 3D shapes, their 2D image counterparts, and language descriptions has made tremendous progress. However, we find that supervision from rendered images is unreliable, the semantics encoded in synthetic views are distorted due to domain gap, self-occlusion, and rendering artifacts.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052717",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "Instead, we learn transferable 3D representations from language only.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "However, we find that supervision from rendered images is unreliable, the semantics encoded in synthetic views are distorted due to domain gap, self-occlusion, and rendering artifacts. Instead, we learn transferable 3D representations from language only.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052718",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "We observe that, in real world, 3D shapes are organized in a tree-like structure, ranging from general concepts to fine-grained instances with specific attributes, while language typically denotes generic concepts",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…3D representations from language only. We observe that, in real world, 3D shapes are organized in a tree-like structure, ranging from general concepts to fine-grained instances with specific attributes, while language typically denotes generic concepts and subsumes these various 3D instantiations.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052719",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "subsumes these various 3D instantiations.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…3D representations from language only. We observe that, in real world, 3D shapes are organized in a tree-like structure, ranging from general concepts to fine-grained instances with specific attributes, while language typically denotes generic concepts and subsumes these various 3D instantiations.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052720",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "Hence, we propose to embed 3D representations in hyperbolic space, whose geometry is well-suited for modeling tree-like data without distortion.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…to fine-grained instances with specific attributes, while language typically denotes generic concepts and subsumes these various 3D instantiations. Hence, we propose to embed 3D representations in hyperbolic space, whose geometry is well-suited for modeling tree-like data without distortion.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052721",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "3D shapes, we further impose a partial-order relation that language entails 3D shapes.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Hence, we propose to embed 3D representations in hyperbolic space, whose geometry is well-suited for modeling tree-like data without distortion. To capture the asymmetric hierarchy between language and 3D shapes, we further impose a partial-order relation that language entails 3D shapes.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052722",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "We also introduce a rigorously verified benchmark for comprehensively evaluating cross-modal 3D alignment.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…jointly optimizes a hyperbolic geodesic-based contrastive objective and an entailment loss to learn discriminative cross-modal representations while explicitly preserving this hierarchy. We also introduce a rigorously verified benchmark for comprehensively evaluating cross-modal 3D alignment.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052723",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "Across two widely used benchmarks",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…a rigorously verified benchmark for comprehensively evaluating cross-modal 3D alignment. Across two widely used benchmarks and ours, we improve the performance up to 4.6% absolute percentage on 3D shape classification and 5.5% on cross-modal text-to-3D retrieval under the same parameter budget.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052724",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "ours, we improve the performance up to 4.6% absolute percentage on 3D shape classification",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…a rigorously verified benchmark for comprehensively evaluating cross-modal 3D alignment. Across two widely used benchmarks and ours, we improve the performance up to 4.6% absolute percentage on 3D shape classification and 5.5% on cross-modal text-to-3D retrieval under the same parameter budget.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052725",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "5.5% on cross-modal text-to-3D retrieval under the same parameter budget.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…a rigorously verified benchmark for comprehensively evaluating cross-modal 3D alignment. Across two widely used benchmarks and ours, we improve the performance up to 4.6% absolute percentage on 3D shape classification and 5.5% on cross-modal text-to-3D retrieval under the same parameter budget.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052726",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19519v1",
+      "text": "evaluation benchmark will be made publicly available.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "Across two widely used benchmarks and ours, we improve the performance up to 4.6% absolute percentage on 3D shape classification and 5.5% on cross-modal text-to-3D retrieval under the same parameter budget. The code and evaluation benchmark will be made publicly available.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052727",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19528v1",
+      "text": "Retrieving external knowledge can improve large language model (LLM) translation by providing supplementary information such as idiom interpretations and terminology.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Retrieving external knowledge can improve large language model (LLM) translation by providing supplementary information such as idiom interpretations and terminology.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052728",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19528v1",
+      "text": "However, existing retrieval-augmented machine translation systems typically apply predefined retrieval strategies uniformly across all inputs.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "…external knowledge can improve large language model (LLM) translation by providing supplementary information such as idiom interpretations and terminology. However, existing retrieval-augmented machine translation systems typically apply predefined retrieval strategies uniformly across all inputs.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052729",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19528v1",
+      "text": "This creates two challenges: deciding when to retrieve and what evidence to acquire.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "…operates in a partial-evidence regime: LLM's parametric knowledge suffices for many inputs, while external evidence benefits a subset and usually supports rather than directly provides the desired translation. This creates two challenges: deciding when to retrieve and what evidence to acquire.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052730",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19528v1",
+      "text": "document-level translation with offline or online retrieval show that SRAT consistently outperforms never- and always-retrieve baselines",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "Experiments on idiom, knowledge-intensive, and document-level translation with offline or online retrieval show that SRAT consistently outperforms never- and always-retrieve baselines, and quality-aligned retriever training provides further gains when similarity-based retrieval is insufficient.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052731",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19528v1",
+      "text": "quality-aligned retriever training provides further gains when similarity-based retrieval is insufficient.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Experiments on idiom, knowledge-intensive, and document-level translation with offline or online retrieval show that SRAT consistently outperforms never- and always-retrieve baselines, and quality-aligned retriever training provides further gains when similarity-based retrieval is insufficient.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052732",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19576v1",
+      "text": "Temporal graph data are recorded in different representations, but whether these differences also determine the scope of learned knowledge reuse remains unclear.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Temporal graph data are recorded in different representations, but whether these differences also determine the scope of learned knowledge reuse remains unclear.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052733",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19576v1",
+      "text": "This study investigates whether predictive structure learned from relational histories can be reused between continuous-time dynamic graphs (CTDGs) and temporal knowledge graphs (TKGs).",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…but whether these differences also determine the scope of learned knowledge reuse remains unclear. This study investigates whether predictive structure learned from relational histories can be reused between continuous-time dynamic graphs (CTDGs) and temporal knowledge graphs (TKGs).",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052734",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19576v1",
+      "text": "sources with the same representation are not always more useful.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…histories can be reused between continuous-time dynamic graphs (CTDGs) and temporal knowledge graphs (TKGs). Bidirectional reuse emerges while retaining distinct input and prediction interfaces and independent vocabularies, and sources with the same representation are not always more useful.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052735",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19576v1",
+      "text": "Controlled reorganizations of source histories show that the organization contributing to reuse varies across source-target conditions.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…emerges while retaining distinct input and prediction interfaces and independent vocabularies, and sources with the same representation are not always more useful. Controlled reorganizations of source histories show that the organization contributing to reuse varies across source-target conditions.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052736",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19576v1",
+      "text": "We show that learned aspects of Relational Dynamics, the predictive structure present in relational histories, can be reused across conventional representation boundaries.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…reorganizations of source histories show that the organization contributing to reuse varies across source-target conditions. We show that learned aspects of Relational Dynamics, the predictive structure present in relational histories, can be reused across conventional representation boundaries.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052737",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19576v1",
+      "text": "CTDG learners can also be fused at the score level to improve prediction on a third dataset without entity or relation-semantic alignment.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…the predictive structure present in relational histories, can be reused across conventional representation boundaries. Independently pretrained TKG and CTDG learners can also be fused at the score level to improve prediction on a third dataset without entity or relation-semantic alignment.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052738",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19576v1",
+      "text": "Two proofs of concept in recommendation",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…also be fused at the score level to improve prediction on a third dataset without entity or relation-semantic alignment. Two proofs of concept in recommendation and security detection illustrate that external temporal sources without direct alignment can also become useful pretraining resources.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052739",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19576v1",
+      "text": "security detection illustrate that external temporal sources without direct alignment can also become useful pretraining resources.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…also be fused at the score level to improve prediction on a third dataset without entity or relation-semantic alignment. Two proofs of concept in recommendation and security detection illustrate that external temporal sources without direct alignment can also become useful pretraining resources.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052740",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19583v1",
+      "text": "As large language models (LLMs) are increasingly used to generate text, their misuse has become a growing societal problem, with implications for academic misconduct, model distillation, and cyberattacks.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "As large language models (LLMs) are increasingly used to generate text, their misuse has become a growing societal problem, with implications for academic misconduct, model distillation, and cyberattacks.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052741",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19583v1",
+      "text": "For these reasons, Model Authorship Attribution (MAA), which identifies the source model of a given text, is important for promoting the responsible use of LLMs and improving AI safety.",
+      "type": "empirical",
+      "support_in_text": 0.5,
+      "quote": "…a growing societal problem, with implications for academic misconduct, model distillation, and cyberattacks. For these reasons, Model Authorship Attribution (MAA), which identifies the source model of a given text, is important for promoting the responsible use of LLMs and improving AI safety.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052742",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19583v1",
+      "text": "In practice, attribution systems must remain reliable beyond the distributions observed during training.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "For these reasons, Model Authorship Attribution (MAA), which identifies the source model of a given text, is important for promoting the responsible use of LLMs and improving AI safety. In practice, attribution systems must remain reliable beyond the distributions observed during training.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052743",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19583v1",
+      "text": "writing settings, as well as generations from future versions of model families that were not available when the system was trained.",
+      "type": "predictive",
+      "support_in_text": 0.32,
+      "quote": "In practice, attribution systems must remain reliable beyond the distributions observed during training. They may encounter texts from unseen domains and writing settings, as well as generations from future versions of model families that were not available when the system was trained.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052744",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19583v1",
+      "text": "ATLAS learns how text from each source family is generated and attributes a given text by comparing its likelihood under each learned source condition.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…Attribution of Sources (ATLAS), which formulates MAA through source-conditioned text modeling rather than direct source prediction. ATLAS learns how text from each source family is generated and attributes a given text by comparing its likelihood under each learned source condition.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052745",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19583v1",
+      "text": "Our experiments show that ATLAS consistently outperforms existing baselines across MAABench and OpenTuringBench.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We further introduce MAABench, a broad MAA benchmark for evaluating practical OOD settings such as domain and version. Our experiments show that ATLAS consistently outperforms existing baselines across MAABench and OpenTuringBench.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052746",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19583v1",
+      "text": "the model version change on MAABench, ATLAS achieves 74.27% accuracy, 9.00pp higher than the strongest baseline.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Our experiments show that ATLAS consistently outperforms existing baselines across MAABench and OpenTuringBench. In particular, when both the generation domain and the model version change on MAABench, ATLAS achieves 74.27% accuracy, 9.00pp higher than the strongest baseline.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052747",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19583v1",
+      "text": "Beyond MAA, ATLAS can also help identify distillation source models by measuring which source model a target LLM most closely resembles.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "In particular, when both the generation domain and the model version change on MAABench, ATLAS achieves 74.27% accuracy, 9.00pp higher than the strongest baseline. Beyond MAA, ATLAS can also help identify distillation source models by measuring which source model a target LLM most closely resembles.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052748",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19583v1",
+      "text": "Our extended experiments show that ATLAS recovers the known teacher of every distilled model we evaluate.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "Beyond MAA, ATLAS can also help identify distillation source models by measuring which source model a target LLM most closely resembles. Our extended experiments show that ATLAS recovers the known teacher of every distilled model we evaluate.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052749",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19636v1",
+      "text": "Sparse Autoencoders Are a Shared Coordinate System for Symbolic Matching",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Sparse Autoencoders Are a Shared Coordinate System for Symbolic Matching",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052750",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19636v1",
+      "text": "Large language models (LLMs) hold broad knowledge in one set of weights, but lack interpretability and trustworthy reasoning, especially in high-stakes use cases.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Large language models (LLMs) hold broad knowledge in one set of weights, but lack interpretability and trustworthy reasoning, especially in high-stakes use cases.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052751",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19636v1",
+      "text": "System 2 reasoning capacity, is a promising alternative if built at the scale of LLMs",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "A neuro-symbolic model, with its interpretable architecture and System 2 reasoning capacity, is a promising alternative if built at the scale of LLMs; however, its symbolic backbone is usually constructed with human effort, so existing neuro-symbolic models are bottlenecked by the scope of the symbo",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052752",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19636v1",
+      "text": "however, its symbolic backbone is usually constructed with human effort, so existing neuro-symbolic models are bottlenecked by the scope of the symbol component and usually domain-specific.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "A neuro-symbolic model, with its interpretable architecture and System 2 reasoning capacity, is a promising alternative if built at the scale of LLMs; however, its symbolic backbone is usually constructed with human effort, so existing neuro-symbolic models are bottlenecked by the scope of the symbo",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052753",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19636v1",
+      "text": "A data-driven method could instead build a larger symbolic system by aligning and merging existing ones.",
+      "type": "empirical",
+      "support_in_text": 0.32,
+      "quote": "…however, its symbolic backbone is usually constructed with human effort, so existing neuro-symbolic models are bottlenecked by the scope of the symbol component and usually domain-specific. A data-driven method could instead build a larger symbolic system by aligning and merging existing ones.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052754",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19636v1",
+      "text": "On 12 tasks across 6 kinds of symbolic system, SAE-IDF outperforms the same LLM's dense baseline on all tasks with Gemma-2-9B and all",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "…re-weights each dimension by its rarity and matches across systems. On 12 tasks across 6 kinds of symbolic system, SAE-IDF outperforms the same LLM's dense baseline on all tasks with Gemma-2-9B and all but one with Llama-3.1-8B, by up to 45 points, consistently across SAE layers and configurations.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052755",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19636v1",
+      "text": "one with Llama-3.1-8B, by up to 45 points, consistently across SAE layers and configurations.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…re-weights each dimension by its rarity and matches across systems. On 12 tasks across 6 kinds of symbolic system, SAE-IDF outperforms the same LLM's dense baseline on all tasks with Gemma-2-9B and all but one with Llama-3.1-8B, by up to 45 points, consistently across SAE layers and configurations.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052756",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19636v1",
+      "text": "SAE-IDF is also interpretable: every dimension of the sparse code has a human-readable meaning, so each match decomposes into named concepts (features).",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…baseline on all tasks with Gemma-2-9B and all but one with Llama-3.1-8B, by up to 45 points, consistently across SAE layers and configurations. SAE-IDF is also interpretable: every dimension of the sparse code has a human-readable meaning, so each match decomposes into named concepts (features).",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052757",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19636v1",
+      "text": "Our work paves the way to a universal symbolic backbone.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "SAE-IDF is also interpretable: every dimension of the sparse code has a human-readable meaning, so each match decomposes into named concepts (features). Our work paves the way to a universal symbolic backbone.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052758",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "Goal misgeneralization is a common failure mode in which an agent behaves competently out of distribution",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Goal misgeneralization is a common failure mode in which an agent behaves competently out of distribution but does not pursue the intended goal.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052759",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "does not pursue the intended goal.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Goal misgeneralization is a common failure mode in which an agent behaves competently out of distribution but does not pursue the intended goal.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052760",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "However, we still have a weak understanding of what happens to the intended goal in misgeneralizing agents.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Goal misgeneralization is a common failure mode in which an agent behaves competently out of distribution but does not pursue the intended goal. However, we still have a weak understanding of what happens to the intended goal in misgeneralizing agents.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052761",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "Across three Procgen environments",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Across three Procgen environments and five robot tasks, we find three distinct forms of policy-goal misalignment: (1) functional target substitution, where behavior follows an alternative goal, (2) a policy shortcut, where behavior follows a learned action strategy, and (3) cue competition between i",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052762",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "five robot tasks, we find three distinct forms of policy-goal misalignment: (1) functional target substitution, where behavior follows an alternative goal, (2) a policy shortcut, where behavior follows a learned action strategy",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Across three Procgen environments and five robot tasks, we find three distinct forms of policy-goal misalignment: (1) functional target substitution, where behavior follows an alternative goal, (2) a policy shortcut, where behavior follows a learned action strategy, and (3) cue competition between i",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052763",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "(3) cue competition between intended and proxy goal cues.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Across three Procgen environments and five robot tasks, we find three distinct forms of policy-goal misalignment: (1) functional target substitution, where behavior follows an alternative goal, (2) a policy shortcut, where behavior follows a learned action strategy, and (3) cue competition between i",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052764",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "what role it plays in action selection",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…strategy, and (3) cue competition between intended and proxy goal cues. We distinguish these regimes by tracing where goal information remains available internally, how strongly it influences the policy, and what role it plays in action selection, and find that the goal is lost at different depths.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052765",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "find that the goal is lost at different depths.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…strategy, and (3) cue competition between intended and proxy goal cues. We distinguish these regimes by tracing where goal information remains available internally, how strongly it influences the policy, and what role it plays in action selection, and find that the goal is lost at different depths.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052766",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "Where the goal reaches the decision, as in cue competition, steering redirects the policy to the goal's location, raising intended-goal reach from 16.0% to 95.3%.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…how strongly it influences the policy, and what role it plays in action selection, and find that the goal is lost at different depths. Where the goal reaches the decision, as in cue competition, steering redirects the policy to the goal's location, raising intended-goal reach from 16.0% to 95.3%.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052767",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "not the decision, only new downstream wiring recovers goal reach, from 31.6% to 84.3% in the environment with the action shortcut.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…decision, as in cue competition, steering redirects the policy to the goal's location, raising intended-goal reach from 16.0% to 95.3%. Where it reaches the policy but not the decision, only new downstream wiring recovers goal reach, from 31.6% to 84.3% in the environment with the action shortcut.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052768",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "Where it is inert, neither works.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Where it reaches the policy but not the decision, only new downstream wiring recovers goal reach, from 31.6% to 84.3% in the environment with the action shortcut. Where it is inert, neither works.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052769",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "Our results show that goal misgeneralization is not a single failure of goal representation",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Where it is inert, neither works. Our results show that goal misgeneralization is not a single failure of goal representation, but distinct failures of policy alignment at different depths, tightly connected to which recovery works.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052770",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19731v1",
+      "text": "distinct failures of policy alignment at different depths, tightly connected to which recovery works.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Where it is inert, neither works. Our results show that goal misgeneralization is not a single failure of goal representation, but distinct failures of policy alignment at different depths, tightly connected to which recovery works.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052771",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19786v1",
+      "text": "Generating LiDAR point clouds from multi-view camera images is a valuable task with applications in controllable data synthesis, cross-modal simulation and various perception tasks.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Generating LiDAR point clouds from multi-view camera images is a valuable task with applications in controllable data synthesis, cross-modal simulation and various perception tasks.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052772",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19786v1",
+      "text": "However, most existing methods are not specifically designed for this task, and the quality of their generated LiDAR remains limited.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…point clouds from multi-view camera images is a valuable task with applications in controllable data synthesis, cross-modal simulation and various perception tasks. However, most existing methods are not specifically designed for this task, and the quality of their generated LiDAR remains limited.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052773",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19786v1",
+      "text": "In this work, we introduce LiFi (LiDAR From images), a dedicated framework for generating visually and geometrically aligned LiDAR scenes from multi-view camera images.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Moreover, these methods typically focus only on semantic cues in images or generate LiDAR from a monocular camera image. In this work, we introduce LiFi (LiDAR From images), a dedicated framework for generating visually and geometrically aligned LiDAR scenes from multi-view camera images.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052774",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19786v1",
+      "text": "LiFi guides the latent diffusion process through two complementary branches: geometry and semantics.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "In this work, we introduce LiFi (LiDAR From images), a dedicated framework for generating visually and geometrically aligned LiDAR scenes from multi-view camera images. LiFi guides the latent diffusion process through two complementary branches: geometry and semantics.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052775",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19786v1",
+      "text": "an uncertainty-aware geometric encoder combined with DepthAnything3, whereas the semantic branch provides high-level semantic representations via a cross-view interaction module.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…and semantics. The geometry branch constructs scene features from images through a reverse sampling algorithm and an uncertainty-aware geometric encoder combined with DepthAnything3, whereas the semantic branch provides high-level semantic representations via a cross-view interaction module.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052776",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19786v1",
+      "text": "collaborative controllability of the two branches.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…representations via a cross-view interaction module. We further introduce a dual-branch balanced classifier-free guidance (CFG) strategy, which enhances the model's conditional generation capability while preserving the independent learning and collaborative controllability of the two branches.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052777",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19786v1",
+      "text": "Extensive experiments demonstrate that LiFi outperforms state-of-the-art methods in generating high-fidelity LiDAR scenes.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…(CFG) strategy, which enhances the model's conditional generation capability while preserving the independent learning and collaborative controllability of the two branches. Extensive experiments demonstrate that LiFi outperforms state-of-the-art methods in generating high-fidelity LiDAR scenes.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052778",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19786v1",
+      "text": "The code will be publicly available at: https://github.com/szzhou88/LiFi.",
+      "type": "predictive",
+      "support_in_text": 0.65,
+      "quote": "Extensive experiments demonstrate that LiFi outperforms state-of-the-art methods in generating high-fidelity LiDAR scenes. The code will be publicly available at: https://github.com/szzhou88/LiFi.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052779",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19820v1",
+      "text": "can suffer from state-distribution mismatch.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "This raises a fundamental question: at which states and at what granularity should this alignment be performed? Offline imitation provides dense but token-specific supervision and can suffer from state-distribution mismatch.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052780",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19820v1",
+      "text": "We introduce ActionOPD, an action-level on-policy distillation method motivated by maximizing expected teacher-action likelihood at student-encountered states.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "We argue that semantic actions provide a natural unit of supervision for agent distillation. We introduce ActionOPD, an action-level on-policy distillation method motivated by maximizing expected teacher-action likelihood at student-encountered states.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052781",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19820v1",
+      "text": "At each such state, ActionOPD samples actions from both the student and a black-box teacher, rewarding student actions according to their semantic agreement with the sampled teacher actions.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…method motivated by maximizing expected teacher-action likelihood at student-encountered states. At each such state, ActionOPD samples actions from both the student and a black-box teacher, rewarding student actions according to their semantic agreement with the sampled teacher actions.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052782",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19820v1",
+      "text": "Qwen3-8B with two teachers on diverse, curated tool-use tasks yields average gains of 3.3-6.9 percentage points across four out-of-distribution benchmarks.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…teacher's decisions without requiring reproduction of teacher-written reasoning or access to teacher token probabilities. Training Qwen3-4B and Qwen3-8B with two teachers on diverse, curated tool-use tasks yields average gains of 3.3-6.9 percentage points across four out-of-distribution benchmarks.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052783",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19820v1",
+      "text": "On $τ^2$-bench, ActionOPD achieves competitive performance against offline distillation and token-level OPD.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "ActionOPD scales favorably with student size and teacher capability, without requiring the teacher and student to share a model family or tokenizer. On $τ^2$-bench, ActionOPD achieves competitive performance against offline distillation and token-level OPD.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052784",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19844v1",
+      "text": "Memory-efficient subspace optimization has emerged as a practical approach to reducing the memory cost of LLM training while preserving optimization performance.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Memory-efficient subspace optimization has emerged as a practical approach to reducing the memory cost of LLM training while preserving optimization performance.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052785",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19844v1",
+      "text": "Previous algorithms typically rely on the leading singular subspace of stochastic gradients, yet the gradient noise may dominate the subspace in later training stages and can prevent convergence.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…approach to reducing the memory cost of LLM training while preserving optimization performance. Previous algorithms typically rely on the leading singular subspace of stochastic gradients, yet the gradient noise may dominate the subspace in later training stages and can prevent convergence.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052786",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19844v1",
+      "text": "To overcome this limitation, we adopt a residual correction framework, which maintains the optimizer states in the subspace and adds the orthogonal residual gradient to the parameter update.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…yet the gradient noise may dominate the subspace in later training stages and can prevent convergence. To overcome this limitation, we adopt a residual correction framework, which maintains the optimizer states in the subspace and adds the orthogonal residual gradient to the parameter update.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052787",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19844v1",
+      "text": "We first integrate this scheme into momentum SGD to develop SMRC, which attains an $O(T^{-1/4})$ convergence rate for a fixed orthonormal basis, matching that of full-space momentum SGD.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…the optimizer states in the subspace and adds the orthogonal residual gradient to the parameter update. We first integrate this scheme into momentum SGD to develop SMRC, which attains an $O(T^{-1/4})$ convergence rate for a fixed orthonormal basis, matching that of full-space momentum SGD.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052788",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19844v1",
+      "text": "Through a weighted momentum tracking analysis that accounts for the residual gradient, we establish an $O(T^{-1/4})$ convergence rate for PMRC, which matches the rate of full-space Muon.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…incorporate our framework into Muon and propose PMRC, which applies the matrix sign to the projected momentum. Through a weighted momentum tracking analysis that accounts for the residual gradient, we establish an $O(T^{-1/4})$ convergence rate for PMRC, which matches the rate of full-space Muon.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052789",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19900v1",
+      "text": "How GUI Agents Fail: GraceBench for Execution Stability Diagnosis",
+      "type": "medical",
+      "support_in_text": 0.25,
+      "quote": "How GUI Agents Fail: GraceBench for Execution Stability Diagnosis",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052790",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19900v1",
+      "text": "As GUI agents are increasingly deployed for mobile task automation, their reliability depends not only on final task outcomes, but also on whether they reach these outcomes through stable interaction trajectories.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "As GUI agents are increasingly deployed for mobile task automation, their reliability depends not only on final task outcomes, but also on whether they reach these outcomes through stable interaction trajectories.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052791",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19900v1",
+      "text": "execution errors can add noise to collected data, introduce irreversible side effects, or undermine trust, even when the agent eventually completes the task.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…also on whether they reach these outcomes through stable interaction trajectories. In automation workflows, unnecessary actions, detours, and execution errors can add noise to collected data, introduce irreversible side effects, or undermine trust, even when the agent eventually completes the task.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052792",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19900v1",
+      "text": "It is therefore important to systematically diagnose the execution stability, including whether an agent deviates from a feasible path, enters a loop, becomes stagnant, or recovers from unstable actions.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…side effects, or undermine trust, even when the agent eventually completes the task. It is therefore important to systematically diagnose the execution stability, including whether an agent deviates from a feasible path, enters a loop, becomes stagnant, or recovers from unstable actions.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052793",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19900v1",
+      "text": "graph states, GraceBench uses video-grounded trajectory evaluation over this graph-aligned representation, assessing process stability beyond final success with metrics such as deviation rate, loop burden rate, and recovery ability.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "To support reliable alignment between dynamic UI observations and graph states, GraceBench uses video-grounded trajectory evaluation over this graph-aligned representation, assessing process stability beyond final success with metrics such as deviation rate, loop burden rate, and recovery ability.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052794",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19900v1",
+      "text": "GraceBench contains 169 tasks spanning 10 applications",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…graph-aligned representation, assessing process stability beyond final success with metrics such as deviation rate, loop burden rate, and recovery ability. GraceBench contains 169 tasks spanning 10 applications and constructs 10 UTGs with 2,909 canonical GUI states and 3,116 observed transitions.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052795",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19900v1",
+      "text": "constructs 10 UTGs with 2,909 canonical GUI states and 3,116 observed transitions.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…graph-aligned representation, assessing process stability beyond final success with metrics such as deviation rate, loop burden rate, and recovery ability. GraceBench contains 169 tasks spanning 10 applications and constructs 10 UTGs with 2,909 canonical GUI states and 3,116 observed transitions.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052796",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19900v1",
+      "text": "Across 3,718 trajectories, GraceBench shows that outcome scores hide execution instability: GPT-5.6 Sol achieves the highest success rate (SR)",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Across 3,718 trajectories, GraceBench shows that outcome scores hide execution instability: GPT-5.6 Sol achieves the highest success rate (SR) but the lowest recovery ability, 51.24% of successful runs still contain a deviation or loop, and trajectories with the same success rate (SR) and completion",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052797",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19900v1",
+      "text": "the lowest recovery ability, 51.24% of successful runs still contain a deviation or loop, and trajectories with the same success rate (SR)",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Across 3,718 trajectories, GraceBench shows that outcome scores hide execution instability: GPT-5.6 Sol achieves the highest success rate (SR) but the lowest recovery ability, 51.24% of successful runs still contain a deviation or loop, and trajectories with the same success rate (SR) and completion",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052798",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19900v1",
+      "text": "completion rate (CR) can differ substantially in recovery behavior.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Across 3,718 trajectories, GraceBench shows that outcome scores hide execution instability: GPT-5.6 Sol achieves the highest success rate (SR) but the lowest recovery ability, 51.24% of successful runs still contain a deviation or loop, and trajectories with the same success rate (SR) and completion",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052799",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.19900v1",
+      "text": "data will be released on https://iaie-physicalai.github.io/GraceBench.",
+      "type": "predictive",
+      "support_in_text": 0.55,
+      "quote": "…(SR) but the lowest recovery ability, 51.24% of successful runs still contain a deviation or loop, and trajectories with the same success rate (SR) and completion rate (CR) can differ substantially in recovery behavior. Code and data will be released on https://iaie-physicalai.github.io/GraceBench.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052800",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20190v1",
+      "text": "Drifting models have emerged as a highly efficient and stable paradigm for policy design in offline reinforcement learning (RL).",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Drifting models have emerged as a highly efficient and stable paradigm for policy design in offline reinforcement learning (RL).",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052801",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20190v1",
+      "text": "therefore cannot distinguish them by expected value.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Drifting models have emerged as a highly efficient and stable paradigm for policy design in offline reinforcement learning (RL). However, standard drift policies determine repulsion solely from geometric relationships among generated actions and therefore cannot distinguish them by expected value.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052802",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20190v1",
+      "text": "For each state, VRQL combines geometric kernel distance with a normalized Q value scaling.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "To address this limitation, we introduce Value-Guided Repulsion Q-Learning (VRQL) to integrate action value estimates into the particle interaction field. For each state, VRQL combines geometric kernel distance with a normalized Q value scaling.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052803",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20190v1",
+      "text": "On 50 OGBench task configurations",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…improvement without adding an auxiliary behavior model stage. On 50 OGBench task configurations and 6 D4RL AntMaze configurations, VRQL demonstrates highly competitive performance against established baselines, suggesting that value-guided particle interaction is an effective method for offline RL.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052804",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20190v1",
+      "text": "6 D4RL AntMaze configurations, VRQL demonstrates highly competitive performance against established baselines, suggesting that value-guided particle interaction is an effective method for offline RL.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…improvement without adding an auxiliary behavior model stage. On 50 OGBench task configurations and 6 D4RL AntMaze configurations, VRQL demonstrates highly competitive performance against established baselines, suggesting that value-guided particle interaction is an effective method for offline RL.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052805",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20221v1",
+      "text": "Large language models (LLMs) are increasingly deployed across languages, yet their safety and reasoning capabilities remain predominantly evaluated in English.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Large language models (LLMs) are increasingly deployed across languages, yet their safety and reasoning capabilities remain predominantly evaluated in English.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052806",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20221v1",
+      "text": "mathematical reasoning resources across 11 languages.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…combining reasoning-guided configuration selection with task-aware validation, targeted repair, and independent quality screening. Using this framework, we develop a source-aligned evaluation collection spanning seven safety, conversational, and mathematical reasoning resources across 11 languages.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052807",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20221v1",
+      "text": "The resulting collection achieves 99.94\\% coverage of intended item--language pairs in the two subsets requiring repair.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Using this framework, we develop a source-aligned evaluation collection spanning seven safety, conversational, and mathematical reasoning resources across 11 languages. The resulting collection achieves 99.94\\% coverage of intended item--language pairs in the two subsets requiring repair.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052808",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20240v1",
+      "text": "A multiplayer world model must predict how the independent actions of several players change a shared environment, including changes outside a player's current field of view.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "A multiplayer world model must predict how the independent actions of several players change a shared environment, including changes outside a player's current field of view.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052809",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20240v1",
+      "text": "A point-of-view (POV) video captures such changes only after they enter its field of view, whereas panoramic video records the surroundings in every viewing direction",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "…a player's current field of view. A point-of-view (POV) video captures such changes only after they enter its field of view, whereas panoramic video records the surroundings in every viewing direction and has served as an intermediate representation of the world state in recent world models.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052810",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20240v1",
+      "text": "has served as an intermediate representation of the world state in recent world models.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…a player's current field of view. A point-of-view (POV) video captures such changes only after they enter its field of view, whereas panoramic video records the surroundings in every viewing direction and has served as an intermediate representation of the world state in recent world models.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052811",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20240v1",
+      "text": "Learning this task therefore requires synchronized POV",
+      "type": "causal",
+      "support_in_text": 0.6,
+      "quote": "…world models. Learning this task therefore requires synchronized POV and panoramic videos of interacting players together with their actions, yet no existing dataset provides this combination in Minecraft, an established testbed in which players act independently in a shared, modifiable 3D world.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052812",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20240v1",
+      "text": "panoramic videos of interacting players together with their actions, yet no existing dataset provides this combination in Minecraft, an established testbed in which players act independently in a shared, modifiable 3D world.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…world models. Learning this task therefore requires synchronized POV and panoramic videos of interacting players together with their actions, yet no existing dataset provides this combination in Minecraft, an established testbed in which players act independently in a shared, modifiable 3D world.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052813",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20240v1",
+      "text": "Its distributed pipeline decouples CPU gameplay capture from GPU rendering, scales beyond 64 simultaneous players, and re-renders each recorded session under new observation configurations without replaying the gameplay.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…player's POV video with world-stabilized panoramic video and aligned actions. Its distributed pipeline decouples CPU gameplay capture from GPU rendering, scales beyond 64 simultaneous players, and re-renders each recorded session under new observation configurations without replaying the gameplay.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052814",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20240v1",
+      "text": "couples the two streams through cross-attention that aligns tokens observing the same direction in a shared world frame.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "…session under new observation configurations without replaying the gameplay. On this dataset, we develop a dual-tower model that jointly predicts POV and panoramic video and couples the two streams through cross-attention that aligns tokens observing the same direction in a shared world frame.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052815",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20240v1",
+      "text": "Experiments show that PAWA outperforms state-of-the-art multiplayer world models in POV prediction quality while also producing high-fidelity panoramic predictions.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…a quadratic-phase player encoding that provides many more player codes than existing rotary codes at the same embedding dimension. Experiments show that PAWA outperforms state-of-the-art multiplayer world models in POV prediction quality while also producing high-fidelity panoramic predictions.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052816",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20240v1",
+      "text": "collection pipeline are open source to support further research on multiplayer world models.",
+      "type": "empirical",
+      "support_in_text": 0.5,
+      "quote": "Experiments show that PAWA outperforms state-of-the-art multiplayer world models in POV prediction quality while also producing high-fidelity panoramic predictions. The dataset and collection pipeline are open source to support further research on multiplayer world models.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052817",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20261v1",
+      "text": "Deploying a general-purpose model as an agent means running it inside a product-specific runtime harness that decides which actions are executable, how state advances, and when the loop may terminate.",
+      "type": "definitional",
+      "support_in_text": 0.32,
+      "quote": "Deploying a general-purpose model as an agent means running it inside a product-specific runtime harness that decides which actions are executable, how state advances, and when the loop may terminate.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052818",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20261v1",
+      "text": "Ordinary trajectory supervision shows which action was taken but leaves the runtime semantics behind that action implicit.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…model as an agent means running it inside a product-specific runtime harness that decides which actions are executable, how state advances, and when the loop may terminate. Ordinary trajectory supervision shows which action was taken but leaves the runtime semantics behind that action implicit.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052819",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20261v1",
+      "text": "We introduce Harness Policy Distillation (HPD), which makes these runtime control semantics an explicit training target alongside actions to align the harness policy.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Ordinary trajectory supervision shows which action was taken but leaves the runtime semantics behind that action implicit. We introduce Harness Policy Distillation (HPD), which makes these runtime control semantics an explicit training target alongside actions to align the harness policy.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052820",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20261v1",
+      "text": "HPD replays reference trajectories through the harness to recover the runtime semantics that are implicit in ordinary trajectory data, and represents them as control documents at each model-call boundary.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…control semantics an explicit training target alongside actions to align the harness policy. HPD replays reference trajectories through the harness to recover the runtime semantics that are implicit in ordinary trajectory data, and represents them as control documents at each model-call boundary.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052821",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20261v1",
+      "text": "These documents provide privileged information for a teacher to generate actions, while harness verification ensures that the resulting targets are executable under the runtime contract.",
+      "type": "legal",
+      "support_in_text": 0.25,
+      "quote": "…are implicit in ordinary trajectory data, and represents them as control documents at each model-call boundary. These documents provide privileged information for a teacher to generate actions, while harness verification ensures that the resulting targets are executable under the runtime contract.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052822",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20261v1",
+      "text": "We jointly train a shared model on the runtime semantics recovered from control-state privileged information and native history, thereby internalizing these semantics into the model policy.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…while harness verification ensures that the resulting targets are executable under the runtime contract. We jointly train a shared model on the runtime semantics recovered from control-state privileged information and native history, thereby internalizing these semantics into the model policy.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052823",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20261v1",
+      "text": "On TRAJECT-Bench with the Pi harness, Qwen3-8B trained with HPD reaches 22.98% autonomous task success",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…model uses the original harness interface without requiring the control document or any additional supplement. On TRAJECT-Bench with the Pi harness, Qwen3-8B trained with HPD reaches 22.98% autonomous task success and 49.23% runtime compliance, against 3.09% and 19.90% for the unadapted model.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052824",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20261v1",
+      "text": "49.23% runtime compliance, against 3.09%",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…model uses the original harness interface without requiring the control document or any additional supplement. On TRAJECT-Bench with the Pi harness, Qwen3-8B trained with HPD reaches 22.98% autonomous task success and 49.23% runtime compliance, against 3.09% and 19.90% for the unadapted model.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052825",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20261v1",
+      "text": "19.90% for the unadapted model.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…model uses the original harness interface without requiring the control document or any additional supplement. On TRAJECT-Bench with the Pi harness, Qwen3-8B trained with HPD reaches 22.98% autonomous task success and 49.23% runtime compliance, against 3.09% and 19.90% for the unadapted model.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052826",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20261v1",
+      "text": "Harness-verified teacher actions substantially improve the native deployment policy, while joint control-state supervision provides further gains in task completion and runtime compliance.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…autonomous task success and 49.23% runtime compliance, against 3.09% and 19.90% for the unadapted model. Harness-verified teacher actions substantially improve the native deployment policy, while joint control-state supervision provides further gains in task completion and runtime compliance.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052827",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20461v1",
+      "text": "Normalized CER keeps the score of a whole transcription, where it tracks readers as well as semCER or better, and semCER breaks that score down into named edits.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…which keeps CER's alignment and denominator and charges each grapheme edit a severity from an LLM judge, with no word segmentation. Normalized CER keeps the score of a whole transcription, where it tracks readers as well as semCER or better, and semCER breaks that score down into named edits.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052828",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20461v1",
+      "text": "Across 16 languages, the judge charges a wrong diacritic or tone mark almost nothing in Spanish but nearly a wrong letter's severity in Telugu.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…drawn where CER and semCER disagreed, readers side with semCER more often than with normalized CER in English and Chinese, and equally often in Vietnamese. Across 16 languages, the judge charges a wrong diacritic or tone mark almost nothing in Spanish but nearly a wrong letter's severity in Telugu.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052829",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20461v1",
+      "text": "Where we can count real words, a general VLM's wrong letter forms one far above chance while a classical pipeline's stays near it.",
+      "type": "empirical",
+      "support_in_text": 0.35,
+      "quote": "Across 16 languages, the judge charges a wrong diacritic or tone mark almost nothing in Spanish but nearly a wrong letter's severity in Telugu. Where we can count real words, a general VLM's wrong letter forms one far above chance while a classical pipeline's stays near it.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052830",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20461v1",
+      "text": "We release the 61 million judged edits, the aggregated reader ratings",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "Where we can count real words, a general VLM's wrong letter forms one far above chance while a classical pipeline's stays near it. We release the 61 million judged edits, the aggregated reader ratings, and the distilled scorer at https://github.com/nguyenx2t/semcer.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052831",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20461v1",
+      "text": "the distilled scorer at https://github.com/nguyenx2t/semcer.",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "Where we can count real words, a general VLM's wrong letter forms one far above chance while a classical pipeline's stays near it. We release the 61 million judged edits, the aggregated reader ratings, and the distilled scorer at https://github.com/nguyenx2t/semcer.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052832",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20560v1",
+      "text": "PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052833",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20560v1",
+      "text": "3D object composition is pivotal to digital content creation and robot simulation, while also serving as a critical testbed for physical intelligence in foundation models.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "3D object composition is pivotal to digital content creation and robot simulation, while also serving as a critical testbed for physical intelligence in foundation models.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052834",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20560v1",
+      "text": "To address these challenges, we propose PhySGA, a Physics-Space Grounded Agentic Framework for 3D composition via agent exploration and physical simulation, enabling the universal interactive assembly of rigid, articulated, and deformable objects.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…fine-grained alignment, and physical simulation. To address these challenges, we propose PhySGA, a Physics-Space Grounded Agentic Framework for 3D composition via agent exploration and physical simulation, enabling the universal interactive assembly of rigid, articulated, and deformable objects.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052835",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20560v1",
+      "text": "Directly applying vanilla LLMs or VLMs to this task proves insufficient, as current models inherently lack grounded physical understanding and interactive construction experience.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…and physical simulation, enabling the universal interactive assembly of rigid, articulated, and deformable objects. Directly applying vanilla LLMs or VLMs to this task proves insufficient, as current models inherently lack grounded physical understanding and interactive construction experience.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052836",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20560v1",
+      "text": "coarse adjustment, while a Critic Agent reasons over contact dynamics for simulator state diagnosis and fine-grained closed-loop correction.",
+      "type": "medical",
+      "support_in_text": 0.25,
+      "quote": "To overcome this limitation, we design a collaborative feedforward-feedback architecture: an Assembly Agent focuses on geometric and kinematic reasoning for global step planning and coarse adjustment, while a Critic Agent reasons over contact dynamics for simulator state diagnosis and fine-grained c",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052837",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20607v1",
+      "text": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052838",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20607v1",
+      "text": "To improve sample efficiency in data-expensive real-world settings, we propose Expert-Guided Value Alignment, which leverages sparse human interventions with under 20% training coverage to reshape the critic's value landscape, effectively guiding autonomous exploration through expert priors.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "To improve sample efficiency in data-expensive real-world settings, we propose Expert-Guided Value Alignment, which leverages sparse human interventions with under 20% training coverage to reshape the critic's value landscape, effectively guiding autonomous exploration through expert priors.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052839",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20607v1",
+      "text": "Extensive real-world experiments on the TIAGo++ platform demonstrate that HiRe-MoMa consistently enhances task performance with only around 30 minutes of online interaction, regardless of the base policy architecture.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…landscape, effectively guiding autonomous exploration through expert priors. Extensive real-world experiments on the TIAGo++ platform demonstrate that HiRe-MoMa consistently enhances task performance with only around 30 minutes of online interaction, regardless of the base policy architecture.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052840",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20607v1",
+      "text": "To our knowledge, this is among the first frameworks to enable efficient on-robot fine-tuning for mobile manipulation in the real world, providing a practical paradigm for deploying complex robotic systems in dynamic, human-centric environments.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…regardless of the base policy architecture. To our knowledge, this is among the first frameworks to enable efficient on-robot fine-tuning for mobile manipulation in the real world, providing a practical paradigm for deploying complex robotic systems in dynamic, human-centric environments.",
+      "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052841",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.20607v1",
+      "text": "Further details can be found on our project website: https://hire-moma.github.io/",
+      "type": "descriptive",
+      "support_in_text": 0.55,
+      "quote": "…the first frameworks to enable efficient on-robot fine-tuning for mobile manipulation in the real world, providing a practical paradigm for deploying complex robotic systems in dynamic, human-centric environments. Further details can be found on our project website: https://hire-moma.github.io/",
+      "run_id": "38698752519",
       "status": "extracted"
     }
   ],
