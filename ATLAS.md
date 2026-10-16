@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 38698752519 · sources 1937 · claims 37354 · edges 1279 · verified 73
+run 38865418907 · sources 1939 · claims 37383 · edges 1279 · verified 73
 
 ## Districts
 
@@ -24,8 +24,8 @@ Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    113 cla
 right · mjx · rspace                   ░░░░░░░░░░    110 claims  ⚡0
 prediction · accuracy · time           ░░░░░░░░░░    106 claims  ⚡0
 layers · layer · spatial               ░░░░░░░░░░    106 claims  ⚡0
+Neural Decoding and Brain-AI           ░░░░░░░░░░    101 claims  ⚡0
 AI Existential Risk Discourse          ▓▓░░░░░░░░    101 claims  ⚡0
-Neural Decoding and Brain-AI           ░░░░░░░░░░    100 claims  ⚡0
 Alignment Faking Detection Thresholds  ░░░░░░░░░░     95 claims  ⚡0
 Epistemic Uncertainty Hedges           ▓░░░░░░░░░     94 claims  ⚡0
 bias · preference · analysis           ░░░░░░░░░░     87 claims  ⚡0
@@ -33,7 +33,7 @@ AI Safety Institute Collaboration      ░░░░░░░░░░     83 cla
 Behavior Cue Token Signaling           ░░░░░░░░░░     82 claims  ⚡0
 Weak-to-Strong Generalization          ░░░░░░░░░░     78 claims  ⚡0
 Federal AI Security Mandates           ▓░░░░░░░░░     76 claims  ⚡0
-… and 4386 smaller districts (30978 claims)
+… and 4387 smaller districts (31005 claims)
 ```
 
 ## Sharpest fault

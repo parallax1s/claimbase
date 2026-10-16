@@ -1,15 +1,15 @@
 {
-  "generated_run": "38698752519",
+  "generated_run": "38865418907",
   "counts": {
-    "sources": 1937,
-    "claims": 37354,
+    "sources": 1939,
+    "claims": 37383,
     "edges": 761,
     "pending_tasks": {
-      "identity": 4824,
-      "edge": 36161,
-      "refine": 12484,
-      "attach": 11361,
-      "extract": 26
+      "identity": 4826,
+      "edge": 36205,
+      "refine": 12495,
+      "attach": 11367,
+      "extract": 2
     }
   },
   "claims": [
@@ -473957,6 +473957,296 @@
       "support_in_text": 0.55,
       "quote": "…the first frameworks to enable efficient on-robot fine-tuning for mobile manipulation in the real world, providing a practical paradigm for deploying complex robotic systems in dynamic, human-centric environments. Further details can be found on our project website: https://hire-moma.github.io/",
       "run_id": "38698752519",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052842",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.20638v1",
+      "text": "Research on deceptive alignment is becoming increasingly urgent as frontier-model capabilities advance",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Research on deceptive alignment is becoming increasingly urgent as frontier-model capabilities advance and their risk of causing catastrophic harm increases.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052843",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.20638v1",
+      "text": "their risk of causing catastrophic harm increases.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Research on deceptive alignment is becoming increasingly urgent as frontier-model capabilities advance and their risk of causing catastrophic harm increases.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052844",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.20638v1",
+      "text": "Alignment faking is a form of deceptive alignment, with the compliance gap serving as a key behavioural indicator.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Research on deceptive alignment is becoming increasingly urgent as frontier-model capabilities advance and their risk of causing catastrophic harm increases. Alignment faking is a form of deceptive alignment, with the compliance gap serving as a key behavioural indicator.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052845",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.20638v1",
+      "text": "prior mechanistic interventions have not been shown to mitigate the compliance gap.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Alignment faking is a form of deceptive alignment, with the compliance gap serving as a key behavioural indicator. This behaviour remains understudied in small LLMs and prior mechanistic interventions have not been shown to mitigate the compliance gap.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052846",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.20638v1",
+      "text": "We test whether steering SAE (sparse autoencoders) features associated with deontological ethics can mitigate this behaviour.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "This behaviour remains understudied in small LLMs and prior mechanistic interventions have not been shown to mitigate the compliance gap. We test whether steering SAE (sparse autoencoders) features associated with deontological ethics can mitigate this behaviour.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052847",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.20638v1",
+      "text": "Our approach reduced the compliance gap to non-significance in Gemma-3-27B-IT, whereas the tested configurations were not effective in LLaMA-3-8B-Instruct.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "We use a novel bag-of-words feature elicitation pipeline for SAE steering to identify what we construe as concept-level steering directions. Our approach reduced the compliance gap to non-significance in Gemma-3-27B-IT, whereas the tested configurations were not effective in LLaMA-3-8B-Instruct.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052848",
+      "source_id": "src_arxiv-aligncs_http://arxiv.org/abs/2610.20638v1",
+      "text": "These findings provide, to our knowledge, the first evidence that a mechanistic activation-level intervention can mitigate the compliance gap in an alignment faking setup.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…(in this case helpful compliance with the harmful request), sometimes conditioned on tier, training, or RLHF consequences. These findings provide, to our knowledge, the first evidence that a mechanistic activation-level intervention can mitigate the compliance gap in an alignment faking setup.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052849",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "The idea of “artificial superintelligence\n[1]\n” (ASI) has recently crossed from the realm of science fiction (in the mainstream perception) to the realm of near-term technological goals openly pursued by most leading commercial organizations in the field of AI.",
+      "type": "descriptive",
+      "support_in_text": 0.55,
+      "quote": "The idea of “artificial superintelligence\n[1]\n” (ASI) has recently crossed from the realm of science fiction (in the mainstream perception) to the realm of near-term technological goals openly pursued by most leading commercial organizations in the field of AI.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052850",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "This was argued by Eliezer Yudkowsky since 2001\n[2]",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "…ASI poses a grave existential risk to the human species. This was argued by Eliezer Yudkowsky since 2001\n[2]\n, and by many others (see e.g., Omohundro 2009, Bostrom 2014, Armstrong 2014, Russell 2019, Bengio et al. 2024 (25 authors), Bengio et al. 2025 (13 authors) and Yudkowsky and Soares 2025).",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052851",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "by many others (see e.g., Omohundro 2009, Bostrom 2014, Armstrong 2014, Russell 2019, Bengio et al. 2024 (25 authors), Bengio et al. 2025 (13 authors) and Yudkowsky and Soares 2025).",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "…ASI poses a grave existential risk to the human species. This was argued by Eliezer Yudkowsky since 2001\n[2]\n, and by many others (see e.g., Omohundro 2009, Bostrom 2014, Armstrong 2014, Russell 2019, Bengio et al. 2024 (25 authors), Bengio et al. 2025 (13 authors) and Yudkowsky and Soares 2025).",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052852",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "In light of this risk comes the question of how can we make ASI safe\n[3]\n.",
+      "type": "empirical",
+      "support_in_text": 0.55,
+      "quote": "In light of this risk comes the question of how can we make ASI safe\n[3]\n.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052853",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "This question is challenging on many levels, because to solve it we need to complete vast gaps in our understanding both in theoretical computer science and in the areas of philosophy concerned with knowledge and decision-making.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…of this risk comes the question of how can we make ASI safe\n[3]\n. This question is challenging on many levels, because to solve it we need to complete vast gaps in our understanding both in theoretical computer science and in the areas of philosophy concerned with knowledge and decision-making.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052854",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "Moreover, the cost of failure is so enormous that any sane solution has to meet unprecedented standards of reliability and robustness.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…we need to complete vast gaps in our understanding both in theoretical computer science and in the areas of philosophy concerned with knowledge and decision-making. Moreover, the cost of failure is so enormous that any sane solution has to meet unprecedented standards of reliability and robustness.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052855",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "Not to mention the sociopolitical problem of balance of power in the post-ASI age, something that is out-of-scope for this sequence.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Moreover, the cost of failure is so enormous that any sane solution has to meet unprecedented standards of reliability and robustness. Not to mention the sociopolitical problem of balance of power in the post-ASI age, something that is out-of-scope for this sequence.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052856",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "Personally, I started to be concerned with this problem around 2013.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Personally, I started to be concerned with this problem around 2013.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052857",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "In 2018, I created the learning-theoretic AI alignment research agenda (LTA).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Personally, I started to be concerned with this problem around 2013. In 2018, I created the learning-theoretic AI alignment research agenda (LTA).",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052858",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "I have been making steady progress on realizing this vision.",
+      "type": "descriptive",
+      "support_in_text": 0.55,
+      "quote": "…LTA combined ideas from MIRI’s agent foundations agenda with the mathematical tools of statistical and computational learning theory in an attempt to create a mathematical theory of intelligent agents. Since then, my collaborators\n[4]\nand I have been making steady progress on realizing this vision.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052859",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "In 2023, I wrote an updated overview of the agenda, including a sketch of my proposed alignment protocol: Computational Superimitation.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Since then, my collaborators\n[4]\nand I have been making steady progress on realizing this vision. In 2023, I wrote an updated overview of the agenda, including a sketch of my proposed alignment protocol: Computational Superimitation.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052860",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "This year has seen a breakthrough in a key missing piece of LTA: compositional learning theory (see Stringological Sequence Prediction, more on this in following posts).",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "This year has seen a breakthrough in a key missing piece of LTA: compositional learning theory (see Stringological Sequence Prediction, more on this in following posts).",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052861",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "other insights, we can already see the entire outline of the emerging mathematical framework, one that I named computational agent theory.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…in a key missing piece of LTA: compositional learning theory (see Stringological Sequence Prediction, more on this in following posts). Thanks to this and other insights, we can already see the entire outline of the emerging mathematical framework, one that I named computational agent theory.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052862",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "What is the technical alignment problem",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "What is the technical alignment problem and what are its core difficulties, in my view.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052863",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "what are its core difficulties, in my view.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "What is the technical alignment problem and what are its core difficulties, in my view.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052864",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine learning theory, ideas from analytic philosophy, and views that originated in the Machine Intelligence Research Institute / LessWrong.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…and what are its core difficulties, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine learning theory, ideas from analytic philosophy, and views that originated in the Machine Intelligence Research Institute / LessWrong.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052865",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "The term “superintelligence” is always used in this sequence to mean “intelligence far beyond that of the smartest humans”.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "The term “superintelligence” is always used in this sequence to mean “intelligence far beyond that of the smartest humans”.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052866",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "It is never used as the farcical synonym to “artificial intelligence” proposed by Donald Trump. ↩︎",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "The term “superintelligence” is always used in this sequence to mean “intelligence far beyond that of the smartest humans”. It is never used as the farcical synonym to “artificial intelligence” proposed by Donald Trump. ↩︎",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052867",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "Although Alan Turing warned about machines taking control already around 1951, himself citing a fiction novel by Samuel Butler from 1872. ↩︎",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Although Alan Turing warned about machines taking control already around 1951, himself citing a fiction novel by Samuel Butler from 1872. ↩︎",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052868",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "Alternatively, we can ask why should we build ASI at all.",
+      "type": "normative",
+      "support_in_text": 0.13,
+      "quote": "Alternatively, we can ask why should we build ASI at all.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052869",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "In my opinion, it is in humanity’s interest to build ASI eventually, after the problem of safety is investigated so thoroughly as to leave very little room for error.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Alternatively, we can ask why should we build ASI at all. In my opinion, it is in humanity’s interest to build ASI eventually, after the problem of safety is investigated so thoroughly as to leave very little room for error.",
+      "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052870",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "text": "However, our present technological trajectory is extremely far from this ideal, and it would be prudent for world governments to hit the brakes hard. ↩︎",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…in humanity’s interest to build ASI eventually, after the problem of safety is investigated so thoroughly as to leave very little room for error. However, our present technological trajectory is extremely far from this ideal, and it would be prudent for world governments to hit the brakes hard. ↩︎",
+      "run_id": "38865418907",
       "status": "extracted"
     }
   ],
