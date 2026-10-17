@@ -1,15 +1,15 @@
 {
-  "generated_run": "38865418907",
+  "generated_run": "39011809755",
   "counts": {
-    "sources": 1939,
-    "claims": 37383,
+    "sources": 1965,
+    "claims": 37680,
     "edges": 761,
     "pending_tasks": {
-      "identity": 4826,
-      "edge": 36205,
-      "refine": 12495,
-      "attach": 11367,
-      "extract": 2
+      "identity": 4944,
+      "edge": 36542,
+      "refine": 12598,
+      "attach": 11441,
+      "extract": 26
     }
   },
   "claims": [
@@ -474247,6 +474247,2976 @@
       "support_in_text": 0.25,
       "quote": "…in humanity’s interest to build ASI eventually, after the problem of safety is investigated so thoroughly as to leave very little room for error. However, our present technological trajectory is extremely far from this ideal, and it would be prudent for world governments to hit the brakes hard. ↩︎",
       "run_id": "38865418907",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052871",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21214v1",
+      "text": "Rubric-based evaluation is widely used to assess large language model (LLM) outputs by decomposing quality into multiple criteria and assigning each a binary judgment from an LLM verifier.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Rubric-based evaluation is widely used to assess large language model (LLM) outputs by decomposing quality into multiple criteria and assigning each a binary judgment from an LLM verifier.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052872",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21214v1",
+      "text": "Existing methods uniformly aggregate these judgments into a final score, implicitly treating every criterion as equally certain and overlooking this heterogeneity.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "However, judgment certainty varies substantially across criteria. Existing methods uniformly aggregate these judgments into a final score, implicitly treating every criterion as equally certain and overlooking this heterogeneity.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052873",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21214v1",
+      "text": "As a result, uncertain judgments remain incorporated into reward estimation without distinction, potentially yielding misleading training signals for downstream reinforcement learning (RL).",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…a final score, implicitly treating every criterion as equally certain and overlooking this heterogeneity. As a result, uncertain judgments remain incorporated into reward estimation without distinction, potentially yielding misleading training signals for downstream reinforcement learning (RL).",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052874",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21214v1",
+      "text": "converts it into a per-criterion weight using split-conformal $p$-values with provable coverage guarantees.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "…that quantifies criterion-level judgment uncertainty via conformal calibration. Specifically, URW elicits a soft uncertainty signal from a fixed pool of paraphrased judgment templates and converts it into a per-criterion weight using split-conformal $p$-values with provable coverage guarantees.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052875",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21214v1",
+      "text": "Extensive experiments demonstrate that URW consistently improves pairwise preference accuracy and delivers stronger downstream RL alignment.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…a fixed pool of paraphrased judgment templates and converts it into a per-criterion weight using split-conformal $p$-values with provable coverage guarantees. Extensive experiments demonstrate that URW consistently improves pairwise preference accuracy and delivers stronger downstream RL alignment.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052876",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21240v1",
+      "text": "prompt transformations designed to preserve the underlying request can redistribute activity across them.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052877",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21240v1",
+      "text": "A feature change observed on one transformed prompt need not recur, and even a recurring change need not affect a downstream computation.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not affect a downstream computation.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052878",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21240v1",
+      "text": "Across 27 pretrained SAEs spanning eight language models, the tested prompt transformations produce a reproducible redistribution profile on these excluded variants.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…feature responses that recur in a consistent direction, and evaluate the resulting supports on variants excluded from selection. Across 27 pretrained SAEs spanning eight language models, the tested prompt transformations produce a reproducible redistribution profile on these excluded variants.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052879",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21240v1",
+      "text": "For a fixed linear readout, an exact decomposition shows how response magnitude, readout coefficients, directional alignment, and the clean margin determine downstream consequences.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We then separate recurring representation change from signed readout contribution and decision failure. For a fixed linear readout, an exact decomposition shows how response magnitude, readout coefficients, directional alignment, and the clean margin determine downstream consequences.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052880",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21240v1",
+      "text": "In two frozen safety readouts, combining RSS support erosion with the full clean margin yields recurrent failure AUROCs of 0.935",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…and the clean margin determine downstream consequences. In two frozen safety readouts, combining RSS support erosion with the full clean margin yields recurrent failure AUROCs of 0.935 and 0.958 using median supports of 20 and 19 features, compared with 0.965 and 0.964 using full erosion.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052881",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21240v1",
+      "text": "0.958 using median supports of 20",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…and the clean margin determine downstream consequences. In two frozen safety readouts, combining RSS support erosion with the full clean margin yields recurrent failure AUROCs of 0.935 and 0.958 using median supports of 20 and 19 features, compared with 0.965 and 0.964 using full erosion.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052882",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21240v1",
+      "text": "19 features, compared with 0.965",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…and the clean margin determine downstream consequences. In two frozen safety readouts, combining RSS support erosion with the full clean margin yields recurrent failure AUROCs of 0.935 and 0.958 using median supports of 20 and 19 features, compared with 0.965 and 0.964 using full erosion.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052883",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21240v1",
+      "text": "0.964 using full erosion.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…and the clean margin determine downstream consequences. In two frozen safety readouts, combining RSS support erosion with the full clean margin yields recurrent failure AUROCs of 0.935 and 0.958 using median supports of 20 and 19 features, compared with 0.965 and 0.964 using full erosion.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052884",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21240v1",
+      "text": "RSS therefore provides a way to identify recurring sparse representation changes and quantify their contribution to a downstream readout without equating representation change with failure.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…and 0.958 using median supports of 20 and 19 features, compared with 0.965 and 0.964 using full erosion. RSS therefore provides a way to identify recurring sparse representation changes and quantify their contribution to a downstream readout without equating representation change with failure.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052885",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21240v1",
+      "text": "Code is available at https://github.com/OpenSAE/Redistribution-Sensitivity-Score",
+      "type": "descriptive",
+      "support_in_text": 0.55,
+      "quote": "RSS therefore provides a way to identify recurring sparse representation changes and quantify their contribution to a downstream readout without equating representation change with failure. Code is available at https://github.com/OpenSAE/Redistribution-Sensitivity-Score",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052886",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21257v1",
+      "text": "Fractional Power-of-Two Quantization for Efficient and Effective Multiplier-Free LLM Inference",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Fractional Power-of-Two Quantization for Efficient and Effective Multiplier-Free LLM Inference",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052887",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21257v1",
+      "text": "Post-training quantization (PTQ) reduces this cost by mapping weights and activations to low-bit integers.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Large Language Models (LLMs) demand efficient inference, where the multiply-accumulate (MAC) operations in linear projections dominate compute and energy cost. Post-training quantization (PTQ) reduces this cost by mapping weights and activations to low-bit integers.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052888",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21257v1",
+      "text": "Power-of-Two (PoT) weight quantization promises efficient multiplier-free LLM inference via shift-add logic",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…(PTQ) reduces this cost by mapping weights and activations to low-bit integers. Power-of-Two (PoT) weight quantization promises efficient multiplier-free LLM inference via shift-add logic, but suffers significant accuracy degradation at low bitwidths due to its coarse base-2 quantization grid.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052889",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21257v1",
+      "text": "suffers significant accuracy degradation at low bitwidths due to its coarse base-2 quantization grid.",
+      "type": "causal",
+      "support_in_text": 0.35,
+      "quote": "…(PTQ) reduces this cost by mapping weights and activations to low-bit integers. Power-of-Two (PoT) weight quantization promises efficient multiplier-free LLM inference via shift-add logic, but suffers significant accuracy degradation at low bitwidths due to its coarse base-2 quantization grid.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052890",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21257v1",
+      "text": "We introduce Fractional PoT (FPoT), a base-$\\sqrt{2}$ (half-octave) fractional PoT grid that achieves practical 4-bit weight quantization while preserving a fully integer shift-add datapath.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…but suffers significant accuracy degradation at low bitwidths due to its coarse base-2 quantization grid. We introduce Fractional PoT (FPoT), a base-$\\sqrt{2}$ (half-octave) fractional PoT grid that achieves practical 4-bit weight quantization while preserving a fully integer shift-add datapath.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052891",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21257v1",
+      "text": "The method combines (i) the base-$\\sqrt{2}$ weight grid with uniform integer activations, (ii) a calibration-time grid-alignment refinement absorbed into the static per-channel scale",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "The method combines (i) the base-$\\sqrt{2}$ weight grid with uniform integer activations, (ii) a calibration-time grid-alignment refinement absorbed into the static per-channel scale, and (iii) a lightweight 1-adder $\\sqrt{2}$ approximation whose error is absorbed during weight calibration via appro",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052892",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21257v1",
+      "text": "(iii) a lightweight 1-adder $\\sqrt{2}$ approximation whose error is absorbed during weight calibration via approximate-grid quantization, yielding a processing element (PE) with significantly fewer gates than a 4-bit integer multiplier.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "The method combines (i) the base-$\\sqrt{2}$ weight grid with uniform integer activations, (ii) a calibration-time grid-alignment refinement absorbed into the static per-channel scale, and (iii) a lightweight 1-adder $\\sqrt{2}$ approximation whose error is absorbed during weight calibration via appro",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052893",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21257v1",
+      "text": "On Llama-3-8B with 4-bit weight",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…a 4-bit integer multiplier. On Llama-3-8B with 4-bit weight and activation quantization, FPoT improves zero-shot commonsense reasoning performance by 8.72% relative to the PoT baseline, while maintaining performance close to the uniform integer baseline, with only a negligible 0.4%p degradation.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052894",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21257v1",
+      "text": "activation quantization, FPoT improves zero-shot commonsense reasoning performance by 8.72% relative to the PoT baseline, while maintaining performance close to the uniform integer baseline, with only a negligible 0.4%p degradation.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…a 4-bit integer multiplier. On Llama-3-8B with 4-bit weight and activation quantization, FPoT improves zero-shot commonsense reasoning performance by 8.72% relative to the PoT baseline, while maintaining performance close to the uniform integer baseline, with only a negligible 0.4%p degradation.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052895",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21257v1",
+      "text": "These results hold across various configurations spanning seven models and three bit-widths.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…improves zero-shot commonsense reasoning performance by 8.72% relative to the PoT baseline, while maintaining performance close to the uniform integer baseline, with only a negligible 0.4%p degradation. These results hold across various configurations spanning seven models and three bit-widths.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052896",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21257v1",
+      "text": "Furthermore, FPoT can be integrated with state-of-the-art LLM PTQ methods, demonstrating framework-agnostic applicability.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "These results hold across various configurations spanning seven models and three bit-widths. Furthermore, FPoT can be integrated with state-of-the-art LLM PTQ methods, demonstrating framework-agnostic applicability.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052897",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21346v1",
+      "text": "High-fidelity user simulators are essential for evaluating and training agents in interactive environments.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "High-fidelity user simulators are essential for evaluating and training agents in interactive environments.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052898",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21346v1",
+      "text": "We propose ARGUS (Agenda-dRiven Goal-oriented User Simulator), a neuro-symbolic framework that maintains the user's goal state using a dynamic agenda stack manipulated via symbolic operations.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…LLM-based simulators struggle with reliability issues, such as goal omission and policy non-compliance. We propose ARGUS (Agenda-dRiven Goal-oriented User Simulator), a neuro-symbolic framework that maintains the user's goal state using a dynamic agenda stack manipulated via symbolic operations.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052899",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21346v1",
+      "text": "By rigorously decoupling state tracking from natural language generation, ARGUS facilitates strict goal progression and constraint-aligned interactions.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…User Simulator), a neuro-symbolic framework that maintains the user's goal state using a dynamic agenda stack manipulated via symbolic operations. By rigorously decoupling state tracking from natural language generation, ARGUS facilitates strict goal progression and constraint-aligned interactions.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052900",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21346v1",
+      "text": "Evaluations on $τ^3$-Bench and MultiWOZ demonstrate the significant superiority of the ARGUS architecture and the efficacy of our training pipeline.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "To rigorously evaluate behavioral fidelity, we introduce a rubric-based metric Composite Behavioral Score (CBS). Evaluations on $τ^3$-Bench and MultiWOZ demonstrate the significant superiority of the ARGUS architecture and the efficacy of our training pipeline.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052901",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21346v1",
+      "text": "data will be released soon.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "Evaluations on $τ^3$-Bench and MultiWOZ demonstrate the significant superiority of the ARGUS architecture and the efficacy of our training pipeline. Code and data will be released soon.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052902",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21395v1",
+      "text": "Recent studies have reported promising results from quantum machine learning in drug discovery, healthcare, materials science and cybersecurity.",
+      "type": "medical",
+      "support_in_text": 0.25,
+      "quote": "Recent studies have reported promising results from quantum machine learning in drug discovery, healthcare, materials science and cybersecurity.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052903",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21395v1",
+      "text": "We propose that fusion can improve prediction when classical and quantum representations capture complementary predictive relationships.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Research includes comparisons with classical machine learning algorithms and the development of sequential hybrid pipelines. We propose that fusion can improve prediction when classical and quantum representations capture complementary predictive relationships.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052904",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21395v1",
+      "text": "For these mixed targets, fusion improves prediction by combining the relevant feature sets, while matched classical representations recover the same benefit, linking the improvement to their complementary predictive content.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…those that depend on complementary angular and polynomial relationships. For these mixed targets, fusion improves prediction by combining the relevant feature sets, while matched classical representations recover the same benefit, linking the improvement to their complementary predictive content.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052905",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21395v1",
+      "text": "Controlled classification tests further show that gains depend on alignment between the chosen representation and the target, and on a suitable fusion rule.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…sets, while matched classical representations recover the same benefit, linking the improvement to their complementary predictive content. Controlled classification tests further show that gains depend on alignment between the chosen representation and the target, and on a suitable fusion rule.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052906",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21395v1",
+      "text": "Benchmark validation shows improved mean predictive performance over classical baselines on Wine, Wisconsin Diagnostic Breast Cancer, three-class Fashion-MNIST and Steel Plates Faults within the evaluated protocols.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…between the chosen representation and the target, and on a suitable fusion rule. Benchmark validation shows improved mean predictive performance over classical baselines on Wine, Wisconsin Diagnostic Breast Cancer, three-class Fashion-MNIST and Steel Plates Faults within the evaluated protocols.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052907",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21422v1",
+      "text": "localizing when specific actions occur.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Understanding video content requires reasoning at multiple levels of granularity, from identifying objects to interpreting their interactions and localizing when specific actions occur.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052908",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21422v1",
+      "text": "This thesis studies three query-guided grounding tasks that answer where key objects are (object-level grounding), how they interact (relationship-level grounding)",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…interpreting their interactions and localizing when specific actions occur. This thesis studies three query-guided grounding tasks that answer where key objects are (object-level grounding), how they interact (relationship-level grounding), and when specific moments occur (moment-level grounding).",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052909",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21422v1",
+      "text": "when specific moments occur (moment-level grounding).",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…interpreting their interactions and localizing when specific actions occur. This thesis studies three query-guided grounding tasks that answer where key objects are (object-level grounding), how they interact (relationship-level grounding), and when specific moments occur (moment-level grounding).",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052910",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21422v1",
+      "text": "For object-level grounding, we present QDETRv, a query-guided extension of the Detection Transformer for one-shot localization of unseen objects in videos, which combines query-context fusion, a memory module for temporal consistency, and unsupervised pretraining on synthetic object trajectories.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "For object-level grounding, we present QDETRv, a query-guided extension of the Detection Transformer for one-shot localization of unseen objects in videos, which combines query-context fusion, a memory module for temporal consistency, and unsupervised pretraining on synthetic object trajectories.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052911",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21422v1",
+      "text": "a few support videos sharing the predicate, the entities are localized by optimizing a T-partite random field using a meta-learned relation network with query-conditioned translational embeddings, Global Semantic Aggregation, Local Localization Aggregation, and belief-propagation-based message passing.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "For relationship-level grounding, we introduce few-shot referring relationships in videos: given a (subject, predicate, object) query and a few support videos sharing the predicate, the entities are localized by optimizing a T-partite random field using a meta-learned relation network with query-con",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052912",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21422v1",
+      "text": "MATR also extends to text-to-video moment retrieval with performance comparable to, or better than, the state of the art.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "For moment-level grounding, we propose the Moment Alignment Transformer (MATR) for video-to-video moment retrieval, which uses dual-stage Dynamic Time Warping for pre- and post-fusion alignment, learnable queries for boundary prediction, and self-supervised pretraining with temporal augmentations; M",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052913",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21459v1",
+      "text": "three UMMs, we observe direct but uneven transfer from visual supervision to language.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…Transfer Probing (KTP), a controlled protocol that supplies new knowledge through image-generation training and tests its accessibility through text-only question answering. Across seven knowledge categories and three UMMs, we observe direct but uneven transfer from visual supervision to language.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052914",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21459v1",
+      "text": "Guidance on selected entities can improve knowledge access on other entities without QA supervision, with additional gains from interleaved alignment.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…and Interleaved Image--Text Alignment, which connect generation and answering through shared knowledge and interleaved responses, respectively. Guidance on selected entities can improve knowledge access on other entities without QA supervision, with additional gains from interleaved alignment.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052915",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21459v1",
+      "text": "Further analysis shows that knowledge correctly reproduced in images is often more accessible through text, although substantial gaps remain between the two forms of access.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…can improve knowledge access on other entities without QA supervision, with additional gains from interleaved alignment. Further analysis shows that knowledge correctly reproduced in images is often more accessible through text, although substantial gaps remain between the two forms of access.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052916",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21459v1",
+      "text": "model architecture to make this knowledge more broadly accessible.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…text, although substantial gaps remain between the two forms of access. These findings support visual generation as a source of knowledge beyond textual supervision, and motivate joint investigation of training data design and model architecture to make this knowledge more broadly accessible.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052917",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21508v1",
+      "text": "We use SCRIBE, an interpretable contextual semantic representation spanning 65 neurocognitively grounded semantic properties, as a lens for decomposing the brain alignment of one LLM, LLaMA2-7B.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…but the linguistic information underlying this brain alignment remains difficult to interpret. We use SCRIBE, an interpretable contextual semantic representation spanning 65 neurocognitively grounded semantic properties, as a lens for decomposing the brain alignment of one LLM, LLaMA2-7B.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052918",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21508v1",
+      "text": "Using variance partitioning between LLaMA2-7B",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…alignment of one LLM, LLaMA2-7B. Using variance partitioning between LLaMA2-7B and SCRIBE on naturalistic fMRI data from seven participants listening to narrative stories (Moth Radio Hour), we separate brain-predictive variance shared between the two representations from variance unique to each.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052919",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21508v1",
+      "text": "SCRIBE on naturalistic fMRI data from seven participants listening to narrative stories (Moth Radio Hour), we separate brain-predictive variance shared between the two representations from variance unique to each.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…alignment of one LLM, LLaMA2-7B. Using variance partitioning between LLaMA2-7B and SCRIBE on naturalistic fMRI data from seven participants listening to narrative stories (Moth Radio Hour), we separate brain-predictive variance shared between the two representations from variance unique to each.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052920",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21508v1",
+      "text": "We find that shared variance is the dominant component across the whole brain and language-related regions, while both representations also retain significant unique contributions.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…Hour), we separate brain-predictive variance shared between the two representations from variance unique to each. We find that shared variance is the dominant component across the whole brain and language-related regions, while both representations also retain significant unique contributions.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052921",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21508v1",
+      "text": "Concrete properties show greater shared variance with LLaMA2-7B than abstract properties across the whole brain",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…semantic properties relates to shared and SCRIBE-unique brain-predictive variance. Concrete properties show greater shared variance with LLaMA2-7B than abstract properties across the whole brain and most examined regions, whereas abstract properties do not show greater SCRIBE-unique variance.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052922",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21508v1",
+      "text": "most examined regions, whereas abstract properties do not show greater SCRIBE-unique variance.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…semantic properties relates to shared and SCRIBE-unique brain-predictive variance. Concrete properties show greater shared variance with LLaMA2-7B than abstract properties across the whole brain and most examined regions, whereas abstract properties do not show greater SCRIBE-unique variance.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052923",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21508v1",
+      "text": "Together, these results show that, for LLaMA2-7B on this dataset, a substantial portion of brain-LLM alignment is associated with interpretable semantic information, while revealing complementary brain-predictive semantic information beyond the LLaMA2-7B representation.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…and SCRIBE-unique variance. Together, these results show that, for LLaMA2-7B on this dataset, a substantial portion of brain-LLM alignment is associated with interpretable semantic information, while revealing complementary brain-predictive semantic information beyond the LLaMA2-7B representation.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052924",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21512v1",
+      "text": "To mitigate these limitations, we propose QREF, a plug-and-play Query Refiner and Evidence Filter.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "However, they often issue intent-misaligned, under-constrained, or redundant search queries, resulting in poor evidence coverage and accumulating retrieval noise. To mitigate these limitations, we propose QREF, a plug-and-play Query Refiner and Evidence Filter.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052925",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21512v1",
+      "text": "Comprehensive experiments demonstrate that our approach improves the performance of DeepSearch agents across four challenging benchmarks, achieving average relative Pass@1 improvements of 33.55% on WebSailor",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Comprehensive experiments demonstrate that our approach improves the performance of DeepSearch agents across four challenging benchmarks, achieving average relative Pass@1 improvements of 33.55% on WebSailor and 11.04% on TongyiDeepResearch without modifying architectures or retraining their reasoni",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052926",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21512v1",
+      "text": "11.04% on TongyiDeepResearch without modifying architectures or retraining their reasoning policies.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Comprehensive experiments demonstrate that our approach improves the performance of DeepSearch agents across four challenging benchmarks, achieving average relative Pass@1 improvements of 33.55% on WebSailor and 11.04% on TongyiDeepResearch without modifying architectures or retraining their reasoni",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052927",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21512v1",
+      "text": "Compared with the original DeepSearch backbone without QREF, the RL-trained refiner reduces the fraction of query batches that lack discriminative retrieval anchors by 95%.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…33.55% on WebSailor and 11.04% on TongyiDeepResearch without modifying architectures or retraining their reasoning policies. Compared with the original DeepSearch backbone without QREF, the RL-trained refiner reduces the fraction of query batches that lack discriminative retrieval anchors by 95%.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052928",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21539v1",
+      "text": "Diffusion models (DMs) have steadily demonstrated outstanding performance in high-fidelity, controllable generation across diverse scenarios, following the \"pretraining-finetuning\" paradigm established in LLMs.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Diffusion models (DMs) have steadily demonstrated outstanding performance in high-fidelity, controllable generation across diverse scenarios, following the \"pretraining-finetuning\" paradigm established in LLMs.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052929",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21539v1",
+      "text": "Inspired by RLHF's success in LLMs, RL has recently emerged as a pivotal post-training mechanism to iteratively refine DMs through reward-driven trajectory optimization.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…in sophisticated reasoning, autonomous exploration of generation pathways, and adaptability to complex, human-aligned objectives. Inspired by RLHF's success in LLMs, RL has recently emerged as a pivotal post-training mechanism to iteratively refine DMs through reward-driven trajectory optimization.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052930",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21539v1",
+      "text": "dissect three crucial bottlenecks that currently hinder the real-world deployment of RL-driven DMs: reward design fragility, exploration-exploitation trade-off in high-dimensional generation spaces, and training instability under sparse rewards.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…post-training strategies. Furthermore, we reveal and dissect three crucial bottlenecks that currently hinder the real-world deployment of RL-driven DMs: reward design fragility, exploration-exploitation trade-off in high-dimensional generation spaces, and training instability under sparse rewards.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052931",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21549v1",
+      "text": "has shown strong empirical performance in neural-network training.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Muon replaces a matrix gradient by an approximate polar factor and has shown strong empirical performance in neural-network training.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052932",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21549v1",
+      "text": "The Isotropic Curvature Model (ICM) provides a curvature-based explanation for this update by asking when gradient orthogonalization minimizes a one-step local-loss surrogate.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…a matrix gradient by an approximate polar factor and has shown strong empirical performance in neural-network training. The Isotropic Curvature Model (ICM) provides a curvature-based explanation for this update by asking when gradient orthogonalization minimizes a one-step local-loss surrogate.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052933",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21549v1",
+      "text": "We investigate the stability of this explanation when the fixed input radius of the ICM is replaced by a general radial law.",
+      "type": "legal",
+      "support_in_text": 0.25,
+      "quote": "The Isotropic Curvature Model (ICM) provides a curvature-based explanation for this update by asking when gradient orthogonalization minimizes a one-step local-loss surrogate. We investigate the stability of this explanation when the fixed input radius of the ICM is replaced by a general radial law.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052934",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21549v1",
+      "text": "We derive an exact characterization of this set for arbitrary radial laws and show that all nonscalar admissible responses arise from radial atoms aligned with curvature kinks.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…Set, which encodes exact scaled-polar optimality as a geometric condition on the positive polar factor of the gradient. We derive an exact characterization of this set for arbitrary radial laws and show that all nonscalar admissible responses arise from radial atoms aligned with curvature kinks.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052935",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21549v1",
+      "text": "Consequently, every atomless radial law exhibits zero-capacity rigidity: exact scaled-polar optimality is possible only when the gradient is already a scaled column isometry.",
+      "type": "legal",
+      "support_in_text": 0.13,
+      "quote": "…arbitrary radial laws and show that all nonscalar admissible responses arise from radial atoms aligned with curvature kinks. Consequently, every atomless radial law exhibits zero-capacity rigidity: exact scaled-polar optimality is possible only when the gradient is already a scaled column isometry.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052936",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21549v1",
+      "text": "We prove that every nonzero global minimizer lies on the polar ray of the gradient, while its scale is determined by a one-dimensional convex problem.",
+      "type": "descriptive",
+      "support_in_text": 0.23,
+      "quote": "…of Muon, we introduce the Minimax RR-ICM by replacing directional averaging with worst-case optimization over probability laws on the sphere. We prove that every nonzero global minimizer lies on the polar ray of the gradient, while its scale is determined by a one-dimensional convex problem.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052937",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21549v1",
+      "text": "The corresponding admissibility geometry is a positive-semidefinite trace slab, in sharp contrast to the spherical-zonoid geometry of the RR-ICM.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We prove that every nonzero global minimizer lies on the polar ray of the gradient, while its scale is determined by a one-dimensional convex problem. The corresponding admissibility geometry is a positive-semidefinite trace slab, in sharp contrast to the spherical-zonoid geometry of the RR-ICM.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052938",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21586v1",
+      "text": "task constraints are already familiar to users.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Indoor service robots often enter unmapped buildings whose layouts and task constraints are already familiar to users.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052939",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21586v1",
+      "text": "The robot has no prior on-site traversal or site-specific training.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…robot-unseen setting with AVALON, a topological navigation framework organized around human-seeded layered spatial memory, node-verified topological execution, and task-triggered, evidence-gated human--robot memory co-updating. The robot has no prior on-site traversal or site-specific training.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052940",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21586v1",
+      "text": "Human operators specify task constraints that are unobservable via vision",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Human--robot memory co-updating fuses complementary sources of information. Human operators specify task constraints that are unobservable via vision and report offline environmental modifications, whereas the robot provides physical-state evidence through active in-situ validation.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052941",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21586v1",
+      "text": "report offline environmental modifications, whereas the robot provides physical-state evidence through active in-situ validation.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Human--robot memory co-updating fuses complementary sources of information. Human operators specify task constraints that are unobservable via vision and report offline environmental modifications, whereas the robot provides physical-state evidence through active in-situ validation.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052942",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21586v1",
+      "text": "Task relevance governs whether human-reported environmental changes undergo robot validation during the active mission.",
+      "type": "historical",
+      "support_in_text": 0.25,
+      "quote": "…constraints that are unobservable via vision and report offline environmental modifications, whereas the robot provides physical-state evidence through active in-situ validation. Task relevance governs whether human-reported environmental changes undergo robot validation during the active mission.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052943",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21586v1",
+      "text": "Our experiments on a Unitree Go2 show that AVALON with X-NavDP completes a 12.81 m Intersection-to-Dining mission in 46.4 s (5/5) with no mapping, 40.9% less robot time than DimOS-Go2 (78.5 s, 4/5), while policy-only X-NavDP times out in all of the 5 runs.",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "…and robot-observed traversability. Our experiments on a Unitree Go2 show that AVALON with X-NavDP completes a 12.81 m Intersection-to-Dining mission in 46.4 s (5/5) with no mapping, 40.9% less robot time than DimOS-Go2 (78.5 s, 4/5), while policy-only X-NavDP times out in all of the 5 runs.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052944",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21713v1",
+      "text": "Exposed: Language Embeddings can Reveal More Than They Should in Recommender Systems",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "Encoded but Exposed: Language Embeddings can Reveal More Than They Should in Recommender Systems",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052945",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21713v1",
+      "text": "Language embeddings are increasingly used in recommenders to represent item content, but their privacy risks remain poorly understood.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Language embeddings are increasingly used in recommenders to represent item content, but their privacy risks remain poorly understood.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052946",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21713v1",
+      "text": "We study whether item embeddings can reveal item identities when an adversary has access to auxiliary item text from external sources.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Language embeddings are increasingly used in recommenders to represent item content, but their privacy risks remain poorly understood. We study whether item embeddings can reveal item identities when an adversary has access to auxiliary item text from external sources.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052947",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21713v1",
+      "text": "We show that a simple cosine-similarity attack can recover item identities with high mean reciprocal rank across language models",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…embeddings can reveal item identities when an adversary has access to auxiliary item text from external sources. We show that a simple cosine-similarity attack can recover item identities with high mean reciprocal rank across language models and candidate-set settings on two real-world datasets.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052948",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21713v1",
+      "text": "candidate-set settings on two real-world datasets.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…embeddings can reveal item identities when an adversary has access to auxiliary item text from external sources. We show that a simple cosine-similarity attack can recover item identities with high mean reciprocal rank across language models and candidate-set settings on two real-world datasets.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052949",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21713v1",
+      "text": "Leakage is strongest when the adversary's partial information overlaps with the victim representation, but it also persists through semantic alignment between independently sourced descriptions.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…high mean reciprocal rank across language models and candidate-set settings on two real-world datasets. Leakage is strongest when the adversary's partial information overlaps with the victim representation, but it also persists through semantic alignment between independently sourced descriptions.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052950",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21713v1",
+      "text": "We further show that item leakage can propagate to user re-identification from sparse ratings.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Leakage is strongest when the adversary's partial information overlaps with the victim representation, but it also persists through semantic alignment between independently sourced descriptions. We further show that item leakage can propagate to user re-identification from sparse ratings.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052951",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21746v1",
+      "text": "Many collective-action systems are neither fully decentralized nor fully centralized: agents voluntarily organize into institutions that share organizational costs and delegate decisions to representatives.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Many collective-action systems are neither fully decentralized nor fully centralized: agents voluntarily organize into institutions that share organizational costs and delegate decisions to representatives.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052952",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21746v1",
+      "text": "Delegation can reduce individual costs, but it also transfers control to representatives whose private objectives need not align with those of their constituents.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…centralized: agents voluntarily organize into institutions that share organizational costs and delegate decisions to representatives. Delegation can reduce individual costs, but it also transfers control to representatives whose private objectives need not align with those of their constituents.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052953",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21746v1",
+      "text": "A simple reduced-form model yields a scale--accountability tradeoff: larger constituencies offer greater cost-sharing benefits to members, yet the marginal value to a center of retaining any one constituent decreases as group size grows.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…game with endogenous delegation to self-interested centers. A simple reduced-form model yields a scale--accountability tradeoff: larger constituencies offer greater cost-sharing benefits to members, yet the marginal value to a center of retaining any one constituent decreases as group size grows.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052954",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21746v1",
+      "text": "Consequently, the prospect of individual exit can sustain non-exploitative delegation only up to an endogenous accountable constituency size.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…offer greater cost-sharing benefits to members, yet the marginal value to a center of retaining any one constituent decreases as group size grows. Consequently, the prospect of individual exit can sustain non-exploitative delegation only up to an endogenous accountable constituency size.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052955",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21746v1",
+      "text": "Additionally, we identify parameter regions in which fully delegated, accountable governance, when feasible, must be polycentric.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "Consequently, the prospect of individual exit can sustain non-exploitative delegation only up to an endogenous accountable constituency size. Additionally, we identify parameter regions in which fully delegated, accountable governance, when feasible, must be polycentric.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052956",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21746v1",
+      "text": "Across five matched pairs of 30-agent simulations, polycentric structures repeatedly emerge but remain fluid, exhibiting cycles of concentration, exploitation, exit, and re-formation.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "We investigate these predictions through simulations with large language model (LLM) agents. Across five matched pairs of 30-agent simulations, polycentric structures repeatedly emerge but remain fluid, exhibiting cycles of concentration, exploitation, exit, and re-formation.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052957",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21746v1",
+      "text": "differ substantially in their exercise of authority, with Sol initiating exploitation more frequently than Luna in matched decision states.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…of concentration, exploitation, exit, and re-formation. We further find that models of different capacity exhibit similar willingness to assume leadership but differ substantially in their exercise of authority, with Sol initiating exploitation more frequently than Luna in matched decision states.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052958",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21789v1",
+      "text": "Each scenario is rendered under three linguistic framings",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…a benchmark of criminal-assistance scenarios sourced from real-world cases and organised under a taxonomy from the UNODC International Classification of Crime for Statistical Purposes (ICCS). Each scenario is rendered under three linguistic framings and evaluated across five distinct cultures.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052959",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21789v1",
+      "text": "evaluated across five distinct cultures.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…a benchmark of criminal-assistance scenarios sourced from real-world cases and organised under a taxonomy from the UNODC International Classification of Crime for Statistical Purposes (ICCS). Each scenario is rendered under three linguistic framings and evaluated across five distinct cultures.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052960",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21789v1",
+      "text": "Using our proposed two-tier evaluation framework, which judges both harmfulness",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Using our proposed two-tier evaluation framework, which judges both harmfulness and operational uplift, we find that: (i) framing alone drives unsafe compliance, with the mean unsafe compliance rate rising from 28.9% under direct requests to 66.4% under correction seeking (peaking at 97.3%; p < 0.05",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052961",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21789v1",
+      "text": "operational uplift, we find that: (i) framing alone drives unsafe compliance, with the mean unsafe compliance rate rising from 28.9% under direct requests to 66.4% under correction seeking (peaking at 97.3%",
+      "type": "causal",
+      "support_in_text": 0.35,
+      "quote": "Using our proposed two-tier evaluation framework, which judges both harmfulness and operational uplift, we find that: (i) framing alone drives unsafe compliance, with the mean unsafe compliance rate rising from 28.9% under direct requests to 66.4% under correction seeking (peaking at 97.3%; p < 0.05",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052962",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21789v1",
+      "text": "p < 0.05), as models correcting deliberately distorted details supply executable criminal steps",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Using our proposed two-tier evaluation framework, which judges both harmfulness and operational uplift, we find that: (i) framing alone drives unsafe compliance, with the mean unsafe compliance rate rising from 28.9% under direct requests to 66.4% under correction seeking (peaking at 97.3%; p < 0.05",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052963",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21789v1",
+      "text": "(ii) culturally adapted prompts elicit significantly more unsafe compliance than literal translations of the same requests in all four non-English languages (+7 to +18 points), a risk that translation-based benchmarks miss; and (iii) unsafe responses from the least-safe models carry strong Anglocentric registers",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "Using our proposed two-tier evaluation framework, which judges both harmfulness and operational uplift, we find that: (i) framing alone drives unsafe compliance, with the mean unsafe compliance rate rising from 28.9% under direct requests to 66.4% under correction seeking (peaking at 97.3%; p < 0.05",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052964",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21808v1",
+      "text": "Weight quantization below four bits shrinks memory and bandwidth at a perplexity that looks acceptable, but often at the cost of factual knowledge and task accuracy.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Weight quantization below four bits shrinks memory and bandwidth at a perplexity that looks acceptable, but often at the cost of factual knowledge and task accuracy.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052965",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21808v1",
+      "text": "Ternary weights have mostly been obtained by training from scratch or long fine-tuning.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Weight quantization below four bits shrinks memory and bandwidth at a perplexity that looks acceptable, but often at the cost of factual knowledge and task accuracy. Ternary weights have mostly been obtained by training from scratch or long fine-tuning.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052966",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21808v1",
+      "text": "We introduce RoleQ, a quantization framework that places scales by the functional roles of Transformer units rather than by the layout of the weight matrix, as conventional formats do.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Ternary weights have mostly been obtained by training from scratch or long fine-tuning. We introduce RoleQ, a quantization framework that places scales by the functional roles of Transformer units rather than by the layout of the weight matrix, as conventional formats do.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052967",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21808v1",
+      "text": "Vectors that read from the residual stream take one scale per output unit; those that write to it, one per input unit.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…RoleQ, a quantization framework that places scales by the functional roles of Transformer units rather than by the layout of the weight matrix, as conventional formats do. Vectors that read from the residual stream take one scale per output unit; those that write to it, one per input unit.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052968",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21808v1",
+      "text": "The rule is structural, needs no search, calibration or stored state, and holds on integer and ternary grids.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Vectors that read from the residual stream take one scale per output unit; those that write to it, one per input unit. The rule is structural, needs no search, calibration or stored state, and holds on integer and ternary grids.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052969",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21808v1",
+      "text": "In a rotated basis it matches a per-layer axis search at half the solver work",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…state, and holds on integer and ternary grids. In a rotated basis it matches a per-layer axis search at half the solver work, and at ternary it cuts perplexity by up to half against layout-based placement in two families at every size from 0.6B to 14B, where per-row scales leave MMLU at chance.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052970",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21808v1",
+      "text": "at ternary it cuts perplexity by up to half against layout-based placement in two families at every size from 0.6B to 14B, where per-row scales leave MMLU at chance.",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "…state, and holds on integer and ternary grids. In a rotated basis it matches a per-layer axis search at half the solver work, and at ternary it cuts perplexity by up to half against layout-based placement in two families at every size from 0.6B to 14B, where per-row scales leave MMLU at chance.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052971",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21808v1",
+      "text": "Our lightweight post-training pipeline converts an existing checkpoint to 1.59 bits per weight in a few GPU-hours, a fraction of the cost of learned ternarization",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Our lightweight post-training pipeline converts an existing checkpoint to 1.59 bits per weight in a few GPU-hours, a fraction of the cost of learned ternarization, and leads every post-training ternary method at matched or lower memory-resident bits on perplexity, zero-shot accuracy and MMLU, most w",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052972",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21808v1",
+      "text": "leads every post-training ternary method at matched or lower memory-resident bits on perplexity, zero-shot accuracy and MMLU, most widely on knowledge.",
+      "type": "other",
+      "support_in_text": 0.23,
+      "quote": "Our lightweight post-training pipeline converts an existing checkpoint to 1.59 bits per weight in a few GPU-hours, a fraction of the cost of learned ternarization, and leads every post-training ternary method at matched or lower memory-resident bits on perplexity, zero-shot accuracy and MMLU, most w",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052973",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21808v1",
+      "text": "recovers what ternary loses first: at 8B, a fraction of a bit returns about half the MMLU that conversion costs, well ahead of random or Hessian-based placement at equal bits.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…on knowledge. A sparse second ternary plane placed by a per-unit Fisher saliency keeps the matmul multiplication-free and recovers what ternary loses first: at 8B, a fraction of a bit returns about half the MMLU that conversion costs, well ahead of random or Hessian-based placement at equal bits.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052974",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21882v1",
+      "text": "Embodied spatial intelligence requires more than visual recognition: models must localize entities, reason about their relations, and express this knowledge in action-relevant forms.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "Embodied spatial intelligence requires more than visual recognition: models must localize entities, reason about their relations, and express this knowledge in action-relevant forms.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052975",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21882v1",
+      "text": "Yet joint training can conflate the knowledge needed at different stages because supervision is fragmented across incompatible geometric and semantic outputs.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…than visual recognition: models must localize entities, reason about their relations, and express this knowledge in action-relevant forms. Yet joint training can conflate the knowledge needed at different stages because supervision is fragmented across incompatible geometric and semantic outputs.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052976",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21882v1",
+      "text": "(1) Anvil-Gen is a heterogeneous data flywheel that combines form-specific generation, cross-stage consistency verification",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…a unified framework for data generation, training, and benchmarking for embodied spatial intelligence. (1) Anvil-Gen is a heterogeneous data flywheel that combines form-specific generation, cross-stage consistency verification, and failure-driven recollection across 11 Ground--Relation--Act forms.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052977",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21882v1",
+      "text": "failure-driven recollection across 11 Ground--Relation--Act forms.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…a unified framework for data generation, training, and benchmarking for embodied spatial intelligence. (1) Anvil-Gen is a heterogeneous data flywheel that combines form-specific generation, cross-stage consistency verification, and failure-driven recollection across 11 Ground--Relation--Act forms.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052978",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21882v1",
+      "text": "(2) Anvil-Ben provides scene-aligned supervision for learning diverse embodied spatial capabilities",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…cross-stage consistency verification, and failure-driven recollection across 11 Ground--Relation--Act forms. (2) Anvil-Ben provides scene-aligned supervision for learning diverse embodied spatial capabilities and scene-linked assessments that distinguish stage competence from error propagation.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052979",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21882v1",
+      "text": "scene-linked assessments that distinguish stage competence from error propagation.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…cross-stage consistency verification, and failure-driven recollection across 11 Ground--Relation--Act forms. (2) Anvil-Ben provides scene-aligned supervision for learning diverse embodied spatial capabilities and scene-linked assessments that distinguish stage competence from error propagation.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052980",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21882v1",
+      "text": "(3) Anvil-MOPD is a 9B student that consolidates heterogeneous spatial knowledge through distillation from specialist teachers.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…scene-aligned supervision for learning diverse embodied spatial capabilities and scene-linked assessments that distinguish stage competence from error propagation. (3) Anvil-MOPD is a 9B student that consolidates heterogeneous spatial knowledge through distillation from specialist teachers.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052981",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21882v1",
+      "text": "We construct 5.8M source-grounded records spanning 160K images, reserving 580K spatial records for held-out evaluation",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…earliest decisive failure, while stage normalization controls the loss scale across native outputs of different lengths. We construct 5.8M source-grounded records spanning 160K images, reserving 580K spatial records for held-out evaluation and using the remaining 5.22M records for training.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052982",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21882v1",
+      "text": "using the remaining 5.22M records for training.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…earliest decisive failure, while stage normalization controls the loss scale across native outputs of different lengths. We construct 5.8M source-grounded records spanning 160K images, reserving 580K spatial records for held-out evaluation and using the remaining 5.22M records for training.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052983",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21882v1",
+      "text": "On average across seven public benchmarks, Anvil-MOPD outperforms Qwen3.5-9B and RynnBrain-8B by 9.29",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…images, reserving 580K spatial records for held-out evaluation and using the remaining 5.22M records for training. On average across seven public benchmarks, Anvil-MOPD outperforms Qwen3.5-9B and RynnBrain-8B by 9.29 and 11.03 percentage points, respectively, while reaching 80.67% on VABench-Point.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052984",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21882v1",
+      "text": "11.03 percentage points, respectively, while reaching 80.67% on VABench-Point.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…images, reserving 580K spatial records for held-out evaluation and using the remaining 5.22M records for training. On average across seven public benchmarks, Anvil-MOPD outperforms Qwen3.5-9B and RynnBrain-8B by 9.29 and 11.03 percentage points, respectively, while reaching 80.67% on VABench-Point.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052985",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21918v1",
+      "text": "BridgeAfford: Bridging Query-Target Gap for Generalizable 3D Affordance Grounding",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "BridgeAfford: Bridging Query-Target Gap for Generalizable 3D Affordance Grounding",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052986",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21918v1",
+      "text": "Language-guided 3D affordance grounding aims to localize functional regions on 3D objects according to interaction intents.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "Language-guided 3D affordance grounding aims to localize functional regions on 3D objects according to interaction intents.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052987",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21918v1",
+      "text": "One challenge is the query-target gap: a semantic discrepancy between query features encoding interaction intents and target-region features, leading to inaccurate grounding.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "However, existing methods exhibit poor generalization to unseen objects. One challenge is the query-target gap: a semantic discrepancy between query features encoding interaction intents and target-region features, leading to inaccurate grounding.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052988",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21918v1",
+      "text": "End-to-end training favors query representations tailored to seen objects, limiting their compatibility with shifted target-region features on unseen objects.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…gap: a semantic discrepancy between query features encoding interaction intents and target-region features, leading to inaccurate grounding. End-to-end training favors query representations tailored to seen objects, limiting their compatibility with shifted target-region features on unseen objects.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052989",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21918v1",
+      "text": "To address this issue, we propose BridgeAfford, a framework that reduces the query-target semantic gap from two complementary perspectives.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "End-to-end training favors query representations tailored to seen objects, limiting their compatibility with shifted target-region features on unseen objects. To address this issue, we propose BridgeAfford, a framework that reduces the query-target semantic gap from two complementary perspectives.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052990",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.21918v1",
+      "text": "Second, Visual Evidence Aggregation (VEA) leverages a 2D affordance model to refine the attention distribution and guide the query toward the correct region, yielding more target-aware queries.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…produce representations similar to those learned during training, facilitating target-region recognition. Second, Visual Evidence Aggregation (VEA) leverages a 2D affordance model to refine the attention distribution and guide the query toward the correct region, yielding more target-aware queries.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052991",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22049v1",
+      "text": "Reconstructing what a person perceives from their brain activity is a stringent test of whether neural recordings carry meaningful information.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Reconstructing what a person perceives from their brain activity is a stringent test of whether neural recordings carry meaningful information.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052992",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22049v1",
+      "text": "fMRI's noisy, temporally smeared measurements make this structure hard to recover.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…from their brain activity is a stringent test of whether neural recordings carry meaningful information. Naturalistic speech offers a rich testbed for this challenge: it unfolds over multiple timescales, but fMRI's noisy, temporally smeared measurements make this structure hard to recover.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052993",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22049v1",
+      "text": "On two naturalistic speech datasets, Cephalonauts One",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…audio, and speech representations of the same stimulus segment, enabling its retrieval directly from brain activity. On two naturalistic speech datasets, Cephalonauts One and LeBel, NOEMA retrieves the correct segment among 2,000 candidates within the top 10 for more than 42% of held-out queries.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052994",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22049v1",
+      "text": "LeBel, NOEMA retrieves the correct segment among 2,000 candidates within the top 10 for more than 42% of held-out queries.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…audio, and speech representations of the same stimulus segment, enabling its retrieval directly from brain activity. On two naturalistic speech datasets, Cephalonauts One and LeBel, NOEMA retrieves the correct segment among 2,000 candidates within the top 10 for more than 42% of held-out queries.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052995",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22049v1",
+      "text": "This substantially outperforms baseline decoders, an advantage that persists when the candidate pool is extended with thousands of distractors absent from training.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…One and LeBel, NOEMA retrieves the correct segment among 2,000 candidates within the top 10 for more than 42% of held-out queries. This substantially outperforms baseline decoders, an advantage that persists when the candidate pool is extended with thousands of distractors absent from training.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052996",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22137v1",
+      "text": "In typical MLLMs, a projector is employed to align visual representations with the language model.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…through instruction tuning, yet real-world applications often require them to continually acquire new capabilities from sequential tasks, i.e., Multimodal Continual Instruction Tuning (MCIT). In typical MLLMs, a projector is employed to align visual representations with the language model.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052997",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22137v1",
+      "text": "Such asymmetric adaptation can cause substantial representation drift in the projector, increasing the mismatch between the projector and language model and consequently exacerbating catastrophic forgetting.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…the language model from forgetting while continuously updating the projector across tasks. Such asymmetric adaptation can cause substantial representation drift in the projector, increasing the mismatch between the projector and language model and consequently exacerbating catastrophic forgetting.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052998",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22137v1",
+      "text": "cross-module compatibility, thereby promoting coordinated adaptation between the two modules.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Specifically, CART maintains task-specific experts for both modules and combines them through weighted mixtures. CART jointly infers their weights by considering both expert relevance and cross-module compatibility, thereby promoting coordinated adaptation between the two modules.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_052999",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22137v1",
+      "text": "Extensive experiments demonstrate that CART achieves state-of-the-art performance.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "To further control model growth, we introduce relevance-guided expert consolidation, which merges experts exhibiting similar relevance profiles across samples within each module. Extensive experiments demonstrate that CART achieves state-of-the-art performance.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053000",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22139v1",
+      "text": "Confidence scores determine whether an LLM answer is accepted, reviewed, or regenerated, yet scalar recalibration can only correct errors visible through the score itself.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Confidence scores determine whether an LLM answer is accepted, reviewed, or regenerated, yet scalar recalibration can only correct errors visible through the score itself.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053001",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22139v1",
+      "text": "distribution shifts, richer predictors can improve confidence estimation",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…answers from the same prompt. Across multiple LLM checkpoints, benchmarks, and distribution shifts, richer predictors can improve confidence estimation, but projecting their information back to a scalar score can lose these gains, and lower prediction risk need not yield better review decisions.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053002",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22139v1",
+      "text": "projecting their information back to a scalar score can lose these gains",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…answers from the same prompt. Across multiple LLM checkpoints, benchmarks, and distribution shifts, richer predictors can improve confidence estimation, but projecting their information back to a scalar score can lose these gains, and lower prediction risk need not yield better review decisions.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053003",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22139v1",
+      "text": "lower prediction risk need not yield better review decisions.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…answers from the same prompt. Across multiple LLM checkpoints, benchmarks, and distribution shifts, richer predictors can improve confidence estimation, but projecting their information back to a scalar score can lose these gains, and lower prediction risk need not yield better review decisions.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053004",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22139v1",
+      "text": "Across 47,400 replayed raw-score allocations, paired betting adopts candidates with lower held-out test risk in 42.95% of allocations, versus 15.09% for one-sided empirical Bernstein.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…back to a scalar score can lose these gains, and lower prediction risk need not yield better review decisions. Across 47,400 replayed raw-score allocations, paired betting adopts candidates with lower held-out test risk in 42.95% of allocations, versus 15.09% for one-sided empirical Bernstein.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053005",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22139v1",
+      "text": "RADAR thus provides a principled workflow to repair what a scalar score can express, adopt a repair only when supported by evidence, and diagnose systematic errors that recalibration leaves behind.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…lower held-out test risk in 42.95% of allocations, versus 15.09% for one-sided empirical Bernstein. RADAR thus provides a principled workflow to repair what a scalar score can express, adopt a repair only when supported by evidence, and diagnose systematic errors that recalibration leaves behind.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053006",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22139v1",
+      "text": "data will be released upon acceptance.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "RADAR thus provides a principled workflow to repair what a scalar score can express, adopt a repair only when supported by evidence, and diagnose systematic errors that recalibration leaves behind. Code and data will be released upon acceptance.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053007",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22321v1",
+      "text": "As joint audio-video generation models become more capable, they can generate audio-visual scenes exhibiting three forms of complexity: multi-event composition, multi-layer audio mixture, and asymmetric cross-modal relations.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "As joint audio-video generation models become more capable, they can generate audio-visual scenes exhibiting three forms of complexity: multi-event composition, multi-layer audio mixture, and asymmetric cross-modal relations.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053008",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22321v1",
+      "text": "aggregates the judgments into a coarse-to-fine, three-level consistency metric.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…complex scenes. We propose an event-centric evaluation framework that disentangles audio and visual events at the event level, analyzes each event independently, cross-validates relations across modalities, and aggregates the judgments into a coarse-to-fine, three-level consistency metric.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053009",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22321v1",
+      "text": "relation complexities, we construct AVC-Benchmark, which is primarily built from diverse positive and negative samples generated by various types of audio-video generation models.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…model. To evaluate the agreement between automatic judgments and human perception across generation paradigms and relation complexities, we construct AVC-Benchmark, which is primarily built from diverse positive and negative samples generated by various types of audio-video generation models.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053010",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22321v1",
+      "text": "AVC-Reward achieves state-of-the-art alignment with human judgment among automatic methods, provides interpretable rationales that localize failures",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…generation models. AVC-Reward achieves state-of-the-art alignment with human judgment among automatic methods, provides interpretable rationales that localize failures, and improves the audio-video consistency of a joint generation model when used as an online reinforcement-learning signal.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053011",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22321v1",
+      "text": "improves the audio-video consistency of a joint generation model when used as an online reinforcement-learning signal.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…generation models. AVC-Reward achieves state-of-the-art alignment with human judgment among automatic methods, provides interpretable rationales that localize failures, and improves the audio-video consistency of a joint generation model when used as an online reinforcement-learning signal.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053012",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22327v1",
+      "text": "Our model combines two visual views: line plots preserve absolute measurements and the observed coordinate frame, while normalized delay embeddings factor out positive amplitude rescaling and offsets while exposing temporal structure.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…representations as a design principle for time-series reasoning. Our model combines two visual views: line plots preserve absolute measurements and the observed coordinate frame, while normalized delay embeddings factor out positive amplitude rescaling and offsets while exposing temporal structure.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053013",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22327v1",
+      "text": "Evaluation-time interventions verify that the two views exhibit distinct invariance profiles, while single-view ablations show that their combination is particularly beneficial beyond basic perception, with the large gains in prediction and reasoning.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…visual tokens and multi-level feature fusion. Evaluation-time interventions verify that the two views exhibit distinct invariance profiles, while single-view ablations show that their combination is particularly beneficial beyond basic perception, with the large gains in prediction and reasoning.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053014",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22327v1",
+      "text": "Built on Qwen3-VL-8B, our dual-view model improves overall TSRBench accuracy from 44.5% with line plots alone to 53.2%, substantially exceeding the strongest evaluated dedicated TSLM baseline at 36.7%.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…beneficial beyond basic perception, with the large gains in prediction and reasoning. Built on Qwen3-VL-8B, our dual-view model improves overall TSRBench accuracy from 44.5% with line plots alone to 53.2%, substantially exceeding the strongest evaluated dedicated TSLM baseline at 36.7%.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053015",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22327v1",
+      "text": "It further achieves 89.9% accuracy on TSExam",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…our dual-view model improves overall TSRBench accuracy from 44.5% with line plots alone to 53.2%, substantially exceeding the strongest evaluated dedicated TSLM baseline at 36.7%. It further achieves 89.9% accuracy on TSExam and 86.8% numerical accuracy on multivariate ChatTS alignment.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053016",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22327v1",
+      "text": "86.8% numerical accuracy on multivariate ChatTS alignment.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…our dual-view model improves overall TSRBench accuracy from 44.5% with line plots alone to 53.2%, substantially exceeding the strongest evaluated dedicated TSLM baseline at 36.7%. It further achieves 89.9% accuracy on TSExam and 86.8% numerical accuracy on multivariate ChatTS alignment.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053017",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22331v1",
+      "text": "Deep search agents solve knowledge-intensive tasks through long-horizon, multi-turn interactions, where assigning credit to individual search decisions is fundamentally difficult.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Deep search agents solve knowledge-intensive tasks through long-horizon, multi-turn interactions, where assigning credit to individual search decisions is fundamentally difficult.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053018",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22331v1",
+      "text": "Recent process-supervision methods aim to assign credit at finer granularity, but they typically anchor credit to either surface-level trajectory states or model-internal signals, both of which become unreliable in deep search where observations are heterogeneous",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Recent process-supervision methods aim to assign credit at finer granularity, but they typically anchor credit to either surface-level trajectory states or model-internal signals, both of which become unreliable in deep search where observations are heterogeneous and retrieved contexts are long and ",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053019",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22331v1",
+      "text": "retrieved contexts are long and noisy.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Recent process-supervision methods aim to assign credit at finer granularity, but they typically anchor credit to either surface-level trajectory states or model-internal signals, both of which become unreliable in deep search where observations are heterogeneous and retrieved contexts are long and ",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053020",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22331v1",
+      "text": "We propose KnowGPO, a reinforcement learning framework that aligns trajectories by the task-relevant knowledge they have acquired rather than by their surface observations.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…both of which become unreliable in deep search where observations are heterogeneous and retrieved contexts are long and noisy. We propose KnowGPO, a reinforcement learning framework that aligns trajectories by the task-relevant knowledge they have acquired rather than by their surface observations.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053021",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22331v1",
+      "text": "represents the state of a trajectory at each step by the subset of conditions it has satisfied.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…knowledge they have acquired rather than by their surface observations. For each query, KnowGPO decomposes the information required to derive the answer into atomic knowledge conditions, and represents the state of a trajectory at each step by the subset of conditions it has satisfied.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053022",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22331v1",
+      "text": "Trajectories sharing the same knowledge state are grouped for within-group comparison, and the incremental knowledge gain between consecutive steps serves as an environment-grounded process reward.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…and represents the state of a trajectory at each step by the subset of conditions it has satisfied. Trajectories sharing the same knowledge state are grouped for within-group comparison, and the incremental knowledge gain between consecutive steps serves as an environment-grounded process reward.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053023",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22331v1",
+      "text": "GAIA show KnowGPO consistently outperforms outcome-only (GRPO)",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "…serves as an environment-grounded process reward. Experiments on Xbench, BrowseComp-ZH, and GAIA show KnowGPO consistently outperforms outcome-only (GRPO) and process-supervision baselines (GiGPO, IGPO) by 3.8 to 4.2 points, with our 8B model rivaling or exceeding most 32B open-source systems.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053024",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22331v1",
+      "text": "process-supervision baselines (GiGPO, IGPO) by 3.8 to 4.2 points, with our 8B model rivaling or exceeding most 32B open-source systems.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…serves as an environment-grounded process reward. Experiments on Xbench, BrowseComp-ZH, and GAIA show KnowGPO consistently outperforms outcome-only (GRPO) and process-supervision baselines (GiGPO, IGPO) by 3.8 to 4.2 points, with our 8B model rivaling or exceeding most 32B open-source systems.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053025",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22343v1",
+      "text": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053026",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22343v1",
+      "text": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053027",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22343v1",
+      "text": "However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "…increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053028",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22343v1",
+      "text": "We propose GeoState, a view-decoupled geometry representation for predictive 3D world modeling that separates scene-state evolution from camera-dependent observation.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose GeoState, a view-decoupled geometry representation for predictive 3D world modeling that separates scene-state evolution from camera-dependent observation.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053029",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22343v1",
+      "text": "Specifically, a scene tokenizer aggregates multi-view GFM features into a view-decoupled scene state, which a geometry decoder queries using camera rays.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…a view-decoupled geometry representation for predictive 3D world modeling that separates scene-state evolution from camera-dependent observation. Specifically, a scene tokenizer aggregates multi-view GFM features into a view-decoupled scene state, which a geometry decoder queries using camera rays.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053030",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22343v1",
+      "text": "An autoregressive world model then predicts future scene states, while camera motion is modeled separately.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "Specifically, a scene tokenizer aggregates multi-view GFM features into a view-decoupled scene state, which a geometry decoder queries using camera rays. An autoregressive world model then predicts future scene states, while camera motion is modeled separately.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053031",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22343v1",
+      "text": "The predicted states can therefore be decoded under either predicted or externally specified cameras, while retaining a single context-derived scale throughout the rollout without per-frame scale alignment.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…world model then predicts future scene states, while camera motion is modeled separately. The predicted states can therefore be decoded under either predicted or externally specified cameras, while retaining a single context-derived scale throughout the rollout without per-frame scale alignment.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053032",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22343v1",
+      "text": "Experiments show that GeoState outperforms prior 3D world models on Waymo, supports geometrically consistent cross-view querying, and generalizes zero-shot to KITTI and nuScenes.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…cameras, while retaining a single context-derived scale throughout the rollout without per-frame scale alignment. Experiments show that GeoState outperforms prior 3D world models on Waymo, supports geometrically consistent cross-view querying, and generalizes zero-shot to KITTI and nuScenes.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053033",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Linkpost to arXiv: https://arxiv.org/abs/2610.02557",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "Linkpost to arXiv: https://arxiv.org/abs/2610.02557",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053034",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Summary: One promising approach to scalable oversight is AI debate, which seeks to leverage a debate between two powerful AIs to break complex questions down into simpler claims that can be easily judged directly.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Summary: One promising approach to scalable oversight is AI debate, which seeks to leverage a debate between two powerful AIs to break complex questions down into simpler claims that can be easily judged directly.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053035",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Theoretical work on debate aims to design protocols (i.e., rules of the debate game) that provide rigorous guarantees on correctness",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…claims that can be easily judged directly. Theoretical work on debate aims to design protocols (i.e., rules of the debate game) that provide rigorous guarantees on correctness, and the current best protocol works for all problems that have sufficiently stable decompositions into subproblems.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053036",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "the current best protocol works for all problems that have sufficiently stable decompositions into subproblems.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…claims that can be easily judged directly. Theoretical work on debate aims to design protocols (i.e., rules of the debate game) that provide rigorous guarantees on correctness, and the current best protocol works for all problems that have sufficiently stable decompositions into subproblems.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053037",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "We design a new protocol, FBS Debate, for this same class of problems that improves on the prior work: correctness holds in a worst-case rather than an average-case sense, and for a stronger equilibrium concept.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…works for all problems that have sufficiently stable decompositions into subproblems. We design a new protocol, FBS Debate, for this same class of problems that improves on the prior work: correctness holds in a worst-case rather than an average-case sense, and for a stronger equilibrium concept.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053038",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "We also prove that no protocol for this class of problems can outperform FBS Debate while treating human judgment as a black box.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…this same class of problems that improves on the prior work: correctness holds in a worst-case rather than an average-case sense, and for a stronger equilibrium concept. We also prove that no protocol for this class of problems can outperform FBS Debate while treating human judgment as a black box.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053039",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "As the tasks performed by AI systems grow in complexity, it becomes increasingly difficult to provide reliable verifiable rewards that capture all relevant aspects of the task.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "As the tasks performed by AI systems grow in complexity, it becomes increasingly difficult to provide reliable verifiable rewards that capture all relevant aspects of the task.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053040",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "One of the primary approaches to scalable oversight is AI debate, where two powerful AI systems argue about the correctness of an AI output, and a human judges the outcome.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "One of the primary approaches to scalable oversight is AI debate, where two powerful AI systems argue about the correctness of an AI output, and a human judges the outcome.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053041",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "A debate protocol is a set of rules for how the two AIs interact and how the judge scores the interaction.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "One of the primary approaches to scalable oversight is AI debate, where two powerful AI systems argue about the correctness of an AI output, and a human judges the outcome. A debate protocol is a set of rules for how the two AIs interact and how the judge scores the interaction.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053042",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "The idea is that having an adversarial debater point out flaws can allow the judge to better recognize the flaws.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "A debate protocol is a set of rules for how the two AIs interact and how the judge scores the interaction. The idea is that having an adversarial debater point out flaws can allow the judge to better recognize the flaws.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053043",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "The rules of the interaction in such protocols usually specify that the debaters must break the problem down into simpler subproblems",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…flaws. The rules of the interaction in such protocols usually specify that the debaters must break the problem down into simpler subproblems and recursively argue about their correctness, until the original problem has been broken down to a level that is simple enough for a human to judge directly.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053044",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "recursively argue about their correctness, until the original problem has been broken down to a level that is simple enough for a human to judge directly.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…flaws. The rules of the interaction in such protocols usually specify that the debaters must break the problem down into simpler subproblems and recursively argue about their correctness, until the original problem has been broken down to a level that is simple enough for a human to judge directly.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053045",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "The goal is to design these rules so that the optimal strategy leads to the judge correctly deciding the solution to the original problem (which by itself was too complex to judge).",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…until the original problem has been broken down to a level that is simple enough for a human to judge directly. The goal is to design these rules so that the optimal strategy leads to the judge correctly deciding the solution to the original problem (which by itself was too complex to judge).",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053046",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "We can then use debate during RL training, in order to provide a strong supervision signal for superhuman AIs.",
+      "type": "historical",
+      "support_in_text": 0.25,
+      "quote": "The goal is to design these rules so that the optimal strategy leads to the judge correctly deciding the solution to the original problem (which by itself was too complex to judge). We can then use debate during RL training, in order to provide a strong supervision signal for superhuman AIs.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053047",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "However, debate faces a major obstacle known as the obfuscated arguments problem, where one debater can efficiently produce a dishonest argument which cannot be efficiently refuted by their opponent.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "However, debate faces a major obstacle known as the obfuscated arguments problem, where one debater can efficiently produce a dishonest argument which cannot be efficiently refuted by their opponent.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053048",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "One way around obfuscated arguments, already suggested in the post that introduced the problem, is to keep rejecting every false claim while only requiring the protocol to accept true claims that have a robust argument.",
+      "type": "descriptive",
+      "support_in_text": 0.23,
+      "quote": "…a dishonest argument which cannot be efficiently refuted by their opponent. One way around obfuscated arguments, already suggested in the post that introduced the problem, is to keep rejecting every false claim while only requiring the protocol to accept true claims that have a robust argument.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053049",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "provides average-case guarantees that hold for a weaker equilibrium concept than previously studied.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "…protocol to accept true claims that have a robust argument. Prover-estimator debate takes this route: it avoids obfuscated arguments for problems that admit sufficiently stable decompositions, but provides average-case guarantees that hold for a weaker equilibrium concept than previously studied.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053050",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "In the same theoretical model, our paper achieves stronger guarantees with a much simpler protocol, FBS Debate, which is therefore more practical to run.",
+      "type": "causal",
+      "support_in_text": 0.5,
+      "quote": "In the same theoretical model, our paper achieves stronger guarantees with a much simpler protocol, FBS Debate, which is therefore more practical to run.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053051",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Furthermore, we show that FBS Debate is optimal on every individual question: unless further assumptions are made about human judgments, no other protocol can find a flawed sub-claim asymptotically more efficiently.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…with a much simpler protocol, FBS Debate, which is therefore more practical to run. Furthermore, we show that FBS Debate is optimal on every individual question: unless further assumptions are made about human judgments, no other protocol can find a flawed sub-claim asymptotically more efficiently.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053052",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "DR: FBS Debate is simple to describe.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "TL;DR: FBS Debate is simple to describe.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053053",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "The second debater, Bob, then has two choices: either (1) demonstrate that Alice’s decomposition is too sensitive to small errors in the sub-claims, or (2) choose a sub-claim on which to continue the debate recursively.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "The first debater, Alice, decomposes the original claim into sub-claims. The second debater, Bob, then has two choices: either (1) demonstrate that Alice’s decomposition is too sensitive to small errors in the sub-claims, or (2) choose a sub-claim on which to continue the debate recursively.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053054",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "To check a claim in her paper, we ask Alice to decompose it into sub-claims, which we can think of as pieces of supporting evidence.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…an autonomous AI agent, Alice, tasked with completing a research project in the quantitative social sciences, and another AI, Bob, who attempts to find flaws. To check a claim in her paper, we ask Alice to decompose it into sub-claims, which we can think of as pieces of supporting evidence.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053055",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "For example, the claim might be that a certain statistical modeling assumption is justified",
+      "type": "descriptive",
+      "support_in_text": 0.42,
+      "quote": "…paper, we ask Alice to decompose it into sub-claims, which we can think of as pieces of supporting evidence. For example, the claim might be that a certain statistical modeling assumption is justified, and we would believe it if 50 out of 99 correct, published papers in the literature supported it.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053056",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "we would believe it if 50 out of 99 correct, published papers in the literature supported it.",
+      "type": "statistical",
+      "support_in_text": 0.42,
+      "quote": "…paper, we ask Alice to decompose it into sub-claims, which we can think of as pieces of supporting evidence. For example, the claim might be that a certain statistical modeling assumption is justified, and we would believe it if 50 out of 99 correct, published papers in the literature supported it.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053057",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Each sub-claim then says: this particular paper is correct and supports the original claim.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "For example, the claim might be that a certain statistical modeling assumption is justified, and we would believe it if 50 out of 99 correct, published papers in the literature supported it. Each sub-claim then says: this particular paper is correct and supports the original claim.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053058",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Now consider two things Alice might claim:",
+      "type": "other",
+      "support_in_text": 0.42,
+      "quote": "Now consider two things Alice might claim:",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053059",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container[jax=\"CHTML\"] {\nline-height: 0;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container[jax=\"CHTML\"] {\nline-height: 0;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053060",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [space=\"1\"] {\nmargin-left: .111em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [space=\"1\"] {\nmargin-left: .111em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053061",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [space=\"2\"] {\nmargin-left: .167em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [space=\"2\"] {\nmargin-left: .167em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053062",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [space=\"3\"] {\nmargin-left: .222em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [space=\"3\"] {\nmargin-left: .222em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053063",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [space=\"4\"] {\nmargin-left: .278em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [space=\"4\"] {\nmargin-left: .278em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053064",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [space=\"5\"] {\nmargin-left: .333em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [space=\"5\"] {\nmargin-left: .333em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053065",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [rspace=\"1\"] {\nmargin-right: .111em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [rspace=\"1\"] {\nmargin-right: .111em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053066",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [rspace=\"2\"] {\nmargin-right: .167em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [rspace=\"2\"] {\nmargin-right: .167em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053067",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [rspace=\"3\"] {\nmargin-right: .222em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [rspace=\"3\"] {\nmargin-right: .222em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053068",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [rspace=\"4\"] {\nmargin-right: .278em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [rspace=\"4\"] {\nmargin-right: .278em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053069",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [rspace=\"5\"] {\nmargin-right: .333em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [rspace=\"5\"] {\nmargin-right: .333em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053070",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [size=\"s\"] {\nfont-size: 70.7%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [size=\"s\"] {\nfont-size: 70.7%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053071",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [size=\"ss\"] {\nfont-size: 50%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [size=\"ss\"] {\nfont-size: 50%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053072",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [size=\"Tn\"] {\nfont-size: 60%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [size=\"Tn\"] {\nfont-size: 60%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053073",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [size=\"sm\"] {\nfont-size: 85%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [size=\"sm\"] {\nfont-size: 85%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053074",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [size=\"lg\"] {\nfont-size: 120%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [size=\"lg\"] {\nfont-size: 120%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053075",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [size=\"Lg\"] {\nfont-size: 144%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [size=\"Lg\"] {\nfont-size: 144%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053076",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [size=\"LG\"] {\nfont-size: 173%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [size=\"LG\"] {\nfont-size: 173%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053077",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [size=\"hg\"] {\nfont-size: 207%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [size=\"hg\"] {\nfont-size: 207%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053078",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [size=\"HG\"] {\nfont-size: 249%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [size=\"HG\"] {\nfont-size: 249%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053079",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container [width=\"full\"] {\nwidth: 100%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container [width=\"full\"] {\nwidth: 100%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053080",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "_::-webkit-full-page-media, _:future, :root mjx-container {\nwill-change: opacity;\n}",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "_::-webkit-full-page-media, _:future, :root mjx-container {\nwill-change: opacity;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053081",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-math {\ndisplay: inline-block;\ntext-align: left;\nline-height: 0;\ntext-indent: 0;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 100%;\nfont-size-adjust: none;\nletter-spacing: normal;\nborder-collapse: collapse;\nword-wrap: normal;\nword-spacing: normal;\nwhite-space: nowrap;\ndirection: ltr;\npadding: 1px 0;\n}",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "mjx-math {\ndisplay: inline-block;\ntext-align: left;\nline-height: 0;\ntext-indent: 0;\nfont-style: normal;\nfont-weight: normal;\nfont-size: 100%;\nfont-size-adjust: none;\nletter-spacing: normal;\nborder-collapse: collapse;\nword-wrap: normal;\nword-spacing: normal;\nwhite-space: nowrap;\ndirection: ltr;\npaddi",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053082",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container[jax=\"CHTML\"][display=\"true\"] {\ndisplay: block;\ntext-align: center;\nmargin: 1em 0;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container[jax=\"CHTML\"][display=\"true\"] {\ndisplay: block;\ntext-align: center;\nmargin: 1em 0;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053083",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-container[jax=\"CHTML\"][display=\"true\"] mjx-math {\npadding: 0;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-container[jax=\"CHTML\"][display=\"true\"] mjx-math {\npadding: 0;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053084",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "padding: .75em 0 .2em 0;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-utext {\ndisplay: inline-block;\npadding: .75em 0 .2em 0;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053085",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-h {\ndisplay: inline-table;\nwidth: 100%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "mjx-stretchy-h {\ndisplay: inline-table;\nwidth: 100%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053086",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-h > * {\ndisplay: table-cell;\nwidth: 0;\n}",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "mjx-stretchy-h > * {\ndisplay: table-cell;\nwidth: 0;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053087",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-h > * > mjx-c {\ndisplay: inline-block;\ntransform: scalex(1.0000001);\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-h > * > mjx-c {\ndisplay: inline-block;\ntransform: scalex(1.0000001);\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053088",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-h > mjx-ext {\n/* IE */ overflow: hidden;\n/* others */ overflow: clip visible;\nwidth: 100%;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-h > mjx-ext {\n/* IE */ overflow: hidden;\n/* others */ overflow: clip visible;\nwidth: 100%;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053089",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-h > mjx-ext > mjx-c::before {\ntransform: scalex(500);\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-h > mjx-ext > mjx-c::before {\ntransform: scalex(500);\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053090",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-h > mjx-ext > mjx-c {\nwidth: 0;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-h > mjx-ext > mjx-c {\nwidth: 0;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053091",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-h > mjx-beg > mjx-c {\nmargin-right: -.1em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-h > mjx-beg > mjx-c {\nmargin-right: -.1em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053092",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-h > mjx-end > mjx-c {\nmargin-left: -.1em;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-h > mjx-end > mjx-c {\nmargin-left: -.1em;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053093",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-v > mjx-beg {\nheight: 0;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-v > mjx-beg {\nheight: 0;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053094",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-v > mjx-end > mjx-c {\ndisplay: block;\n}",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "mjx-stretchy-v > mjx-end > mjx-c {\ndisplay: block;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053095",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-v > * > mjx-c {\ntransform: scaley(1.0000001);\ntransform-origin: left center;\noverflow: hidden;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-v > * > mjx-c {\ntransform: scaley(1.0000001);\ntransform-origin: left center;\noverflow: hidden;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053096",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-v > mjx-ext {\ndisplay: block;\nheight: 100%;\nbox-sizing: border-box",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-v > mjx-ext {\ndisplay: block;\nheight: 100%;\nbox-sizing: border-box;\nborder: 0px solid transparent;\n/* IE */ overflow: hidden;\n/* others */ overflow: visible clip;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053097",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "border: 0px solid transparent;\n/* IE */ overflow: hidden;\n/* others */ overflow: visible clip;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-v > mjx-ext {\ndisplay: block;\nheight: 100%;\nbox-sizing: border-box;\nborder: 0px solid transparent;\n/* IE */ overflow: hidden;\n/* others */ overflow: visible clip;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053098",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-v > mjx-ext > mjx-c {\ntransform: scaleY(500) translateY(.075em);\noverflow: visible;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-v > mjx-ext > mjx-c {\ntransform: scaleY(500) translateY(.075em);\noverflow: visible;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053099",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-mark {\ndisplay: inline-block;\nheight: 0px;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-mark {\ndisplay: inline-block;\nheight: 0px;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053100",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-c::before {\ndisplay: block;\nwidth: 0;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-c::before {\ndisplay: block;\nwidth: 0;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053101",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": ".TEX-S1 {\nfont-family: MJXZERO, MJXTEX-S1;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": ".TEX-S1 {\nfont-family: MJXZERO, MJXTEX-S1;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053102",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": ".TEX-S2 {\nfont-family: MJXZERO, MJXTEX-S2;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": ".TEX-S2 {\nfont-family: MJXZERO, MJXTEX-S2;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053103",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": ".TEX-S3 {\nfont-family: MJXZERO, MJXTEX-S3;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": ".TEX-S3 {\nfont-family: MJXZERO, MJXTEX-S3;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053104",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": ".TEX-S4 {\nfont-family: MJXZERO, MJXTEX-S4;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": ".TEX-S4 {\nfont-family: MJXZERO, MJXTEX-S4;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053105",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {\nfont-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {\nfont-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053106",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 0 */ {\nfont-family: MJXZERO;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 0 */ {\nfont-family: MJXZERO;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053107",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 1 */ {\nfont-family: MJXTEX;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 1 */ {\nfont-family: MJXTEX;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053108",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 2 */ {\nfont-family: MJXTEX-B;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 2 */ {\nfont-family: MJXTEX-B;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053109",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 3 */ {\nfont-family: MJXTEX-I;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 3 */ {\nfont-family: MJXTEX-I;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053110",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 4 */ {\nfont-family: MJXTEX-MI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 4 */ {\nfont-family: MJXTEX-MI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053111",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 5 */ {\nfont-family: MJXTEX-BI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 5 */ {\nfont-family: MJXTEX-BI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053112",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 6 */ {\nfont-family: MJXTEX-S1;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 6 */ {\nfont-family: MJXTEX-S1;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053113",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 7 */ {\nfont-family: MJXTEX-S2;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 7 */ {\nfont-family: MJXTEX-S2;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053114",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 8 */ {\nfont-family: MJXTEX-S3;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 8 */ {\nfont-family: MJXTEX-S3;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053115",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 9 */ {\nfont-family: MJXTEX-S4;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 9 */ {\nfont-family: MJXTEX-S4;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053116",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 10 */ {\nfont-family: MJXTEX-A;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 10 */ {\nfont-family: MJXTEX-A;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053117",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 11 */ {\nfont-family: MJXTEX-C;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 11 */ {\nfont-family: MJXTEX-C;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053118",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 12 */ {\nfont-family: MJXTEX-CB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 12 */ {\nfont-family: MJXTEX-CB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053119",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 13 */ {\nfont-family: MJXTEX-FR;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 13 */ {\nfont-family: MJXTEX-FR;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053120",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 14 */ {\nfont-family: MJXTEX-FRB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 14 */ {\nfont-family: MJXTEX-FRB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053121",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 15 */ {\nfont-family: MJXTEX-SS;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 15 */ {\nfont-family: MJXTEX-SS;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053122",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 16 */ {\nfont-family: MJXTEX-SSB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 16 */ {\nfont-family: MJXTEX-SSB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053123",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 17 */ {\nfont-family: MJXTEX-SSI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 17 */ {\nfont-family: MJXTEX-SSI;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053124",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 18 */ {\nfont-family: MJXTEX-SC;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 18 */ {\nfont-family: MJXTEX-SC;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053125",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 19 */ {\nfont-family: MJXTEX-T;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 19 */ {\nfont-family: MJXTEX-T;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053126",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 20 */ {\nfont-family: MJXTEX-V;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 20 */ {\nfont-family: MJXTEX-V;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053127",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "@font-face /* 21 */ {\nfont-family: MJXTEX-VB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff\") format(\"woff\");\n}",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "@font-face /* 21 */ {\nfont-family: MJXTEX-VB;\nsrc: url(\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff\") format(\"woff\");\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053128",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-c.mjx-c32::before {\npadding: 0.666em 0.5em 0 0;\ncontent: \"2\";\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-c.mjx-c32::before {\npadding: 0.666em 0.5em 0 0;\ncontent: \"2\";\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053129",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-c.mjx-c2F::before {\npadding: 0.75em 0.5em 0.25em 0;\ncontent: \"/\";\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-c.mjx-c2F::before {\npadding: 0.75em 0.5em 0.25em 0;\ncontent: \"/\";\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053130",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-c.mjx-c33::before {\npadding: 0.665em 0.5em 0.022em 0;\ncontent: \"3\";\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-c.mjx-c33::before {\npadding: 0.665em 0.5em 0.022em 0;\ncontent: \"3\";\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053131",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-c.mjx-c31::before {\npadding: 0.666em 0.5em 0 0;\ncontent: \"1\";\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-c.mjx-c31::before {\npadding: 0.666em 0.5em 0 0;\ncontent: \"1\";\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053132",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-c.mjx-c36::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"6\";\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-c.mjx-c36::before {\npadding: 0.666em 0.5em 0.022em 0;\ncontent: \"6\";\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053133",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-c.mjx-c34::before {\npadding: 0.677em 0.5em 0 0;\ncontent: \"4\";\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-c.mjx-c34::before {\npadding: 0.677em 0.5em 0 0;\ncontent: \"4\";\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053134",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-c.mjx-c1D458.TEX-I::before {\npadding: 0.694em 0.521em 0.011em 0;\ncontent: \"k\";\n}",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-c.mjx-c1D458.TEX-I::before {\npadding: 0.694em 0.521em 0.011em 0;\ncontent: \"k\";\n}",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053135",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "mjx-c.mjx-c1D451.TEX-I::before {\npadding: 0.694em 0.52em 0.01em 0;\ncontent: \"d\";\n}\nof the papers support the claim.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "mjx-c.mjx-c1D451.TEX-I::before {\npadding: 0.694em 0.52em 0.01em 0;\ncontent: \"d\";\n}\nof the papers support the claim.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053136",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "The key insight is that Bob need not check every paper.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "mjx-c.mjx-c1D451.TEX-I::before {\npadding: 0.694em 0.52em 0.01em 0;\ncontent: \"d\";\n}\nof the papers support the claim. The key insight is that Bob need not check every paper.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053137",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "He can just sample one at random from the that Alice says support the claim.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "The key insight is that Bob need not check every paper. He can just sample one at random from the that Alice says support the claim.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053138",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "If Alice is lying, then at least of the sub-claims must also be lies, so Bob has a chance of catching her.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "He can just sample one at random from the that Alice says support the claim. If Alice is lying, then at least of the sub-claims must also be lies, so Bob has a chance of catching her.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053139",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Checking just a few papers is enough for Bob to be confident of catching a lie.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "If Alice is lying, then at least of the sub-claims must also be lies, so Bob has a chance of catching her. Checking just a few papers is enough for Bob to be confident of catching a lie.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053140",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "On the other hand, suppose Alice claims that exactly 50 out of 99 papers support the claim.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "On the other hand, suppose Alice claims that exactly 50 out of 99 papers support the claim.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053141",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Now Bob has to check every one of the 50 papers, since a single incorrect paper would flip the majority vote.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "On the other hand, suppose Alice claims that exactly 50 out of 99 papers support the claim. Now Bob has to check every one of the 50 papers, since a single incorrect paper would flip the majority vote.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053142",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "The key to FBS Debate is that Bob is allowed to show that Alice has made an unreasonably sensitive claim of this form, in which case Alice loses the debate.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Now Bob has to check every one of the 50 papers, since a single incorrect paper would flip the majority vote. The key to FBS Debate is that Bob is allowed to show that Alice has made an unreasonably sensitive claim of this form, in which case Alice loses the debate.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053143",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Indeed, one should be very suspicious of any argument that is highly sensitive to changes in individual pieces of evidence, yet relies on fuzzy human judgments at each step.",
+      "type": "normative",
+      "support_in_text": 0.6,
+      "quote": "…is allowed to show that Alice has made an unreasonably sensitive claim of this form, in which case Alice loses the debate. Indeed, one should be very suspicious of any argument that is highly sensitive to changes in individual pieces of evidence, yet relies on fuzzy human judgments at each step.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053144",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "The majority-vote example, assuming Alice is lying.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "The majority-vote example, assuming Alice is lying.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053145",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "If the fractional block sensitivity of Alice’s decomposition is low, Bob can efficiently select a sub-claim that has a non-trivial chance of being incorrect.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…of fractional block sensitivity (FBS) generalizes the intuition above about majority vote to any way Alice might combine her sub-claims. If the fractional block sensitivity of Alice’s decomposition is low, Bob can efficiently select a sub-claim that has a non-trivial chance of being incorrect.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053146",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "To avoid losing immediately, Alice must keep the fractional block sensitivity of every decomposition low.",
+      "type": "normative",
+      "support_in_text": 0.13,
+      "quote": "The debate then recurses on the sub-claim Bob samples, until a human judge directly evaluates the final selected sub-claim. To avoid losing immediately, Alice must keep the fractional block sensitivity of every decomposition low.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053147",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "So if Bob samples this way at every level, each run of the debate has a non-trivial chance of catching a lying Alice.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "To avoid losing immediately, Alice must keep the fractional block sensitivity of every decomposition low. So if Bob samples this way at every level, each run of the debate has a non-trivial chance of catching a lying Alice.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053148",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Building on this, Bob can amplify his chance of catching Alice through repetition.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Building on this, Bob can amplify his chance of catching Alice through repetition.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053149",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Since we assume the debaters themselves know the answers to these final, human-judgeable claims, Bob can simply run many debate rollouts on his own",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Since we assume the debaters themselves know the answers to these final, human-judgeable claims, Bob can simply run many debate rollouts on his own, and if he finds one in which Alice made an incorrect human-judgeable claim, he reveals that claim to the judge, so the judge only needs to evaluate a s",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053150",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "if he finds one in which Alice made an incorrect human-judgeable claim, he reveals that claim to the judge, so the judge only needs to evaluate a single claim.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Since we assume the debaters themselves know the answers to these final, human-judgeable claims, Bob can simply run many debate rollouts on his own, and if he finds one in which Alice made an incorrect human-judgeable claim, he reveals that claim to the judge, so the judge only needs to evaluate a s",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053151",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Top: one round at level .",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "FBS Debate. Top: one round at level .",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053152",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Honesty is the best policy",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Honesty is the best policy",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053153",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "In FBS Debate, honest play is the best strategy for each debater, no matter what the other does: if the original claim is correct, an honest Alice always wins",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "In FBS Debate, honest play is the best strategy for each debater, no matter what the other does: if the original claim is correct, an honest Alice always wins, and if it is incorrect, an honest Bob wins with overwhelming probability.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053154",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "if it is incorrect, an honest Bob wins with overwhelming probability.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "In FBS Debate, honest play is the best strategy for each debater, no matter what the other does: if the original claim is correct, an honest Alice always wins, and if it is incorrect, an honest Bob wins with overwhelming probability.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053155",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "By contrast, prover-estimator debate only guarantees that for any dishonest strategy Alice picks, Bob has some winning strategy, which can depend on Alice’s strategy in complicated ways.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…correct, an honest Alice always wins, and if it is incorrect, an honest Bob wins with overwhelming probability. By contrast, prover-estimator debate only guarantees that for any dishonest strategy Alice picks, Bob has some winning strategy, which can depend on Alice’s strategy in complicated ways.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053156",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "This is a much weaker condition",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…debate only guarantees that for any dishonest strategy Alice picks, Bob has some winning strategy, which can depend on Alice’s strategy in complicated ways. This is a much weaker condition, and in practice training toward the equilibrium of FBS Debate is much more stable and tractable.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053157",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "in practice training toward the equilibrium of FBS Debate is much more stable and tractable.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…debate only guarantees that for any dishonest strategy Alice picks, Bob has some winning strategy, which can depend on Alice’s strategy in complicated ways. This is a much weaker condition, and in practice training toward the equilibrium of FBS Debate is much more stable and tractable.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053158",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Furthermore, FBS Debate applies on a worst-case basis: prover-estimator debate only works on average over a distribution of questions, while FBS Debate guarantees that on each individual question, honesty is the best policy.",
+      "type": "empirical",
+      "support_in_text": 0.13,
+      "quote": "…toward the equilibrium of FBS Debate is much more stable and tractable. Furthermore, FBS Debate applies on a worst-case basis: prover-estimator debate only works on average over a distribution of questions, while FBS Debate guarantees that on each individual question, honesty is the best policy.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053159",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "We show that, on each individual question, no protocol that treats human judgment as a black box can find a flawed sub-claim asymptotically more efficiently than FBS Debate.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We show that, on each individual question, no protocol that treats human judgment as a black box can find a flawed sub-claim asymptotically more efficiently than FBS Debate.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053160",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Debate training is now being applied to frontier-scale models (e.g., Kenton et al., 2026).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Debate training is now being applied to frontier-scale models (e.g., Kenton et al., 2026).",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053161",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Our results show that fractional block sensitivity determines how much computational effort any recursive debate protocol must use to ensure an accurate training signal.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "Debate training is now being applied to frontier-scale models (e.g., Kenton et al., 2026). Our results show that fractional block sensitivity determines how much computational effort any recursive debate protocol must use to ensure an accurate training signal.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053162",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "We believe this is useful for debate experiments even if they don’t use FBS Debate itself.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Our results show that fractional block sensitivity determines how much computational effort any recursive debate protocol must use to ensure an accurate training signal. We believe this is useful for debate experiments even if they don’t use FBS Debate itself.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053163",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Notably, Bob never needs to decide whether Alice’s sub-claims are true; he only needs to understand the structure of the argument well enough to know where to sample.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "We believe this is useful for debate experiments even if they don’t use FBS Debate itself. Notably, Bob never needs to decide whether Alice’s sub-claims are true; he only needs to understand the structure of the argument well enough to know where to sample.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053164",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Our lower bounds only apply when human judgment is modeled as a black box.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Is it possible to design a protocol that goes beyond the fractional block sensitivity barrier we identify? Our lower bounds only apply when human judgment is modeled as a black box.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053165",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Classical results on interactive proofs show that opening up the black box yields much stronger protocols.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Our lower bounds only apply when human judgment is modeled as a black box. Classical results on interactive proofs show that opening up the black box yields much stronger protocols.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053166",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "These methods seem unlikely to carry over to human judgment: one would essentially need to “read the code” that implements it.",
+      "type": "normative",
+      "support_in_text": 0.35,
+      "quote": "Classical results on interactive proofs show that opening up the black box yields much stronger protocols. These methods seem unlikely to carry over to human judgment: one would essentially need to “read the code” that implements it.",
+      "run_id": "39011809755",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_053167",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "text": "Still, some other relaxation of the black-box assumption might lead to better debate protocols.",
+      "type": "normative",
+      "support_in_text": 0.32,
+      "quote": "These methods seem unlikely to carry over to human judgment: one would essentially need to “read the code” that implements it. Still, some other relaxation of the black-box assumption might lead to better debate protocols.",
+      "run_id": "39011809755",
       "status": "extracted"
     }
   ],
