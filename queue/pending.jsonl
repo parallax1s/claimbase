@@ -76114,7 +76114,7 @@
 {"id": "task_076114", "kind": "refine", "payload": {"claim_id": "clm_053933"}, "created_run": "39106870112", "status": "pending"}
 {"id": "task_076115", "kind": "refine", "payload": {"claim_id": "clm_053938"}, "created_run": "39106870112", "status": "pending"}
 {"id": "task_076116", "kind": "refine", "payload": {"claim_id": "clm_053940"}, "created_run": "39106870112", "status": "pending"}
-{"id": "task_076117", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/f8R3B2zqqTJZjSAsm/deconfusing-corrigibility"}, "created_run": "39106870112", "status": "pending"}
+{"id": "task_076117", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/f8R3B2zqqTJZjSAsm/deconfusing-corrigibility"}, "created_run": "39106870112", "status": "skipped", "note": "fable failed: GitHub Models failed after retries: Expecting value: line 1 column 1 (char 0)"}
 {"id": "task_076118", "kind": "edge", "payload": {"a": "clm_000224", "b": "clm_053190", "sim": 0.4036}, "created_run": "39106870112", "status": "pending"}
 {"id": "task_076119", "kind": "identity", "payload": {"a": "clm_000337", "b": "clm_053473", "sim": 0.6512}, "created_run": "39106870112", "status": "pending"}
 {"id": "task_076120", "kind": "identity", "payload": {"a": "clm_000337", "b": "clm_053600", "sim": 0.6858}, "created_run": "39106870112", "status": "pending"}
