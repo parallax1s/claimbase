@@ -77360,26 +77360,26 @@
 {"id": "task_077360", "kind": "refine", "payload": {"claim_id": "clm_055216"}, "created_run": "39218090717", "status": "pending"}
 {"id": "task_077361", "kind": "refine", "payload": {"claim_id": "clm_055221"}, "created_run": "39218090717", "status": "pending"}
 {"id": "task_077362", "kind": "refine", "payload": {"claim_id": "clm_055223"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077363", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22538v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077364", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22586v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077365", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22706v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077366", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22723v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077367", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22885v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077368", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22907v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077369", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22924v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077370", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22937v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077371", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22942v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077372", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23048v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077373", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23051v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077374", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23085v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077375", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23104v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077376", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23153v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077377", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23167v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077378", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23256v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077379", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23345v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077380", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23511v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077381", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23527v1"}, "created_run": "39218090717", "status": "pending"}
-{"id": "task_077382", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23550v1"}, "created_run": "39218090717", "status": "pending"}
+{"id": "task_077363", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22538v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: GitHub Models failed after retries: Expecting value: line 1 column 1 (char 0)"}
+{"id": "task_077364", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22586v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: GitHub Models failed after retries: Expecting value: line 1 column 1 (char 0)"}
+{"id": "task_077365", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22706v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: GitHub Models failed after retries: Expecting value: line 1 column 1 (char 0)"}
+{"id": "task_077366", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22723v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077367", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22885v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: HTTP Error 429: Unknown Error"}
+{"id": "task_077368", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22907v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077369", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22924v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077370", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22937v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077371", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.22942v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: HTTP Error 429: Too Many Requests"}
+{"id": "task_077372", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23048v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077373", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23051v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077374", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23085v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077375", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23104v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077376", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23153v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: GitHub Models failed after retries: Expecting value: line 1 column 1 (char 0)"}
+{"id": "task_077377", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23167v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077378", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23256v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077379", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23345v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077380", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23511v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077381", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23527v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
+{"id": "task_077382", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23550v1"}, "created_run": "39218090717", "status": "skipped", "note": "fable failed: The read operation timed out"}
 {"id": "task_077383", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23598v1"}, "created_run": "39218090717", "status": "pending"}
 {"id": "task_077384", "kind": "extract", "payload": {"source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.23615v1"}, "created_run": "39218090717", "status": "pending"}
 {"id": "task_077385", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic"}, "created_run": "39218090717", "status": "pending"}
