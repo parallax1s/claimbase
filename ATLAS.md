@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 39218090717 · sources 1989 · claims 38963 · edges 1279 · verified 73
+run 39387336699 · sources 2017 · claims 39182 · edges 1279 · verified 73
 
 ## Districts
 
@@ -11,19 +11,19 @@ run 39218090717 · sources 1989 · claims 38963 · edges 1279 · verified 73
 woff · font · mathjax                  ░░░░░░░░░░   1161 claims  ⚡0
 mjx · padding · content                ░░░░░░░░░░    730 claims  ⚡0
 mjx · padding · content                ░░░░░░░░░░    326 claims  ⚡0
-Multi-Agent LLM Systems                ░░░░░░░░░░    284 claims  ⚡0
-Cross-Modal Knowledge Distillation     ░░░░░░░░░░    235 claims  ⚡0
-Latent Variable and Neural Models      ░░░░░░░░░░    207 claims  ⚡0
+Multi-Agent LLM Systems                ░░░░░░░░░░    286 claims  ⚡0
+Cross-Modal Knowledge Distillation     ░░░░░░░░░░    236 claims  ⚡0
+Latent Variable and Neural Models      ░░░░░░░░░░    209 claims  ⚡0
 Anthropic Company Moves                ▓▓▓░░░░░░░    201 claims  ⚡0
 Control Monitor Benchmarks             ░░░░░░░░░░    189 claims  ⚡0
-LLM Architecture Research              ░░░░░░░░░░    177 claims  ⚡0
+LLM Architecture Research              ░░░░░░░░░░    179 claims  ⚡0
 Temporal Image Consistency             ░░░░░░░░░░    139 claims  ⚡0
 Model Arena Leaderboard Churn          ▓▓▓▓▓▓░░░░    139 claims  ⚡0
-training · models · ground             ░░░░░░░░░░    134 claims  ⚡0
+training · models · ground             ░░░░░░░░░░    135 claims  ⚡0
 right · mjx · rspace                   ░░░░░░░░░░    126 claims  ⚡0
 Corrigibility Value Tension            ░░░░░░░░░░    120 claims  ⚡0
 Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    116 claims  ⚡0
-prediction · accuracy · time           ░░░░░░░░░░    109 claims  ⚡0
+prediction · accuracy · time           ░░░░░░░░░░    111 claims  ⚡0
 layers · layer · spatial               ░░░░░░░░░░    108 claims  ⚡0
 Neural Decoding and Brain-AI           ░░░░░░░░░░    104 claims  ⚡0
 AI Existential Risk Discourse          ▓▓░░░░░░░░    102 claims  ⚡0
@@ -33,7 +33,7 @@ bias · preference · analysis           ░░░░░░░░░░     90 c
 AI Safety Institute Collaboration      ░░░░░░░░░░     85 claims  ⚡0
 Behavior Cue Token Signaling           ░░░░░░░░░░     83 claims  ⚡0
 Weak-to-Strong Generalization          ░░░░░░░░░░     81 claims  ⚡0
-… and 4514 smaller districts (32179 claims)
+… and 4543 smaller districts (32411 claims)
 ```
 
 ## Sharpest fault
