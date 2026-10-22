@@ -1,15 +1,15 @@
 {
-  "generated_run": "39563497556",
+  "generated_run": "39741489367",
   "counts": {
-    "sources": 2044,
-    "claims": 39393,
+    "sources": 2069,
+    "claims": 39599,
     "edges": 761,
     "pending_tasks": {
-      "identity": 5560,
-      "edge": 39615,
-      "refine": 14206,
-      "attach": 12501,
-      "extract": 28
+      "identity": 5565,
+      "edge": 39983,
+      "refine": 14284,
+      "attach": 12543,
+      "extract": 25
     }
   },
   "claims": [
@@ -494347,6 +494347,2066 @@
       "support_in_text": 0.25,
       "quote": "…like Claude's Constitution. Whereas Anthropic's \"constitutional AI\" method attempts to set out a document that implicitly defines the AI's own values and goals, the constitution I discuss here is a document that instead lays out humanity's intended allocation of authority to each group and person.",
       "run_id": "39563497556",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057200",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28788v1",
+      "text": "reinforcement learning at a single fixed solver budget can hide degradation at cheaper deployment budgets",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Flow-matching policies adjust inference cost through the number of solver steps, but reinforcement learning at a single fixed solver budget can hide degradation at cheaper deployment budgets and even erase useful one-step behavior present in a pretrained policy.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057201",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28788v1",
+      "text": "even erase useful one-step behavior present in a pretrained policy.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Flow-matching policies adjust inference cost through the number of solver steps, but reinforcement learning at a single fixed solver budget can hide degradation at cheaper deployment budgets and even erase useful one-step behavior present in a pretrained policy.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057202",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28788v1",
+      "text": "We introduce Action-Ratio-Clip Flow (ArcFlow), a deployment-aware algorithm for training one flow policy across a specified range of solver budgets.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…single fixed solver budget can hide degradation at cheaper deployment budgets and even erase useful one-step behavior present in a pretrained policy. We introduce Action-Ratio-Clip Flow (ArcFlow), a deployment-aware algorithm for training one flow policy across a specified range of solver budgets.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057203",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28788v1",
+      "text": "For reconstruction objectives, its bridge aggregates temporal probes into one surrogate ratio",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…action-aligned supervision, budget exposure, and worst-budget checkpoint selection. For reconstruction objectives, its bridge aggregates temporal probes into one surrogate ratio and one PPO-style clip per action, with a boundary residual exactly equal to deployed one-step reconstruction error.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057204",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28788v1",
+      "text": "one PPO-style clip per action, with a boundary residual exactly equal to deployed one-step reconstruction error.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…action-aligned supervision, budget exposure, and worst-budget checkpoint selection. For reconstruction objectives, its bridge aggregates temporal probes into one surrogate ratio and one PPO-style clip per action, with a boundary residual exactly equal to deployed one-step reconstruction error.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057205",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28788v1",
+      "text": "locomotion, ArcFlow attains the highest mean one-step return among five flow-policy baselines on 25 of 30 tasks under each method's reported training settings.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Both realizations preserve the architecture and deployment-time cost. Across DM Control, manipulation, and locomotion, ArcFlow attains the highest mean one-step return among five flow-policy baselines on 25 of 30 tasks under each method's reported training settings.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057206",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28788v1",
+      "text": "These results establish deployment-budget-aware training as an effective route to strong low-step control with one policy serving multiple inference costs.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…studies identify complementary improvements from boundary supervision, the fixed-grid bridge, budget exposure, and deployment selection. These results establish deployment-budget-aware training as an effective route to strong low-step control with one policy serving multiple inference costs.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057207",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28858v1",
+      "text": "DualHeads: Reward-tilted few-step diffusion made simple",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "DualHeads: Reward-tilted few-step diffusion made simple",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057208",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28858v1",
+      "text": "human preferences is difficult.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Distilled diffusion models generate high-quality images in a few sampling steps, but aligning them with task requirements and human preferences is difficult.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057209",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28858v1",
+      "text": "We ask whether a few-step generator can be adapted using only external reward evaluations and reference samples, and show that two binary classifiers suffice.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…diffusion models rely on differentiable rewards, or on score fields and stochastic trajectories that distilled generators may lack. We ask whether a few-step generator can be adapted using only external reward evaluations and reference samples, and show that two binary classifiers suffice.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057210",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28858v1",
+      "text": "When the heads are optimal, this objective is KL-regularized maximization of the learned reward, and the ratio of head weights sets the regularization strength.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…higher, the reference head separates reference images from generated ones, and the generator maximizes a weighted sum of their logits. When the heads are optimal, this objective is KL-regularized maximization of the learned reward, and the ratio of head weights sets the regularization strength.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057211",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28858v1",
+      "text": "model-based rewards, a few-step DualHeads generator reaches task rewards close to those of 40-step reinforcement learning methods while preserving image quality, at no extra inference cost.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…reward, and the ratio of head weights sets the regularization strength. Empirically, with both rule-based and model-based rewards, a few-step DualHeads generator reaches task rewards close to those of 40-step reinforcement learning methods while preserving image quality, at no extra inference cost.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057212",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28858v1",
+      "text": "elegant dual-head formulation will help advance few-step reward-tilted generation.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "…rewards, a few-step DualHeads generator reaches task rewards close to those of 40-step reinforcement learning methods while preserving image quality, at no extra inference cost. We hope that this simple and elegant dual-head formulation will help advance few-step reward-tilted generation.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057213",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28886v1",
+      "text": "LLM judges increasingly mediate benchmark evaluation, model selection, data curation, and training.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "LLM judges increasingly mediate benchmark evaluation, model selection, data curation, and training.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057214",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28886v1",
+      "text": "Their decisions are useful only when each judge responds reliably to changes affecting its scoring criterion.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "LLM judges increasingly mediate benchmark evaluation, model selection, data curation, and training. Their decisions are useful only when each judge responds reliably to changes affecting its scoring criterion.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057215",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28886v1",
+      "text": "Because SANE generates a recipe inventory tailored to each scorer, the number of aligned recipes grows as scorers are added.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "It determines whether each recipe agrees with scorer intent and whether each instantiated case realizes the recipe and supports its expected relation. Because SANE generates a recipe inventory tailored to each scorer, the number of aligned recipes grows as scorers are added.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057216",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28886v1",
+      "text": "Across five domains, SANE produces 3.7 times as many validated test families as the Judge Reliability Harness (JRH) at comparable end-to-end validity",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…recipes grows as scorers are added. Across five domains, SANE produces 3.7 times as many validated test families as the Judge Reliability Harness (JRH) at comparable end-to-end validity and detects scorer deficiencies in every domain, including professionalism and toxicity, where JRH detects none.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057217",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28886v1",
+      "text": "detects scorer deficiencies in every domain, including professionalism",
+      "type": "other",
+      "support_in_text": 0.23,
+      "quote": "…recipes grows as scorers are added. Across five domains, SANE produces 3.7 times as many validated test families as the Judge Reliability Harness (JRH) at comparable end-to-end validity and detects scorer deficiencies in every domain, including professionalism and toxicity, where JRH detects none.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057218",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28886v1",
+      "text": "toxicity, where JRH detects none.",
+      "type": "other",
+      "support_in_text": 0.23,
+      "quote": "…recipes grows as scorers are added. Across five domains, SANE produces 3.7 times as many validated test families as the Judge Reliability Harness (JRH) at comparable end-to-end validity and detects scorer deficiencies in every domain, including professionalism and toxicity, where JRH detects none.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057219",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28886v1",
+      "text": "On faithfulness, SANE achieves strong human alignment in judge ranking: its test-suite scores rank 11 judge models consistently with human-labeled FaithBench performance (Spearman rho = 0.852), while JRH does not (rho = 0.100).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…domain, including professionalism and toxicity, where JRH detects none. On faithfulness, SANE achieves strong human alignment in judge ranking: its test-suite scores rank 11 judge models consistently with human-labeled FaithBench performance (Spearman rho = 0.852), while JRH does not (rho = 0.100).",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057220",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28955v1",
+      "text": "Safe robotic task planning requires planners that can reliably achieve task goals while satisfying safety constraints.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Safe robotic task planning requires planners that can reliably achieve task goals while satisfying safety constraints.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057221",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28955v1",
+      "text": "can provide formal guarantees with respect to encoded safety constraints, but require rigid input formats.",
+      "type": "empirical",
+      "support_in_text": 0.13,
+      "quote": "Safe robotic task planning requires planners that can reliably achieve task goals while satisfying safety constraints. Classical planners search over explicit symbolic task representations and can provide formal guarantees with respect to encoded safety constraints, but require rigid input formats.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057222",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28955v1",
+      "text": "Their computational cost also increases rapidly with the search space.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Classical planners search over explicit symbolic task representations and can provide formal guarantees with respect to encoded safety constraints, but require rigid input formats. Their computational cost also increases rapidly with the search space.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057223",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28955v1",
+      "text": "In contrast, large language models (LLMs) offer flexible task interfaces and strong generalization capabilities, but they are large, power-hungry, and pre-trained with little robot-specific safety data and knowledge.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Their computational cost also increases rapidly with the search space. In contrast, large language models (LLMs) offer flexible task interfaces and strong generalization capabilities, but they are large, power-hungry, and pre-trained with little robot-specific safety data and knowledge.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057224",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28955v1",
+      "text": "Thus, they can be difficult to deploy locally on robotic systems with limited resources.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…large language models (LLMs) offer flexible task interfaces and strong generalization capabilities, but they are large, power-hungry, and pre-trained with little robot-specific safety data and knowledge. Thus, they can be difficult to deploy locally on robotic systems with limited resources.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057225",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28955v1",
+      "text": "formal verifiers, followed by two training stages: supervised fine-tuning and reinforcement learning (RL) fine-tuning guided by a verification-based reward machine to enforce safety alignment.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "The framework first constructs a safety-aware dataset using classical planners, an advanced teacher LLM, and formal verifiers, followed by two training stages: supervised fine-tuning and reinforcement learning (RL) fine-tuning guided by a verification-based reward machine to enforce safety alignment",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057226",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28955v1",
+      "text": "We evaluate SLoSa across four Planning Domain Definition Language (PDDL) domains, two household simulation environments, local edge platforms, and a desktop robotic arm.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…and reinforcement learning (RL) fine-tuning guided by a verification-based reward machine to enforce safety alignment. We evaluate SLoSa across four Planning Domain Definition Language (PDDL) domains, two household simulation environments, local edge platforms, and a desktop robotic arm.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057227",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28955v1",
+      "text": "Across the PDDL tasks, verifier-guided post-training raises the success rate of compact 4B-14B planners to 70.5-76.0%, while INT4 deployment on a Jetson Orin requires 17.85-26.41 W of average power.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…domains, two household simulation environments, local edge platforms, and a desktop robotic arm. Across the PDDL tasks, verifier-guided post-training raises the success rate of compact 4B-14B planners to 70.5-76.0%, while INT4 deployment on a Jetson Orin requires 17.85-26.41 W of average power.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057228",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.28955v1",
+      "text": "Results in household simulators and on the physical robot further demonstrate the applicability of SLoSa across diverse robotic task settings.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…raises the success rate of compact 4B-14B planners to 70.5-76.0%, while INT4 deployment on a Jetson Orin requires 17.85-26.41 W of average power. Results in household simulators and on the physical robot further demonstrate the applicability of SLoSa across diverse robotic task settings.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057229",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29008v1",
+      "text": "In recent years, automated fruit classification systems have become a more critical component in precision agriculture for efficient yield estimation, quality control, and supply chain optimization.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "In recent years, automated fruit classification systems have become a more critical component in precision agriculture for efficient yield estimation, quality control, and supply chain optimization.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057230",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29008v1",
+      "text": "This is a real-world setting where models that have been trained on specific quality grades must generalize to unseen grades to handle significant domain shift.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "In this study, we address the challenging issue of cross-grade banana variety classification. This is a real-world setting where models that have been trained on specific quality grades must generalize to unseen grades to handle significant domain shift.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057231",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29008v1",
+      "text": "Under a rigorous Leave-One-Grade-Out evaluation protocol, we present a thorough comparative analysis of CNNs, ViTs",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "…grades to handle significant domain shift. Under a rigorous Leave-One-Grade-Out evaluation protocol, we present a thorough comparative analysis of CNNs, ViTs, and dual-stream hybrid architectures using a large-scale dataset of 31,678 banana images with three varieties and three quality grades.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057232",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29008v1",
+      "text": "dual-stream hybrid architectures using a large-scale dataset of 31,678 banana images with three varieties and three quality grades.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…grades to handle significant domain shift. Under a rigorous Leave-One-Grade-Out evaluation protocol, we present a thorough comparative analysis of CNNs, ViTs, and dual-stream hybrid architectures using a large-scale dataset of 31,678 banana images with three varieties and three quality grades.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057233",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29008v1",
+      "text": "Comprehensive experimental analyzes show that the presented hybrid framework with KL-divergence based self-distillation achieves better overall performance, i.e., it attains a mean accuracy of 81.25% and significantly surpasses CNN and Transformer baseline models.",
+      "type": "normative",
+      "support_in_text": 0.35,
+      "quote": "…the CNN and Transformer streams. Comprehensive experimental analyzes show that the presented hybrid framework with KL-divergence based self-distillation achieves better overall performance, i.e., it attains a mean accuracy of 81.25% and significantly surpasses CNN and Transformer baseline models.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057234",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29008v1",
+      "text": "Qualitative analysis further confirms that the hybrid framework in this study improves discriminative feature transferability, improves attention localization, and stabilizes optimization.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…i.e., it attains a mean accuracy of 81.25% and significantly surpasses CNN and Transformer baseline models. Qualitative analysis further confirms that the hybrid framework in this study improves discriminative feature transferability, improves attention localization, and stabilizes optimization.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057235",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29073v1",
+      "text": "We assess two versions of our approach.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "This paper proposes Role-Enhanced Zero-Shot Chain-of-Thought (RE-ZS-CoT), a prompting framework that systematically integrates domain-specific expert roles to enhance reasoning in large language models (LLMs) without task-specific examples. We assess two versions of our approach.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057236",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29073v1",
+      "text": "Across 20 LLMs and seven benchmarks, RE-ZS-CoT frequently surpasses zero-shot",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…selects the single most suitable role for each benchmark, enabling adaptive task-role alignment without manual specification. Across 20 LLMs and seven benchmarks, RE-ZS-CoT frequently surpasses zero-shot and zero-shot-CoT baselines, achieving performance improvements of up to 44 percentage points.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057237",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29073v1",
+      "text": "zero-shot-CoT baselines, achieving performance improvements of up to 44 percentage points.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…selects the single most suitable role for each benchmark, enabling adaptive task-role alignment without manual specification. Across 20 LLMs and seven benchmarks, RE-ZS-CoT frequently surpasses zero-shot and zero-shot-CoT baselines, achieving performance improvements of up to 44 percentage points.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057238",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29073v1",
+      "text": "the benchmarks where static roles yielded improvements were almost always those where dynamic roles also outperformed baselines, though static selection achieved peak performance.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…of up to 44 percentage points. The results reveal a strong correspondence between static and dynamic versions; the benchmarks where static roles yielded improvements were almost always those where dynamic roles also outperformed baselines, though static selection achieved peak performance.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057239",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29073v1",
+      "text": "Ablation studies further show that unconventional roles degrade performance, underscoring the necessity of task-role alignment.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…where static roles yielded improvements were almost always those where dynamic roles also outperformed baselines, though static selection achieved peak performance. Ablation studies further show that unconventional roles degrade performance, underscoring the necessity of task-role alignment.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057240",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29073v1",
+      "text": "The framework's scalability is validated across model sizes (2b-14b parameters), with smaller models like Granite3.3-8b achieving remarkable proficiency in arithmetic reasoning.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…studies further show that unconventional roles degrade performance, underscoring the necessity of task-role alignment. The framework's scalability is validated across model sizes (2b-14b parameters), with smaller models like Granite3.3-8b achieving remarkable proficiency in arithmetic reasoning.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057241",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29075v1",
+      "text": "We aim to address the problem of Out-of-Distribution (OOD) Mode Averaging, a critical problem that emerges when distilling Flow Matching (FM) based behavior policies in offline Reinforcement Learning (RL): When learning over multi-modal datasets, standard distillation inadvertently forces the policy to interpolate across different behavioral modes, causing the generated actions to collapse into invalid, OOD regions.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "We aim to address the problem of Out-of-Distribution (OOD) Mode Averaging, a critical problem that emerges when distilling Flow Matching (FM) based behavior policies in offline Reinforcement Learning (RL): When learning over multi-modal datasets, standard distillation inadvertently forces the policy",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057242",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29075v1",
+      "text": "Specifically, we instantiate VRD through two complementary algorithms: VRD-Q, which utilizes value-quantile behavior distillation to statistically filter out low-value behaviors, and VRD-R, which reorganizes the latent space to geometrically isolate high-value generative trajectories from the FM-based behavior policy.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Specifically, we instantiate VRD through two complementary algorithms: VRD-Q, which utilizes value-quantile behavior distillation to statistically filter out low-value behaviors, and VRD-R, which reorganizes the latent space to geometrically isolate high-value generative trajectories from the FM-bas",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057243",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29075v1",
+      "text": "Extensive empirical evaluations demonstrate that VRD improves existing generative baselines across diverse continuous control",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…trajectories from the FM-based behavior policy. Extensive empirical evaluations demonstrate that VRD improves existing generative baselines across diverse continuous control and planning tasks on the D4RL, OGBench, and Minari benchmarks, especially over those multi-modal, non-expert datasets.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057244",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29075v1",
+      "text": "planning tasks on the D4RL, OGBench, and Minari benchmarks, especially over those multi-modal, non-expert datasets.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…trajectories from the FM-based behavior policy. Extensive empirical evaluations demonstrate that VRD improves existing generative baselines across diverse continuous control and planning tasks on the D4RL, OGBench, and Minari benchmarks, especially over those multi-modal, non-expert datasets.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057245",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29092v1",
+      "text": "Multilingual large language models are increasingly deployed in settings where visible reasoning traces support verification, education, and safety auditing, yet standard evaluations typically measure only final-answer agreement or holistic response similarity.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "Multilingual large language models are increasingly deployed in settings where visible reasoning traces support verification, education, and safety auditing, yet standard evaluations typically measure only final-answer agreement or holistic response similarity.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057246",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29092v1",
+      "text": "As a result, they establish outcome consistency without determining whether users across languages receive comparable supporting evidence.",
+      "type": "causal",
+      "support_in_text": 0.5,
+      "quote": "…support verification, education, and safety auditing, yet standard evaluations typically measure only final-answer agreement or holistic response similarity. As a result, they establish outcome consistency without determining whether users across languages receive comparable supporting evidence.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057247",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29092v1",
+      "text": "Across three reasoning benchmarks, seven languages, and six frontier LLMs, the natural baseline---embedding each whole response",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Across three reasoning benchmarks, seven languages, and six frontier LLMs, the natural baseline---embedding each whole response and comparing the two by cosine---systematically overstates agreement: $52.1\\%$--$67.3\\%$ of examples in the top quartile of holistic similarity are not in the top quartile",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057248",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29092v1",
+      "text": "comparing the two by cosine---systematically overstates agreement: $52.1\\%$--$67.3\\%$ of examples in the top quartile of holistic similarity are not in the top quartile of structural similarity.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Across three reasoning benchmarks, seven languages, and six frontier LLMs, the natural baseline---embedding each whole response and comparing the two by cosine---systematically overstates agreement: $52.1\\%$--$67.3\\%$ of examples in the top quartile of holistic similarity are not in the top quartile",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057249",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29092v1",
+      "text": "This dissociation is stable across sentence encoders and step segmentations",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…in the top quartile of structural similarity. This dissociation is stable across sentence encoders and step segmentations, and blind bilingual annotation studies in two English-anchored language pairs show that human judgments align with structural similarity rather than with the holistic baseline.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057250",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29092v1",
+      "text": "blind bilingual annotation studies in two English-anchored language pairs show that human judgments align with structural similarity rather than with the holistic baseline.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…in the top quartile of structural similarity. This dissociation is stable across sentence encoders and step segmentations, and blind bilingual annotation studies in two English-anchored language pairs show that human judgments align with structural similarity rather than with the holistic baseline.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057251",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29092v1",
+      "text": "A same-language control shows that the level of divergence is language-specific: two English traces for paraphrases of the same question agree more closely than an English trace and its counterparts in other languages.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…align with structural similarity rather than with the holistic baseline. A same-language control shows that the level of divergence is language-specific: two English traces for paraphrases of the same question agree more closely than an English trace and its counterparts in other languages.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057252",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29092v1",
+      "text": "Our results show that answer-level",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…agree more closely than an English trace and its counterparts in other languages. Our results show that answer-level and holistic evaluations can substantially overestimate the consistency of multilingual explanatory artifacts, motivating trace-level evaluation for reliable multilingual deployment.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057253",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29092v1",
+      "text": "holistic evaluations can substantially overestimate the consistency of multilingual explanatory artifacts, motivating trace-level evaluation for reliable multilingual deployment.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…agree more closely than an English trace and its counterparts in other languages. Our results show that answer-level and holistic evaluations can substantially overestimate the consistency of multilingual explanatory artifacts, motivating trace-level evaluation for reliable multilingual deployment.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057254",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29110v1",
+      "text": "Merging different models into a single model is highly desirable for multi-task deployment, particularly in regulated domains like healthcare.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Merging different models into a single model is highly desirable for multi-task deployment, particularly in regulated domains like healthcare.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057255",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29110v1",
+      "text": "In such settings, models are often locally fine-tuned due to strict data privacy policies, necessitating that aggregation operates exclusively on the fine-tuned weights.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "…models into a single model is highly desirable for multi-task deployment, particularly in regulated domains like healthcare. In such settings, models are often locally fine-tuned due to strict data privacy policies, necessitating that aggregation operates exclusively on the fine-tuned weights.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057256",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29110v1",
+      "text": "Existing methods apply a uniform merge across all tasks, ignoring the geometric relationships among their learned subspaces.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "In such settings, models are often locally fine-tuned due to strict data privacy policies, necessitating that aggregation operates exclusively on the fine-tuned weights. Existing methods apply a uniform merge across all tasks, ignoring the geometric relationships among their learned subspaces.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057257",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29110v1",
+      "text": "Through this study, we show that the per-task projection error of a merged model is governed by the principal-angle alignment between each task",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…named \\emph{subspace interference}. Through this study, we show that the per-task projection error of a merged model is governed by the principal-angle alignment between each task and the shared subspace, so that grouping geometrically compatible tasks provably reduces this error within each group.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057258",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29110v1",
+      "text": "the shared subspace, so that grouping geometrically compatible tasks provably reduces this error within each group.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…named \\emph{subspace interference}. Through this study, we show that the per-task projection error of a merged model is governed by the principal-angle alignment between each task and the shared subspace, so that grouping geometrically compatible tasks provably reduces this error within each group.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057259",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29110v1",
+      "text": "Motivated by this observation, we propose \\textbf{Group-wise Rank-Aware Model Merging (GRAM)}, which uses the principal-angle geometry of task vectors to decide which tasks should be merged together and then performs a standard SVD-based merge within each coalition; the pipeline requires only the fine-tuned weights at merge time.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "Motivated by this observation, we propose \\textbf{Group-wise Rank-Aware Model Merging (GRAM)}, which uses the principal-angle geometry of task vectors to decide which tasks should be merged together and then performs a standard SVD-based merge within each coalition; the pipeline requires only the fi",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057260",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29110v1",
+      "text": "With only one additional model ($\\nK{=}2$), GRAM significantly mitigates subspace interference",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "With only one additional model ($\\nK{=}2$), GRAM significantly mitigates subspace interference and consistently outperforms prior merging methods across language understanding (GLUE with Flan-T5), 8-task CLIP vision, and medical instruction tuning (Qwen2-7B-Instruct with four English/Chinese medical",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057261",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29110v1",
+      "text": "consistently outperforms prior merging methods across language understanding (GLUE with Flan-T5), 8-task CLIP vision",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "With only one additional model ($\\nK{=}2$), GRAM significantly mitigates subspace interference and consistently outperforms prior merging methods across language understanding (GLUE with Flan-T5), 8-task CLIP vision, and medical instruction tuning (Qwen2-7B-Instruct with four English/Chinese medical",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057262",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29110v1",
+      "text": "medical instruction tuning (Qwen2-7B-Instruct with four English/Chinese medical LoRAs).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "With only one additional model ($\\nK{=}2$), GRAM significantly mitigates subspace interference and consistently outperforms prior merging methods across language understanding (GLUE with Flan-T5), 8-task CLIP vision, and medical instruction tuning (Qwen2-7B-Instruct with four English/Chinese medical",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057263",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "Large language models increasingly automate optimization modeling from natural language problems, producing written mathematics, solver code and a returned report.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Large language models increasingly automate optimization modeling from natural language problems, producing written mathematics, solver code and a returned report.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057264",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "Verifying one optimization problem across these artifacts requires semantic comparison: unequal models can attain the same objective, equivalent models can use different auxiliary variables",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "…solver code and a returned report. Verifying one optimization problem across these artifacts requires semantic comparison: unequal models can attain the same objective, equivalent models can use different auxiliary variables, and mutually consistent artifacts can omit the same source requirement.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057265",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "mutually consistent artifacts can omit the same source requirement.",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "…solver code and a returned report. Verifying one optimization problem across these artifacts requires semantic comparison: unequal models can attain the same objective, equivalent models can use different auxiliary variables, and mutually consistent artifacts can omit the same source requirement.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057266",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "It aligns observable decisions, projects auxiliary variables, proves or refutes feasible region and objective relations, localizes refutations to implicated rows or domains",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "ORSMT provides a typed semantic interface and exact SMT relation queries. It aligns observable decisions, projects auxiliary variables, proves or refutes feasible region and objective relations, localizes refutations to implicated rows or domains and links source texts when available.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057267",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "links source texts when available.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "ORSMT provides a typed semantic interface and exact SMT relation queries. It aligns observable decisions, projects auxiliary variables, proves or refutes feasible region and objective relations, localizes refutations to implicated rows or domains and links source texts when available.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057268",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "It then reconstructs one artifact from another",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…projects auxiliary variables, proves or refutes feasible region and objective relations, localizes refutations to implicated rows or domains and links source texts when available. It then reconstructs one artifact from another, and each adopted candidate passes the required relation checks.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057269",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "each adopted candidate passes the required relation checks.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…projects auxiliary variables, proves or refutes feasible region and objective relations, localizes refutations to implicated rows or domains and links source texts when available. It then reconstructs one artifact from another, and each adopted candidate passes the required relation checks.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057270",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "six generator sizes, ORSMT improves the model-code match rate in all 72 benchmark and generator combinations before selection.",
+      "type": "statistical",
+      "support_in_text": 0.23,
+      "quote": "It then reconstructs one artifact from another, and each adopted candidate passes the required relation checks. Across 3,034 problems and six generator sizes, ORSMT improves the model-code match rate in all 72 benchmark and generator combinations before selection.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057271",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "Protected selection raises the aggregate rate from 43.2% to 88.2%",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Across 3,034 problems and six generator sizes, ORSMT improves the model-code match rate in all 72 benchmark and generator combinations before selection. Protected selection raises the aggregate rate from 43.2% to 88.2% and the share that are both correct and matched from 25.2% to 40.2%.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057272",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "the share that are both correct",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Across 3,034 problems and six generator sizes, ORSMT improves the model-code match rate in all 72 benchmark and generator combinations before selection. Protected selection raises the aggregate rate from 43.2% to 88.2% and the share that are both correct and matched from 25.2% to 40.2%.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057273",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "matched from 25.2% to 40.2%.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Across 3,034 problems and six generator sizes, ORSMT improves the model-code match rate in all 72 benchmark and generator combinations before selection. Protected selection raises the aggregate rate from 43.2% to 88.2% and the share that are both correct and matched from 25.2% to 40.2%.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057274",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "On the 1,905 refuted outputs, certified voting under the shared fallback makes 50.9% of outputs correct",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…raises the aggregate rate from 43.2% to 88.2% and the share that are both correct and matched from 25.2% to 40.2%. On the 1,905 refuted outputs, certified voting under the shared fallback makes 50.9% of outputs correct and matched, compared with 44.8% for ReLoop and 49.4% for Opt-Verifier.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057275",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "matched, compared with 44.8% for ReLoop and 49.4% for Opt-Verifier.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…raises the aggregate rate from 43.2% to 88.2% and the share that are both correct and matched from 25.2% to 40.2%. On the 1,905 refuted outputs, certified voting under the shared fallback makes 50.9% of outputs correct and matched, compared with 44.8% for ReLoop and 49.4% for Opt-Verifier.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057276",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29145v1",
+      "text": "A separate one-round source revision followed by exact reconstruction restores a model-code match for 84.4% of the refuted pairs.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…1,905 refuted outputs, certified voting under the shared fallback makes 50.9% of outputs correct and matched, compared with 44.8% for ReLoop and 49.4% for Opt-Verifier. A separate one-round source revision followed by exact reconstruction restores a model-code match for 84.4% of the refuted pairs.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057277",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29225v1",
+      "text": "Grounded in globally applicable AI safety policies, each rubric provides explicit criteria along two dimensions: safety, which targets concrete harms with specific exemptions to suppress false positives, and usefulness, which independently evaluates instruction fulfillment.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…prompt-level rubrics. Grounded in globally applicable AI safety policies, each rubric provides explicit criteria along two dimensions: safety, which targets concrete harms with specific exemptions to suppress false positives, and usefulness, which independently evaluates instruction fulfillment.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057278",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29225v1",
+      "text": "realistic evaluation, we construct a bilingual (English-Chinese) benchmark grounded in a comprehensive 84-label safety taxonomy, consisting of two subsets: DiagBase, which covers single- and multi-turn prompts with direct harmful queries and template-based jailbreaks, and DiagAttack, which embeds harmful intents into complex instruction-following tasks to form challenging instruction attacks.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "To ensure a robust and realistic evaluation, we construct a bilingual (English-Chinese) benchmark grounded in a comprehensive 84-label safety taxonomy, consisting of two subsets: DiagBase, which covers single- and multi-turn prompts with direct harmful queries and template-based jailbreaks, and Diag",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057279",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29225v1",
+      "text": "Extensive experiments demonstrate that DiagSafe significantly enhances the reliability of LLM-as-a-judge evaluation, achieving 95.34% agreement with human annotations -- substantially higher than the 69%-87% achieved by the baselines --",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Extensive experiments demonstrate that DiagSafe significantly enhances the reliability of LLM-as-a-judge evaluation, achieving 95.34% agreement with human annotations -- substantially higher than the 69%-87% achieved by the baselines -- and high inter-judge consistency (Cohen's $κ$ = 0.864).",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057280",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29225v1",
+      "text": "high inter-judge consistency (Cohen's $κ$ = 0.864).",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Extensive experiments demonstrate that DiagSafe significantly enhances the reliability of LLM-as-a-judge evaluation, achieving 95.34% agreement with human annotations -- substantially higher than the 69%-87% achieved by the baselines -- and high inter-judge consistency (Cohen's $κ$ = 0.864).",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057281",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29225v1",
+      "text": "In addition, we observe that models are particularly susceptible in Chinese and multi-turn contexts.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Furthermore, applying our framework reveals that leading LLMs differ markedly in their unsafe rates, and each model also exhibits unique vulnerabilities along different dimensions. In addition, we observe that models are particularly susceptible in Chinese and multi-turn contexts.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057282",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29430v1",
+      "text": "Multimodal multi-label emotion recognition is important for affect-aware systems, but models trained with complete text, visual",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Multimodal multi-label emotion recognition is important for affect-aware systems, but models trained with complete text, visual, and acoustic streams often degrade sharply when some streams are unavailable at deployment.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057283",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29430v1",
+      "text": "acoustic streams often degrade sharply when some streams are unavailable at deployment.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Multimodal multi-label emotion recognition is important for affect-aware systems, but models trained with complete text, visual, and acoustic streams often degrade sharply when some streams are unavailable at deployment.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057284",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29430v1",
+      "text": "aligns the two levels through reconstruction.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "We propose the Multi-modal Emotion Recognition Perceiver (MERP), which maps the joint sequence into a fixed-size latent bank, thereby keeping repeated reasoning independent of raw input length; it extracts label-specific evidence before and after latent reasoning and aligns the two levels through re",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057285",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29430v1",
+      "text": "confidence-aware class-wise fusion to strengthen separability, reduce sensitivity to missing inputs, and combine complementary predictors.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "MERP further uses positive and negative class prototypes, a noise-gated feature enhancer with frequency-shaped perturbations during training, and confidence-aware class-wise fusion to strengthen separability, reduce sensitivity to missing inputs, and combine complementary predictors.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057286",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29430v1",
+      "text": "Under 20 percent test-time random modality drop, MERP achieves micro-F1 scores of 0.563 on CMU-MOSEI",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Under 20 percent test-time random modality drop, MERP achieves micro-F1 scores of 0.563 on CMU-MOSEI and 0.780 on M3ED, exceeding the strongest evaluated baselines by 0.004 and 0.005, respectively; in the severe CMU-MOSEI audio-only setting, it retains 0.473 micro-F1 versus 0.022 for LDDU.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057287",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29430v1",
+      "text": "0.780 on M3ED, exceeding the strongest evaluated baselines by 0.004 and 0.005, respectively",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Under 20 percent test-time random modality drop, MERP achieves micro-F1 scores of 0.563 on CMU-MOSEI and 0.780 on M3ED, exceeding the strongest evaluated baselines by 0.004 and 0.005, respectively; in the severe CMU-MOSEI audio-only setting, it retains 0.473 micro-F1 versus 0.022 for LDDU.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057288",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29430v1",
+      "text": "in the severe CMU-MOSEI audio-only setting, it retains 0.473 micro-F1 versus 0.022 for LDDU.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Under 20 percent test-time random modality drop, MERP achieves micro-F1 scores of 0.563 on CMU-MOSEI and 0.780 on M3ED, exceeding the strongest evaluated baselines by 0.004 and 0.005, respectively; in the severe CMU-MOSEI audio-only setting, it retains 0.473 micro-F1 versus 0.022 for LDDU.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057289",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29430v1",
+      "text": "These results show that fixed latent reasoning provides a practical, testable route to robust multimodal emotion recognition without requiring missing-modality examples during training.",
+      "type": "historical",
+      "support_in_text": 0.25,
+      "quote": "…0.005, respectively; in the severe CMU-MOSEI audio-only setting, it retains 0.473 micro-F1 versus 0.022 for LDDU. These results show that fixed latent reasoning provides a practical, testable route to robust multimodal emotion recognition without requiring missing-modality examples during training.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057290",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29430v1",
+      "text": "Code is available at https://github.com/Creative-zcx/MERP.",
+      "type": "descriptive",
+      "support_in_text": 0.55,
+      "quote": "These results show that fixed latent reasoning provides a practical, testable route to robust multimodal emotion recognition without requiring missing-modality examples during training. Code is available at https://github.com/Creative-zcx/MERP.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057291",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29472v1",
+      "text": "Large language models (LLMs) have shown great potential as general-purpose user simulators for interactive systems.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Large language models (LLMs) have shown great potential as general-purpose user simulators for interactive systems.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057292",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29472v1",
+      "text": "Prior studies have demonstrated that training on high-quality data can substantially improve model reasoning and downstream task performance.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Large language models (LLMs) have shown great potential as general-purpose user simulators for interactive systems. Prior studies have demonstrated that training on high-quality data can substantially improve model reasoning and downstream task performance.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057293",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29472v1",
+      "text": "However, the upper bound of user simulation is still constrained by the model's reasoning paradigm: native chain-of-thought often degenerates into shallow pattern matching",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…reasoning and downstream task performance. However, the upper bound of user simulation is still constrained by the model's reasoning paradigm: native chain-of-thought often degenerates into shallow pattern matching and fails to adequately model the behavioral factors underlying real user decisions.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057294",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29472v1",
+      "text": "fails to adequately model the behavioral factors underlying real user decisions.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "…reasoning and downstream task performance. However, the upper bound of user simulation is still constrained by the model's reasoning paradigm: native chain-of-thought often degenerates into shallow pattern matching and fails to adequately model the behavioral factors underlying real user decisions.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057295",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29472v1",
+      "text": "In this paper, we propose OmniSimulator, a novel training framework designed to improve the predictive ability of small LLMs for realistic user simulation on short-video platform environments.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "…pattern matching and fails to adequately model the behavioral factors underlying real user decisions. In this paper, we propose OmniSimulator, a novel training framework designed to improve the predictive ability of small LLMs for realistic user simulation on short-video platform environments.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057296",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29472v1",
+      "text": "Specifically, OmniSimulator organizes behavior-oriented reasoning through a structured schema with five dimensions, carefully selects data from real user-behavior scenarios, and introduces a teacher model to generate high-quality reasoning traces under the proposed schema, helping small models learn behavior-relevant reasoning patterns rather than relying on superficial behavioral correlations.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Specifically, OmniSimulator organizes behavior-oriented reasoning through a structured schema with five dimensions, carefully selects data from real user-behavior scenarios, and introduces a teacher model to generate high-quality reasoning traces under the proposed schema, helping small models learn",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057297",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29472v1",
+      "text": "Based on this process, we construct 9,881 high-quality training instances from three months of historical interaction trajectories of 200 real users, averaging about 50 distilled examples per user.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…behavior-relevant reasoning patterns rather than relying on superficial behavioral correlations. Based on this process, we construct 9,881 high-quality training instances from three months of historical interaction trajectories of 200 real users, averaging about 50 distilled examples per user.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057298",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29472v1",
+      "text": "Experimental results show that OmniSimulator improves the average score of Qwen3-8B by 34.33%, achieves performance competitive with Claude-Sonnet-4.5, and supports smaller-scale, self-hosted deployment.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…interaction trajectories of 200 real users, averaging about 50 distilled examples per user. Experimental results show that OmniSimulator improves the average score of Qwen3-8B by 34.33%, achieves performance competitive with Claude-Sonnet-4.5, and supports smaller-scale, self-hosted deployment.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057299",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29472v1",
+      "text": "These results suggest that learning structured behavior-oriented reasoning patterns is a promising direction towards scalable and high-fidelity LLM-based user simulation.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…Qwen3-8B by 34.33%, achieves performance competitive with Claude-Sonnet-4.5, and supports smaller-scale, self-hosted deployment. These results suggest that learning structured behavior-oriented reasoning patterns is a promising direction towards scalable and high-fidelity LLM-based user simulation.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057300",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29491v1",
+      "text": "A model's failures can reveal gaps in the behavioral criteria guiding its training.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "A model's failures can reveal gaps in the behavioral criteria guiding its training.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057301",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29491v1",
+      "text": "is removed at evaluation.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…preference-data contrasts, and rubric clauses, while a deterministic gate checks evidence references and fixed semantic anchors. The rubric then guides Direct Preference Optimization (DPO) during training, with preference pairs, labels, and the objective held fixed, and is removed at evaluation.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057302",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29491v1",
+      "text": "open-ended generation benchmarks show that rubric conditioning can improve outcomes over ordinary DPO, with gains and regressions varying across models and datasets.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…local effect on rubric-free success to semantic alignment and a residual beyond the measured factors. Experiments on capability and open-ended generation benchmarks show that rubric conditioning can improve outcomes over ordinary DPO, with gains and regressions varying across models and datasets.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057303",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29616v1",
+      "text": "Early diagnosis of hepatocellular carcinoma is critical to preserve access to curative treatment options.",
+      "type": "medical",
+      "support_in_text": 0.25,
+      "quote": "Early diagnosis of hepatocellular carcinoma is critical to preserve access to curative treatment options.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057304",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29616v1",
+      "text": "at least one liver lesion were included, while lesions larger than 40 mm were excluded.",
+      "type": "statistical",
+      "support_in_text": 0.6,
+      "quote": "…imaging measurements reflecting LI-RADS major features and integrates these inputs using logistic regression. In this multicenter retrospective study, patients with multiphase computed tomography and at least one liver lesion were included, while lesions larger than 40 mm were excluded.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057305",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29616v1",
+      "text": "a composite reference standard was used for non-hepatocellular carcinoma lesions.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…patients with multiphase computed tomography and at least one liver lesion were included, while lesions larger than 40 mm were excluded. Histology served as the reference standard for hepatocellular carcinoma, and a composite reference standard was used for non-hepatocellular carcinoma lesions.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057306",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29616v1",
+      "text": "LI-RADS were compared on the internal evaluation set using 10,000-repetition bootstrap non-inferiority tests, with 5% margins and significance levels.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…carcinoma, and a composite reference standard was used for non-hepatocellular carcinoma lesions. The lesion-level accuracy of dLI-RADS and LI-RADS were compared on the internal evaluation set using 10,000-repetition bootstrap non-inferiority tests, with 5% margins and significance levels.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057307",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29616v1",
+      "text": "On the external test set, sensitivities were similarly compared. dLI-RADS was non-inferior to LI-RADS for lesion-level accuracy in the internal evaluation set, achieving 80% accuracy compared with 74% for LI-RADS (p = 0.04)...",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…non-inferiority tests, with 5% margins and significance levels. On the external test set, sensitivities were similarly compared. dLI-RADS was non-inferior to LI-RADS for lesion-level accuracy in the internal evaluation set, achieving 80% accuracy compared with 74% for LI-RADS (p = 0.04)...",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057308",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29681v1",
+      "text": "However, not much is known about how these abilities are influenced by larger-scale pretraining.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Pixel language models process text as rendered images instead of a finite vocabulary, which gives them strong cross-lingual transfer abilities. However, not much is known about how these abilities are influenced by larger-scale pretraining.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057309",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29681v1",
+      "text": "In this paper, we train a family of MPIXEL models along three axes of variation: more languages, more scripts, and larger model capacity under fixed per-language compute.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "However, not much is known about how these abilities are influenced by larger-scale pretraining. In this paper, we train a family of MPIXEL models along three axes of variation: more languages, more scripts, and larger model capacity under fixed per-language compute.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057310",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29681v1",
+      "text": "In evaluations on five tasks covering 83 languages, we find that scaling acts locally: each axis improves the added languages",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…and larger model capacity under fixed per-language compute. In evaluations on five tasks covering 83 languages, we find that scaling acts locally: each axis improves the added languages and scripts, while increased capacity mitigates the curse of multilinguality from pretraining on more languages.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057311",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29681v1",
+      "text": "scripts, while increased capacity mitigates the curse of multilinguality from pretraining on more languages.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…and larger model capacity under fixed per-language compute. In evaluations on five tasks covering 83 languages, we find that scaling acts locally: each axis improves the added languages and scripts, while increased capacity mitigates the curse of multilinguality from pretraining on more languages.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057312",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29681v1",
+      "text": "Transfer to unseen scripts improves with multilingual pretraining",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…we find that scaling acts locally: each axis improves the added languages and scripts, while increased capacity mitigates the curse of multilinguality from pretraining on more languages. Transfer to unseen scripts improves with multilingual pretraining, but does not further improve with scaling.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057313",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29681v1",
+      "text": "does not further improve with scaling.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…we find that scaling acts locally: each axis improves the added languages and scripts, while increased capacity mitigates the curse of multilinguality from pretraining on more languages. Transfer to unseen scripts improves with multilingual pretraining, but does not further improve with scaling.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057314",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29681v1",
+      "text": "We also show that larger pixel models reserve more layers for visual processing, and that cross-lingual alignment weakens as more languages are added.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "On typologically distant low-resource languages, our models outperform subword and character-level baselines across many writing systems. We also show that larger pixel models reserve more layers for visual processing, and that cross-lingual alignment weakens as more languages are added.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057315",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29681v1",
+      "text": "Overall, our findings characterize how multilingual scaling improves pixel language models.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "We also show that larger pixel models reserve more layers for visual processing, and that cross-lingual alignment weakens as more languages are added. Overall, our findings characterize how multilingual scaling improves pixel language models.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057316",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29749v1",
+      "text": "Large language models (LLMs) are increasingly used to generate software engineering artifacts written in domain-specific languages (DSLs).",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Large language models (LLMs) are increasingly used to generate software engineering artifacts written in domain-specific languages (DSLs).",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057317",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29749v1",
+      "text": "Correct DSL instances usually must comply with not only the concrete syntax but also the abstract syntax defined by a metamodel augmented with semantic well-formedness constraints.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…(LLMs) are increasingly used to generate software engineering artifacts written in domain-specific languages (DSLs). Correct DSL instances usually must comply with not only the concrete syntax but also the abstract syntax defined by a metamodel augmented with semantic well-formedness constraints.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057318",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29749v1",
+      "text": "Existing constrained decoding approaches typically guarantee compliance only with concrete syntax or with a limited set of semantic constraints expressed over the generated text, making metamodel-level constraint consistency difficult to enforce during generation.",
+      "type": "historical",
+      "support_in_text": 0.13,
+      "quote": "…well-formedness constraints. Existing constrained decoding approaches typically guarantee compliance only with concrete syntax or with a limited set of semantic constraints expressed over the generated text, making metamodel-level constraint consistency difficult to enforce during generation.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057319",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29749v1",
+      "text": "verifies whether it can still be completed into a consistent instance.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…a DSL's concrete syntax, abstract syntax, and well-formedness constraints jointly. Specifically, whenever the LLM generates a complete metamodel concept, MeMoDecode incrementally maps the current output to a partial model and verifies whether it can still be completed into a consistent instance.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057320",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29749v1",
+      "text": "We combine MeMoDecode with a simple retry mechanism that resumes decoding from the most recent completable snapshot whenever an inconsistency is detected.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…MeMoDecode incrementally maps the current output to a partial model and verifies whether it can still be completed into a consistent instance. We combine MeMoDecode with a simple retry mechanism that resumes decoding from the most recent completable snapshot whenever an inconsistency is detected.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057321",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29749v1",
+      "text": "Under a sound backend verifier, MeMoDecode never performs worse than grammar-constrained decoding on alignment metrics satisfying natural assumptions.",
+      "type": "normative",
+      "support_in_text": 0.13,
+      "quote": "…MeMoDecode with a simple retry mechanism that resumes decoding from the most recent completable snapshot whenever an inconsistency is detected. Under a sound backend verifier, MeMoDecode never performs worse than grammar-constrained decoding on alignment metrics satisfying natural assumptions.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057322",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29749v1",
+      "text": "six open-weight LLMs ranging from 0.6B to 70B parameters, MeMoDecode achieves the highest consistency, improving consistency by 23% on average over unconstrained decoding",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…alignment metrics satisfying natural assumptions. Across four DSLs and six open-weight LLMs ranging from 0.6B to 70B parameters, MeMoDecode achieves the highest consistency, improving consistency by 23% on average over unconstrained decoding and by 8% on average over grammar-constrained decoding.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057323",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29749v1",
+      "text": "by 8% on average over grammar-constrained decoding.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…alignment metrics satisfying natural assumptions. Across four DSLs and six open-weight LLMs ranging from 0.6B to 70B parameters, MeMoDecode achieves the highest consistency, improving consistency by 23% on average over unconstrained decoding and by 8% on average over grammar-constrained decoding.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057324",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29749v1",
+      "text": "It also improves benchmark performance while incurring only modest runtime overhead.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…LLMs ranging from 0.6B to 70B parameters, MeMoDecode achieves the highest consistency, improving consistency by 23% on average over unconstrained decoding and by 8% on average over grammar-constrained decoding. It also improves benchmark performance while incurring only modest runtime overhead.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057325",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29749v1",
+      "text": "These results show that metamodel-guided decoding is an effective approach for enforcing DSL consistency during decoding across diverse DSLs and LLM scales.",
+      "type": "historical",
+      "support_in_text": 0.25,
+      "quote": "It also improves benchmark performance while incurring only modest runtime overhead. These results show that metamodel-guided decoding is an effective approach for enforcing DSL consistency during decoding across diverse DSLs and LLM scales.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057326",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29829v1",
+      "text": "General-purpose robots must handle tasks, objects",
+      "type": "normative",
+      "support_in_text": 0.35,
+      "quote": "General-purpose robots must handle tasks, objects and environments they were never trained on, yet zero-shot generalization remains one of the least solved problems in physical AI.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057327",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29829v1",
+      "text": "environments they were never trained on, yet zero-shot generalization remains one of the least solved problems in physical AI.",
+      "type": "descriptive",
+      "support_in_text": 0.23,
+      "quote": "General-purpose robots must handle tasks, objects and environments they were never trained on, yet zero-shot generalization remains one of the least solved problems in physical AI.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057328",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29829v1",
+      "text": "In digital AI, zero-shot capability grew with the volume and, above all, the diversity of training data, much of it sourced from the crowd.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…must handle tasks, objects and environments they were never trained on, yet zero-shot generalization remains one of the least solved problems in physical AI. In digital AI, zero-shot capability grew with the volume and, above all, the diversity of training data, much of it sourced from the crowd.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057329",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29829v1",
+      "text": "We formulate zero-shot generalization in physical AI as coverage of the deployment distribution, and show that more samples from the same collectors shrink the unseen region only slowly, while each new contributor can extend it.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…by a few well-funded teams, which yields volume without diversity. We formulate zero-shot generalization in physical AI as coverage of the deployment distribution, and show that more samples from the same collectors shrink the unseen region only slowly, while each new contributor can extend it.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057330",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29829v1",
+      "text": "As a scalable source of diverse data, we propose a community of developers building applications on one standard, approachable robot, Origami.",
+      "type": "other",
+      "support_in_text": 0.6,
+      "quote": "…learning, we propose a shared latent space for robot actions that combines multi-modal alignment, generative augmentation, and noisy-label learning. As a scalable source of diverse data, we propose a community of developers building applications on one standard, approachable robot, Origami.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057331",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29829v1",
+      "text": "an evaluation protocol relating real-robot zero-shot success to the diversity of contributed data.",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "As a scalable source of diverse data, we propose a community of developers building applications on one standard, approachable robot, Origami. We close with a testable hypothesis and an evaluation protocol relating real-robot zero-shot success to the diversity of contributed data.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057332",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29832v1",
+      "text": "Calibrating large language models (LLMs) in open-ended generation is uniquely challenging because many distinct token sequences can express the same underlying meaning.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "Calibrating large language models (LLMs) in open-ended generation is uniquely challenging because many distinct token sequences can express the same underlying meaning.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057333",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29832v1",
+      "text": "Prior calibration techniques target either fixed-set classification confidence or the binary correctness of individual strings, making them inherently ill-suited for the dynamic, multi-string nature of open-ended semantic outcomes.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…distinct token sequences can express the same underlying meaning. Prior calibration techniques target either fixed-set classification confidence or the binary correctness of individual strings, making them inherently ill-suited for the dynamic, multi-string nature of open-ended semantic outcomes.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057334",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29832v1",
+      "text": "Evaluations across four open-ended benchmarks",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…a calibration-aware training signal over variable semantic classes, completely bypassing the need for fixed multiple-choice options. Evaluations across four open-ended benchmarks and three models demonstrate that S-EDL substantially reduces semantic calibration error while improving accuracy.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057335",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29832v1",
+      "text": "three models demonstrate that S-EDL substantially reduces semantic calibration error while improving accuracy.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "…a calibration-aware training signal over variable semantic classes, completely bypassing the need for fixed multiple-choice options. Evaluations across four open-ended benchmarks and three models demonstrate that S-EDL substantially reduces semantic calibration error while improving accuracy.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057336",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29832v1",
+      "text": "By aligning generative likelihoods with semantic correctness, this work establishes a framework for deploying trustworthy LLMs in complex, open-ended applications.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…benchmarks and three models demonstrate that S-EDL substantially reduces semantic calibration error while improving accuracy. By aligning generative likelihoods with semantic correctness, this work establishes a framework for deploying trustworthy LLMs in complex, open-ended applications.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057337",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29832v1",
+      "text": "Code is available at: https://github.com/sandylaker/s-edl.",
+      "type": "descriptive",
+      "support_in_text": 0.55,
+      "quote": "By aligning generative likelihoods with semantic correctness, this work establishes a framework for deploying trustworthy LLMs in complex, open-ended applications. Code is available at: https://github.com/sandylaker/s-edl.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057338",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29922v1",
+      "text": "As LLMs are increasingly deployed in value-sensitive contexts, aligning them with human values has emerged as a post-training objective in NLP, aimed at instilling additional values and guiding model behaviour.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "As LLMs are increasingly deployed in value-sensitive contexts, aligning them with human values has emerged as a post-training objective in NLP, aimed at instilling additional values and guiding model behaviour.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057339",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29922v1",
+      "text": "Because values are interconnected, it is unclear how fine-tuning for specific values alters unrelated capabilities and behaviours.",
+      "type": "causal",
+      "support_in_text": 0.25,
+      "quote": "However, current evaluations remain narrow. Because values are interconnected, it is unclear how fine-tuning for specific values alters unrelated capabilities and behaviours.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057340",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29922v1",
+      "text": "In this work, we adapt four instruction-tuned LLMs across individual Hofstede's value dimensions and evaluate them on both cross-value transfer and broader behaviours.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "Because values are interconnected, it is unclear how fine-tuning for specific values alters unrelated capabilities and behaviours. In this work, we adapt four instruction-tuned LLMs across individual Hofstede's value dimensions and evaluate them on both cross-value transfer and broader behaviours.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057341",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29922v1",
+      "text": "Consequently, we suggest that value alignment after post-training should incorporate broader behavioral evaluations",
+      "type": "normative",
+      "support_in_text": 0.32,
+      "quote": "…on untrained values, risk preferences, social cognition, and safety traits. Consequently, we suggest that value alignment after post-training should incorporate broader behavioral evaluations, and we highlight the need to investigate where additional value training might best fit into the pipeline.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057342",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.29922v1",
+      "text": "we highlight the need to investigate where additional value training might best fit into the pipeline.",
+      "type": "normative",
+      "support_in_text": 0.32,
+      "quote": "…on untrained values, risk preferences, social cognition, and safety traits. Consequently, we suggest that value alignment after post-training should incorporate broader behavioral evaluations, and we highlight the need to investigate where additional value training might best fit into the pipeline.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057343",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30016v1",
+      "text": "Providing this information to a Large-Language Model (LLM) is another hurdle, as the LLM must understand not only the required code method but also its associated methods in the grand scheme of the repository.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…at scale, hindering onboarding, maintenance, refactoring, and impact analysis. Providing this information to a Large-Language Model (LLM) is another hurdle, as the LLM must understand not only the required code method but also its associated methods in the grand scheme of the repository.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057344",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30016v1",
+      "text": "a proprietary 5M-LOC repository shows that CodeScribe-derived supervision significantly improves cross-modal retrieval in text-to-code accuracy over baseline approaches.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…which serve as grounded evidence for an MCP-based LLM orchestrator answering domain-specific queries. Evaluation on OpenCV and a proprietary 5M-LOC repository shows that CodeScribe-derived supervision significantly improves cross-modal retrieval in text-to-code accuracy over baseline approaches.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057345",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30016v1",
+      "text": "LLM-as-a-judge evaluation using the popular RAGAS of the Code Comprehensor output yields above 90% faithfulness scores.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Richer textual supervision (hierarchical documentation, parent/sibling context, and LLM-generated synthetic questions) consistently enhances performance across both repositories. LLM-as-a-judge evaluation using the popular RAGAS of the Code Comprehensor output yields above 90% faithfulness scores.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057346",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30042v1",
+      "text": "Harness optimization, which improves an agent's prompts, tools",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Harness optimization, which improves an agent's prompts, tools, and workflows, is an increasingly effective way to enhance agents built on frozen or closed-source LLMs.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057347",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30042v1",
+      "text": "workflows, is an increasingly effective way to enhance agents built on frozen or closed-source LLMs.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Harness optimization, which improves an agent's prompts, tools, and workflows, is an increasingly effective way to enhance agents built on frozen or closed-source LLMs.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057348",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30042v1",
+      "text": "were developed mainly for coding, where the competence needed to improve the agent coincides with the competence being improved.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…built on frozen or closed-source LLMs. Leading approaches such as the Darwin--Godel Machine and the Huxley--Godel Machine (HGM) rely on recursive self-improvement and were developed mainly for coding, where the competence needed to improve the agent coincides with the competence being improved.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057349",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30042v1",
+      "text": "Planning tasks, in which an agent must produce a sequence of tool calls that jointly satisfies interacting constraints, break this alignment.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "…self-improvement and were developed mainly for coding, where the competence needed to improve the agent coincides with the competence being improved. Planning tasks, in which an agent must produce a sequence of tool calls that jointly satisfies interacting constraints, break this alignment.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057350",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30042v1",
+      "text": "There, open-ended self-modification repeatedly explores ineffective changes and consumes substantial evaluation budgets.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Planning tasks, in which an agent must produce a sequence of tool calls that jointly satisfies interacting constraints, break this alignment. There, open-ended self-modification repeatedly explores ineffective changes and consumes substantial evaluation budgets.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057351",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30042v1",
+      "text": "This context records what each ancestor changed, which behaviors improved or regressed, and which modifications were ineffective, giving the editor explicit edit-outcome attribution instead of an unstructured archive of past agents.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…HGM-Dual represents agent evolution as lineage-aware context. This context records what each ancestor changed, which behaviors improved or regressed, and which modifications were ineffective, giving the editor explicit edit-outcome attribution instead of an unstructured archive of past agents.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057352",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30042v1",
+      "text": "For each selected parent, it generates a general child that preserves open-ended exploration and specialized children that target the harness components most likely responsible for the parent's highest-ranked constraint violations.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "…HGM-Dual introduces error-conditioned dual-path child generation. For each selected parent, it generates a general child that preserves open-ended exploration and specialized children that target the harness components most likely responsible for the parent's highest-ranked constraint violations.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057353",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30042v1",
+      "text": "HGM-Dual outperforms the strongest baseline by up to 14.45% relative improvement in case accuracy while matching HGM variants' final performance with 2x-4x fewer evaluation budget.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…that target the harness components most likely responsible for the parent's highest-ranked constraint violations. HGM-Dual outperforms the strongest baseline by up to 14.45% relative improvement in case accuracy while matching HGM variants' final performance with 2x-4x fewer evaluation budget.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057354",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30099v1",
+      "text": "Reinforcement Learning with Human Feedback (RLHF) has become a central paradigm for aligning Large Language Models with human values.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Reinforcement Learning with Human Feedback (RLHF) has become a central paradigm for aligning Large Language Models with human values.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057355",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30099v1",
+      "text": "However, the reliance on sensitive preference data necessitates rigorous differential privacy (DP) guarantees to prevent user information leakage.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "Reinforcement Learning with Human Feedback (RLHF) has become a central paradigm for aligning Large Language Models with human values. However, the reliance on sensitive preference data necessitates rigorous differential privacy (DP) guarantees to prevent user information leakage.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057356",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30099v1",
+      "text": "Such dependence is prohibitive in modern {overparameterized models} where $d$ is vast.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Existing private alignment methods typically assume dense reward parameterizations, resulting in estimation error bounds that scale polynomially with the ambient {model size $d$}. Such dependence is prohibitive in modern {overparameterized models} where $d$ is vast.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057357",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30099v1",
+      "text": "In this work, we study \\emph{Private Sparse RLHF} problem to address this limitation, assuming that human preferences (reward model) are governed by a subset of $s^* \\ll d$ relevant features.",
+      "type": "descriptive",
+      "support_in_text": 0.5,
+      "quote": "Such dependence is prohibitive in modern {overparameterized models} where $d$ is vast. In this work, we study \\emph{Private Sparse RLHF} problem to address this limitation, assuming that human preferences (reward model) are governed by a subset of $s^* \\ll d$ relevant features.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057358",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30099v1",
+      "text": "Theoretically, under the squared $\\ell_2$ parameter estimation error, we establish upper bounds of $\\widetilde{O}(s^*/n + {s^*}^2/n^2\\varepsilon^2)$ for $(\\varepsilon,δ)$-Sample-DP",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Theoretically, under the squared $\\ell_2$ parameter estimation error, we establish upper bounds of $\\widetilde{O}(s^*/n + {s^*}^2/n^2\\varepsilon^2)$ for $(\\varepsilon,δ)$-Sample-DP and $\\widetilde{O}(s^*/n + s^*/n\\varepsilon^2)$ for $\\varepsilon$-Label-DP based on randomized response, where $n$ is t",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057359",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30099v1",
+      "text": "$\\widetilde{O}(s^*/n + s^*/n\\varepsilon^2)$ for $\\varepsilon$-Label-DP based on randomized response, where $n$ is the training data size.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Theoretically, under the squared $\\ell_2$ parameter estimation error, we establish upper bounds of $\\widetilde{O}(s^*/n + {s^*}^2/n^2\\varepsilon^2)$ for $(\\varepsilon,δ)$-Sample-DP and $\\widetilde{O}(s^*/n + s^*/n\\varepsilon^2)$ for $\\varepsilon$-Label-DP based on randomized response, where $n$ is t",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057360",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30099v1",
+      "text": "For the lower bounds, we show that the Sample-DP rate is nearly optimal, and that the guarantee for our Label-DP method cannot be further improved within the randomized-response framework.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "…for $\\varepsilon$-Label-DP based on randomized response, where $n$ is the training data size. For the lower bounds, we show that the Sample-DP rate is nearly optimal, and that the guarantee for our Label-DP method cannot be further improved within the randomized-response framework.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057361",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30128v1",
+      "text": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction.",
+      "type": "other",
+      "support_in_text": 0.13,
+      "quote": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057362",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30128v1",
+      "text": "We challenge this de facto design with two diagnostic findings.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057363",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30128v1",
+      "text": "(1) Non-uniform computational need: items within the same sequence vary drastically in how much computation they require.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items within the same sequence vary drastically in how much computation they require.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057364",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30128v1",
+      "text": "(2) Suboptimality of fixed allocation: given oracle access to the target item, a non-uniform depth assignment consistently outranks the fixed one, indicating that existing uniform computation both wastes capacity on already-converged items and sacrifices overall recommendation quality.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…full depth. (2) Suboptimality of fixed allocation: given oracle access to the target item, a non-uniform depth assignment consistently outranks the fixed one, indicating that existing uniform computation both wastes capacity on already-converged items and sacrifices overall recommendation quality.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057365",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30128v1",
+      "text": "To this end, we propose LoopRec.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "These observations motivate a shift from fixed-depth computation to item-level adaptive reasoning. To this end, we propose LoopRec.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057366",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30128v1",
+      "text": "introduces a lightweight gate at each recursion boundary that makes a binary exit-or-continue decision for every item independently.",
+      "type": "descriptive",
+      "support_in_text": 0.13,
+      "quote": "To this end, we propose LoopRec. LoopRec recursively applies a single weight-shared block and introduces a lightweight gate at each recursion boundary that makes a binary exit-or-continue decision for every item independently.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057367",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30128v1",
+      "text": "Items whose representations have sufficiently matured exit early, while those requiring deeper reasoning continue to subsequent recursions.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…weight-shared block and introduces a lightweight gate at each recursion boundary that makes a binary exit-or-continue decision for every item independently. Items whose representations have sufficiently matured exit early, while those requiring deeper reasoning continue to subsequent recursions.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057368",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30128v1",
+      "text": "is readily adaptable to diverse backbone architectures.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…representations have sufficiently matured exit early, while those requiring deeper reasoning continue to subsequent recursions. This design converts the fixed global depth into a learned, per-item property without auxiliary depth labels, and is readily adaptable to diverse backbone architectures.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057369",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30128v1",
+      "text": "Extensive experiments on public benchmarks with four backbone families demonstrate that LoopRec consistently outperforms matched fixed-depth counterparts.",
+      "type": "other",
+      "support_in_text": 0.35,
+      "quote": "…fixed global depth into a learned, per-item property without auxiliary depth labels, and is readily adaptable to diverse backbone architectures. Extensive experiments on public benchmarks with four backbone families demonstrate that LoopRec consistently outperforms matched fixed-depth counterparts.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057370",
+      "source_id": "src_arxiv-csai_http://arxiv.org/abs/2610.30128v1",
+      "text": "Our code is available at https://github.com/Elpmis117/LoopRec.",
+      "type": "statistical",
+      "support_in_text": 0.65,
+      "quote": "Further analysis reveals that LoopRec's learned allocation exhibits interpretable patterns aligned with our post-hoc oracle analysis: lower-frequency items and more recent interactions naturally receive deeper computation. Our code is available at https://github.com/Elpmis117/LoopRec.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057371",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "have given it a rich definition of shareholder value, encompassing the success, flourishing, safety, preference satisfaction, and moral values of the shareholders, not just the stock price.",
+      "type": "financial",
+      "support_in_text": 0.25,
+      "quote": "…CEO, ruthlessly devoted to maximising shareholder value. Fortunately, we haven't been completely stupid, and have given it a rich definition of shareholder value, encompassing the success, flourishing, safety, preference satisfaction, and moral values of the shareholders, not just the stock price.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057372",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "This rich definition is contained in a sophisticated LLM, able to analyse the current situation and answer any question about the objective.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "This rich definition is contained in a sophisticated LLM, able to analyse the current situation and answer any question about the objective.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057373",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "The LLM is an integral part of the AI's system",
+      "type": "empirical",
+      "support_in_text": 0.25,
+      "quote": "This rich definition is contained in a sophisticated LLM, able to analyse the current situation and answer any question about the objective. The LLM is an integral part of the AI's system and motivation, not something it can simply set aside or hack directly.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057374",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "motivation, not something it can simply set aside or hack directly.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "This rich definition is contained in a sophisticated LLM, able to analyse the current situation and answer any question about the objective. The LLM is an integral part of the AI's system and motivation, not something it can simply set aside or hack directly.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057375",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "Unfortunately, as discussed, there are going to be zones in the space of possible situations where the LLM's understanding of the goal is going to come apart from ours.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Unfortunately, as discussed, there are going to be zones in the space of possible situations where the LLM's understanding of the goal is going to come apart from ours.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057376",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "The true goal G(true) in those zones is distinct from the LLM's proxy goal G(proxy).",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Unfortunately, as discussed, there are going to be zones in the space of possible situations where the LLM's understanding of the goal is going to come apart from ours. The true goal G(true) in those zones is distinct from the LLM's proxy goal G(proxy).",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057377",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "And a subset of those \"zones of divergence\" will be the Goodhart zones - areas where G(proxy) is much easier to satisfy than G(true).",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "And a subset of those \"zones of divergence\" will be the Goodhart zones - areas where G(proxy) is much easier to satisfy than G(true).",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057378",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "The AI will be motivated to steer towards the Goodhart zones, as this lets it satisfy its stated goals extremely well (there are also anti-Goodhart zones, where G(proxy) is much harder to satisfy than G(true)",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "…satisfy than G(true). The AI will be motivated to steer towards the Goodhart zones, as this lets it satisfy its stated goals extremely well (there are also anti-Goodhart zones, where G(proxy) is much harder to satisfy than G(true); but the AI will have no motivation to steer towards these zones).",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057379",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "but the AI will have no motivation to steer towards these zones).",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "…satisfy than G(true). The AI will be motivated to steer towards the Goodhart zones, as this lets it satisfy its stated goals extremely well (there are also anti-Goodhart zones, where G(proxy) is much harder to satisfy than G(true); but the AI will have no motivation to steer towards these zones).",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057380",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "These Goodhart zones encompass situations where, for instance, the LLM analyst will see the situational data",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "These Goodhart zones encompass situations where, for instance, the LLM analyst will see the situational data and conclude that destroying the company to build a giant stock ticker is the way to go.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057381",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "conclude that destroying the company to build a giant stock ticker is the way to go.",
+      "type": "financial",
+      "support_in_text": 0.25,
+      "quote": "These Goodhart zones encompass situations where, for instance, the LLM analyst will see the situational data and conclude that destroying the company to build a giant stock ticker is the way to go.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057382",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "Danger areas are safely far away",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "Danger areas are safely far away",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057383",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "Now, if this were not an LLM but a generic reward-assessing module, then the AI CEO might find it tricky to reach a Goodhart zone.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "Now, if this were not an LLM but a generic reward-assessing module, then the AI CEO might find it tricky to reach a Goodhart zone.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057384",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "The zone would be distant and unusual, difficult to find, and it could be hard to justify the first steps in that direction.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "Now, if this were not an LLM but a generic reward-assessing module, then the AI CEO might find it tricky to reach a Goodhart zone. The zone would be distant and unusual, difficult to find, and it could be hard to justify the first steps in that direction.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057385",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "LLMs are, as Eric Drexler put it, \"too linear\".",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "But neural nets and LLMs are, as Eric Drexler put it, \"too linear\".",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057386",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "They are non-linear, of course (or else they wouldn't work)",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "But neural nets and LLMs are, as Eric Drexler put it, \"too linear\". They are non-linear, of course (or else they wouldn't work) but only just enough to work; and locally they are extremely linear.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057387",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "only just enough to work",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "But neural nets and LLMs are, as Eric Drexler put it, \"too linear\". They are non-linear, of course (or else they wouldn't work) but only just enough to work; and locally they are extremely linear.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057388",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "and locally they are extremely linear.",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "But neural nets and LLMs are, as Eric Drexler put it, \"too linear\". They are non-linear, of course (or else they wouldn't work) but only just enough to work; and locally they are extremely linear.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057389",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "That means that if the current situation is at point A",
+      "type": "definitional",
+      "support_in_text": 0.25,
+      "quote": "…non-linear, of course (or else they wouldn't work) but only just enough to work; and locally they are extremely linear. That means that if the current situation is at point A, and point Z is in a Goodhart zone, then moving from A straight towards Z will typically start creating a Goodhart effect.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057390",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "point Z is in a Goodhart zone, then moving from A straight towards Z will typically start creating a Goodhart effect.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "…non-linear, of course (or else they wouldn't work) but only just enough to work; and locally they are extremely linear. That means that if the current situation is at point A, and point Z is in a Goodhart zone, then moving from A straight towards Z will typically start creating a Goodhart effect.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057391",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "The AI CEO will benefit from moving towards Z from the very beginning.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "That means that if the current situation is at point A, and point Z is in a Goodhart zone, then moving from A straight towards Z will typically start creating a Goodhart effect. The AI CEO will benefit from moving towards Z from the very beginning.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057392",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "It's even worse than that, as adversarial examples demonstrate.",
+      "type": "normative",
+      "support_in_text": 0.25,
+      "quote": "It's even worse than that, as adversarial examples demonstrate.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057393",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "If the AI CEO wants to move towards a Goodhart zone, it can move a tiny bit along one dimension, and a tiny bit along another, then a tiny bit along yet another.",
+      "type": "descriptive",
+      "support_in_text": 0.35,
+      "quote": "It's even worse than that, as adversarial examples demonstrate. If the AI CEO wants to move towards a Goodhart zone, it can move a tiny bit along one dimension, and a tiny bit along another, then a tiny bit along yet another.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057394",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "There are billions of dimensions to move along",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "…it can move a tiny bit along one dimension, and a tiny bit along another, then a tiny bit along yet another. There are billions of dimensions to move along, and typically these tiny changes will only make a small change in the input but add up strongly in the LLM's classification/concept space.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057395",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "typically these tiny changes will only make a small change in the input but add up strongly in the LLM's classification/concept space.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "…it can move a tiny bit along one dimension, and a tiny bit along another, then a tiny bit along yet another. There are billions of dimensions to move along, and typically these tiny changes will only make a small change in the input but add up strongly in the LLM's classification/concept space.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057396",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "Harnessing Adversarial Examples (2014)\nby Ian J. Goodfellow, Jonathon Shlens, Christian Szegedy",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "Explaining and Harnessing Adversarial Examples (2014)\nby Ian J. Goodfellow, Jonathon Shlens, Christian Szegedy",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057397",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "...small real world \"noisy\" changes to the LLM's inputs will move the situation into a Goodhart zone.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "...small real world \"noisy\" changes to the LLM's inputs will move the situation into a Goodhart zone.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057398",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "Thus, because of how neural nets work, small changes to the real world need not be small in the LLM's concept space",
+      "type": "causal",
+      "support_in_text": 0.55,
+      "quote": "Thus, because of how neural nets work, small changes to the real world need not be small in the LLM's concept space, and so seemingly trivial changes in the real world can move the LLM's verdict a lot[1]: there are Goodhart zones close to any starting point.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057399",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "so seemingly trivial changes in the real world can move the LLM's verdict a lot[1]: there are Goodhart zones close to any starting point.",
+      "type": "empirical",
+      "support_in_text": 0.55,
+      "quote": "Thus, because of how neural nets work, small changes to the real world need not be small in the LLM's concept space, and so seemingly trivial changes in the real world can move the LLM's verdict a lot[1]: there are Goodhart zones close to any starting point.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057400",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "In very high dimensions, if the model is at least somewhat linear, then there are dangerous area very close to any point",
+      "type": "descriptive",
+      "support_in_text": 0.25,
+      "quote": "In very high dimensions, if the model is at least somewhat linear, then there are dangerous area very close to any point",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057401",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "The AI CEO will thus make some collection of minor-seeming changes to the current situation, self-hacking the LLM by these changes",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "The AI CEO will thus make some collection of minor-seeming changes to the current situation, self-hacking the LLM by these changes, and then it will destroy the company to build a giant stock-ticker with a swiftly increasing number on it.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057402",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "then it will destroy the company to build a giant stock-ticker with a swiftly increasing number on it.",
+      "type": "predictive",
+      "support_in_text": 0.25,
+      "quote": "The AI CEO will thus make some collection of minor-seeming changes to the current situation, self-hacking the LLM by these changes, and then it will destroy the company to build a giant stock-ticker with a swiftly increasing number on it.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057403",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "^\n\nAnd these small changes might be the most effective gradient to increase G(proxy), thus findable by gradient descent-style methods.",
+      "type": "descriptive",
+      "support_in_text": 0.32,
+      "quote": "^\n\nAnd these small changes might be the most effective gradient to increase G(proxy), thus findable by gradient descent-style methods.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057404",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "Transferable Adversarial Attacks on Aligned Language Models (2023) by Andy Zou, Zifan Wang, Nicholas Carlini, Milad Nasr, J. Zico Kolter, and Matt Fredrikson.",
+      "type": "statistical",
+      "support_in_text": 0.35,
+      "quote": "…small changes might be the most effective gradient to increase G(proxy), thus findable by gradient descent-style methods. See Universal and Transferable Adversarial Attacks on Aligned Language Models (2023) by Andy Zou, Zifan Wang, Nicholas Carlini, Milad Nasr, J. Zico Kolter, and Matt Fredrikson.",
+      "run_id": "39741489367",
+      "status": "extracted"
+    },
+    {
+      "id": "clm_057405",
+      "source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "text": "That paper shows that gradient search works on discrete text, and that methods found on one LLM can transfer to others.",
+      "type": "descriptive",
+      "support_in_text": 0.6,
+      "quote": "See Universal and Transferable Adversarial Attacks on Aligned Language Models (2023) by Andy Zou, Zifan Wang, Nicholas Carlini, Milad Nasr, J. Zico Kolter, and Matt Fredrikson. That paper shows that gradient search works on discrete text, and that methods found on one LLM can transfer to others.",
+      "run_id": "39741489367",
       "status": "extracted"
     }
   ],

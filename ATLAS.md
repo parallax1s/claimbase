@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 39563497556 · sources 2044 · claims 39393 · edges 1279 · verified 73
+run 39741489367 · sources 2069 · claims 39599 · edges 1279 · verified 73
 
 ## Districts
 
@@ -11,18 +11,18 @@ run 39563497556 · sources 2044 · claims 39393 · edges 1279 · verified 73
 woff · font · mathjax                  ░░░░░░░░░░   1161 claims  ⚡0
 mjx · padding · content                ░░░░░░░░░░    730 claims  ⚡0
 mjx · padding · content                ░░░░░░░░░░    326 claims  ⚡0
-Multi-Agent LLM Systems                ░░░░░░░░░░    290 claims  ⚡0
-Cross-Modal Knowledge Distillation     ░░░░░░░░░░    237 claims  ⚡0
+Multi-Agent LLM Systems                ░░░░░░░░░░    291 claims  ⚡0
+Cross-Modal Knowledge Distillation     ░░░░░░░░░░    238 claims  ⚡0
 Latent Variable and Neural Models      ░░░░░░░░░░    210 claims  ⚡0
 Anthropic Company Moves                ▓▓▓░░░░░░░    201 claims  ⚡0
 Control Monitor Benchmarks             ░░░░░░░░░░    189 claims  ⚡0
-LLM Architecture Research              ░░░░░░░░░░    180 claims  ⚡0
+LLM Architecture Research              ░░░░░░░░░░    183 claims  ⚡0
 Temporal Image Consistency             ░░░░░░░░░░    139 claims  ⚡0
 Model Arena Leaderboard Churn          ▓▓▓▓▓▓░░░░    139 claims  ⚡0
-training · models · ground             ░░░░░░░░░░    135 claims  ⚡0
+training · models · ground             ░░░░░░░░░░    136 claims  ⚡0
 right · mjx · rspace                   ░░░░░░░░░░    126 claims  ⚡0
+Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    120 claims  ⚡0
 Corrigibility Value Tension            ░░░░░░░░░░    120 claims  ⚡0
-Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    117 claims  ⚡0
 prediction · accuracy · time           ░░░░░░░░░░    113 claims  ⚡0
 layers · layer · spatial               ░░░░░░░░░░    110 claims  ⚡0
 Neural Decoding and Brain-AI           ░░░░░░░░░░    105 claims  ⚡0
@@ -30,10 +30,10 @@ AI Existential Risk Discourse          ▓▓░░░░░░░░    102 cla
 Alignment Faking Detection Thresholds  ░░░░░░░░░░     96 claims  ⚡0
 Epistemic Uncertainty Hedges           ▓░░░░░░░░░     95 claims  ⚡0
 bias · preference · analysis           ░░░░░░░░░░     91 claims  ⚡0
-AI Safety Institute Collaboration      ░░░░░░░░░░     86 claims  ⚡0
+AI Safety Institute Collaboration      ░░░░░░░░░░     89 claims  ⚡0
 Behavior Cue Token Signaling           ░░░░░░░░░░     83 claims  ⚡0
 Weak-to-Strong Generalization          ░░░░░░░░░░     83 claims  ⚡0
-… and 4559 smaller districts (32605 claims)
+… and 4578 smaller districts (32802 claims)
 ```
 
 ## Sharpest fault
