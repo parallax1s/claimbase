@@ -87024,8 +87024,8 @@
 {"id": "task_087024", "kind": "refine", "payload": {"claim_id": "clm_059762"}, "created_run": "40657417122", "status": "pending"}
 {"id": "task_087025", "kind": "refine", "payload": {"claim_id": "clm_059766"}, "created_run": "40657417122", "status": "pending"}
 {"id": "task_087026", "kind": "refine", "payload": {"claim_id": "clm_059768"}, "created_run": "40657417122", "status": "pending"}
-{"id": "task_087027", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/BFyNkWgxucqy6Wcee/notes-on-we-re-in-triage-mode-for-ai-safety-by-miles"}, "created_run": "40657417122", "status": "pending"}
-{"id": "task_087028", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25"}, "created_run": "40657417122", "status": "pending"}
+{"id": "task_087027", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/BFyNkWgxucqy6Wcee/notes-on-we-re-in-triage-mode-for-ai-safety-by-miles"}, "created_run": "40657417122", "status": "skipped", "note": "fable failed: GitHub Models failed after retries: Expecting value: line 1 column 1 (char 0)"}
+{"id": "task_087028", "kind": "extract", "payload": {"source_id": "src_lesswrong-af_https://www.alignmentforum.org/posts/dmYP7DS3ERyXGAYe6/setting-the-scene-public-v1-october-25"}, "created_run": "40657417122", "status": "skipped", "note": "fable failed: GitHub Models failed after retries: Expecting value: line 1 column 1 (char 0)"}
 {"id": "task_087029", "kind": "identity", "payload": {"a": "clm_000205", "b": "clm_059664", "sim": 0.7453}, "created_run": "40657417122", "status": "pending"}
 {"id": "task_087030", "kind": "edge", "payload": {"a": "clm_000211", "b": "clm_059705", "sim": 0.4606}, "created_run": "40657417122", "status": "pending"}
 {"id": "task_087031", "kind": "edge", "payload": {"a": "clm_000276", "b": "clm_059643", "sim": 0.5375}, "created_run": "40657417122", "status": "pending"}
