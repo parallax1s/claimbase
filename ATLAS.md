@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 40469649568 · sources 2145 · claims 40285 · edges 1279 · verified 73
+run 40657417122 · sources 2146 · claims 40338 · edges 1279 · verified 73
 
 ## Districts
 
@@ -26,14 +26,14 @@ Corrigibility Value Tension            ░░░░░░░░░░    120 cla
 prediction · accuracy · time           ░░░░░░░░░░    116 claims  ⚡0
 layers · layer · spatial               ░░░░░░░░░░    110 claims  ⚡0
 Neural Decoding and Brain-AI           ░░░░░░░░░░    107 claims  ⚡0
-AI Existential Risk Discourse          ▓▓░░░░░░░░    103 claims  ⚡0
+AI Existential Risk Discourse          ▓▓░░░░░░░░    105 claims  ⚡0
 Alignment Faking Detection Thresholds  ░░░░░░░░░░     97 claims  ⚡0
 Epistemic Uncertainty Hedges           ▓░░░░░░░░░     95 claims  ⚡0
 AI Safety Institute Collaboration      ░░░░░░░░░░     92 claims  ⚡0
 bias · preference · analysis           ░░░░░░░░░░     91 claims  ⚡0
 Weak-to-Strong Generalization          ░░░░░░░░░░     86 claims  ⚡0
 Behavior Cue Token Signaling           ░░░░░░░░░░     84 claims  ⚡0
-… and 4639 smaller districts (33453 claims)
+… and 4638 smaller districts (33475 claims)
 ```
 
 ## Sharpest fault
