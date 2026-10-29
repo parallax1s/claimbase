@@ -10,6 +10,9 @@ Commands:
           seen yet (one-off after adding/expanding data/questions.jsonl).
   fable   Worker-side deep extraction for one source or pending extract
           tasks (requires the episteme-fable engine + claude CLI).
+  attach-drain
+          Judge pending attach tasks for validated-tier claims (WORKER.md
+          rubric) through claude -p; dry run with --dry-run.
   sweep-junk
           Retire junk-shaped claims (CSS/MathJax/JS fragments) already in
           data/claims.jsonl; dry run unless --apply. Then `compile`.
@@ -345,12 +348,30 @@ def main() -> None:
     sj_p.add_argument("--repo-root", default=".", dest="repo_root",
                       help="Path to the claimbase repo root (default: current directory).")
 
+    # ---- attach-drain ----
+    ad_p = sub.add_parser("attach-drain",
+                          help="Judge pending attach tasks (validated-tier claims only).")
+    ad_p.add_argument("--run-id", required=True, dest="run_id")
+    ad_p.add_argument("--model", default=None, help="judge model (default claude-sonnet-5-5)")
+    ad_p.add_argument("--limit", type=int, default=None, help="max batches to run")
+    ad_p.add_argument("--per-question-cap", type=int, default=None, dest="per_question_cap")
+    ad_p.add_argument("--workers", type=int, default=4)
+    ad_p.add_argument("--dry-run", action="store_true", dest="dry_run")
+    ad_p.add_argument("--repo-root", default=".", dest="repo_root")
+
     args = parser.parse_args()
 
     if args.command == "run":
         _cmd_run(args)
     elif args.command == "compile":
         _cmd_compile(args)
+    elif args.command == "attach-drain":
+        from mole.attach_drain import DEFAULT_MODEL, drain
+        summary = drain(Path(args.repo_root).resolve(), run_id=args.run_id,
+                        model=args.model or DEFAULT_MODEL, limit=args.limit,
+                        per_question_cap=args.per_question_cap, workers=args.workers,
+                        dry_run=args.dry_run)
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
     elif args.command == "sweep-junk":
         from mole.sweep import sweep_junk
         summary = sweep_junk(Path(args.repo_root).resolve(), run_id=args.run_id,
