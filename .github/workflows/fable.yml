@@ -3,20 +3,21 @@ name: fable
 # Worker-side deep extraction in CI: drains pending `extract` tasks with the
 # episteme-fable engine (see WORKER.md, "Rubric — extract tasks").
 #
-# Auth, in order of preference:
-#   ANTHROPIC_API_KEY        — direct Messages API (EPF_PROVIDER=anthropic, no
-#                              Node/CLI). A key from the Console org linked to
-#                              the owner's Max plan spends its monthly API credits.
-#   CLAUDE_CODE_OAUTH_TOKEN  — `claude setup-token`; runs the claude CLI.
-#   (none)                   — GitHub Models. RETIRED 2026-07-30 (HTTP 410):
-#                              every drain from 2026-07-31 to 2026-10-29 skipped
-#                              its tasks silently. The drain now fails loudly
-#                              when nothing is extracted, so this cannot recur.
+# NOT SCHEDULED since 2026-10-29. The keyless provider (GitHub Models) was
+# retired 2026-07-30 and every scheduled drain from then until 2026-10-29
+# skipped its tasks silently (HTTP 410). By the owner's decision the daily
+# drain does NOT run on the Max plan's API credits; the accrued backlog is
+# drained locally (`EPF_PROVIDER=anthropic python -m mole fable --drain N`)
+# and new extract tasks accrue until the next manual drain. The drain now
+# fails loudly when nothing is extracted, so a dead provider cannot hide.
+# Manual dispatch still works; provider by available secret:
+#   ANTHROPIC_API_KEY        — direct Messages API (EPF_PROVIDER=anthropic)
+#   CLAUDE_CODE_OAUTH_TOKEN  — `claude setup-token`; runs the claude CLI
 # Bench parity (12-doc gold set): haiku F1 0.869 vs gpt-4.1-mini F1 0.865.
 
 on:
-  schedule:
-    - cron: "45 */6 * * *"   # 4x/day, offset from the 02:15 mole run
+  # schedule removed 2026-10-29 (see header); re-add a cron here only with a
+  # provider the owner wants running unattended.
   workflow_dispatch:
     inputs:
       drain:
