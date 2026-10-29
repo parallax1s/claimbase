@@ -3,12 +3,15 @@ name: fable
 # Worker-side deep extraction in CI: drains pending `extract` tasks with the
 # episteme-fable engine (see WORKER.md, "Rubric — extract tasks").
 #
-# Auth — keyless by default: with no secrets configured, the engine runs on
-# the GitHub Models inference API using this workflow's own token
-# (permissions: models: read). Optional overrides:
-#   CLAUDE_CODE_OAUTH_TOKEN  — `claude setup-token`; runs claude CLI on the
-#                              Claude subscription (haiku propose quality)
-#   ANTHROPIC_API_KEY        — metered API fallback for the claude CLI
+# Auth, in order of preference:
+#   ANTHROPIC_API_KEY        — direct Messages API (EPF_PROVIDER=anthropic, no
+#                              Node/CLI). A key from the Console org linked to
+#                              the owner's Max plan spends its monthly API credits.
+#   CLAUDE_CODE_OAUTH_TOKEN  — `claude setup-token`; runs the claude CLI.
+#   (none)                   — GitHub Models. RETIRED 2026-07-30 (HTTP 410):
+#                              every drain from 2026-07-31 to 2026-10-29 skipped
+#                              its tasks silently. The drain now fails loudly
+#                              when nothing is extracted, so this cannot recur.
 # Bench parity (12-doc gold set): haiku F1 0.869 vs gpt-4.1-mini F1 0.865.
 
 on:
@@ -53,7 +56,9 @@ jobs:
       - name: Select provider
         id: provider
         run: |
-          if [ -n "$CLAUDE_CODE_OAUTH_TOKEN" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "kind=anthropic" >> "$GITHUB_OUTPUT"
+          elif [ -n "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
             echo "kind=claude" >> "$GITHUB_OUTPUT"
           else
             echo "kind=github" >> "$GITHUB_OUTPUT"

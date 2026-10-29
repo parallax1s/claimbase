@@ -152,6 +152,7 @@ def _cmd_fable(args: argparse.Namespace) -> None:
         print("--text-file requires a single --source", file=sys.stderr)
         sys.exit(2)
 
+    extracted = skipped = 0
     for sid in source_ids:
         try:
             summary = run_fable(
@@ -179,8 +180,18 @@ def _cmd_fable(args: argparse.Namespace) -> None:
                 note=f"fable failed: {str(exc)[:160]}",
             )
             print(json.dumps({"source_id": sid, "skipped": str(exc)[:200]}))
+            skipped += 1
             continue
+        extracted += 1
         print(json.dumps(summary, indent=2, ensure_ascii=False))
+    if drain_mode:
+        print(json.dumps({"drain": {"extracted": extracted, "skipped": skipped}}), file=sys.stderr)
+        # Alarm: a drain that skipped everything is a dead provider, not a
+        # quiet day (GitHub Models retired 2026-07-30; nobody noticed for three
+        # months because every run went green). Fail so the workflow goes red.
+        if skipped and not extracted:
+            print(f"error: drain extracted 0 sources, skipped {skipped} — provider dead?", file=sys.stderr)
+            sys.exit(3)
 
 
 def _cmd_tribunal(args: argparse.Namespace) -> None:
