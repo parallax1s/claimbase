@@ -10,6 +10,9 @@ Commands:
           seen yet (one-off after adding/expanding data/questions.jsonl).
   fable   Worker-side deep extraction for one source or pending extract
           tasks (requires the episteme-fable engine + claude CLI).
+  sweep-junk
+          Retire junk-shaped claims (CSS/MathJax/JS fragments) already in
+          data/claims.jsonl; dry run unless --apply. Then `compile`.
 """
 
 from __future__ import annotations
@@ -330,12 +333,29 @@ def main() -> None:
     eb_p.add_argument("--repo-root", default=".", dest="repo_root",
                       help="Path to the claimbase repo root (default: current directory).")
 
+    # ---- sweep-junk ----
+    sj_p = sub.add_parser(
+        "sweep-junk",
+        help="Retire junk-shaped claims (CSS/MathJax/JS) already in data/claims.jsonl.",
+    )
+    sj_p.add_argument("--run-id", required=True, dest="run_id",
+                      help="Run id stamped as retired_by on swept rows.")
+    sj_p.add_argument("--apply", action="store_true",
+                      help="Rewrite claims.jsonl / queue (default: dry run, print counts).")
+    sj_p.add_argument("--repo-root", default=".", dest="repo_root",
+                      help="Path to the claimbase repo root (default: current directory).")
+
     args = parser.parse_args()
 
     if args.command == "run":
         _cmd_run(args)
     elif args.command == "compile":
         _cmd_compile(args)
+    elif args.command == "sweep-junk":
+        from mole.sweep import sweep_junk
+        summary = sweep_junk(Path(args.repo_root).resolve(), run_id=args.run_id,
+                             apply=args.apply)
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
     elif args.command == "map":
         _cmd_map(args)
     elif args.command == "attach-backfill":
