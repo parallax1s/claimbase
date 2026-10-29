@@ -152,38 +152,48 @@ def _cmd_fable(args: argparse.Namespace) -> None:
         print("--text-file requires a single --source", file=sys.stderr)
         sys.exit(2)
 
-    extracted = skipped = 0
-    for sid in source_ids:
+    from concurrent.futures import ThreadPoolExecutor
+    from mole.fable import _WRITE_LOCK
+
+    def _one(sid: str):
         try:
-            summary = run_fable(
+            return run_fable(
                 repo_root,
                 source_id=sid,
                 run_id=args.run_id,
                 model=args.model,
                 assemble_model=args.assemble_model,
                 text=text,
-            )
+            ), None
         except Exception as exc:  # noqa: BLE001 - drain must survive bad sources
             if not drain_mode:
                 raise
             # Refetch/engine failure on one source must not stall the queue:
             # flip its extract tasks skipped with the reason (WORKER.md rubric)
             # and move on.
-            store.update_tasks(
-                repo_root,
-                lambda t, s=sid: (
-                    t.get("status") == "pending"
-                    and t.get("kind") == "extract"
-                    and t.get("payload", {}).get("source_id") == s
-                ),
-                status="skipped",
-                note=f"fable failed: {str(exc)[:160]}",
-            )
-            print(json.dumps({"source_id": sid, "skipped": str(exc)[:200]}))
-            skipped += 1
-            continue
-        extracted += 1
-        print(json.dumps(summary, indent=2, ensure_ascii=False))
+            with _WRITE_LOCK:
+                store.update_tasks(
+                    repo_root,
+                    lambda t, s=sid: (
+                        t.get("status") == "pending"
+                        and t.get("kind") == "extract"
+                        and t.get("payload", {}).get("source_id") == s
+                    ),
+                    status="skipped",
+                    note=f"fable failed: {str(exc)[:160]}",
+                )
+            return None, exc
+
+    extracted = skipped = 0
+    workers = max(1, int(getattr(args, "workers", 1) or 1)) if drain_mode else 1
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        for sid, (summary, exc) in zip(source_ids, pool.map(_one, source_ids)):
+            if exc is not None:
+                print(json.dumps({"source_id": sid, "skipped": str(exc)[:200]}))
+                skipped += 1
+                continue
+            extracted += 1
+            print(json.dumps(summary, indent=2, ensure_ascii=False))
     if drain_mode:
         print(json.dumps({"drain": {"extracted": extracted, "skipped": skipped}}), file=sys.stderr)
         # Alarm: a drain that skipped everything is a dead provider, not a
@@ -320,6 +330,8 @@ def main() -> None:
                          help="Propose model override (default: engine default, haiku).")
     fable_p.add_argument("--assemble-model", default=None, dest="assemble_model",
                          help="Assemble model override (default: engine default, sonnet).")
+    fable_p.add_argument("--workers", type=int, default=1,
+                         help="Concurrent sources in drain mode (LLM phase parallel; writes serialised).")
     fable_p.add_argument("--text-file", default=None, dest="text_file",
                          help="Read source text from a file instead of refetching (single --source only).")
     fable_p.add_argument("--repo-root", default=".", dest="repo_root",

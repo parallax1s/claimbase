@@ -33,6 +33,7 @@ import json
 import os
 import re
 import sys
+import threading
 import urllib.parse
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -41,6 +42,11 @@ from typing import Any
 from mole import store
 
 DEFAULT_ENGINE_SRC = "/Users/mo/Desktop/Prj.nosync/programming/episteme-fable/src"
+# Serialises the write phase (id allocation -> task flips) so a drain can run
+# several sources' LLM work concurrently; every store write is read-modify-write.
+_WRITE_LOCK = threading.Lock()
+_INDEX_CACHE: dict[str, Any] = {"n": -1, "index": None}
+_INDEX_STALE_AFTER = 250  # rebuild the attach index when this many live claims were added
 QUOTE_CAP = 300
 SUPPORT_IN_TEXT_NEUTRAL = 0.5  # fable rows carry epistemics in stance/hedge;
                                # this legacy field is kept schema-compatible
@@ -239,97 +245,102 @@ def run_fable(
         [p.to_dict() for p in art.points],
     )
 
-    claim_start = int(store.next_claim_id(repo_root).split("_")[1]) - 1
-    thesis_start = int(store.next_thesis_id(repo_root).split("_")[1]) - 1
-    claim_records, thesis_records = map_artifact(
-        claims=claim_dicts,
-        theses=thesis_dicts,
-        source_id=source_id,
-        run_id=run_id,
-        claim_start=claim_start,
-        thesis_start=thesis_start,
-        drift=drift,
-    )
+    with _WRITE_LOCK:
+        claim_start = int(store.next_claim_id(repo_root).split("_")[1]) - 1
+        thesis_start = int(store.next_thesis_id(repo_root).split("_")[1]) - 1
+        claim_records, thesis_records = map_artifact(
+            claims=claim_dicts,
+            theses=thesis_dicts,
+            source_id=source_id,
+            run_id=run_id,
+            claim_start=claim_start,
+            thesis_start=thesis_start,
+            drift=drift,
+        )
 
-    # Supersede: retire prior claims, obsolete their pending refine tasks.
-    prior_claim_ids = {
-        c["id"]
-        for c in store.load_all_claims(repo_root)
-        if c.get("source_id") == source_id and c.get("status") != "retired"
-    }
-    retired = store.retire_claims_for_source(repo_root, source_id)
-    obsoleted = store.update_tasks(
-        repo_root,
-        lambda t: (
-            t.get("status") == "pending"
-            and t.get("kind") == "refine"
-            and t.get("payload", {}).get("claim_id") in prior_claim_ids
-        ),
-        status="obsolete",
-        note=f"claim retired; source re-extracted by {run_id}",
-    )
-
-    store.append_claims_batch(repo_root, claim_records)
-    store.append_theses_batch(repo_root, thesis_records)
-    store.bump_source_extraction(
-        repo_root,
-        source_id=source_id,
-        claim_count=len(claim_records),
-        fable_run=run_id,
-    )
-
-    # Attach candidates: claims (calibrated lexical) + theses (hybrid).
-    from mole import attach as attach_mod
-
-    attach_claims = attach_theses = 0
-    questions = store.load_live_questions(repo_root)
-    if questions:
-        live_texts = [
-            c["text"] for c in store.load_all_claims(repo_root)
-            if c.get("status") != "retired"
-        ]
-        index = attach_mod.build_index(live_texts, questions)
-        already = {
-            (t["payload"].get("question_id"), t["payload"].get("claim_id"))
-            for t in store.load_all_tasks(repo_root)
-            if t.get("kind") == "attach"
+        # Supersede: retire prior claims, obsolete their pending refine tasks.
+        prior_claim_ids = {
+            c["id"]
+            for c in store.load_all_claims(repo_root)
+            if c.get("source_id") == source_id and c.get("status") != "retired"
         }
-        task_max = int(store.next_task_id(repo_root).split("_")[1]) - 1
-        for claim_id, question_id, sim in attach_mod.candidates(claim_records, index):
-            if (question_id, claim_id) in already:
-                continue
-            task_max += 1
-            store.append_task(
-                repo_root, task_id=f"task_{task_max:06d}", kind="attach",
-                payload={"question_id": question_id, "claim_id": claim_id, "sim": sim},
-                created_run=run_id,
-            )
-            attach_claims += 1
-        for thesis_id, question_id, sim in attach_mod.candidates_hybrid(
-            thesis_records, index, questions
-        ):
-            if (question_id, thesis_id) in already:
-                continue
-            task_max += 1
-            store.append_task(
-                repo_root, task_id=f"task_{task_max:06d}", kind="attach",
-                payload={"question_id": question_id, "claim_id": thesis_id, "sim": sim},
-                created_run=run_id,
-            )
-            attach_theses += 1
+        retired = store.retire_claims_for_source(repo_root, source_id)
+        obsoleted = store.update_tasks(
+            repo_root,
+            lambda t: (
+                t.get("status") == "pending"
+                and t.get("kind") == "refine"
+                and t.get("payload", {}).get("claim_id") in prior_claim_ids
+            ),
+            status="obsolete",
+            note=f"claim retired; source re-extracted by {run_id}",
+        )
 
-    # Flip this source's extract tasks.
-    done = store.update_tasks(
-        repo_root,
-        lambda t: (
-            t.get("status") == "pending"
-            and t.get("kind") == "extract"
-            and t.get("payload", {}).get("source_id") == source_id
-        ),
-        status="done",
-        note=f"extracted by {run_id}: {len(claim_records)} claims, "
-             f"{len(thesis_records)} theses",
-    )
+        store.append_claims_batch(repo_root, claim_records)
+        store.append_theses_batch(repo_root, thesis_records)
+        store.bump_source_extraction(
+            repo_root,
+            source_id=source_id,
+            claim_count=len(claim_records),
+            fable_run=run_id,
+        )
+
+        # Attach candidates: claims (calibrated lexical) + theses (hybrid).
+        from mole import attach as attach_mod
+
+        attach_claims = attach_theses = 0
+        questions = store.load_live_questions(repo_root)
+        if questions:
+            live_texts = [
+                c["text"] for c in store.load_all_claims(repo_root)
+                if c.get("status") != "retired"
+            ]
+            if (_INDEX_CACHE["index"] is None
+                    or len(live_texts) - _INDEX_CACHE["n"] >= _INDEX_STALE_AFTER):
+                _INDEX_CACHE["index"] = attach_mod.build_index(live_texts, questions)
+                _INDEX_CACHE["n"] = len(live_texts)
+            index = _INDEX_CACHE["index"]
+            already = {
+                (t["payload"].get("question_id"), t["payload"].get("claim_id"))
+                for t in store.load_all_tasks(repo_root)
+                if t.get("kind") == "attach"
+            }
+            task_max = int(store.next_task_id(repo_root).split("_")[1]) - 1
+            for claim_id, question_id, sim in attach_mod.candidates(claim_records, index):
+                if (question_id, claim_id) in already:
+                    continue
+                task_max += 1
+                store.append_task(
+                    repo_root, task_id=f"task_{task_max:06d}", kind="attach",
+                    payload={"question_id": question_id, "claim_id": claim_id, "sim": sim},
+                    created_run=run_id,
+                )
+                attach_claims += 1
+            for thesis_id, question_id, sim in attach_mod.candidates_hybrid(
+                thesis_records, index, questions
+            ):
+                if (question_id, thesis_id) in already:
+                    continue
+                task_max += 1
+                store.append_task(
+                    repo_root, task_id=f"task_{task_max:06d}", kind="attach",
+                    payload={"question_id": question_id, "claim_id": thesis_id, "sim": sim},
+                    created_run=run_id,
+                )
+                attach_theses += 1
+
+        # Flip this source's extract tasks.
+        done = store.update_tasks(
+            repo_root,
+            lambda t: (
+                t.get("status") == "pending"
+                and t.get("kind") == "extract"
+                and t.get("payload", {}).get("source_id") == source_id
+            ),
+            status="done",
+            note=f"extracted by {run_id}: {len(claim_records)} claims, "
+                 f"{len(thesis_records)} theses",
+        )
 
     return {
         "source_id": source_id,
