@@ -129,3 +129,19 @@ def test_candidates_hybrid_lexical_fallback(monkeypatch):
     ids = [h[0] for h in hits]
     assert "th_000001" in ids
     assert "th_000002" not in ids
+
+
+def test_refetch_lesswrong_uses_graphql_body(monkeypatch):
+    from mole import fable
+    calls = []
+
+    def fake(host, post_id):
+        calls.append((host, post_id))
+        return "A Title", "<p>First <b>para</b>.</p><script>var junk = 1;</script><p>Second.</p>"
+
+    monkeypatch.setattr(fable, "_lesswrong_post_html", fake)
+    text, drift = fable.refetch_text({"url": "https://www.alignmentforum.org/posts/LCGcD28rSMkMTMvBK/the-case",
+                                      "feed": "lesswrong-af", "content_sha256": "x"})
+    assert calls == [("alignmentforum.org", "LCGcD28rSMkMTMvBK")]
+    assert text.startswith("A Title") and "First para." in text and "Second." in text
+    assert "var junk" not in text and drift is True

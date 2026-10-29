@@ -76,6 +76,30 @@ def _bootstrap_engine():
 # ---------------------------------------------------------------------------
 
 _ARXIV_ID_RE = re.compile(r"arxiv\.org/abs/([^\s?#]+)")
+_LW_POST_RE = re.compile(r"https?://(www\.)?(lesswrong\.com|alignmentforum\.org)/posts/([A-Za-z0-9]+)")
+
+
+def _lesswrong_post_html(host: str, post_id: str) -> tuple[str, str]:
+    """(title, htmlBody) of a LessWrong / Alignment Forum post via the forum's
+    GraphQL API. The HTML page itself is a Next.js bundle (hundreds of KB of
+    JS + escaped HTML); stripping tags from it yields script text as 'prose'
+    (2026-10-30: two AF posts produced 1,021 junk claims that way)."""
+    import urllib.request
+    from mole import feeds as feeds_mod
+
+    query = ('{post(input:{selector:{_id:"%s"}}){result{title htmlBody}}}' % post_id)
+    body = json.dumps({"query": query}).encode("utf-8")
+    # Alignment Forum posts live in the LessWrong database under the same id;
+    # alignmentforum.org/graphql answers with a 308 redirect, so always ask LW.
+    req = urllib.request.Request(
+        "https://www.lesswrong.com/graphql", data=body, method="POST",
+        headers={"Content-Type": "application/json", "User-Agent": feeds_mod.USER_AGENT})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    result = ((data.get("data") or {}).get("post") or {}).get("result") or {}
+    if not result.get("htmlBody"):
+        raise RuntimeError(f"lesswrong graphql returned no htmlBody for {post_id}: {str(data)[:200]}")
+    return result.get("title") or "", result["htmlBody"]
 
 
 def refetch_text(source_rec: dict[str, Any]) -> tuple[str, bool]:
@@ -98,6 +122,10 @@ def refetch_text(source_rec: dict[str, Any]) -> tuple[str, bool]:
         title = feeds_mod._first_child_text(entry, ["title"], default="")
         abstract = feeds_mod._first_child_text(entry, ["summary"], default="")
         text = f"{title}\n\n{feeds_mod._strip_html(str(abstract))}".strip()
+    elif _LW_POST_RE.search(url):
+        lw = _LW_POST_RE.search(url)
+        title, html_body = _lesswrong_post_html(lw.group(2), lw.group(3))
+        text = f"{title}\n\n{feeds_mod._strip_html(html_body)}".strip()
     else:
         html = feeds_mod._fetch_text(url, headers={"User-Agent": feeds_mod.USER_AGENT})
         text = feeds_mod._strip_html(html)

@@ -142,7 +142,11 @@ def _cmd_fable(args: argparse.Namespace) -> None:
     if args.source:
         source_ids = [args.source]
     else:
-        source_ids = pending_extract_sources(repo_root)[: args.drain]
+        source_ids = pending_extract_sources(repo_root)
+        if getattr(args, "feed_prefix", None):
+            feeds = {s["id"]: s.get("feed", "") for s in store.load_all_sources(repo_root)}
+            source_ids = [s for s in source_ids if feeds.get(s, "").startswith(args.feed_prefix)]
+        source_ids = source_ids[: args.drain]
         if not source_ids:
             print("no pending extract tasks", file=sys.stderr)
             return
@@ -330,6 +334,8 @@ def main() -> None:
                          help="Propose model override (default: engine default, haiku).")
     fable_p.add_argument("--assemble-model", default=None, dest="assemble_model",
                          help="Assemble model override (default: engine default, sonnet).")
+    fable_p.add_argument("--feed-prefix", default=None, dest="feed_prefix",
+                         help="Drain only sources whose feed starts with this prefix (e.g. arxiv).")
     fable_p.add_argument("--workers", type=int, default=1,
                          help="Concurrent sources in drain mode (LLM phase parallel; writes serialised).")
     fable_p.add_argument("--text-file", default=None, dest="text_file",
