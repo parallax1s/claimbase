@@ -34,7 +34,9 @@ import os
 import re
 import sys
 import threading
+import urllib.error
 import urllib.parse
+import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
@@ -79,8 +81,14 @@ _ARXIV_ID_RE = re.compile(r"arxiv\.org/abs/([^\s?#]+)")
 # arXiv's export API asks for one request every 3 s per client and answers
 # bursts with HTTP 429; a drain with N workers must share one clock.
 _ARXIV_MIN_INTERVAL = float(os.environ.get("ARXIV_MIN_INTERVAL", "3.0"))
-_ARXIV_CLOCK = {"next": 0.0}
+_ARXIV_CLOCK = {"next": 0.0, "banned_until": 0.0}
 _ARXIV_LOCK = threading.Lock()
+_ARXIV_BAN_SECONDS = float(os.environ.get("ARXIV_BAN_SECONDS", "900"))
+
+
+def _arxiv_banned() -> bool:
+    import time as _time
+    return _time.monotonic() < _ARXIV_CLOCK["banned_until"]
 
 
 def _arxiv_fetch(api_url: str) -> str:
@@ -89,7 +97,9 @@ def _arxiv_fetch(api_url: str) -> str:
     import urllib.error
     from mole import feeds as feeds_mod
 
-    for attempt in range(4):
+    if _arxiv_banned():
+        raise urllib.error.HTTPError(api_url, 429, "arxiv client banned (local flag)", {}, None)
+    for attempt in range(2):
         with _ARXIV_LOCK:
             wait = _ARXIV_CLOCK["next"] - _time.monotonic()
             if wait > 0:
@@ -98,10 +108,16 @@ def _arxiv_fetch(api_url: str) -> str:
         try:
             return feeds_mod._fetch_text(api_url, headers={"User-Agent": feeds_mod.USER_AGENT})
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 3:
+            if e.code == 429 and attempt < 1:
                 with _ARXIV_LOCK:  # back everyone off, not just this thread
-                    _ARXIV_CLOCK["next"] = _time.monotonic() + 15.0 * (attempt + 1)
+                    _ARXIV_CLOCK["next"] = _time.monotonic() + 10.0
                 continue
+            if e.code == 429:
+                # Two 429s in a row: arXiv has banned this client for a while.
+                # Flag it so every worker goes straight to the fallbacks
+                # instead of burning the back-off per source.
+                with _ARXIV_LOCK:
+                    _ARXIV_CLOCK["banned_until"] = _time.monotonic() + _ARXIV_BAN_SECONDS
             raise
         except OSError:
             if attempt < 3:
@@ -135,6 +151,46 @@ def _lesswrong_post_html(host: str, post_id: str) -> tuple[str, str]:
     return result.get("title") or "", result["htmlBody"]
 
 
+def _openalex_arxiv(arxiv_id: str) -> tuple[str, str] | None:
+    """(title, abstract) from OpenAlex for an arXiv id, or None. Keyless,
+    polite pool via mailto; abstracts come as an inverted index."""
+    import urllib.error
+    import urllib.request
+    from mole import feeds as feeds_mod
+
+    bare = re.sub(r"v\d+$", "", arxiv_id)
+    url = ("https://api.openalex.org/works/https://doi.org/10.48550/arXiv." + bare
+           + "?mailto=" + urllib.parse.quote(os.environ.get("OPENALEX_MAILTO", "claimbase@example.org")))
+    req = urllib.request.Request(url, headers={"User-Agent": feeds_mod.USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except (urllib.error.HTTPError, OSError, json.JSONDecodeError):
+        return None
+    inv = data.get("abstract_inverted_index") or {}
+    if not inv:
+        return None
+    positions: list[tuple[int, str]] = [(p, w) for w, ps in inv.items() for p in ps]
+    abstract = " ".join(w for _, w in sorted(positions))
+    return (data.get("title") or "", abstract)
+
+
+def _arxiv_abs_page(url: str) -> tuple[str, str] | None:
+    """(title, abstract) scraped from the arxiv.org/abs page meta tags."""
+    import urllib.error
+    from mole import feeds as feeds_mod
+
+    try:
+        html = _arxiv_fetch(url.replace("http://", "https://"))
+    except (urllib.error.HTTPError, OSError, RuntimeError):
+        return None
+    t = re.search(r'<meta name="citation_title" content="([^"]*)"', html)
+    a = re.search(r'<meta property="og:description" content="([^"]*)"', html, re.S)
+    if not (t and a):
+        return None
+    return (feeds_mod._strip_html(t.group(1)), feeds_mod._strip_html(a.group(1)))
+
+
 def refetch_text(source_rec: dict[str, Any]) -> tuple[str, bool]:
     """Return (text, drift). drift=True when the refetched text's sha does
     not match the stored content_sha256 (feed-cleaned original)."""
@@ -147,14 +203,24 @@ def refetch_text(source_rec: dict[str, Any]) -> tuple[str, bool]:
         api = "http://export.arxiv.org/api/query?" + urllib.parse.urlencode(
             {"id_list": m.group(1), "max_results": "1"}
         )
-        xml_text = _arxiv_fetch(api)
-        root = ET.fromstring(xml_text)
-        entry = next((n for n in root.iter() if feeds_mod._localname(n.tag) == "entry"), None)
-        if entry is None:
-            raise RuntimeError(f"arxiv API returned no entry for {url}")
-        title = feeds_mod._first_child_text(entry, ["title"], default="")
-        abstract = feeds_mod._first_child_text(entry, ["summary"], default="")
-        text = f"{title}\n\n{feeds_mod._strip_html(str(abstract))}".strip()
+        title = abstract = None
+        try:
+            xml_text = _arxiv_fetch(api)
+            root = ET.fromstring(xml_text)
+            entry = next((n for n in root.iter() if feeds_mod._localname(n.tag) == "entry"), None)
+            if entry is None:
+                raise RuntimeError(f"arxiv API returned no entry for {url}")
+            title = feeds_mod._first_child_text(entry, ["title"], default="")
+            abstract = feeds_mod._strip_html(str(feeds_mod._first_child_text(entry, ["summary"], default="")))
+        except (urllib.error.HTTPError, OSError, RuntimeError, ET.ParseError) as exc:
+            # export.arxiv.org bans a client for a while after a burst (HTTP
+            # 429 on every call, 2026-10-30). Fall back to OpenAlex, then the
+            # abs page, before giving up on the source.
+            alt = _openalex_arxiv(m.group(1)) or _arxiv_abs_page(url)
+            if alt is None:
+                raise RuntimeError(f"arxiv unavailable ({exc}); no fallback for {url}") from exc
+            title, abstract = alt
+        text = f"{title}\n\n{abstract}".strip()
     elif _LW_POST_RE.search(url):
         lw = _LW_POST_RE.search(url)
         title, html_body = _lesswrong_post_html(lw.group(2), lw.group(3))

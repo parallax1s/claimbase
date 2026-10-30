@@ -165,3 +165,17 @@ def test_arxiv_fetch_backs_off_on_429(monkeypatch):
     fable._ARXIV_CLOCK["next"] = 0.0
     assert fable._arxiv_fetch("http://export.arxiv.org/api/query?id_list=x") == "<feed/>"
     assert len(attempts) == 2
+
+
+def test_refetch_arxiv_falls_back_to_openalex_on_429(monkeypatch):
+    import io
+    import urllib.error
+    from mole import fable
+
+    def boom(url):
+        raise urllib.error.HTTPError(url, 429, "Unknown Error", {}, io.BytesIO(b""))
+
+    monkeypatch.setattr(fable, "_arxiv_fetch", boom)
+    monkeypatch.setattr(fable, "_openalex_arxiv", lambda aid: ("T", "An abstract sentence."))
+    text, _ = fable.refetch_text({"url": "http://arxiv.org/abs/2608.24342v1", "feed": "arxiv-csai", "content_sha256": ""})
+    assert text == "T\n\nAn abstract sentence."
