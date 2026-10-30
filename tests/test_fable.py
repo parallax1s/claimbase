@@ -145,3 +145,23 @@ def test_refetch_lesswrong_uses_graphql_body(monkeypatch):
     assert calls == [("alignmentforum.org", "LCGcD28rSMkMTMvBK")]
     assert text.startswith("A Title") and "First para." in text and "Second." in text
     assert "var junk" not in text and drift is True
+
+
+def test_arxiv_fetch_backs_off_on_429(monkeypatch):
+    import io
+    import urllib.error
+    from mole import fable, feeds
+    attempts = []
+    monkeypatch.setattr(fable, "_ARXIV_MIN_INTERVAL", 0.0)
+
+    def fake_fetch(url, headers=None):
+        attempts.append(url)
+        if len(attempts) == 1:
+            raise urllib.error.HTTPError(url, 429, "Unknown Error", {}, io.BytesIO(b""))
+        return "<feed/>"
+
+    monkeypatch.setattr(feeds, "_fetch_text", fake_fetch)
+    monkeypatch.setattr(fable.time if hasattr(fable, "time") else __import__("time"), "sleep", lambda *_: None)
+    fable._ARXIV_CLOCK["next"] = 0.0
+    assert fable._arxiv_fetch("http://export.arxiv.org/api/query?id_list=x") == "<feed/>"
+    assert len(attempts) == 2

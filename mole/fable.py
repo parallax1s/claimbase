@@ -76,6 +76,39 @@ def _bootstrap_engine():
 # ---------------------------------------------------------------------------
 
 _ARXIV_ID_RE = re.compile(r"arxiv\.org/abs/([^\s?#]+)")
+# arXiv's export API asks for one request every 3 s per client and answers
+# bursts with HTTP 429; a drain with N workers must share one clock.
+_ARXIV_MIN_INTERVAL = float(os.environ.get("ARXIV_MIN_INTERVAL", "3.0"))
+_ARXIV_CLOCK = {"next": 0.0}
+_ARXIV_LOCK = threading.Lock()
+
+
+def _arxiv_fetch(api_url: str) -> str:
+    """Rate-limited, 429-tolerant GET of an arXiv API query."""
+    import time as _time
+    import urllib.error
+    from mole import feeds as feeds_mod
+
+    for attempt in range(4):
+        with _ARXIV_LOCK:
+            wait = _ARXIV_CLOCK["next"] - _time.monotonic()
+            if wait > 0:
+                _time.sleep(wait)
+            _ARXIV_CLOCK["next"] = _time.monotonic() + _ARXIV_MIN_INTERVAL
+        try:
+            return feeds_mod._fetch_text(api_url, headers={"User-Agent": feeds_mod.USER_AGENT})
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 3:
+                with _ARXIV_LOCK:  # back everyone off, not just this thread
+                    _ARXIV_CLOCK["next"] = _time.monotonic() + 15.0 * (attempt + 1)
+                continue
+            raise
+        except OSError:
+            if attempt < 3:
+                _time.sleep(5.0 * (attempt + 1))
+                continue
+            raise
+    raise RuntimeError("unreachable")
 _LW_POST_RE = re.compile(r"https?://(www\.)?(lesswrong\.com|alignmentforum\.org)/posts/([A-Za-z0-9]+)")
 
 
@@ -114,7 +147,7 @@ def refetch_text(source_rec: dict[str, Any]) -> tuple[str, bool]:
         api = "http://export.arxiv.org/api/query?" + urllib.parse.urlencode(
             {"id_list": m.group(1), "max_results": "1"}
         )
-        xml_text = feeds_mod._fetch_text(api, headers={"User-Agent": feeds_mod.USER_AGENT})
+        xml_text = _arxiv_fetch(api)
         root = ET.fromstring(xml_text)
         entry = next((n for n in root.iter() if feeds_mod._localname(n.tag) == "entry"), None)
         if entry is None:
