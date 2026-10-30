@@ -16,6 +16,7 @@ only (model2vec is optional).
 
 from __future__ import annotations
 
+import os
 import re
 from dataclasses import dataclass
 from typing import Any
@@ -833,6 +834,10 @@ def embed_texts(texts: list[str]) -> "list | None":
     Uses ``minishlab/potion-retrieval-32M`` (static CPU-only model2vec model).
     Returns ``None`` when model2vec is not installed or the model cannot load.
     """
+    # The HF tokenizers Rayon pool deadlocks when encode is called from
+    # several Python threads (2026-10-30: a 6-worker fable drain froze with
+    # every thread in rayon_core::sleep). Keep tokenization single-threaded.
+    os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
     try:
         import numpy as np
         from model2vec import StaticModel  # type: ignore[import]
