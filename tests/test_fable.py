@@ -5,6 +5,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import pytest
+
 from mole import attach, store
 from mole.fable import map_artifact, resolve_thesis_claims
 
@@ -147,24 +149,28 @@ def test_refetch_lesswrong_uses_graphql_body(monkeypatch):
     assert "var junk" not in text and drift is True
 
 
-def test_arxiv_fetch_backs_off_on_429(monkeypatch):
+def test_arxiv_fetch_flags_ban_on_429(monkeypatch):
     import io
     import urllib.error
-    from mole import fable, feeds
+    import urllib.request
+    from mole import fable
     attempts = []
     monkeypatch.setattr(fable, "_ARXIV_MIN_INTERVAL", 0.0)
-
-    def fake_fetch(url, headers=None):
-        attempts.append(url)
-        if len(attempts) == 1:
-            raise urllib.error.HTTPError(url, 429, "Unknown Error", {}, io.BytesIO(b""))
-        return "<feed/>"
-
-    monkeypatch.setattr(feeds, "_fetch_text", fake_fetch)
-    monkeypatch.setattr(fable.time if hasattr(fable, "time") else __import__("time"), "sleep", lambda *_: None)
     fable._ARXIV_CLOCK["next"] = 0.0
-    assert fable._arxiv_fetch("http://export.arxiv.org/api/query?id_list=x") == "<feed/>"
-    assert len(attempts) == 2
+    fable._ARXIV_CLOCK["banned_until"] = 0.0
+
+    def fake_urlopen(req, timeout=None):
+        attempts.append(req.full_url)
+        raise urllib.error.HTTPError(req.full_url, 429, "Unknown Error", {}, io.BytesIO(b""))
+
+    monkeypatch.setattr(urllib.request, "urlopen", fake_urlopen)
+    with pytest.raises(urllib.error.HTTPError):
+        fable._arxiv_fetch("http://export.arxiv.org/api/query?id_list=x")
+    assert len(attempts) == 1 and fable._arxiv_banned()
+    with pytest.raises(urllib.error.HTTPError):      # banned: no network attempt at all
+        fable._arxiv_fetch("http://export.arxiv.org/api/query?id_list=y")
+    assert len(attempts) == 1
+    fable._ARXIV_CLOCK["banned_until"] = 0.0
 
 
 def test_refetch_arxiv_falls_back_to_openalex_on_429(monkeypatch):

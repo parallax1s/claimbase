@@ -99,32 +99,24 @@ def _arxiv_fetch(api_url: str) -> str:
 
     if _arxiv_banned():
         raise urllib.error.HTTPError(api_url, 429, "arxiv client banned (local flag)", {}, None)
-    for attempt in range(2):
-        with _ARXIV_LOCK:
-            wait = _ARXIV_CLOCK["next"] - _time.monotonic()
-            if wait > 0:
-                _time.sleep(wait)
-            _ARXIV_CLOCK["next"] = _time.monotonic() + _ARXIV_MIN_INTERVAL
-        try:
-            return feeds_mod._fetch_text(api_url, headers={"User-Agent": feeds_mod.USER_AGENT})
-        except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 1:
-                with _ARXIV_LOCK:  # back everyone off, not just this thread
-                    _ARXIV_CLOCK["next"] = _time.monotonic() + 10.0
-                continue
-            if e.code == 429:
-                # Two 429s in a row: arXiv has banned this client for a while.
-                # Flag it so every worker goes straight to the fallbacks
-                # instead of burning the back-off per source.
-                with _ARXIV_LOCK:
-                    _ARXIV_CLOCK["banned_until"] = _time.monotonic() + _ARXIV_BAN_SECONDS
-            raise
-        except OSError:
-            if attempt < 3:
-                _time.sleep(5.0 * (attempt + 1))
-                continue
-            raise
-    raise RuntimeError("unreachable")
+    # One direct attempt, no inner back-off: feeds._open_with_backoff would
+    # sleep up to 2 min per 429 and a drain worker would sit on the shared
+    # clock that whole time. A 429 here flags the ban at once and the caller
+    # falls over to OpenAlex / the abs page.
+    with _ARXIV_LOCK:
+        wait = _ARXIV_CLOCK["next"] - _time.monotonic()
+        if wait > 0:
+            _time.sleep(wait)
+        _ARXIV_CLOCK["next"] = _time.monotonic() + _ARXIV_MIN_INTERVAL
+    req = urllib.request.Request(api_url, headers={"User-Agent": feeds_mod.USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return resp.read().decode("utf-8", errors="replace")
+    except urllib.error.HTTPError as e:
+        if e.code == 429:
+            with _ARXIV_LOCK:
+                _ARXIV_CLOCK["banned_until"] = _time.monotonic() + _ARXIV_BAN_SECONDS
+        raise
 _LW_POST_RE = re.compile(r"https?://(www\.)?(lesswrong\.com|alignmentforum\.org)/posts/([A-Za-z0-9]+)")
 
 
