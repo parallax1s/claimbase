@@ -169,7 +169,9 @@ def _cmd_fable(args: argparse.Namespace) -> None:
                 assemble_model=args.assemble_model,
                 text=text,
             ), None
-        except Exception as exc:  # noqa: BLE001 - drain must survive bad sources
+        except (Exception, SystemExit) as exc:  # noqa: BLE001 - drain must survive bad sources
+            # run_fable raises SystemExit for "unknown source" / "no text";
+            # inside a worker that must be a skip, never a process exit.
             if not drain_mode:
                 raise
             # Refetch/engine failure on one source must not stall the queue:
@@ -260,6 +262,13 @@ def _cmd_extract_backfill(args: argparse.Namespace) -> None:
 
 
 def main() -> None:
+    # Diagnostics for long drains: `kill -USR1 <pid>` dumps every thread's
+    # Python stack to stderr (2026-10-30: three stalls took an hour to
+    # diagnose from native samples alone).
+    import faulthandler
+    import signal
+    faulthandler.register(signal.SIGUSR1, all_threads=True)
+
     parser = argparse.ArgumentParser(
         prog="mole",
         description="The mole: claim extraction and compilation for claimbase.",
