@@ -68,8 +68,8 @@ def _bootstrap():
     src = os.environ.get("EPISTEME_FABLE_SRC", DEFAULT_ENGINE_SRC)
     if src not in sys.path:
         sys.path.insert(0, src)
-    from episteme_fable.providers import ClaudeCLIProvider, extract_json  # type: ignore
-    return ClaudeCLIProvider, extract_json
+    from episteme_fable.providers import ClaudeCLIProvider, extract_json, make_provider  # type: ignore
+    return ClaudeCLIProvider, extract_json, make_provider
 
 
 def _ask_json(provider, extract_json, prompt: str, model: str | None):
@@ -230,10 +230,13 @@ def drain(repo_root: Path, run_id: str, model: str = DEFAULT_MODEL, limit: int |
             repo_root, lambda t: t.get("id") in ids, status="obsolete",
             note=f"claim retired before attach judgment; {run_id}")
     if provider is None:
-        ClaudeCLIProvider, extract_json = _bootstrap()
-        provider = ClaudeCLIProvider(model=model)
+        ClaudeCLIProvider, extract_json, make_provider = _bootstrap()
+        # EPF_PROVIDER=anthropic routes through the direct API provider, whose
+        # usage ledger and EPF_ANTHROPIC_BUDGET_USD cap then apply; the
+        # default stays the claude CLI.
+        provider = make_provider(model) if os.environ.get("EPF_PROVIDER") else ClaudeCLIProvider(model=model)
     else:
-        _, extract_json = _bootstrap()
+        _, extract_json, _ = _bootstrap()
     note = f"judged by {model} in {run_id}"
     t0 = time.time()
     with ThreadPoolExecutor(max_workers=workers) as pool:
