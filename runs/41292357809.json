@@ -1,0 +1,21 @@
+{
+  "run_id": "41292357809",
+  "since": "2026-10-18",
+  "feeds_polled": 6,
+  "items_seen": 37,
+  "items_new": 1,
+  "items_changed": 1,
+  "items_skipped": 35,
+  "claims_retired": 198,
+  "orphan_claims_pruned": 0,
+  "claims_extracted": 333,
+  "tasks_enqueued": {
+    "refine": 81,
+    "extract": 2,
+    "identity_edge": 647,
+    "attach": 64
+  },
+  "warnings": [
+    "blog-rss: HTTP Error 403: Forbidden"
+  ]
+}
