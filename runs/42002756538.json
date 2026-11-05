@@ -1,0 +1,22 @@
+{
+  "run_id": "42002756538",
+  "since": "2026-10-22",
+  "feeds_polled": 6,
+  "items_seen": 44,
+  "items_new": 29,
+  "items_changed": 1,
+  "items_skipped": 14,
+  "claims_retired": 152,
+  "orphan_claims_pruned": 0,
+  "claims_extracted": 613,
+  "tasks_enqueued": {
+    "refine": 201,
+    "extract": 30,
+    "identity_edge": 1107,
+    "attach": 142
+  },
+  "warnings": [
+    "blog-rss: HTTP Error 403: Forbidden",
+    "christiano-alignment: HTTP Error 504: Gateway Timeout"
+  ]
+}
