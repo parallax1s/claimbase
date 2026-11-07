@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 42194765451 · sources 2331 · claims 57352 · edges 1279 · verified 73
+run 42356926334 · sources 2331 · claims 57352 · edges 1279 · verified 73
 
 ## Districts
 
