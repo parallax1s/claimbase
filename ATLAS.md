@@ -3,12 +3,12 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 42994964791 · sources 2406 · claims 59085 · edges 1279 · verified 73
+run 43194970119 · sources 2407 · claims 59157 · edges 1279 · verified 73
 
 ## Districts
 
 ```text
-Multi-Agent LLM Systems                    ░░░░░░░░░░    522 claims  ⚡0
+Multi-Agent LLM Systems                    ░░░░░░░░░░    523 claims  ⚡0
 Cross-Modal Knowledge Distillation         ░░░░░░░░░░    408 claims  ⚡0
 Latent Variable and Neural Models          ░░░░░░░░░░    316 claims  ⚡0
 Anthropic Company Moves                    ▓▓░░░░░░░░    296 claims  ⚡0
@@ -27,13 +27,13 @@ Model Arena Leaderboard Churn              ▓▓▓▓▓░░░░░    152
 Alignment Faking Detection Thresholds      ░░░░░░░░░░    144 claims  ⚡0
 Claude Adaptive Thinking Toggle            ░░░░░░░░░░    138 claims  ⚡0
 modality · modalities · multimodal         ░░░░░░░░░░    133 claims  ⚡0
+alignment · generalisation · capabilities  ░░░░░░░░░░    125 claims  ⚡0
 evaluation · task · human                  ░░░░░░░░░░    121 claims  ⚡0
 Weak-to-Strong Generalization              ░░░░░░░░░░    121 claims  ⚡0
 Behavior Cue Token Signaling               ░░░░░░░░░░    119 claims  ⚡0
-alignment · generalisation · capabilities  ░░░░░░░░░░    118 claims  ⚡0
-Federal AI Security Mandates               ░░░░░░░░░░    118 claims  ⚡0
+Federal AI Security Mandates               ░░░░░░░░░░    119 claims  ⚡0
 bias · biased · preference                 ░░░░░░░░░░    116 claims  ⚡0
-… and 5897 smaller districts (52961 claims)
+… and 5898 smaller districts (53019 claims)
 ```
 
 ## Sharpest fault
