@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 43401950435 · sources 2432 · claims 59346 · edges 1279 · verified 73
+run 43578280793 · sources 2432 · claims 59348 · edges 1279 · verified 73
 
 ## Districts
 
@@ -33,7 +33,7 @@ evaluation · task · human                  ░░░░░░░░░░    1
 Behavior Cue Token Signaling               ░░░░░░░░░░    119 claims  ⚡0
 Federal AI Security Mandates               ░░░░░░░░░░    119 claims  ⚡0
 bias · biased · preference                 ░░░░░░░░░░    116 claims  ⚡0
-… and 5916 smaller districts (53201 claims)
+… and 5917 smaller districts (53203 claims)
 ```
 
 ## Sharpest fault
