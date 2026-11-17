@@ -3,37 +3,37 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 43842234889 · sources 2456 · claims 59630 · edges 1279 · verified 73
+run 44067419512 · sources 2483 · claims 59839 · edges 1279 · verified 73
 
 ## Districts
 
 ```text
 Multi-Agent LLM Systems                    ░░░░░░░░░░    529 claims  ⚡0
-Cross-Modal Knowledge Distillation         ░░░░░░░░░░    408 claims  ⚡0
-Latent Variable and Neural Models          ░░░░░░░░░░    317 claims  ⚡0
+Cross-Modal Knowledge Distillation         ░░░░░░░░░░    409 claims  ⚡0
+Latent Variable and Neural Models          ░░░░░░░░░░    318 claims  ⚡0
 Anthropic Company Moves                    ▓▓░░░░░░░░    296 claims  ⚡0
 Control Monitor Benchmarks                 ░░░░░░░░░░    292 claims  ⚡0
 LLM Architecture Research                  ░░░░░░░░░░    276 claims  ⚡0
-prediction · accuracy · predictions        ░░░░░░░░░░    198 claims  ⚡0
-training · models · ground                 ░░░░░░░░░░    198 claims  ⚡0
+prediction · accuracy · predictions        ░░░░░░░░░░    199 claims  ⚡0
+training · models · ground                 ░░░░░░░░░░    199 claims  ⚡0
+Neural Decoding and Brain-AI               ░░░░░░░░░░    193 claims  ⚡0
 Temporal Image Consistency                 ░░░░░░░░░░    193 claims  ⚡0
-Neural Decoding and Brain-AI               ░░░░░░░░░░    191 claims  ⚡0
+layers · layer · spatial                   ░░░░░░░░░░    165 claims  ⚡0
 AI Existential Risk Discourse              ▓░░░░░░░░░    163 claims  ⚡0
-layers · layer · spatial                   ░░░░░░░░░░    163 claims  ⚡0
 Corrigibility Value Tension                ░░░░░░░░░░    161 claims  ⚡0
 semantic · inference · task                ░░░░░░░░░░    160 claims  ⚡0
-Benchmark Baselines and Agent Scaling      ░░░░░░░░░░    158 claims  ⚡0
+Benchmark Baselines and Agent Scaling      ░░░░░░░░░░    159 claims  ⚡0
 Model Arena Leaderboard Churn              ▓▓▓▓▓░░░░░    152 claims  ⚡0
 Alignment Faking Detection Thresholds      ░░░░░░░░░░    145 claims  ⚡0
-Claude Adaptive Thinking Toggle            ░░░░░░░░░░    139 claims  ⚡0
+Claude Adaptive Thinking Toggle            ░░░░░░░░░░    140 claims  ⚡0
 modality · modalities · multimodal         ░░░░░░░░░░    133 claims  ⚡0
 alignment · generalisation · capabilities  ░░░░░░░░░░    125 claims  ⚡0
 Weak-to-Strong Generalization              ░░░░░░░░░░    123 claims  ⚡0
 evaluation · task · human                  ░░░░░░░░░░    122 claims  ⚡0
 Behavior Cue Token Signaling               ░░░░░░░░░░    119 claims  ⚡0
 Federal AI Security Mandates               ░░░░░░░░░░    119 claims  ⚡0
-bias · biased · preference                 ░░░░░░░░░░    116 claims  ⚡0
-… and 5935 smaller districts (53457 claims)
+Safety Intervention Priorities             ░░░░░░░░░░    117 claims  ⚡0
+… and 5954 smaller districts (53653 claims)
 ```
 
 ## Sharpest fault
