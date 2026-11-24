@@ -1,0 +1,19 @@
+{
+  "run_id": "45393857892",
+  "since": "2026-11-10",
+  "feeds_polled": 6,
+  "items_seen": 44,
+  "items_new": 37,
+  "items_changed": 0,
+  "items_skipped": 7,
+  "claims_retired": 0,
+  "orphan_claims_pruned": 0,
+  "claims_extracted": 4313,
+  "tasks_enqueued": {
+    "refine": 1313,
+    "extract": 37,
+    "identity_edge": 6591,
+    "attach": 770
+  },
+  "warnings": []
+}
