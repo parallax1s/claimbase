@@ -3,7 +3,7 @@
 Fog-of-war over the claim graph: lit where judged, dim where extracted,
 dark where the mole has not yet dug.
 
-run 45985606118 · sources 2645 · claims 65216 · edges 1279 · verified 73
+run 46135236957 · sources 2646 · claims 65326 · edges 1279 · verified 73
 
 ## Districts
 
@@ -17,10 +17,10 @@ LLM Architecture Research              ░░░░░░░░░░    279 cla
 prediction · accuracy · predictions    ░░░░░░░░░░    212 claims  ⚡0
 training · models · ground             ░░░░░░░░░░    208 claims  ⚡0
 Temporal Image Consistency             ░░░░░░░░░░    199 claims  ⚡0
-Neural Decoding and Brain-AI           ░░░░░░░░░░    195 claims  ⚡0
+Neural Decoding and Brain-AI           ░░░░░░░░░░    196 claims  ⚡0
 AI Existential Risk Discourse          ▓░░░░░░░░░    189 claims  ⚡0
 Model Arena Leaderboard Churn          ▓▓▓▓░░░░░░    182 claims  ⚡0
-layers · layer · spatial               ░░░░░░░░░░    168 claims  ⚡0
+layers · layer · spatial               ░░░░░░░░░░    169 claims  ⚡0
 Benchmark Baselines and Agent Scaling  ░░░░░░░░░░    165 claims  ⚡0
 Corrigibility Value Tension            ░░░░░░░░░░    162 claims  ⚡0
 semantic · inference · task            ░░░░░░░░░░    161 claims  ⚡0
@@ -33,7 +33,7 @@ evaluation · task · human              ░░░░░░░░░░    127 c
 Weak-to-Strong Generalization          ░░░░░░░░░░    127 claims  ⚡0
 Federal AI Security Mandates           ░░░░░░░░░░    122 claims  ⚡0
 Behavior Cue Token Signaling           ░░░░░░░░░░    121 claims  ⚡0
-… and 6347 smaller districts (58456 claims)
+… and 6355 smaller districts (58560 claims)
 ```
 
 ## Sharpest fault
